@@ -6,7 +6,7 @@ public static class TestConfig
 {
     static TestConfig()
     {
-        Env.TraversePath().Load(overwriteExistingVars: false);
+        Env.Load(".env", Env.NoClobber());
     }
 
     public static string? PeerHost => Environment.GetEnvironmentVariable("CHIA_PEER_HOST");
