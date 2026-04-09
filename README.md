@@ -9,7 +9,7 @@ This solution wraps the Rust-based `chia-wallet-sdk` using [uniffi-bindgen-cs](h
 ## Requirements
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- The `ChiaWalletSdk` NuGet package (currently consumed from a local feed — see [Setup](#setup))
+- The [`ChiaWalletSdk`](https://www.nuget.org/packages/ChiaWalletSdk/) NuGet package
 
 ## Solution Structure
 
@@ -25,15 +25,7 @@ Chia.Wallet.sln
 
 ## Setup
 
-The `ChiaWalletSdk` NuGet package is currently published to a local feed. The `nuget.config` at the repo root points to `../chia-wallet-sdk/nuget-out`:
-
-```xml
-<packageSources>
-  <add key="chia-local" value="../chia-wallet-sdk/nuget-out" />
-</packageSources>
-```
-
-Make sure you've built the native package in the sibling `chia-wallet-sdk` repo before restoring here.
+The `ChiaWalletSdk` package is available on [nuget.org](https://www.nuget.org/packages/ChiaWalletSdk/).
 
 ```bash
 dotnet restore

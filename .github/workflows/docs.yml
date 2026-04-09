@@ -2,11 +2,6 @@ name: Publish Docs
 
 on:
   workflow_dispatch:
-    inputs:
-      sdk_ref:
-        description: 'chia-wallet-sdk branch or tag to build docs from'
-        required: false
-        default: 'main'
 
 permissions:
   contents: read
@@ -21,17 +16,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout chia.wallet.dotnet
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          path: chia.wallet.dotnet
-
-      - name: Checkout chia-wallet-sdk
-        uses: actions/checkout@v4
-        with:
-          repository: dkackman/chia-wallet-sdk
-          ref: ${{ inputs.sdk_ref }}
-          path: chia-wallet-sdk
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
@@ -41,22 +27,13 @@ jobs:
       - name: Install DocFX
         run: dotnet tool install -g docfx
 
-      # Building the SDK project runs MSBuild targets that patch the generated
-      # source (visibility promotion, string disambiguation). The patched file
-      # is then copied into the docs project for DocFX metadata extraction.
-      - name: Build SDK to get patched source
-        run: dotnet build chia-wallet-sdk/uniffi/cs/ChiaWalletSdk.csproj -c Release
-
-      - name: Copy patched source into docs project
-        run: cp chia-wallet-sdk/uniffi/cs/chia_wallet_sdk.cs chia.wallet.dotnet/docs/docfx/
-
       - name: Generate docs
-        run: docfx chia.wallet.dotnet/docs/docfx/docfx.json
+        run: docfx docs/docfx/docfx.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: chia.wallet.dotnet/docs/docfx/_site
+          path: docs/docfx/_site
 
   deploy:
     needs: build
