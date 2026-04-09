@@ -1,0 +1,18 @@
+apiRules:
+  - exclude:
+      uidRegex: ^System\..*
+  - exclude:
+      uidRegex: ^Microsoft\..*
+  # Exclude internal FFI plumbing
+  - exclude:
+      uidRegex: ^uniffi\.chia_wallet_sdk\._UniFFI
+  - exclude:
+      uidRegex: ^uniffi\.chia_wallet_sdk\._UniffiHelpers
+  - exclude:
+      uidRegex: ^uniffi\.chia_wallet_sdk\.RustBuffer
+  - exclude:
+      uidRegex: ^uniffi\.chia_wallet_sdk\.FfiConverter
+  - exclude:
+      uidRegex: ^uniffi\.chia_wallet_sdk\.BigEndianStream
+  - exclude:
+      uidRegex: ^uniffi\.chia_wallet_sdk\.UniffiRustCallStatus

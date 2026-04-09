@@ -1,0 +1,39 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": ["Chia.Wallet.Docs.csproj"],
+          "src": "."
+        }
+      ],
+      "dest": "api",
+      "filter": "filterConfig.yml",
+      "includePrivateMembers": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["api/**.yml", "api/index.md"]
+      },
+      {
+        "files": ["articles/**.md", "articles/**/toc.yml", "toc.yml", "*.md"]
+      }
+    ],
+    "resource": [
+      {
+        "files": ["images/**"]
+      }
+    ],
+    "output": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": ["default", "modern"],
+    "globalMetadata": {
+      "_appTitle": "Chia Wallet SDK for .NET",
+      "_appFooter": "Chia Wallet SDK for .NET — generated with DocFX",
+      "_enableSearch": true
+    }
+  }
+}
