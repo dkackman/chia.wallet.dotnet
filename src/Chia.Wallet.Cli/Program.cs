@@ -115,6 +115,38 @@ Console.WriteLine($"Coin Count  : {coinStates.Count}");
 Console.WriteLine($"Balance     : {totalMojos} mojos");
 Console.WriteLine($"Balance     : {totalMojos / 1_000_000_000_000.0:F12} XCH");
 
+// 5. Fetch blockchain state via public JSON-RPC (coinset.org)
+Console.WriteLine();
+Console.WriteLine($"Fetching blockchain state ({networkId})...");
+using var rpc = networkId.Equals("testnet11", StringComparison.OrdinalIgnoreCase)
+    ? RpcClient.Testnet11()
+    : RpcClient.Mainnet();
+
+using var stateResponse = await rpc.GetBlockchainState();
+if (!stateResponse.GetSuccess())
+{
+    Console.Error.WriteLine($"RPC error   : {stateResponse.GetError()}");
+}
+else
+{
+    using var state = stateResponse.GetBlockchainState();
+    if (state is null)
+    {
+        Console.WriteLine("No blockchain state returned.");
+    }
+    else
+    {
+        using var sync = state.GetSync();
+        using var peak = state.GetPeak();
+        Console.WriteLine($"Synced      : {sync.GetSynced()} (mode={sync.GetSyncMode()})");
+        Console.WriteLine($"Peak height : {peak.GetHeight()}");
+        Console.WriteLine($"Peak hash   : {Convert.ToHexString(peak.GetHeaderHash()).ToLowerInvariant()}");
+        Console.WriteLine($"Difficulty  : {state.GetDifficulty()}");
+        Console.WriteLine($"Net space   : {state.GetSpace()}");
+        Console.WriteLine($"Mempool size: {state.GetMempoolSize()}");
+    }
+}
+
 // Clean up derived keys
 foreach (var key in disposableKeys) key.Dispose();
 
