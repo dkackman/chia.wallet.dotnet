@@ -1,4 +1,4 @@
-using uniffi.chia_wallet_sdk;
+using ChiaWalletSdk;
 using Xunit;
 
 namespace Chia.Wallet.Tests.Unit;
