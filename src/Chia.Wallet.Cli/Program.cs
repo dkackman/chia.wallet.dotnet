@@ -1,5 +1,5 @@
 using DotNetEnv;
-using uniffi.chia_wallet_sdk;
+using ChiaWalletSdk;
 
 Env.Load(".env", Env.NoClobber());
 
