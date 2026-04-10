@@ -16,17 +16,19 @@ public class BalanceTests
     public async Task RequestPuzzleState_Returns_ValidResponse()
     {
         Skip.If(!TestConfig.IsIntegrationConfigured,
-            "Set CHIA_PEER_HOST and cert config in tests/Chia.Wallet.Tests/.env to run integration tests.");
+            "Set CHIA_PEER_HOST in tests/Chia.Wallet.Tests/.env to run integration tests.");
 
         using var mnemonic = new Mnemonic(TestMnemonic);
         var seed = mnemonic.ToSeed("");
         using var masterSk = SecretKey.FromSeed(seed);
-        using var hardenedSk = masterSk.DeriveHardened(0);
-        using var syntheticSk = hardenedSk.DeriveSynthetic();
-        using var pk = syntheticSk.PublicKey();
-        var puzzleHash = ChiaWalletSdkMethods.StandardPuzzleHash(pk);
+        using var sk1 = masterSk.DeriveUnhardened(12381);
+        using var sk2 = sk1.DeriveUnhardened(8444);
+        using var walletSk = sk2.DeriveUnhardened(2);
+        using var childPk = walletSk.PublicKey().DeriveUnhardened(0);
+        using var syntheticPk = childPk.DeriveSynthetic();
+        var puzzleHash = ChiaWalletSdkMethods.StandardPuzzleHash(syntheticPk);
 
-        using var cert = TestConfig.LoadCertificate();
+        using var cert = Certificate.Generate();
         using var connector = new Connector(cert);
         using var options = new PeerOptions();
         using var peer = await Peer.Connect(

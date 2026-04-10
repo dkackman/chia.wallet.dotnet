@@ -8,10 +8,8 @@ var mnemonicPhrase = GetArg(args, "--mnemonic") ?? Environment.GetEnvironmentVar
 var secretKeyHex = GetArg(args, "--secret-key") ?? Environment.GetEnvironmentVariable("CHIA_SECRET_KEY");
 var publicKeyHex = GetArg(args, "--public-key") ?? Environment.GetEnvironmentVariable("CHIA_PUBLIC_KEY");
 var networkId = GetArg(args, "--network") ?? Environment.GetEnvironmentVariable("CHIA_NETWORK_ID") ?? "mainnet";
-var certPath = GetArg(args, "--cert") ?? Environment.GetEnvironmentVariable("CHIA_CERT_PATH");
-var keyPath = GetArg(args, "--key") ?? Environment.GetEnvironmentVariable("CHIA_KEY_PATH");
-var certPem = Environment.GetEnvironmentVariable("CHIA_CERT_PEM");
-var keyPem = Environment.GetEnvironmentVariable("CHIA_KEY_PEM");
+var genesisChallenge = GetArg(args, "--genesis-challenge") ?? Environment.GetEnvironmentVariable("CHIA_GENESIS_CHALLENGE")
+    ?? "ccd5bb71183532bff220ba46c268991a3ff07eb358e8255a65c30a2dce0e5fbb";
 
 if (string.IsNullOrWhiteSpace(peerHost))
 {
@@ -32,56 +30,65 @@ if (!hasKey)
     return 1;
 }
 
-var hasCertFiles = !string.IsNullOrWhiteSpace(certPath) && !string.IsNullOrWhiteSpace(keyPath);
-var hasCertPem = !string.IsNullOrWhiteSpace(certPem) && !string.IsNullOrWhiteSpace(keyPem);
+// 1. Derive wallet-level intermediate key and generate puzzle hashes for first N addresses
+//    Standard Chia derivation: master -> unhardened(12381/8444/2) -> unhardened(i) -> synthetic
+const int addressCount = 5000;
 
-if (!hasCertFiles && !hasCertPem)
-{
-    Console.Error.WriteLine("Error: TLS certificate required. Provide either:");
-    Console.Error.WriteLine("  --cert <path> --key <path>  (or CHIA_CERT_PATH / CHIA_KEY_PATH)");
-    Console.Error.WriteLine("  CHIA_CERT_PEM / CHIA_KEY_PEM environment variables");
-    return 1;
-}
-
-Console.WriteLine("Welcome to the Chia Wallet DOTNET CLI!");
-
-// 1. Derive public key and puzzle hash
-PublicKey pk;
+PublicKey walletPk;
 if (!string.IsNullOrWhiteSpace(publicKeyHex))
 {
-    pk = PublicKey.FromBytes(Convert.FromHexString(publicKeyHex));
+    // Master public key — derive the wallet intermediate key via unhardened path
+    using var masterPk = PublicKey.FromBytes(Convert.FromHexString(publicKeyHex));
+    using var pk1 = masterPk.DeriveUnhardened(12381);
+    using var pk2 = pk1.DeriveUnhardened(8444);
+    walletPk = pk2.DeriveUnhardened(2);
 }
 else if (!string.IsNullOrWhiteSpace(secretKeyHex))
 {
     using var sk = SecretKey.FromBytes(Convert.FromHexString(secretKeyHex));
-    using var syntheticSk = sk.DeriveSynthetic();
-    pk = syntheticSk.PublicKey();
+    using var sk1 = sk.DeriveUnhardened(12381);
+    using var sk2 = sk1.DeriveUnhardened(8444);
+    using var walletSk = sk2.DeriveUnhardened(2);
+    walletPk = walletSk.PublicKey();
 }
 else
 {
     using var mnemonic = new Mnemonic(mnemonicPhrase!);
     var seed = mnemonic.ToSeed("");
     using var masterSk = SecretKey.FromSeed(seed);
-    using var hardenedSk = masterSk.DeriveHardened(0);
-    using var syntheticSk = hardenedSk.DeriveSynthetic();
-    pk = syntheticSk.PublicKey();
+    using var sk1 = masterSk.DeriveUnhardened(12381);
+    using var sk2 = sk1.DeriveUnhardened(8444);
+    using var walletSk = sk2.DeriveUnhardened(2);
+    walletPk = walletSk.PublicKey();
 }
 
-using var _ = pk;
-var puzzleHash = ChiaWalletSdkMethods.StandardPuzzleHash(pk);
+using var _ = walletPk;
 
-Console.WriteLine($"Puzzle Hash : {Convert.ToHexString(puzzleHash).ToLower()}");
+// Generate puzzle hashes for the first N address indices
+var puzzleHashes = new List<byte[]>();
+var disposableKeys = new List<PublicKey>();
+for (int i = 0; i < addressCount; i++)
+{
+    var childPk = walletPk.DeriveUnhardened((uint)i);
+    var syntheticPk = childPk.DeriveSynthetic();
+    childPk.Dispose();
+    puzzleHashes.Add(ChiaWalletSdkMethods.StandardPuzzleHash(syntheticPk));
+    disposableKeys.Add(syntheticPk);
+}
+
+// Print first address for verification against `chia keys show`
+using var firstAddr = new Address(puzzleHashes[0], "xch");
+Console.WriteLine($"First addr  : {firstAddr.Encode()}");
+Console.WriteLine($"Checking {addressCount} addresses...");
 
 // 2. Connect to peer
 Console.WriteLine($"Connecting to {peerHost} ({networkId})...");
-using var cert = hasCertFiles
-    ? Certificate.Load(certPath!, keyPath!)
-    : new Certificate(certPem!, keyPem!);
+using var cert = Certificate.Generate();
 using var connector = new Connector(cert);
 using var options = new PeerOptions();
 using var peer = await Peer.Connect(networkId, peerHost, connector, options);
 
-// 3. Fetch unspent coins for this puzzle hash
+// 3. Fetch unspent coins for all puzzle hashes
 var filters = new CoinStateFilters(
     includeSpent: false,
     includeUnspent: true,
@@ -89,9 +96,9 @@ var filters = new CoinStateFilters(
     minAmount: "0");
 
 var response = await peer.RequestPuzzleState(
-    [puzzleHash],
+    puzzleHashes,
     previousHeight: null,
-    headerHash: new byte[32],
+    headerHash: Convert.FromHexString(genesisChallenge),
     filters,
     subscribe: false);
 
@@ -107,6 +114,9 @@ foreach (var coinState in coinStates)
 Console.WriteLine($"Coin Count  : {coinStates.Count}");
 Console.WriteLine($"Balance     : {totalMojos} mojos");
 Console.WriteLine($"Balance     : {totalMojos / 1_000_000_000_000.0:F12} XCH");
+
+// Clean up derived keys
+foreach (var key in disposableKeys) key.Dispose();
 
 return 0;
 
