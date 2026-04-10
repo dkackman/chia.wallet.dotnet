@@ -80,4 +80,4 @@ foreach (var key in disposableKeys) key.Dispose();
 
 ## API Reference
 
-Browse the full [API documentation](api/).
+Browse the full [API documentation](api/index.md).

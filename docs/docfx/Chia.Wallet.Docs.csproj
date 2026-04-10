@@ -1,12 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>CS1591;CS0114</NoWarn>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ChiaWalletSdk" Version="0.0.3-local" />
+    <PackageReference Include="ChiaWalletSdk" Version="0.0.4-local" />
   </ItemGroup>
+
+  <!-- Copy the net10.0 reference assemblies alongside ChiaWalletSdk.dll so docfx
+       can resolve System.* types when generating API metadata from the dll. -->
+  <Target Name="CopyNetCoreRefsForDocfx" AfterTargets="Build">
+    <ItemGroup>
+      <_DocfxRefAssemblies Include="@(ReferencePath)" Condition="'%(ReferencePath.FrameworkReferenceName)' == 'Microsoft.NETCore.App'" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_DocfxRefAssemblies)"
+          DestinationFolder="$(OutputPath)"
+          SkipUnchangedFiles="true" />
+  </Target>
 </Project>
