@@ -7,16 +7,18 @@ public class BalanceTests
 {
     // Well-known all-abandon test mnemonic — never use for real funds.
     private const string TestMnemonic =
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon art";
+        "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon art";
 
     [SkippableFact]
     [Trait("Category", "Integration")]
     public async Task RequestPuzzleState_Returns_ValidResponse()
     {
-        Skip.If(!TestConfig.IsIntegrationConfigured,
-            "Set CHIA_PEER_HOST in tests/Chia.Wallet.Tests/.env to run integration tests.");
+        Skip.If(
+            !TestConfig.IsIntegrationConfigured,
+            "Set CHIA_PEER_HOST in tests/Chia.Wallet.Tests/.env to run integration tests."
+        );
 
         using var mnemonic = new Mnemonic(TestMnemonic);
         var seed = mnemonic.ToSeed("");
@@ -35,20 +37,23 @@ public class BalanceTests
             TestConfig.NetworkId,
             TestConfig.PeerHost!,
             connector,
-            options);
+            options
+        );
 
         var filters = new CoinStateFilters(
             includeSpent: false,
             includeUnspent: true,
             includeHinted: true,
-            minAmount: "0");
+            minAmount: "0"
+        );
 
         var response = await peer.RequestPuzzleState(
             [puzzleHash],
             previousHeight: null,
             headerHash: new byte[32],
             filters,
-            subscribe: false);
+            subscribe: false
+        );
 
         Assert.NotNull(response);
         var coinStates = response.GetCoinStates();

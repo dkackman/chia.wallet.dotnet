@@ -7,9 +7,9 @@ public class SecretKeyTests
 {
     // Well-known all-abandon test mnemonic — never use for real funds.
     private const string TestMnemonic =
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon art";
+        "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon art";
 
     [Fact]
     public void ToBytes_Returns32Bytes()
@@ -31,7 +31,8 @@ public class SecretKeyTests
         using var restored = SecretKey.FromBytes(bytes);
         Assert.Equal(
             Convert.ToHexString(original.ToBytes()),
-            Convert.ToHexString(restored.ToBytes()));
+            Convert.ToHexString(restored.ToBytes())
+        );
     }
 
     [Fact]
@@ -46,9 +47,7 @@ public class SecretKeyTests
         using var pk1 = original.PublicKey();
         using var pk2 = restored.PublicKey();
 
-        Assert.Equal(
-            Convert.ToHexString(pk1.ToBytes()),
-            Convert.ToHexString(pk2.ToBytes()));
+        Assert.Equal(Convert.ToHexString(pk1.ToBytes()), Convert.ToHexString(pk2.ToBytes()));
     }
 
     [Fact]
@@ -63,7 +62,8 @@ public class SecretKeyTests
 
         Assert.NotEqual(
             Convert.ToHexString(child0.ToBytes()),
-            Convert.ToHexString(child1.ToBytes()));
+            Convert.ToHexString(child1.ToBytes())
+        );
     }
 
     [Fact]
@@ -78,7 +78,8 @@ public class SecretKeyTests
 
         Assert.NotEqual(
             Convert.ToHexString(child0.ToBytes()),
-            Convert.ToHexString(child1.ToBytes()));
+            Convert.ToHexString(child1.ToBytes())
+        );
     }
 
     [Fact]
@@ -93,6 +94,7 @@ public class SecretKeyTests
 
         Assert.NotEqual(
             Convert.ToHexString(hardened.ToBytes()),
-            Convert.ToHexString(unhardened.ToBytes()));
+            Convert.ToHexString(unhardened.ToBytes())
+        );
     }
 }

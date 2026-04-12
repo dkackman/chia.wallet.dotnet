@@ -12,9 +12,9 @@ public class PublicKeyDerivationTests
 {
     // Well-known all-abandon test mnemonic — never use for real funds.
     private const string TestMnemonic =
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon art";
+        "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon art";
 
     [Fact]
     public void PublicKey_ToBytes_Returns48Bytes()
@@ -38,7 +38,8 @@ public class PublicKeyDerivationTests
         using var restored = PublicKey.FromBytes(bytes);
         Assert.Equal(
             Convert.ToHexString(original.ToBytes()),
-            Convert.ToHexString(restored.ToBytes()));
+            Convert.ToHexString(restored.ToBytes())
+        );
     }
 
     /// <summary>
@@ -65,7 +66,8 @@ public class PublicKeyDerivationTests
 
         Assert.Equal(
             Convert.ToHexString(pkFromSk.ToBytes()),
-            Convert.ToHexString(pkFromPk.ToBytes()));
+            Convert.ToHexString(pkFromPk.ToBytes())
+        );
     }
 
     [Fact]
@@ -81,7 +83,8 @@ public class PublicKeyDerivationTests
 
         Assert.NotEqual(
             Convert.ToHexString(child0.ToBytes()),
-            Convert.ToHexString(child1.ToBytes()));
+            Convert.ToHexString(child1.ToBytes())
+        );
     }
 
     [Fact]
@@ -112,7 +115,8 @@ public class PublicKeyDerivationTests
 
         Assert.Equal(
             Convert.ToHexString(syntheticPk1.ToBytes()),
-            Convert.ToHexString(syntheticPk2.ToBytes()));
+            Convert.ToHexString(syntheticPk2.ToBytes())
+        );
     }
 
     /// <summary>
@@ -147,9 +151,7 @@ public class PublicKeyDerivationTests
         var puzzleHashFromSk = ChiaWalletSdkMethods.StandardPuzzleHash(syntheticSkPk);
         var puzzleHashFromPk = ChiaWalletSdkMethods.StandardPuzzleHash(syntheticPkOnly);
 
-        Assert.Equal(
-            Convert.ToHexString(puzzleHashFromSk),
-            Convert.ToHexString(puzzleHashFromPk));
+        Assert.Equal(Convert.ToHexString(puzzleHashFromSk), Convert.ToHexString(puzzleHashFromPk));
     }
 
     /// <summary>
@@ -167,7 +169,8 @@ public class PublicKeyDerivationTests
         Assert.True(restored.IsInfinity());
         Assert.Equal(
             Convert.ToHexString(infinity.ToBytes()),
-            Convert.ToHexString(restored.ToBytes()));
+            Convert.ToHexString(restored.ToBytes())
+        );
     }
 
     [Fact]
@@ -220,9 +223,7 @@ public class PublicKeyDerivationTests
         using var step3 = step2.DeriveUnhardened(2);
         using var stepPk = step3.DeriveUnhardened(0);
 
-        Assert.Equal(
-            Convert.ToHexString(pathPk.ToBytes()),
-            Convert.ToHexString(stepPk.ToBytes()));
+        Assert.Equal(Convert.ToHexString(pathPk.ToBytes()), Convert.ToHexString(stepPk.ToBytes()));
     }
 
     [Fact]

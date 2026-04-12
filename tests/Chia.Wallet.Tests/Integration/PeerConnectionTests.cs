@@ -9,8 +9,10 @@ public class PeerConnectionTests
     [Trait("Category", "Integration")]
     public async Task Connect_ValidPeer_ReturnsNonNullPeer()
     {
-        Skip.If(!TestConfig.IsIntegrationConfigured,
-            "Set CHIA_PEER_HOST in tests/Chia.Wallet.Tests/.env to run integration tests.");
+        Skip.If(
+            !TestConfig.IsIntegrationConfigured,
+            "Set CHIA_PEER_HOST in tests/Chia.Wallet.Tests/.env to run integration tests."
+        );
 
         using var cert = Certificate.Generate();
         using var connector = new Connector(cert);
@@ -20,7 +22,8 @@ public class PeerConnectionTests
             TestConfig.NetworkId,
             TestConfig.PeerHost!,
             connector,
-            options);
+            options
+        );
 
         Assert.NotNull(peer);
     }

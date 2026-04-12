@@ -10,7 +10,8 @@ public static class TestConfig
     }
 
     public static string? PeerHost => Environment.GetEnvironmentVariable("CHIA_PEER_HOST");
-    public static string NetworkId => Environment.GetEnvironmentVariable("CHIA_NETWORK_ID") ?? "mainnet";
+    public static string NetworkId =>
+        Environment.GetEnvironmentVariable("CHIA_NETWORK_ID") ?? "mainnet";
 
     public static bool IsIntegrationConfigured => !string.IsNullOrWhiteSpace(PeerHost);
 }

@@ -11,9 +11,9 @@ public class SignatureTests
 {
     // Well-known all-abandon test mnemonic — never use for real funds.
     private const string TestMnemonic =
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon art";
+        "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon art";
 
     private static readonly byte[] Message1 = [1, 2, 3, 4, 5];
     private static readonly byte[] Message2 = [10, 11, 12, 13, 14];
@@ -70,9 +70,7 @@ public class SignatureTests
         using var sk = SecretKey.FromSeed(seed);
         using var sig1 = sk.Sign(Message1);
         using var sig2 = sk.Sign(Message1);
-        Assert.Equal(
-            Convert.ToHexString(sig1.ToBytes()),
-            Convert.ToHexString(sig2.ToBytes()));
+        Assert.Equal(Convert.ToHexString(sig1.ToBytes()), Convert.ToHexString(sig2.ToBytes()));
     }
 
     [Fact]
@@ -87,7 +85,8 @@ public class SignatureTests
         using var restored = Signature.FromBytes(bytes);
         Assert.Equal(
             Convert.ToHexString(original.ToBytes()),
-            Convert.ToHexString(restored.ToBytes()));
+            Convert.ToHexString(restored.ToBytes())
+        );
     }
 
     [Fact]
@@ -131,9 +130,7 @@ public class SignatureTests
         using var sk = SecretKey.FromSeed(seed);
         using var sig1 = sk.Sign(Message1);
         using var sig2 = sk.Sign(Message2);
-        Assert.NotEqual(
-            Convert.ToHexString(sig1.ToBytes()),
-            Convert.ToHexString(sig2.ToBytes()));
+        Assert.NotEqual(Convert.ToHexString(sig1.ToBytes()), Convert.ToHexString(sig2.ToBytes()));
     }
 
     /// <summary>

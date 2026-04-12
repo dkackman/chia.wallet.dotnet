@@ -9,9 +9,9 @@ public class AddressTests
 
     // Well-known all-abandon test mnemonic — never use for real funds.
     private const string TestMnemonic =
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon art";
+        "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon art";
 
     static AddressTests()
     {
@@ -78,7 +78,8 @@ public class AddressTests
         Assert.Equal("xch", decoded.GetPrefix());
         Assert.Equal(
             Convert.ToHexString(KnownPuzzleHash),
-            Convert.ToHexString(decoded.GetPuzzleHash()));
+            Convert.ToHexString(decoded.GetPuzzleHash())
+        );
     }
 
     [Fact]
@@ -91,7 +92,8 @@ public class AddressTests
         Assert.Equal("txch", decoded.GetPrefix());
         Assert.Equal(
             Convert.ToHexString(KnownPuzzleHash),
-            Convert.ToHexString(decoded.GetPuzzleHash()));
+            Convert.ToHexString(decoded.GetPuzzleHash())
+        );
     }
 
     [Fact]
@@ -103,6 +105,7 @@ public class AddressTests
 
         Assert.Equal(
             Convert.ToHexString(address.GetPuzzleHash()),
-            Convert.ToHexString(decoded.GetPuzzleHash()));
+            Convert.ToHexString(decoded.GetPuzzleHash())
+        );
     }
 }

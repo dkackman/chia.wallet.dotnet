@@ -1,14 +1,20 @@
-using DotNetEnv;
 using ChiaWalletSdk;
+using DotNetEnv;
 
 Env.Load(".env", Env.NoClobber());
 
 var peerHost = GetArg(args, "--peer") ?? Environment.GetEnvironmentVariable("CHIA_PEER_HOST");
-var mnemonicPhrase = GetArg(args, "--mnemonic") ?? Environment.GetEnvironmentVariable("CHIA_MNEMONIC");
-var secretKeyHex = GetArg(args, "--secret-key") ?? Environment.GetEnvironmentVariable("CHIA_SECRET_KEY");
-var publicKeyHex = GetArg(args, "--public-key") ?? Environment.GetEnvironmentVariable("CHIA_PUBLIC_KEY");
-var networkId = GetArg(args, "--network") ?? Environment.GetEnvironmentVariable("CHIA_NETWORK_ID") ?? "mainnet";
-var genesisChallenge = GetArg(args, "--genesis-challenge") ?? Environment.GetEnvironmentVariable("CHIA_GENESIS_CHALLENGE")
+var mnemonicPhrase =
+    GetArg(args, "--mnemonic") ?? Environment.GetEnvironmentVariable("CHIA_MNEMONIC");
+var secretKeyHex =
+    GetArg(args, "--secret-key") ?? Environment.GetEnvironmentVariable("CHIA_SECRET_KEY");
+var publicKeyHex =
+    GetArg(args, "--public-key") ?? Environment.GetEnvironmentVariable("CHIA_PUBLIC_KEY");
+var networkId =
+    GetArg(args, "--network") ?? Environment.GetEnvironmentVariable("CHIA_NETWORK_ID") ?? "mainnet";
+var genesisChallenge =
+    GetArg(args, "--genesis-challenge")
+    ?? Environment.GetEnvironmentVariable("CHIA_GENESIS_CHALLENGE")
     ?? "ccd5bb71183532bff220ba46c268991a3ff07eb358e8255a65c30a2dce0e5fbb";
 
 if (string.IsNullOrWhiteSpace(peerHost))
@@ -17,7 +23,8 @@ if (string.IsNullOrWhiteSpace(peerHost))
     return 1;
 }
 
-var hasKey = !string.IsNullOrWhiteSpace(mnemonicPhrase)
+var hasKey =
+    !string.IsNullOrWhiteSpace(mnemonicPhrase)
     || !string.IsNullOrWhiteSpace(secretKeyHex)
     || !string.IsNullOrWhiteSpace(publicKeyHex);
 
@@ -36,7 +43,7 @@ if (!hasKey)
 const int addressCount = 7500;
 
 PublicKey walletPk;
-SecretKey? walletSk = null;         // unhardened intermediate SK
+SecretKey? walletSk = null; // unhardened intermediate SK
 SecretKey? walletSkHardened = null; // hardened intermediate SK
 
 if (!string.IsNullOrWhiteSpace(publicKeyHex))
@@ -111,7 +118,9 @@ for (int i = 0; i < addressCount; i++)
 // Print first address for verification against `chia keys show`
 using var firstAddr = new Address(puzzleHashes[0], "xch");
 Console.WriteLine($"First addr  : {firstAddr.Encode()}");
-var hardenedNote = walletSkHardened is not null ? $" ({addressCount} unhardened + {addressCount} hardened)" : $" ({addressCount} unhardened only)";
+var hardenedNote = walletSkHardened is not null
+    ? $" ({addressCount} unhardened + {addressCount} hardened)"
+    : $" ({addressCount} unhardened only)";
 Console.WriteLine($"Checking {puzzleHashes.Count} addresses...{hardenedNote}");
 
 // 2. Connect to peer
@@ -126,14 +135,16 @@ var filters = new CoinStateFilters(
     includeSpent: false,
     includeUnspent: true,
     includeHinted: true,
-    minAmount: "0");
+    minAmount: "0"
+);
 
 var response = await peer.RequestPuzzleState(
     puzzleHashes,
     previousHeight: null,
     headerHash: Convert.FromHexString(genesisChallenge),
     filters,
-    subscribe: false);
+    subscribe: false
+);
 
 // 4. Sum and print
 var coinStates = response.GetCoinStates();
@@ -173,7 +184,9 @@ else
         using var peak = state.GetPeak();
         Console.WriteLine($"Synced      : {sync.GetSynced()} (mode={sync.GetSyncMode()})");
         Console.WriteLine($"Peak height : {peak.GetHeight()}");
-        Console.WriteLine($"Peak hash   : {Convert.ToHexString(peak.GetHeaderHash()).ToLowerInvariant()}");
+        Console.WriteLine(
+            $"Peak hash   : {Convert.ToHexString(peak.GetHeaderHash()).ToLowerInvariant()}"
+        );
         Console.WriteLine($"Difficulty  : {state.GetDifficulty()}");
         Console.WriteLine($"Net space   : {state.GetSpace()}");
         Console.WriteLine($"Mempool size: {state.GetMempoolSize()}");
@@ -181,7 +194,8 @@ else
 }
 
 // Clean up derived keys
-foreach (var key in disposableKeys) key.Dispose();
+foreach (var key in disposableKeys)
+    key.Dispose();
 
 return 0;
 

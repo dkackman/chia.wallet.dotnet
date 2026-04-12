@@ -7,9 +7,9 @@ public class KeyDerivationTests
 {
     // Well-known all-abandon test mnemonic — never use for real funds.
     private const string TestMnemonic =
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon abandon " +
-        "abandon abandon abandon abandon abandon abandon abandon art";
+        "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon abandon "
+        + "abandon abandon abandon abandon abandon abandon abandon art";
 
     [Fact]
     public void FromSeed_ProducesNonNullKey()
@@ -42,7 +42,8 @@ public class KeyDerivationTests
         using var masterPk = masterSk.PublicKey();
         Assert.NotEqual(
             Convert.ToHexString(childPk.ToBytes()),
-            Convert.ToHexString(masterPk.ToBytes()));
+            Convert.ToHexString(masterPk.ToBytes())
+        );
     }
 
     [Fact]
@@ -73,6 +74,7 @@ public class KeyDerivationTests
         using var pk2 = syntheticSk2.PublicKey();
         Assert.Equal(
             Convert.ToHexString(ChiaWalletSdkMethods.StandardPuzzleHash(pk1)),
-            Convert.ToHexString(ChiaWalletSdkMethods.StandardPuzzleHash(pk2)));
+            Convert.ToHexString(ChiaWalletSdkMethods.StandardPuzzleHash(pk2))
+        );
     }
 }
