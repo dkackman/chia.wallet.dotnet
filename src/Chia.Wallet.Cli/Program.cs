@@ -13,7 +13,7 @@ var genesisChallenge = GetArg(args, "--genesis-challenge") ?? Environment.GetEnv
 
 if (string.IsNullOrWhiteSpace(peerHost))
 {
-    Console.Error.WriteLine("Error: --peer <wss://host:port> or CHIA_PEER_HOST required.");
+    Console.Error.WriteLine("Error: --peer <host-ip:port> or CHIA_PEER_HOST required.");
     return 1;
 }
 
@@ -30,14 +30,18 @@ if (!hasKey)
     return 1;
 }
 
-// 1. Derive wallet-level intermediate key and generate puzzle hashes for first N addresses
-//    Standard Chia derivation: master -> unhardened(12381/8444/2) -> unhardened(i) -> synthetic
-const int addressCount = 5000;
+// 1. Derive wallet-level intermediate keys and generate puzzle hashes for first N addresses
+//    Unhardened: master -> unhardened(12381/8444/2) -> unhardened(i) -> synthetic
+//    Hardened:   master -> hardened(12381/8444/2)   -> hardened(i)   -> synthetic (requires SK)
+const int addressCount = 7500;
 
 PublicKey walletPk;
+SecretKey? walletSk = null;         // unhardened intermediate SK
+SecretKey? walletSkHardened = null; // hardened intermediate SK
+
 if (!string.IsNullOrWhiteSpace(publicKeyHex))
 {
-    // Master public key — derive the wallet intermediate key via unhardened path
+    // Master public key — unhardened path only (hardened derivation requires SK)
     using var masterPk = PublicKey.FromBytes(Convert.FromHexString(publicKeyHex));
     using var pk1 = masterPk.DeriveUnhardened(12381);
     using var pk2 = pk1.DeriveUnhardened(8444);
@@ -46,40 +50,69 @@ if (!string.IsNullOrWhiteSpace(publicKeyHex))
 else if (!string.IsNullOrWhiteSpace(secretKeyHex))
 {
     using var sk = SecretKey.FromBytes(Convert.FromHexString(secretKeyHex));
+
+    // Unhardened intermediate
     using var sk1 = sk.DeriveUnhardened(12381);
     using var sk2 = sk1.DeriveUnhardened(8444);
-    using var walletSk = sk2.DeriveUnhardened(2);
+    walletSk = sk2.DeriveUnhardened(2);
     walletPk = walletSk.PublicKey();
+
+    // Hardened intermediate
+    using var hsk1 = sk.DeriveHardened(12381);
+    using var hsk2 = hsk1.DeriveHardened(8444);
+    walletSkHardened = hsk2.DeriveHardened(2);
 }
 else
 {
     using var mnemonic = new Mnemonic(mnemonicPhrase!);
     var seed = mnemonic.ToSeed("");
     using var masterSk = SecretKey.FromSeed(seed);
+
+    // Unhardened intermediate
     using var sk1 = masterSk.DeriveUnhardened(12381);
     using var sk2 = sk1.DeriveUnhardened(8444);
-    using var walletSk = sk2.DeriveUnhardened(2);
+    walletSk = sk2.DeriveUnhardened(2);
     walletPk = walletSk.PublicKey();
+
+    // Hardened intermediate
+    using var hsk1 = masterSk.DeriveHardened(12381);
+    using var hsk2 = hsk1.DeriveHardened(8444);
+    walletSkHardened = hsk2.DeriveHardened(2);
 }
 
 using var _ = walletPk;
+using var _walletSk = walletSk;
+using var _walletSkHardened = walletSkHardened;
 
-// Generate puzzle hashes for the first N address indices
+// Generate puzzle hashes for the first N address indices (unhardened + hardened when SK available)
 var puzzleHashes = new List<byte[]>();
 var disposableKeys = new List<PublicKey>();
 for (int i = 0; i < addressCount; i++)
 {
+    // Unhardened
     var childPk = walletPk.DeriveUnhardened((uint)i);
     var syntheticPk = childPk.DeriveSynthetic();
     childPk.Dispose();
     puzzleHashes.Add(ChiaWalletSdkMethods.StandardPuzzleHash(syntheticPk));
     disposableKeys.Add(syntheticPk);
+
+    // Hardened (requires secret key)
+    if (walletSkHardened is not null)
+    {
+        using var hardenedChildSk = walletSkHardened.DeriveHardened((uint)i);
+        var hardenedChildPk = hardenedChildSk.PublicKey();
+        var hardenedSyntheticPk = hardenedChildPk.DeriveSynthetic();
+        hardenedChildPk.Dispose();
+        puzzleHashes.Add(ChiaWalletSdkMethods.StandardPuzzleHash(hardenedSyntheticPk));
+        disposableKeys.Add(hardenedSyntheticPk);
+    }
 }
 
 // Print first address for verification against `chia keys show`
 using var firstAddr = new Address(puzzleHashes[0], "xch");
 Console.WriteLine($"First addr  : {firstAddr.Encode()}");
-Console.WriteLine($"Checking {addressCount} addresses...");
+var hardenedNote = walletSkHardened is not null ? $" ({addressCount} unhardened + {addressCount} hardened)" : $" ({addressCount} unhardened only)";
+Console.WriteLine($"Checking {puzzleHashes.Count} addresses...{hardenedNote}");
 
 // 2. Connect to peer
 Console.WriteLine($"Connecting to {peerHost} ({networkId})...");
