@@ -139,7 +139,7 @@ var filters = new CoinStateFilters(
 );
 
 var response = await peer.RequestPuzzleState(
-    puzzleHashes,
+    puzzleHashes.ToArray(),
     previousHeight: null,
     headerHash: Convert.FromHexString(genesisChallenge),
     filters,
@@ -155,7 +155,7 @@ foreach (var coinState in coinStates)
     totalMojos += long.Parse(coin.GetAmount());
 }
 
-Console.WriteLine($"Coin Count  : {coinStates.Count}");
+Console.WriteLine($"Coin Count  : {coinStates.Count()}");
 Console.WriteLine($"Balance     : {totalMojos} mojos");
 Console.WriteLine($"Balance     : {totalMojos / 1_000_000_000_000.0:F12} XCH");
 

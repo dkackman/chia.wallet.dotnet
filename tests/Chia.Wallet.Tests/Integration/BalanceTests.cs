@@ -60,6 +60,6 @@ public class BalanceTests
         Assert.NotNull(coinStates);
         // The all-abandon wallet may have zero coins — that is fine.
         // We assert the response shape is valid, not a specific balance.
-        Assert.True(coinStates.Count >= 0);
+        Assert.True(coinStates.Count() >= 0);
     }
 }

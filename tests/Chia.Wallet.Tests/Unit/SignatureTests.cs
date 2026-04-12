@@ -117,7 +117,7 @@ public class SignatureTests
         using var sig1 = sk1.Sign(Message1);
         using var sig2 = sk2.Sign(Message2);
 
-        using var agg = Signature.Aggregate(new List<Signature> { sig1, sig2 });
+        using var agg = Signature.Aggregate(new Signature[] { sig1, sig2 });
         Assert.False(agg.IsInfinity());
         Assert.Equal(96, agg.ToBytes().Length);
     }

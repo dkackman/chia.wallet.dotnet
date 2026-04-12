@@ -215,7 +215,7 @@ public class PublicKeyDerivationTests
         using var masterPk = masterSk.PublicKey();
 
         // Path-based derivation
-        using var pathPk = masterPk.DeriveUnhardenedPath(new List<uint> { 12381, 8444, 2, 0 });
+        using var pathPk = masterPk.DeriveUnhardenedPath(new uint[] { 12381, 8444, 2, 0 });
 
         // Step-by-step derivation
         using var step1 = masterPk.DeriveUnhardened(12381);
@@ -234,7 +234,7 @@ public class PublicKeyDerivationTests
         using var masterSk = SecretKey.FromSeed(seed);
         using var pk1 = masterSk.PublicKey();
         using var pk2 = masterSk.DeriveUnhardened(1).PublicKey();
-        using var agg = PublicKey.Aggregate(new List<PublicKey> { pk1, pk2 });
+        using var agg = PublicKey.Aggregate(new PublicKey[] { pk1, pk2 });
         Assert.False(agg.IsInfinity());
     }
 }
