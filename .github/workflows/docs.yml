@@ -33,6 +33,9 @@ jobs:
       - name: Generate docs
         run: docfx docs/docfx/docfx.json
 
+      - name: Disable Jekyll processing
+        run: touch docs/docfx/_site/.nojekyll
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
