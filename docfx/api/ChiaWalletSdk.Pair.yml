@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Pair
+  commentId: T:ChiaWalletSdk.Pair
+  id: Pair
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Pair.#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Pair.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Pair.CloneRustArcPtr
+  - ChiaWalletSdk.Pair.Destroy
+  - ChiaWalletSdk.Pair.Dispose
+  - ChiaWalletSdk.Pair.Finalize
+  - ChiaWalletSdk.Pair.FreeRustArcPtr
+  - ChiaWalletSdk.Pair.GetFirst
+  - ChiaWalletSdk.Pair.GetRest
+  - ChiaWalletSdk.Pair.SetFirst(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Pair.SetRest(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Pair.pointer
+  langs:
+  - csharp
+  - vb
+  name: Pair
+  nameWithType: Pair
+  fullName: ChiaWalletSdk.Pair
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Pair : IPair'
+    content.vb: Public Class Pair Implements IPair
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IPair
+- uid: ChiaWalletSdk.Pair.pointer
+  commentId: F:ChiaWalletSdk.Pair.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Pair.pointer
+  fullName: ChiaWalletSdk.Pair.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Pair.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Pair.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: Pair(nint)
+  nameWithType: Pair.Pair(nint)
+  fullName: ChiaWalletSdk.Pair.Pair(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Pair(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Pair.#ctor*
+  nameWithType.vb: Pair.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Pair.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Pair.Finalize
+  commentId: M:ChiaWalletSdk.Pair.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: ~Pair()
+  nameWithType: Pair.~Pair()
+  fullName: ChiaWalletSdk.Pair.~Pair()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Pair()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Pair.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Pair.#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Pair.#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)
+  id: '#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)'
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: Pair(Program, Program)
+  nameWithType: Pair.Pair(Program, Program)
+  fullName: ChiaWalletSdk.Pair.Pair(ChiaWalletSdk.Program, ChiaWalletSdk.Program)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Pair(Program first, Program rest)
+    parameters:
+    - id: first
+      type: ChiaWalletSdk.Program
+    - id: rest
+      type: ChiaWalletSdk.Program
+    content.vb: Public Sub New(first As Program, rest As Program)
+  overload: ChiaWalletSdk.Pair.#ctor*
+  nameWithType.vb: Pair.New(Program, Program)
+  fullName.vb: ChiaWalletSdk.Pair.New(ChiaWalletSdk.Program, ChiaWalletSdk.Program)
+  name.vb: New(Program, Program)
+- uid: ChiaWalletSdk.Pair.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Pair.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Pair.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Pair.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Pair.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Pair.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Pair.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Pair.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Pair.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Pair.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Pair.Destroy
+  commentId: M:ChiaWalletSdk.Pair.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Pair.Destroy()
+  fullName: ChiaWalletSdk.Pair.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Pair.Destroy*
+- uid: ChiaWalletSdk.Pair.Dispose
+  commentId: M:ChiaWalletSdk.Pair.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Pair.Dispose()
+  fullName: ChiaWalletSdk.Pair.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Pair.Dispose*
+- uid: ChiaWalletSdk.Pair.GetFirst
+  commentId: M:ChiaWalletSdk.Pair.GetFirst
+  id: GetFirst
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: GetFirst()
+  nameWithType: Pair.GetFirst()
+  fullName: ChiaWalletSdk.Pair.GetFirst()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetFirst()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetFirst() As Program
+  overload: ChiaWalletSdk.Pair.GetFirst*
+  implements:
+  - ChiaWalletSdk.IPair.GetFirst
+- uid: ChiaWalletSdk.Pair.GetRest
+  commentId: M:ChiaWalletSdk.Pair.GetRest
+  id: GetRest
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: GetRest()
+  nameWithType: Pair.GetRest()
+  fullName: ChiaWalletSdk.Pair.GetRest()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetRest()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetRest() As Program
+  overload: ChiaWalletSdk.Pair.GetRest*
+  implements:
+  - ChiaWalletSdk.IPair.GetRest
+- uid: ChiaWalletSdk.Pair.SetFirst(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Pair.SetFirst(ChiaWalletSdk.Program)
+  id: SetFirst(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: SetFirst(Program)
+  nameWithType: Pair.SetFirst(Program)
+  fullName: ChiaWalletSdk.Pair.SetFirst(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Pair SetFirst(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Pair
+    content.vb: Public Function SetFirst(value As Program) As Pair
+  overload: ChiaWalletSdk.Pair.SetFirst*
+  implements:
+  - ChiaWalletSdk.IPair.SetFirst(ChiaWalletSdk.Program)
+- uid: ChiaWalletSdk.Pair.SetRest(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Pair.SetRest(ChiaWalletSdk.Program)
+  id: SetRest(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.Pair
+  langs:
+  - csharp
+  - vb
+  name: SetRest(Program)
+  nameWithType: Pair.SetRest(Program)
+  fullName: ChiaWalletSdk.Pair.SetRest(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Pair SetRest(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Pair
+    content.vb: Public Function SetRest(value As Program) As Pair
+  overload: ChiaWalletSdk.Pair.SetRest*
+  implements:
+  - ChiaWalletSdk.IPair.SetRest(ChiaWalletSdk.Program)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IPair
+  commentId: T:ChiaWalletSdk.IPair
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IPair.html
+  name: IPair
+  nameWithType: IPair
+  fullName: ChiaWalletSdk.IPair
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Pair.#ctor*
+  commentId: Overload:ChiaWalletSdk.Pair.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair__ctor_System_IntPtr_
+  name: Pair
+  nameWithType: Pair.Pair
+  fullName: ChiaWalletSdk.Pair.Pair
+  nameWithType.vb: Pair.New
+  fullName.vb: ChiaWalletSdk.Pair.New
+  name.vb: New
+- uid: ChiaWalletSdk.Pair.Finalize*
+  commentId: Overload:ChiaWalletSdk.Pair.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_Finalize
+  name: ~Pair
+  nameWithType: Pair.~Pair
+  fullName: ChiaWalletSdk.Pair.~Pair
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Pair.Finalize*
+    name: Pair
+    isExternal: true
+    href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_Finalize
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.Pair.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Pair.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Pair.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Pair.FreeRustArcPtr
+- uid: ChiaWalletSdk.Pair.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Pair.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Pair.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Pair.CloneRustArcPtr
+- uid: ChiaWalletSdk.Pair.Destroy*
+  commentId: Overload:ChiaWalletSdk.Pair.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_Destroy
+  name: Destroy
+  nameWithType: Pair.Destroy
+  fullName: ChiaWalletSdk.Pair.Destroy
+- uid: ChiaWalletSdk.Pair.Dispose*
+  commentId: Overload:ChiaWalletSdk.Pair.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_Dispose
+  name: Dispose
+  nameWithType: Pair.Dispose
+  fullName: ChiaWalletSdk.Pair.Dispose
+- uid: ChiaWalletSdk.Pair.GetFirst*
+  commentId: Overload:ChiaWalletSdk.Pair.GetFirst
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_GetFirst
+  name: GetFirst
+  nameWithType: Pair.GetFirst
+  fullName: ChiaWalletSdk.Pair.GetFirst
+- uid: ChiaWalletSdk.IPair.GetFirst
+  commentId: M:ChiaWalletSdk.IPair.GetFirst
+  parent: ChiaWalletSdk.IPair
+  isExternal: true
+  href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_GetFirst
+  name: GetFirst()
+  nameWithType: IPair.GetFirst()
+  fullName: ChiaWalletSdk.IPair.GetFirst()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPair.GetFirst
+    name: GetFirst
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_GetFirst
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPair.GetFirst
+    name: GetFirst
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_GetFirst
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Pair.GetRest*
+  commentId: Overload:ChiaWalletSdk.Pair.GetRest
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_GetRest
+  name: GetRest
+  nameWithType: Pair.GetRest
+  fullName: ChiaWalletSdk.Pair.GetRest
+- uid: ChiaWalletSdk.IPair.GetRest
+  commentId: M:ChiaWalletSdk.IPair.GetRest
+  parent: ChiaWalletSdk.IPair
+  isExternal: true
+  href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_GetRest
+  name: GetRest()
+  nameWithType: IPair.GetRest()
+  fullName: ChiaWalletSdk.IPair.GetRest()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPair.GetRest
+    name: GetRest
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_GetRest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPair.GetRest
+    name: GetRest
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_GetRest
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Pair.SetFirst*
+  commentId: Overload:ChiaWalletSdk.Pair.SetFirst
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_SetFirst_ChiaWalletSdk_Program_
+  name: SetFirst
+  nameWithType: Pair.SetFirst
+  fullName: ChiaWalletSdk.Pair.SetFirst
+- uid: ChiaWalletSdk.IPair.SetFirst(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPair.SetFirst(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPair
+  isExternal: true
+  href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_SetFirst_ChiaWalletSdk_Program_
+  name: SetFirst(Program)
+  nameWithType: IPair.SetFirst(Program)
+  fullName: ChiaWalletSdk.IPair.SetFirst(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPair.SetFirst(ChiaWalletSdk.Program)
+    name: SetFirst
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_SetFirst_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPair.SetFirst(ChiaWalletSdk.Program)
+    name: SetFirst
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_SetFirst_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: ChiaWalletSdk.Pair
+  commentId: T:ChiaWalletSdk.Pair
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html
+  name: Pair
+  nameWithType: Pair
+  fullName: ChiaWalletSdk.Pair
+- uid: ChiaWalletSdk.Pair.SetRest*
+  commentId: Overload:ChiaWalletSdk.Pair.SetRest
+  isExternal: true
+  href: ChiaWalletSdk.Pair.html#ChiaWalletSdk_Pair_SetRest_ChiaWalletSdk_Program_
+  name: SetRest
+  nameWithType: Pair.SetRest
+  fullName: ChiaWalletSdk.Pair.SetRest
+- uid: ChiaWalletSdk.IPair.SetRest(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPair.SetRest(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPair
+  isExternal: true
+  href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_SetRest_ChiaWalletSdk_Program_
+  name: SetRest(Program)
+  nameWithType: IPair.SetRest(Program)
+  fullName: ChiaWalletSdk.IPair.SetRest(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPair.SetRest(ChiaWalletSdk.Program)
+    name: SetRest
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_SetRest_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPair.SetRest(ChiaWalletSdk.Program)
+    name: SetRest
+    isExternal: true
+    href: ChiaWalletSdk.IPair.html#ChiaWalletSdk_IPair_SetRest_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )

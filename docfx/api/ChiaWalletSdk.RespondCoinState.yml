@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.RespondCoinState
+  commentId: T:ChiaWalletSdk.RespondCoinState
+  id: RespondCoinState
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.RespondCoinState.#ctor(System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  - ChiaWalletSdk.RespondCoinState.#ctor(System.IntPtr)
+  - ChiaWalletSdk.RespondCoinState.CloneRustArcPtr
+  - ChiaWalletSdk.RespondCoinState.Destroy
+  - ChiaWalletSdk.RespondCoinState.Dispose
+  - ChiaWalletSdk.RespondCoinState.Finalize
+  - ChiaWalletSdk.RespondCoinState.FreeRustArcPtr
+  - ChiaWalletSdk.RespondCoinState.GetCoinIds
+  - ChiaWalletSdk.RespondCoinState.GetCoinStates
+  - ChiaWalletSdk.RespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.RespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  - ChiaWalletSdk.RespondCoinState.pointer
+  langs:
+  - csharp
+  - vb
+  name: RespondCoinState
+  nameWithType: RespondCoinState
+  fullName: ChiaWalletSdk.RespondCoinState
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class RespondCoinState : IRespondCoinState'
+    content.vb: Public Class RespondCoinState Implements IRespondCoinState
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IRespondCoinState
+- uid: ChiaWalletSdk.RespondCoinState.pointer
+  commentId: F:ChiaWalletSdk.RespondCoinState.pointer
+  id: pointer
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: RespondCoinState.pointer
+  fullName: ChiaWalletSdk.RespondCoinState.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.RespondCoinState.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.RespondCoinState.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: RespondCoinState(nint)
+  nameWithType: RespondCoinState.RespondCoinState(nint)
+  fullName: ChiaWalletSdk.RespondCoinState.RespondCoinState(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RespondCoinState(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.RespondCoinState.#ctor*
+  nameWithType.vb: RespondCoinState.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.RespondCoinState.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.RespondCoinState.Finalize
+  commentId: M:ChiaWalletSdk.RespondCoinState.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: ~RespondCoinState()
+  nameWithType: RespondCoinState.~RespondCoinState()
+  fullName: ChiaWalletSdk.RespondCoinState.~RespondCoinState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~RespondCoinState()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.RespondCoinState.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.RespondCoinState.#ctor(System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  commentId: M:ChiaWalletSdk.RespondCoinState.#ctor(System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  id: '#ctor(System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{ChiaWalletSdk.CoinState})'
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: RespondCoinState(List<byte[]>, List<CoinState>)
+  nameWithType: RespondCoinState.RespondCoinState(List<byte[]>, List<CoinState>)
+  fullName: ChiaWalletSdk.RespondCoinState.RespondCoinState(System.Collections.Generic.List<byte[]>, System.Collections.Generic.List<ChiaWalletSdk.CoinState>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RespondCoinState(List<byte[]> coinIds, List<CoinState> coinStates)
+    parameters:
+    - id: coinIds
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: coinStates
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Public Sub New(coinIds As List(Of Byte()), coinStates As List(Of CoinState))
+  overload: ChiaWalletSdk.RespondCoinState.#ctor*
+  nameWithType.vb: RespondCoinState.New(List(Of Byte()), List(Of CoinState))
+  fullName.vb: ChiaWalletSdk.RespondCoinState.New(System.Collections.Generic.List(Of Byte()), System.Collections.Generic.List(Of ChiaWalletSdk.CoinState))
+  name.vb: New(List(Of Byte()), List(Of CoinState))
+- uid: ChiaWalletSdk.RespondCoinState.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.RespondCoinState.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: RespondCoinState.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.RespondCoinState.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.RespondCoinState.FreeRustArcPtr*
+- uid: ChiaWalletSdk.RespondCoinState.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.RespondCoinState.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: RespondCoinState.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.RespondCoinState.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.RespondCoinState.CloneRustArcPtr*
+- uid: ChiaWalletSdk.RespondCoinState.Destroy
+  commentId: M:ChiaWalletSdk.RespondCoinState.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: RespondCoinState.Destroy()
+  fullName: ChiaWalletSdk.RespondCoinState.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.RespondCoinState.Destroy*
+- uid: ChiaWalletSdk.RespondCoinState.Dispose
+  commentId: M:ChiaWalletSdk.RespondCoinState.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RespondCoinState.Dispose()
+  fullName: ChiaWalletSdk.RespondCoinState.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.RespondCoinState.Dispose*
+- uid: ChiaWalletSdk.RespondCoinState.GetCoinIds
+  commentId: M:ChiaWalletSdk.RespondCoinState.GetCoinIds
+  id: GetCoinIds
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: GetCoinIds()
+  nameWithType: RespondCoinState.GetCoinIds()
+  fullName: ChiaWalletSdk.RespondCoinState.GetCoinIds()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<byte[]> GetCoinIds()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Public Function GetCoinIds() As List(Of Byte())
+  overload: ChiaWalletSdk.RespondCoinState.GetCoinIds*
+  implements:
+  - ChiaWalletSdk.IRespondCoinState.GetCoinIds
+- uid: ChiaWalletSdk.RespondCoinState.GetCoinStates
+  commentId: M:ChiaWalletSdk.RespondCoinState.GetCoinStates
+  id: GetCoinStates
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: GetCoinStates()
+  nameWithType: RespondCoinState.GetCoinStates()
+  fullName: ChiaWalletSdk.RespondCoinState.GetCoinStates()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<CoinState> GetCoinStates()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Public Function GetCoinStates() As List(Of CoinState)
+  overload: ChiaWalletSdk.RespondCoinState.GetCoinStates*
+  implements:
+  - ChiaWalletSdk.IRespondCoinState.GetCoinStates
+- uid: ChiaWalletSdk.RespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.RespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  id: SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: SetCoinIds(List<byte[]>)
+  nameWithType: RespondCoinState.SetCoinIds(List<byte[]>)
+  fullName: ChiaWalletSdk.RespondCoinState.SetCoinIds(System.Collections.Generic.List<byte[]>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RespondCoinState SetCoinIds(List<byte[]> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: ChiaWalletSdk.RespondCoinState
+    content.vb: Public Function SetCoinIds(value As List(Of Byte())) As RespondCoinState
+  overload: ChiaWalletSdk.RespondCoinState.SetCoinIds*
+  implements:
+  - ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  nameWithType.vb: RespondCoinState.SetCoinIds(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.RespondCoinState.SetCoinIds(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetCoinIds(List(Of Byte()))
+- uid: ChiaWalletSdk.RespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  commentId: M:ChiaWalletSdk.RespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  id: SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  parent: ChiaWalletSdk.RespondCoinState
+  langs:
+  - csharp
+  - vb
+  name: SetCoinStates(List<CoinState>)
+  nameWithType: RespondCoinState.SetCoinStates(List<CoinState>)
+  fullName: ChiaWalletSdk.RespondCoinState.SetCoinStates(System.Collections.Generic.List<ChiaWalletSdk.CoinState>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RespondCoinState SetCoinStates(List<CoinState> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    return:
+      type: ChiaWalletSdk.RespondCoinState
+    content.vb: Public Function SetCoinStates(value As List(Of CoinState)) As RespondCoinState
+  overload: ChiaWalletSdk.RespondCoinState.SetCoinStates*
+  implements:
+  - ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  nameWithType.vb: RespondCoinState.SetCoinStates(List(Of CoinState))
+  fullName.vb: ChiaWalletSdk.RespondCoinState.SetCoinStates(System.Collections.Generic.List(Of ChiaWalletSdk.CoinState))
+  name.vb: SetCoinStates(List(Of CoinState))
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IRespondCoinState
+  commentId: T:ChiaWalletSdk.IRespondCoinState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IRespondCoinState.html
+  name: IRespondCoinState
+  nameWithType: IRespondCoinState
+  fullName: ChiaWalletSdk.IRespondCoinState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.RespondCoinState.#ctor*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState__ctor_System_IntPtr_
+  name: RespondCoinState
+  nameWithType: RespondCoinState.RespondCoinState
+  fullName: ChiaWalletSdk.RespondCoinState.RespondCoinState
+  nameWithType.vb: RespondCoinState.New
+  fullName.vb: ChiaWalletSdk.RespondCoinState.New
+  name.vb: New
+- uid: ChiaWalletSdk.RespondCoinState.Finalize*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_Finalize
+  name: ~RespondCoinState
+  nameWithType: RespondCoinState.~RespondCoinState
+  fullName: ChiaWalletSdk.RespondCoinState.~RespondCoinState
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.RespondCoinState.Finalize*
+    name: RespondCoinState
+    isExternal: true
+    href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_Finalize
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CoinState.html
+  name: List<CoinState>
+  nameWithType: List<CoinState>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CoinState>
+  nameWithType.vb: List(Of CoinState)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CoinState)
+  name.vb: List(Of CoinState)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.RespondCoinState.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: RespondCoinState.FreeRustArcPtr
+  fullName: ChiaWalletSdk.RespondCoinState.FreeRustArcPtr
+- uid: ChiaWalletSdk.RespondCoinState.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: RespondCoinState.CloneRustArcPtr
+  fullName: ChiaWalletSdk.RespondCoinState.CloneRustArcPtr
+- uid: ChiaWalletSdk.RespondCoinState.Destroy*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_Destroy
+  name: Destroy
+  nameWithType: RespondCoinState.Destroy
+  fullName: ChiaWalletSdk.RespondCoinState.Destroy
+- uid: ChiaWalletSdk.RespondCoinState.Dispose*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_Dispose
+  name: Dispose
+  nameWithType: RespondCoinState.Dispose
+  fullName: ChiaWalletSdk.RespondCoinState.Dispose
+- uid: ChiaWalletSdk.RespondCoinState.GetCoinIds*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.GetCoinIds
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_GetCoinIds
+  name: GetCoinIds
+  nameWithType: RespondCoinState.GetCoinIds
+  fullName: ChiaWalletSdk.RespondCoinState.GetCoinIds
+- uid: ChiaWalletSdk.IRespondCoinState.GetCoinIds
+  commentId: M:ChiaWalletSdk.IRespondCoinState.GetCoinIds
+  parent: ChiaWalletSdk.IRespondCoinState
+  isExternal: true
+  href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_GetCoinIds
+  name: GetCoinIds()
+  nameWithType: IRespondCoinState.GetCoinIds()
+  fullName: ChiaWalletSdk.IRespondCoinState.GetCoinIds()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRespondCoinState.GetCoinIds
+    name: GetCoinIds
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_GetCoinIds
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRespondCoinState.GetCoinIds
+    name: GetCoinIds
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_GetCoinIds
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RespondCoinState.GetCoinStates*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.GetCoinStates
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_GetCoinStates
+  name: GetCoinStates
+  nameWithType: RespondCoinState.GetCoinStates
+  fullName: ChiaWalletSdk.RespondCoinState.GetCoinStates
+- uid: ChiaWalletSdk.IRespondCoinState.GetCoinStates
+  commentId: M:ChiaWalletSdk.IRespondCoinState.GetCoinStates
+  parent: ChiaWalletSdk.IRespondCoinState
+  isExternal: true
+  href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_GetCoinStates
+  name: GetCoinStates()
+  nameWithType: IRespondCoinState.GetCoinStates()
+  fullName: ChiaWalletSdk.IRespondCoinState.GetCoinStates()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRespondCoinState.GetCoinStates
+    name: GetCoinStates
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_GetCoinStates
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRespondCoinState.GetCoinStates
+    name: GetCoinStates
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_GetCoinStates
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RespondCoinState.SetCoinIds*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.SetCoinIds
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_SetCoinIds_System_Collections_Generic_List_System_Byte____
+  name: SetCoinIds
+  nameWithType: RespondCoinState.SetCoinIds
+  fullName: ChiaWalletSdk.RespondCoinState.SetCoinIds
+- uid: ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IRespondCoinState
+  isExternal: true
+  href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_SetCoinIds_System_Collections_Generic_List_System_Byte____
+  name: SetCoinIds(List<byte[]>)
+  nameWithType: IRespondCoinState.SetCoinIds(List<byte[]>)
+  fullName: ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List<byte[]>)
+  nameWithType.vb: IRespondCoinState.SetCoinIds(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetCoinIds(List(Of Byte()))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+    name: SetCoinIds
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_SetCoinIds_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRespondCoinState.SetCoinIds(System.Collections.Generic.List{System.Byte[]})
+    name: SetCoinIds
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_SetCoinIds_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.RespondCoinState
+  commentId: T:ChiaWalletSdk.RespondCoinState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html
+  name: RespondCoinState
+  nameWithType: RespondCoinState
+  fullName: ChiaWalletSdk.RespondCoinState
+- uid: ChiaWalletSdk.RespondCoinState.SetCoinStates*
+  commentId: Overload:ChiaWalletSdk.RespondCoinState.SetCoinStates
+  isExternal: true
+  href: ChiaWalletSdk.RespondCoinState.html#ChiaWalletSdk_RespondCoinState_SetCoinStates_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  name: SetCoinStates
+  nameWithType: RespondCoinState.SetCoinStates
+  fullName: ChiaWalletSdk.RespondCoinState.SetCoinStates
+- uid: ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  commentId: M:ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  parent: ChiaWalletSdk.IRespondCoinState
+  isExternal: true
+  href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_SetCoinStates_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  name: SetCoinStates(List<CoinState>)
+  nameWithType: IRespondCoinState.SetCoinStates(List<CoinState>)
+  fullName: ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List<ChiaWalletSdk.CoinState>)
+  nameWithType.vb: IRespondCoinState.SetCoinStates(List(Of CoinState))
+  fullName.vb: ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List(Of ChiaWalletSdk.CoinState))
+  name.vb: SetCoinStates(List(Of CoinState))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+    name: SetCoinStates
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_SetCoinStates_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRespondCoinState.SetCoinStates(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+    name: SetCoinStates
+    isExternal: true
+    href: ChiaWalletSdk.IRespondCoinState.html#ChiaWalletSdk_IRespondCoinState_SetCoinStates_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: )
+  - name: )

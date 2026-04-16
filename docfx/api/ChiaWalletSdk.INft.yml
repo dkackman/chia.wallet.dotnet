@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.INft
+  commentId: T:ChiaWalletSdk.INft
+  id: INft
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.INft.Child(System.Byte[],System.Byte[],ChiaWalletSdk.Program)
+  - ChiaWalletSdk.INft.ChildProof
+  - ChiaWalletSdk.INft.ChildWith(ChiaWalletSdk.NftInfo)
+  - ChiaWalletSdk.INft.GetCoin
+  - ChiaWalletSdk.INft.GetInfo
+  - ChiaWalletSdk.INft.GetProof
+  - ChiaWalletSdk.INft.SetCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.INft.SetInfo(ChiaWalletSdk.NftInfo)
+  - ChiaWalletSdk.INft.SetProof(ChiaWalletSdk.Proof)
+  langs:
+  - csharp
+  - vb
+  name: INft
+  nameWithType: INft
+  fullName: ChiaWalletSdk.INft
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface INft
+    content.vb: Public Interface INft
+  derivedClasses:
+  - ChiaWalletSdk.Nft
+- uid: ChiaWalletSdk.INft.Child(System.Byte[],System.Byte[],ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.INft.Child(System.Byte[],System.Byte[],ChiaWalletSdk.Program)
+  id: Child(System.Byte[],System.Byte[],ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: Child(byte[], byte[]?, Program)
+  nameWithType: INft.Child(byte[], byte[]?, Program)
+  fullName: ChiaWalletSdk.INft.Child(byte[], byte[]?, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Nft Child(byte[] p2PuzzleHash, byte[]? currentOwner, Program metadata)
+    parameters:
+    - id: p2PuzzleHash
+      type: System.Byte[]
+    - id: currentOwner
+      type: System.Byte[]
+    - id: metadata
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Nft
+    content.vb: Function Child(p2PuzzleHash As Byte(), currentOwner As Byte(), metadata As Program) As Nft
+  overload: ChiaWalletSdk.INft.Child*
+  nameWithType.vb: INft.Child(Byte(), Byte(), Program)
+  fullName.vb: ChiaWalletSdk.INft.Child(Byte(), Byte(), ChiaWalletSdk.Program)
+  name.vb: Child(Byte(), Byte(), Program)
+- uid: ChiaWalletSdk.INft.ChildProof
+  commentId: M:ChiaWalletSdk.INft.ChildProof
+  id: ChildProof
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: ChildProof()
+  nameWithType: INft.ChildProof()
+  fullName: ChiaWalletSdk.INft.ChildProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Proof ChildProof()
+    return:
+      type: ChiaWalletSdk.Proof
+    content.vb: Function ChildProof() As Proof
+  overload: ChiaWalletSdk.INft.ChildProof*
+- uid: ChiaWalletSdk.INft.ChildWith(ChiaWalletSdk.NftInfo)
+  commentId: M:ChiaWalletSdk.INft.ChildWith(ChiaWalletSdk.NftInfo)
+  id: ChildWith(ChiaWalletSdk.NftInfo)
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: ChildWith(NftInfo)
+  nameWithType: INft.ChildWith(NftInfo)
+  fullName: ChiaWalletSdk.INft.ChildWith(ChiaWalletSdk.NftInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Nft ChildWith(NftInfo info)
+    parameters:
+    - id: info
+      type: ChiaWalletSdk.NftInfo
+    return:
+      type: ChiaWalletSdk.Nft
+    content.vb: Function ChildWith(info As NftInfo) As Nft
+  overload: ChiaWalletSdk.INft.ChildWith*
+- uid: ChiaWalletSdk.INft.GetCoin
+  commentId: M:ChiaWalletSdk.INft.GetCoin
+  id: GetCoin
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: GetCoin()
+  nameWithType: INft.GetCoin()
+  fullName: ChiaWalletSdk.INft.GetCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin GetCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function GetCoin() As Coin
+  overload: ChiaWalletSdk.INft.GetCoin*
+- uid: ChiaWalletSdk.INft.GetInfo
+  commentId: M:ChiaWalletSdk.INft.GetInfo
+  id: GetInfo
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: GetInfo()
+  nameWithType: INft.GetInfo()
+  fullName: ChiaWalletSdk.INft.GetInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: NftInfo GetInfo()
+    return:
+      type: ChiaWalletSdk.NftInfo
+    content.vb: Function GetInfo() As NftInfo
+  overload: ChiaWalletSdk.INft.GetInfo*
+- uid: ChiaWalletSdk.INft.GetProof
+  commentId: M:ChiaWalletSdk.INft.GetProof
+  id: GetProof
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: GetProof()
+  nameWithType: INft.GetProof()
+  fullName: ChiaWalletSdk.INft.GetProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Proof GetProof()
+    return:
+      type: ChiaWalletSdk.Proof
+    content.vb: Function GetProof() As Proof
+  overload: ChiaWalletSdk.INft.GetProof*
+- uid: ChiaWalletSdk.INft.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.INft.SetCoin(ChiaWalletSdk.Coin)
+  id: SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: SetCoin(Coin)
+  nameWithType: INft.SetCoin(Coin)
+  fullName: ChiaWalletSdk.INft.SetCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Nft SetCoin(Coin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.Nft
+    content.vb: Function SetCoin(value As Coin) As Nft
+  overload: ChiaWalletSdk.INft.SetCoin*
+- uid: ChiaWalletSdk.INft.SetInfo(ChiaWalletSdk.NftInfo)
+  commentId: M:ChiaWalletSdk.INft.SetInfo(ChiaWalletSdk.NftInfo)
+  id: SetInfo(ChiaWalletSdk.NftInfo)
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: SetInfo(NftInfo)
+  nameWithType: INft.SetInfo(NftInfo)
+  fullName: ChiaWalletSdk.INft.SetInfo(ChiaWalletSdk.NftInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Nft SetInfo(NftInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.NftInfo
+    return:
+      type: ChiaWalletSdk.Nft
+    content.vb: Function SetInfo(value As NftInfo) As Nft
+  overload: ChiaWalletSdk.INft.SetInfo*
+- uid: ChiaWalletSdk.INft.SetProof(ChiaWalletSdk.Proof)
+  commentId: M:ChiaWalletSdk.INft.SetProof(ChiaWalletSdk.Proof)
+  id: SetProof(ChiaWalletSdk.Proof)
+  parent: ChiaWalletSdk.INft
+  langs:
+  - csharp
+  - vb
+  name: SetProof(Proof)
+  nameWithType: INft.SetProof(Proof)
+  fullName: ChiaWalletSdk.INft.SetProof(ChiaWalletSdk.Proof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Nft SetProof(Proof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Proof
+    return:
+      type: ChiaWalletSdk.Nft
+    content.vb: Function SetProof(value As Proof) As Nft
+  overload: ChiaWalletSdk.INft.SetProof*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.INft.Child*
+  commentId: Overload:ChiaWalletSdk.INft.Child
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_Child_System_Byte___System_Byte___ChiaWalletSdk_Program_
+  name: Child
+  nameWithType: INft.Child
+  fullName: ChiaWalletSdk.INft.Child
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.Nft
+  commentId: T:ChiaWalletSdk.Nft
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Nft.html
+  name: Nft
+  nameWithType: Nft
+  fullName: ChiaWalletSdk.Nft
+- uid: ChiaWalletSdk.INft.ChildProof*
+  commentId: Overload:ChiaWalletSdk.INft.ChildProof
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_ChildProof
+  name: ChildProof
+  nameWithType: INft.ChildProof
+  fullName: ChiaWalletSdk.INft.ChildProof
+- uid: ChiaWalletSdk.Proof
+  commentId: T:ChiaWalletSdk.Proof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html
+  name: Proof
+  nameWithType: Proof
+  fullName: ChiaWalletSdk.Proof
+- uid: ChiaWalletSdk.INft.ChildWith*
+  commentId: Overload:ChiaWalletSdk.INft.ChildWith
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_ChildWith_ChiaWalletSdk_NftInfo_
+  name: ChildWith
+  nameWithType: INft.ChildWith
+  fullName: ChiaWalletSdk.INft.ChildWith
+- uid: ChiaWalletSdk.NftInfo
+  commentId: T:ChiaWalletSdk.NftInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NftInfo.html
+  name: NftInfo
+  nameWithType: NftInfo
+  fullName: ChiaWalletSdk.NftInfo
+- uid: ChiaWalletSdk.INft.GetCoin*
+  commentId: Overload:ChiaWalletSdk.INft.GetCoin
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_GetCoin
+  name: GetCoin
+  nameWithType: INft.GetCoin
+  fullName: ChiaWalletSdk.INft.GetCoin
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.INft.GetInfo*
+  commentId: Overload:ChiaWalletSdk.INft.GetInfo
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_GetInfo
+  name: GetInfo
+  nameWithType: INft.GetInfo
+  fullName: ChiaWalletSdk.INft.GetInfo
+- uid: ChiaWalletSdk.INft.GetProof*
+  commentId: Overload:ChiaWalletSdk.INft.GetProof
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_GetProof
+  name: GetProof
+  nameWithType: INft.GetProof
+  fullName: ChiaWalletSdk.INft.GetProof
+- uid: ChiaWalletSdk.INft.SetCoin*
+  commentId: Overload:ChiaWalletSdk.INft.SetCoin
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin
+  nameWithType: INft.SetCoin
+  fullName: ChiaWalletSdk.INft.SetCoin
+- uid: ChiaWalletSdk.INft.SetInfo*
+  commentId: Overload:ChiaWalletSdk.INft.SetInfo
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_SetInfo_ChiaWalletSdk_NftInfo_
+  name: SetInfo
+  nameWithType: INft.SetInfo
+  fullName: ChiaWalletSdk.INft.SetInfo
+- uid: ChiaWalletSdk.INft.SetProof*
+  commentId: Overload:ChiaWalletSdk.INft.SetProof
+  isExternal: true
+  href: ChiaWalletSdk.INft.html#ChiaWalletSdk_INft_SetProof_ChiaWalletSdk_Proof_
+  name: SetProof
+  nameWithType: INft.SetProof
+  fullName: ChiaWalletSdk.INft.SetProof

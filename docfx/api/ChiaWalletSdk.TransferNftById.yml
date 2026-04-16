@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.TransferNftById
+  commentId: T:ChiaWalletSdk.TransferNftById
+  id: TransferNftById
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.TransferNftById.#ctor(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  - ChiaWalletSdk.TransferNftById.#ctor(System.IntPtr)
+  - ChiaWalletSdk.TransferNftById.CloneRustArcPtr
+  - ChiaWalletSdk.TransferNftById.Destroy
+  - ChiaWalletSdk.TransferNftById.Dispose
+  - ChiaWalletSdk.TransferNftById.Finalize
+  - ChiaWalletSdk.TransferNftById.FreeRustArcPtr
+  - ChiaWalletSdk.TransferNftById.GetOwnerId
+  - ChiaWalletSdk.TransferNftById.GetTradePrices
+  - ChiaWalletSdk.TransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  - ChiaWalletSdk.TransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  - ChiaWalletSdk.TransferNftById.pointer
+  langs:
+  - csharp
+  - vb
+  name: TransferNftById
+  nameWithType: TransferNftById
+  fullName: ChiaWalletSdk.TransferNftById
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class TransferNftById : ITransferNftById'
+    content.vb: Public Class TransferNftById Implements ITransferNftById
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ITransferNftById
+- uid: ChiaWalletSdk.TransferNftById.pointer
+  commentId: F:ChiaWalletSdk.TransferNftById.pointer
+  id: pointer
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: TransferNftById.pointer
+  fullName: ChiaWalletSdk.TransferNftById.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.TransferNftById.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.TransferNftById.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: TransferNftById(nint)
+  nameWithType: TransferNftById.TransferNftById(nint)
+  fullName: ChiaWalletSdk.TransferNftById.TransferNftById(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public TransferNftById(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.TransferNftById.#ctor*
+  nameWithType.vb: TransferNftById.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.TransferNftById.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.TransferNftById.Finalize
+  commentId: M:ChiaWalletSdk.TransferNftById.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: ~TransferNftById()
+  nameWithType: TransferNftById.~TransferNftById()
+  fullName: ChiaWalletSdk.TransferNftById.~TransferNftById()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~TransferNftById()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.TransferNftById.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.TransferNftById.#ctor(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  commentId: M:ChiaWalletSdk.TransferNftById.#ctor(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  id: '#ctor(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.TradePrice})'
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: TransferNftById(Id?, List<TradePrice>)
+  nameWithType: TransferNftById.TransferNftById(Id?, List<TradePrice>)
+  fullName: ChiaWalletSdk.TransferNftById.TransferNftById(ChiaWalletSdk.Id?, System.Collections.Generic.List<ChiaWalletSdk.TradePrice>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public TransferNftById(Id? ownerId, List<TradePrice> tradePrices)
+    parameters:
+    - id: ownerId
+      type: ChiaWalletSdk.Id
+    - id: tradePrices
+      type: System.Collections.Generic.List{ChiaWalletSdk.TradePrice}
+    content.vb: Public Sub New(ownerId As Id, tradePrices As List(Of TradePrice))
+  overload: ChiaWalletSdk.TransferNftById.#ctor*
+  nameWithType.vb: TransferNftById.New(Id, List(Of TradePrice))
+  fullName.vb: ChiaWalletSdk.TransferNftById.New(ChiaWalletSdk.Id, System.Collections.Generic.List(Of ChiaWalletSdk.TradePrice))
+  name.vb: New(Id, List(Of TradePrice))
+- uid: ChiaWalletSdk.TransferNftById.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.TransferNftById.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: TransferNftById.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.TransferNftById.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.TransferNftById.FreeRustArcPtr*
+- uid: ChiaWalletSdk.TransferNftById.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.TransferNftById.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: TransferNftById.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.TransferNftById.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.TransferNftById.CloneRustArcPtr*
+- uid: ChiaWalletSdk.TransferNftById.Destroy
+  commentId: M:ChiaWalletSdk.TransferNftById.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: TransferNftById.Destroy()
+  fullName: ChiaWalletSdk.TransferNftById.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.TransferNftById.Destroy*
+- uid: ChiaWalletSdk.TransferNftById.Dispose
+  commentId: M:ChiaWalletSdk.TransferNftById.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: TransferNftById.Dispose()
+  fullName: ChiaWalletSdk.TransferNftById.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.TransferNftById.Dispose*
+- uid: ChiaWalletSdk.TransferNftById.GetOwnerId
+  commentId: M:ChiaWalletSdk.TransferNftById.GetOwnerId
+  id: GetOwnerId
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerId()
+  nameWithType: TransferNftById.GetOwnerId()
+  fullName: ChiaWalletSdk.TransferNftById.GetOwnerId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Id? GetOwnerId()
+    return:
+      type: ChiaWalletSdk.Id
+    content.vb: Public Function GetOwnerId() As Id
+  overload: ChiaWalletSdk.TransferNftById.GetOwnerId*
+  implements:
+  - ChiaWalletSdk.ITransferNftById.GetOwnerId
+- uid: ChiaWalletSdk.TransferNftById.GetTradePrices
+  commentId: M:ChiaWalletSdk.TransferNftById.GetTradePrices
+  id: GetTradePrices
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: GetTradePrices()
+  nameWithType: TransferNftById.GetTradePrices()
+  fullName: ChiaWalletSdk.TransferNftById.GetTradePrices()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<TradePrice> GetTradePrices()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.TradePrice}
+    content.vb: Public Function GetTradePrices() As List(Of TradePrice)
+  overload: ChiaWalletSdk.TransferNftById.GetTradePrices*
+  implements:
+  - ChiaWalletSdk.ITransferNftById.GetTradePrices
+- uid: ChiaWalletSdk.TransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  commentId: M:ChiaWalletSdk.TransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  id: SetOwnerId(ChiaWalletSdk.Id)
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: SetOwnerId(Id?)
+  nameWithType: TransferNftById.SetOwnerId(Id?)
+  fullName: ChiaWalletSdk.TransferNftById.SetOwnerId(ChiaWalletSdk.Id?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public TransferNftById SetOwnerId(Id? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Id
+    return:
+      type: ChiaWalletSdk.TransferNftById
+    content.vb: Public Function SetOwnerId(value As Id) As TransferNftById
+  overload: ChiaWalletSdk.TransferNftById.SetOwnerId*
+  implements:
+  - ChiaWalletSdk.ITransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  nameWithType.vb: TransferNftById.SetOwnerId(Id)
+  fullName.vb: ChiaWalletSdk.TransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  name.vb: SetOwnerId(Id)
+- uid: ChiaWalletSdk.TransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  commentId: M:ChiaWalletSdk.TransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  id: SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  parent: ChiaWalletSdk.TransferNftById
+  langs:
+  - csharp
+  - vb
+  name: SetTradePrices(List<TradePrice>)
+  nameWithType: TransferNftById.SetTradePrices(List<TradePrice>)
+  fullName: ChiaWalletSdk.TransferNftById.SetTradePrices(System.Collections.Generic.List<ChiaWalletSdk.TradePrice>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public TransferNftById SetTradePrices(List<TradePrice> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.TradePrice}
+    return:
+      type: ChiaWalletSdk.TransferNftById
+    content.vb: Public Function SetTradePrices(value As List(Of TradePrice)) As TransferNftById
+  overload: ChiaWalletSdk.TransferNftById.SetTradePrices*
+  implements:
+  - ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  nameWithType.vb: TransferNftById.SetTradePrices(List(Of TradePrice))
+  fullName.vb: ChiaWalletSdk.TransferNftById.SetTradePrices(System.Collections.Generic.List(Of ChiaWalletSdk.TradePrice))
+  name.vb: SetTradePrices(List(Of TradePrice))
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ITransferNftById
+  commentId: T:ChiaWalletSdk.ITransferNftById
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ITransferNftById.html
+  name: ITransferNftById
+  nameWithType: ITransferNftById
+  fullName: ChiaWalletSdk.ITransferNftById
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.TransferNftById.#ctor*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById__ctor_System_IntPtr_
+  name: TransferNftById
+  nameWithType: TransferNftById.TransferNftById
+  fullName: ChiaWalletSdk.TransferNftById.TransferNftById
+  nameWithType.vb: TransferNftById.New
+  fullName.vb: ChiaWalletSdk.TransferNftById.New
+  name.vb: New
+- uid: ChiaWalletSdk.TransferNftById.Finalize*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_Finalize
+  name: ~TransferNftById
+  nameWithType: TransferNftById.~TransferNftById
+  fullName: ChiaWalletSdk.TransferNftById.~TransferNftById
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.TransferNftById.Finalize*
+    name: TransferNftById
+    isExternal: true
+    href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_Finalize
+- uid: ChiaWalletSdk.Id
+  commentId: T:ChiaWalletSdk.Id
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Id.html
+  name: Id
+  nameWithType: Id
+  fullName: ChiaWalletSdk.Id
+- uid: System.Collections.Generic.List{ChiaWalletSdk.TradePrice}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.TradePrice}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.TradePrice.html
+  name: List<TradePrice>
+  nameWithType: List<TradePrice>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.TradePrice>
+  nameWithType.vb: List(Of TradePrice)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.TradePrice)
+  name.vb: List(Of TradePrice)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.TradePrice
+    name: TradePrice
+    isExternal: true
+    href: ChiaWalletSdk.TradePrice.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.TradePrice
+    name: TradePrice
+    isExternal: true
+    href: ChiaWalletSdk.TradePrice.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.TransferNftById.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: TransferNftById.FreeRustArcPtr
+  fullName: ChiaWalletSdk.TransferNftById.FreeRustArcPtr
+- uid: ChiaWalletSdk.TransferNftById.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: TransferNftById.CloneRustArcPtr
+  fullName: ChiaWalletSdk.TransferNftById.CloneRustArcPtr
+- uid: ChiaWalletSdk.TransferNftById.Destroy*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_Destroy
+  name: Destroy
+  nameWithType: TransferNftById.Destroy
+  fullName: ChiaWalletSdk.TransferNftById.Destroy
+- uid: ChiaWalletSdk.TransferNftById.Dispose*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_Dispose
+  name: Dispose
+  nameWithType: TransferNftById.Dispose
+  fullName: ChiaWalletSdk.TransferNftById.Dispose
+- uid: ChiaWalletSdk.TransferNftById.GetOwnerId*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.GetOwnerId
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_GetOwnerId
+  name: GetOwnerId
+  nameWithType: TransferNftById.GetOwnerId
+  fullName: ChiaWalletSdk.TransferNftById.GetOwnerId
+- uid: ChiaWalletSdk.ITransferNftById.GetOwnerId
+  commentId: M:ChiaWalletSdk.ITransferNftById.GetOwnerId
+  parent: ChiaWalletSdk.ITransferNftById
+  isExternal: true
+  href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_GetOwnerId
+  name: GetOwnerId()
+  nameWithType: ITransferNftById.GetOwnerId()
+  fullName: ChiaWalletSdk.ITransferNftById.GetOwnerId()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ITransferNftById.GetOwnerId
+    name: GetOwnerId
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_GetOwnerId
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ITransferNftById.GetOwnerId
+    name: GetOwnerId
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_GetOwnerId
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.TransferNftById.GetTradePrices*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.GetTradePrices
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_GetTradePrices
+  name: GetTradePrices
+  nameWithType: TransferNftById.GetTradePrices
+  fullName: ChiaWalletSdk.TransferNftById.GetTradePrices
+- uid: ChiaWalletSdk.ITransferNftById.GetTradePrices
+  commentId: M:ChiaWalletSdk.ITransferNftById.GetTradePrices
+  parent: ChiaWalletSdk.ITransferNftById
+  isExternal: true
+  href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_GetTradePrices
+  name: GetTradePrices()
+  nameWithType: ITransferNftById.GetTradePrices()
+  fullName: ChiaWalletSdk.ITransferNftById.GetTradePrices()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ITransferNftById.GetTradePrices
+    name: GetTradePrices
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_GetTradePrices
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ITransferNftById.GetTradePrices
+    name: GetTradePrices
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_GetTradePrices
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.TransferNftById.SetOwnerId*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.SetOwnerId
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_SetOwnerId_ChiaWalletSdk_Id_
+  name: SetOwnerId
+  nameWithType: TransferNftById.SetOwnerId
+  fullName: ChiaWalletSdk.TransferNftById.SetOwnerId
+- uid: ChiaWalletSdk.ITransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  commentId: M:ChiaWalletSdk.ITransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  parent: ChiaWalletSdk.ITransferNftById
+  isExternal: true
+  href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_SetOwnerId_ChiaWalletSdk_Id_
+  name: SetOwnerId(Id)
+  nameWithType: ITransferNftById.SetOwnerId(Id)
+  fullName: ChiaWalletSdk.ITransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ITransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+    name: SetOwnerId
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_SetOwnerId_ChiaWalletSdk_Id_
+  - name: (
+  - uid: ChiaWalletSdk.Id
+    name: Id
+    isExternal: true
+    href: ChiaWalletSdk.Id.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ITransferNftById.SetOwnerId(ChiaWalletSdk.Id)
+    name: SetOwnerId
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_SetOwnerId_ChiaWalletSdk_Id_
+  - name: (
+  - uid: ChiaWalletSdk.Id
+    name: Id
+    isExternal: true
+    href: ChiaWalletSdk.Id.html
+  - name: )
+- uid: ChiaWalletSdk.TransferNftById
+  commentId: T:ChiaWalletSdk.TransferNftById
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html
+  name: TransferNftById
+  nameWithType: TransferNftById
+  fullName: ChiaWalletSdk.TransferNftById
+- uid: ChiaWalletSdk.TransferNftById.SetTradePrices*
+  commentId: Overload:ChiaWalletSdk.TransferNftById.SetTradePrices
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html#ChiaWalletSdk_TransferNftById_SetTradePrices_System_Collections_Generic_List_ChiaWalletSdk_TradePrice__
+  name: SetTradePrices
+  nameWithType: TransferNftById.SetTradePrices
+  fullName: ChiaWalletSdk.TransferNftById.SetTradePrices
+- uid: ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  commentId: M:ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+  parent: ChiaWalletSdk.ITransferNftById
+  isExternal: true
+  href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_SetTradePrices_System_Collections_Generic_List_ChiaWalletSdk_TradePrice__
+  name: SetTradePrices(List<TradePrice>)
+  nameWithType: ITransferNftById.SetTradePrices(List<TradePrice>)
+  fullName: ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List<ChiaWalletSdk.TradePrice>)
+  nameWithType.vb: ITransferNftById.SetTradePrices(List(Of TradePrice))
+  fullName.vb: ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List(Of ChiaWalletSdk.TradePrice))
+  name.vb: SetTradePrices(List(Of TradePrice))
+  spec.csharp:
+  - uid: ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+    name: SetTradePrices
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_SetTradePrices_System_Collections_Generic_List_ChiaWalletSdk_TradePrice__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.TradePrice
+    name: TradePrice
+    isExternal: true
+    href: ChiaWalletSdk.TradePrice.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ITransferNftById.SetTradePrices(System.Collections.Generic.List{ChiaWalletSdk.TradePrice})
+    name: SetTradePrices
+    isExternal: true
+    href: ChiaWalletSdk.ITransferNftById.html#ChiaWalletSdk_ITransferNftById_SetTradePrices_System_Collections_Generic_List_ChiaWalletSdk_TradePrice__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.TradePrice
+    name: TradePrice
+    isExternal: true
+    href: ChiaWalletSdk.TradePrice.html
+  - name: )
+  - name: )

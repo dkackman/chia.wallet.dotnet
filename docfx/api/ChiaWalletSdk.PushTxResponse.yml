@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.PushTxResponse
+  commentId: T:ChiaWalletSdk.PushTxResponse
+  id: PushTxResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.PushTxResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.PushTxResponse.#ctor(System.String,System.String,System.Boolean)
+  - ChiaWalletSdk.PushTxResponse.CloneRustArcPtr
+  - ChiaWalletSdk.PushTxResponse.Destroy
+  - ChiaWalletSdk.PushTxResponse.Dispose
+  - ChiaWalletSdk.PushTxResponse.Finalize
+  - ChiaWalletSdk.PushTxResponse.FreeRustArcPtr
+  - ChiaWalletSdk.PushTxResponse.GetError
+  - ChiaWalletSdk.PushTxResponse.GetStatus
+  - ChiaWalletSdk.PushTxResponse.GetSuccess
+  - ChiaWalletSdk.PushTxResponse.SetError(System.String)
+  - ChiaWalletSdk.PushTxResponse.SetStatus(System.String)
+  - ChiaWalletSdk.PushTxResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.PushTxResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: PushTxResponse
+  nameWithType: PushTxResponse
+  fullName: ChiaWalletSdk.PushTxResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class PushTxResponse : IPushTxResponse'
+    content.vb: Public Class PushTxResponse Implements IPushTxResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IPushTxResponse
+- uid: ChiaWalletSdk.PushTxResponse.pointer
+  commentId: F:ChiaWalletSdk.PushTxResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: PushTxResponse.pointer
+  fullName: ChiaWalletSdk.PushTxResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.PushTxResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.PushTxResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: PushTxResponse(nint)
+  nameWithType: PushTxResponse.PushTxResponse(nint)
+  fullName: ChiaWalletSdk.PushTxResponse.PushTxResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public PushTxResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.PushTxResponse.#ctor*
+  nameWithType.vb: PushTxResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.PushTxResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.PushTxResponse.Finalize
+  commentId: M:ChiaWalletSdk.PushTxResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: ~PushTxResponse()
+  nameWithType: PushTxResponse.~PushTxResponse()
+  fullName: ChiaWalletSdk.PushTxResponse.~PushTxResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~PushTxResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.PushTxResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.PushTxResponse.#ctor(System.String,System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.PushTxResponse.#ctor(System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean)'
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: PushTxResponse(string, string?, bool)
+  nameWithType: PushTxResponse.PushTxResponse(string, string?, bool)
+  fullName: ChiaWalletSdk.PushTxResponse.PushTxResponse(string, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public PushTxResponse(string status, string? error, bool success)
+    parameters:
+    - id: status
+      type: System.String
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(status As String, [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.PushTxResponse.#ctor*
+  nameWithType.vb: PushTxResponse.New(String, String, Boolean)
+  fullName.vb: ChiaWalletSdk.PushTxResponse.New(String, String, Boolean)
+  name.vb: New(String, String, Boolean)
+- uid: ChiaWalletSdk.PushTxResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.PushTxResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: PushTxResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.PushTxResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.PushTxResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.PushTxResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.PushTxResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: PushTxResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.PushTxResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.PushTxResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.PushTxResponse.Destroy
+  commentId: M:ChiaWalletSdk.PushTxResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: PushTxResponse.Destroy()
+  fullName: ChiaWalletSdk.PushTxResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.PushTxResponse.Destroy*
+- uid: ChiaWalletSdk.PushTxResponse.Dispose
+  commentId: M:ChiaWalletSdk.PushTxResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: PushTxResponse.Dispose()
+  fullName: ChiaWalletSdk.PushTxResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.PushTxResponse.Dispose*
+- uid: ChiaWalletSdk.PushTxResponse.GetError
+  commentId: M:ChiaWalletSdk.PushTxResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: PushTxResponse.GetError()
+  fullName: ChiaWalletSdk.PushTxResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.PushTxResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IPushTxResponse.GetError
+- uid: ChiaWalletSdk.PushTxResponse.GetStatus
+  commentId: M:ChiaWalletSdk.PushTxResponse.GetStatus
+  id: GetStatus
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: GetStatus()
+  nameWithType: PushTxResponse.GetStatus()
+  fullName: ChiaWalletSdk.PushTxResponse.GetStatus()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetStatus()
+    return:
+      type: System.String
+    content.vb: Public Function GetStatus() As String
+  overload: ChiaWalletSdk.PushTxResponse.GetStatus*
+  implements:
+  - ChiaWalletSdk.IPushTxResponse.GetStatus
+- uid: ChiaWalletSdk.PushTxResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.PushTxResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: PushTxResponse.GetSuccess()
+  fullName: ChiaWalletSdk.PushTxResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.PushTxResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IPushTxResponse.GetSuccess
+- uid: ChiaWalletSdk.PushTxResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.PushTxResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: PushTxResponse.SetError(string?)
+  fullName: ChiaWalletSdk.PushTxResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PushTxResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.PushTxResponse
+    content.vb: Public Function SetError(value As String) As PushTxResponse
+  overload: ChiaWalletSdk.PushTxResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IPushTxResponse.SetError(System.String)
+  nameWithType.vb: PushTxResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.PushTxResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.PushTxResponse.SetStatus(System.String)
+  commentId: M:ChiaWalletSdk.PushTxResponse.SetStatus(System.String)
+  id: SetStatus(System.String)
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: SetStatus(string)
+  nameWithType: PushTxResponse.SetStatus(string)
+  fullName: ChiaWalletSdk.PushTxResponse.SetStatus(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PushTxResponse SetStatus(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.PushTxResponse
+    content.vb: Public Function SetStatus(value As String) As PushTxResponse
+  overload: ChiaWalletSdk.PushTxResponse.SetStatus*
+  implements:
+  - ChiaWalletSdk.IPushTxResponse.SetStatus(System.String)
+  nameWithType.vb: PushTxResponse.SetStatus(String)
+  fullName.vb: ChiaWalletSdk.PushTxResponse.SetStatus(String)
+  name.vb: SetStatus(String)
+- uid: ChiaWalletSdk.PushTxResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.PushTxResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.PushTxResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: PushTxResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.PushTxResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PushTxResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.PushTxResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As PushTxResponse
+  overload: ChiaWalletSdk.PushTxResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IPushTxResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: PushTxResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.PushTxResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IPushTxResponse
+  commentId: T:ChiaWalletSdk.IPushTxResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html
+  name: IPushTxResponse
+  nameWithType: IPushTxResponse
+  fullName: ChiaWalletSdk.IPushTxResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.PushTxResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse__ctor_System_IntPtr_
+  name: PushTxResponse
+  nameWithType: PushTxResponse.PushTxResponse
+  fullName: ChiaWalletSdk.PushTxResponse.PushTxResponse
+  nameWithType.vb: PushTxResponse.New
+  fullName.vb: ChiaWalletSdk.PushTxResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.PushTxResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_Finalize
+  name: ~PushTxResponse
+  nameWithType: PushTxResponse.~PushTxResponse
+  fullName: ChiaWalletSdk.PushTxResponse.~PushTxResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.PushTxResponse.Finalize*
+    name: PushTxResponse
+    isExternal: true
+    href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.PushTxResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: PushTxResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.PushTxResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.PushTxResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: PushTxResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.PushTxResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.PushTxResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_Destroy
+  name: Destroy
+  nameWithType: PushTxResponse.Destroy
+  fullName: ChiaWalletSdk.PushTxResponse.Destroy
+- uid: ChiaWalletSdk.PushTxResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_Dispose
+  name: Dispose
+  nameWithType: PushTxResponse.Dispose
+  fullName: ChiaWalletSdk.PushTxResponse.Dispose
+- uid: ChiaWalletSdk.PushTxResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_GetError
+  name: GetError
+  nameWithType: PushTxResponse.GetError
+  fullName: ChiaWalletSdk.PushTxResponse.GetError
+- uid: ChiaWalletSdk.IPushTxResponse.GetError
+  commentId: M:ChiaWalletSdk.IPushTxResponse.GetError
+  parent: ChiaWalletSdk.IPushTxResponse
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetError
+  name: GetError()
+  nameWithType: IPushTxResponse.GetError()
+  fullName: ChiaWalletSdk.IPushTxResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPushTxResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPushTxResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PushTxResponse.GetStatus*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.GetStatus
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_GetStatus
+  name: GetStatus
+  nameWithType: PushTxResponse.GetStatus
+  fullName: ChiaWalletSdk.PushTxResponse.GetStatus
+- uid: ChiaWalletSdk.IPushTxResponse.GetStatus
+  commentId: M:ChiaWalletSdk.IPushTxResponse.GetStatus
+  parent: ChiaWalletSdk.IPushTxResponse
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetStatus
+  name: GetStatus()
+  nameWithType: IPushTxResponse.GetStatus()
+  fullName: ChiaWalletSdk.IPushTxResponse.GetStatus()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPushTxResponse.GetStatus
+    name: GetStatus
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetStatus
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPushTxResponse.GetStatus
+    name: GetStatus
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetStatus
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PushTxResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: PushTxResponse.GetSuccess
+  fullName: ChiaWalletSdk.PushTxResponse.GetSuccess
+- uid: ChiaWalletSdk.IPushTxResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IPushTxResponse.GetSuccess
+  parent: ChiaWalletSdk.IPushTxResponse
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IPushTxResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IPushTxResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPushTxResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPushTxResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PushTxResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_SetError_System_String_
+  name: SetError
+  nameWithType: PushTxResponse.SetError
+  fullName: ChiaWalletSdk.PushTxResponse.SetError
+- uid: ChiaWalletSdk.IPushTxResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IPushTxResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IPushTxResponse
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IPushTxResponse.SetError(string)
+  fullName: ChiaWalletSdk.IPushTxResponse.SetError(string)
+  nameWithType.vb: IPushTxResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IPushTxResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPushTxResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPushTxResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.PushTxResponse
+  commentId: T:ChiaWalletSdk.PushTxResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html
+  name: PushTxResponse
+  nameWithType: PushTxResponse
+  fullName: ChiaWalletSdk.PushTxResponse
+- uid: ChiaWalletSdk.PushTxResponse.SetStatus*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.SetStatus
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_SetStatus_System_String_
+  name: SetStatus
+  nameWithType: PushTxResponse.SetStatus
+  fullName: ChiaWalletSdk.PushTxResponse.SetStatus
+- uid: ChiaWalletSdk.IPushTxResponse.SetStatus(System.String)
+  commentId: M:ChiaWalletSdk.IPushTxResponse.SetStatus(System.String)
+  parent: ChiaWalletSdk.IPushTxResponse
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetStatus_System_String_
+  name: SetStatus(string)
+  nameWithType: IPushTxResponse.SetStatus(string)
+  fullName: ChiaWalletSdk.IPushTxResponse.SetStatus(string)
+  nameWithType.vb: IPushTxResponse.SetStatus(String)
+  fullName.vb: ChiaWalletSdk.IPushTxResponse.SetStatus(String)
+  name.vb: SetStatus(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPushTxResponse.SetStatus(System.String)
+    name: SetStatus
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetStatus_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPushTxResponse.SetStatus(System.String)
+    name: SetStatus
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetStatus_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.PushTxResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.PushTxResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.PushTxResponse.html#ChiaWalletSdk_PushTxResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: PushTxResponse.SetSuccess
+  fullName: ChiaWalletSdk.PushTxResponse.SetSuccess
+- uid: ChiaWalletSdk.IPushTxResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IPushTxResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IPushTxResponse
+  isExternal: true
+  href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IPushTxResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IPushTxResponse.SetSuccess(bool)
+  nameWithType.vb: IPushTxResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IPushTxResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPushTxResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPushTxResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IPushTxResponse.html#ChiaWalletSdk_IPushTxResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

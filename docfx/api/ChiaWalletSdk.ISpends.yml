@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ISpends
+  commentId: T:ChiaWalletSdk.ISpends
+  id: ISpends
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ISpends.AddCat(ChiaWalletSdk.Cat)
+  - ChiaWalletSdk.ISpends.AddNft(ChiaWalletSdk.Nft)
+  - ChiaWalletSdk.ISpends.AddOptionalCondition(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.ISpends.AddRequiredCondition(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.ISpends.AddXch(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.ISpends.Apply(System.Collections.Generic.List{ChiaWalletSdk.Action})
+  - ChiaWalletSdk.ISpends.DisableSettlementAssertions
+  - ChiaWalletSdk.ISpends.NonSettlementCoinIds
+  - ChiaWalletSdk.ISpends.P2PuzzleHashes
+  - ChiaWalletSdk.ISpends.Prepare(ChiaWalletSdk.Deltas)
+  - ChiaWalletSdk.ISpends.SelectedAssetIds
+  - ChiaWalletSdk.ISpends.SelectedCatAmount(System.Byte[])
+  - ChiaWalletSdk.ISpends.SelectedXchAmount
+  langs:
+  - csharp
+  - vb
+  name: ISpends
+  nameWithType: ISpends
+  fullName: ChiaWalletSdk.ISpends
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface ISpends
+    content.vb: Public Interface ISpends
+  derivedClasses:
+  - ChiaWalletSdk.Spends
+- uid: ChiaWalletSdk.ISpends.AddCat(ChiaWalletSdk.Cat)
+  commentId: M:ChiaWalletSdk.ISpends.AddCat(ChiaWalletSdk.Cat)
+  id: AddCat(ChiaWalletSdk.Cat)
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: AddCat(Cat)
+  nameWithType: ISpends.AddCat(Cat)
+  fullName: ChiaWalletSdk.ISpends.AddCat(ChiaWalletSdk.Cat)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void AddCat(Cat cat)
+    parameters:
+    - id: cat
+      type: ChiaWalletSdk.Cat
+    content.vb: Sub AddCat(cat As Cat)
+  overload: ChiaWalletSdk.ISpends.AddCat*
+- uid: ChiaWalletSdk.ISpends.AddNft(ChiaWalletSdk.Nft)
+  commentId: M:ChiaWalletSdk.ISpends.AddNft(ChiaWalletSdk.Nft)
+  id: AddNft(ChiaWalletSdk.Nft)
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: AddNft(Nft)
+  nameWithType: ISpends.AddNft(Nft)
+  fullName: ChiaWalletSdk.ISpends.AddNft(ChiaWalletSdk.Nft)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void AddNft(Nft nft)
+    parameters:
+    - id: nft
+      type: ChiaWalletSdk.Nft
+    content.vb: Sub AddNft(nft As Nft)
+  overload: ChiaWalletSdk.ISpends.AddNft*
+- uid: ChiaWalletSdk.ISpends.AddOptionalCondition(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.ISpends.AddOptionalCondition(ChiaWalletSdk.Program)
+  id: AddOptionalCondition(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: AddOptionalCondition(Program)
+  nameWithType: ISpends.AddOptionalCondition(Program)
+  fullName: ChiaWalletSdk.ISpends.AddOptionalCondition(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void AddOptionalCondition(Program condition)
+    parameters:
+    - id: condition
+      type: ChiaWalletSdk.Program
+    content.vb: Sub AddOptionalCondition(condition As Program)
+  overload: ChiaWalletSdk.ISpends.AddOptionalCondition*
+- uid: ChiaWalletSdk.ISpends.AddRequiredCondition(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.ISpends.AddRequiredCondition(ChiaWalletSdk.Program)
+  id: AddRequiredCondition(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: AddRequiredCondition(Program)
+  nameWithType: ISpends.AddRequiredCondition(Program)
+  fullName: ChiaWalletSdk.ISpends.AddRequiredCondition(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void AddRequiredCondition(Program condition)
+    parameters:
+    - id: condition
+      type: ChiaWalletSdk.Program
+    content.vb: Sub AddRequiredCondition(condition As Program)
+  overload: ChiaWalletSdk.ISpends.AddRequiredCondition*
+- uid: ChiaWalletSdk.ISpends.AddXch(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.ISpends.AddXch(ChiaWalletSdk.Coin)
+  id: AddXch(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: AddXch(Coin)
+  nameWithType: ISpends.AddXch(Coin)
+  fullName: ChiaWalletSdk.ISpends.AddXch(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void AddXch(Coin coin)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    content.vb: Sub AddXch(coin As Coin)
+  overload: ChiaWalletSdk.ISpends.AddXch*
+- uid: ChiaWalletSdk.ISpends.Apply(System.Collections.Generic.List{ChiaWalletSdk.Action})
+  commentId: M:ChiaWalletSdk.ISpends.Apply(System.Collections.Generic.List{ChiaWalletSdk.Action})
+  id: Apply(System.Collections.Generic.List{ChiaWalletSdk.Action})
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: Apply(List<Action>)
+  nameWithType: ISpends.Apply(List<Action>)
+  fullName: ChiaWalletSdk.ISpends.Apply(System.Collections.Generic.List<ChiaWalletSdk.Action>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Deltas Apply(List<Action> actions)
+    parameters:
+    - id: actions
+      type: System.Collections.Generic.List{ChiaWalletSdk.Action}
+    return:
+      type: ChiaWalletSdk.Deltas
+    content.vb: Function Apply(actions As List(Of Action)) As Deltas
+  overload: ChiaWalletSdk.ISpends.Apply*
+  nameWithType.vb: ISpends.Apply(List(Of Action))
+  fullName.vb: ChiaWalletSdk.ISpends.Apply(System.Collections.Generic.List(Of ChiaWalletSdk.Action))
+  name.vb: Apply(List(Of Action))
+- uid: ChiaWalletSdk.ISpends.DisableSettlementAssertions
+  commentId: M:ChiaWalletSdk.ISpends.DisableSettlementAssertions
+  id: DisableSettlementAssertions
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: DisableSettlementAssertions()
+  nameWithType: ISpends.DisableSettlementAssertions()
+  fullName: ChiaWalletSdk.ISpends.DisableSettlementAssertions()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void DisableSettlementAssertions()
+    content.vb: Sub DisableSettlementAssertions()
+  overload: ChiaWalletSdk.ISpends.DisableSettlementAssertions*
+- uid: ChiaWalletSdk.ISpends.NonSettlementCoinIds
+  commentId: M:ChiaWalletSdk.ISpends.NonSettlementCoinIds
+  id: NonSettlementCoinIds
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: NonSettlementCoinIds()
+  nameWithType: ISpends.NonSettlementCoinIds()
+  fullName: ChiaWalletSdk.ISpends.NonSettlementCoinIds()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<byte[]> NonSettlementCoinIds()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Function NonSettlementCoinIds() As List(Of Byte())
+  overload: ChiaWalletSdk.ISpends.NonSettlementCoinIds*
+- uid: ChiaWalletSdk.ISpends.P2PuzzleHashes
+  commentId: M:ChiaWalletSdk.ISpends.P2PuzzleHashes
+  id: P2PuzzleHashes
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: P2PuzzleHashes()
+  nameWithType: ISpends.P2PuzzleHashes()
+  fullName: ChiaWalletSdk.ISpends.P2PuzzleHashes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<byte[]> P2PuzzleHashes()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Function P2PuzzleHashes() As List(Of Byte())
+  overload: ChiaWalletSdk.ISpends.P2PuzzleHashes*
+- uid: ChiaWalletSdk.ISpends.Prepare(ChiaWalletSdk.Deltas)
+  commentId: M:ChiaWalletSdk.ISpends.Prepare(ChiaWalletSdk.Deltas)
+  id: Prepare(ChiaWalletSdk.Deltas)
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: Prepare(Deltas)
+  nameWithType: ISpends.Prepare(Deltas)
+  fullName: ChiaWalletSdk.ISpends.Prepare(ChiaWalletSdk.Deltas)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: FinishedSpends Prepare(Deltas deltas)
+    parameters:
+    - id: deltas
+      type: ChiaWalletSdk.Deltas
+    return:
+      type: ChiaWalletSdk.FinishedSpends
+    content.vb: Function Prepare(deltas As Deltas) As FinishedSpends
+  overload: ChiaWalletSdk.ISpends.Prepare*
+- uid: ChiaWalletSdk.ISpends.SelectedAssetIds
+  commentId: M:ChiaWalletSdk.ISpends.SelectedAssetIds
+  id: SelectedAssetIds
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: SelectedAssetIds()
+  nameWithType: ISpends.SelectedAssetIds()
+  fullName: ChiaWalletSdk.ISpends.SelectedAssetIds()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<byte[]> SelectedAssetIds()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Function SelectedAssetIds() As List(Of Byte())
+  overload: ChiaWalletSdk.ISpends.SelectedAssetIds*
+- uid: ChiaWalletSdk.ISpends.SelectedCatAmount(System.Byte[])
+  commentId: M:ChiaWalletSdk.ISpends.SelectedCatAmount(System.Byte[])
+  id: SelectedCatAmount(System.Byte[])
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: SelectedCatAmount(byte[])
+  nameWithType: ISpends.SelectedCatAmount(byte[])
+  fullName: ChiaWalletSdk.ISpends.SelectedCatAmount(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string SelectedCatAmount(byte[] assetId)
+    parameters:
+    - id: assetId
+      type: System.Byte[]
+    return:
+      type: System.String
+    content.vb: Function SelectedCatAmount(assetId As Byte()) As String
+  overload: ChiaWalletSdk.ISpends.SelectedCatAmount*
+  nameWithType.vb: ISpends.SelectedCatAmount(Byte())
+  fullName.vb: ChiaWalletSdk.ISpends.SelectedCatAmount(Byte())
+  name.vb: SelectedCatAmount(Byte())
+- uid: ChiaWalletSdk.ISpends.SelectedXchAmount
+  commentId: M:ChiaWalletSdk.ISpends.SelectedXchAmount
+  id: SelectedXchAmount
+  parent: ChiaWalletSdk.ISpends
+  langs:
+  - csharp
+  - vb
+  name: SelectedXchAmount()
+  nameWithType: ISpends.SelectedXchAmount()
+  fullName: ChiaWalletSdk.ISpends.SelectedXchAmount()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string SelectedXchAmount()
+    return:
+      type: System.String
+    content.vb: Function SelectedXchAmount() As String
+  overload: ChiaWalletSdk.ISpends.SelectedXchAmount*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.ISpends.AddCat*
+  commentId: Overload:ChiaWalletSdk.ISpends.AddCat
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_AddCat_ChiaWalletSdk_Cat_
+  name: AddCat
+  nameWithType: ISpends.AddCat
+  fullName: ChiaWalletSdk.ISpends.AddCat
+- uid: ChiaWalletSdk.Cat
+  commentId: T:ChiaWalletSdk.Cat
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Cat.html
+  name: Cat
+  nameWithType: Cat
+  fullName: ChiaWalletSdk.Cat
+- uid: ChiaWalletSdk.ISpends.AddNft*
+  commentId: Overload:ChiaWalletSdk.ISpends.AddNft
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_AddNft_ChiaWalletSdk_Nft_
+  name: AddNft
+  nameWithType: ISpends.AddNft
+  fullName: ChiaWalletSdk.ISpends.AddNft
+- uid: ChiaWalletSdk.Nft
+  commentId: T:ChiaWalletSdk.Nft
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Nft.html
+  name: Nft
+  nameWithType: Nft
+  fullName: ChiaWalletSdk.Nft
+- uid: ChiaWalletSdk.ISpends.AddOptionalCondition*
+  commentId: Overload:ChiaWalletSdk.ISpends.AddOptionalCondition
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_AddOptionalCondition_ChiaWalletSdk_Program_
+  name: AddOptionalCondition
+  nameWithType: ISpends.AddOptionalCondition
+  fullName: ChiaWalletSdk.ISpends.AddOptionalCondition
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.ISpends.AddRequiredCondition*
+  commentId: Overload:ChiaWalletSdk.ISpends.AddRequiredCondition
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_AddRequiredCondition_ChiaWalletSdk_Program_
+  name: AddRequiredCondition
+  nameWithType: ISpends.AddRequiredCondition
+  fullName: ChiaWalletSdk.ISpends.AddRequiredCondition
+- uid: ChiaWalletSdk.ISpends.AddXch*
+  commentId: Overload:ChiaWalletSdk.ISpends.AddXch
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_AddXch_ChiaWalletSdk_Coin_
+  name: AddXch
+  nameWithType: ISpends.AddXch
+  fullName: ChiaWalletSdk.ISpends.AddXch
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.ISpends.Apply*
+  commentId: Overload:ChiaWalletSdk.ISpends.Apply
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_Apply_System_Collections_Generic_List_ChiaWalletSdk_Action__
+  name: Apply
+  nameWithType: ISpends.Apply
+  fullName: ChiaWalletSdk.ISpends.Apply
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Action}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Action}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Action.html
+  name: List<Action>
+  nameWithType: List<Action>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Action>
+  nameWithType.vb: List(Of Action)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Action)
+  name.vb: List(Of Action)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Action
+    name: Action
+    isExternal: true
+    href: ChiaWalletSdk.Action.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Action
+    name: Action
+    isExternal: true
+    href: ChiaWalletSdk.Action.html
+  - name: )
+- uid: ChiaWalletSdk.Deltas
+  commentId: T:ChiaWalletSdk.Deltas
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Deltas.html
+  name: Deltas
+  nameWithType: Deltas
+  fullName: ChiaWalletSdk.Deltas
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.ISpends.DisableSettlementAssertions*
+  commentId: Overload:ChiaWalletSdk.ISpends.DisableSettlementAssertions
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_DisableSettlementAssertions
+  name: DisableSettlementAssertions
+  nameWithType: ISpends.DisableSettlementAssertions
+  fullName: ChiaWalletSdk.ISpends.DisableSettlementAssertions
+- uid: ChiaWalletSdk.ISpends.NonSettlementCoinIds*
+  commentId: Overload:ChiaWalletSdk.ISpends.NonSettlementCoinIds
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_NonSettlementCoinIds
+  name: NonSettlementCoinIds
+  nameWithType: ISpends.NonSettlementCoinIds
+  fullName: ChiaWalletSdk.ISpends.NonSettlementCoinIds
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.ISpends.P2PuzzleHashes*
+  commentId: Overload:ChiaWalletSdk.ISpends.P2PuzzleHashes
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_P2PuzzleHashes
+  name: P2PuzzleHashes
+  nameWithType: ISpends.P2PuzzleHashes
+  fullName: ChiaWalletSdk.ISpends.P2PuzzleHashes
+- uid: ChiaWalletSdk.ISpends.Prepare*
+  commentId: Overload:ChiaWalletSdk.ISpends.Prepare
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_Prepare_ChiaWalletSdk_Deltas_
+  name: Prepare
+  nameWithType: ISpends.Prepare
+  fullName: ChiaWalletSdk.ISpends.Prepare
+- uid: ChiaWalletSdk.FinishedSpends
+  commentId: T:ChiaWalletSdk.FinishedSpends
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.FinishedSpends.html
+  name: FinishedSpends
+  nameWithType: FinishedSpends
+  fullName: ChiaWalletSdk.FinishedSpends
+- uid: ChiaWalletSdk.ISpends.SelectedAssetIds*
+  commentId: Overload:ChiaWalletSdk.ISpends.SelectedAssetIds
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_SelectedAssetIds
+  name: SelectedAssetIds
+  nameWithType: ISpends.SelectedAssetIds
+  fullName: ChiaWalletSdk.ISpends.SelectedAssetIds
+- uid: ChiaWalletSdk.ISpends.SelectedCatAmount*
+  commentId: Overload:ChiaWalletSdk.ISpends.SelectedCatAmount
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_SelectedCatAmount_System_Byte___
+  name: SelectedCatAmount
+  nameWithType: ISpends.SelectedCatAmount
+  fullName: ChiaWalletSdk.ISpends.SelectedCatAmount
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.ISpends.SelectedXchAmount*
+  commentId: Overload:ChiaWalletSdk.ISpends.SelectedXchAmount
+  isExternal: true
+  href: ChiaWalletSdk.ISpends.html#ChiaWalletSdk_ISpends_SelectedXchAmount
+  name: SelectedXchAmount
+  nameWithType: ISpends.SelectedXchAmount
+  fullName: ChiaWalletSdk.ISpends.SelectedXchAmount

@@ -1,0 +1,773 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IMipsSpend
+  commentId: T:ChiaWalletSdk.IMipsSpend
+  id: IMipsSpend
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IMipsSpend.BlsMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.PublicKey,System.Boolean)
+  - ChiaWalletSdk.IMipsSpend.CustomMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.Spend)
+  - ChiaWalletSdk.IMipsSpend.FixedPuzzleMember(ChiaWalletSdk.MemberConfig,System.Byte[])
+  - ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable(System.Byte[],System.UInt32,System.Byte[],System.Byte[],System.Byte[])
+  - ChiaWalletSdk.IMipsSpend.K1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.K1PublicKey,ChiaWalletSdk.K1Signature,System.Boolean)
+  - ChiaWalletSdk.IMipsSpend.MOfN(ChiaWalletSdk.MemberConfig,System.UInt32,System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.IMipsSpend.PasskeyMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Byte[],System.Byte[],System.UInt32,System.Boolean)
+  - ChiaWalletSdk.IMipsSpend.PreventConditionOpcode(System.UInt16)
+  - ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins
+  - ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects
+  - ChiaWalletSdk.IMipsSpend.R1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Boolean)
+  - ChiaWalletSdk.IMipsSpend.SingletonMember(ChiaWalletSdk.MemberConfig,System.Byte[],System.Boolean,System.Byte[],System.String)
+  - ChiaWalletSdk.IMipsSpend.Spend(System.Byte[])
+  - ChiaWalletSdk.IMipsSpend.SpendVault(ChiaWalletSdk.Vault)
+  - ChiaWalletSdk.IMipsSpend.Timelock(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMipsSpend
+  nameWithType: IMipsSpend
+  fullName: ChiaWalletSdk.IMipsSpend
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IMipsSpend
+    content.vb: Public Interface IMipsSpend
+  derivedClasses:
+  - ChiaWalletSdk.MipsSpend
+- uid: ChiaWalletSdk.IMipsSpend.BlsMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.PublicKey,System.Boolean)
+  commentId: M:ChiaWalletSdk.IMipsSpend.BlsMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.PublicKey,System.Boolean)
+  id: BlsMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.PublicKey,System.Boolean)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: BlsMember(MemberConfig, PublicKey, bool)
+  nameWithType: IMipsSpend.BlsMember(MemberConfig, PublicKey, bool)
+  fullName: ChiaWalletSdk.IMipsSpend.BlsMember(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.PublicKey, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void BlsMember(MemberConfig config, PublicKey publicKey, bool fastForward)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: publicKey
+      type: ChiaWalletSdk.PublicKey
+    - id: fastForward
+      type: System.Boolean
+    content.vb: Sub BlsMember(config As MemberConfig, publicKey As PublicKey, fastForward As Boolean)
+  overload: ChiaWalletSdk.IMipsSpend.BlsMember*
+  nameWithType.vb: IMipsSpend.BlsMember(MemberConfig, PublicKey, Boolean)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.BlsMember(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.PublicKey, Boolean)
+  name.vb: BlsMember(MemberConfig, PublicKey, Boolean)
+- uid: ChiaWalletSdk.IMipsSpend.CustomMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.Spend)
+  commentId: M:ChiaWalletSdk.IMipsSpend.CustomMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.Spend)
+  id: CustomMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.Spend)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: CustomMember(MemberConfig, Spend)
+  nameWithType: IMipsSpend.CustomMember(MemberConfig, Spend)
+  fullName: ChiaWalletSdk.IMipsSpend.CustomMember(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.Spend)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void CustomMember(MemberConfig config, Spend spend)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: spend
+      type: ChiaWalletSdk.Spend
+    content.vb: Sub CustomMember(config As MemberConfig, spend As Spend)
+  overload: ChiaWalletSdk.IMipsSpend.CustomMember*
+- uid: ChiaWalletSdk.IMipsSpend.FixedPuzzleMember(ChiaWalletSdk.MemberConfig,System.Byte[])
+  commentId: M:ChiaWalletSdk.IMipsSpend.FixedPuzzleMember(ChiaWalletSdk.MemberConfig,System.Byte[])
+  id: FixedPuzzleMember(ChiaWalletSdk.MemberConfig,System.Byte[])
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: FixedPuzzleMember(MemberConfig, byte[])
+  nameWithType: IMipsSpend.FixedPuzzleMember(MemberConfig, byte[])
+  fullName: ChiaWalletSdk.IMipsSpend.FixedPuzzleMember(ChiaWalletSdk.MemberConfig, byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void FixedPuzzleMember(MemberConfig config, byte[] fixedPuzzleHash)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: fixedPuzzleHash
+      type: System.Byte[]
+    content.vb: Sub FixedPuzzleMember(config As MemberConfig, fixedPuzzleHash As Byte())
+  overload: ChiaWalletSdk.IMipsSpend.FixedPuzzleMember*
+  nameWithType.vb: IMipsSpend.FixedPuzzleMember(MemberConfig, Byte())
+  fullName.vb: ChiaWalletSdk.IMipsSpend.FixedPuzzleMember(ChiaWalletSdk.MemberConfig, Byte())
+  name.vb: FixedPuzzleMember(MemberConfig, Byte())
+- uid: ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable(System.Byte[],System.UInt32,System.Byte[],System.Byte[],System.Byte[])
+  commentId: M:ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable(System.Byte[],System.UInt32,System.Byte[],System.Byte[],System.Byte[])
+  id: Force1Of2RestrictedVariable(System.Byte[],System.UInt32,System.Byte[],System.Byte[],System.Byte[])
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: Force1Of2RestrictedVariable(byte[], uint, byte[], byte[], byte[])
+  nameWithType: IMipsSpend.Force1Of2RestrictedVariable(byte[], uint, byte[], byte[], byte[])
+  fullName: ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable(byte[], uint, byte[], byte[], byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void Force1Of2RestrictedVariable(byte[] leftSideSubtreeHash, uint nonce, byte[] memberValidatorListHash, byte[] delegatedPuzzleValidatorListHash, byte[] newRightSideMemberHash)
+    parameters:
+    - id: leftSideSubtreeHash
+      type: System.Byte[]
+    - id: nonce
+      type: System.UInt32
+    - id: memberValidatorListHash
+      type: System.Byte[]
+    - id: delegatedPuzzleValidatorListHash
+      type: System.Byte[]
+    - id: newRightSideMemberHash
+      type: System.Byte[]
+    content.vb: Sub Force1Of2RestrictedVariable(leftSideSubtreeHash As Byte(), nonce As UInteger, memberValidatorListHash As Byte(), delegatedPuzzleValidatorListHash As Byte(), newRightSideMemberHash As Byte())
+  overload: ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable*
+  nameWithType.vb: IMipsSpend.Force1Of2RestrictedVariable(Byte(), UInteger, Byte(), Byte(), Byte())
+  fullName.vb: ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable(Byte(), UInteger, Byte(), Byte(), Byte())
+  name.vb: Force1Of2RestrictedVariable(Byte(), UInteger, Byte(), Byte(), Byte())
+- uid: ChiaWalletSdk.IMipsSpend.K1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.K1PublicKey,ChiaWalletSdk.K1Signature,System.Boolean)
+  commentId: M:ChiaWalletSdk.IMipsSpend.K1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.K1PublicKey,ChiaWalletSdk.K1Signature,System.Boolean)
+  id: K1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.K1PublicKey,ChiaWalletSdk.K1Signature,System.Boolean)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: K1Member(MemberConfig, K1PublicKey, K1Signature, bool)
+  nameWithType: IMipsSpend.K1Member(MemberConfig, K1PublicKey, K1Signature, bool)
+  fullName: ChiaWalletSdk.IMipsSpend.K1Member(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.K1PublicKey, ChiaWalletSdk.K1Signature, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void K1Member(MemberConfig config, K1PublicKey publicKey, K1Signature signature, bool fastForward)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: publicKey
+      type: ChiaWalletSdk.K1PublicKey
+    - id: signature
+      type: ChiaWalletSdk.K1Signature
+    - id: fastForward
+      type: System.Boolean
+    content.vb: Sub K1Member(config As MemberConfig, publicKey As K1PublicKey, signature As K1Signature, fastForward As Boolean)
+  overload: ChiaWalletSdk.IMipsSpend.K1Member*
+  nameWithType.vb: IMipsSpend.K1Member(MemberConfig, K1PublicKey, K1Signature, Boolean)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.K1Member(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.K1PublicKey, ChiaWalletSdk.K1Signature, Boolean)
+  name.vb: K1Member(MemberConfig, K1PublicKey, K1Signature, Boolean)
+- uid: ChiaWalletSdk.IMipsSpend.MOfN(ChiaWalletSdk.MemberConfig,System.UInt32,System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IMipsSpend.MOfN(ChiaWalletSdk.MemberConfig,System.UInt32,System.Collections.Generic.List{System.Byte[]})
+  id: MOfN(ChiaWalletSdk.MemberConfig,System.UInt32,System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: MOfN(MemberConfig, uint, List<byte[]>)
+  nameWithType: IMipsSpend.MOfN(MemberConfig, uint, List<byte[]>)
+  fullName: ChiaWalletSdk.IMipsSpend.MOfN(ChiaWalletSdk.MemberConfig, uint, System.Collections.Generic.List<byte[]>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void MOfN(MemberConfig config, uint required, List<byte[]> items)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: required
+      type: System.UInt32
+    - id: items
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Sub MOfN(config As MemberConfig, required As UInteger, items As List(Of Byte()))
+  overload: ChiaWalletSdk.IMipsSpend.MOfN*
+  nameWithType.vb: IMipsSpend.MOfN(MemberConfig, UInteger, List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IMipsSpend.MOfN(ChiaWalletSdk.MemberConfig, UInteger, System.Collections.Generic.List(Of Byte()))
+  name.vb: MOfN(MemberConfig, UInteger, List(Of Byte()))
+- uid: ChiaWalletSdk.IMipsSpend.PasskeyMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Byte[],System.Byte[],System.UInt32,System.Boolean)
+  commentId: M:ChiaWalletSdk.IMipsSpend.PasskeyMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Byte[],System.Byte[],System.UInt32,System.Boolean)
+  id: PasskeyMember(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Byte[],System.Byte[],System.UInt32,System.Boolean)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: PasskeyMember(MemberConfig, R1PublicKey, R1Signature, byte[], byte[], uint, bool)
+  nameWithType: IMipsSpend.PasskeyMember(MemberConfig, R1PublicKey, R1Signature, byte[], byte[], uint, bool)
+  fullName: ChiaWalletSdk.IMipsSpend.PasskeyMember(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.R1PublicKey, ChiaWalletSdk.R1Signature, byte[], byte[], uint, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void PasskeyMember(MemberConfig config, R1PublicKey publicKey, R1Signature signature, byte[] authenticatorData, byte[] clientDataJson, uint challengeIndex, bool fastForward)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: publicKey
+      type: ChiaWalletSdk.R1PublicKey
+    - id: signature
+      type: ChiaWalletSdk.R1Signature
+    - id: authenticatorData
+      type: System.Byte[]
+    - id: clientDataJson
+      type: System.Byte[]
+    - id: challengeIndex
+      type: System.UInt32
+    - id: fastForward
+      type: System.Boolean
+    content.vb: Sub PasskeyMember(config As MemberConfig, publicKey As R1PublicKey, signature As R1Signature, authenticatorData As Byte(), clientDataJson As Byte(), challengeIndex As UInteger, fastForward As Boolean)
+  overload: ChiaWalletSdk.IMipsSpend.PasskeyMember*
+  nameWithType.vb: IMipsSpend.PasskeyMember(MemberConfig, R1PublicKey, R1Signature, Byte(), Byte(), UInteger, Boolean)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.PasskeyMember(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.R1PublicKey, ChiaWalletSdk.R1Signature, Byte(), Byte(), UInteger, Boolean)
+  name.vb: PasskeyMember(MemberConfig, R1PublicKey, R1Signature, Byte(), Byte(), UInteger, Boolean)
+- uid: ChiaWalletSdk.IMipsSpend.PreventConditionOpcode(System.UInt16)
+  commentId: M:ChiaWalletSdk.IMipsSpend.PreventConditionOpcode(System.UInt16)
+  id: PreventConditionOpcode(System.UInt16)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: PreventConditionOpcode(ushort)
+  nameWithType: IMipsSpend.PreventConditionOpcode(ushort)
+  fullName: ChiaWalletSdk.IMipsSpend.PreventConditionOpcode(ushort)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void PreventConditionOpcode(ushort conditionOpcode)
+    parameters:
+    - id: conditionOpcode
+      type: System.UInt16
+    content.vb: Sub PreventConditionOpcode(conditionOpcode As UShort)
+  overload: ChiaWalletSdk.IMipsSpend.PreventConditionOpcode*
+  nameWithType.vb: IMipsSpend.PreventConditionOpcode(UShort)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.PreventConditionOpcode(UShort)
+  name.vb: PreventConditionOpcode(UShort)
+- uid: ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins
+  commentId: M:ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins
+  id: PreventMultipleCreateCoins
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: PreventMultipleCreateCoins()
+  nameWithType: IMipsSpend.PreventMultipleCreateCoins()
+  fullName: ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void PreventMultipleCreateCoins()
+    content.vb: Sub PreventMultipleCreateCoins()
+  overload: ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins*
+- uid: ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects
+  commentId: M:ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects
+  id: PreventVaultSideEffects
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: PreventVaultSideEffects()
+  nameWithType: IMipsSpend.PreventVaultSideEffects()
+  fullName: ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void PreventVaultSideEffects()
+    content.vb: Sub PreventVaultSideEffects()
+  overload: ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects*
+- uid: ChiaWalletSdk.IMipsSpend.R1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Boolean)
+  commentId: M:ChiaWalletSdk.IMipsSpend.R1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Boolean)
+  id: R1Member(ChiaWalletSdk.MemberConfig,ChiaWalletSdk.R1PublicKey,ChiaWalletSdk.R1Signature,System.Boolean)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: R1Member(MemberConfig, R1PublicKey, R1Signature, bool)
+  nameWithType: IMipsSpend.R1Member(MemberConfig, R1PublicKey, R1Signature, bool)
+  fullName: ChiaWalletSdk.IMipsSpend.R1Member(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.R1PublicKey, ChiaWalletSdk.R1Signature, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void R1Member(MemberConfig config, R1PublicKey publicKey, R1Signature signature, bool fastForward)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: publicKey
+      type: ChiaWalletSdk.R1PublicKey
+    - id: signature
+      type: ChiaWalletSdk.R1Signature
+    - id: fastForward
+      type: System.Boolean
+    content.vb: Sub R1Member(config As MemberConfig, publicKey As R1PublicKey, signature As R1Signature, fastForward As Boolean)
+  overload: ChiaWalletSdk.IMipsSpend.R1Member*
+  nameWithType.vb: IMipsSpend.R1Member(MemberConfig, R1PublicKey, R1Signature, Boolean)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.R1Member(ChiaWalletSdk.MemberConfig, ChiaWalletSdk.R1PublicKey, ChiaWalletSdk.R1Signature, Boolean)
+  name.vb: R1Member(MemberConfig, R1PublicKey, R1Signature, Boolean)
+- uid: ChiaWalletSdk.IMipsSpend.SingletonMember(ChiaWalletSdk.MemberConfig,System.Byte[],System.Boolean,System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.IMipsSpend.SingletonMember(ChiaWalletSdk.MemberConfig,System.Byte[],System.Boolean,System.Byte[],System.String)
+  id: SingletonMember(ChiaWalletSdk.MemberConfig,System.Byte[],System.Boolean,System.Byte[],System.String)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: SingletonMember(MemberConfig, byte[], bool, byte[], string)
+  nameWithType: IMipsSpend.SingletonMember(MemberConfig, byte[], bool, byte[], string)
+  fullName: ChiaWalletSdk.IMipsSpend.SingletonMember(ChiaWalletSdk.MemberConfig, byte[], bool, byte[], string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void SingletonMember(MemberConfig config, byte[] launcherId, bool fastForward, byte[] singletonInnerPuzzleHash, string singletonAmount)
+    parameters:
+    - id: config
+      type: ChiaWalletSdk.MemberConfig
+    - id: launcherId
+      type: System.Byte[]
+    - id: fastForward
+      type: System.Boolean
+    - id: singletonInnerPuzzleHash
+      type: System.Byte[]
+    - id: singletonAmount
+      type: System.String
+    content.vb: Sub SingletonMember(config As MemberConfig, launcherId As Byte(), fastForward As Boolean, singletonInnerPuzzleHash As Byte(), singletonAmount As String)
+  overload: ChiaWalletSdk.IMipsSpend.SingletonMember*
+  nameWithType.vb: IMipsSpend.SingletonMember(MemberConfig, Byte(), Boolean, Byte(), String)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.SingletonMember(ChiaWalletSdk.MemberConfig, Byte(), Boolean, Byte(), String)
+  name.vb: SingletonMember(MemberConfig, Byte(), Boolean, Byte(), String)
+- uid: ChiaWalletSdk.IMipsSpend.Spend(System.Byte[])
+  commentId: M:ChiaWalletSdk.IMipsSpend.Spend(System.Byte[])
+  id: Spend(System.Byte[])
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: Spend(byte[])
+  nameWithType: IMipsSpend.Spend(byte[])
+  fullName: ChiaWalletSdk.IMipsSpend.Spend(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Spend Spend(byte[] custodyHash)
+    parameters:
+    - id: custodyHash
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Spend
+    content.vb: Function Spend(custodyHash As Byte()) As Spend
+  overload: ChiaWalletSdk.IMipsSpend.Spend*
+  nameWithType.vb: IMipsSpend.Spend(Byte())
+  fullName.vb: ChiaWalletSdk.IMipsSpend.Spend(Byte())
+  name.vb: Spend(Byte())
+- uid: ChiaWalletSdk.IMipsSpend.SpendVault(ChiaWalletSdk.Vault)
+  commentId: M:ChiaWalletSdk.IMipsSpend.SpendVault(ChiaWalletSdk.Vault)
+  id: SpendVault(ChiaWalletSdk.Vault)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: SpendVault(Vault)
+  nameWithType: IMipsSpend.SpendVault(Vault)
+  fullName: ChiaWalletSdk.IMipsSpend.SpendVault(ChiaWalletSdk.Vault)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void SpendVault(Vault vault)
+    parameters:
+    - id: vault
+      type: ChiaWalletSdk.Vault
+    content.vb: Sub SpendVault(vault As Vault)
+  overload: ChiaWalletSdk.IMipsSpend.SpendVault*
+- uid: ChiaWalletSdk.IMipsSpend.Timelock(System.String)
+  commentId: M:ChiaWalletSdk.IMipsSpend.Timelock(System.String)
+  id: Timelock(System.String)
+  parent: ChiaWalletSdk.IMipsSpend
+  langs:
+  - csharp
+  - vb
+  name: Timelock(string)
+  nameWithType: IMipsSpend.Timelock(string)
+  fullName: ChiaWalletSdk.IMipsSpend.Timelock(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void Timelock(string timelock)
+    parameters:
+    - id: timelock
+      type: System.String
+    content.vb: Sub Timelock(timelock As String)
+  overload: ChiaWalletSdk.IMipsSpend.Timelock*
+  nameWithType.vb: IMipsSpend.Timelock(String)
+  fullName.vb: ChiaWalletSdk.IMipsSpend.Timelock(String)
+  name.vb: Timelock(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IMipsSpend.BlsMember*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.BlsMember
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_BlsMember_ChiaWalletSdk_MemberConfig_ChiaWalletSdk_PublicKey_System_Boolean_
+  name: BlsMember
+  nameWithType: IMipsSpend.BlsMember
+  fullName: ChiaWalletSdk.IMipsSpend.BlsMember
+- uid: ChiaWalletSdk.MemberConfig
+  commentId: T:ChiaWalletSdk.MemberConfig
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.MemberConfig.html
+  name: MemberConfig
+  nameWithType: MemberConfig
+  fullName: ChiaWalletSdk.MemberConfig
+- uid: ChiaWalletSdk.PublicKey
+  commentId: T:ChiaWalletSdk.PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PublicKey.html
+  name: PublicKey
+  nameWithType: PublicKey
+  fullName: ChiaWalletSdk.PublicKey
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IMipsSpend.CustomMember*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.CustomMember
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_CustomMember_ChiaWalletSdk_MemberConfig_ChiaWalletSdk_Spend_
+  name: CustomMember
+  nameWithType: IMipsSpend.CustomMember
+  fullName: ChiaWalletSdk.IMipsSpend.CustomMember
+- uid: ChiaWalletSdk.Spend
+  commentId: T:ChiaWalletSdk.Spend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html
+  name: Spend
+  nameWithType: Spend
+  fullName: ChiaWalletSdk.Spend
+- uid: ChiaWalletSdk.IMipsSpend.FixedPuzzleMember*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.FixedPuzzleMember
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_FixedPuzzleMember_ChiaWalletSdk_MemberConfig_System_Byte___
+  name: FixedPuzzleMember
+  nameWithType: IMipsSpend.FixedPuzzleMember
+  fullName: ChiaWalletSdk.IMipsSpend.FixedPuzzleMember
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_Force1Of2RestrictedVariable_System_Byte___System_UInt32_System_Byte___System_Byte___System_Byte___
+  name: Force1Of2RestrictedVariable
+  nameWithType: IMipsSpend.Force1Of2RestrictedVariable
+  fullName: ChiaWalletSdk.IMipsSpend.Force1Of2RestrictedVariable
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.IMipsSpend.K1Member*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.K1Member
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_K1Member_ChiaWalletSdk_MemberConfig_ChiaWalletSdk_K1PublicKey_ChiaWalletSdk_K1Signature_System_Boolean_
+  name: K1Member
+  nameWithType: IMipsSpend.K1Member
+  fullName: ChiaWalletSdk.IMipsSpend.K1Member
+- uid: ChiaWalletSdk.K1PublicKey
+  commentId: T:ChiaWalletSdk.K1PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html
+  name: K1PublicKey
+  nameWithType: K1PublicKey
+  fullName: ChiaWalletSdk.K1PublicKey
+- uid: ChiaWalletSdk.K1Signature
+  commentId: T:ChiaWalletSdk.K1Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.K1Signature.html
+  name: K1Signature
+  nameWithType: K1Signature
+  fullName: ChiaWalletSdk.K1Signature
+- uid: ChiaWalletSdk.IMipsSpend.MOfN*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.MOfN
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_MOfN_ChiaWalletSdk_MemberConfig_System_UInt32_System_Collections_Generic_List_System_Byte____
+  name: MOfN
+  nameWithType: IMipsSpend.MOfN
+  fullName: ChiaWalletSdk.IMipsSpend.MOfN
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IMipsSpend.PasskeyMember*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.PasskeyMember
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_PasskeyMember_ChiaWalletSdk_MemberConfig_ChiaWalletSdk_R1PublicKey_ChiaWalletSdk_R1Signature_System_Byte___System_Byte___System_UInt32_System_Boolean_
+  name: PasskeyMember
+  nameWithType: IMipsSpend.PasskeyMember
+  fullName: ChiaWalletSdk.IMipsSpend.PasskeyMember
+- uid: ChiaWalletSdk.R1PublicKey
+  commentId: T:ChiaWalletSdk.R1PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.R1PublicKey.html
+  name: R1PublicKey
+  nameWithType: R1PublicKey
+  fullName: ChiaWalletSdk.R1PublicKey
+- uid: ChiaWalletSdk.R1Signature
+  commentId: T:ChiaWalletSdk.R1Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.R1Signature.html
+  name: R1Signature
+  nameWithType: R1Signature
+  fullName: ChiaWalletSdk.R1Signature
+- uid: ChiaWalletSdk.IMipsSpend.PreventConditionOpcode*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.PreventConditionOpcode
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_PreventConditionOpcode_System_UInt16_
+  name: PreventConditionOpcode
+  nameWithType: IMipsSpend.PreventConditionOpcode
+  fullName: ChiaWalletSdk.IMipsSpend.PreventConditionOpcode
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_PreventMultipleCreateCoins
+  name: PreventMultipleCreateCoins
+  nameWithType: IMipsSpend.PreventMultipleCreateCoins
+  fullName: ChiaWalletSdk.IMipsSpend.PreventMultipleCreateCoins
+- uid: ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_PreventVaultSideEffects
+  name: PreventVaultSideEffects
+  nameWithType: IMipsSpend.PreventVaultSideEffects
+  fullName: ChiaWalletSdk.IMipsSpend.PreventVaultSideEffects
+- uid: ChiaWalletSdk.IMipsSpend.R1Member*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.R1Member
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_R1Member_ChiaWalletSdk_MemberConfig_ChiaWalletSdk_R1PublicKey_ChiaWalletSdk_R1Signature_System_Boolean_
+  name: R1Member
+  nameWithType: IMipsSpend.R1Member
+  fullName: ChiaWalletSdk.IMipsSpend.R1Member
+- uid: ChiaWalletSdk.IMipsSpend.SingletonMember*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.SingletonMember
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_SingletonMember_ChiaWalletSdk_MemberConfig_System_Byte___System_Boolean_System_Byte___System_String_
+  name: SingletonMember
+  nameWithType: IMipsSpend.SingletonMember
+  fullName: ChiaWalletSdk.IMipsSpend.SingletonMember
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.IMipsSpend.Spend*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.Spend
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_Spend_System_Byte___
+  name: Spend
+  nameWithType: IMipsSpend.Spend
+  fullName: ChiaWalletSdk.IMipsSpend.Spend
+- uid: ChiaWalletSdk.IMipsSpend.SpendVault*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.SpendVault
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_SpendVault_ChiaWalletSdk_Vault_
+  name: SpendVault
+  nameWithType: IMipsSpend.SpendVault
+  fullName: ChiaWalletSdk.IMipsSpend.SpendVault
+- uid: ChiaWalletSdk.Vault
+  commentId: T:ChiaWalletSdk.Vault
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Vault.html
+  name: Vault
+  nameWithType: Vault
+  fullName: ChiaWalletSdk.Vault
+- uid: ChiaWalletSdk.IMipsSpend.Timelock*
+  commentId: Overload:ChiaWalletSdk.IMipsSpend.Timelock
+  isExternal: true
+  href: ChiaWalletSdk.IMipsSpend.html#ChiaWalletSdk_IMipsSpend_Timelock_System_String_
+  name: Timelock
+  nameWithType: IMipsSpend.Timelock
+  fullName: ChiaWalletSdk.IMipsSpend.Timelock

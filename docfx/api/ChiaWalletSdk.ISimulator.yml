@@ -1,0 +1,1001 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ISimulator
+  commentId: T:ChiaWalletSdk.ISimulator
+  id: ISimulator
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ISimulator.Bls(System.String)
+  - ChiaWalletSdk.ISimulator.Children(System.Byte[])
+  - ChiaWalletSdk.ISimulator.CoinSpend(System.Byte[])
+  - ChiaWalletSdk.ISimulator.CoinState(System.Byte[])
+  - ChiaWalletSdk.ISimulator.CreateBlock
+  - ChiaWalletSdk.ISimulator.HeaderHash
+  - ChiaWalletSdk.ISimulator.HeaderHashOf(System.UInt32)
+  - ChiaWalletSdk.ISimulator.Height
+  - ChiaWalletSdk.ISimulator.HintCoin(System.Byte[],System.Byte[])
+  - ChiaWalletSdk.ISimulator.HintedCoins(System.Byte[])
+  - ChiaWalletSdk.ISimulator.InsertCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.ISimulator.LookupCoinIds(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.ISimulator.LookupPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Boolean)
+  - ChiaWalletSdk.ISimulator.NewCoin(System.Byte[],System.String)
+  - ChiaWalletSdk.ISimulator.NewTransaction(ChiaWalletSdk.SpendBundle)
+  - ChiaWalletSdk.ISimulator.NextTimestamp
+  - ChiaWalletSdk.ISimulator.PassTime(System.String)
+  - ChiaWalletSdk.ISimulator.SetNextTimestamp(System.String)
+  - ChiaWalletSdk.ISimulator.SpendCoins(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},System.Collections.Generic.List{ChiaWalletSdk.SecretKey})
+  - ChiaWalletSdk.ISimulator.UnspentCoins(System.Byte[],System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ISimulator
+  nameWithType: ISimulator
+  fullName: ChiaWalletSdk.ISimulator
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface ISimulator
+    content.vb: Public Interface ISimulator
+  derivedClasses:
+  - ChiaWalletSdk.Simulator
+- uid: ChiaWalletSdk.ISimulator.Bls(System.String)
+  commentId: M:ChiaWalletSdk.ISimulator.Bls(System.String)
+  id: Bls(System.String)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: Bls(string)
+  nameWithType: ISimulator.Bls(string)
+  fullName: ChiaWalletSdk.ISimulator.Bls(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlsPairWithCoin Bls(string amount)
+    parameters:
+    - id: amount
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlsPairWithCoin
+    content.vb: Function Bls(amount As String) As BlsPairWithCoin
+  overload: ChiaWalletSdk.ISimulator.Bls*
+  nameWithType.vb: ISimulator.Bls(String)
+  fullName.vb: ChiaWalletSdk.ISimulator.Bls(String)
+  name.vb: Bls(String)
+- uid: ChiaWalletSdk.ISimulator.Children(System.Byte[])
+  commentId: M:ChiaWalletSdk.ISimulator.Children(System.Byte[])
+  id: Children(System.Byte[])
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: Children(byte[])
+  nameWithType: ISimulator.Children(byte[])
+  fullName: ChiaWalletSdk.ISimulator.Children(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<CoinState> Children(byte[] coinId)
+    parameters:
+    - id: coinId
+      type: System.Byte[]
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Function Children(coinId As Byte()) As List(Of CoinState)
+  overload: ChiaWalletSdk.ISimulator.Children*
+  nameWithType.vb: ISimulator.Children(Byte())
+  fullName.vb: ChiaWalletSdk.ISimulator.Children(Byte())
+  name.vb: Children(Byte())
+- uid: ChiaWalletSdk.ISimulator.CoinSpend(System.Byte[])
+  commentId: M:ChiaWalletSdk.ISimulator.CoinSpend(System.Byte[])
+  id: CoinSpend(System.Byte[])
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: CoinSpend(byte[])
+  nameWithType: ISimulator.CoinSpend(byte[])
+  fullName: ChiaWalletSdk.ISimulator.CoinSpend(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: CoinSpend? CoinSpend(byte[] coinId)
+    parameters:
+    - id: coinId
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.CoinSpend
+    content.vb: Function CoinSpend(coinId As Byte()) As CoinSpend
+  overload: ChiaWalletSdk.ISimulator.CoinSpend*
+  nameWithType.vb: ISimulator.CoinSpend(Byte())
+  fullName.vb: ChiaWalletSdk.ISimulator.CoinSpend(Byte())
+  name.vb: CoinSpend(Byte())
+- uid: ChiaWalletSdk.ISimulator.CoinState(System.Byte[])
+  commentId: M:ChiaWalletSdk.ISimulator.CoinState(System.Byte[])
+  id: CoinState(System.Byte[])
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: CoinState(byte[])
+  nameWithType: ISimulator.CoinState(byte[])
+  fullName: ChiaWalletSdk.ISimulator.CoinState(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: CoinState? CoinState(byte[] coinId)
+    parameters:
+    - id: coinId
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.CoinState
+    content.vb: Function CoinState(coinId As Byte()) As CoinState
+  overload: ChiaWalletSdk.ISimulator.CoinState*
+  nameWithType.vb: ISimulator.CoinState(Byte())
+  fullName.vb: ChiaWalletSdk.ISimulator.CoinState(Byte())
+  name.vb: CoinState(Byte())
+- uid: ChiaWalletSdk.ISimulator.CreateBlock
+  commentId: M:ChiaWalletSdk.ISimulator.CreateBlock
+  id: CreateBlock
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: CreateBlock()
+  nameWithType: ISimulator.CreateBlock()
+  fullName: ChiaWalletSdk.ISimulator.CreateBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void CreateBlock()
+    content.vb: Sub CreateBlock()
+  overload: ChiaWalletSdk.ISimulator.CreateBlock*
+- uid: ChiaWalletSdk.ISimulator.HeaderHash
+  commentId: M:ChiaWalletSdk.ISimulator.HeaderHash
+  id: HeaderHash
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: HeaderHash()
+  nameWithType: ISimulator.HeaderHash()
+  fullName: ChiaWalletSdk.ISimulator.HeaderHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] HeaderHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function HeaderHash() As Byte()
+  overload: ChiaWalletSdk.ISimulator.HeaderHash*
+- uid: ChiaWalletSdk.ISimulator.HeaderHashOf(System.UInt32)
+  commentId: M:ChiaWalletSdk.ISimulator.HeaderHashOf(System.UInt32)
+  id: HeaderHashOf(System.UInt32)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: HeaderHashOf(uint)
+  nameWithType: ISimulator.HeaderHashOf(uint)
+  fullName: ChiaWalletSdk.ISimulator.HeaderHashOf(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[]? HeaderHashOf(uint height)
+    parameters:
+    - id: height
+      type: System.UInt32
+    return:
+      type: System.Byte[]
+    content.vb: Function HeaderHashOf(height As UInteger) As Byte()
+  overload: ChiaWalletSdk.ISimulator.HeaderHashOf*
+  nameWithType.vb: ISimulator.HeaderHashOf(UInteger)
+  fullName.vb: ChiaWalletSdk.ISimulator.HeaderHashOf(UInteger)
+  name.vb: HeaderHashOf(UInteger)
+- uid: ChiaWalletSdk.ISimulator.Height
+  commentId: M:ChiaWalletSdk.ISimulator.Height
+  id: Height
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: Height()
+  nameWithType: ISimulator.Height()
+  fullName: ChiaWalletSdk.ISimulator.Height()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: uint Height()
+    return:
+      type: System.UInt32
+    content.vb: Function Height() As UInteger
+  overload: ChiaWalletSdk.ISimulator.Height*
+- uid: ChiaWalletSdk.ISimulator.HintCoin(System.Byte[],System.Byte[])
+  commentId: M:ChiaWalletSdk.ISimulator.HintCoin(System.Byte[],System.Byte[])
+  id: HintCoin(System.Byte[],System.Byte[])
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: HintCoin(byte[], byte[])
+  nameWithType: ISimulator.HintCoin(byte[], byte[])
+  fullName: ChiaWalletSdk.ISimulator.HintCoin(byte[], byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void HintCoin(byte[] coinId, byte[] hint)
+    parameters:
+    - id: coinId
+      type: System.Byte[]
+    - id: hint
+      type: System.Byte[]
+    content.vb: Sub HintCoin(coinId As Byte(), hint As Byte())
+  overload: ChiaWalletSdk.ISimulator.HintCoin*
+  nameWithType.vb: ISimulator.HintCoin(Byte(), Byte())
+  fullName.vb: ChiaWalletSdk.ISimulator.HintCoin(Byte(), Byte())
+  name.vb: HintCoin(Byte(), Byte())
+- uid: ChiaWalletSdk.ISimulator.HintedCoins(System.Byte[])
+  commentId: M:ChiaWalletSdk.ISimulator.HintedCoins(System.Byte[])
+  id: HintedCoins(System.Byte[])
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: HintedCoins(byte[])
+  nameWithType: ISimulator.HintedCoins(byte[])
+  fullName: ChiaWalletSdk.ISimulator.HintedCoins(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<byte[]> HintedCoins(byte[] hint)
+    parameters:
+    - id: hint
+      type: System.Byte[]
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Function HintedCoins(hint As Byte()) As List(Of Byte())
+  overload: ChiaWalletSdk.ISimulator.HintedCoins*
+  nameWithType.vb: ISimulator.HintedCoins(Byte())
+  fullName.vb: ChiaWalletSdk.ISimulator.HintedCoins(Byte())
+  name.vb: HintedCoins(Byte())
+- uid: ChiaWalletSdk.ISimulator.InsertCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.ISimulator.InsertCoin(ChiaWalletSdk.Coin)
+  id: InsertCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: InsertCoin(Coin)
+  nameWithType: ISimulator.InsertCoin(Coin)
+  fullName: ChiaWalletSdk.ISimulator.InsertCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void InsertCoin(Coin coin)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    content.vb: Sub InsertCoin(coin As Coin)
+  overload: ChiaWalletSdk.ISimulator.InsertCoin*
+- uid: ChiaWalletSdk.ISimulator.LookupCoinIds(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.ISimulator.LookupCoinIds(System.Collections.Generic.List{System.Byte[]})
+  id: LookupCoinIds(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: LookupCoinIds(List<byte[]>)
+  nameWithType: ISimulator.LookupCoinIds(List<byte[]>)
+  fullName: ChiaWalletSdk.ISimulator.LookupCoinIds(System.Collections.Generic.List<byte[]>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<CoinState> LookupCoinIds(List<byte[]> coinIds)
+    parameters:
+    - id: coinIds
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Function LookupCoinIds(coinIds As List(Of Byte())) As List(Of CoinState)
+  overload: ChiaWalletSdk.ISimulator.LookupCoinIds*
+  nameWithType.vb: ISimulator.LookupCoinIds(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.ISimulator.LookupCoinIds(System.Collections.Generic.List(Of Byte()))
+  name.vb: LookupCoinIds(List(Of Byte()))
+- uid: ChiaWalletSdk.ISimulator.LookupPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Boolean)
+  commentId: M:ChiaWalletSdk.ISimulator.LookupPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Boolean)
+  id: LookupPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Boolean)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: LookupPuzzleHashes(List<byte[]>, bool)
+  nameWithType: ISimulator.LookupPuzzleHashes(List<byte[]>, bool)
+  fullName: ChiaWalletSdk.ISimulator.LookupPuzzleHashes(System.Collections.Generic.List<byte[]>, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<CoinState> LookupPuzzleHashes(List<byte[]> puzzleHashes, bool includeHints)
+    parameters:
+    - id: puzzleHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: includeHints
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Function LookupPuzzleHashes(puzzleHashes As List(Of Byte()), includeHints As Boolean) As List(Of CoinState)
+  overload: ChiaWalletSdk.ISimulator.LookupPuzzleHashes*
+  nameWithType.vb: ISimulator.LookupPuzzleHashes(List(Of Byte()), Boolean)
+  fullName.vb: ChiaWalletSdk.ISimulator.LookupPuzzleHashes(System.Collections.Generic.List(Of Byte()), Boolean)
+  name.vb: LookupPuzzleHashes(List(Of Byte()), Boolean)
+- uid: ChiaWalletSdk.ISimulator.NewCoin(System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.ISimulator.NewCoin(System.Byte[],System.String)
+  id: NewCoin(System.Byte[],System.String)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: NewCoin(byte[], string)
+  nameWithType: ISimulator.NewCoin(byte[], string)
+  fullName: ChiaWalletSdk.ISimulator.NewCoin(byte[], string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin NewCoin(byte[] puzzleHash, string amount)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: amount
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function NewCoin(puzzleHash As Byte(), amount As String) As Coin
+  overload: ChiaWalletSdk.ISimulator.NewCoin*
+  nameWithType.vb: ISimulator.NewCoin(Byte(), String)
+  fullName.vb: ChiaWalletSdk.ISimulator.NewCoin(Byte(), String)
+  name.vb: NewCoin(Byte(), String)
+- uid: ChiaWalletSdk.ISimulator.NewTransaction(ChiaWalletSdk.SpendBundle)
+  commentId: M:ChiaWalletSdk.ISimulator.NewTransaction(ChiaWalletSdk.SpendBundle)
+  id: NewTransaction(ChiaWalletSdk.SpendBundle)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: NewTransaction(SpendBundle)
+  nameWithType: ISimulator.NewTransaction(SpendBundle)
+  fullName: ChiaWalletSdk.ISimulator.NewTransaction(ChiaWalletSdk.SpendBundle)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void NewTransaction(SpendBundle spendBundle)
+    parameters:
+    - id: spendBundle
+      type: ChiaWalletSdk.SpendBundle
+    content.vb: Sub NewTransaction(spendBundle As SpendBundle)
+  overload: ChiaWalletSdk.ISimulator.NewTransaction*
+- uid: ChiaWalletSdk.ISimulator.NextTimestamp
+  commentId: M:ChiaWalletSdk.ISimulator.NextTimestamp
+  id: NextTimestamp
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: NextTimestamp()
+  nameWithType: ISimulator.NextTimestamp()
+  fullName: ChiaWalletSdk.ISimulator.NextTimestamp()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string NextTimestamp()
+    return:
+      type: System.String
+    content.vb: Function NextTimestamp() As String
+  overload: ChiaWalletSdk.ISimulator.NextTimestamp*
+- uid: ChiaWalletSdk.ISimulator.PassTime(System.String)
+  commentId: M:ChiaWalletSdk.ISimulator.PassTime(System.String)
+  id: PassTime(System.String)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: PassTime(string)
+  nameWithType: ISimulator.PassTime(string)
+  fullName: ChiaWalletSdk.ISimulator.PassTime(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void PassTime(string time)
+    parameters:
+    - id: time
+      type: System.String
+    content.vb: Sub PassTime(time As String)
+  overload: ChiaWalletSdk.ISimulator.PassTime*
+  nameWithType.vb: ISimulator.PassTime(String)
+  fullName.vb: ChiaWalletSdk.ISimulator.PassTime(String)
+  name.vb: PassTime(String)
+- uid: ChiaWalletSdk.ISimulator.SetNextTimestamp(System.String)
+  commentId: M:ChiaWalletSdk.ISimulator.SetNextTimestamp(System.String)
+  id: SetNextTimestamp(System.String)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: SetNextTimestamp(string)
+  nameWithType: ISimulator.SetNextTimestamp(string)
+  fullName: ChiaWalletSdk.ISimulator.SetNextTimestamp(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void SetNextTimestamp(string time)
+    parameters:
+    - id: time
+      type: System.String
+    content.vb: Sub SetNextTimestamp(time As String)
+  overload: ChiaWalletSdk.ISimulator.SetNextTimestamp*
+  nameWithType.vb: ISimulator.SetNextTimestamp(String)
+  fullName.vb: ChiaWalletSdk.ISimulator.SetNextTimestamp(String)
+  name.vb: SetNextTimestamp(String)
+- uid: ChiaWalletSdk.ISimulator.SpendCoins(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},System.Collections.Generic.List{ChiaWalletSdk.SecretKey})
+  commentId: M:ChiaWalletSdk.ISimulator.SpendCoins(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},System.Collections.Generic.List{ChiaWalletSdk.SecretKey})
+  id: SpendCoins(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},System.Collections.Generic.List{ChiaWalletSdk.SecretKey})
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: SpendCoins(List<CoinSpend>, List<SecretKey>)
+  nameWithType: ISimulator.SpendCoins(List<CoinSpend>, List<SecretKey>)
+  fullName: ChiaWalletSdk.ISimulator.SpendCoins(System.Collections.Generic.List<ChiaWalletSdk.CoinSpend>, System.Collections.Generic.List<ChiaWalletSdk.SecretKey>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: void SpendCoins(List<CoinSpend> coinSpends, List<SecretKey> secretKeys)
+    parameters:
+    - id: coinSpends
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+    - id: secretKeys
+      type: System.Collections.Generic.List{ChiaWalletSdk.SecretKey}
+    content.vb: Sub SpendCoins(coinSpends As List(Of CoinSpend), secretKeys As List(Of SecretKey))
+  overload: ChiaWalletSdk.ISimulator.SpendCoins*
+  nameWithType.vb: ISimulator.SpendCoins(List(Of CoinSpend), List(Of SecretKey))
+  fullName.vb: ChiaWalletSdk.ISimulator.SpendCoins(System.Collections.Generic.List(Of ChiaWalletSdk.CoinSpend), System.Collections.Generic.List(Of ChiaWalletSdk.SecretKey))
+  name.vb: SpendCoins(List(Of CoinSpend), List(Of SecretKey))
+- uid: ChiaWalletSdk.ISimulator.UnspentCoins(System.Byte[],System.Boolean)
+  commentId: M:ChiaWalletSdk.ISimulator.UnspentCoins(System.Byte[],System.Boolean)
+  id: UnspentCoins(System.Byte[],System.Boolean)
+  parent: ChiaWalletSdk.ISimulator
+  langs:
+  - csharp
+  - vb
+  name: UnspentCoins(byte[], bool)
+  nameWithType: ISimulator.UnspentCoins(byte[], bool)
+  fullName: ChiaWalletSdk.ISimulator.UnspentCoins(byte[], bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Coin> UnspentCoins(byte[] puzzleHash, bool includeHints)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: includeHints
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Coin}
+    content.vb: Function UnspentCoins(puzzleHash As Byte(), includeHints As Boolean) As List(Of Coin)
+  overload: ChiaWalletSdk.ISimulator.UnspentCoins*
+  nameWithType.vb: ISimulator.UnspentCoins(Byte(), Boolean)
+  fullName.vb: ChiaWalletSdk.ISimulator.UnspentCoins(Byte(), Boolean)
+  name.vb: UnspentCoins(Byte(), Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.ISimulator.Bls*
+  commentId: Overload:ChiaWalletSdk.ISimulator.Bls
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_Bls_System_String_
+  name: Bls
+  nameWithType: ISimulator.Bls
+  fullName: ChiaWalletSdk.ISimulator.Bls
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.BlsPairWithCoin
+  commentId: T:ChiaWalletSdk.BlsPairWithCoin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlsPairWithCoin.html
+  name: BlsPairWithCoin
+  nameWithType: BlsPairWithCoin
+  fullName: ChiaWalletSdk.BlsPairWithCoin
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.ISimulator.Children*
+  commentId: Overload:ChiaWalletSdk.ISimulator.Children
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_Children_System_Byte___
+  name: Children
+  nameWithType: ISimulator.Children
+  fullName: ChiaWalletSdk.ISimulator.Children
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CoinState.html
+  name: List<CoinState>
+  nameWithType: List<CoinState>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CoinState>
+  nameWithType.vb: List(Of CoinState)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CoinState)
+  name.vb: List(Of CoinState)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.ISimulator.CoinSpend*
+  commentId: Overload:ChiaWalletSdk.ISimulator.CoinSpend
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_CoinSpend_System_Byte___
+  name: CoinSpend
+  nameWithType: ISimulator.CoinSpend
+  fullName: ChiaWalletSdk.ISimulator.CoinSpend
+- uid: ChiaWalletSdk.CoinSpend
+  commentId: T:ChiaWalletSdk.CoinSpend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CoinSpend.html
+  name: CoinSpend
+  nameWithType: CoinSpend
+  fullName: ChiaWalletSdk.CoinSpend
+- uid: ChiaWalletSdk.ISimulator.CoinState*
+  commentId: Overload:ChiaWalletSdk.ISimulator.CoinState
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_CoinState_System_Byte___
+  name: CoinState
+  nameWithType: ISimulator.CoinState
+  fullName: ChiaWalletSdk.ISimulator.CoinState
+- uid: ChiaWalletSdk.CoinState
+  commentId: T:ChiaWalletSdk.CoinState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CoinState.html
+  name: CoinState
+  nameWithType: CoinState
+  fullName: ChiaWalletSdk.CoinState
+- uid: ChiaWalletSdk.ISimulator.CreateBlock*
+  commentId: Overload:ChiaWalletSdk.ISimulator.CreateBlock
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_CreateBlock
+  name: CreateBlock
+  nameWithType: ISimulator.CreateBlock
+  fullName: ChiaWalletSdk.ISimulator.CreateBlock
+- uid: ChiaWalletSdk.ISimulator.HeaderHash*
+  commentId: Overload:ChiaWalletSdk.ISimulator.HeaderHash
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_HeaderHash
+  name: HeaderHash
+  nameWithType: ISimulator.HeaderHash
+  fullName: ChiaWalletSdk.ISimulator.HeaderHash
+- uid: ChiaWalletSdk.ISimulator.HeaderHashOf*
+  commentId: Overload:ChiaWalletSdk.ISimulator.HeaderHashOf
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_HeaderHashOf_System_UInt32_
+  name: HeaderHashOf
+  nameWithType: ISimulator.HeaderHashOf
+  fullName: ChiaWalletSdk.ISimulator.HeaderHashOf
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.ISimulator.Height*
+  commentId: Overload:ChiaWalletSdk.ISimulator.Height
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_Height
+  name: Height
+  nameWithType: ISimulator.Height
+  fullName: ChiaWalletSdk.ISimulator.Height
+- uid: ChiaWalletSdk.ISimulator.HintCoin*
+  commentId: Overload:ChiaWalletSdk.ISimulator.HintCoin
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_HintCoin_System_Byte___System_Byte___
+  name: HintCoin
+  nameWithType: ISimulator.HintCoin
+  fullName: ChiaWalletSdk.ISimulator.HintCoin
+- uid: ChiaWalletSdk.ISimulator.HintedCoins*
+  commentId: Overload:ChiaWalletSdk.ISimulator.HintedCoins
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_HintedCoins_System_Byte___
+  name: HintedCoins
+  nameWithType: ISimulator.HintedCoins
+  fullName: ChiaWalletSdk.ISimulator.HintedCoins
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.ISimulator.InsertCoin*
+  commentId: Overload:ChiaWalletSdk.ISimulator.InsertCoin
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_InsertCoin_ChiaWalletSdk_Coin_
+  name: InsertCoin
+  nameWithType: ISimulator.InsertCoin
+  fullName: ChiaWalletSdk.ISimulator.InsertCoin
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.ISimulator.LookupCoinIds*
+  commentId: Overload:ChiaWalletSdk.ISimulator.LookupCoinIds
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_LookupCoinIds_System_Collections_Generic_List_System_Byte____
+  name: LookupCoinIds
+  nameWithType: ISimulator.LookupCoinIds
+  fullName: ChiaWalletSdk.ISimulator.LookupCoinIds
+- uid: ChiaWalletSdk.ISimulator.LookupPuzzleHashes*
+  commentId: Overload:ChiaWalletSdk.ISimulator.LookupPuzzleHashes
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_LookupPuzzleHashes_System_Collections_Generic_List_System_Byte____System_Boolean_
+  name: LookupPuzzleHashes
+  nameWithType: ISimulator.LookupPuzzleHashes
+  fullName: ChiaWalletSdk.ISimulator.LookupPuzzleHashes
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.ISimulator.NewCoin*
+  commentId: Overload:ChiaWalletSdk.ISimulator.NewCoin
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_NewCoin_System_Byte___System_String_
+  name: NewCoin
+  nameWithType: ISimulator.NewCoin
+  fullName: ChiaWalletSdk.ISimulator.NewCoin
+- uid: ChiaWalletSdk.ISimulator.NewTransaction*
+  commentId: Overload:ChiaWalletSdk.ISimulator.NewTransaction
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_NewTransaction_ChiaWalletSdk_SpendBundle_
+  name: NewTransaction
+  nameWithType: ISimulator.NewTransaction
+  fullName: ChiaWalletSdk.ISimulator.NewTransaction
+- uid: ChiaWalletSdk.SpendBundle
+  commentId: T:ChiaWalletSdk.SpendBundle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html
+  name: SpendBundle
+  nameWithType: SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle
+- uid: ChiaWalletSdk.ISimulator.NextTimestamp*
+  commentId: Overload:ChiaWalletSdk.ISimulator.NextTimestamp
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_NextTimestamp
+  name: NextTimestamp
+  nameWithType: ISimulator.NextTimestamp
+  fullName: ChiaWalletSdk.ISimulator.NextTimestamp
+- uid: ChiaWalletSdk.ISimulator.PassTime*
+  commentId: Overload:ChiaWalletSdk.ISimulator.PassTime
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_PassTime_System_String_
+  name: PassTime
+  nameWithType: ISimulator.PassTime
+  fullName: ChiaWalletSdk.ISimulator.PassTime
+- uid: ChiaWalletSdk.ISimulator.SetNextTimestamp*
+  commentId: Overload:ChiaWalletSdk.ISimulator.SetNextTimestamp
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_SetNextTimestamp_System_String_
+  name: SetNextTimestamp
+  nameWithType: ISimulator.SetNextTimestamp
+  fullName: ChiaWalletSdk.ISimulator.SetNextTimestamp
+- uid: ChiaWalletSdk.ISimulator.SpendCoins*
+  commentId: Overload:ChiaWalletSdk.ISimulator.SpendCoins
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_SpendCoins_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__System_Collections_Generic_List_ChiaWalletSdk_SecretKey__
+  name: SpendCoins
+  nameWithType: ISimulator.SpendCoins
+  fullName: ChiaWalletSdk.ISimulator.SpendCoins
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CoinSpend.html
+  name: List<CoinSpend>
+  nameWithType: List<CoinSpend>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CoinSpend>
+  nameWithType.vb: List(Of CoinSpend)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CoinSpend)
+  name.vb: List(Of CoinSpend)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinSpend
+    name: CoinSpend
+    isExternal: true
+    href: ChiaWalletSdk.CoinSpend.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinSpend
+    name: CoinSpend
+    isExternal: true
+    href: ChiaWalletSdk.CoinSpend.html
+  - name: )
+- uid: System.Collections.Generic.List{ChiaWalletSdk.SecretKey}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.SecretKey}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.SecretKey.html
+  name: List<SecretKey>
+  nameWithType: List<SecretKey>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.SecretKey>
+  nameWithType.vb: List(Of SecretKey)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.SecretKey)
+  name.vb: List(Of SecretKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.SecretKey
+    name: SecretKey
+    isExternal: true
+    href: ChiaWalletSdk.SecretKey.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.SecretKey
+    name: SecretKey
+    isExternal: true
+    href: ChiaWalletSdk.SecretKey.html
+  - name: )
+- uid: ChiaWalletSdk.ISimulator.UnspentCoins*
+  commentId: Overload:ChiaWalletSdk.ISimulator.UnspentCoins
+  isExternal: true
+  href: ChiaWalletSdk.ISimulator.html#ChiaWalletSdk_ISimulator_UnspentCoins_System_Byte___System_Boolean_
+  name: UnspentCoins
+  nameWithType: ISimulator.UnspentCoins
+  fullName: ChiaWalletSdk.ISimulator.UnspentCoins
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Coin}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Coin}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Coin.html
+  name: List<Coin>
+  nameWithType: List<Coin>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Coin>
+  nameWithType.vb: List(Of Coin)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Coin)
+  name.vb: List(Of Coin)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )

@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  commentId: T:ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  id: UpdateDataStoreMerkleRoot
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor(System.Byte[],System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor(System.IntPtr)
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+  - ChiaWalletSdk.UpdateDataStoreMerkleRoot.pointer
+  langs:
+  - csharp
+  - vb
+  name: UpdateDataStoreMerkleRoot
+  nameWithType: UpdateDataStoreMerkleRoot
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class UpdateDataStoreMerkleRoot : IUpdateDataStoreMerkleRoot'
+    content.vb: Public Class UpdateDataStoreMerkleRoot Implements IUpdateDataStoreMerkleRoot
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.pointer
+  commentId: F:ChiaWalletSdk.UpdateDataStoreMerkleRoot.pointer
+  id: pointer
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: UpdateDataStoreMerkleRoot.pointer
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: UpdateDataStoreMerkleRoot(nint)
+  nameWithType: UpdateDataStoreMerkleRoot.UpdateDataStoreMerkleRoot(nint)
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.UpdateDataStoreMerkleRoot(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public UpdateDataStoreMerkleRoot(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor*
+  nameWithType.vb: UpdateDataStoreMerkleRoot.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.UpdateDataStoreMerkleRoot.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: ~UpdateDataStoreMerkleRoot()
+  nameWithType: UpdateDataStoreMerkleRoot.~UpdateDataStoreMerkleRoot()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.~UpdateDataStoreMerkleRoot()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~UpdateDataStoreMerkleRoot()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor(System.Byte[],System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor(System.Byte[],System.Collections.Generic.List{System.Byte[]})
+  id: '#ctor(System.Byte[],System.Collections.Generic.List{System.Byte[]})'
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: UpdateDataStoreMerkleRoot(byte[], List<byte[]>)
+  nameWithType: UpdateDataStoreMerkleRoot.UpdateDataStoreMerkleRoot(byte[], List<byte[]>)
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.UpdateDataStoreMerkleRoot(byte[], System.Collections.Generic.List<byte[]>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public UpdateDataStoreMerkleRoot(byte[] newMerkleRoot, List<byte[]> memos)
+    parameters:
+    - id: newMerkleRoot
+      type: System.Byte[]
+    - id: memos
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Public Sub New(newMerkleRoot As Byte(), memos As List(Of Byte()))
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor*
+  nameWithType.vb: UpdateDataStoreMerkleRoot.New(Byte(), List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.UpdateDataStoreMerkleRoot.New(Byte(), System.Collections.Generic.List(Of Byte()))
+  name.vb: New(Byte(), List(Of Byte()))
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: UpdateDataStoreMerkleRoot.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr*
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: UpdateDataStoreMerkleRoot.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr*
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: UpdateDataStoreMerkleRoot.Destroy()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy*
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: UpdateDataStoreMerkleRoot.Dispose()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose*
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos
+  id: GetMemos
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: GetMemos()
+  nameWithType: UpdateDataStoreMerkleRoot.GetMemos()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<byte[]> GetMemos()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Public Function GetMemos() As List(Of Byte())
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos*
+  implements:
+  - ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetMemos
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  id: GetNewMerkleRoot
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: GetNewMerkleRoot()
+  nameWithType: UpdateDataStoreMerkleRoot.GetNewMerkleRoot()
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetNewMerkleRoot()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetNewMerkleRoot() As Byte()
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot*
+  implements:
+  - ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetNewMerkleRoot
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+  id: SetMemos(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: SetMemos(List<byte[]>)
+  nameWithType: UpdateDataStoreMerkleRoot.SetMemos(List<byte[]>)
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List<byte[]>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public UpdateDataStoreMerkleRoot SetMemos(List<byte[]> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+    content.vb: Public Function SetMemos(value As List(Of Byte())) As UpdateDataStoreMerkleRoot
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos*
+  implements:
+  - ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+  nameWithType.vb: UpdateDataStoreMerkleRoot.SetMemos(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetMemos(List(Of Byte()))
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+  commentId: M:ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+  id: SetNewMerkleRoot(System.Byte[])
+  parent: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  langs:
+  - csharp
+  - vb
+  name: SetNewMerkleRoot(byte[])
+  nameWithType: UpdateDataStoreMerkleRoot.SetNewMerkleRoot(byte[])
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public UpdateDataStoreMerkleRoot SetNewMerkleRoot(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+    content.vb: Public Function SetNewMerkleRoot(value As Byte()) As UpdateDataStoreMerkleRoot
+  overload: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot*
+  implements:
+  - ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+  nameWithType.vb: UpdateDataStoreMerkleRoot.SetNewMerkleRoot(Byte())
+  fullName.vb: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot(Byte())
+  name.vb: SetNewMerkleRoot(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+  commentId: T:ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html
+  name: IUpdateDataStoreMerkleRoot
+  nameWithType: IUpdateDataStoreMerkleRoot
+  fullName: ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot__ctor_System_IntPtr_
+  name: UpdateDataStoreMerkleRoot
+  nameWithType: UpdateDataStoreMerkleRoot.UpdateDataStoreMerkleRoot
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.UpdateDataStoreMerkleRoot
+  nameWithType.vb: UpdateDataStoreMerkleRoot.New
+  fullName.vb: ChiaWalletSdk.UpdateDataStoreMerkleRoot.New
+  name.vb: New
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_Finalize
+  name: ~UpdateDataStoreMerkleRoot
+  nameWithType: UpdateDataStoreMerkleRoot.~UpdateDataStoreMerkleRoot
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.~UpdateDataStoreMerkleRoot
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Finalize*
+    name: UpdateDataStoreMerkleRoot
+    isExternal: true
+    href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: UpdateDataStoreMerkleRoot.FreeRustArcPtr
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.FreeRustArcPtr
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: UpdateDataStoreMerkleRoot.CloneRustArcPtr
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.CloneRustArcPtr
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_Destroy
+  name: Destroy
+  nameWithType: UpdateDataStoreMerkleRoot.Destroy
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Destroy
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_Dispose
+  name: Dispose
+  nameWithType: UpdateDataStoreMerkleRoot.Dispose
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.Dispose
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_GetMemos
+  name: GetMemos
+  nameWithType: UpdateDataStoreMerkleRoot.GetMemos
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetMemos
+- uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetMemos
+  commentId: M:ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetMemos
+  parent: ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+  isExternal: true
+  href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_GetMemos
+  name: GetMemos()
+  nameWithType: IUpdateDataStoreMerkleRoot.GetMemos()
+  fullName: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetMemos()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetMemos
+    name: GetMemos
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_GetMemos
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetMemos
+    name: GetMemos
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_GetMemos
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_GetNewMerkleRoot
+  name: GetNewMerkleRoot
+  nameWithType: UpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.GetNewMerkleRoot
+- uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  commentId: M:ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetNewMerkleRoot
+  parent: ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+  isExternal: true
+  href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_GetNewMerkleRoot
+  name: GetNewMerkleRoot()
+  nameWithType: IUpdateDataStoreMerkleRoot.GetNewMerkleRoot()
+  fullName: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetNewMerkleRoot()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetNewMerkleRoot
+    name: GetNewMerkleRoot
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_GetNewMerkleRoot
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.GetNewMerkleRoot
+    name: GetNewMerkleRoot
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_GetNewMerkleRoot
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_SetMemos_System_Collections_Generic_List_System_Byte____
+  name: SetMemos
+  nameWithType: UpdateDataStoreMerkleRoot.SetMemos
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetMemos
+- uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+  isExternal: true
+  href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_SetMemos_System_Collections_Generic_List_System_Byte____
+  name: SetMemos(List<byte[]>)
+  nameWithType: IUpdateDataStoreMerkleRoot.SetMemos(List<byte[]>)
+  fullName: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List<byte[]>)
+  nameWithType.vb: IUpdateDataStoreMerkleRoot.SetMemos(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetMemos(List(Of Byte()))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+    name: SetMemos
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_SetMemos_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetMemos(System.Collections.Generic.List{System.Byte[]})
+    name: SetMemos
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_SetMemos_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  commentId: T:ChiaWalletSdk.UpdateDataStoreMerkleRoot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html
+  name: UpdateDataStoreMerkleRoot
+  nameWithType: UpdateDataStoreMerkleRoot
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot
+- uid: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot*
+  commentId: Overload:ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot
+  isExternal: true
+  href: ChiaWalletSdk.UpdateDataStoreMerkleRoot.html#ChiaWalletSdk_UpdateDataStoreMerkleRoot_SetNewMerkleRoot_System_Byte___
+  name: SetNewMerkleRoot
+  nameWithType: UpdateDataStoreMerkleRoot.SetNewMerkleRoot
+  fullName: ChiaWalletSdk.UpdateDataStoreMerkleRoot.SetNewMerkleRoot
+- uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+  commentId: M:ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+  parent: ChiaWalletSdk.IUpdateDataStoreMerkleRoot
+  isExternal: true
+  href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_SetNewMerkleRoot_System_Byte___
+  name: SetNewMerkleRoot(byte[])
+  nameWithType: IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(byte[])
+  fullName: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(byte[])
+  nameWithType.vb: IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(Byte())
+  fullName.vb: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(Byte())
+  name.vb: SetNewMerkleRoot(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+    name: SetNewMerkleRoot
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_SetNewMerkleRoot_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.SetNewMerkleRoot(System.Byte[])
+    name: SetNewMerkleRoot
+    isExternal: true
+    href: ChiaWalletSdk.IUpdateDataStoreMerkleRoot.html#ChiaWalletSdk_IUpdateDataStoreMerkleRoot_SetNewMerkleRoot_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

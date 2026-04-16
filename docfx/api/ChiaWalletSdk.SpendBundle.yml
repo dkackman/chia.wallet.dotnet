@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.SpendBundle
+  commentId: T:ChiaWalletSdk.SpendBundle
+  id: SpendBundle
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.SpendBundle.#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.SpendBundle.#ctor(System.IntPtr)
+  - ChiaWalletSdk.SpendBundle.CloneRustArcPtr
+  - ChiaWalletSdk.SpendBundle.Destroy
+  - ChiaWalletSdk.SpendBundle.Dispose
+  - ChiaWalletSdk.SpendBundle.Finalize
+  - ChiaWalletSdk.SpendBundle.FreeRustArcPtr
+  - ChiaWalletSdk.SpendBundle.FromBytes(System.Byte[])
+  - ChiaWalletSdk.SpendBundle.GetAggregatedSignature
+  - ChiaWalletSdk.SpendBundle.GetCoinSpends
+  - ChiaWalletSdk.SpendBundle.Hash
+  - ChiaWalletSdk.SpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.SpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  - ChiaWalletSdk.SpendBundle.ToBytes
+  - ChiaWalletSdk.SpendBundle.pointer
+  langs:
+  - csharp
+  - vb
+  name: SpendBundle
+  nameWithType: SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class SpendBundle : ISpendBundle'
+    content.vb: Public Class SpendBundle Implements ISpendBundle
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ISpendBundle
+- uid: ChiaWalletSdk.SpendBundle.pointer
+  commentId: F:ChiaWalletSdk.SpendBundle.pointer
+  id: pointer
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: SpendBundle.pointer
+  fullName: ChiaWalletSdk.SpendBundle.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.SpendBundle.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.SpendBundle.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: SpendBundle(nint)
+  nameWithType: SpendBundle.SpendBundle(nint)
+  fullName: ChiaWalletSdk.SpendBundle.SpendBundle(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SpendBundle(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.SpendBundle.#ctor*
+  nameWithType.vb: SpendBundle.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.SpendBundle.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.SpendBundle.Finalize
+  commentId: M:ChiaWalletSdk.SpendBundle.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: ~SpendBundle()
+  nameWithType: SpendBundle.~SpendBundle()
+  fullName: ChiaWalletSdk.SpendBundle.~SpendBundle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~SpendBundle()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.SpendBundle.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.SpendBundle.#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.SpendBundle.#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},ChiaWalletSdk.Signature)
+  id: '#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},ChiaWalletSdk.Signature)'
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: SpendBundle(List<CoinSpend>, Signature)
+  nameWithType: SpendBundle.SpendBundle(List<CoinSpend>, Signature)
+  fullName: ChiaWalletSdk.SpendBundle.SpendBundle(System.Collections.Generic.List<ChiaWalletSdk.CoinSpend>, ChiaWalletSdk.Signature)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SpendBundle(List<CoinSpend> coinSpends, Signature aggregatedSignature)
+    parameters:
+    - id: coinSpends
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+    - id: aggregatedSignature
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Sub New(coinSpends As List(Of CoinSpend), aggregatedSignature As Signature)
+  overload: ChiaWalletSdk.SpendBundle.#ctor*
+  nameWithType.vb: SpendBundle.New(List(Of CoinSpend), Signature)
+  fullName.vb: ChiaWalletSdk.SpendBundle.New(System.Collections.Generic.List(Of ChiaWalletSdk.CoinSpend), ChiaWalletSdk.Signature)
+  name.vb: New(List(Of CoinSpend), Signature)
+- uid: ChiaWalletSdk.SpendBundle.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.SpendBundle.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: SpendBundle.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.SpendBundle.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.SpendBundle.FreeRustArcPtr*
+- uid: ChiaWalletSdk.SpendBundle.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.SpendBundle.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: SpendBundle.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.SpendBundle.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.SpendBundle.CloneRustArcPtr*
+- uid: ChiaWalletSdk.SpendBundle.Destroy
+  commentId: M:ChiaWalletSdk.SpendBundle.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: SpendBundle.Destroy()
+  fullName: ChiaWalletSdk.SpendBundle.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.SpendBundle.Destroy*
+- uid: ChiaWalletSdk.SpendBundle.Dispose
+  commentId: M:ChiaWalletSdk.SpendBundle.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SpendBundle.Dispose()
+  fullName: ChiaWalletSdk.SpendBundle.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.SpendBundle.Dispose*
+- uid: ChiaWalletSdk.SpendBundle.GetAggregatedSignature
+  commentId: M:ChiaWalletSdk.SpendBundle.GetAggregatedSignature
+  id: GetAggregatedSignature
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: GetAggregatedSignature()
+  nameWithType: SpendBundle.GetAggregatedSignature()
+  fullName: ChiaWalletSdk.SpendBundle.GetAggregatedSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Signature GetAggregatedSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Function GetAggregatedSignature() As Signature
+  overload: ChiaWalletSdk.SpendBundle.GetAggregatedSignature*
+  implements:
+  - ChiaWalletSdk.ISpendBundle.GetAggregatedSignature
+- uid: ChiaWalletSdk.SpendBundle.GetCoinSpends
+  commentId: M:ChiaWalletSdk.SpendBundle.GetCoinSpends
+  id: GetCoinSpends
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: GetCoinSpends()
+  nameWithType: SpendBundle.GetCoinSpends()
+  fullName: ChiaWalletSdk.SpendBundle.GetCoinSpends()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<CoinSpend> GetCoinSpends()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+    content.vb: Public Function GetCoinSpends() As List(Of CoinSpend)
+  overload: ChiaWalletSdk.SpendBundle.GetCoinSpends*
+  implements:
+  - ChiaWalletSdk.ISpendBundle.GetCoinSpends
+- uid: ChiaWalletSdk.SpendBundle.Hash
+  commentId: M:ChiaWalletSdk.SpendBundle.Hash
+  id: Hash
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: Hash()
+  nameWithType: SpendBundle.Hash()
+  fullName: ChiaWalletSdk.SpendBundle.Hash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] Hash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function Hash() As Byte()
+  overload: ChiaWalletSdk.SpendBundle.Hash*
+  implements:
+  - ChiaWalletSdk.ISpendBundle.Hash
+- uid: ChiaWalletSdk.SpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.SpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  id: SetAggregatedSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: SetAggregatedSignature(Signature)
+  nameWithType: SpendBundle.SetAggregatedSignature(Signature)
+  fullName: ChiaWalletSdk.SpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SpendBundle SetAggregatedSignature(Signature value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Signature
+    return:
+      type: ChiaWalletSdk.SpendBundle
+    content.vb: Public Function SetAggregatedSignature(value As Signature) As SpendBundle
+  overload: ChiaWalletSdk.SpendBundle.SetAggregatedSignature*
+  implements:
+  - ChiaWalletSdk.ISpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+- uid: ChiaWalletSdk.SpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  commentId: M:ChiaWalletSdk.SpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  id: SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: SetCoinSpends(List<CoinSpend>)
+  nameWithType: SpendBundle.SetCoinSpends(List<CoinSpend>)
+  fullName: ChiaWalletSdk.SpendBundle.SetCoinSpends(System.Collections.Generic.List<ChiaWalletSdk.CoinSpend>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SpendBundle SetCoinSpends(List<CoinSpend> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+    return:
+      type: ChiaWalletSdk.SpendBundle
+    content.vb: Public Function SetCoinSpends(value As List(Of CoinSpend)) As SpendBundle
+  overload: ChiaWalletSdk.SpendBundle.SetCoinSpends*
+  implements:
+  - ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  nameWithType.vb: SpendBundle.SetCoinSpends(List(Of CoinSpend))
+  fullName.vb: ChiaWalletSdk.SpendBundle.SetCoinSpends(System.Collections.Generic.List(Of ChiaWalletSdk.CoinSpend))
+  name.vb: SetCoinSpends(List(Of CoinSpend))
+- uid: ChiaWalletSdk.SpendBundle.ToBytes
+  commentId: M:ChiaWalletSdk.SpendBundle.ToBytes
+  id: ToBytes
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: ToBytes()
+  nameWithType: SpendBundle.ToBytes()
+  fullName: ChiaWalletSdk.SpendBundle.ToBytes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] ToBytes()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ToBytes() As Byte()
+  overload: ChiaWalletSdk.SpendBundle.ToBytes*
+  implements:
+  - ChiaWalletSdk.ISpendBundle.ToBytes
+- uid: ChiaWalletSdk.SpendBundle.FromBytes(System.Byte[])
+  commentId: M:ChiaWalletSdk.SpendBundle.FromBytes(System.Byte[])
+  id: FromBytes(System.Byte[])
+  parent: ChiaWalletSdk.SpendBundle
+  langs:
+  - csharp
+  - vb
+  name: FromBytes(byte[])
+  nameWithType: SpendBundle.FromBytes(byte[])
+  fullName: ChiaWalletSdk.SpendBundle.FromBytes(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static SpendBundle FromBytes(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.SpendBundle
+    content.vb: Public Shared Function FromBytes(bytes As Byte()) As SpendBundle
+  overload: ChiaWalletSdk.SpendBundle.FromBytes*
+  nameWithType.vb: SpendBundle.FromBytes(Byte())
+  fullName.vb: ChiaWalletSdk.SpendBundle.FromBytes(Byte())
+  name.vb: FromBytes(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ISpendBundle
+  commentId: T:ChiaWalletSdk.ISpendBundle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html
+  name: ISpendBundle
+  nameWithType: ISpendBundle
+  fullName: ChiaWalletSdk.ISpendBundle
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.SpendBundle.#ctor*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle__ctor_System_IntPtr_
+  name: SpendBundle
+  nameWithType: SpendBundle.SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle.SpendBundle
+  nameWithType.vb: SpendBundle.New
+  fullName.vb: ChiaWalletSdk.SpendBundle.New
+  name.vb: New
+- uid: ChiaWalletSdk.SpendBundle.Finalize*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_Finalize
+  name: ~SpendBundle
+  nameWithType: SpendBundle.~SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle.~SpendBundle
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.SpendBundle.Finalize*
+    name: SpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_Finalize
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CoinSpend}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CoinSpend.html
+  name: List<CoinSpend>
+  nameWithType: List<CoinSpend>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CoinSpend>
+  nameWithType.vb: List(Of CoinSpend)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CoinSpend)
+  name.vb: List(Of CoinSpend)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinSpend
+    name: CoinSpend
+    isExternal: true
+    href: ChiaWalletSdk.CoinSpend.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinSpend
+    name: CoinSpend
+    isExternal: true
+    href: ChiaWalletSdk.CoinSpend.html
+  - name: )
+- uid: ChiaWalletSdk.Signature
+  commentId: T:ChiaWalletSdk.Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Signature.html
+  name: Signature
+  nameWithType: Signature
+  fullName: ChiaWalletSdk.Signature
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.SpendBundle.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: SpendBundle.FreeRustArcPtr
+  fullName: ChiaWalletSdk.SpendBundle.FreeRustArcPtr
+- uid: ChiaWalletSdk.SpendBundle.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: SpendBundle.CloneRustArcPtr
+  fullName: ChiaWalletSdk.SpendBundle.CloneRustArcPtr
+- uid: ChiaWalletSdk.SpendBundle.Destroy*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_Destroy
+  name: Destroy
+  nameWithType: SpendBundle.Destroy
+  fullName: ChiaWalletSdk.SpendBundle.Destroy
+- uid: ChiaWalletSdk.SpendBundle.Dispose*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_Dispose
+  name: Dispose
+  nameWithType: SpendBundle.Dispose
+  fullName: ChiaWalletSdk.SpendBundle.Dispose
+- uid: ChiaWalletSdk.SpendBundle.GetAggregatedSignature*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.GetAggregatedSignature
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_GetAggregatedSignature
+  name: GetAggregatedSignature
+  nameWithType: SpendBundle.GetAggregatedSignature
+  fullName: ChiaWalletSdk.SpendBundle.GetAggregatedSignature
+- uid: ChiaWalletSdk.ISpendBundle.GetAggregatedSignature
+  commentId: M:ChiaWalletSdk.ISpendBundle.GetAggregatedSignature
+  parent: ChiaWalletSdk.ISpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_GetAggregatedSignature
+  name: GetAggregatedSignature()
+  nameWithType: ISpendBundle.GetAggregatedSignature()
+  fullName: ChiaWalletSdk.ISpendBundle.GetAggregatedSignature()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpendBundle.GetAggregatedSignature
+    name: GetAggregatedSignature
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_GetAggregatedSignature
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpendBundle.GetAggregatedSignature
+    name: GetAggregatedSignature
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_GetAggregatedSignature
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SpendBundle.GetCoinSpends*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.GetCoinSpends
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_GetCoinSpends
+  name: GetCoinSpends
+  nameWithType: SpendBundle.GetCoinSpends
+  fullName: ChiaWalletSdk.SpendBundle.GetCoinSpends
+- uid: ChiaWalletSdk.ISpendBundle.GetCoinSpends
+  commentId: M:ChiaWalletSdk.ISpendBundle.GetCoinSpends
+  parent: ChiaWalletSdk.ISpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_GetCoinSpends
+  name: GetCoinSpends()
+  nameWithType: ISpendBundle.GetCoinSpends()
+  fullName: ChiaWalletSdk.ISpendBundle.GetCoinSpends()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpendBundle.GetCoinSpends
+    name: GetCoinSpends
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_GetCoinSpends
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpendBundle.GetCoinSpends
+    name: GetCoinSpends
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_GetCoinSpends
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SpendBundle.Hash*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.Hash
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_Hash
+  name: Hash
+  nameWithType: SpendBundle.Hash
+  fullName: ChiaWalletSdk.SpendBundle.Hash
+- uid: ChiaWalletSdk.ISpendBundle.Hash
+  commentId: M:ChiaWalletSdk.ISpendBundle.Hash
+  parent: ChiaWalletSdk.ISpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_Hash
+  name: Hash()
+  nameWithType: ISpendBundle.Hash()
+  fullName: ChiaWalletSdk.ISpendBundle.Hash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpendBundle.Hash
+    name: Hash
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_Hash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpendBundle.Hash
+    name: Hash
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_Hash
+  - name: (
+  - name: )
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SpendBundle.SetAggregatedSignature*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.SetAggregatedSignature
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_SetAggregatedSignature_ChiaWalletSdk_Signature_
+  name: SetAggregatedSignature
+  nameWithType: SpendBundle.SetAggregatedSignature
+  fullName: ChiaWalletSdk.SpendBundle.SetAggregatedSignature
+- uid: ChiaWalletSdk.ISpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.ISpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.ISpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_SetAggregatedSignature_ChiaWalletSdk_Signature_
+  name: SetAggregatedSignature(Signature)
+  nameWithType: ISpendBundle.SetAggregatedSignature(Signature)
+  fullName: ChiaWalletSdk.ISpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+    name: SetAggregatedSignature
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_SetAggregatedSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpendBundle.SetAggregatedSignature(ChiaWalletSdk.Signature)
+    name: SetAggregatedSignature
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_SetAggregatedSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+- uid: ChiaWalletSdk.SpendBundle
+  commentId: T:ChiaWalletSdk.SpendBundle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html
+  name: SpendBundle
+  nameWithType: SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle
+- uid: ChiaWalletSdk.SpendBundle.SetCoinSpends*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.SetCoinSpends
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_SetCoinSpends_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__
+  name: SetCoinSpends
+  nameWithType: SpendBundle.SetCoinSpends
+  fullName: ChiaWalletSdk.SpendBundle.SetCoinSpends
+- uid: ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  commentId: M:ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+  parent: ChiaWalletSdk.ISpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_SetCoinSpends_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__
+  name: SetCoinSpends(List<CoinSpend>)
+  nameWithType: ISpendBundle.SetCoinSpends(List<CoinSpend>)
+  fullName: ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List<ChiaWalletSdk.CoinSpend>)
+  nameWithType.vb: ISpendBundle.SetCoinSpends(List(Of CoinSpend))
+  fullName.vb: ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List(Of ChiaWalletSdk.CoinSpend))
+  name.vb: SetCoinSpends(List(Of CoinSpend))
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+    name: SetCoinSpends
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_SetCoinSpends_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinSpend
+    name: CoinSpend
+    isExternal: true
+    href: ChiaWalletSdk.CoinSpend.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpendBundle.SetCoinSpends(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})
+    name: SetCoinSpends
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_SetCoinSpends_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinSpend
+    name: CoinSpend
+    isExternal: true
+    href: ChiaWalletSdk.CoinSpend.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.SpendBundle.ToBytes*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.ToBytes
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_ToBytes
+  name: ToBytes
+  nameWithType: SpendBundle.ToBytes
+  fullName: ChiaWalletSdk.SpendBundle.ToBytes
+- uid: ChiaWalletSdk.ISpendBundle.ToBytes
+  commentId: M:ChiaWalletSdk.ISpendBundle.ToBytes
+  parent: ChiaWalletSdk.ISpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_ToBytes
+  name: ToBytes()
+  nameWithType: ISpendBundle.ToBytes()
+  fullName: ChiaWalletSdk.ISpendBundle.ToBytes()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpendBundle.ToBytes
+    name: ToBytes
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_ToBytes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpendBundle.ToBytes
+    name: ToBytes
+    isExternal: true
+    href: ChiaWalletSdk.ISpendBundle.html#ChiaWalletSdk_ISpendBundle_ToBytes
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SpendBundle.FromBytes*
+  commentId: Overload:ChiaWalletSdk.SpendBundle.FromBytes
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html#ChiaWalletSdk_SpendBundle_FromBytes_System_Byte___
+  name: FromBytes
+  nameWithType: SpendBundle.FromBytes
+  fullName: ChiaWalletSdk.SpendBundle.FromBytes

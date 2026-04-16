@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.SyncState
+  commentId: T:ChiaWalletSdk.SyncState
+  id: SyncState
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.SyncState.#ctor(System.Boolean,System.UInt32,System.UInt32,System.Boolean)
+  - ChiaWalletSdk.SyncState.#ctor(System.IntPtr)
+  - ChiaWalletSdk.SyncState.CloneRustArcPtr
+  - ChiaWalletSdk.SyncState.Destroy
+  - ChiaWalletSdk.SyncState.Dispose
+  - ChiaWalletSdk.SyncState.Finalize
+  - ChiaWalletSdk.SyncState.FreeRustArcPtr
+  - ChiaWalletSdk.SyncState.GetSyncMode
+  - ChiaWalletSdk.SyncState.GetSyncProgressHeight
+  - ChiaWalletSdk.SyncState.GetSyncTipHeight
+  - ChiaWalletSdk.SyncState.GetSynced
+  - ChiaWalletSdk.SyncState.SetSyncMode(System.Boolean)
+  - ChiaWalletSdk.SyncState.SetSyncProgressHeight(System.UInt32)
+  - ChiaWalletSdk.SyncState.SetSyncTipHeight(System.UInt32)
+  - ChiaWalletSdk.SyncState.SetSynced(System.Boolean)
+  - ChiaWalletSdk.SyncState.pointer
+  langs:
+  - csharp
+  - vb
+  name: SyncState
+  nameWithType: SyncState
+  fullName: ChiaWalletSdk.SyncState
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class SyncState : ISyncState'
+    content.vb: Public Class SyncState Implements ISyncState
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ISyncState
+- uid: ChiaWalletSdk.SyncState.pointer
+  commentId: F:ChiaWalletSdk.SyncState.pointer
+  id: pointer
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: SyncState.pointer
+  fullName: ChiaWalletSdk.SyncState.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.SyncState.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.SyncState.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SyncState(nint)
+  nameWithType: SyncState.SyncState(nint)
+  fullName: ChiaWalletSdk.SyncState.SyncState(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SyncState(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.SyncState.#ctor*
+  nameWithType.vb: SyncState.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.SyncState.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.SyncState.Finalize
+  commentId: M:ChiaWalletSdk.SyncState.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: ~SyncState()
+  nameWithType: SyncState.~SyncState()
+  fullName: ChiaWalletSdk.SyncState.~SyncState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~SyncState()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.SyncState.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.SyncState.#ctor(System.Boolean,System.UInt32,System.UInt32,System.Boolean)
+  commentId: M:ChiaWalletSdk.SyncState.#ctor(System.Boolean,System.UInt32,System.UInt32,System.Boolean)
+  id: '#ctor(System.Boolean,System.UInt32,System.UInt32,System.Boolean)'
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SyncState(bool, uint, uint, bool)
+  nameWithType: SyncState.SyncState(bool, uint, uint, bool)
+  fullName: ChiaWalletSdk.SyncState.SyncState(bool, uint, uint, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SyncState(bool syncMode, uint syncProgressHeight, uint syncTipHeight, bool synced)
+    parameters:
+    - id: syncMode
+      type: System.Boolean
+    - id: syncProgressHeight
+      type: System.UInt32
+    - id: syncTipHeight
+      type: System.UInt32
+    - id: synced
+      type: System.Boolean
+    content.vb: Public Sub New(syncMode As Boolean, syncProgressHeight As UInteger, syncTipHeight As UInteger, synced As Boolean)
+  overload: ChiaWalletSdk.SyncState.#ctor*
+  nameWithType.vb: SyncState.New(Boolean, UInteger, UInteger, Boolean)
+  fullName.vb: ChiaWalletSdk.SyncState.New(Boolean, UInteger, UInteger, Boolean)
+  name.vb: New(Boolean, UInteger, UInteger, Boolean)
+- uid: ChiaWalletSdk.SyncState.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.SyncState.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: SyncState.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.SyncState.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.SyncState.FreeRustArcPtr*
+- uid: ChiaWalletSdk.SyncState.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.SyncState.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: SyncState.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.SyncState.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.SyncState.CloneRustArcPtr*
+- uid: ChiaWalletSdk.SyncState.Destroy
+  commentId: M:ChiaWalletSdk.SyncState.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: SyncState.Destroy()
+  fullName: ChiaWalletSdk.SyncState.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.SyncState.Destroy*
+- uid: ChiaWalletSdk.SyncState.Dispose
+  commentId: M:ChiaWalletSdk.SyncState.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SyncState.Dispose()
+  fullName: ChiaWalletSdk.SyncState.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.SyncState.Dispose*
+- uid: ChiaWalletSdk.SyncState.GetSyncMode
+  commentId: M:ChiaWalletSdk.SyncState.GetSyncMode
+  id: GetSyncMode
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: GetSyncMode()
+  nameWithType: SyncState.GetSyncMode()
+  fullName: ChiaWalletSdk.SyncState.GetSyncMode()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSyncMode()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSyncMode() As Boolean
+  overload: ChiaWalletSdk.SyncState.GetSyncMode*
+  implements:
+  - ChiaWalletSdk.ISyncState.GetSyncMode
+- uid: ChiaWalletSdk.SyncState.GetSyncProgressHeight
+  commentId: M:ChiaWalletSdk.SyncState.GetSyncProgressHeight
+  id: GetSyncProgressHeight
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: GetSyncProgressHeight()
+  nameWithType: SyncState.GetSyncProgressHeight()
+  fullName: ChiaWalletSdk.SyncState.GetSyncProgressHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetSyncProgressHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetSyncProgressHeight() As UInteger
+  overload: ChiaWalletSdk.SyncState.GetSyncProgressHeight*
+  implements:
+  - ChiaWalletSdk.ISyncState.GetSyncProgressHeight
+- uid: ChiaWalletSdk.SyncState.GetSyncTipHeight
+  commentId: M:ChiaWalletSdk.SyncState.GetSyncTipHeight
+  id: GetSyncTipHeight
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: GetSyncTipHeight()
+  nameWithType: SyncState.GetSyncTipHeight()
+  fullName: ChiaWalletSdk.SyncState.GetSyncTipHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetSyncTipHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetSyncTipHeight() As UInteger
+  overload: ChiaWalletSdk.SyncState.GetSyncTipHeight*
+  implements:
+  - ChiaWalletSdk.ISyncState.GetSyncTipHeight
+- uid: ChiaWalletSdk.SyncState.GetSynced
+  commentId: M:ChiaWalletSdk.SyncState.GetSynced
+  id: GetSynced
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: GetSynced()
+  nameWithType: SyncState.GetSynced()
+  fullName: ChiaWalletSdk.SyncState.GetSynced()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSynced()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSynced() As Boolean
+  overload: ChiaWalletSdk.SyncState.GetSynced*
+  implements:
+  - ChiaWalletSdk.ISyncState.GetSynced
+- uid: ChiaWalletSdk.SyncState.SetSyncMode(System.Boolean)
+  commentId: M:ChiaWalletSdk.SyncState.SetSyncMode(System.Boolean)
+  id: SetSyncMode(System.Boolean)
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SetSyncMode(bool)
+  nameWithType: SyncState.SetSyncMode(bool)
+  fullName: ChiaWalletSdk.SyncState.SetSyncMode(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SyncState SetSyncMode(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.SyncState
+    content.vb: Public Function SetSyncMode(value As Boolean) As SyncState
+  overload: ChiaWalletSdk.SyncState.SetSyncMode*
+  implements:
+  - ChiaWalletSdk.ISyncState.SetSyncMode(System.Boolean)
+  nameWithType.vb: SyncState.SetSyncMode(Boolean)
+  fullName.vb: ChiaWalletSdk.SyncState.SetSyncMode(Boolean)
+  name.vb: SetSyncMode(Boolean)
+- uid: ChiaWalletSdk.SyncState.SetSyncProgressHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.SyncState.SetSyncProgressHeight(System.UInt32)
+  id: SetSyncProgressHeight(System.UInt32)
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SetSyncProgressHeight(uint)
+  nameWithType: SyncState.SetSyncProgressHeight(uint)
+  fullName: ChiaWalletSdk.SyncState.SetSyncProgressHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SyncState SetSyncProgressHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.SyncState
+    content.vb: Public Function SetSyncProgressHeight(value As UInteger) As SyncState
+  overload: ChiaWalletSdk.SyncState.SetSyncProgressHeight*
+  implements:
+  - ChiaWalletSdk.ISyncState.SetSyncProgressHeight(System.UInt32)
+  nameWithType.vb: SyncState.SetSyncProgressHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.SyncState.SetSyncProgressHeight(UInteger)
+  name.vb: SetSyncProgressHeight(UInteger)
+- uid: ChiaWalletSdk.SyncState.SetSyncTipHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.SyncState.SetSyncTipHeight(System.UInt32)
+  id: SetSyncTipHeight(System.UInt32)
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SetSyncTipHeight(uint)
+  nameWithType: SyncState.SetSyncTipHeight(uint)
+  fullName: ChiaWalletSdk.SyncState.SetSyncTipHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SyncState SetSyncTipHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.SyncState
+    content.vb: Public Function SetSyncTipHeight(value As UInteger) As SyncState
+  overload: ChiaWalletSdk.SyncState.SetSyncTipHeight*
+  implements:
+  - ChiaWalletSdk.ISyncState.SetSyncTipHeight(System.UInt32)
+  nameWithType.vb: SyncState.SetSyncTipHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.SyncState.SetSyncTipHeight(UInteger)
+  name.vb: SetSyncTipHeight(UInteger)
+- uid: ChiaWalletSdk.SyncState.SetSynced(System.Boolean)
+  commentId: M:ChiaWalletSdk.SyncState.SetSynced(System.Boolean)
+  id: SetSynced(System.Boolean)
+  parent: ChiaWalletSdk.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SetSynced(bool)
+  nameWithType: SyncState.SetSynced(bool)
+  fullName: ChiaWalletSdk.SyncState.SetSynced(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SyncState SetSynced(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.SyncState
+    content.vb: Public Function SetSynced(value As Boolean) As SyncState
+  overload: ChiaWalletSdk.SyncState.SetSynced*
+  implements:
+  - ChiaWalletSdk.ISyncState.SetSynced(System.Boolean)
+  nameWithType.vb: SyncState.SetSynced(Boolean)
+  fullName.vb: ChiaWalletSdk.SyncState.SetSynced(Boolean)
+  name.vb: SetSynced(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ISyncState
+  commentId: T:ChiaWalletSdk.ISyncState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html
+  name: ISyncState
+  nameWithType: ISyncState
+  fullName: ChiaWalletSdk.ISyncState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.SyncState.#ctor*
+  commentId: Overload:ChiaWalletSdk.SyncState.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState__ctor_System_IntPtr_
+  name: SyncState
+  nameWithType: SyncState.SyncState
+  fullName: ChiaWalletSdk.SyncState.SyncState
+  nameWithType.vb: SyncState.New
+  fullName.vb: ChiaWalletSdk.SyncState.New
+  name.vb: New
+- uid: ChiaWalletSdk.SyncState.Finalize*
+  commentId: Overload:ChiaWalletSdk.SyncState.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_Finalize
+  name: ~SyncState
+  nameWithType: SyncState.~SyncState
+  fullName: ChiaWalletSdk.SyncState.~SyncState
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.SyncState.Finalize*
+    name: SyncState
+    isExternal: true
+    href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_Finalize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.SyncState.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SyncState.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: SyncState.FreeRustArcPtr
+  fullName: ChiaWalletSdk.SyncState.FreeRustArcPtr
+- uid: ChiaWalletSdk.SyncState.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SyncState.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: SyncState.CloneRustArcPtr
+  fullName: ChiaWalletSdk.SyncState.CloneRustArcPtr
+- uid: ChiaWalletSdk.SyncState.Destroy*
+  commentId: Overload:ChiaWalletSdk.SyncState.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_Destroy
+  name: Destroy
+  nameWithType: SyncState.Destroy
+  fullName: ChiaWalletSdk.SyncState.Destroy
+- uid: ChiaWalletSdk.SyncState.Dispose*
+  commentId: Overload:ChiaWalletSdk.SyncState.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_Dispose
+  name: Dispose
+  nameWithType: SyncState.Dispose
+  fullName: ChiaWalletSdk.SyncState.Dispose
+- uid: ChiaWalletSdk.SyncState.GetSyncMode*
+  commentId: Overload:ChiaWalletSdk.SyncState.GetSyncMode
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_GetSyncMode
+  name: GetSyncMode
+  nameWithType: SyncState.GetSyncMode
+  fullName: ChiaWalletSdk.SyncState.GetSyncMode
+- uid: ChiaWalletSdk.ISyncState.GetSyncMode
+  commentId: M:ChiaWalletSdk.ISyncState.GetSyncMode
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncMode
+  name: GetSyncMode()
+  nameWithType: ISyncState.GetSyncMode()
+  fullName: ChiaWalletSdk.ISyncState.GetSyncMode()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.GetSyncMode
+    name: GetSyncMode
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncMode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.GetSyncMode
+    name: GetSyncMode
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncMode
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SyncState.GetSyncProgressHeight*
+  commentId: Overload:ChiaWalletSdk.SyncState.GetSyncProgressHeight
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_GetSyncProgressHeight
+  name: GetSyncProgressHeight
+  nameWithType: SyncState.GetSyncProgressHeight
+  fullName: ChiaWalletSdk.SyncState.GetSyncProgressHeight
+- uid: ChiaWalletSdk.ISyncState.GetSyncProgressHeight
+  commentId: M:ChiaWalletSdk.ISyncState.GetSyncProgressHeight
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncProgressHeight
+  name: GetSyncProgressHeight()
+  nameWithType: ISyncState.GetSyncProgressHeight()
+  fullName: ChiaWalletSdk.ISyncState.GetSyncProgressHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.GetSyncProgressHeight
+    name: GetSyncProgressHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncProgressHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.GetSyncProgressHeight
+    name: GetSyncProgressHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncProgressHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SyncState.GetSyncTipHeight*
+  commentId: Overload:ChiaWalletSdk.SyncState.GetSyncTipHeight
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_GetSyncTipHeight
+  name: GetSyncTipHeight
+  nameWithType: SyncState.GetSyncTipHeight
+  fullName: ChiaWalletSdk.SyncState.GetSyncTipHeight
+- uid: ChiaWalletSdk.ISyncState.GetSyncTipHeight
+  commentId: M:ChiaWalletSdk.ISyncState.GetSyncTipHeight
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncTipHeight
+  name: GetSyncTipHeight()
+  nameWithType: ISyncState.GetSyncTipHeight()
+  fullName: ChiaWalletSdk.ISyncState.GetSyncTipHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.GetSyncTipHeight
+    name: GetSyncTipHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncTipHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.GetSyncTipHeight
+    name: GetSyncTipHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSyncTipHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SyncState.GetSynced*
+  commentId: Overload:ChiaWalletSdk.SyncState.GetSynced
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_GetSynced
+  name: GetSynced
+  nameWithType: SyncState.GetSynced
+  fullName: ChiaWalletSdk.SyncState.GetSynced
+- uid: ChiaWalletSdk.ISyncState.GetSynced
+  commentId: M:ChiaWalletSdk.ISyncState.GetSynced
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSynced
+  name: GetSynced()
+  nameWithType: ISyncState.GetSynced()
+  fullName: ChiaWalletSdk.ISyncState.GetSynced()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.GetSynced
+    name: GetSynced
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSynced
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.GetSynced
+    name: GetSynced
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_GetSynced
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SyncState.SetSyncMode*
+  commentId: Overload:ChiaWalletSdk.SyncState.SetSyncMode
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_SetSyncMode_System_Boolean_
+  name: SetSyncMode
+  nameWithType: SyncState.SetSyncMode
+  fullName: ChiaWalletSdk.SyncState.SetSyncMode
+- uid: ChiaWalletSdk.ISyncState.SetSyncMode(System.Boolean)
+  commentId: M:ChiaWalletSdk.ISyncState.SetSyncMode(System.Boolean)
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncMode_System_Boolean_
+  name: SetSyncMode(bool)
+  nameWithType: ISyncState.SetSyncMode(bool)
+  fullName: ChiaWalletSdk.ISyncState.SetSyncMode(bool)
+  nameWithType.vb: ISyncState.SetSyncMode(Boolean)
+  fullName.vb: ChiaWalletSdk.ISyncState.SetSyncMode(Boolean)
+  name.vb: SetSyncMode(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.SetSyncMode(System.Boolean)
+    name: SetSyncMode
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncMode_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.SetSyncMode(System.Boolean)
+    name: SetSyncMode
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncMode_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.SyncState
+  commentId: T:ChiaWalletSdk.SyncState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html
+  name: SyncState
+  nameWithType: SyncState
+  fullName: ChiaWalletSdk.SyncState
+- uid: ChiaWalletSdk.SyncState.SetSyncProgressHeight*
+  commentId: Overload:ChiaWalletSdk.SyncState.SetSyncProgressHeight
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_SetSyncProgressHeight_System_UInt32_
+  name: SetSyncProgressHeight
+  nameWithType: SyncState.SetSyncProgressHeight
+  fullName: ChiaWalletSdk.SyncState.SetSyncProgressHeight
+- uid: ChiaWalletSdk.ISyncState.SetSyncProgressHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.ISyncState.SetSyncProgressHeight(System.UInt32)
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncProgressHeight_System_UInt32_
+  name: SetSyncProgressHeight(uint)
+  nameWithType: ISyncState.SetSyncProgressHeight(uint)
+  fullName: ChiaWalletSdk.ISyncState.SetSyncProgressHeight(uint)
+  nameWithType.vb: ISyncState.SetSyncProgressHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.ISyncState.SetSyncProgressHeight(UInteger)
+  name.vb: SetSyncProgressHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.SetSyncProgressHeight(System.UInt32)
+    name: SetSyncProgressHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncProgressHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.SetSyncProgressHeight(System.UInt32)
+    name: SetSyncProgressHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncProgressHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.SyncState.SetSyncTipHeight*
+  commentId: Overload:ChiaWalletSdk.SyncState.SetSyncTipHeight
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_SetSyncTipHeight_System_UInt32_
+  name: SetSyncTipHeight
+  nameWithType: SyncState.SetSyncTipHeight
+  fullName: ChiaWalletSdk.SyncState.SetSyncTipHeight
+- uid: ChiaWalletSdk.ISyncState.SetSyncTipHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.ISyncState.SetSyncTipHeight(System.UInt32)
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncTipHeight_System_UInt32_
+  name: SetSyncTipHeight(uint)
+  nameWithType: ISyncState.SetSyncTipHeight(uint)
+  fullName: ChiaWalletSdk.ISyncState.SetSyncTipHeight(uint)
+  nameWithType.vb: ISyncState.SetSyncTipHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.ISyncState.SetSyncTipHeight(UInteger)
+  name.vb: SetSyncTipHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.SetSyncTipHeight(System.UInt32)
+    name: SetSyncTipHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncTipHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.SetSyncTipHeight(System.UInt32)
+    name: SetSyncTipHeight
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSyncTipHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.SyncState.SetSynced*
+  commentId: Overload:ChiaWalletSdk.SyncState.SetSynced
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html#ChiaWalletSdk_SyncState_SetSynced_System_Boolean_
+  name: SetSynced
+  nameWithType: SyncState.SetSynced
+  fullName: ChiaWalletSdk.SyncState.SetSynced
+- uid: ChiaWalletSdk.ISyncState.SetSynced(System.Boolean)
+  commentId: M:ChiaWalletSdk.ISyncState.SetSynced(System.Boolean)
+  parent: ChiaWalletSdk.ISyncState
+  isExternal: true
+  href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSynced_System_Boolean_
+  name: SetSynced(bool)
+  nameWithType: ISyncState.SetSynced(bool)
+  fullName: ChiaWalletSdk.ISyncState.SetSynced(bool)
+  nameWithType.vb: ISyncState.SetSynced(Boolean)
+  fullName.vb: ChiaWalletSdk.ISyncState.SetSynced(Boolean)
+  name.vb: SetSynced(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISyncState.SetSynced(System.Boolean)
+    name: SetSynced
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSynced_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISyncState.SetSynced(System.Boolean)
+    name: SetSynced
+    isExternal: true
+    href: ChiaWalletSdk.ISyncState.html#ChiaWalletSdk_ISyncState_SetSynced_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

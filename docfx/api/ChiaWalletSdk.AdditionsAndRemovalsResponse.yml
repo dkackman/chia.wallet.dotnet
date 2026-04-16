@@ -1,0 +1,930 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  commentId: T:ChiaWalletSdk.AdditionsAndRemovalsResponse
+  id: AdditionsAndRemovalsResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.String,System.Boolean)
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError(System.String)
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.AdditionsAndRemovalsResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: AdditionsAndRemovalsResponse
+  nameWithType: AdditionsAndRemovalsResponse
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class AdditionsAndRemovalsResponse : IAdditionsAndRemovalsResponse'
+    content.vb: Public Class AdditionsAndRemovalsResponse Implements IAdditionsAndRemovalsResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.pointer
+  commentId: F:ChiaWalletSdk.AdditionsAndRemovalsResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: AdditionsAndRemovalsResponse.pointer
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: AdditionsAndRemovalsResponse(nint)
+  nameWithType: AdditionsAndRemovalsResponse.AdditionsAndRemovalsResponse(nint)
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.AdditionsAndRemovalsResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public AdditionsAndRemovalsResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor*
+  nameWithType.vb: AdditionsAndRemovalsResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: ~AdditionsAndRemovalsResponse()
+  nameWithType: AdditionsAndRemovalsResponse.~AdditionsAndRemovalsResponse()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.~AdditionsAndRemovalsResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~AdditionsAndRemovalsResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.String,System.Boolean)
+  id: '#ctor(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.Collections.Generic.List{ChiaWalletSdk.CoinRecord},System.String,System.Boolean)'
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: AdditionsAndRemovalsResponse(List<CoinRecord>?, List<CoinRecord>?, string?, bool)
+  nameWithType: AdditionsAndRemovalsResponse.AdditionsAndRemovalsResponse(List<CoinRecord>?, List<CoinRecord>?, string?, bool)
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.AdditionsAndRemovalsResponse(System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>?, System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>?, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public AdditionsAndRemovalsResponse(List<CoinRecord>? additions, List<CoinRecord>? removals, string? error, bool success)
+    parameters:
+    - id: additions
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+    - id: removals
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(additions As List(Of CoinRecord), removals As List(Of CoinRecord), [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor*
+  nameWithType.vb: AdditionsAndRemovalsResponse.New(List(Of CoinRecord), List(Of CoinRecord), String, Boolean)
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.New(System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord), System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord), String, Boolean)
+  name.vb: New(List(Of CoinRecord), List(Of CoinRecord), String, Boolean)
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: AdditionsAndRemovalsResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: AdditionsAndRemovalsResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: AdditionsAndRemovalsResponse.Destroy()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy*
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AdditionsAndRemovalsResponse.Dispose()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose*
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions
+  id: GetAdditions
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetAdditions()
+  nameWithType: AdditionsAndRemovalsResponse.GetAdditions()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<CoinRecord>? GetAdditions()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+    content.vb: Public Function GetAdditions() As List(Of CoinRecord)
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetAdditions
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: AdditionsAndRemovalsResponse.GetError()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetError
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals
+  id: GetRemovals
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetRemovals()
+  nameWithType: AdditionsAndRemovalsResponse.GetRemovals()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<CoinRecord>? GetRemovals()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+    content.vb: Public Function GetRemovals() As List(Of CoinRecord)
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetRemovals
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: AdditionsAndRemovalsResponse.GetSuccess()
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetSuccess
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  id: SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetAdditions(List<CoinRecord>?)
+  nameWithType: AdditionsAndRemovalsResponse.SetAdditions(List<CoinRecord>?)
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public AdditionsAndRemovalsResponse SetAdditions(List<CoinRecord>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+    return:
+      type: ChiaWalletSdk.AdditionsAndRemovalsResponse
+    content.vb: Public Function SetAdditions(value As List(Of CoinRecord)) As AdditionsAndRemovalsResponse
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  nameWithType.vb: AdditionsAndRemovalsResponse.SetAdditions(List(Of CoinRecord))
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord))
+  name.vb: SetAdditions(List(Of CoinRecord))
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: AdditionsAndRemovalsResponse.SetError(string?)
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public AdditionsAndRemovalsResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.AdditionsAndRemovalsResponse
+    content.vb: Public Function SetError(value As String) As AdditionsAndRemovalsResponse
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(System.String)
+  nameWithType.vb: AdditionsAndRemovalsResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  id: SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetRemovals(List<CoinRecord>?)
+  nameWithType: AdditionsAndRemovalsResponse.SetRemovals(List<CoinRecord>?)
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public AdditionsAndRemovalsResponse SetRemovals(List<CoinRecord>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+    return:
+      type: ChiaWalletSdk.AdditionsAndRemovalsResponse
+    content.vb: Public Function SetRemovals(value As List(Of CoinRecord)) As AdditionsAndRemovalsResponse
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  nameWithType.vb: AdditionsAndRemovalsResponse.SetRemovals(List(Of CoinRecord))
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord))
+  name.vb: SetRemovals(List(Of CoinRecord))
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: AdditionsAndRemovalsResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public AdditionsAndRemovalsResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.AdditionsAndRemovalsResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As AdditionsAndRemovalsResponse
+  overload: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: AdditionsAndRemovalsResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  commentId: T:ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html
+  name: IAdditionsAndRemovalsResponse
+  nameWithType: IAdditionsAndRemovalsResponse
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse__ctor_System_IntPtr_
+  name: AdditionsAndRemovalsResponse
+  nameWithType: AdditionsAndRemovalsResponse.AdditionsAndRemovalsResponse
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.AdditionsAndRemovalsResponse
+  nameWithType.vb: AdditionsAndRemovalsResponse.New
+  fullName.vb: ChiaWalletSdk.AdditionsAndRemovalsResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_Finalize
+  name: ~AdditionsAndRemovalsResponse
+  nameWithType: AdditionsAndRemovalsResponse.~AdditionsAndRemovalsResponse
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.~AdditionsAndRemovalsResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Finalize*
+    name: AdditionsAndRemovalsResponse
+    isExternal: true
+    href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_Finalize
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CoinRecord}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CoinRecord.html
+  name: List<CoinRecord>
+  nameWithType: List<CoinRecord>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>
+  nameWithType.vb: List(Of CoinRecord)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord)
+  name.vb: List(Of CoinRecord)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: AdditionsAndRemovalsResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: AdditionsAndRemovalsResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_Destroy
+  name: Destroy
+  nameWithType: AdditionsAndRemovalsResponse.Destroy
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.Destroy
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_Dispose
+  name: Dispose
+  nameWithType: AdditionsAndRemovalsResponse.Dispose
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.Dispose
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_GetAdditions
+  name: GetAdditions
+  nameWithType: AdditionsAndRemovalsResponse.GetAdditions
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetAdditions
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetAdditions
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetAdditions
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetAdditions
+  name: GetAdditions()
+  nameWithType: IAdditionsAndRemovalsResponse.GetAdditions()
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetAdditions()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetAdditions
+    name: GetAdditions
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetAdditions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetAdditions
+    name: GetAdditions
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetAdditions
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_GetError
+  name: GetError
+  nameWithType: AdditionsAndRemovalsResponse.GetError
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetError
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetError
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetError
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetError
+  name: GetError()
+  nameWithType: IAdditionsAndRemovalsResponse.GetError()
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_GetRemovals
+  name: GetRemovals
+  nameWithType: AdditionsAndRemovalsResponse.GetRemovals
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetRemovals
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetRemovals
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetRemovals
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetRemovals
+  name: GetRemovals()
+  nameWithType: IAdditionsAndRemovalsResponse.GetRemovals()
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetRemovals()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetRemovals
+    name: GetRemovals
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetRemovals
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetRemovals
+    name: GetRemovals
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetRemovals
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: AdditionsAndRemovalsResponse.GetSuccess
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.GetSuccess
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetSuccess
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IAdditionsAndRemovalsResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_SetAdditions_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  name: SetAdditions
+  nameWithType: AdditionsAndRemovalsResponse.SetAdditions
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetAdditions
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetAdditions_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  name: SetAdditions(List<CoinRecord>)
+  nameWithType: IAdditionsAndRemovalsResponse.SetAdditions(List<CoinRecord>)
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>)
+  nameWithType.vb: IAdditionsAndRemovalsResponse.SetAdditions(List(Of CoinRecord))
+  fullName.vb: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord))
+  name.vb: SetAdditions(List(Of CoinRecord))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+    name: SetAdditions
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetAdditions_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetAdditions(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+    name: SetAdditions
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetAdditions_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse
+  commentId: T:ChiaWalletSdk.AdditionsAndRemovalsResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html
+  name: AdditionsAndRemovalsResponse
+  nameWithType: AdditionsAndRemovalsResponse
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_SetError_System_String_
+  name: SetError
+  nameWithType: AdditionsAndRemovalsResponse.SetError
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetError
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IAdditionsAndRemovalsResponse.SetError(string)
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(string)
+  nameWithType.vb: IAdditionsAndRemovalsResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_SetRemovals_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  name: SetRemovals
+  nameWithType: AdditionsAndRemovalsResponse.SetRemovals
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetRemovals
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetRemovals_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  name: SetRemovals(List<CoinRecord>)
+  nameWithType: IAdditionsAndRemovalsResponse.SetRemovals(List<CoinRecord>)
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List<ChiaWalletSdk.CoinRecord>)
+  nameWithType.vb: IAdditionsAndRemovalsResponse.SetRemovals(List(Of CoinRecord))
+  fullName.vb: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List(Of ChiaWalletSdk.CoinRecord))
+  name.vb: SetRemovals(List(Of CoinRecord))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+    name: SetRemovals
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetRemovals_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetRemovals(System.Collections.Generic.List{ChiaWalletSdk.CoinRecord})
+    name: SetRemovals
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetRemovals_System_Collections_Generic_List_ChiaWalletSdk_CoinRecord__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html#ChiaWalletSdk_AdditionsAndRemovalsResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: AdditionsAndRemovalsResponse.SetSuccess
+  fullName: ChiaWalletSdk.AdditionsAndRemovalsResponse.SetSuccess
+- uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IAdditionsAndRemovalsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IAdditionsAndRemovalsResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(bool)
+  nameWithType.vb: IAdditionsAndRemovalsResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAdditionsAndRemovalsResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IAdditionsAndRemovalsResponse.html#ChiaWalletSdk_IAdditionsAndRemovalsResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.BlsPair
+  commentId: T:ChiaWalletSdk.BlsPair
+  id: BlsPair
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.BlsPair.#ctor(ChiaWalletSdk.SecretKey,ChiaWalletSdk.PublicKey)
+  - ChiaWalletSdk.BlsPair.#ctor(System.IntPtr)
+  - ChiaWalletSdk.BlsPair.CloneRustArcPtr
+  - ChiaWalletSdk.BlsPair.Destroy
+  - ChiaWalletSdk.BlsPair.Dispose
+  - ChiaWalletSdk.BlsPair.Finalize
+  - ChiaWalletSdk.BlsPair.FreeRustArcPtr
+  - ChiaWalletSdk.BlsPair.FromSeed(System.String)
+  - ChiaWalletSdk.BlsPair.GetPk
+  - ChiaWalletSdk.BlsPair.GetSk
+  - ChiaWalletSdk.BlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  - ChiaWalletSdk.BlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  - ChiaWalletSdk.BlsPair.pointer
+  langs:
+  - csharp
+  - vb
+  name: BlsPair
+  nameWithType: BlsPair
+  fullName: ChiaWalletSdk.BlsPair
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class BlsPair : IBlsPair'
+    content.vb: Public Class BlsPair Implements IBlsPair
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IBlsPair
+- uid: ChiaWalletSdk.BlsPair.pointer
+  commentId: F:ChiaWalletSdk.BlsPair.pointer
+  id: pointer
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: BlsPair.pointer
+  fullName: ChiaWalletSdk.BlsPair.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.BlsPair.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.BlsPair.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: BlsPair(nint)
+  nameWithType: BlsPair.BlsPair(nint)
+  fullName: ChiaWalletSdk.BlsPair.BlsPair(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public BlsPair(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.BlsPair.#ctor*
+  nameWithType.vb: BlsPair.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.BlsPair.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.BlsPair.Finalize
+  commentId: M:ChiaWalletSdk.BlsPair.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: ~BlsPair()
+  nameWithType: BlsPair.~BlsPair()
+  fullName: ChiaWalletSdk.BlsPair.~BlsPair()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~BlsPair()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.BlsPair.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.BlsPair.#ctor(ChiaWalletSdk.SecretKey,ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.BlsPair.#ctor(ChiaWalletSdk.SecretKey,ChiaWalletSdk.PublicKey)
+  id: '#ctor(ChiaWalletSdk.SecretKey,ChiaWalletSdk.PublicKey)'
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: BlsPair(SecretKey, PublicKey)
+  nameWithType: BlsPair.BlsPair(SecretKey, PublicKey)
+  fullName: ChiaWalletSdk.BlsPair.BlsPair(ChiaWalletSdk.SecretKey, ChiaWalletSdk.PublicKey)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public BlsPair(SecretKey sk, PublicKey pk)
+    parameters:
+    - id: sk
+      type: ChiaWalletSdk.SecretKey
+    - id: pk
+      type: ChiaWalletSdk.PublicKey
+    content.vb: Public Sub New(sk As SecretKey, pk As PublicKey)
+  overload: ChiaWalletSdk.BlsPair.#ctor*
+  nameWithType.vb: BlsPair.New(SecretKey, PublicKey)
+  fullName.vb: ChiaWalletSdk.BlsPair.New(ChiaWalletSdk.SecretKey, ChiaWalletSdk.PublicKey)
+  name.vb: New(SecretKey, PublicKey)
+- uid: ChiaWalletSdk.BlsPair.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.BlsPair.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: BlsPair.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.BlsPair.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.BlsPair.FreeRustArcPtr*
+- uid: ChiaWalletSdk.BlsPair.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.BlsPair.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: BlsPair.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.BlsPair.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.BlsPair.CloneRustArcPtr*
+- uid: ChiaWalletSdk.BlsPair.Destroy
+  commentId: M:ChiaWalletSdk.BlsPair.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: BlsPair.Destroy()
+  fullName: ChiaWalletSdk.BlsPair.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.BlsPair.Destroy*
+- uid: ChiaWalletSdk.BlsPair.Dispose
+  commentId: M:ChiaWalletSdk.BlsPair.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: BlsPair.Dispose()
+  fullName: ChiaWalletSdk.BlsPair.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.BlsPair.Dispose*
+- uid: ChiaWalletSdk.BlsPair.GetPk
+  commentId: M:ChiaWalletSdk.BlsPair.GetPk
+  id: GetPk
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: GetPk()
+  nameWithType: BlsPair.GetPk()
+  fullName: ChiaWalletSdk.BlsPair.GetPk()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PublicKey GetPk()
+    return:
+      type: ChiaWalletSdk.PublicKey
+    content.vb: Public Function GetPk() As PublicKey
+  overload: ChiaWalletSdk.BlsPair.GetPk*
+  implements:
+  - ChiaWalletSdk.IBlsPair.GetPk
+- uid: ChiaWalletSdk.BlsPair.GetSk
+  commentId: M:ChiaWalletSdk.BlsPair.GetSk
+  id: GetSk
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: GetSk()
+  nameWithType: BlsPair.GetSk()
+  fullName: ChiaWalletSdk.BlsPair.GetSk()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SecretKey GetSk()
+    return:
+      type: ChiaWalletSdk.SecretKey
+    content.vb: Public Function GetSk() As SecretKey
+  overload: ChiaWalletSdk.BlsPair.GetSk*
+  implements:
+  - ChiaWalletSdk.IBlsPair.GetSk
+- uid: ChiaWalletSdk.BlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.BlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  id: SetPk(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: SetPk(PublicKey)
+  nameWithType: BlsPair.SetPk(PublicKey)
+  fullName: ChiaWalletSdk.BlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlsPair SetPk(PublicKey value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.PublicKey
+    return:
+      type: ChiaWalletSdk.BlsPair
+    content.vb: Public Function SetPk(value As PublicKey) As BlsPair
+  overload: ChiaWalletSdk.BlsPair.SetPk*
+  implements:
+  - ChiaWalletSdk.IBlsPair.SetPk(ChiaWalletSdk.PublicKey)
+- uid: ChiaWalletSdk.BlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  commentId: M:ChiaWalletSdk.BlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  id: SetSk(ChiaWalletSdk.SecretKey)
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: SetSk(SecretKey)
+  nameWithType: BlsPair.SetSk(SecretKey)
+  fullName: ChiaWalletSdk.BlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlsPair SetSk(SecretKey value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.SecretKey
+    return:
+      type: ChiaWalletSdk.BlsPair
+    content.vb: Public Function SetSk(value As SecretKey) As BlsPair
+  overload: ChiaWalletSdk.BlsPair.SetSk*
+  implements:
+  - ChiaWalletSdk.IBlsPair.SetSk(ChiaWalletSdk.SecretKey)
+- uid: ChiaWalletSdk.BlsPair.FromSeed(System.String)
+  commentId: M:ChiaWalletSdk.BlsPair.FromSeed(System.String)
+  id: FromSeed(System.String)
+  parent: ChiaWalletSdk.BlsPair
+  langs:
+  - csharp
+  - vb
+  name: FromSeed(string)
+  nameWithType: BlsPair.FromSeed(string)
+  fullName: ChiaWalletSdk.BlsPair.FromSeed(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static BlsPair FromSeed(string seed)
+    parameters:
+    - id: seed
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlsPair
+    content.vb: Public Shared Function FromSeed(seed As String) As BlsPair
+  overload: ChiaWalletSdk.BlsPair.FromSeed*
+  nameWithType.vb: BlsPair.FromSeed(String)
+  fullName.vb: ChiaWalletSdk.BlsPair.FromSeed(String)
+  name.vb: FromSeed(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IBlsPair
+  commentId: T:ChiaWalletSdk.IBlsPair
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IBlsPair.html
+  name: IBlsPair
+  nameWithType: IBlsPair
+  fullName: ChiaWalletSdk.IBlsPair
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.BlsPair.#ctor*
+  commentId: Overload:ChiaWalletSdk.BlsPair.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair__ctor_System_IntPtr_
+  name: BlsPair
+  nameWithType: BlsPair.BlsPair
+  fullName: ChiaWalletSdk.BlsPair.BlsPair
+  nameWithType.vb: BlsPair.New
+  fullName.vb: ChiaWalletSdk.BlsPair.New
+  name.vb: New
+- uid: ChiaWalletSdk.BlsPair.Finalize*
+  commentId: Overload:ChiaWalletSdk.BlsPair.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_Finalize
+  name: ~BlsPair
+  nameWithType: BlsPair.~BlsPair
+  fullName: ChiaWalletSdk.BlsPair.~BlsPair
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.BlsPair.Finalize*
+    name: BlsPair
+    isExternal: true
+    href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_Finalize
+- uid: ChiaWalletSdk.SecretKey
+  commentId: T:ChiaWalletSdk.SecretKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SecretKey.html
+  name: SecretKey
+  nameWithType: SecretKey
+  fullName: ChiaWalletSdk.SecretKey
+- uid: ChiaWalletSdk.PublicKey
+  commentId: T:ChiaWalletSdk.PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PublicKey.html
+  name: PublicKey
+  nameWithType: PublicKey
+  fullName: ChiaWalletSdk.PublicKey
+- uid: ChiaWalletSdk.BlsPair.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.BlsPair.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: BlsPair.FreeRustArcPtr
+  fullName: ChiaWalletSdk.BlsPair.FreeRustArcPtr
+- uid: ChiaWalletSdk.BlsPair.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.BlsPair.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: BlsPair.CloneRustArcPtr
+  fullName: ChiaWalletSdk.BlsPair.CloneRustArcPtr
+- uid: ChiaWalletSdk.BlsPair.Destroy*
+  commentId: Overload:ChiaWalletSdk.BlsPair.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_Destroy
+  name: Destroy
+  nameWithType: BlsPair.Destroy
+  fullName: ChiaWalletSdk.BlsPair.Destroy
+- uid: ChiaWalletSdk.BlsPair.Dispose*
+  commentId: Overload:ChiaWalletSdk.BlsPair.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_Dispose
+  name: Dispose
+  nameWithType: BlsPair.Dispose
+  fullName: ChiaWalletSdk.BlsPair.Dispose
+- uid: ChiaWalletSdk.BlsPair.GetPk*
+  commentId: Overload:ChiaWalletSdk.BlsPair.GetPk
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_GetPk
+  name: GetPk
+  nameWithType: BlsPair.GetPk
+  fullName: ChiaWalletSdk.BlsPair.GetPk
+- uid: ChiaWalletSdk.IBlsPair.GetPk
+  commentId: M:ChiaWalletSdk.IBlsPair.GetPk
+  parent: ChiaWalletSdk.IBlsPair
+  isExternal: true
+  href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_GetPk
+  name: GetPk()
+  nameWithType: IBlsPair.GetPk()
+  fullName: ChiaWalletSdk.IBlsPair.GetPk()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlsPair.GetPk
+    name: GetPk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_GetPk
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlsPair.GetPk
+    name: GetPk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_GetPk
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlsPair.GetSk*
+  commentId: Overload:ChiaWalletSdk.BlsPair.GetSk
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_GetSk
+  name: GetSk
+  nameWithType: BlsPair.GetSk
+  fullName: ChiaWalletSdk.BlsPair.GetSk
+- uid: ChiaWalletSdk.IBlsPair.GetSk
+  commentId: M:ChiaWalletSdk.IBlsPair.GetSk
+  parent: ChiaWalletSdk.IBlsPair
+  isExternal: true
+  href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_GetSk
+  name: GetSk()
+  nameWithType: IBlsPair.GetSk()
+  fullName: ChiaWalletSdk.IBlsPair.GetSk()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlsPair.GetSk
+    name: GetSk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_GetSk
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlsPair.GetSk
+    name: GetSk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_GetSk
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlsPair.SetPk*
+  commentId: Overload:ChiaWalletSdk.BlsPair.SetPk
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_SetPk_ChiaWalletSdk_PublicKey_
+  name: SetPk
+  nameWithType: BlsPair.SetPk
+  fullName: ChiaWalletSdk.BlsPair.SetPk
+- uid: ChiaWalletSdk.IBlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.IBlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.IBlsPair
+  isExternal: true
+  href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_SetPk_ChiaWalletSdk_PublicKey_
+  name: SetPk(PublicKey)
+  nameWithType: IBlsPair.SetPk(PublicKey)
+  fullName: ChiaWalletSdk.IBlsPair.SetPk(ChiaWalletSdk.PublicKey)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlsPair.SetPk(ChiaWalletSdk.PublicKey)
+    name: SetPk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_SetPk_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlsPair.SetPk(ChiaWalletSdk.PublicKey)
+    name: SetPk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_SetPk_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+- uid: ChiaWalletSdk.BlsPair
+  commentId: T:ChiaWalletSdk.BlsPair
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html
+  name: BlsPair
+  nameWithType: BlsPair
+  fullName: ChiaWalletSdk.BlsPair
+- uid: ChiaWalletSdk.BlsPair.SetSk*
+  commentId: Overload:ChiaWalletSdk.BlsPair.SetSk
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_SetSk_ChiaWalletSdk_SecretKey_
+  name: SetSk
+  nameWithType: BlsPair.SetSk
+  fullName: ChiaWalletSdk.BlsPair.SetSk
+- uid: ChiaWalletSdk.IBlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  commentId: M:ChiaWalletSdk.IBlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  parent: ChiaWalletSdk.IBlsPair
+  isExternal: true
+  href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_SetSk_ChiaWalletSdk_SecretKey_
+  name: SetSk(SecretKey)
+  nameWithType: IBlsPair.SetSk(SecretKey)
+  fullName: ChiaWalletSdk.IBlsPair.SetSk(ChiaWalletSdk.SecretKey)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlsPair.SetSk(ChiaWalletSdk.SecretKey)
+    name: SetSk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_SetSk_ChiaWalletSdk_SecretKey_
+  - name: (
+  - uid: ChiaWalletSdk.SecretKey
+    name: SecretKey
+    isExternal: true
+    href: ChiaWalletSdk.SecretKey.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlsPair.SetSk(ChiaWalletSdk.SecretKey)
+    name: SetSk
+    isExternal: true
+    href: ChiaWalletSdk.IBlsPair.html#ChiaWalletSdk_IBlsPair_SetSk_ChiaWalletSdk_SecretKey_
+  - name: (
+  - uid: ChiaWalletSdk.SecretKey
+    name: SecretKey
+    isExternal: true
+    href: ChiaWalletSdk.SecretKey.html
+  - name: )
+- uid: ChiaWalletSdk.BlsPair.FromSeed*
+  commentId: Overload:ChiaWalletSdk.BlsPair.FromSeed
+  isExternal: true
+  href: ChiaWalletSdk.BlsPair.html#ChiaWalletSdk_BlsPair_FromSeed_System_String_
+  name: FromSeed
+  nameWithType: BlsPair.FromSeed
+  fullName: ChiaWalletSdk.BlsPair.FromSeed
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

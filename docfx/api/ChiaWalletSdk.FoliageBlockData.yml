@@ -1,0 +1,953 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.FoliageBlockData
+  commentId: T:ChiaWalletSdk.FoliageBlockData
+  id: FoliageBlockData
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.FoliageBlockData.#ctor(System.Byte[],ChiaWalletSdk.PoolTarget,ChiaWalletSdk.Signature,System.Byte[],System.Byte[])
+  - ChiaWalletSdk.FoliageBlockData.#ctor(System.IntPtr)
+  - ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr
+  - ChiaWalletSdk.FoliageBlockData.Destroy
+  - ChiaWalletSdk.FoliageBlockData.Dispose
+  - ChiaWalletSdk.FoliageBlockData.Finalize
+  - ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr
+  - ChiaWalletSdk.FoliageBlockData.GetExtensionData
+  - ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash
+  - ChiaWalletSdk.FoliageBlockData.GetPoolSignature
+  - ChiaWalletSdk.FoliageBlockData.GetPoolTarget
+  - ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash
+  - ChiaWalletSdk.FoliageBlockData.SetExtensionData(System.Byte[])
+  - ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.FoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.FoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  - ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+  - ChiaWalletSdk.FoliageBlockData.pointer
+  langs:
+  - csharp
+  - vb
+  name: FoliageBlockData
+  nameWithType: FoliageBlockData
+  fullName: ChiaWalletSdk.FoliageBlockData
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class FoliageBlockData : IFoliageBlockData'
+    content.vb: Public Class FoliageBlockData Implements IFoliageBlockData
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData
+- uid: ChiaWalletSdk.FoliageBlockData.pointer
+  commentId: F:ChiaWalletSdk.FoliageBlockData.pointer
+  id: pointer
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: FoliageBlockData.pointer
+  fullName: ChiaWalletSdk.FoliageBlockData.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.FoliageBlockData.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.FoliageBlockData.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: FoliageBlockData(nint)
+  nameWithType: FoliageBlockData.FoliageBlockData(nint)
+  fullName: ChiaWalletSdk.FoliageBlockData.FoliageBlockData(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public FoliageBlockData(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.FoliageBlockData.#ctor*
+  nameWithType.vb: FoliageBlockData.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.FoliageBlockData.Finalize
+  commentId: M:ChiaWalletSdk.FoliageBlockData.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: ~FoliageBlockData()
+  nameWithType: FoliageBlockData.~FoliageBlockData()
+  fullName: ChiaWalletSdk.FoliageBlockData.~FoliageBlockData()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~FoliageBlockData()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.FoliageBlockData.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.FoliageBlockData.#ctor(System.Byte[],ChiaWalletSdk.PoolTarget,ChiaWalletSdk.Signature,System.Byte[],System.Byte[])
+  commentId: M:ChiaWalletSdk.FoliageBlockData.#ctor(System.Byte[],ChiaWalletSdk.PoolTarget,ChiaWalletSdk.Signature,System.Byte[],System.Byte[])
+  id: '#ctor(System.Byte[],ChiaWalletSdk.PoolTarget,ChiaWalletSdk.Signature,System.Byte[],System.Byte[])'
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: FoliageBlockData(byte[], PoolTarget, Signature?, byte[], byte[])
+  nameWithType: FoliageBlockData.FoliageBlockData(byte[], PoolTarget, Signature?, byte[], byte[])
+  fullName: ChiaWalletSdk.FoliageBlockData.FoliageBlockData(byte[], ChiaWalletSdk.PoolTarget, ChiaWalletSdk.Signature?, byte[], byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public FoliageBlockData(byte[] unfinishedRewardBlockHash, PoolTarget poolTarget, Signature? poolSignature, byte[] farmerRewardPuzzleHash, byte[] extensionData)
+    parameters:
+    - id: unfinishedRewardBlockHash
+      type: System.Byte[]
+    - id: poolTarget
+      type: ChiaWalletSdk.PoolTarget
+    - id: poolSignature
+      type: ChiaWalletSdk.Signature
+    - id: farmerRewardPuzzleHash
+      type: System.Byte[]
+    - id: extensionData
+      type: System.Byte[]
+    content.vb: Public Sub New(unfinishedRewardBlockHash As Byte(), poolTarget As PoolTarget, poolSignature As Signature, farmerRewardPuzzleHash As Byte(), extensionData As Byte())
+  overload: ChiaWalletSdk.FoliageBlockData.#ctor*
+  nameWithType.vb: FoliageBlockData.New(Byte(), PoolTarget, Signature, Byte(), Byte())
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.New(Byte(), ChiaWalletSdk.PoolTarget, ChiaWalletSdk.Signature, Byte(), Byte())
+  name.vb: New(Byte(), PoolTarget, Signature, Byte(), Byte())
+- uid: ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: FoliageBlockData.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr*
+- uid: ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: FoliageBlockData.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr*
+- uid: ChiaWalletSdk.FoliageBlockData.Destroy
+  commentId: M:ChiaWalletSdk.FoliageBlockData.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: FoliageBlockData.Destroy()
+  fullName: ChiaWalletSdk.FoliageBlockData.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.FoliageBlockData.Destroy*
+- uid: ChiaWalletSdk.FoliageBlockData.Dispose
+  commentId: M:ChiaWalletSdk.FoliageBlockData.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: FoliageBlockData.Dispose()
+  fullName: ChiaWalletSdk.FoliageBlockData.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.FoliageBlockData.Dispose*
+- uid: ChiaWalletSdk.FoliageBlockData.GetExtensionData
+  commentId: M:ChiaWalletSdk.FoliageBlockData.GetExtensionData
+  id: GetExtensionData
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: GetExtensionData()
+  nameWithType: FoliageBlockData.GetExtensionData()
+  fullName: ChiaWalletSdk.FoliageBlockData.GetExtensionData()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetExtensionData()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetExtensionData() As Byte()
+  overload: ChiaWalletSdk.FoliageBlockData.GetExtensionData*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.GetExtensionData
+- uid: ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash
+  commentId: M:ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash
+  id: GetFarmerRewardPuzzleHash
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: GetFarmerRewardPuzzleHash()
+  nameWithType: FoliageBlockData.GetFarmerRewardPuzzleHash()
+  fullName: ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetFarmerRewardPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetFarmerRewardPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.GetFarmerRewardPuzzleHash
+- uid: ChiaWalletSdk.FoliageBlockData.GetPoolSignature
+  commentId: M:ChiaWalletSdk.FoliageBlockData.GetPoolSignature
+  id: GetPoolSignature
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: GetPoolSignature()
+  nameWithType: FoliageBlockData.GetPoolSignature()
+  fullName: ChiaWalletSdk.FoliageBlockData.GetPoolSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Signature? GetPoolSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Function GetPoolSignature() As Signature
+  overload: ChiaWalletSdk.FoliageBlockData.GetPoolSignature*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.GetPoolSignature
+- uid: ChiaWalletSdk.FoliageBlockData.GetPoolTarget
+  commentId: M:ChiaWalletSdk.FoliageBlockData.GetPoolTarget
+  id: GetPoolTarget
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: GetPoolTarget()
+  nameWithType: FoliageBlockData.GetPoolTarget()
+  fullName: ChiaWalletSdk.FoliageBlockData.GetPoolTarget()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PoolTarget GetPoolTarget()
+    return:
+      type: ChiaWalletSdk.PoolTarget
+    content.vb: Public Function GetPoolTarget() As PoolTarget
+  overload: ChiaWalletSdk.FoliageBlockData.GetPoolTarget*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.GetPoolTarget
+- uid: ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash
+  commentId: M:ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash
+  id: GetUnfinishedRewardBlockHash
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: GetUnfinishedRewardBlockHash()
+  nameWithType: FoliageBlockData.GetUnfinishedRewardBlockHash()
+  fullName: ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetUnfinishedRewardBlockHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetUnfinishedRewardBlockHash() As Byte()
+  overload: ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.GetUnfinishedRewardBlockHash
+- uid: ChiaWalletSdk.FoliageBlockData.SetExtensionData(System.Byte[])
+  commentId: M:ChiaWalletSdk.FoliageBlockData.SetExtensionData(System.Byte[])
+  id: SetExtensionData(System.Byte[])
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: SetExtensionData(byte[])
+  nameWithType: FoliageBlockData.SetExtensionData(byte[])
+  fullName: ChiaWalletSdk.FoliageBlockData.SetExtensionData(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageBlockData SetExtensionData(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.FoliageBlockData
+    content.vb: Public Function SetExtensionData(value As Byte()) As FoliageBlockData
+  overload: ChiaWalletSdk.FoliageBlockData.SetExtensionData*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.SetExtensionData(System.Byte[])
+  nameWithType.vb: FoliageBlockData.SetExtensionData(Byte())
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.SetExtensionData(Byte())
+  name.vb: SetExtensionData(Byte())
+- uid: ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+  id: SetFarmerRewardPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: SetFarmerRewardPuzzleHash(byte[])
+  nameWithType: FoliageBlockData.SetFarmerRewardPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageBlockData SetFarmerRewardPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.FoliageBlockData
+    content.vb: Public Function SetFarmerRewardPuzzleHash(value As Byte()) As FoliageBlockData
+  overload: ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+  nameWithType.vb: FoliageBlockData.SetFarmerRewardPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash(Byte())
+  name.vb: SetFarmerRewardPuzzleHash(Byte())
+- uid: ChiaWalletSdk.FoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.FoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  id: SetPoolSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: SetPoolSignature(Signature?)
+  nameWithType: FoliageBlockData.SetPoolSignature(Signature?)
+  fullName: ChiaWalletSdk.FoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageBlockData SetPoolSignature(Signature? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Signature
+    return:
+      type: ChiaWalletSdk.FoliageBlockData
+    content.vb: Public Function SetPoolSignature(value As Signature) As FoliageBlockData
+  overload: ChiaWalletSdk.FoliageBlockData.SetPoolSignature*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  nameWithType.vb: FoliageBlockData.SetPoolSignature(Signature)
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  name.vb: SetPoolSignature(Signature)
+- uid: ChiaWalletSdk.FoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  commentId: M:ChiaWalletSdk.FoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  id: SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: SetPoolTarget(PoolTarget)
+  nameWithType: FoliageBlockData.SetPoolTarget(PoolTarget)
+  fullName: ChiaWalletSdk.FoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageBlockData SetPoolTarget(PoolTarget value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.PoolTarget
+    return:
+      type: ChiaWalletSdk.FoliageBlockData
+    content.vb: Public Function SetPoolTarget(value As PoolTarget) As FoliageBlockData
+  overload: ChiaWalletSdk.FoliageBlockData.SetPoolTarget*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+- uid: ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+  id: SetUnfinishedRewardBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.FoliageBlockData
+  langs:
+  - csharp
+  - vb
+  name: SetUnfinishedRewardBlockHash(byte[])
+  nameWithType: FoliageBlockData.SetUnfinishedRewardBlockHash(byte[])
+  fullName: ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageBlockData SetUnfinishedRewardBlockHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.FoliageBlockData
+    content.vb: Public Function SetUnfinishedRewardBlockHash(value As Byte()) As FoliageBlockData
+  overload: ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+  nameWithType.vb: FoliageBlockData.SetUnfinishedRewardBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash(Byte())
+  name.vb: SetUnfinishedRewardBlockHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IFoliageBlockData
+  commentId: T:ChiaWalletSdk.IFoliageBlockData
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html
+  name: IFoliageBlockData
+  nameWithType: IFoliageBlockData
+  fullName: ChiaWalletSdk.IFoliageBlockData
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.FoliageBlockData.#ctor*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData__ctor_System_IntPtr_
+  name: FoliageBlockData
+  nameWithType: FoliageBlockData.FoliageBlockData
+  fullName: ChiaWalletSdk.FoliageBlockData.FoliageBlockData
+  nameWithType.vb: FoliageBlockData.New
+  fullName.vb: ChiaWalletSdk.FoliageBlockData.New
+  name.vb: New
+- uid: ChiaWalletSdk.FoliageBlockData.Finalize*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_Finalize
+  name: ~FoliageBlockData
+  nameWithType: FoliageBlockData.~FoliageBlockData
+  fullName: ChiaWalletSdk.FoliageBlockData.~FoliageBlockData
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.FoliageBlockData.Finalize*
+    name: FoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PoolTarget
+  commentId: T:ChiaWalletSdk.PoolTarget
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html
+  name: PoolTarget
+  nameWithType: PoolTarget
+  fullName: ChiaWalletSdk.PoolTarget
+- uid: ChiaWalletSdk.Signature
+  commentId: T:ChiaWalletSdk.Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Signature.html
+  name: Signature
+  nameWithType: Signature
+  fullName: ChiaWalletSdk.Signature
+- uid: ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: FoliageBlockData.FreeRustArcPtr
+  fullName: ChiaWalletSdk.FoliageBlockData.FreeRustArcPtr
+- uid: ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: FoliageBlockData.CloneRustArcPtr
+  fullName: ChiaWalletSdk.FoliageBlockData.CloneRustArcPtr
+- uid: ChiaWalletSdk.FoliageBlockData.Destroy*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_Destroy
+  name: Destroy
+  nameWithType: FoliageBlockData.Destroy
+  fullName: ChiaWalletSdk.FoliageBlockData.Destroy
+- uid: ChiaWalletSdk.FoliageBlockData.Dispose*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_Dispose
+  name: Dispose
+  nameWithType: FoliageBlockData.Dispose
+  fullName: ChiaWalletSdk.FoliageBlockData.Dispose
+- uid: ChiaWalletSdk.FoliageBlockData.GetExtensionData*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.GetExtensionData
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_GetExtensionData
+  name: GetExtensionData
+  nameWithType: FoliageBlockData.GetExtensionData
+  fullName: ChiaWalletSdk.FoliageBlockData.GetExtensionData
+- uid: ChiaWalletSdk.IFoliageBlockData.GetExtensionData
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.GetExtensionData
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetExtensionData
+  name: GetExtensionData()
+  nameWithType: IFoliageBlockData.GetExtensionData()
+  fullName: ChiaWalletSdk.IFoliageBlockData.GetExtensionData()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetExtensionData
+    name: GetExtensionData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetExtensionData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetExtensionData
+    name: GetExtensionData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetExtensionData
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_GetFarmerRewardPuzzleHash
+  name: GetFarmerRewardPuzzleHash
+  nameWithType: FoliageBlockData.GetFarmerRewardPuzzleHash
+  fullName: ChiaWalletSdk.FoliageBlockData.GetFarmerRewardPuzzleHash
+- uid: ChiaWalletSdk.IFoliageBlockData.GetFarmerRewardPuzzleHash
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.GetFarmerRewardPuzzleHash
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetFarmerRewardPuzzleHash
+  name: GetFarmerRewardPuzzleHash()
+  nameWithType: IFoliageBlockData.GetFarmerRewardPuzzleHash()
+  fullName: ChiaWalletSdk.IFoliageBlockData.GetFarmerRewardPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetFarmerRewardPuzzleHash
+    name: GetFarmerRewardPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetFarmerRewardPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetFarmerRewardPuzzleHash
+    name: GetFarmerRewardPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetFarmerRewardPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.GetPoolSignature*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.GetPoolSignature
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_GetPoolSignature
+  name: GetPoolSignature
+  nameWithType: FoliageBlockData.GetPoolSignature
+  fullName: ChiaWalletSdk.FoliageBlockData.GetPoolSignature
+- uid: ChiaWalletSdk.IFoliageBlockData.GetPoolSignature
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.GetPoolSignature
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetPoolSignature
+  name: GetPoolSignature()
+  nameWithType: IFoliageBlockData.GetPoolSignature()
+  fullName: ChiaWalletSdk.IFoliageBlockData.GetPoolSignature()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetPoolSignature
+    name: GetPoolSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetPoolSignature
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetPoolSignature
+    name: GetPoolSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetPoolSignature
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.GetPoolTarget*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.GetPoolTarget
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_GetPoolTarget
+  name: GetPoolTarget
+  nameWithType: FoliageBlockData.GetPoolTarget
+  fullName: ChiaWalletSdk.FoliageBlockData.GetPoolTarget
+- uid: ChiaWalletSdk.IFoliageBlockData.GetPoolTarget
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.GetPoolTarget
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetPoolTarget
+  name: GetPoolTarget()
+  nameWithType: IFoliageBlockData.GetPoolTarget()
+  fullName: ChiaWalletSdk.IFoliageBlockData.GetPoolTarget()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetPoolTarget
+    name: GetPoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetPoolTarget
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetPoolTarget
+    name: GetPoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetPoolTarget
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_GetUnfinishedRewardBlockHash
+  name: GetUnfinishedRewardBlockHash
+  nameWithType: FoliageBlockData.GetUnfinishedRewardBlockHash
+  fullName: ChiaWalletSdk.FoliageBlockData.GetUnfinishedRewardBlockHash
+- uid: ChiaWalletSdk.IFoliageBlockData.GetUnfinishedRewardBlockHash
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.GetUnfinishedRewardBlockHash
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetUnfinishedRewardBlockHash
+  name: GetUnfinishedRewardBlockHash()
+  nameWithType: IFoliageBlockData.GetUnfinishedRewardBlockHash()
+  fullName: ChiaWalletSdk.IFoliageBlockData.GetUnfinishedRewardBlockHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetUnfinishedRewardBlockHash
+    name: GetUnfinishedRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetUnfinishedRewardBlockHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.GetUnfinishedRewardBlockHash
+    name: GetUnfinishedRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_GetUnfinishedRewardBlockHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.SetExtensionData*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.SetExtensionData
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_SetExtensionData_System_Byte___
+  name: SetExtensionData
+  nameWithType: FoliageBlockData.SetExtensionData
+  fullName: ChiaWalletSdk.FoliageBlockData.SetExtensionData
+- uid: ChiaWalletSdk.IFoliageBlockData.SetExtensionData(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.SetExtensionData(System.Byte[])
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetExtensionData_System_Byte___
+  name: SetExtensionData(byte[])
+  nameWithType: IFoliageBlockData.SetExtensionData(byte[])
+  fullName: ChiaWalletSdk.IFoliageBlockData.SetExtensionData(byte[])
+  nameWithType.vb: IFoliageBlockData.SetExtensionData(Byte())
+  fullName.vb: ChiaWalletSdk.IFoliageBlockData.SetExtensionData(Byte())
+  name.vb: SetExtensionData(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetExtensionData(System.Byte[])
+    name: SetExtensionData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetExtensionData_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetExtensionData(System.Byte[])
+    name: SetExtensionData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetExtensionData_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData
+  commentId: T:ChiaWalletSdk.FoliageBlockData
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html
+  name: FoliageBlockData
+  nameWithType: FoliageBlockData
+  fullName: ChiaWalletSdk.FoliageBlockData
+- uid: ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_SetFarmerRewardPuzzleHash_System_Byte___
+  name: SetFarmerRewardPuzzleHash
+  nameWithType: FoliageBlockData.SetFarmerRewardPuzzleHash
+  fullName: ChiaWalletSdk.FoliageBlockData.SetFarmerRewardPuzzleHash
+- uid: ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetFarmerRewardPuzzleHash_System_Byte___
+  name: SetFarmerRewardPuzzleHash(byte[])
+  nameWithType: IFoliageBlockData.SetFarmerRewardPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(byte[])
+  nameWithType.vb: IFoliageBlockData.SetFarmerRewardPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(Byte())
+  name.vb: SetFarmerRewardPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+    name: SetFarmerRewardPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetFarmerRewardPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetFarmerRewardPuzzleHash(System.Byte[])
+    name: SetFarmerRewardPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetFarmerRewardPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.SetPoolSignature*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.SetPoolSignature
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_SetPoolSignature_ChiaWalletSdk_Signature_
+  name: SetPoolSignature
+  nameWithType: FoliageBlockData.SetPoolSignature
+  fullName: ChiaWalletSdk.FoliageBlockData.SetPoolSignature
+- uid: ChiaWalletSdk.IFoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetPoolSignature_ChiaWalletSdk_Signature_
+  name: SetPoolSignature(Signature)
+  nameWithType: IFoliageBlockData.SetPoolSignature(Signature)
+  fullName: ChiaWalletSdk.IFoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+    name: SetPoolSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetPoolSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetPoolSignature(ChiaWalletSdk.Signature)
+    name: SetPoolSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetPoolSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.SetPoolTarget*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.SetPoolTarget
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_SetPoolTarget_ChiaWalletSdk_PoolTarget_
+  name: SetPoolTarget
+  nameWithType: FoliageBlockData.SetPoolTarget
+  fullName: ChiaWalletSdk.FoliageBlockData.SetPoolTarget
+- uid: ChiaWalletSdk.IFoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetPoolTarget_ChiaWalletSdk_PoolTarget_
+  name: SetPoolTarget(PoolTarget)
+  nameWithType: IFoliageBlockData.SetPoolTarget(PoolTarget)
+  fullName: ChiaWalletSdk.IFoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+    name: SetPoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetPoolTarget_ChiaWalletSdk_PoolTarget_
+  - name: (
+  - uid: ChiaWalletSdk.PoolTarget
+    name: PoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.PoolTarget.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetPoolTarget(ChiaWalletSdk.PoolTarget)
+    name: SetPoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetPoolTarget_ChiaWalletSdk_PoolTarget_
+  - name: (
+  - uid: ChiaWalletSdk.PoolTarget
+    name: PoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.PoolTarget.html
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash*
+  commentId: Overload:ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html#ChiaWalletSdk_FoliageBlockData_SetUnfinishedRewardBlockHash_System_Byte___
+  name: SetUnfinishedRewardBlockHash
+  nameWithType: FoliageBlockData.SetUnfinishedRewardBlockHash
+  fullName: ChiaWalletSdk.FoliageBlockData.SetUnfinishedRewardBlockHash
+- uid: ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.IFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetUnfinishedRewardBlockHash_System_Byte___
+  name: SetUnfinishedRewardBlockHash(byte[])
+  nameWithType: IFoliageBlockData.SetUnfinishedRewardBlockHash(byte[])
+  fullName: ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(byte[])
+  nameWithType.vb: IFoliageBlockData.SetUnfinishedRewardBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(Byte())
+  name.vb: SetUnfinishedRewardBlockHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+    name: SetUnfinishedRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetUnfinishedRewardBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliageBlockData.SetUnfinishedRewardBlockHash(System.Byte[])
+    name: SetUnfinishedRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliageBlockData.html#ChiaWalletSdk_IFoliageBlockData_SetUnfinishedRewardBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

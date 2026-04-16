@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Mnemonic
+  commentId: T:ChiaWalletSdk.Mnemonic
+  id: Mnemonic
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Mnemonic.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Mnemonic.#ctor(System.String)
+  - ChiaWalletSdk.Mnemonic.CloneRustArcPtr
+  - ChiaWalletSdk.Mnemonic.Destroy
+  - ChiaWalletSdk.Mnemonic.Dispose
+  - ChiaWalletSdk.Mnemonic.Finalize
+  - ChiaWalletSdk.Mnemonic.FreeRustArcPtr
+  - ChiaWalletSdk.Mnemonic.FromEntropy(System.Byte[])
+  - ChiaWalletSdk.Mnemonic.Generate(System.Boolean)
+  - ChiaWalletSdk.Mnemonic.ToEntropy
+  - ChiaWalletSdk.Mnemonic.ToSeed(System.String)
+  - ChiaWalletSdk.Mnemonic.ToString
+  - ChiaWalletSdk.Mnemonic.pointer
+  langs:
+  - csharp
+  - vb
+  name: Mnemonic
+  nameWithType: Mnemonic
+  fullName: ChiaWalletSdk.Mnemonic
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Mnemonic : IMnemonic'
+    content.vb: Public Class Mnemonic Implements IMnemonic
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IMnemonic
+- uid: ChiaWalletSdk.Mnemonic.pointer
+  commentId: F:ChiaWalletSdk.Mnemonic.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Mnemonic.pointer
+  fullName: ChiaWalletSdk.Mnemonic.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Mnemonic.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Mnemonic.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: Mnemonic(nint)
+  nameWithType: Mnemonic.Mnemonic(nint)
+  fullName: ChiaWalletSdk.Mnemonic.Mnemonic(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Mnemonic(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Mnemonic.#ctor*
+  nameWithType.vb: Mnemonic.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Mnemonic.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Mnemonic.Finalize
+  commentId: M:ChiaWalletSdk.Mnemonic.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: ~Mnemonic()
+  nameWithType: Mnemonic.~Mnemonic()
+  fullName: ChiaWalletSdk.Mnemonic.~Mnemonic()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Mnemonic()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Mnemonic.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Mnemonic.#ctor(System.String)
+  commentId: M:ChiaWalletSdk.Mnemonic.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: Mnemonic(string)
+  nameWithType: Mnemonic.Mnemonic(string)
+  fullName: ChiaWalletSdk.Mnemonic.Mnemonic(string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Mnemonic(string mnemonic)
+    parameters:
+    - id: mnemonic
+      type: System.String
+    content.vb: Public Sub New(mnemonic As String)
+  overload: ChiaWalletSdk.Mnemonic.#ctor*
+  nameWithType.vb: Mnemonic.New(String)
+  fullName.vb: ChiaWalletSdk.Mnemonic.New(String)
+  name.vb: New(String)
+- uid: ChiaWalletSdk.Mnemonic.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Mnemonic.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Mnemonic.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Mnemonic.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Mnemonic.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Mnemonic.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Mnemonic.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Mnemonic.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Mnemonic.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Mnemonic.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Mnemonic.Destroy
+  commentId: M:ChiaWalletSdk.Mnemonic.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Mnemonic.Destroy()
+  fullName: ChiaWalletSdk.Mnemonic.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Mnemonic.Destroy*
+- uid: ChiaWalletSdk.Mnemonic.Dispose
+  commentId: M:ChiaWalletSdk.Mnemonic.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Mnemonic.Dispose()
+  fullName: ChiaWalletSdk.Mnemonic.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Mnemonic.Dispose*
+- uid: ChiaWalletSdk.Mnemonic.ToEntropy
+  commentId: M:ChiaWalletSdk.Mnemonic.ToEntropy
+  id: ToEntropy
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: ToEntropy()
+  nameWithType: Mnemonic.ToEntropy()
+  fullName: ChiaWalletSdk.Mnemonic.ToEntropy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] ToEntropy()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ToEntropy() As Byte()
+  overload: ChiaWalletSdk.Mnemonic.ToEntropy*
+  implements:
+  - ChiaWalletSdk.IMnemonic.ToEntropy
+- uid: ChiaWalletSdk.Mnemonic.ToSeed(System.String)
+  commentId: M:ChiaWalletSdk.Mnemonic.ToSeed(System.String)
+  id: ToSeed(System.String)
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: ToSeed(string)
+  nameWithType: Mnemonic.ToSeed(string)
+  fullName: ChiaWalletSdk.Mnemonic.ToSeed(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] ToSeed(string password)
+    parameters:
+    - id: password
+      type: System.String
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ToSeed(password As String) As Byte()
+  overload: ChiaWalletSdk.Mnemonic.ToSeed*
+  implements:
+  - ChiaWalletSdk.IMnemonic.ToSeed(System.String)
+  nameWithType.vb: Mnemonic.ToSeed(String)
+  fullName.vb: ChiaWalletSdk.Mnemonic.ToSeed(String)
+  name.vb: ToSeed(String)
+- uid: ChiaWalletSdk.Mnemonic.ToString
+  commentId: M:ChiaWalletSdk.Mnemonic.ToString
+  id: ToString
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Mnemonic.ToString()
+  fullName: ChiaWalletSdk.Mnemonic.ToString()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: ChiaWalletSdk.Mnemonic.ToString*
+  implements:
+  - ChiaWalletSdk.IMnemonic.ToString
+- uid: ChiaWalletSdk.Mnemonic.FromEntropy(System.Byte[])
+  commentId: M:ChiaWalletSdk.Mnemonic.FromEntropy(System.Byte[])
+  id: FromEntropy(System.Byte[])
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: FromEntropy(byte[])
+  nameWithType: Mnemonic.FromEntropy(byte[])
+  fullName: ChiaWalletSdk.Mnemonic.FromEntropy(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Mnemonic FromEntropy(byte[] entropy)
+    parameters:
+    - id: entropy
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Mnemonic
+    content.vb: Public Shared Function FromEntropy(entropy As Byte()) As Mnemonic
+  overload: ChiaWalletSdk.Mnemonic.FromEntropy*
+  nameWithType.vb: Mnemonic.FromEntropy(Byte())
+  fullName.vb: ChiaWalletSdk.Mnemonic.FromEntropy(Byte())
+  name.vb: FromEntropy(Byte())
+- uid: ChiaWalletSdk.Mnemonic.Generate(System.Boolean)
+  commentId: M:ChiaWalletSdk.Mnemonic.Generate(System.Boolean)
+  id: Generate(System.Boolean)
+  parent: ChiaWalletSdk.Mnemonic
+  langs:
+  - csharp
+  - vb
+  name: Generate(bool)
+  nameWithType: Mnemonic.Generate(bool)
+  fullName: ChiaWalletSdk.Mnemonic.Generate(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Mnemonic Generate(bool use24)
+    parameters:
+    - id: use24
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.Mnemonic
+    content.vb: Public Shared Function Generate(use24 As Boolean) As Mnemonic
+  overload: ChiaWalletSdk.Mnemonic.Generate*
+  nameWithType.vb: Mnemonic.Generate(Boolean)
+  fullName.vb: ChiaWalletSdk.Mnemonic.Generate(Boolean)
+  name.vb: Generate(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IMnemonic
+  commentId: T:ChiaWalletSdk.IMnemonic
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IMnemonic.html
+  name: IMnemonic
+  nameWithType: IMnemonic
+  fullName: ChiaWalletSdk.IMnemonic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Mnemonic.#ctor*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic__ctor_System_IntPtr_
+  name: Mnemonic
+  nameWithType: Mnemonic.Mnemonic
+  fullName: ChiaWalletSdk.Mnemonic.Mnemonic
+  nameWithType.vb: Mnemonic.New
+  fullName.vb: ChiaWalletSdk.Mnemonic.New
+  name.vb: New
+- uid: ChiaWalletSdk.Mnemonic.Finalize*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_Finalize
+  name: ~Mnemonic
+  nameWithType: Mnemonic.~Mnemonic
+  fullName: ChiaWalletSdk.Mnemonic.~Mnemonic
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Mnemonic.Finalize*
+    name: Mnemonic
+    isExternal: true
+    href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Mnemonic.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Mnemonic.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Mnemonic.FreeRustArcPtr
+- uid: ChiaWalletSdk.Mnemonic.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Mnemonic.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Mnemonic.CloneRustArcPtr
+- uid: ChiaWalletSdk.Mnemonic.Destroy*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_Destroy
+  name: Destroy
+  nameWithType: Mnemonic.Destroy
+  fullName: ChiaWalletSdk.Mnemonic.Destroy
+- uid: ChiaWalletSdk.Mnemonic.Dispose*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_Dispose
+  name: Dispose
+  nameWithType: Mnemonic.Dispose
+  fullName: ChiaWalletSdk.Mnemonic.Dispose
+- uid: ChiaWalletSdk.Mnemonic.ToEntropy*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.ToEntropy
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_ToEntropy
+  name: ToEntropy
+  nameWithType: Mnemonic.ToEntropy
+  fullName: ChiaWalletSdk.Mnemonic.ToEntropy
+- uid: ChiaWalletSdk.IMnemonic.ToEntropy
+  commentId: M:ChiaWalletSdk.IMnemonic.ToEntropy
+  parent: ChiaWalletSdk.IMnemonic
+  isExternal: true
+  href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToEntropy
+  name: ToEntropy()
+  nameWithType: IMnemonic.ToEntropy()
+  fullName: ChiaWalletSdk.IMnemonic.ToEntropy()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMnemonic.ToEntropy
+    name: ToEntropy
+    isExternal: true
+    href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToEntropy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMnemonic.ToEntropy
+    name: ToEntropy
+    isExternal: true
+    href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToEntropy
+  - name: (
+  - name: )
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Mnemonic.ToSeed*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.ToSeed
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_ToSeed_System_String_
+  name: ToSeed
+  nameWithType: Mnemonic.ToSeed
+  fullName: ChiaWalletSdk.Mnemonic.ToSeed
+- uid: ChiaWalletSdk.IMnemonic.ToSeed(System.String)
+  commentId: M:ChiaWalletSdk.IMnemonic.ToSeed(System.String)
+  parent: ChiaWalletSdk.IMnemonic
+  isExternal: true
+  href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToSeed_System_String_
+  name: ToSeed(string)
+  nameWithType: IMnemonic.ToSeed(string)
+  fullName: ChiaWalletSdk.IMnemonic.ToSeed(string)
+  nameWithType.vb: IMnemonic.ToSeed(String)
+  fullName.vb: ChiaWalletSdk.IMnemonic.ToSeed(String)
+  name.vb: ToSeed(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMnemonic.ToSeed(System.String)
+    name: ToSeed
+    isExternal: true
+    href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToSeed_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMnemonic.ToSeed(System.String)
+    name: ToSeed
+    isExternal: true
+    href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToSeed_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Mnemonic.ToString*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.ToString
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_ToString
+  name: ToString
+  nameWithType: Mnemonic.ToString
+  fullName: ChiaWalletSdk.Mnemonic.ToString
+- uid: ChiaWalletSdk.IMnemonic.ToString
+  commentId: M:ChiaWalletSdk.IMnemonic.ToString
+  parent: ChiaWalletSdk.IMnemonic
+  isExternal: true
+  href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToString
+  name: ToString()
+  nameWithType: IMnemonic.ToString()
+  fullName: ChiaWalletSdk.IMnemonic.ToString()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMnemonic.ToString
+    name: ToString
+    isExternal: true
+    href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMnemonic.ToString
+    name: ToString
+    isExternal: true
+    href: ChiaWalletSdk.IMnemonic.html#ChiaWalletSdk_IMnemonic_ToString
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Mnemonic.FromEntropy*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.FromEntropy
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_FromEntropy_System_Byte___
+  name: FromEntropy
+  nameWithType: Mnemonic.FromEntropy
+  fullName: ChiaWalletSdk.Mnemonic.FromEntropy
+- uid: ChiaWalletSdk.Mnemonic
+  commentId: T:ChiaWalletSdk.Mnemonic
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html
+  name: Mnemonic
+  nameWithType: Mnemonic
+  fullName: ChiaWalletSdk.Mnemonic
+- uid: ChiaWalletSdk.Mnemonic.Generate*
+  commentId: Overload:ChiaWalletSdk.Mnemonic.Generate
+  isExternal: true
+  href: ChiaWalletSdk.Mnemonic.html#ChiaWalletSdk_Mnemonic_Generate_System_Boolean_
+  name: Generate
+  nameWithType: Mnemonic.Generate
+  fullName: ChiaWalletSdk.Mnemonic.Generate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

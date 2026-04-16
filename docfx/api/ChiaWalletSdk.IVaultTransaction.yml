@@ -1,0 +1,794 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IVaultTransaction
+  commentId: T:ChiaWalletSdk.IVaultTransaction
+  id: IVaultTransaction
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash
+  - ChiaWalletSdk.IVaultTransaction.GetDropCoins
+  - ChiaWalletSdk.IVaultTransaction.GetFeePaid
+  - ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash
+  - ChiaWalletSdk.IVaultTransaction.GetNfts
+  - ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash
+  - ChiaWalletSdk.IVaultTransaction.GetPayments
+  - ChiaWalletSdk.IVaultTransaction.GetReservedFee
+  - ChiaWalletSdk.IVaultTransaction.GetTotalFee
+  - ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IVaultTransaction.SetDropCoins(System.Collections.Generic.List{ChiaWalletSdk.DropCoin})
+  - ChiaWalletSdk.IVaultTransaction.SetFeePaid(System.String)
+  - ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash(System.Byte[])
+  - ChiaWalletSdk.IVaultTransaction.SetNfts(System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer})
+  - ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IVaultTransaction.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment})
+  - ChiaWalletSdk.IVaultTransaction.SetReservedFee(System.String)
+  - ChiaWalletSdk.IVaultTransaction.SetTotalFee(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IVaultTransaction
+  nameWithType: IVaultTransaction
+  fullName: ChiaWalletSdk.IVaultTransaction
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IVaultTransaction
+    content.vb: Public Interface IVaultTransaction
+  derivedClasses:
+  - ChiaWalletSdk.VaultTransaction
+- uid: ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash
+  id: GetDelegatedPuzzleHash
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetDelegatedPuzzleHash()
+  nameWithType: IVaultTransaction.GetDelegatedPuzzleHash()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetDelegatedPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetDelegatedPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash*
+- uid: ChiaWalletSdk.IVaultTransaction.GetDropCoins
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetDropCoins
+  id: GetDropCoins
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetDropCoins()
+  nameWithType: IVaultTransaction.GetDropCoins()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetDropCoins()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<DropCoin> GetDropCoins()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.DropCoin}
+    content.vb: Function GetDropCoins() As List(Of DropCoin)
+  overload: ChiaWalletSdk.IVaultTransaction.GetDropCoins*
+- uid: ChiaWalletSdk.IVaultTransaction.GetFeePaid
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetFeePaid
+  id: GetFeePaid
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetFeePaid()
+  nameWithType: IVaultTransaction.GetFeePaid()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetFeePaid()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetFeePaid()
+    return:
+      type: System.String
+    content.vb: Function GetFeePaid() As String
+  overload: ChiaWalletSdk.IVaultTransaction.GetFeePaid*
+- uid: ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash
+  id: GetNewCustodyHash
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetNewCustodyHash()
+  nameWithType: IVaultTransaction.GetNewCustodyHash()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[]? GetNewCustodyHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetNewCustodyHash() As Byte()
+  overload: ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash*
+- uid: ChiaWalletSdk.IVaultTransaction.GetNfts
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetNfts
+  id: GetNfts
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetNfts()
+  nameWithType: IVaultTransaction.GetNfts()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetNfts()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<ParsedNftTransfer> GetNfts()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer}
+    content.vb: Function GetNfts() As List(Of ParsedNftTransfer)
+  overload: ChiaWalletSdk.IVaultTransaction.GetNfts*
+- uid: ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash
+  id: GetP2PuzzleHash
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetP2PuzzleHash()
+  nameWithType: IVaultTransaction.GetP2PuzzleHash()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetP2PuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetP2PuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash*
+- uid: ChiaWalletSdk.IVaultTransaction.GetPayments
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetPayments
+  id: GetPayments
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetPayments()
+  nameWithType: IVaultTransaction.GetPayments()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetPayments()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<ParsedPayment> GetPayments()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment}
+    content.vb: Function GetPayments() As List(Of ParsedPayment)
+  overload: ChiaWalletSdk.IVaultTransaction.GetPayments*
+- uid: ChiaWalletSdk.IVaultTransaction.GetReservedFee
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetReservedFee
+  id: GetReservedFee
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetReservedFee()
+  nameWithType: IVaultTransaction.GetReservedFee()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetReservedFee()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetReservedFee()
+    return:
+      type: System.String
+    content.vb: Function GetReservedFee() As String
+  overload: ChiaWalletSdk.IVaultTransaction.GetReservedFee*
+- uid: ChiaWalletSdk.IVaultTransaction.GetTotalFee
+  commentId: M:ChiaWalletSdk.IVaultTransaction.GetTotalFee
+  id: GetTotalFee
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: GetTotalFee()
+  nameWithType: IVaultTransaction.GetTotalFee()
+  fullName: ChiaWalletSdk.IVaultTransaction.GetTotalFee()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetTotalFee()
+    return:
+      type: System.String
+    content.vb: Function GetTotalFee() As String
+  overload: ChiaWalletSdk.IVaultTransaction.GetTotalFee*
+- uid: ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash(System.Byte[])
+  id: SetDelegatedPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetDelegatedPuzzleHash(byte[])
+  nameWithType: IVaultTransaction.SetDelegatedPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetDelegatedPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetDelegatedPuzzleHash(value As Byte()) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash*
+  nameWithType.vb: IVaultTransaction.SetDelegatedPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash(Byte())
+  name.vb: SetDelegatedPuzzleHash(Byte())
+- uid: ChiaWalletSdk.IVaultTransaction.SetDropCoins(System.Collections.Generic.List{ChiaWalletSdk.DropCoin})
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetDropCoins(System.Collections.Generic.List{ChiaWalletSdk.DropCoin})
+  id: SetDropCoins(System.Collections.Generic.List{ChiaWalletSdk.DropCoin})
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetDropCoins(List<DropCoin>)
+  nameWithType: IVaultTransaction.SetDropCoins(List<DropCoin>)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetDropCoins(System.Collections.Generic.List<ChiaWalletSdk.DropCoin>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetDropCoins(List<DropCoin> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.DropCoin}
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetDropCoins(value As List(Of DropCoin)) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetDropCoins*
+  nameWithType.vb: IVaultTransaction.SetDropCoins(List(Of DropCoin))
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetDropCoins(System.Collections.Generic.List(Of ChiaWalletSdk.DropCoin))
+  name.vb: SetDropCoins(List(Of DropCoin))
+- uid: ChiaWalletSdk.IVaultTransaction.SetFeePaid(System.String)
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetFeePaid(System.String)
+  id: SetFeePaid(System.String)
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetFeePaid(string)
+  nameWithType: IVaultTransaction.SetFeePaid(string)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetFeePaid(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetFeePaid(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetFeePaid(value As String) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetFeePaid*
+  nameWithType.vb: IVaultTransaction.SetFeePaid(String)
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetFeePaid(String)
+  name.vb: SetFeePaid(String)
+- uid: ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash(System.Byte[])
+  id: SetNewCustodyHash(System.Byte[])
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetNewCustodyHash(byte[]?)
+  nameWithType: IVaultTransaction.SetNewCustodyHash(byte[]?)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetNewCustodyHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetNewCustodyHash(value As Byte()) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash*
+  nameWithType.vb: IVaultTransaction.SetNewCustodyHash(Byte())
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash(Byte())
+  name.vb: SetNewCustodyHash(Byte())
+- uid: ChiaWalletSdk.IVaultTransaction.SetNfts(System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer})
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetNfts(System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer})
+  id: SetNfts(System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer})
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetNfts(List<ParsedNftTransfer>)
+  nameWithType: IVaultTransaction.SetNfts(List<ParsedNftTransfer>)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetNfts(System.Collections.Generic.List<ChiaWalletSdk.ParsedNftTransfer>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetNfts(List<ParsedNftTransfer> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer}
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetNfts(value As List(Of ParsedNftTransfer)) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetNfts*
+  nameWithType.vb: IVaultTransaction.SetNfts(List(Of ParsedNftTransfer))
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetNfts(System.Collections.Generic.List(Of ChiaWalletSdk.ParsedNftTransfer))
+  name.vb: SetNfts(List(Of ParsedNftTransfer))
+- uid: ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash(System.Byte[])
+  id: SetP2PuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetP2PuzzleHash(byte[])
+  nameWithType: IVaultTransaction.SetP2PuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetP2PuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetP2PuzzleHash(value As Byte()) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash*
+  nameWithType.vb: IVaultTransaction.SetP2PuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash(Byte())
+  name.vb: SetP2PuzzleHash(Byte())
+- uid: ChiaWalletSdk.IVaultTransaction.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment})
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment})
+  id: SetPayments(System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment})
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetPayments(List<ParsedPayment>)
+  nameWithType: IVaultTransaction.SetPayments(List<ParsedPayment>)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetPayments(System.Collections.Generic.List<ChiaWalletSdk.ParsedPayment>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetPayments(List<ParsedPayment> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment}
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetPayments(value As List(Of ParsedPayment)) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetPayments*
+  nameWithType.vb: IVaultTransaction.SetPayments(List(Of ParsedPayment))
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetPayments(System.Collections.Generic.List(Of ChiaWalletSdk.ParsedPayment))
+  name.vb: SetPayments(List(Of ParsedPayment))
+- uid: ChiaWalletSdk.IVaultTransaction.SetReservedFee(System.String)
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetReservedFee(System.String)
+  id: SetReservedFee(System.String)
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetReservedFee(string)
+  nameWithType: IVaultTransaction.SetReservedFee(string)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetReservedFee(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetReservedFee(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetReservedFee(value As String) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetReservedFee*
+  nameWithType.vb: IVaultTransaction.SetReservedFee(String)
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetReservedFee(String)
+  name.vb: SetReservedFee(String)
+- uid: ChiaWalletSdk.IVaultTransaction.SetTotalFee(System.String)
+  commentId: M:ChiaWalletSdk.IVaultTransaction.SetTotalFee(System.String)
+  id: SetTotalFee(System.String)
+  parent: ChiaWalletSdk.IVaultTransaction
+  langs:
+  - csharp
+  - vb
+  name: SetTotalFee(string)
+  nameWithType: IVaultTransaction.SetTotalFee(string)
+  fullName: ChiaWalletSdk.IVaultTransaction.SetTotalFee(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: VaultTransaction SetTotalFee(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.VaultTransaction
+    content.vb: Function SetTotalFee(value As String) As VaultTransaction
+  overload: ChiaWalletSdk.IVaultTransaction.SetTotalFee*
+  nameWithType.vb: IVaultTransaction.SetTotalFee(String)
+  fullName.vb: ChiaWalletSdk.IVaultTransaction.SetTotalFee(String)
+  name.vb: SetTotalFee(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetDelegatedPuzzleHash
+  name: GetDelegatedPuzzleHash
+  nameWithType: IVaultTransaction.GetDelegatedPuzzleHash
+  fullName: ChiaWalletSdk.IVaultTransaction.GetDelegatedPuzzleHash
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IVaultTransaction.GetDropCoins*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetDropCoins
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetDropCoins
+  name: GetDropCoins
+  nameWithType: IVaultTransaction.GetDropCoins
+  fullName: ChiaWalletSdk.IVaultTransaction.GetDropCoins
+- uid: System.Collections.Generic.List{ChiaWalletSdk.DropCoin}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.DropCoin}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.DropCoin.html
+  name: List<DropCoin>
+  nameWithType: List<DropCoin>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.DropCoin>
+  nameWithType.vb: List(Of DropCoin)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.DropCoin)
+  name.vb: List(Of DropCoin)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.DropCoin
+    name: DropCoin
+    isExternal: true
+    href: ChiaWalletSdk.DropCoin.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.DropCoin
+    name: DropCoin
+    isExternal: true
+    href: ChiaWalletSdk.DropCoin.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IVaultTransaction.GetFeePaid*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetFeePaid
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetFeePaid
+  name: GetFeePaid
+  nameWithType: IVaultTransaction.GetFeePaid
+  fullName: ChiaWalletSdk.IVaultTransaction.GetFeePaid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetNewCustodyHash
+  name: GetNewCustodyHash
+  nameWithType: IVaultTransaction.GetNewCustodyHash
+  fullName: ChiaWalletSdk.IVaultTransaction.GetNewCustodyHash
+- uid: ChiaWalletSdk.IVaultTransaction.GetNfts*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetNfts
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetNfts
+  name: GetNfts
+  nameWithType: IVaultTransaction.GetNfts
+  fullName: ChiaWalletSdk.IVaultTransaction.GetNfts
+- uid: System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.ParsedNftTransfer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.ParsedNftTransfer.html
+  name: List<ParsedNftTransfer>
+  nameWithType: List<ParsedNftTransfer>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.ParsedNftTransfer>
+  nameWithType.vb: List(Of ParsedNftTransfer)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.ParsedNftTransfer)
+  name.vb: List(Of ParsedNftTransfer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.ParsedNftTransfer
+    name: ParsedNftTransfer
+    isExternal: true
+    href: ChiaWalletSdk.ParsedNftTransfer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.ParsedNftTransfer
+    name: ParsedNftTransfer
+    isExternal: true
+    href: ChiaWalletSdk.ParsedNftTransfer.html
+  - name: )
+- uid: ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetP2PuzzleHash
+  name: GetP2PuzzleHash
+  nameWithType: IVaultTransaction.GetP2PuzzleHash
+  fullName: ChiaWalletSdk.IVaultTransaction.GetP2PuzzleHash
+- uid: ChiaWalletSdk.IVaultTransaction.GetPayments*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetPayments
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetPayments
+  name: GetPayments
+  nameWithType: IVaultTransaction.GetPayments
+  fullName: ChiaWalletSdk.IVaultTransaction.GetPayments
+- uid: System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.ParsedPayment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.ParsedPayment.html
+  name: List<ParsedPayment>
+  nameWithType: List<ParsedPayment>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.ParsedPayment>
+  nameWithType.vb: List(Of ParsedPayment)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.ParsedPayment)
+  name.vb: List(Of ParsedPayment)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.ParsedPayment
+    name: ParsedPayment
+    isExternal: true
+    href: ChiaWalletSdk.ParsedPayment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.ParsedPayment
+    name: ParsedPayment
+    isExternal: true
+    href: ChiaWalletSdk.ParsedPayment.html
+  - name: )
+- uid: ChiaWalletSdk.IVaultTransaction.GetReservedFee*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetReservedFee
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetReservedFee
+  name: GetReservedFee
+  nameWithType: IVaultTransaction.GetReservedFee
+  fullName: ChiaWalletSdk.IVaultTransaction.GetReservedFee
+- uid: ChiaWalletSdk.IVaultTransaction.GetTotalFee*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.GetTotalFee
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_GetTotalFee
+  name: GetTotalFee
+  nameWithType: IVaultTransaction.GetTotalFee
+  fullName: ChiaWalletSdk.IVaultTransaction.GetTotalFee
+- uid: ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetDelegatedPuzzleHash_System_Byte___
+  name: SetDelegatedPuzzleHash
+  nameWithType: IVaultTransaction.SetDelegatedPuzzleHash
+  fullName: ChiaWalletSdk.IVaultTransaction.SetDelegatedPuzzleHash
+- uid: ChiaWalletSdk.VaultTransaction
+  commentId: T:ChiaWalletSdk.VaultTransaction
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VaultTransaction.html
+  name: VaultTransaction
+  nameWithType: VaultTransaction
+  fullName: ChiaWalletSdk.VaultTransaction
+- uid: ChiaWalletSdk.IVaultTransaction.SetDropCoins*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetDropCoins
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetDropCoins_System_Collections_Generic_List_ChiaWalletSdk_DropCoin__
+  name: SetDropCoins
+  nameWithType: IVaultTransaction.SetDropCoins
+  fullName: ChiaWalletSdk.IVaultTransaction.SetDropCoins
+- uid: ChiaWalletSdk.IVaultTransaction.SetFeePaid*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetFeePaid
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetFeePaid_System_String_
+  name: SetFeePaid
+  nameWithType: IVaultTransaction.SetFeePaid
+  fullName: ChiaWalletSdk.IVaultTransaction.SetFeePaid
+- uid: ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetNewCustodyHash_System_Byte___
+  name: SetNewCustodyHash
+  nameWithType: IVaultTransaction.SetNewCustodyHash
+  fullName: ChiaWalletSdk.IVaultTransaction.SetNewCustodyHash
+- uid: ChiaWalletSdk.IVaultTransaction.SetNfts*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetNfts
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetNfts_System_Collections_Generic_List_ChiaWalletSdk_ParsedNftTransfer__
+  name: SetNfts
+  nameWithType: IVaultTransaction.SetNfts
+  fullName: ChiaWalletSdk.IVaultTransaction.SetNfts
+- uid: ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetP2PuzzleHash_System_Byte___
+  name: SetP2PuzzleHash
+  nameWithType: IVaultTransaction.SetP2PuzzleHash
+  fullName: ChiaWalletSdk.IVaultTransaction.SetP2PuzzleHash
+- uid: ChiaWalletSdk.IVaultTransaction.SetPayments*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetPayments
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetPayments_System_Collections_Generic_List_ChiaWalletSdk_ParsedPayment__
+  name: SetPayments
+  nameWithType: IVaultTransaction.SetPayments
+  fullName: ChiaWalletSdk.IVaultTransaction.SetPayments
+- uid: ChiaWalletSdk.IVaultTransaction.SetReservedFee*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetReservedFee
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetReservedFee_System_String_
+  name: SetReservedFee
+  nameWithType: IVaultTransaction.SetReservedFee
+  fullName: ChiaWalletSdk.IVaultTransaction.SetReservedFee
+- uid: ChiaWalletSdk.IVaultTransaction.SetTotalFee*
+  commentId: Overload:ChiaWalletSdk.IVaultTransaction.SetTotalFee
+  isExternal: true
+  href: ChiaWalletSdk.IVaultTransaction.html#ChiaWalletSdk_IVaultTransaction_SetTotalFee_System_String_
+  name: SetTotalFee
+  nameWithType: IVaultTransaction.SetTotalFee
+  fullName: ChiaWalletSdk.IVaultTransaction.SetTotalFee

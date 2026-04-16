@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ParsedCatInfo
+  commentId: T:ChiaWalletSdk.ParsedCatInfo
+  id: ParsedCatInfo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ParsedCatInfo.#ctor(ChiaWalletSdk.CatInfo,ChiaWalletSdk.Puzzle)
+  - ChiaWalletSdk.ParsedCatInfo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr
+  - ChiaWalletSdk.ParsedCatInfo.Destroy
+  - ChiaWalletSdk.ParsedCatInfo.Dispose
+  - ChiaWalletSdk.ParsedCatInfo.Finalize
+  - ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr
+  - ChiaWalletSdk.ParsedCatInfo.GetInfo
+  - ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle
+  - ChiaWalletSdk.ParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  - ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  - ChiaWalletSdk.ParsedCatInfo.pointer
+  langs:
+  - csharp
+  - vb
+  name: ParsedCatInfo
+  nameWithType: ParsedCatInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class ParsedCatInfo : IParsedCatInfo'
+    content.vb: Public Class ParsedCatInfo Implements IParsedCatInfo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IParsedCatInfo
+- uid: ChiaWalletSdk.ParsedCatInfo.pointer
+  commentId: F:ChiaWalletSdk.ParsedCatInfo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: ParsedCatInfo.pointer
+  fullName: ChiaWalletSdk.ParsedCatInfo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.ParsedCatInfo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: ParsedCatInfo(nint)
+  nameWithType: ParsedCatInfo.ParsedCatInfo(nint)
+  fullName: ChiaWalletSdk.ParsedCatInfo.ParsedCatInfo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ParsedCatInfo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.ParsedCatInfo.#ctor*
+  nameWithType.vb: ParsedCatInfo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.ParsedCatInfo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.ParsedCatInfo.Finalize
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: ~ParsedCatInfo()
+  nameWithType: ParsedCatInfo.~ParsedCatInfo()
+  fullName: ChiaWalletSdk.ParsedCatInfo.~ParsedCatInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~ParsedCatInfo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.ParsedCatInfo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.ParsedCatInfo.#ctor(ChiaWalletSdk.CatInfo,ChiaWalletSdk.Puzzle)
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.#ctor(ChiaWalletSdk.CatInfo,ChiaWalletSdk.Puzzle)
+  id: '#ctor(ChiaWalletSdk.CatInfo,ChiaWalletSdk.Puzzle)'
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: ParsedCatInfo(CatInfo, Puzzle?)
+  nameWithType: ParsedCatInfo.ParsedCatInfo(CatInfo, Puzzle?)
+  fullName: ChiaWalletSdk.ParsedCatInfo.ParsedCatInfo(ChiaWalletSdk.CatInfo, ChiaWalletSdk.Puzzle?)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ParsedCatInfo(CatInfo info, Puzzle? p2Puzzle)
+    parameters:
+    - id: info
+      type: ChiaWalletSdk.CatInfo
+    - id: p2Puzzle
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Public Sub New(info As CatInfo, p2Puzzle As Puzzle)
+  overload: ChiaWalletSdk.ParsedCatInfo.#ctor*
+  nameWithType.vb: ParsedCatInfo.New(CatInfo, Puzzle)
+  fullName.vb: ChiaWalletSdk.ParsedCatInfo.New(ChiaWalletSdk.CatInfo, ChiaWalletSdk.Puzzle)
+  name.vb: New(CatInfo, Puzzle)
+- uid: ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: ParsedCatInfo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: ParsedCatInfo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.ParsedCatInfo.Destroy
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: ParsedCatInfo.Destroy()
+  fullName: ChiaWalletSdk.ParsedCatInfo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.ParsedCatInfo.Destroy*
+- uid: ChiaWalletSdk.ParsedCatInfo.Dispose
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ParsedCatInfo.Dispose()
+  fullName: ChiaWalletSdk.ParsedCatInfo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.ParsedCatInfo.Dispose*
+- uid: ChiaWalletSdk.ParsedCatInfo.GetInfo
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.GetInfo
+  id: GetInfo
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: GetInfo()
+  nameWithType: ParsedCatInfo.GetInfo()
+  fullName: ChiaWalletSdk.ParsedCatInfo.GetInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CatInfo GetInfo()
+    return:
+      type: ChiaWalletSdk.CatInfo
+    content.vb: Public Function GetInfo() As CatInfo
+  overload: ChiaWalletSdk.ParsedCatInfo.GetInfo*
+  implements:
+  - ChiaWalletSdk.IParsedCatInfo.GetInfo
+- uid: ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle
+  id: GetP2Puzzle
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: GetP2Puzzle()
+  nameWithType: ParsedCatInfo.GetP2Puzzle()
+  fullName: ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Puzzle? GetP2Puzzle()
+    return:
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Public Function GetP2Puzzle() As Puzzle
+  overload: ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle*
+  implements:
+  - ChiaWalletSdk.IParsedCatInfo.GetP2Puzzle
+- uid: ChiaWalletSdk.ParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  id: SetInfo(ChiaWalletSdk.CatInfo)
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: SetInfo(CatInfo)
+  nameWithType: ParsedCatInfo.SetInfo(CatInfo)
+  fullName: ChiaWalletSdk.ParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedCatInfo SetInfo(CatInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.CatInfo
+    return:
+      type: ChiaWalletSdk.ParsedCatInfo
+    content.vb: Public Function SetInfo(value As CatInfo) As ParsedCatInfo
+  overload: ChiaWalletSdk.ParsedCatInfo.SetInfo*
+  implements:
+  - ChiaWalletSdk.IParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+- uid: ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  commentId: M:ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  id: SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  parent: ChiaWalletSdk.ParsedCatInfo
+  langs:
+  - csharp
+  - vb
+  name: SetP2Puzzle(Puzzle?)
+  nameWithType: ParsedCatInfo.SetP2Puzzle(Puzzle?)
+  fullName: ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedCatInfo SetP2Puzzle(Puzzle? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Puzzle
+    return:
+      type: ChiaWalletSdk.ParsedCatInfo
+    content.vb: Public Function SetP2Puzzle(value As Puzzle) As ParsedCatInfo
+  overload: ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle*
+  implements:
+  - ChiaWalletSdk.IParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  nameWithType.vb: ParsedCatInfo.SetP2Puzzle(Puzzle)
+  fullName.vb: ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  name.vb: SetP2Puzzle(Puzzle)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IParsedCatInfo
+  commentId: T:ChiaWalletSdk.IParsedCatInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IParsedCatInfo.html
+  name: IParsedCatInfo
+  nameWithType: IParsedCatInfo
+  fullName: ChiaWalletSdk.IParsedCatInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.ParsedCatInfo.#ctor*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo__ctor_System_IntPtr_
+  name: ParsedCatInfo
+  nameWithType: ParsedCatInfo.ParsedCatInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo.ParsedCatInfo
+  nameWithType.vb: ParsedCatInfo.New
+  fullName.vb: ChiaWalletSdk.ParsedCatInfo.New
+  name.vb: New
+- uid: ChiaWalletSdk.ParsedCatInfo.Finalize*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_Finalize
+  name: ~ParsedCatInfo
+  nameWithType: ParsedCatInfo.~ParsedCatInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo.~ParsedCatInfo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.ParsedCatInfo.Finalize*
+    name: ParsedCatInfo
+    isExternal: true
+    href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_Finalize
+- uid: ChiaWalletSdk.CatInfo
+  commentId: T:ChiaWalletSdk.CatInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CatInfo.html
+  name: CatInfo
+  nameWithType: CatInfo
+  fullName: ChiaWalletSdk.CatInfo
+- uid: ChiaWalletSdk.Puzzle
+  commentId: T:ChiaWalletSdk.Puzzle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Puzzle.html
+  name: Puzzle
+  nameWithType: Puzzle
+  fullName: ChiaWalletSdk.Puzzle
+- uid: ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: ParsedCatInfo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.ParsedCatInfo.FreeRustArcPtr
+- uid: ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: ParsedCatInfo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.ParsedCatInfo.CloneRustArcPtr
+- uid: ChiaWalletSdk.ParsedCatInfo.Destroy*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_Destroy
+  name: Destroy
+  nameWithType: ParsedCatInfo.Destroy
+  fullName: ChiaWalletSdk.ParsedCatInfo.Destroy
+- uid: ChiaWalletSdk.ParsedCatInfo.Dispose*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_Dispose
+  name: Dispose
+  nameWithType: ParsedCatInfo.Dispose
+  fullName: ChiaWalletSdk.ParsedCatInfo.Dispose
+- uid: ChiaWalletSdk.ParsedCatInfo.GetInfo*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.GetInfo
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_GetInfo
+  name: GetInfo
+  nameWithType: ParsedCatInfo.GetInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo.GetInfo
+- uid: ChiaWalletSdk.IParsedCatInfo.GetInfo
+  commentId: M:ChiaWalletSdk.IParsedCatInfo.GetInfo
+  parent: ChiaWalletSdk.IParsedCatInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_GetInfo
+  name: GetInfo()
+  nameWithType: IParsedCatInfo.GetInfo()
+  fullName: ChiaWalletSdk.IParsedCatInfo.GetInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedCatInfo.GetInfo
+    name: GetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_GetInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedCatInfo.GetInfo
+    name: GetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_GetInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_GetP2Puzzle
+  name: GetP2Puzzle
+  nameWithType: ParsedCatInfo.GetP2Puzzle
+  fullName: ChiaWalletSdk.ParsedCatInfo.GetP2Puzzle
+- uid: ChiaWalletSdk.IParsedCatInfo.GetP2Puzzle
+  commentId: M:ChiaWalletSdk.IParsedCatInfo.GetP2Puzzle
+  parent: ChiaWalletSdk.IParsedCatInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_GetP2Puzzle
+  name: GetP2Puzzle()
+  nameWithType: IParsedCatInfo.GetP2Puzzle()
+  fullName: ChiaWalletSdk.IParsedCatInfo.GetP2Puzzle()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedCatInfo.GetP2Puzzle
+    name: GetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_GetP2Puzzle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedCatInfo.GetP2Puzzle
+    name: GetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_GetP2Puzzle
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ParsedCatInfo.SetInfo*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.SetInfo
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_SetInfo_ChiaWalletSdk_CatInfo_
+  name: SetInfo
+  nameWithType: ParsedCatInfo.SetInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo.SetInfo
+- uid: ChiaWalletSdk.IParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  commentId: M:ChiaWalletSdk.IParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  parent: ChiaWalletSdk.IParsedCatInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_SetInfo_ChiaWalletSdk_CatInfo_
+  name: SetInfo(CatInfo)
+  nameWithType: IParsedCatInfo.SetInfo(CatInfo)
+  fullName: ChiaWalletSdk.IParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+    name: SetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_SetInfo_ChiaWalletSdk_CatInfo_
+  - name: (
+  - uid: ChiaWalletSdk.CatInfo
+    name: CatInfo
+    isExternal: true
+    href: ChiaWalletSdk.CatInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedCatInfo.SetInfo(ChiaWalletSdk.CatInfo)
+    name: SetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_SetInfo_ChiaWalletSdk_CatInfo_
+  - name: (
+  - uid: ChiaWalletSdk.CatInfo
+    name: CatInfo
+    isExternal: true
+    href: ChiaWalletSdk.CatInfo.html
+  - name: )
+- uid: ChiaWalletSdk.ParsedCatInfo
+  commentId: T:ChiaWalletSdk.ParsedCatInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html
+  name: ParsedCatInfo
+  nameWithType: ParsedCatInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo
+- uid: ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle*
+  commentId: Overload:ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html#ChiaWalletSdk_ParsedCatInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  name: SetP2Puzzle
+  nameWithType: ParsedCatInfo.SetP2Puzzle
+  fullName: ChiaWalletSdk.ParsedCatInfo.SetP2Puzzle
+- uid: ChiaWalletSdk.IParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  commentId: M:ChiaWalletSdk.IParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  parent: ChiaWalletSdk.IParsedCatInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  name: SetP2Puzzle(Puzzle)
+  nameWithType: IParsedCatInfo.SetP2Puzzle(Puzzle)
+  fullName: ChiaWalletSdk.IParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+    name: SetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  - name: (
+  - uid: ChiaWalletSdk.Puzzle
+    name: Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.Puzzle.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedCatInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+    name: SetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedCatInfo.html#ChiaWalletSdk_IParsedCatInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  - name: (
+  - uid: ChiaWalletSdk.Puzzle
+    name: Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.Puzzle.html
+  - name: )

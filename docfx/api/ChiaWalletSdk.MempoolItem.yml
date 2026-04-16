@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.MempoolItem
+  commentId: T:ChiaWalletSdk.MempoolItem
+  id: MempoolItem
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.MempoolItem.#ctor(ChiaWalletSdk.SpendBundle,System.String)
+  - ChiaWalletSdk.MempoolItem.#ctor(System.IntPtr)
+  - ChiaWalletSdk.MempoolItem.CloneRustArcPtr
+  - ChiaWalletSdk.MempoolItem.Destroy
+  - ChiaWalletSdk.MempoolItem.Dispose
+  - ChiaWalletSdk.MempoolItem.Finalize
+  - ChiaWalletSdk.MempoolItem.FreeRustArcPtr
+  - ChiaWalletSdk.MempoolItem.GetFee
+  - ChiaWalletSdk.MempoolItem.GetSpendBundle
+  - ChiaWalletSdk.MempoolItem.SetFee(System.String)
+  - ChiaWalletSdk.MempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  - ChiaWalletSdk.MempoolItem.pointer
+  langs:
+  - csharp
+  - vb
+  name: MempoolItem
+  nameWithType: MempoolItem
+  fullName: ChiaWalletSdk.MempoolItem
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class MempoolItem : IMempoolItem'
+    content.vb: Public Class MempoolItem Implements IMempoolItem
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IMempoolItem
+- uid: ChiaWalletSdk.MempoolItem.pointer
+  commentId: F:ChiaWalletSdk.MempoolItem.pointer
+  id: pointer
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: MempoolItem.pointer
+  fullName: ChiaWalletSdk.MempoolItem.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.MempoolItem.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.MempoolItem.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: MempoolItem(nint)
+  nameWithType: MempoolItem.MempoolItem(nint)
+  fullName: ChiaWalletSdk.MempoolItem.MempoolItem(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public MempoolItem(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.MempoolItem.#ctor*
+  nameWithType.vb: MempoolItem.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.MempoolItem.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.MempoolItem.Finalize
+  commentId: M:ChiaWalletSdk.MempoolItem.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: ~MempoolItem()
+  nameWithType: MempoolItem.~MempoolItem()
+  fullName: ChiaWalletSdk.MempoolItem.~MempoolItem()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~MempoolItem()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.MempoolItem.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.MempoolItem.#ctor(ChiaWalletSdk.SpendBundle,System.String)
+  commentId: M:ChiaWalletSdk.MempoolItem.#ctor(ChiaWalletSdk.SpendBundle,System.String)
+  id: '#ctor(ChiaWalletSdk.SpendBundle,System.String)'
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: MempoolItem(SpendBundle, string)
+  nameWithType: MempoolItem.MempoolItem(SpendBundle, string)
+  fullName: ChiaWalletSdk.MempoolItem.MempoolItem(ChiaWalletSdk.SpendBundle, string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public MempoolItem(SpendBundle spendBundle, string fee)
+    parameters:
+    - id: spendBundle
+      type: ChiaWalletSdk.SpendBundle
+    - id: fee
+      type: System.String
+    content.vb: Public Sub New(spendBundle As SpendBundle, fee As String)
+  overload: ChiaWalletSdk.MempoolItem.#ctor*
+  nameWithType.vb: MempoolItem.New(SpendBundle, String)
+  fullName.vb: ChiaWalletSdk.MempoolItem.New(ChiaWalletSdk.SpendBundle, String)
+  name.vb: New(SpendBundle, String)
+- uid: ChiaWalletSdk.MempoolItem.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.MempoolItem.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: MempoolItem.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.MempoolItem.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.MempoolItem.FreeRustArcPtr*
+- uid: ChiaWalletSdk.MempoolItem.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.MempoolItem.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: MempoolItem.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.MempoolItem.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.MempoolItem.CloneRustArcPtr*
+- uid: ChiaWalletSdk.MempoolItem.Destroy
+  commentId: M:ChiaWalletSdk.MempoolItem.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: MempoolItem.Destroy()
+  fullName: ChiaWalletSdk.MempoolItem.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.MempoolItem.Destroy*
+- uid: ChiaWalletSdk.MempoolItem.Dispose
+  commentId: M:ChiaWalletSdk.MempoolItem.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MempoolItem.Dispose()
+  fullName: ChiaWalletSdk.MempoolItem.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.MempoolItem.Dispose*
+- uid: ChiaWalletSdk.MempoolItem.GetFee
+  commentId: M:ChiaWalletSdk.MempoolItem.GetFee
+  id: GetFee
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: GetFee()
+  nameWithType: MempoolItem.GetFee()
+  fullName: ChiaWalletSdk.MempoolItem.GetFee()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetFee()
+    return:
+      type: System.String
+    content.vb: Public Function GetFee() As String
+  overload: ChiaWalletSdk.MempoolItem.GetFee*
+  implements:
+  - ChiaWalletSdk.IMempoolItem.GetFee
+- uid: ChiaWalletSdk.MempoolItem.GetSpendBundle
+  commentId: M:ChiaWalletSdk.MempoolItem.GetSpendBundle
+  id: GetSpendBundle
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: GetSpendBundle()
+  nameWithType: MempoolItem.GetSpendBundle()
+  fullName: ChiaWalletSdk.MempoolItem.GetSpendBundle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SpendBundle GetSpendBundle()
+    return:
+      type: ChiaWalletSdk.SpendBundle
+    content.vb: Public Function GetSpendBundle() As SpendBundle
+  overload: ChiaWalletSdk.MempoolItem.GetSpendBundle*
+  implements:
+  - ChiaWalletSdk.IMempoolItem.GetSpendBundle
+- uid: ChiaWalletSdk.MempoolItem.SetFee(System.String)
+  commentId: M:ChiaWalletSdk.MempoolItem.SetFee(System.String)
+  id: SetFee(System.String)
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: SetFee(string)
+  nameWithType: MempoolItem.SetFee(string)
+  fullName: ChiaWalletSdk.MempoolItem.SetFee(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public MempoolItem SetFee(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.MempoolItem
+    content.vb: Public Function SetFee(value As String) As MempoolItem
+  overload: ChiaWalletSdk.MempoolItem.SetFee*
+  implements:
+  - ChiaWalletSdk.IMempoolItem.SetFee(System.String)
+  nameWithType.vb: MempoolItem.SetFee(String)
+  fullName.vb: ChiaWalletSdk.MempoolItem.SetFee(String)
+  name.vb: SetFee(String)
+- uid: ChiaWalletSdk.MempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  commentId: M:ChiaWalletSdk.MempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  id: SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  parent: ChiaWalletSdk.MempoolItem
+  langs:
+  - csharp
+  - vb
+  name: SetSpendBundle(SpendBundle)
+  nameWithType: MempoolItem.SetSpendBundle(SpendBundle)
+  fullName: ChiaWalletSdk.MempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public MempoolItem SetSpendBundle(SpendBundle value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.SpendBundle
+    return:
+      type: ChiaWalletSdk.MempoolItem
+    content.vb: Public Function SetSpendBundle(value As SpendBundle) As MempoolItem
+  overload: ChiaWalletSdk.MempoolItem.SetSpendBundle*
+  implements:
+  - ChiaWalletSdk.IMempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IMempoolItem
+  commentId: T:ChiaWalletSdk.IMempoolItem
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IMempoolItem.html
+  name: IMempoolItem
+  nameWithType: IMempoolItem
+  fullName: ChiaWalletSdk.IMempoolItem
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.MempoolItem.#ctor*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem__ctor_System_IntPtr_
+  name: MempoolItem
+  nameWithType: MempoolItem.MempoolItem
+  fullName: ChiaWalletSdk.MempoolItem.MempoolItem
+  nameWithType.vb: MempoolItem.New
+  fullName.vb: ChiaWalletSdk.MempoolItem.New
+  name.vb: New
+- uid: ChiaWalletSdk.MempoolItem.Finalize*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_Finalize
+  name: ~MempoolItem
+  nameWithType: MempoolItem.~MempoolItem
+  fullName: ChiaWalletSdk.MempoolItem.~MempoolItem
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.MempoolItem.Finalize*
+    name: MempoolItem
+    isExternal: true
+    href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_Finalize
+- uid: ChiaWalletSdk.SpendBundle
+  commentId: T:ChiaWalletSdk.SpendBundle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html
+  name: SpendBundle
+  nameWithType: SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.MempoolItem.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: MempoolItem.FreeRustArcPtr
+  fullName: ChiaWalletSdk.MempoolItem.FreeRustArcPtr
+- uid: ChiaWalletSdk.MempoolItem.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: MempoolItem.CloneRustArcPtr
+  fullName: ChiaWalletSdk.MempoolItem.CloneRustArcPtr
+- uid: ChiaWalletSdk.MempoolItem.Destroy*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_Destroy
+  name: Destroy
+  nameWithType: MempoolItem.Destroy
+  fullName: ChiaWalletSdk.MempoolItem.Destroy
+- uid: ChiaWalletSdk.MempoolItem.Dispose*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_Dispose
+  name: Dispose
+  nameWithType: MempoolItem.Dispose
+  fullName: ChiaWalletSdk.MempoolItem.Dispose
+- uid: ChiaWalletSdk.MempoolItem.GetFee*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.GetFee
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_GetFee
+  name: GetFee
+  nameWithType: MempoolItem.GetFee
+  fullName: ChiaWalletSdk.MempoolItem.GetFee
+- uid: ChiaWalletSdk.IMempoolItem.GetFee
+  commentId: M:ChiaWalletSdk.IMempoolItem.GetFee
+  parent: ChiaWalletSdk.IMempoolItem
+  isExternal: true
+  href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_GetFee
+  name: GetFee()
+  nameWithType: IMempoolItem.GetFee()
+  fullName: ChiaWalletSdk.IMempoolItem.GetFee()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMempoolItem.GetFee
+    name: GetFee
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_GetFee
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMempoolItem.GetFee
+    name: GetFee
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_GetFee
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MempoolItem.GetSpendBundle*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.GetSpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_GetSpendBundle
+  name: GetSpendBundle
+  nameWithType: MempoolItem.GetSpendBundle
+  fullName: ChiaWalletSdk.MempoolItem.GetSpendBundle
+- uid: ChiaWalletSdk.IMempoolItem.GetSpendBundle
+  commentId: M:ChiaWalletSdk.IMempoolItem.GetSpendBundle
+  parent: ChiaWalletSdk.IMempoolItem
+  isExternal: true
+  href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_GetSpendBundle
+  name: GetSpendBundle()
+  nameWithType: IMempoolItem.GetSpendBundle()
+  fullName: ChiaWalletSdk.IMempoolItem.GetSpendBundle()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMempoolItem.GetSpendBundle
+    name: GetSpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_GetSpendBundle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMempoolItem.GetSpendBundle
+    name: GetSpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_GetSpendBundle
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MempoolItem.SetFee*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.SetFee
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_SetFee_System_String_
+  name: SetFee
+  nameWithType: MempoolItem.SetFee
+  fullName: ChiaWalletSdk.MempoolItem.SetFee
+- uid: ChiaWalletSdk.IMempoolItem.SetFee(System.String)
+  commentId: M:ChiaWalletSdk.IMempoolItem.SetFee(System.String)
+  parent: ChiaWalletSdk.IMempoolItem
+  isExternal: true
+  href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_SetFee_System_String_
+  name: SetFee(string)
+  nameWithType: IMempoolItem.SetFee(string)
+  fullName: ChiaWalletSdk.IMempoolItem.SetFee(string)
+  nameWithType.vb: IMempoolItem.SetFee(String)
+  fullName.vb: ChiaWalletSdk.IMempoolItem.SetFee(String)
+  name.vb: SetFee(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMempoolItem.SetFee(System.String)
+    name: SetFee
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_SetFee_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMempoolItem.SetFee(System.String)
+    name: SetFee
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_SetFee_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.MempoolItem
+  commentId: T:ChiaWalletSdk.MempoolItem
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html
+  name: MempoolItem
+  nameWithType: MempoolItem
+  fullName: ChiaWalletSdk.MempoolItem
+- uid: ChiaWalletSdk.MempoolItem.SetSpendBundle*
+  commentId: Overload:ChiaWalletSdk.MempoolItem.SetSpendBundle
+  isExternal: true
+  href: ChiaWalletSdk.MempoolItem.html#ChiaWalletSdk_MempoolItem_SetSpendBundle_ChiaWalletSdk_SpendBundle_
+  name: SetSpendBundle
+  nameWithType: MempoolItem.SetSpendBundle
+  fullName: ChiaWalletSdk.MempoolItem.SetSpendBundle
+- uid: ChiaWalletSdk.IMempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  commentId: M:ChiaWalletSdk.IMempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  parent: ChiaWalletSdk.IMempoolItem
+  isExternal: true
+  href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_SetSpendBundle_ChiaWalletSdk_SpendBundle_
+  name: SetSpendBundle(SpendBundle)
+  nameWithType: IMempoolItem.SetSpendBundle(SpendBundle)
+  fullName: ChiaWalletSdk.IMempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+    name: SetSpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_SetSpendBundle_ChiaWalletSdk_SpendBundle_
+  - name: (
+  - uid: ChiaWalletSdk.SpendBundle
+    name: SpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.SpendBundle.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMempoolItem.SetSpendBundle(ChiaWalletSdk.SpendBundle)
+    name: SetSpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.IMempoolItem.html#ChiaWalletSdk_IMempoolItem_SetSpendBundle_ChiaWalletSdk_SpendBundle_
+  - name: (
+  - uid: ChiaWalletSdk.SpendBundle
+    name: SpendBundle
+    isExternal: true
+    href: ChiaWalletSdk.SpendBundle.html
+  - name: )

@@ -1,0 +1,941 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.RestrictionMemo
+  commentId: T:ChiaWalletSdk.RestrictionMemo
+  id: RestrictionMemo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.RestrictionMemo.#ctor(System.Boolean,System.Byte[],ChiaWalletSdk.Program)
+  - ChiaWalletSdk.RestrictionMemo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr
+  - ChiaWalletSdk.RestrictionMemo.Destroy
+  - ChiaWalletSdk.RestrictionMemo.Dispose
+  - ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers(ChiaWalletSdk.Clvm,System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo})
+  - ChiaWalletSdk.RestrictionMemo.Finalize
+  - ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable(ChiaWalletSdk.Clvm,System.Byte[],System.UInt32,System.Byte[],System.Byte[])
+  - ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr
+  - ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator
+  - ChiaWalletSdk.RestrictionMemo.GetMemo
+  - ChiaWalletSdk.RestrictionMemo.GetPuzzleHash
+  - ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator(System.Boolean)
+  - ChiaWalletSdk.RestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.RestrictionMemo.SetPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.RestrictionMemo.Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  - ChiaWalletSdk.RestrictionMemo.pointer
+  langs:
+  - csharp
+  - vb
+  name: RestrictionMemo
+  nameWithType: RestrictionMemo
+  fullName: ChiaWalletSdk.RestrictionMemo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class RestrictionMemo : IRestrictionMemo'
+    content.vb: Public Class RestrictionMemo Implements IRestrictionMemo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo
+- uid: ChiaWalletSdk.RestrictionMemo.pointer
+  commentId: F:ChiaWalletSdk.RestrictionMemo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: RestrictionMemo.pointer
+  fullName: ChiaWalletSdk.RestrictionMemo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.RestrictionMemo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.RestrictionMemo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: RestrictionMemo(nint)
+  nameWithType: RestrictionMemo.RestrictionMemo(nint)
+  fullName: ChiaWalletSdk.RestrictionMemo.RestrictionMemo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RestrictionMemo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.RestrictionMemo.#ctor*
+  nameWithType.vb: RestrictionMemo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.RestrictionMemo.Finalize
+  commentId: M:ChiaWalletSdk.RestrictionMemo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: ~RestrictionMemo()
+  nameWithType: RestrictionMemo.~RestrictionMemo()
+  fullName: ChiaWalletSdk.RestrictionMemo.~RestrictionMemo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~RestrictionMemo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.RestrictionMemo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.RestrictionMemo.#ctor(System.Boolean,System.Byte[],ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.RestrictionMemo.#ctor(System.Boolean,System.Byte[],ChiaWalletSdk.Program)
+  id: '#ctor(System.Boolean,System.Byte[],ChiaWalletSdk.Program)'
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: RestrictionMemo(bool, byte[], Program)
+  nameWithType: RestrictionMemo.RestrictionMemo(bool, byte[], Program)
+  fullName: ChiaWalletSdk.RestrictionMemo.RestrictionMemo(bool, byte[], ChiaWalletSdk.Program)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RestrictionMemo(bool memberConditionValidator, byte[] puzzleHash, Program memo)
+    parameters:
+    - id: memberConditionValidator
+      type: System.Boolean
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: memo
+      type: ChiaWalletSdk.Program
+    content.vb: Public Sub New(memberConditionValidator As Boolean, puzzleHash As Byte(), memo As Program)
+  overload: ChiaWalletSdk.RestrictionMemo.#ctor*
+  nameWithType.vb: RestrictionMemo.New(Boolean, Byte(), Program)
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.New(Boolean, Byte(), ChiaWalletSdk.Program)
+  name.vb: New(Boolean, Byte(), Program)
+- uid: ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: RestrictionMemo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: RestrictionMemo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.RestrictionMemo.Destroy
+  commentId: M:ChiaWalletSdk.RestrictionMemo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: RestrictionMemo.Destroy()
+  fullName: ChiaWalletSdk.RestrictionMemo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.RestrictionMemo.Destroy*
+- uid: ChiaWalletSdk.RestrictionMemo.Dispose
+  commentId: M:ChiaWalletSdk.RestrictionMemo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RestrictionMemo.Dispose()
+  fullName: ChiaWalletSdk.RestrictionMemo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.RestrictionMemo.Dispose*
+- uid: ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator
+  commentId: M:ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator
+  id: GetMemberConditionValidator
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: GetMemberConditionValidator()
+  nameWithType: RestrictionMemo.GetMemberConditionValidator()
+  fullName: ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetMemberConditionValidator()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetMemberConditionValidator() As Boolean
+  overload: ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator*
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo.GetMemberConditionValidator
+- uid: ChiaWalletSdk.RestrictionMemo.GetMemo
+  commentId: M:ChiaWalletSdk.RestrictionMemo.GetMemo
+  id: GetMemo
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: GetMemo()
+  nameWithType: RestrictionMemo.GetMemo()
+  fullName: ChiaWalletSdk.RestrictionMemo.GetMemo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetMemo()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetMemo() As Program
+  overload: ChiaWalletSdk.RestrictionMemo.GetMemo*
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo.GetMemo
+- uid: ChiaWalletSdk.RestrictionMemo.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.RestrictionMemo.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: RestrictionMemo.GetPuzzleHash()
+  fullName: ChiaWalletSdk.RestrictionMemo.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.RestrictionMemo.GetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo.GetPuzzleHash
+- uid: ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator(System.Boolean)
+  commentId: M:ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator(System.Boolean)
+  id: SetMemberConditionValidator(System.Boolean)
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: SetMemberConditionValidator(bool)
+  nameWithType: RestrictionMemo.SetMemberConditionValidator(bool)
+  fullName: ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RestrictionMemo SetMemberConditionValidator(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.RestrictionMemo
+    content.vb: Public Function SetMemberConditionValidator(value As Boolean) As RestrictionMemo
+  overload: ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator*
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(System.Boolean)
+  nameWithType.vb: RestrictionMemo.SetMemberConditionValidator(Boolean)
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator(Boolean)
+  name.vb: SetMemberConditionValidator(Boolean)
+- uid: ChiaWalletSdk.RestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.RestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  id: SetMemo(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: SetMemo(Program)
+  nameWithType: RestrictionMemo.SetMemo(Program)
+  fullName: ChiaWalletSdk.RestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RestrictionMemo SetMemo(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.RestrictionMemo
+    content.vb: Public Function SetMemo(value As Program) As RestrictionMemo
+  overload: ChiaWalletSdk.RestrictionMemo.SetMemo*
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+- uid: ChiaWalletSdk.RestrictionMemo.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.RestrictionMemo.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: RestrictionMemo.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.RestrictionMemo.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RestrictionMemo SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.RestrictionMemo
+    content.vb: Public Function SetPuzzleHash(value As Byte()) As RestrictionMemo
+  overload: ChiaWalletSdk.RestrictionMemo.SetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(System.Byte[])
+  nameWithType.vb: RestrictionMemo.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+- uid: ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers(ChiaWalletSdk.Clvm,System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo})
+  commentId: M:ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers(ChiaWalletSdk.Clvm,System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo})
+  id: EnforceDelegatedPuzzleWrappers(ChiaWalletSdk.Clvm,System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo})
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: EnforceDelegatedPuzzleWrappers(Clvm, List<WrapperMemo>)
+  nameWithType: RestrictionMemo.EnforceDelegatedPuzzleWrappers(Clvm, List<WrapperMemo>)
+  fullName: ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers(ChiaWalletSdk.Clvm, System.Collections.Generic.List<ChiaWalletSdk.WrapperMemo>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static RestrictionMemo EnforceDelegatedPuzzleWrappers(Clvm clvm, List<WrapperMemo> wrapperMemos)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    - id: wrapperMemos
+      type: System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo}
+    return:
+      type: ChiaWalletSdk.RestrictionMemo
+    content.vb: Public Shared Function EnforceDelegatedPuzzleWrappers(clvm As Clvm, wrapperMemos As List(Of WrapperMemo)) As RestrictionMemo
+  overload: ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers*
+  nameWithType.vb: RestrictionMemo.EnforceDelegatedPuzzleWrappers(Clvm, List(Of WrapperMemo))
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers(ChiaWalletSdk.Clvm, System.Collections.Generic.List(Of ChiaWalletSdk.WrapperMemo))
+  name.vb: EnforceDelegatedPuzzleWrappers(Clvm, List(Of WrapperMemo))
+- uid: ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable(ChiaWalletSdk.Clvm,System.Byte[],System.UInt32,System.Byte[],System.Byte[])
+  commentId: M:ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable(ChiaWalletSdk.Clvm,System.Byte[],System.UInt32,System.Byte[],System.Byte[])
+  id: Force1Of2RestrictedVariable(ChiaWalletSdk.Clvm,System.Byte[],System.UInt32,System.Byte[],System.Byte[])
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: Force1Of2RestrictedVariable(Clvm, byte[], uint, byte[], byte[])
+  nameWithType: RestrictionMemo.Force1Of2RestrictedVariable(Clvm, byte[], uint, byte[], byte[])
+  fullName: ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable(ChiaWalletSdk.Clvm, byte[], uint, byte[], byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static RestrictionMemo Force1Of2RestrictedVariable(Clvm clvm, byte[] leftSideSubtreeHash, uint nonce, byte[] memberValidatorListHash, byte[] delegatedPuzzleValidatorListHash)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    - id: leftSideSubtreeHash
+      type: System.Byte[]
+    - id: nonce
+      type: System.UInt32
+    - id: memberValidatorListHash
+      type: System.Byte[]
+    - id: delegatedPuzzleValidatorListHash
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.RestrictionMemo
+    content.vb: Public Shared Function Force1Of2RestrictedVariable(clvm As Clvm, leftSideSubtreeHash As Byte(), nonce As UInteger, memberValidatorListHash As Byte(), delegatedPuzzleValidatorListHash As Byte()) As RestrictionMemo
+  overload: ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable*
+  nameWithType.vb: RestrictionMemo.Force1Of2RestrictedVariable(Clvm, Byte(), UInteger, Byte(), Byte())
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable(ChiaWalletSdk.Clvm, Byte(), UInteger, Byte(), Byte())
+  name.vb: Force1Of2RestrictedVariable(Clvm, Byte(), UInteger, Byte(), Byte())
+- uid: ChiaWalletSdk.RestrictionMemo.Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.RestrictionMemo.Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  id: Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  parent: ChiaWalletSdk.RestrictionMemo
+  langs:
+  - csharp
+  - vb
+  name: Timelock(Clvm, string, bool)
+  nameWithType: RestrictionMemo.Timelock(Clvm, string, bool)
+  fullName: ChiaWalletSdk.RestrictionMemo.Timelock(ChiaWalletSdk.Clvm, string, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static RestrictionMemo Timelock(Clvm clvm, string seconds, bool reveal)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    - id: seconds
+      type: System.String
+    - id: reveal
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.RestrictionMemo
+    content.vb: Public Shared Function Timelock(clvm As Clvm, seconds As String, reveal As Boolean) As RestrictionMemo
+  overload: ChiaWalletSdk.RestrictionMemo.Timelock*
+  nameWithType.vb: RestrictionMemo.Timelock(Clvm, String, Boolean)
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.Timelock(ChiaWalletSdk.Clvm, String, Boolean)
+  name.vb: Timelock(Clvm, String, Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IRestrictionMemo
+  commentId: T:ChiaWalletSdk.IRestrictionMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html
+  name: IRestrictionMemo
+  nameWithType: IRestrictionMemo
+  fullName: ChiaWalletSdk.IRestrictionMemo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.RestrictionMemo.#ctor*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo__ctor_System_IntPtr_
+  name: RestrictionMemo
+  nameWithType: RestrictionMemo.RestrictionMemo
+  fullName: ChiaWalletSdk.RestrictionMemo.RestrictionMemo
+  nameWithType.vb: RestrictionMemo.New
+  fullName.vb: ChiaWalletSdk.RestrictionMemo.New
+  name.vb: New
+- uid: ChiaWalletSdk.RestrictionMemo.Finalize*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_Finalize
+  name: ~RestrictionMemo
+  nameWithType: RestrictionMemo.~RestrictionMemo
+  fullName: ChiaWalletSdk.RestrictionMemo.~RestrictionMemo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.RestrictionMemo.Finalize*
+    name: RestrictionMemo
+    isExternal: true
+    href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_Finalize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: RestrictionMemo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.RestrictionMemo.FreeRustArcPtr
+- uid: ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: RestrictionMemo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.RestrictionMemo.CloneRustArcPtr
+- uid: ChiaWalletSdk.RestrictionMemo.Destroy*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_Destroy
+  name: Destroy
+  nameWithType: RestrictionMemo.Destroy
+  fullName: ChiaWalletSdk.RestrictionMemo.Destroy
+- uid: ChiaWalletSdk.RestrictionMemo.Dispose*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_Dispose
+  name: Dispose
+  nameWithType: RestrictionMemo.Dispose
+  fullName: ChiaWalletSdk.RestrictionMemo.Dispose
+- uid: ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_GetMemberConditionValidator
+  name: GetMemberConditionValidator
+  nameWithType: RestrictionMemo.GetMemberConditionValidator
+  fullName: ChiaWalletSdk.RestrictionMemo.GetMemberConditionValidator
+- uid: ChiaWalletSdk.IRestrictionMemo.GetMemberConditionValidator
+  commentId: M:ChiaWalletSdk.IRestrictionMemo.GetMemberConditionValidator
+  parent: ChiaWalletSdk.IRestrictionMemo
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetMemberConditionValidator
+  name: GetMemberConditionValidator()
+  nameWithType: IRestrictionMemo.GetMemberConditionValidator()
+  fullName: ChiaWalletSdk.IRestrictionMemo.GetMemberConditionValidator()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestrictionMemo.GetMemberConditionValidator
+    name: GetMemberConditionValidator
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetMemberConditionValidator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestrictionMemo.GetMemberConditionValidator
+    name: GetMemberConditionValidator
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetMemberConditionValidator
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RestrictionMemo.GetMemo*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.GetMemo
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_GetMemo
+  name: GetMemo
+  nameWithType: RestrictionMemo.GetMemo
+  fullName: ChiaWalletSdk.RestrictionMemo.GetMemo
+- uid: ChiaWalletSdk.IRestrictionMemo.GetMemo
+  commentId: M:ChiaWalletSdk.IRestrictionMemo.GetMemo
+  parent: ChiaWalletSdk.IRestrictionMemo
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetMemo
+  name: GetMemo()
+  nameWithType: IRestrictionMemo.GetMemo()
+  fullName: ChiaWalletSdk.IRestrictionMemo.GetMemo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestrictionMemo.GetMemo
+    name: GetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetMemo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestrictionMemo.GetMemo
+    name: GetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetMemo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RestrictionMemo.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: RestrictionMemo.GetPuzzleHash
+  fullName: ChiaWalletSdk.RestrictionMemo.GetPuzzleHash
+- uid: ChiaWalletSdk.IRestrictionMemo.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IRestrictionMemo.GetPuzzleHash
+  parent: ChiaWalletSdk.IRestrictionMemo
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetPuzzleHash
+  name: GetPuzzleHash()
+  nameWithType: IRestrictionMemo.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IRestrictionMemo.GetPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestrictionMemo.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestrictionMemo.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_GetPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_SetMemberConditionValidator_System_Boolean_
+  name: SetMemberConditionValidator
+  nameWithType: RestrictionMemo.SetMemberConditionValidator
+  fullName: ChiaWalletSdk.RestrictionMemo.SetMemberConditionValidator
+- uid: ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(System.Boolean)
+  commentId: M:ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(System.Boolean)
+  parent: ChiaWalletSdk.IRestrictionMemo
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetMemberConditionValidator_System_Boolean_
+  name: SetMemberConditionValidator(bool)
+  nameWithType: IRestrictionMemo.SetMemberConditionValidator(bool)
+  fullName: ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(bool)
+  nameWithType.vb: IRestrictionMemo.SetMemberConditionValidator(Boolean)
+  fullName.vb: ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(Boolean)
+  name.vb: SetMemberConditionValidator(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(System.Boolean)
+    name: SetMemberConditionValidator
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetMemberConditionValidator_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestrictionMemo.SetMemberConditionValidator(System.Boolean)
+    name: SetMemberConditionValidator
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetMemberConditionValidator_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RestrictionMemo
+  commentId: T:ChiaWalletSdk.RestrictionMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html
+  name: RestrictionMemo
+  nameWithType: RestrictionMemo
+  fullName: ChiaWalletSdk.RestrictionMemo
+- uid: ChiaWalletSdk.RestrictionMemo.SetMemo*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.SetMemo
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_SetMemo_ChiaWalletSdk_Program_
+  name: SetMemo
+  nameWithType: RestrictionMemo.SetMemo
+  fullName: ChiaWalletSdk.RestrictionMemo.SetMemo
+- uid: ChiaWalletSdk.IRestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IRestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IRestrictionMemo
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetMemo_ChiaWalletSdk_Program_
+  name: SetMemo(Program)
+  nameWithType: IRestrictionMemo.SetMemo(Program)
+  fullName: ChiaWalletSdk.IRestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+    name: SetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetMemo_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestrictionMemo.SetMemo(ChiaWalletSdk.Program)
+    name: SetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetMemo_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: ChiaWalletSdk.RestrictionMemo.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: RestrictionMemo.SetPuzzleHash
+  fullName: ChiaWalletSdk.RestrictionMemo.SetPuzzleHash
+- uid: ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IRestrictionMemo
+  isExternal: true
+  href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash(byte[])
+  nameWithType: IRestrictionMemo.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(byte[])
+  nameWithType.vb: IRestrictionMemo.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestrictionMemo.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestrictionMemo.html#ChiaWalletSdk_IRestrictionMemo_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_EnforceDelegatedPuzzleWrappers_ChiaWalletSdk_Clvm_System_Collections_Generic_List_ChiaWalletSdk_WrapperMemo__
+  name: EnforceDelegatedPuzzleWrappers
+  nameWithType: RestrictionMemo.EnforceDelegatedPuzzleWrappers
+  fullName: ChiaWalletSdk.RestrictionMemo.EnforceDelegatedPuzzleWrappers
+- uid: ChiaWalletSdk.Clvm
+  commentId: T:ChiaWalletSdk.Clvm
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Clvm.html
+  name: Clvm
+  nameWithType: Clvm
+  fullName: ChiaWalletSdk.Clvm
+- uid: System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.WrapperMemo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.WrapperMemo.html
+  name: List<WrapperMemo>
+  nameWithType: List<WrapperMemo>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.WrapperMemo>
+  nameWithType.vb: List(Of WrapperMemo)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.WrapperMemo)
+  name.vb: List(Of WrapperMemo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.WrapperMemo
+    name: WrapperMemo
+    isExternal: true
+    href: ChiaWalletSdk.WrapperMemo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.WrapperMemo
+    name: WrapperMemo
+    isExternal: true
+    href: ChiaWalletSdk.WrapperMemo.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_Force1Of2RestrictedVariable_ChiaWalletSdk_Clvm_System_Byte___System_UInt32_System_Byte___System_Byte___
+  name: Force1Of2RestrictedVariable
+  nameWithType: RestrictionMemo.Force1Of2RestrictedVariable
+  fullName: ChiaWalletSdk.RestrictionMemo.Force1Of2RestrictedVariable
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.RestrictionMemo.Timelock*
+  commentId: Overload:ChiaWalletSdk.RestrictionMemo.Timelock
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionMemo.html#ChiaWalletSdk_RestrictionMemo_Timelock_ChiaWalletSdk_Clvm_System_String_System_Boolean_
+  name: Timelock
+  nameWithType: RestrictionMemo.Timelock
+  fullName: ChiaWalletSdk.RestrictionMemo.Timelock
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

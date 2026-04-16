@@ -1,0 +1,831 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.NewPeakWallet
+  commentId: T:ChiaWalletSdk.NewPeakWallet
+  id: NewPeakWallet
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.NewPeakWallet.#ctor(System.Byte[],System.UInt32,System.String,System.UInt32)
+  - ChiaWalletSdk.NewPeakWallet.#ctor(System.IntPtr)
+  - ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr
+  - ChiaWalletSdk.NewPeakWallet.Destroy
+  - ChiaWalletSdk.NewPeakWallet.Dispose
+  - ChiaWalletSdk.NewPeakWallet.Finalize
+  - ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr
+  - ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak
+  - ChiaWalletSdk.NewPeakWallet.GetHeaderHash
+  - ChiaWalletSdk.NewPeakWallet.GetHeight
+  - ChiaWalletSdk.NewPeakWallet.GetWeight
+  - ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+  - ChiaWalletSdk.NewPeakWallet.SetHeaderHash(System.Byte[])
+  - ChiaWalletSdk.NewPeakWallet.SetHeight(System.UInt32)
+  - ChiaWalletSdk.NewPeakWallet.SetWeight(System.String)
+  - ChiaWalletSdk.NewPeakWallet.pointer
+  langs:
+  - csharp
+  - vb
+  name: NewPeakWallet
+  nameWithType: NewPeakWallet
+  fullName: ChiaWalletSdk.NewPeakWallet
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class NewPeakWallet : INewPeakWallet'
+    content.vb: Public Class NewPeakWallet Implements INewPeakWallet
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.INewPeakWallet
+- uid: ChiaWalletSdk.NewPeakWallet.pointer
+  commentId: F:ChiaWalletSdk.NewPeakWallet.pointer
+  id: pointer
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: NewPeakWallet.pointer
+  fullName: ChiaWalletSdk.NewPeakWallet.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.NewPeakWallet.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.NewPeakWallet.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: NewPeakWallet(nint)
+  nameWithType: NewPeakWallet.NewPeakWallet(nint)
+  fullName: ChiaWalletSdk.NewPeakWallet.NewPeakWallet(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NewPeakWallet(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.NewPeakWallet.#ctor*
+  nameWithType.vb: NewPeakWallet.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.NewPeakWallet.Finalize
+  commentId: M:ChiaWalletSdk.NewPeakWallet.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: ~NewPeakWallet()
+  nameWithType: NewPeakWallet.~NewPeakWallet()
+  fullName: ChiaWalletSdk.NewPeakWallet.~NewPeakWallet()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~NewPeakWallet()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.NewPeakWallet.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.NewPeakWallet.#ctor(System.Byte[],System.UInt32,System.String,System.UInt32)
+  commentId: M:ChiaWalletSdk.NewPeakWallet.#ctor(System.Byte[],System.UInt32,System.String,System.UInt32)
+  id: '#ctor(System.Byte[],System.UInt32,System.String,System.UInt32)'
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: NewPeakWallet(byte[], uint, string, uint)
+  nameWithType: NewPeakWallet.NewPeakWallet(byte[], uint, string, uint)
+  fullName: ChiaWalletSdk.NewPeakWallet.NewPeakWallet(byte[], uint, string, uint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NewPeakWallet(byte[] headerHash, uint height, string weight, uint forkPointWithPreviousPeak)
+    parameters:
+    - id: headerHash
+      type: System.Byte[]
+    - id: height
+      type: System.UInt32
+    - id: weight
+      type: System.String
+    - id: forkPointWithPreviousPeak
+      type: System.UInt32
+    content.vb: Public Sub New(headerHash As Byte(), height As UInteger, weight As String, forkPointWithPreviousPeak As UInteger)
+  overload: ChiaWalletSdk.NewPeakWallet.#ctor*
+  nameWithType.vb: NewPeakWallet.New(Byte(), UInteger, String, UInteger)
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.New(Byte(), UInteger, String, UInteger)
+  name.vb: New(Byte(), UInteger, String, UInteger)
+- uid: ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: NewPeakWallet.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr*
+- uid: ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: NewPeakWallet.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr*
+- uid: ChiaWalletSdk.NewPeakWallet.Destroy
+  commentId: M:ChiaWalletSdk.NewPeakWallet.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: NewPeakWallet.Destroy()
+  fullName: ChiaWalletSdk.NewPeakWallet.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.NewPeakWallet.Destroy*
+- uid: ChiaWalletSdk.NewPeakWallet.Dispose
+  commentId: M:ChiaWalletSdk.NewPeakWallet.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NewPeakWallet.Dispose()
+  fullName: ChiaWalletSdk.NewPeakWallet.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.NewPeakWallet.Dispose*
+- uid: ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak
+  commentId: M:ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak
+  id: GetForkPointWithPreviousPeak
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: GetForkPointWithPreviousPeak()
+  nameWithType: NewPeakWallet.GetForkPointWithPreviousPeak()
+  fullName: ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetForkPointWithPreviousPeak()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetForkPointWithPreviousPeak() As UInteger
+  overload: ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.GetForkPointWithPreviousPeak
+- uid: ChiaWalletSdk.NewPeakWallet.GetHeaderHash
+  commentId: M:ChiaWalletSdk.NewPeakWallet.GetHeaderHash
+  id: GetHeaderHash
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: GetHeaderHash()
+  nameWithType: NewPeakWallet.GetHeaderHash()
+  fullName: ChiaWalletSdk.NewPeakWallet.GetHeaderHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetHeaderHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetHeaderHash() As Byte()
+  overload: ChiaWalletSdk.NewPeakWallet.GetHeaderHash*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.GetHeaderHash
+- uid: ChiaWalletSdk.NewPeakWallet.GetHeight
+  commentId: M:ChiaWalletSdk.NewPeakWallet.GetHeight
+  id: GetHeight
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: GetHeight()
+  nameWithType: NewPeakWallet.GetHeight()
+  fullName: ChiaWalletSdk.NewPeakWallet.GetHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetHeight() As UInteger
+  overload: ChiaWalletSdk.NewPeakWallet.GetHeight*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.GetHeight
+- uid: ChiaWalletSdk.NewPeakWallet.GetWeight
+  commentId: M:ChiaWalletSdk.NewPeakWallet.GetWeight
+  id: GetWeight
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: GetWeight()
+  nameWithType: NewPeakWallet.GetWeight()
+  fullName: ChiaWalletSdk.NewPeakWallet.GetWeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetWeight()
+    return:
+      type: System.String
+    content.vb: Public Function GetWeight() As String
+  overload: ChiaWalletSdk.NewPeakWallet.GetWeight*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.GetWeight
+- uid: ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+  commentId: M:ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+  id: SetForkPointWithPreviousPeak(System.UInt32)
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: SetForkPointWithPreviousPeak(uint)
+  nameWithType: NewPeakWallet.SetForkPointWithPreviousPeak(uint)
+  fullName: ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NewPeakWallet SetForkPointWithPreviousPeak(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.NewPeakWallet
+    content.vb: Public Function SetForkPointWithPreviousPeak(value As UInteger) As NewPeakWallet
+  overload: ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+  nameWithType.vb: NewPeakWallet.SetForkPointWithPreviousPeak(UInteger)
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak(UInteger)
+  name.vb: SetForkPointWithPreviousPeak(UInteger)
+- uid: ChiaWalletSdk.NewPeakWallet.SetHeaderHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.NewPeakWallet.SetHeaderHash(System.Byte[])
+  id: SetHeaderHash(System.Byte[])
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: SetHeaderHash(byte[])
+  nameWithType: NewPeakWallet.SetHeaderHash(byte[])
+  fullName: ChiaWalletSdk.NewPeakWallet.SetHeaderHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NewPeakWallet SetHeaderHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.NewPeakWallet
+    content.vb: Public Function SetHeaderHash(value As Byte()) As NewPeakWallet
+  overload: ChiaWalletSdk.NewPeakWallet.SetHeaderHash*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.SetHeaderHash(System.Byte[])
+  nameWithType.vb: NewPeakWallet.SetHeaderHash(Byte())
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.SetHeaderHash(Byte())
+  name.vb: SetHeaderHash(Byte())
+- uid: ChiaWalletSdk.NewPeakWallet.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.NewPeakWallet.SetHeight(System.UInt32)
+  id: SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(uint)
+  nameWithType: NewPeakWallet.SetHeight(uint)
+  fullName: ChiaWalletSdk.NewPeakWallet.SetHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NewPeakWallet SetHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.NewPeakWallet
+    content.vb: Public Function SetHeight(value As UInteger) As NewPeakWallet
+  overload: ChiaWalletSdk.NewPeakWallet.SetHeight*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.SetHeight(System.UInt32)
+  nameWithType.vb: NewPeakWallet.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+- uid: ChiaWalletSdk.NewPeakWallet.SetWeight(System.String)
+  commentId: M:ChiaWalletSdk.NewPeakWallet.SetWeight(System.String)
+  id: SetWeight(System.String)
+  parent: ChiaWalletSdk.NewPeakWallet
+  langs:
+  - csharp
+  - vb
+  name: SetWeight(string)
+  nameWithType: NewPeakWallet.SetWeight(string)
+  fullName: ChiaWalletSdk.NewPeakWallet.SetWeight(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NewPeakWallet SetWeight(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.NewPeakWallet
+    content.vb: Public Function SetWeight(value As String) As NewPeakWallet
+  overload: ChiaWalletSdk.NewPeakWallet.SetWeight*
+  implements:
+  - ChiaWalletSdk.INewPeakWallet.SetWeight(System.String)
+  nameWithType.vb: NewPeakWallet.SetWeight(String)
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.SetWeight(String)
+  name.vb: SetWeight(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.INewPeakWallet
+  commentId: T:ChiaWalletSdk.INewPeakWallet
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html
+  name: INewPeakWallet
+  nameWithType: INewPeakWallet
+  fullName: ChiaWalletSdk.INewPeakWallet
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.NewPeakWallet.#ctor*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet__ctor_System_IntPtr_
+  name: NewPeakWallet
+  nameWithType: NewPeakWallet.NewPeakWallet
+  fullName: ChiaWalletSdk.NewPeakWallet.NewPeakWallet
+  nameWithType.vb: NewPeakWallet.New
+  fullName.vb: ChiaWalletSdk.NewPeakWallet.New
+  name.vb: New
+- uid: ChiaWalletSdk.NewPeakWallet.Finalize*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_Finalize
+  name: ~NewPeakWallet
+  nameWithType: NewPeakWallet.~NewPeakWallet
+  fullName: ChiaWalletSdk.NewPeakWallet.~NewPeakWallet
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.NewPeakWallet.Finalize*
+    name: NewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: NewPeakWallet.FreeRustArcPtr
+  fullName: ChiaWalletSdk.NewPeakWallet.FreeRustArcPtr
+- uid: ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: NewPeakWallet.CloneRustArcPtr
+  fullName: ChiaWalletSdk.NewPeakWallet.CloneRustArcPtr
+- uid: ChiaWalletSdk.NewPeakWallet.Destroy*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_Destroy
+  name: Destroy
+  nameWithType: NewPeakWallet.Destroy
+  fullName: ChiaWalletSdk.NewPeakWallet.Destroy
+- uid: ChiaWalletSdk.NewPeakWallet.Dispose*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_Dispose
+  name: Dispose
+  nameWithType: NewPeakWallet.Dispose
+  fullName: ChiaWalletSdk.NewPeakWallet.Dispose
+- uid: ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_GetForkPointWithPreviousPeak
+  name: GetForkPointWithPreviousPeak
+  nameWithType: NewPeakWallet.GetForkPointWithPreviousPeak
+  fullName: ChiaWalletSdk.NewPeakWallet.GetForkPointWithPreviousPeak
+- uid: ChiaWalletSdk.INewPeakWallet.GetForkPointWithPreviousPeak
+  commentId: M:ChiaWalletSdk.INewPeakWallet.GetForkPointWithPreviousPeak
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetForkPointWithPreviousPeak
+  name: GetForkPointWithPreviousPeak()
+  nameWithType: INewPeakWallet.GetForkPointWithPreviousPeak()
+  fullName: ChiaWalletSdk.INewPeakWallet.GetForkPointWithPreviousPeak()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetForkPointWithPreviousPeak
+    name: GetForkPointWithPreviousPeak
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetForkPointWithPreviousPeak
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetForkPointWithPreviousPeak
+    name: GetForkPointWithPreviousPeak
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetForkPointWithPreviousPeak
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet.GetHeaderHash*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.GetHeaderHash
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_GetHeaderHash
+  name: GetHeaderHash
+  nameWithType: NewPeakWallet.GetHeaderHash
+  fullName: ChiaWalletSdk.NewPeakWallet.GetHeaderHash
+- uid: ChiaWalletSdk.INewPeakWallet.GetHeaderHash
+  commentId: M:ChiaWalletSdk.INewPeakWallet.GetHeaderHash
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetHeaderHash
+  name: GetHeaderHash()
+  nameWithType: INewPeakWallet.GetHeaderHash()
+  fullName: ChiaWalletSdk.INewPeakWallet.GetHeaderHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetHeaderHash
+    name: GetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetHeaderHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetHeaderHash
+    name: GetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetHeaderHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet.GetHeight*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.GetHeight
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_GetHeight
+  name: GetHeight
+  nameWithType: NewPeakWallet.GetHeight
+  fullName: ChiaWalletSdk.NewPeakWallet.GetHeight
+- uid: ChiaWalletSdk.INewPeakWallet.GetHeight
+  commentId: M:ChiaWalletSdk.INewPeakWallet.GetHeight
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetHeight
+  name: GetHeight()
+  nameWithType: INewPeakWallet.GetHeight()
+  fullName: ChiaWalletSdk.INewPeakWallet.GetHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet.GetWeight*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.GetWeight
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_GetWeight
+  name: GetWeight
+  nameWithType: NewPeakWallet.GetWeight
+  fullName: ChiaWalletSdk.NewPeakWallet.GetWeight
+- uid: ChiaWalletSdk.INewPeakWallet.GetWeight
+  commentId: M:ChiaWalletSdk.INewPeakWallet.GetWeight
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetWeight
+  name: GetWeight()
+  nameWithType: INewPeakWallet.GetWeight()
+  fullName: ChiaWalletSdk.INewPeakWallet.GetWeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetWeight
+    name: GetWeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetWeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.GetWeight
+    name: GetWeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_GetWeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_SetForkPointWithPreviousPeak_System_UInt32_
+  name: SetForkPointWithPreviousPeak
+  nameWithType: NewPeakWallet.SetForkPointWithPreviousPeak
+  fullName: ChiaWalletSdk.NewPeakWallet.SetForkPointWithPreviousPeak
+- uid: ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+  commentId: M:ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetForkPointWithPreviousPeak_System_UInt32_
+  name: SetForkPointWithPreviousPeak(uint)
+  nameWithType: INewPeakWallet.SetForkPointWithPreviousPeak(uint)
+  fullName: ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(uint)
+  nameWithType.vb: INewPeakWallet.SetForkPointWithPreviousPeak(UInteger)
+  fullName.vb: ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(UInteger)
+  name.vb: SetForkPointWithPreviousPeak(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+    name: SetForkPointWithPreviousPeak
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetForkPointWithPreviousPeak_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetForkPointWithPreviousPeak(System.UInt32)
+    name: SetForkPointWithPreviousPeak
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetForkPointWithPreviousPeak_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet
+  commentId: T:ChiaWalletSdk.NewPeakWallet
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html
+  name: NewPeakWallet
+  nameWithType: NewPeakWallet
+  fullName: ChiaWalletSdk.NewPeakWallet
+- uid: ChiaWalletSdk.NewPeakWallet.SetHeaderHash*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.SetHeaderHash
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_SetHeaderHash_System_Byte___
+  name: SetHeaderHash
+  nameWithType: NewPeakWallet.SetHeaderHash
+  fullName: ChiaWalletSdk.NewPeakWallet.SetHeaderHash
+- uid: ChiaWalletSdk.INewPeakWallet.SetHeaderHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.INewPeakWallet.SetHeaderHash(System.Byte[])
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetHeaderHash_System_Byte___
+  name: SetHeaderHash(byte[])
+  nameWithType: INewPeakWallet.SetHeaderHash(byte[])
+  fullName: ChiaWalletSdk.INewPeakWallet.SetHeaderHash(byte[])
+  nameWithType.vb: INewPeakWallet.SetHeaderHash(Byte())
+  fullName.vb: ChiaWalletSdk.INewPeakWallet.SetHeaderHash(Byte())
+  name.vb: SetHeaderHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetHeaderHash(System.Byte[])
+    name: SetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetHeaderHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetHeaderHash(System.Byte[])
+    name: SetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetHeaderHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet.SetHeight*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.SetHeight
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_SetHeight_System_UInt32_
+  name: SetHeight
+  nameWithType: NewPeakWallet.SetHeight
+  fullName: ChiaWalletSdk.NewPeakWallet.SetHeight
+- uid: ChiaWalletSdk.INewPeakWallet.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.INewPeakWallet.SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetHeight_System_UInt32_
+  name: SetHeight(uint)
+  nameWithType: INewPeakWallet.SetHeight(uint)
+  fullName: ChiaWalletSdk.INewPeakWallet.SetHeight(uint)
+  nameWithType.vb: INewPeakWallet.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.INewPeakWallet.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet.SetWeight*
+  commentId: Overload:ChiaWalletSdk.NewPeakWallet.SetWeight
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html#ChiaWalletSdk_NewPeakWallet_SetWeight_System_String_
+  name: SetWeight
+  nameWithType: NewPeakWallet.SetWeight
+  fullName: ChiaWalletSdk.NewPeakWallet.SetWeight
+- uid: ChiaWalletSdk.INewPeakWallet.SetWeight(System.String)
+  commentId: M:ChiaWalletSdk.INewPeakWallet.SetWeight(System.String)
+  parent: ChiaWalletSdk.INewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetWeight_System_String_
+  name: SetWeight(string)
+  nameWithType: INewPeakWallet.SetWeight(string)
+  fullName: ChiaWalletSdk.INewPeakWallet.SetWeight(string)
+  nameWithType.vb: INewPeakWallet.SetWeight(String)
+  fullName.vb: ChiaWalletSdk.INewPeakWallet.SetWeight(String)
+  name.vb: SetWeight(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetWeight(System.String)
+    name: SetWeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetWeight_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INewPeakWallet.SetWeight(System.String)
+    name: SetWeight
+    isExternal: true
+    href: ChiaWalletSdk.INewPeakWallet.html#ChiaWalletSdk_INewPeakWallet_SetWeight_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

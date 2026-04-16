@@ -1,0 +1,1086 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.NftMint
+  commentId: T:ChiaWalletSdk.NftMint
+  id: NftMint
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.NftMint.#ctor(ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.Byte[],System.UInt16,ChiaWalletSdk.TransferNft)
+  - ChiaWalletSdk.NftMint.#ctor(System.IntPtr)
+  - ChiaWalletSdk.NftMint.CloneRustArcPtr
+  - ChiaWalletSdk.NftMint.Destroy
+  - ChiaWalletSdk.NftMint.Dispose
+  - ChiaWalletSdk.NftMint.Finalize
+  - ChiaWalletSdk.NftMint.FreeRustArcPtr
+  - ChiaWalletSdk.NftMint.GetMetadata
+  - ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash
+  - ChiaWalletSdk.NftMint.GetP2PuzzleHash
+  - ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints
+  - ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash
+  - ChiaWalletSdk.NftMint.GetTransferCondition
+  - ChiaWalletSdk.NftMint.SetMetadata(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.NftMint.SetP2PuzzleHash(System.Byte[])
+  - ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints(System.UInt16)
+  - ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.NftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  - ChiaWalletSdk.NftMint.pointer
+  langs:
+  - csharp
+  - vb
+  name: NftMint
+  nameWithType: NftMint
+  fullName: ChiaWalletSdk.NftMint
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class NftMint : INftMint'
+    content.vb: Public Class NftMint Implements INftMint
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.INftMint
+- uid: ChiaWalletSdk.NftMint.pointer
+  commentId: F:ChiaWalletSdk.NftMint.pointer
+  id: pointer
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: NftMint.pointer
+  fullName: ChiaWalletSdk.NftMint.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.NftMint.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.NftMint.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: NftMint(nint)
+  nameWithType: NftMint.NftMint(nint)
+  fullName: ChiaWalletSdk.NftMint.NftMint(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NftMint(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.NftMint.#ctor*
+  nameWithType.vb: NftMint.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.NftMint.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.NftMint.Finalize
+  commentId: M:ChiaWalletSdk.NftMint.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: ~NftMint()
+  nameWithType: NftMint.~NftMint()
+  fullName: ChiaWalletSdk.NftMint.~NftMint()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~NftMint()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.NftMint.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.NftMint.#ctor(ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.Byte[],System.UInt16,ChiaWalletSdk.TransferNft)
+  commentId: M:ChiaWalletSdk.NftMint.#ctor(ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.Byte[],System.UInt16,ChiaWalletSdk.TransferNft)
+  id: '#ctor(ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.Byte[],System.UInt16,ChiaWalletSdk.TransferNft)'
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: NftMint(Program, byte[], byte[], byte[], ushort, TransferNft?)
+  nameWithType: NftMint.NftMint(Program, byte[], byte[], byte[], ushort, TransferNft?)
+  fullName: ChiaWalletSdk.NftMint.NftMint(ChiaWalletSdk.Program, byte[], byte[], byte[], ushort, ChiaWalletSdk.TransferNft?)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NftMint(Program metadata, byte[] metadataUpdaterPuzzleHash, byte[] p2PuzzleHash, byte[] royaltyPuzzleHash, ushort royaltyBasisPoints, TransferNft? transferCondition)
+    parameters:
+    - id: metadata
+      type: ChiaWalletSdk.Program
+    - id: metadataUpdaterPuzzleHash
+      type: System.Byte[]
+    - id: p2PuzzleHash
+      type: System.Byte[]
+    - id: royaltyPuzzleHash
+      type: System.Byte[]
+    - id: royaltyBasisPoints
+      type: System.UInt16
+    - id: transferCondition
+      type: ChiaWalletSdk.TransferNft
+    content.vb: Public Sub New(metadata As Program, metadataUpdaterPuzzleHash As Byte(), p2PuzzleHash As Byte(), royaltyPuzzleHash As Byte(), royaltyBasisPoints As UShort, transferCondition As TransferNft)
+  overload: ChiaWalletSdk.NftMint.#ctor*
+  nameWithType.vb: NftMint.New(Program, Byte(), Byte(), Byte(), UShort, TransferNft)
+  fullName.vb: ChiaWalletSdk.NftMint.New(ChiaWalletSdk.Program, Byte(), Byte(), Byte(), UShort, ChiaWalletSdk.TransferNft)
+  name.vb: New(Program, Byte(), Byte(), Byte(), UShort, TransferNft)
+- uid: ChiaWalletSdk.NftMint.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.NftMint.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: NftMint.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.NftMint.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.NftMint.FreeRustArcPtr*
+- uid: ChiaWalletSdk.NftMint.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.NftMint.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: NftMint.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.NftMint.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.NftMint.CloneRustArcPtr*
+- uid: ChiaWalletSdk.NftMint.Destroy
+  commentId: M:ChiaWalletSdk.NftMint.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: NftMint.Destroy()
+  fullName: ChiaWalletSdk.NftMint.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.NftMint.Destroy*
+- uid: ChiaWalletSdk.NftMint.Dispose
+  commentId: M:ChiaWalletSdk.NftMint.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NftMint.Dispose()
+  fullName: ChiaWalletSdk.NftMint.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.NftMint.Dispose*
+- uid: ChiaWalletSdk.NftMint.GetMetadata
+  commentId: M:ChiaWalletSdk.NftMint.GetMetadata
+  id: GetMetadata
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: GetMetadata()
+  nameWithType: NftMint.GetMetadata()
+  fullName: ChiaWalletSdk.NftMint.GetMetadata()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetMetadata()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetMetadata() As Program
+  overload: ChiaWalletSdk.NftMint.GetMetadata*
+  implements:
+  - ChiaWalletSdk.INftMint.GetMetadata
+- uid: ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash
+  commentId: M:ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash
+  id: GetMetadataUpdaterPuzzleHash
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: GetMetadataUpdaterPuzzleHash()
+  nameWithType: NftMint.GetMetadataUpdaterPuzzleHash()
+  fullName: ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetMetadataUpdaterPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetMetadataUpdaterPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash*
+  implements:
+  - ChiaWalletSdk.INftMint.GetMetadataUpdaterPuzzleHash
+- uid: ChiaWalletSdk.NftMint.GetP2PuzzleHash
+  commentId: M:ChiaWalletSdk.NftMint.GetP2PuzzleHash
+  id: GetP2PuzzleHash
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: GetP2PuzzleHash()
+  nameWithType: NftMint.GetP2PuzzleHash()
+  fullName: ChiaWalletSdk.NftMint.GetP2PuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetP2PuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetP2PuzzleHash() As Byte()
+  overload: ChiaWalletSdk.NftMint.GetP2PuzzleHash*
+  implements:
+  - ChiaWalletSdk.INftMint.GetP2PuzzleHash
+- uid: ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints
+  commentId: M:ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints
+  id: GetRoyaltyBasisPoints
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: GetRoyaltyBasisPoints()
+  nameWithType: NftMint.GetRoyaltyBasisPoints()
+  fullName: ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ushort GetRoyaltyBasisPoints()
+    return:
+      type: System.UInt16
+    content.vb: Public Function GetRoyaltyBasisPoints() As UShort
+  overload: ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints*
+  implements:
+  - ChiaWalletSdk.INftMint.GetRoyaltyBasisPoints
+- uid: ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash
+  commentId: M:ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash
+  id: GetRoyaltyPuzzleHash
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: GetRoyaltyPuzzleHash()
+  nameWithType: NftMint.GetRoyaltyPuzzleHash()
+  fullName: ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetRoyaltyPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetRoyaltyPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash*
+  implements:
+  - ChiaWalletSdk.INftMint.GetRoyaltyPuzzleHash
+- uid: ChiaWalletSdk.NftMint.GetTransferCondition
+  commentId: M:ChiaWalletSdk.NftMint.GetTransferCondition
+  id: GetTransferCondition
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: GetTransferCondition()
+  nameWithType: NftMint.GetTransferCondition()
+  fullName: ChiaWalletSdk.NftMint.GetTransferCondition()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public TransferNft? GetTransferCondition()
+    return:
+      type: ChiaWalletSdk.TransferNft
+    content.vb: Public Function GetTransferCondition() As TransferNft
+  overload: ChiaWalletSdk.NftMint.GetTransferCondition*
+  implements:
+  - ChiaWalletSdk.INftMint.GetTransferCondition
+- uid: ChiaWalletSdk.NftMint.SetMetadata(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.NftMint.SetMetadata(ChiaWalletSdk.Program)
+  id: SetMetadata(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: SetMetadata(Program)
+  nameWithType: NftMint.SetMetadata(Program)
+  fullName: ChiaWalletSdk.NftMint.SetMetadata(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftMint SetMetadata(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.NftMint
+    content.vb: Public Function SetMetadata(value As Program) As NftMint
+  overload: ChiaWalletSdk.NftMint.SetMetadata*
+  implements:
+  - ChiaWalletSdk.INftMint.SetMetadata(ChiaWalletSdk.Program)
+- uid: ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+  id: SetMetadataUpdaterPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: SetMetadataUpdaterPuzzleHash(byte[])
+  nameWithType: NftMint.SetMetadataUpdaterPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftMint SetMetadataUpdaterPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.NftMint
+    content.vb: Public Function SetMetadataUpdaterPuzzleHash(value As Byte()) As NftMint
+  overload: ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash*
+  implements:
+  - ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+  nameWithType.vb: NftMint.SetMetadataUpdaterPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash(Byte())
+  name.vb: SetMetadataUpdaterPuzzleHash(Byte())
+- uid: ChiaWalletSdk.NftMint.SetP2PuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.NftMint.SetP2PuzzleHash(System.Byte[])
+  id: SetP2PuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: SetP2PuzzleHash(byte[])
+  nameWithType: NftMint.SetP2PuzzleHash(byte[])
+  fullName: ChiaWalletSdk.NftMint.SetP2PuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftMint SetP2PuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.NftMint
+    content.vb: Public Function SetP2PuzzleHash(value As Byte()) As NftMint
+  overload: ChiaWalletSdk.NftMint.SetP2PuzzleHash*
+  implements:
+  - ChiaWalletSdk.INftMint.SetP2PuzzleHash(System.Byte[])
+  nameWithType.vb: NftMint.SetP2PuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.NftMint.SetP2PuzzleHash(Byte())
+  name.vb: SetP2PuzzleHash(Byte())
+- uid: ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints(System.UInt16)
+  commentId: M:ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints(System.UInt16)
+  id: SetRoyaltyBasisPoints(System.UInt16)
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: SetRoyaltyBasisPoints(ushort)
+  nameWithType: NftMint.SetRoyaltyBasisPoints(ushort)
+  fullName: ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints(ushort)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftMint SetRoyaltyBasisPoints(ushort value)
+    parameters:
+    - id: value
+      type: System.UInt16
+    return:
+      type: ChiaWalletSdk.NftMint
+    content.vb: Public Function SetRoyaltyBasisPoints(value As UShort) As NftMint
+  overload: ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints*
+  implements:
+  - ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(System.UInt16)
+  nameWithType.vb: NftMint.SetRoyaltyBasisPoints(UShort)
+  fullName.vb: ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints(UShort)
+  name.vb: SetRoyaltyBasisPoints(UShort)
+- uid: ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash(System.Byte[])
+  id: SetRoyaltyPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: SetRoyaltyPuzzleHash(byte[])
+  nameWithType: NftMint.SetRoyaltyPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftMint SetRoyaltyPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.NftMint
+    content.vb: Public Function SetRoyaltyPuzzleHash(value As Byte()) As NftMint
+  overload: ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash*
+  implements:
+  - ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(System.Byte[])
+  nameWithType.vb: NftMint.SetRoyaltyPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash(Byte())
+  name.vb: SetRoyaltyPuzzleHash(Byte())
+- uid: ChiaWalletSdk.NftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  commentId: M:ChiaWalletSdk.NftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  id: SetTransferCondition(ChiaWalletSdk.TransferNft)
+  parent: ChiaWalletSdk.NftMint
+  langs:
+  - csharp
+  - vb
+  name: SetTransferCondition(TransferNft?)
+  nameWithType: NftMint.SetTransferCondition(TransferNft?)
+  fullName: ChiaWalletSdk.NftMint.SetTransferCondition(ChiaWalletSdk.TransferNft?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftMint SetTransferCondition(TransferNft? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.TransferNft
+    return:
+      type: ChiaWalletSdk.NftMint
+    content.vb: Public Function SetTransferCondition(value As TransferNft) As NftMint
+  overload: ChiaWalletSdk.NftMint.SetTransferCondition*
+  implements:
+  - ChiaWalletSdk.INftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  nameWithType.vb: NftMint.SetTransferCondition(TransferNft)
+  fullName.vb: ChiaWalletSdk.NftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  name.vb: SetTransferCondition(TransferNft)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.INftMint
+  commentId: T:ChiaWalletSdk.INftMint
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html
+  name: INftMint
+  nameWithType: INftMint
+  fullName: ChiaWalletSdk.INftMint
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.NftMint.#ctor*
+  commentId: Overload:ChiaWalletSdk.NftMint.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint__ctor_System_IntPtr_
+  name: NftMint
+  nameWithType: NftMint.NftMint
+  fullName: ChiaWalletSdk.NftMint.NftMint
+  nameWithType.vb: NftMint.New
+  fullName.vb: ChiaWalletSdk.NftMint.New
+  name.vb: New
+- uid: ChiaWalletSdk.NftMint.Finalize*
+  commentId: Overload:ChiaWalletSdk.NftMint.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_Finalize
+  name: ~NftMint
+  nameWithType: NftMint.~NftMint
+  fullName: ChiaWalletSdk.NftMint.~NftMint
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.NftMint.Finalize*
+    name: NftMint
+    isExternal: true
+    href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_Finalize
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: ChiaWalletSdk.TransferNft
+  commentId: T:ChiaWalletSdk.TransferNft
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.TransferNft.html
+  name: TransferNft
+  nameWithType: TransferNft
+  fullName: ChiaWalletSdk.TransferNft
+- uid: ChiaWalletSdk.NftMint.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NftMint.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: NftMint.FreeRustArcPtr
+  fullName: ChiaWalletSdk.NftMint.FreeRustArcPtr
+- uid: ChiaWalletSdk.NftMint.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NftMint.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: NftMint.CloneRustArcPtr
+  fullName: ChiaWalletSdk.NftMint.CloneRustArcPtr
+- uid: ChiaWalletSdk.NftMint.Destroy*
+  commentId: Overload:ChiaWalletSdk.NftMint.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_Destroy
+  name: Destroy
+  nameWithType: NftMint.Destroy
+  fullName: ChiaWalletSdk.NftMint.Destroy
+- uid: ChiaWalletSdk.NftMint.Dispose*
+  commentId: Overload:ChiaWalletSdk.NftMint.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_Dispose
+  name: Dispose
+  nameWithType: NftMint.Dispose
+  fullName: ChiaWalletSdk.NftMint.Dispose
+- uid: ChiaWalletSdk.NftMint.GetMetadata*
+  commentId: Overload:ChiaWalletSdk.NftMint.GetMetadata
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_GetMetadata
+  name: GetMetadata
+  nameWithType: NftMint.GetMetadata
+  fullName: ChiaWalletSdk.NftMint.GetMetadata
+- uid: ChiaWalletSdk.INftMint.GetMetadata
+  commentId: M:ChiaWalletSdk.INftMint.GetMetadata
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetMetadata
+  name: GetMetadata()
+  nameWithType: INftMint.GetMetadata()
+  fullName: ChiaWalletSdk.INftMint.GetMetadata()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.GetMetadata
+    name: GetMetadata
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetMetadata
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.GetMetadata
+    name: GetMetadata
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetMetadata
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_GetMetadataUpdaterPuzzleHash
+  name: GetMetadataUpdaterPuzzleHash
+  nameWithType: NftMint.GetMetadataUpdaterPuzzleHash
+  fullName: ChiaWalletSdk.NftMint.GetMetadataUpdaterPuzzleHash
+- uid: ChiaWalletSdk.INftMint.GetMetadataUpdaterPuzzleHash
+  commentId: M:ChiaWalletSdk.INftMint.GetMetadataUpdaterPuzzleHash
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetMetadataUpdaterPuzzleHash
+  name: GetMetadataUpdaterPuzzleHash()
+  nameWithType: INftMint.GetMetadataUpdaterPuzzleHash()
+  fullName: ChiaWalletSdk.INftMint.GetMetadataUpdaterPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.GetMetadataUpdaterPuzzleHash
+    name: GetMetadataUpdaterPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetMetadataUpdaterPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.GetMetadataUpdaterPuzzleHash
+    name: GetMetadataUpdaterPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetMetadataUpdaterPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftMint.GetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.NftMint.GetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_GetP2PuzzleHash
+  name: GetP2PuzzleHash
+  nameWithType: NftMint.GetP2PuzzleHash
+  fullName: ChiaWalletSdk.NftMint.GetP2PuzzleHash
+- uid: ChiaWalletSdk.INftMint.GetP2PuzzleHash
+  commentId: M:ChiaWalletSdk.INftMint.GetP2PuzzleHash
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetP2PuzzleHash
+  name: GetP2PuzzleHash()
+  nameWithType: INftMint.GetP2PuzzleHash()
+  fullName: ChiaWalletSdk.INftMint.GetP2PuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.GetP2PuzzleHash
+    name: GetP2PuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetP2PuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.GetP2PuzzleHash
+    name: GetP2PuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetP2PuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints*
+  commentId: Overload:ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_GetRoyaltyBasisPoints
+  name: GetRoyaltyBasisPoints
+  nameWithType: NftMint.GetRoyaltyBasisPoints
+  fullName: ChiaWalletSdk.NftMint.GetRoyaltyBasisPoints
+- uid: ChiaWalletSdk.INftMint.GetRoyaltyBasisPoints
+  commentId: M:ChiaWalletSdk.INftMint.GetRoyaltyBasisPoints
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetRoyaltyBasisPoints
+  name: GetRoyaltyBasisPoints()
+  nameWithType: INftMint.GetRoyaltyBasisPoints()
+  fullName: ChiaWalletSdk.INftMint.GetRoyaltyBasisPoints()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.GetRoyaltyBasisPoints
+    name: GetRoyaltyBasisPoints
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetRoyaltyBasisPoints
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.GetRoyaltyBasisPoints
+    name: GetRoyaltyBasisPoints
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetRoyaltyBasisPoints
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_GetRoyaltyPuzzleHash
+  name: GetRoyaltyPuzzleHash
+  nameWithType: NftMint.GetRoyaltyPuzzleHash
+  fullName: ChiaWalletSdk.NftMint.GetRoyaltyPuzzleHash
+- uid: ChiaWalletSdk.INftMint.GetRoyaltyPuzzleHash
+  commentId: M:ChiaWalletSdk.INftMint.GetRoyaltyPuzzleHash
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetRoyaltyPuzzleHash
+  name: GetRoyaltyPuzzleHash()
+  nameWithType: INftMint.GetRoyaltyPuzzleHash()
+  fullName: ChiaWalletSdk.INftMint.GetRoyaltyPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.GetRoyaltyPuzzleHash
+    name: GetRoyaltyPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetRoyaltyPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.GetRoyaltyPuzzleHash
+    name: GetRoyaltyPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetRoyaltyPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftMint.GetTransferCondition*
+  commentId: Overload:ChiaWalletSdk.NftMint.GetTransferCondition
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_GetTransferCondition
+  name: GetTransferCondition
+  nameWithType: NftMint.GetTransferCondition
+  fullName: ChiaWalletSdk.NftMint.GetTransferCondition
+- uid: ChiaWalletSdk.INftMint.GetTransferCondition
+  commentId: M:ChiaWalletSdk.INftMint.GetTransferCondition
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetTransferCondition
+  name: GetTransferCondition()
+  nameWithType: INftMint.GetTransferCondition()
+  fullName: ChiaWalletSdk.INftMint.GetTransferCondition()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.GetTransferCondition
+    name: GetTransferCondition
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetTransferCondition
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.GetTransferCondition
+    name: GetTransferCondition
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_GetTransferCondition
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftMint.SetMetadata*
+  commentId: Overload:ChiaWalletSdk.NftMint.SetMetadata
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_SetMetadata_ChiaWalletSdk_Program_
+  name: SetMetadata
+  nameWithType: NftMint.SetMetadata
+  fullName: ChiaWalletSdk.NftMint.SetMetadata
+- uid: ChiaWalletSdk.INftMint.SetMetadata(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.INftMint.SetMetadata(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetMetadata_ChiaWalletSdk_Program_
+  name: SetMetadata(Program)
+  nameWithType: INftMint.SetMetadata(Program)
+  fullName: ChiaWalletSdk.INftMint.SetMetadata(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.SetMetadata(ChiaWalletSdk.Program)
+    name: SetMetadata
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetMetadata_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.SetMetadata(ChiaWalletSdk.Program)
+    name: SetMetadata
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetMetadata_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: ChiaWalletSdk.NftMint
+  commentId: T:ChiaWalletSdk.NftMint
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html
+  name: NftMint
+  nameWithType: NftMint
+  fullName: ChiaWalletSdk.NftMint
+- uid: ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_SetMetadataUpdaterPuzzleHash_System_Byte___
+  name: SetMetadataUpdaterPuzzleHash
+  nameWithType: NftMint.SetMetadataUpdaterPuzzleHash
+  fullName: ChiaWalletSdk.NftMint.SetMetadataUpdaterPuzzleHash
+- uid: ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetMetadataUpdaterPuzzleHash_System_Byte___
+  name: SetMetadataUpdaterPuzzleHash(byte[])
+  nameWithType: INftMint.SetMetadataUpdaterPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(byte[])
+  nameWithType.vb: INftMint.SetMetadataUpdaterPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(Byte())
+  name.vb: SetMetadataUpdaterPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+    name: SetMetadataUpdaterPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetMetadataUpdaterPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.SetMetadataUpdaterPuzzleHash(System.Byte[])
+    name: SetMetadataUpdaterPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetMetadataUpdaterPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.NftMint.SetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.NftMint.SetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_SetP2PuzzleHash_System_Byte___
+  name: SetP2PuzzleHash
+  nameWithType: NftMint.SetP2PuzzleHash
+  fullName: ChiaWalletSdk.NftMint.SetP2PuzzleHash
+- uid: ChiaWalletSdk.INftMint.SetP2PuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.INftMint.SetP2PuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetP2PuzzleHash_System_Byte___
+  name: SetP2PuzzleHash(byte[])
+  nameWithType: INftMint.SetP2PuzzleHash(byte[])
+  fullName: ChiaWalletSdk.INftMint.SetP2PuzzleHash(byte[])
+  nameWithType.vb: INftMint.SetP2PuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.INftMint.SetP2PuzzleHash(Byte())
+  name.vb: SetP2PuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.SetP2PuzzleHash(System.Byte[])
+    name: SetP2PuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetP2PuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.SetP2PuzzleHash(System.Byte[])
+    name: SetP2PuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetP2PuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints*
+  commentId: Overload:ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_SetRoyaltyBasisPoints_System_UInt16_
+  name: SetRoyaltyBasisPoints
+  nameWithType: NftMint.SetRoyaltyBasisPoints
+  fullName: ChiaWalletSdk.NftMint.SetRoyaltyBasisPoints
+- uid: ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(System.UInt16)
+  commentId: M:ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(System.UInt16)
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetRoyaltyBasisPoints_System_UInt16_
+  name: SetRoyaltyBasisPoints(ushort)
+  nameWithType: INftMint.SetRoyaltyBasisPoints(ushort)
+  fullName: ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(ushort)
+  nameWithType.vb: INftMint.SetRoyaltyBasisPoints(UShort)
+  fullName.vb: ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(UShort)
+  name.vb: SetRoyaltyBasisPoints(UShort)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(System.UInt16)
+    name: SetRoyaltyBasisPoints
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetRoyaltyBasisPoints_System_UInt16_
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.SetRoyaltyBasisPoints(System.UInt16)
+    name: SetRoyaltyBasisPoints
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetRoyaltyBasisPoints_System_UInt16_
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_SetRoyaltyPuzzleHash_System_Byte___
+  name: SetRoyaltyPuzzleHash
+  nameWithType: NftMint.SetRoyaltyPuzzleHash
+  fullName: ChiaWalletSdk.NftMint.SetRoyaltyPuzzleHash
+- uid: ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetRoyaltyPuzzleHash_System_Byte___
+  name: SetRoyaltyPuzzleHash(byte[])
+  nameWithType: INftMint.SetRoyaltyPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(byte[])
+  nameWithType.vb: INftMint.SetRoyaltyPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(Byte())
+  name.vb: SetRoyaltyPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(System.Byte[])
+    name: SetRoyaltyPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetRoyaltyPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.SetRoyaltyPuzzleHash(System.Byte[])
+    name: SetRoyaltyPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetRoyaltyPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.NftMint.SetTransferCondition*
+  commentId: Overload:ChiaWalletSdk.NftMint.SetTransferCondition
+  isExternal: true
+  href: ChiaWalletSdk.NftMint.html#ChiaWalletSdk_NftMint_SetTransferCondition_ChiaWalletSdk_TransferNft_
+  name: SetTransferCondition
+  nameWithType: NftMint.SetTransferCondition
+  fullName: ChiaWalletSdk.NftMint.SetTransferCondition
+- uid: ChiaWalletSdk.INftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  commentId: M:ChiaWalletSdk.INftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  parent: ChiaWalletSdk.INftMint
+  isExternal: true
+  href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetTransferCondition_ChiaWalletSdk_TransferNft_
+  name: SetTransferCondition(TransferNft)
+  nameWithType: INftMint.SetTransferCondition(TransferNft)
+  fullName: ChiaWalletSdk.INftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+    name: SetTransferCondition
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetTransferCondition_ChiaWalletSdk_TransferNft_
+  - name: (
+  - uid: ChiaWalletSdk.TransferNft
+    name: TransferNft
+    isExternal: true
+    href: ChiaWalletSdk.TransferNft.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftMint.SetTransferCondition(ChiaWalletSdk.TransferNft)
+    name: SetTransferCondition
+    isExternal: true
+    href: ChiaWalletSdk.INftMint.html#ChiaWalletSdk_INftMint_SetTransferCondition_ChiaWalletSdk_TransferNft_
+  - name: (
+  - uid: ChiaWalletSdk.TransferNft
+    name: TransferNft
+    isExternal: true
+    href: ChiaWalletSdk.TransferNft.html
+  - name: )

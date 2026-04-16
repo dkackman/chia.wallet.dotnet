@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.DropCoin
+  commentId: T:ChiaWalletSdk.DropCoin
+  id: DropCoin
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.DropCoin.#ctor(System.Byte[],System.String)
+  - ChiaWalletSdk.DropCoin.#ctor(System.IntPtr)
+  - ChiaWalletSdk.DropCoin.CloneRustArcPtr
+  - ChiaWalletSdk.DropCoin.Destroy
+  - ChiaWalletSdk.DropCoin.Dispose
+  - ChiaWalletSdk.DropCoin.Finalize
+  - ChiaWalletSdk.DropCoin.FreeRustArcPtr
+  - ChiaWalletSdk.DropCoin.GetAmount
+  - ChiaWalletSdk.DropCoin.GetPuzzleHash
+  - ChiaWalletSdk.DropCoin.SetAmount(System.String)
+  - ChiaWalletSdk.DropCoin.SetPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.DropCoin.pointer
+  langs:
+  - csharp
+  - vb
+  name: DropCoin
+  nameWithType: DropCoin
+  fullName: ChiaWalletSdk.DropCoin
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class DropCoin : IDropCoin'
+    content.vb: Public Class DropCoin Implements IDropCoin
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IDropCoin
+- uid: ChiaWalletSdk.DropCoin.pointer
+  commentId: F:ChiaWalletSdk.DropCoin.pointer
+  id: pointer
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: DropCoin.pointer
+  fullName: ChiaWalletSdk.DropCoin.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.DropCoin.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.DropCoin.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: DropCoin(nint)
+  nameWithType: DropCoin.DropCoin(nint)
+  fullName: ChiaWalletSdk.DropCoin.DropCoin(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public DropCoin(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.DropCoin.#ctor*
+  nameWithType.vb: DropCoin.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.DropCoin.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.DropCoin.Finalize
+  commentId: M:ChiaWalletSdk.DropCoin.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: ~DropCoin()
+  nameWithType: DropCoin.~DropCoin()
+  fullName: ChiaWalletSdk.DropCoin.~DropCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~DropCoin()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.DropCoin.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.DropCoin.#ctor(System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.DropCoin.#ctor(System.Byte[],System.String)
+  id: '#ctor(System.Byte[],System.String)'
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: DropCoin(byte[], string)
+  nameWithType: DropCoin.DropCoin(byte[], string)
+  fullName: ChiaWalletSdk.DropCoin.DropCoin(byte[], string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public DropCoin(byte[] puzzleHash, string amount)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: amount
+      type: System.String
+    content.vb: Public Sub New(puzzleHash As Byte(), amount As String)
+  overload: ChiaWalletSdk.DropCoin.#ctor*
+  nameWithType.vb: DropCoin.New(Byte(), String)
+  fullName.vb: ChiaWalletSdk.DropCoin.New(Byte(), String)
+  name.vb: New(Byte(), String)
+- uid: ChiaWalletSdk.DropCoin.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.DropCoin.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: DropCoin.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.DropCoin.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.DropCoin.FreeRustArcPtr*
+- uid: ChiaWalletSdk.DropCoin.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.DropCoin.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: DropCoin.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.DropCoin.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.DropCoin.CloneRustArcPtr*
+- uid: ChiaWalletSdk.DropCoin.Destroy
+  commentId: M:ChiaWalletSdk.DropCoin.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: DropCoin.Destroy()
+  fullName: ChiaWalletSdk.DropCoin.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.DropCoin.Destroy*
+- uid: ChiaWalletSdk.DropCoin.Dispose
+  commentId: M:ChiaWalletSdk.DropCoin.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DropCoin.Dispose()
+  fullName: ChiaWalletSdk.DropCoin.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.DropCoin.Dispose*
+- uid: ChiaWalletSdk.DropCoin.GetAmount
+  commentId: M:ChiaWalletSdk.DropCoin.GetAmount
+  id: GetAmount
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: GetAmount()
+  nameWithType: DropCoin.GetAmount()
+  fullName: ChiaWalletSdk.DropCoin.GetAmount()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetAmount()
+    return:
+      type: System.String
+    content.vb: Public Function GetAmount() As String
+  overload: ChiaWalletSdk.DropCoin.GetAmount*
+  implements:
+  - ChiaWalletSdk.IDropCoin.GetAmount
+- uid: ChiaWalletSdk.DropCoin.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.DropCoin.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: DropCoin.GetPuzzleHash()
+  fullName: ChiaWalletSdk.DropCoin.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.DropCoin.GetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IDropCoin.GetPuzzleHash
+- uid: ChiaWalletSdk.DropCoin.SetAmount(System.String)
+  commentId: M:ChiaWalletSdk.DropCoin.SetAmount(System.String)
+  id: SetAmount(System.String)
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: SetAmount(string)
+  nameWithType: DropCoin.SetAmount(string)
+  fullName: ChiaWalletSdk.DropCoin.SetAmount(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public DropCoin SetAmount(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.DropCoin
+    content.vb: Public Function SetAmount(value As String) As DropCoin
+  overload: ChiaWalletSdk.DropCoin.SetAmount*
+  implements:
+  - ChiaWalletSdk.IDropCoin.SetAmount(System.String)
+  nameWithType.vb: DropCoin.SetAmount(String)
+  fullName.vb: ChiaWalletSdk.DropCoin.SetAmount(String)
+  name.vb: SetAmount(String)
+- uid: ChiaWalletSdk.DropCoin.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.DropCoin.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.DropCoin
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: DropCoin.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.DropCoin.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public DropCoin SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.DropCoin
+    content.vb: Public Function SetPuzzleHash(value As Byte()) As DropCoin
+  overload: ChiaWalletSdk.DropCoin.SetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IDropCoin.SetPuzzleHash(System.Byte[])
+  nameWithType.vb: DropCoin.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.DropCoin.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IDropCoin
+  commentId: T:ChiaWalletSdk.IDropCoin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IDropCoin.html
+  name: IDropCoin
+  nameWithType: IDropCoin
+  fullName: ChiaWalletSdk.IDropCoin
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.DropCoin.#ctor*
+  commentId: Overload:ChiaWalletSdk.DropCoin.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin__ctor_System_IntPtr_
+  name: DropCoin
+  nameWithType: DropCoin.DropCoin
+  fullName: ChiaWalletSdk.DropCoin.DropCoin
+  nameWithType.vb: DropCoin.New
+  fullName.vb: ChiaWalletSdk.DropCoin.New
+  name.vb: New
+- uid: ChiaWalletSdk.DropCoin.Finalize*
+  commentId: Overload:ChiaWalletSdk.DropCoin.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_Finalize
+  name: ~DropCoin
+  nameWithType: DropCoin.~DropCoin
+  fullName: ChiaWalletSdk.DropCoin.~DropCoin
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.DropCoin.Finalize*
+    name: DropCoin
+    isExternal: true
+    href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.DropCoin.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.DropCoin.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: DropCoin.FreeRustArcPtr
+  fullName: ChiaWalletSdk.DropCoin.FreeRustArcPtr
+- uid: ChiaWalletSdk.DropCoin.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.DropCoin.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: DropCoin.CloneRustArcPtr
+  fullName: ChiaWalletSdk.DropCoin.CloneRustArcPtr
+- uid: ChiaWalletSdk.DropCoin.Destroy*
+  commentId: Overload:ChiaWalletSdk.DropCoin.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_Destroy
+  name: Destroy
+  nameWithType: DropCoin.Destroy
+  fullName: ChiaWalletSdk.DropCoin.Destroy
+- uid: ChiaWalletSdk.DropCoin.Dispose*
+  commentId: Overload:ChiaWalletSdk.DropCoin.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_Dispose
+  name: Dispose
+  nameWithType: DropCoin.Dispose
+  fullName: ChiaWalletSdk.DropCoin.Dispose
+- uid: ChiaWalletSdk.DropCoin.GetAmount*
+  commentId: Overload:ChiaWalletSdk.DropCoin.GetAmount
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_GetAmount
+  name: GetAmount
+  nameWithType: DropCoin.GetAmount
+  fullName: ChiaWalletSdk.DropCoin.GetAmount
+- uid: ChiaWalletSdk.IDropCoin.GetAmount
+  commentId: M:ChiaWalletSdk.IDropCoin.GetAmount
+  parent: ChiaWalletSdk.IDropCoin
+  isExternal: true
+  href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_GetAmount
+  name: GetAmount()
+  nameWithType: IDropCoin.GetAmount()
+  fullName: ChiaWalletSdk.IDropCoin.GetAmount()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDropCoin.GetAmount
+    name: GetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_GetAmount
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDropCoin.GetAmount
+    name: GetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_GetAmount
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.DropCoin.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.DropCoin.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: DropCoin.GetPuzzleHash
+  fullName: ChiaWalletSdk.DropCoin.GetPuzzleHash
+- uid: ChiaWalletSdk.IDropCoin.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IDropCoin.GetPuzzleHash
+  parent: ChiaWalletSdk.IDropCoin
+  isExternal: true
+  href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_GetPuzzleHash
+  name: GetPuzzleHash()
+  nameWithType: IDropCoin.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IDropCoin.GetPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDropCoin.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_GetPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDropCoin.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_GetPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.DropCoin.SetAmount*
+  commentId: Overload:ChiaWalletSdk.DropCoin.SetAmount
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_SetAmount_System_String_
+  name: SetAmount
+  nameWithType: DropCoin.SetAmount
+  fullName: ChiaWalletSdk.DropCoin.SetAmount
+- uid: ChiaWalletSdk.IDropCoin.SetAmount(System.String)
+  commentId: M:ChiaWalletSdk.IDropCoin.SetAmount(System.String)
+  parent: ChiaWalletSdk.IDropCoin
+  isExternal: true
+  href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_SetAmount_System_String_
+  name: SetAmount(string)
+  nameWithType: IDropCoin.SetAmount(string)
+  fullName: ChiaWalletSdk.IDropCoin.SetAmount(string)
+  nameWithType.vb: IDropCoin.SetAmount(String)
+  fullName.vb: ChiaWalletSdk.IDropCoin.SetAmount(String)
+  name.vb: SetAmount(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDropCoin.SetAmount(System.String)
+    name: SetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_SetAmount_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDropCoin.SetAmount(System.String)
+    name: SetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_SetAmount_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.DropCoin
+  commentId: T:ChiaWalletSdk.DropCoin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html
+  name: DropCoin
+  nameWithType: DropCoin
+  fullName: ChiaWalletSdk.DropCoin
+- uid: ChiaWalletSdk.DropCoin.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.DropCoin.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.DropCoin.html#ChiaWalletSdk_DropCoin_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: DropCoin.SetPuzzleHash
+  fullName: ChiaWalletSdk.DropCoin.SetPuzzleHash
+- uid: ChiaWalletSdk.IDropCoin.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IDropCoin.SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IDropCoin
+  isExternal: true
+  href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash(byte[])
+  nameWithType: IDropCoin.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IDropCoin.SetPuzzleHash(byte[])
+  nameWithType.vb: IDropCoin.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IDropCoin.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDropCoin.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDropCoin.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IDropCoin.html#ChiaWalletSdk_IDropCoin_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

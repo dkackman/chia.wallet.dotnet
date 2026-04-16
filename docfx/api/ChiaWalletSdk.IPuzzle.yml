@@ -1,0 +1,1062 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IPuzzle
+  commentId: T:ChiaWalletSdk.IPuzzle
+  id: IPuzzle
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IPuzzle.GetArgs
+  - ChiaWalletSdk.IPuzzle.GetModHash
+  - ChiaWalletSdk.IPuzzle.GetProgram
+  - ChiaWalletSdk.IPuzzle.GetPuzzleHash
+  - ChiaWalletSdk.IPuzzle.ParseBulletin(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseCat(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseCatInfo
+  - ChiaWalletSdk.IPuzzle.ParseChildCats(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseChildClawbacks(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseChildDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program,ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.IPuzzle.ParseChildNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseChildOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseChildP2Parent(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseDidInfo
+  - ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle
+  - ChiaWalletSdk.IPuzzle.ParseNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseNftInfo
+  - ChiaWalletSdk.IPuzzle.ParseOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.ParseOptionInfo
+  - ChiaWalletSdk.IPuzzle.SetArgs(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.SetModHash(System.Byte[])
+  - ChiaWalletSdk.IPuzzle.SetProgram(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.IPuzzle.SetPuzzleHash(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: IPuzzle
+  nameWithType: IPuzzle
+  fullName: ChiaWalletSdk.IPuzzle
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IPuzzle
+    content.vb: Public Interface IPuzzle
+  derivedClasses:
+  - ChiaWalletSdk.Puzzle
+- uid: ChiaWalletSdk.IPuzzle.GetArgs
+  commentId: M:ChiaWalletSdk.IPuzzle.GetArgs
+  id: GetArgs
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: GetArgs()
+  nameWithType: IPuzzle.GetArgs()
+  fullName: ChiaWalletSdk.IPuzzle.GetArgs()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Program? GetArgs()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Function GetArgs() As Program
+  overload: ChiaWalletSdk.IPuzzle.GetArgs*
+- uid: ChiaWalletSdk.IPuzzle.GetModHash
+  commentId: M:ChiaWalletSdk.IPuzzle.GetModHash
+  id: GetModHash
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: GetModHash()
+  nameWithType: IPuzzle.GetModHash()
+  fullName: ChiaWalletSdk.IPuzzle.GetModHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetModHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetModHash() As Byte()
+  overload: ChiaWalletSdk.IPuzzle.GetModHash*
+- uid: ChiaWalletSdk.IPuzzle.GetProgram
+  commentId: M:ChiaWalletSdk.IPuzzle.GetProgram
+  id: GetProgram
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: GetProgram()
+  nameWithType: IPuzzle.GetProgram()
+  fullName: ChiaWalletSdk.IPuzzle.GetProgram()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Program GetProgram()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Function GetProgram() As Program
+  overload: ChiaWalletSdk.IPuzzle.GetProgram*
+- uid: ChiaWalletSdk.IPuzzle.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IPuzzle.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: IPuzzle.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IPuzzle.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IPuzzle.GetPuzzleHash*
+- uid: ChiaWalletSdk.IPuzzle.ParseBulletin(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseBulletin(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseBulletin(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseBulletin(Coin, Program)
+  nameWithType: IPuzzle.ParseBulletin(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseBulletin(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Bulletin? ParseBulletin(Coin coin, Program solution)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: solution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Bulletin
+    content.vb: Function ParseBulletin(coin As Coin, solution As Program) As Bulletin
+  overload: ChiaWalletSdk.IPuzzle.ParseBulletin*
+- uid: ChiaWalletSdk.IPuzzle.ParseCat(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseCat(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseCat(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseCat(Coin, Program)
+  nameWithType: IPuzzle.ParseCat(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseCat(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedCat? ParseCat(Coin coin, Program solution)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: solution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.ParsedCat
+    content.vb: Function ParseCat(coin As Coin, solution As Program) As ParsedCat
+  overload: ChiaWalletSdk.IPuzzle.ParseCat*
+- uid: ChiaWalletSdk.IPuzzle.ParseCatInfo
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseCatInfo
+  id: ParseCatInfo
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseCatInfo()
+  nameWithType: IPuzzle.ParseCatInfo()
+  fullName: ChiaWalletSdk.IPuzzle.ParseCatInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedCatInfo? ParseCatInfo()
+    return:
+      type: ChiaWalletSdk.ParsedCatInfo
+    content.vb: Function ParseCatInfo() As ParsedCatInfo
+  overload: ChiaWalletSdk.IPuzzle.ParseCatInfo*
+- uid: ChiaWalletSdk.IPuzzle.ParseChildCats(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseChildCats(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseChildCats(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseChildCats(Coin, Program)
+  nameWithType: IPuzzle.ParseChildCats(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildCats(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Cat>? ParseChildCats(Coin parentCoin, Program parentSolution)
+    parameters:
+    - id: parentCoin
+      type: ChiaWalletSdk.Coin
+    - id: parentSolution
+      type: ChiaWalletSdk.Program
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Cat}
+    content.vb: Function ParseChildCats(parentCoin As Coin, parentSolution As Program) As List(Of Cat)
+  overload: ChiaWalletSdk.IPuzzle.ParseChildCats*
+- uid: ChiaWalletSdk.IPuzzle.ParseChildClawbacks(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseChildClawbacks(ChiaWalletSdk.Program)
+  id: ParseChildClawbacks(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseChildClawbacks(Program)
+  nameWithType: IPuzzle.ParseChildClawbacks(Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildClawbacks(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Clawback>? ParseChildClawbacks(Program parentSolution)
+    parameters:
+    - id: parentSolution
+      type: ChiaWalletSdk.Program
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Clawback}
+    content.vb: Function ParseChildClawbacks(parentSolution As Program) As List(Of Clawback)
+  overload: ChiaWalletSdk.IPuzzle.ParseChildClawbacks*
+- uid: ChiaWalletSdk.IPuzzle.ParseChildDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program,ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseChildDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program,ChiaWalletSdk.Coin)
+  id: ParseChildDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program,ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseChildDid(Coin, Program, Coin)
+  nameWithType: IPuzzle.ParseChildDid(Coin, Program, Coin)
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildDid(ChiaWalletSdk.Coin, ChiaWalletSdk.Program, ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Did? ParseChildDid(Coin parentCoin, Program parentSolution, Coin coin)
+    parameters:
+    - id: parentCoin
+      type: ChiaWalletSdk.Coin
+    - id: parentSolution
+      type: ChiaWalletSdk.Program
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.Did
+    content.vb: Function ParseChildDid(parentCoin As Coin, parentSolution As Program, coin As Coin) As Did
+  overload: ChiaWalletSdk.IPuzzle.ParseChildDid*
+- uid: ChiaWalletSdk.IPuzzle.ParseChildNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseChildNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseChildNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseChildNft(Coin, Program)
+  nameWithType: IPuzzle.ParseChildNft(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildNft(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Nft? ParseChildNft(Coin parentCoin, Program parentSolution)
+    parameters:
+    - id: parentCoin
+      type: ChiaWalletSdk.Coin
+    - id: parentSolution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Nft
+    content.vb: Function ParseChildNft(parentCoin As Coin, parentSolution As Program) As Nft
+  overload: ChiaWalletSdk.IPuzzle.ParseChildNft*
+- uid: ChiaWalletSdk.IPuzzle.ParseChildOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseChildOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseChildOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseChildOption(Coin, Program)
+  nameWithType: IPuzzle.ParseChildOption(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildOption(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: OptionContract? ParseChildOption(Coin parentCoin, Program parentSolution)
+    parameters:
+    - id: parentCoin
+      type: ChiaWalletSdk.Coin
+    - id: parentSolution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.OptionContract
+    content.vb: Function ParseChildOption(parentCoin As Coin, parentSolution As Program) As OptionContract
+  overload: ChiaWalletSdk.IPuzzle.ParseChildOption*
+- uid: ChiaWalletSdk.IPuzzle.ParseChildP2Parent(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseChildP2Parent(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseChildP2Parent(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseChildP2Parent(Coin, Program)
+  nameWithType: IPuzzle.ParseChildP2Parent(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildP2Parent(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: P2ParentCoinChildParseResult? ParseChildP2Parent(Coin parentCoin, Program parentSolution)
+    parameters:
+    - id: parentCoin
+      type: ChiaWalletSdk.Coin
+    - id: parentSolution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.P2ParentCoinChildParseResult
+    content.vb: Function ParseChildP2Parent(parentCoin As Coin, parentSolution As Program) As P2ParentCoinChildParseResult
+  overload: ChiaWalletSdk.IPuzzle.ParseChildP2Parent*
+- uid: ChiaWalletSdk.IPuzzle.ParseDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseDid(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseDid(Coin, Program)
+  nameWithType: IPuzzle.ParseDid(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseDid(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedDid? ParseDid(Coin coin, Program solution)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: solution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.ParsedDid
+    content.vb: Function ParseDid(coin As Coin, solution As Program) As ParsedDid
+  overload: ChiaWalletSdk.IPuzzle.ParseDid*
+- uid: ChiaWalletSdk.IPuzzle.ParseDidInfo
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseDidInfo
+  id: ParseDidInfo
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseDidInfo()
+  nameWithType: IPuzzle.ParseDidInfo()
+  fullName: ChiaWalletSdk.IPuzzle.ParseDidInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedDidInfo? ParseDidInfo()
+    return:
+      type: ChiaWalletSdk.ParsedDidInfo
+    content.vb: Function ParseDidInfo() As ParsedDidInfo
+  overload: ChiaWalletSdk.IPuzzle.ParseDidInfo*
+- uid: ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle
+  id: ParseInnerStreamingPuzzle
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseInnerStreamingPuzzle()
+  nameWithType: IPuzzle.ParseInnerStreamingPuzzle()
+  fullName: ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: StreamingPuzzleInfo? ParseInnerStreamingPuzzle()
+    return:
+      type: ChiaWalletSdk.StreamingPuzzleInfo
+    content.vb: Function ParseInnerStreamingPuzzle() As StreamingPuzzleInfo
+  overload: ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle*
+- uid: ChiaWalletSdk.IPuzzle.ParseNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseNft(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseNft(Coin, Program)
+  nameWithType: IPuzzle.ParseNft(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseNft(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNft? ParseNft(Coin coin, Program solution)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: solution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.ParsedNft
+    content.vb: Function ParseNft(coin As Coin, solution As Program) As ParsedNft
+  overload: ChiaWalletSdk.IPuzzle.ParseNft*
+- uid: ChiaWalletSdk.IPuzzle.ParseNftInfo
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseNftInfo
+  id: ParseNftInfo
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseNftInfo()
+  nameWithType: IPuzzle.ParseNftInfo()
+  fullName: ChiaWalletSdk.IPuzzle.ParseNftInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftInfo? ParseNftInfo()
+    return:
+      type: ChiaWalletSdk.ParsedNftInfo
+    content.vb: Function ParseNftInfo() As ParsedNftInfo
+  overload: ChiaWalletSdk.IPuzzle.ParseNftInfo*
+- uid: ChiaWalletSdk.IPuzzle.ParseOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  id: ParseOption(ChiaWalletSdk.Coin,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseOption(Coin, Program)
+  nameWithType: IPuzzle.ParseOption(Coin, Program)
+  fullName: ChiaWalletSdk.IPuzzle.ParseOption(ChiaWalletSdk.Coin, ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedOption? ParseOption(Coin coin, Program solution)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: solution
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.ParsedOption
+    content.vb: Function ParseOption(coin As Coin, solution As Program) As ParsedOption
+  overload: ChiaWalletSdk.IPuzzle.ParseOption*
+- uid: ChiaWalletSdk.IPuzzle.ParseOptionInfo
+  commentId: M:ChiaWalletSdk.IPuzzle.ParseOptionInfo
+  id: ParseOptionInfo
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: ParseOptionInfo()
+  nameWithType: IPuzzle.ParseOptionInfo()
+  fullName: ChiaWalletSdk.IPuzzle.ParseOptionInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedOptionInfo? ParseOptionInfo()
+    return:
+      type: ChiaWalletSdk.ParsedOptionInfo
+    content.vb: Function ParseOptionInfo() As ParsedOptionInfo
+  overload: ChiaWalletSdk.IPuzzle.ParseOptionInfo*
+- uid: ChiaWalletSdk.IPuzzle.SetArgs(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.SetArgs(ChiaWalletSdk.Program)
+  id: SetArgs(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: SetArgs(Program?)
+  nameWithType: IPuzzle.SetArgs(Program?)
+  fullName: ChiaWalletSdk.IPuzzle.SetArgs(ChiaWalletSdk.Program?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Puzzle SetArgs(Program? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Function SetArgs(value As Program) As Puzzle
+  overload: ChiaWalletSdk.IPuzzle.SetArgs*
+  nameWithType.vb: IPuzzle.SetArgs(Program)
+  fullName.vb: ChiaWalletSdk.IPuzzle.SetArgs(ChiaWalletSdk.Program)
+  name.vb: SetArgs(Program)
+- uid: ChiaWalletSdk.IPuzzle.SetModHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IPuzzle.SetModHash(System.Byte[])
+  id: SetModHash(System.Byte[])
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: SetModHash(byte[])
+  nameWithType: IPuzzle.SetModHash(byte[])
+  fullName: ChiaWalletSdk.IPuzzle.SetModHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Puzzle SetModHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Function SetModHash(value As Byte()) As Puzzle
+  overload: ChiaWalletSdk.IPuzzle.SetModHash*
+  nameWithType.vb: IPuzzle.SetModHash(Byte())
+  fullName.vb: ChiaWalletSdk.IPuzzle.SetModHash(Byte())
+  name.vb: SetModHash(Byte())
+- uid: ChiaWalletSdk.IPuzzle.SetProgram(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IPuzzle.SetProgram(ChiaWalletSdk.Program)
+  id: SetProgram(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: SetProgram(Program)
+  nameWithType: IPuzzle.SetProgram(Program)
+  fullName: ChiaWalletSdk.IPuzzle.SetProgram(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Puzzle SetProgram(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Function SetProgram(value As Program) As Puzzle
+  overload: ChiaWalletSdk.IPuzzle.SetProgram*
+- uid: ChiaWalletSdk.IPuzzle.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IPuzzle.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IPuzzle
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: IPuzzle.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IPuzzle.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Puzzle SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Function SetPuzzleHash(value As Byte()) As Puzzle
+  overload: ChiaWalletSdk.IPuzzle.SetPuzzleHash*
+  nameWithType.vb: IPuzzle.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IPuzzle.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IPuzzle.GetArgs*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.GetArgs
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_GetArgs
+  name: GetArgs
+  nameWithType: IPuzzle.GetArgs
+  fullName: ChiaWalletSdk.IPuzzle.GetArgs
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.IPuzzle.GetModHash*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.GetModHash
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_GetModHash
+  name: GetModHash
+  nameWithType: IPuzzle.GetModHash
+  fullName: ChiaWalletSdk.IPuzzle.GetModHash
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IPuzzle.GetProgram*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.GetProgram
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_GetProgram
+  name: GetProgram
+  nameWithType: IPuzzle.GetProgram
+  fullName: ChiaWalletSdk.IPuzzle.GetProgram
+- uid: ChiaWalletSdk.IPuzzle.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: IPuzzle.GetPuzzleHash
+  fullName: ChiaWalletSdk.IPuzzle.GetPuzzleHash
+- uid: ChiaWalletSdk.IPuzzle.ParseBulletin*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseBulletin
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseBulletin_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseBulletin
+  nameWithType: IPuzzle.ParseBulletin
+  fullName: ChiaWalletSdk.IPuzzle.ParseBulletin
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.Bulletin
+  commentId: T:ChiaWalletSdk.Bulletin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Bulletin.html
+  name: Bulletin
+  nameWithType: Bulletin
+  fullName: ChiaWalletSdk.Bulletin
+- uid: ChiaWalletSdk.IPuzzle.ParseCat*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseCat
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseCat_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseCat
+  nameWithType: IPuzzle.ParseCat
+  fullName: ChiaWalletSdk.IPuzzle.ParseCat
+- uid: ChiaWalletSdk.ParsedCat
+  commentId: T:ChiaWalletSdk.ParsedCat
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCat.html
+  name: ParsedCat
+  nameWithType: ParsedCat
+  fullName: ChiaWalletSdk.ParsedCat
+- uid: ChiaWalletSdk.IPuzzle.ParseCatInfo*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseCatInfo
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseCatInfo
+  name: ParseCatInfo
+  nameWithType: IPuzzle.ParseCatInfo
+  fullName: ChiaWalletSdk.IPuzzle.ParseCatInfo
+- uid: ChiaWalletSdk.ParsedCatInfo
+  commentId: T:ChiaWalletSdk.ParsedCatInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedCatInfo.html
+  name: ParsedCatInfo
+  nameWithType: ParsedCatInfo
+  fullName: ChiaWalletSdk.ParsedCatInfo
+- uid: ChiaWalletSdk.IPuzzle.ParseChildCats*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseChildCats
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseChildCats_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseChildCats
+  nameWithType: IPuzzle.ParseChildCats
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildCats
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Cat}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Cat}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Cat.html
+  name: List<Cat>
+  nameWithType: List<Cat>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Cat>
+  nameWithType.vb: List(Of Cat)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Cat)
+  name.vb: List(Of Cat)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Cat
+    name: Cat
+    isExternal: true
+    href: ChiaWalletSdk.Cat.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Cat
+    name: Cat
+    isExternal: true
+    href: ChiaWalletSdk.Cat.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IPuzzle.ParseChildClawbacks*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseChildClawbacks
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseChildClawbacks_ChiaWalletSdk_Program_
+  name: ParseChildClawbacks
+  nameWithType: IPuzzle.ParseChildClawbacks
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildClawbacks
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Clawback}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Clawback}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Clawback.html
+  name: List<Clawback>
+  nameWithType: List<Clawback>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Clawback>
+  nameWithType.vb: List(Of Clawback)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Clawback)
+  name.vb: List(Of Clawback)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Clawback
+    name: Clawback
+    isExternal: true
+    href: ChiaWalletSdk.Clawback.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Clawback
+    name: Clawback
+    isExternal: true
+    href: ChiaWalletSdk.Clawback.html
+  - name: )
+- uid: ChiaWalletSdk.IPuzzle.ParseChildDid*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseChildDid
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseChildDid_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_ChiaWalletSdk_Coin_
+  name: ParseChildDid
+  nameWithType: IPuzzle.ParseChildDid
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildDid
+- uid: ChiaWalletSdk.Did
+  commentId: T:ChiaWalletSdk.Did
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Did.html
+  name: Did
+  nameWithType: Did
+  fullName: ChiaWalletSdk.Did
+- uid: ChiaWalletSdk.IPuzzle.ParseChildNft*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseChildNft
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseChildNft_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseChildNft
+  nameWithType: IPuzzle.ParseChildNft
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildNft
+- uid: ChiaWalletSdk.Nft
+  commentId: T:ChiaWalletSdk.Nft
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Nft.html
+  name: Nft
+  nameWithType: Nft
+  fullName: ChiaWalletSdk.Nft
+- uid: ChiaWalletSdk.IPuzzle.ParseChildOption*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseChildOption
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseChildOption_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseChildOption
+  nameWithType: IPuzzle.ParseChildOption
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildOption
+- uid: ChiaWalletSdk.OptionContract
+  commentId: T:ChiaWalletSdk.OptionContract
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.OptionContract.html
+  name: OptionContract
+  nameWithType: OptionContract
+  fullName: ChiaWalletSdk.OptionContract
+- uid: ChiaWalletSdk.IPuzzle.ParseChildP2Parent*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseChildP2Parent
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseChildP2Parent_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseChildP2Parent
+  nameWithType: IPuzzle.ParseChildP2Parent
+  fullName: ChiaWalletSdk.IPuzzle.ParseChildP2Parent
+- uid: ChiaWalletSdk.P2ParentCoinChildParseResult
+  commentId: T:ChiaWalletSdk.P2ParentCoinChildParseResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.P2ParentCoinChildParseResult.html
+  name: P2ParentCoinChildParseResult
+  nameWithType: P2ParentCoinChildParseResult
+  fullName: ChiaWalletSdk.P2ParentCoinChildParseResult
+- uid: ChiaWalletSdk.IPuzzle.ParseDid*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseDid
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseDid_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseDid
+  nameWithType: IPuzzle.ParseDid
+  fullName: ChiaWalletSdk.IPuzzle.ParseDid
+- uid: ChiaWalletSdk.ParsedDid
+  commentId: T:ChiaWalletSdk.ParsedDid
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html
+  name: ParsedDid
+  nameWithType: ParsedDid
+  fullName: ChiaWalletSdk.ParsedDid
+- uid: ChiaWalletSdk.IPuzzle.ParseDidInfo*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseDidInfo
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseDidInfo
+  name: ParseDidInfo
+  nameWithType: IPuzzle.ParseDidInfo
+  fullName: ChiaWalletSdk.IPuzzle.ParseDidInfo
+- uid: ChiaWalletSdk.ParsedDidInfo
+  commentId: T:ChiaWalletSdk.ParsedDidInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDidInfo.html
+  name: ParsedDidInfo
+  nameWithType: ParsedDidInfo
+  fullName: ChiaWalletSdk.ParsedDidInfo
+- uid: ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseInnerStreamingPuzzle
+  name: ParseInnerStreamingPuzzle
+  nameWithType: IPuzzle.ParseInnerStreamingPuzzle
+  fullName: ChiaWalletSdk.IPuzzle.ParseInnerStreamingPuzzle
+- uid: ChiaWalletSdk.StreamingPuzzleInfo
+  commentId: T:ChiaWalletSdk.StreamingPuzzleInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.StreamingPuzzleInfo.html
+  name: StreamingPuzzleInfo
+  nameWithType: StreamingPuzzleInfo
+  fullName: ChiaWalletSdk.StreamingPuzzleInfo
+- uid: ChiaWalletSdk.IPuzzle.ParseNft*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseNft
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseNft_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseNft
+  nameWithType: IPuzzle.ParseNft
+  fullName: ChiaWalletSdk.IPuzzle.ParseNft
+- uid: ChiaWalletSdk.ParsedNft
+  commentId: T:ChiaWalletSdk.ParsedNft
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNft.html
+  name: ParsedNft
+  nameWithType: ParsedNft
+  fullName: ChiaWalletSdk.ParsedNft
+- uid: ChiaWalletSdk.IPuzzle.ParseNftInfo*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseNftInfo
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseNftInfo
+  name: ParseNftInfo
+  nameWithType: IPuzzle.ParseNftInfo
+  fullName: ChiaWalletSdk.IPuzzle.ParseNftInfo
+- uid: ChiaWalletSdk.ParsedNftInfo
+  commentId: T:ChiaWalletSdk.ParsedNftInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html
+  name: ParsedNftInfo
+  nameWithType: ParsedNftInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo
+- uid: ChiaWalletSdk.IPuzzle.ParseOption*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseOption
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseOption_ChiaWalletSdk_Coin_ChiaWalletSdk_Program_
+  name: ParseOption
+  nameWithType: IPuzzle.ParseOption
+  fullName: ChiaWalletSdk.IPuzzle.ParseOption
+- uid: ChiaWalletSdk.ParsedOption
+  commentId: T:ChiaWalletSdk.ParsedOption
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedOption.html
+  name: ParsedOption
+  nameWithType: ParsedOption
+  fullName: ChiaWalletSdk.ParsedOption
+- uid: ChiaWalletSdk.IPuzzle.ParseOptionInfo*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.ParseOptionInfo
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_ParseOptionInfo
+  name: ParseOptionInfo
+  nameWithType: IPuzzle.ParseOptionInfo
+  fullName: ChiaWalletSdk.IPuzzle.ParseOptionInfo
+- uid: ChiaWalletSdk.ParsedOptionInfo
+  commentId: T:ChiaWalletSdk.ParsedOptionInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedOptionInfo.html
+  name: ParsedOptionInfo
+  nameWithType: ParsedOptionInfo
+  fullName: ChiaWalletSdk.ParsedOptionInfo
+- uid: ChiaWalletSdk.IPuzzle.SetArgs*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.SetArgs
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_SetArgs_ChiaWalletSdk_Program_
+  name: SetArgs
+  nameWithType: IPuzzle.SetArgs
+  fullName: ChiaWalletSdk.IPuzzle.SetArgs
+- uid: ChiaWalletSdk.Puzzle
+  commentId: T:ChiaWalletSdk.Puzzle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Puzzle.html
+  name: Puzzle
+  nameWithType: Puzzle
+  fullName: ChiaWalletSdk.Puzzle
+- uid: ChiaWalletSdk.IPuzzle.SetModHash*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.SetModHash
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_SetModHash_System_Byte___
+  name: SetModHash
+  nameWithType: IPuzzle.SetModHash
+  fullName: ChiaWalletSdk.IPuzzle.SetModHash
+- uid: ChiaWalletSdk.IPuzzle.SetProgram*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.SetProgram
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_SetProgram_ChiaWalletSdk_Program_
+  name: SetProgram
+  nameWithType: IPuzzle.SetProgram
+  fullName: ChiaWalletSdk.IPuzzle.SetProgram
+- uid: ChiaWalletSdk.IPuzzle.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IPuzzle.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IPuzzle.html#ChiaWalletSdk_IPuzzle_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: IPuzzle.SetPuzzleHash
+  fullName: ChiaWalletSdk.IPuzzle.SetPuzzleHash

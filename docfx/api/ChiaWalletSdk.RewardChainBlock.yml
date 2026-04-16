@@ -1,0 +1,2209 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.RewardChainBlock
+  commentId: T:ChiaWalletSdk.RewardChainBlock
+  id: RewardChainBlock
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.RewardChainBlock.#ctor(System.IntPtr)
+  - ChiaWalletSdk.RewardChainBlock.#ctor(System.String,System.UInt32,System.String,System.Byte,System.Byte[],ChiaWalletSdk.ProofOfSpace,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,System.Byte[],System.Boolean)
+  - ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr
+  - ChiaWalletSdk.RewardChainBlock.Destroy
+  - ChiaWalletSdk.RewardChainBlock.Dispose
+  - ChiaWalletSdk.RewardChainBlock.Finalize
+  - ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr
+  - ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf
+  - ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature
+  - ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf
+  - ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot
+  - ChiaWalletSdk.RewardChainBlock.GetHeight
+  - ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf
+  - ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock
+  - ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash
+  - ChiaWalletSdk.RewardChainBlock.GetProofOfSpace
+  - ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf
+  - ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature
+  - ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf
+  - ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex
+  - ChiaWalletSdk.RewardChainBlock.GetTotalIters
+  - ChiaWalletSdk.RewardChainBlock.GetWeight
+  - ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  - ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  - ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+  - ChiaWalletSdk.RewardChainBlock.SetHeight(System.UInt32)
+  - ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  - ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock(System.Boolean)
+  - ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+  - ChiaWalletSdk.RewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  - ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  - ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  - ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex(System.Byte)
+  - ChiaWalletSdk.RewardChainBlock.SetTotalIters(System.String)
+  - ChiaWalletSdk.RewardChainBlock.SetWeight(System.String)
+  - ChiaWalletSdk.RewardChainBlock.pointer
+  langs:
+  - csharp
+  - vb
+  name: RewardChainBlock
+  nameWithType: RewardChainBlock
+  fullName: ChiaWalletSdk.RewardChainBlock
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class RewardChainBlock : IRewardChainBlock'
+    content.vb: Public Class RewardChainBlock Implements IRewardChainBlock
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock
+- uid: ChiaWalletSdk.RewardChainBlock.pointer
+  commentId: F:ChiaWalletSdk.RewardChainBlock.pointer
+  id: pointer
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: RewardChainBlock.pointer
+  fullName: ChiaWalletSdk.RewardChainBlock.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.RewardChainBlock.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: RewardChainBlock(nint)
+  nameWithType: RewardChainBlock.RewardChainBlock(nint)
+  fullName: ChiaWalletSdk.RewardChainBlock.RewardChainBlock(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RewardChainBlock(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.RewardChainBlock.#ctor*
+  nameWithType.vb: RewardChainBlock.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.RewardChainBlock.Finalize
+  commentId: M:ChiaWalletSdk.RewardChainBlock.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: ~RewardChainBlock()
+  nameWithType: RewardChainBlock.~RewardChainBlock()
+  fullName: ChiaWalletSdk.RewardChainBlock.~RewardChainBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~RewardChainBlock()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.RewardChainBlock.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.RewardChainBlock.#ctor(System.String,System.UInt32,System.String,System.Byte,System.Byte[],ChiaWalletSdk.ProofOfSpace,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,System.Byte[],System.Boolean)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.#ctor(System.String,System.UInt32,System.String,System.Byte,System.Byte[],ChiaWalletSdk.ProofOfSpace,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,System.Byte[],System.Boolean)
+  id: '#ctor(System.String,System.UInt32,System.String,System.Byte,System.Byte[],ChiaWalletSdk.ProofOfSpace,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.Signature,ChiaWalletSdk.VdfInfo,ChiaWalletSdk.VdfInfo,System.Byte[],System.Boolean)'
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: RewardChainBlock(string, uint, string, byte, byte[], ProofOfSpace, VdfInfo?, Signature, VdfInfo, VdfInfo?, Signature, VdfInfo, VdfInfo?, byte[]?, bool)
+  nameWithType: RewardChainBlock.RewardChainBlock(string, uint, string, byte, byte[], ProofOfSpace, VdfInfo?, Signature, VdfInfo, VdfInfo?, Signature, VdfInfo, VdfInfo?, byte[]?, bool)
+  fullName: ChiaWalletSdk.RewardChainBlock.RewardChainBlock(string, uint, string, byte, byte[], ChiaWalletSdk.ProofOfSpace, ChiaWalletSdk.VdfInfo?, ChiaWalletSdk.Signature, ChiaWalletSdk.VdfInfo, ChiaWalletSdk.VdfInfo?, ChiaWalletSdk.Signature, ChiaWalletSdk.VdfInfo, ChiaWalletSdk.VdfInfo?, byte[]?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RewardChainBlock(string weight, uint height, string totalIters, byte signagePointIndex, byte[] posSsCcChallengeHash, ProofOfSpace proofOfSpace, VdfInfo? challengeChainSpVdf, Signature challengeChainSpSignature, VdfInfo challengeChainIpVdf, VdfInfo? rewardChainSpVdf, Signature rewardChainSpSignature, VdfInfo rewardChainIpVdf, VdfInfo? infusedChallengeChainIpVdf, byte[]? headerMmrRoot, bool isTransactionBlock)
+    parameters:
+    - id: weight
+      type: System.String
+    - id: height
+      type: System.UInt32
+    - id: totalIters
+      type: System.String
+    - id: signagePointIndex
+      type: System.Byte
+    - id: posSsCcChallengeHash
+      type: System.Byte[]
+    - id: proofOfSpace
+      type: ChiaWalletSdk.ProofOfSpace
+    - id: challengeChainSpVdf
+      type: ChiaWalletSdk.VdfInfo
+    - id: challengeChainSpSignature
+      type: ChiaWalletSdk.Signature
+    - id: challengeChainIpVdf
+      type: ChiaWalletSdk.VdfInfo
+    - id: rewardChainSpVdf
+      type: ChiaWalletSdk.VdfInfo
+    - id: rewardChainSpSignature
+      type: ChiaWalletSdk.Signature
+    - id: rewardChainIpVdf
+      type: ChiaWalletSdk.VdfInfo
+    - id: infusedChallengeChainIpVdf
+      type: ChiaWalletSdk.VdfInfo
+    - id: headerMmrRoot
+      type: System.Byte[]
+    - id: isTransactionBlock
+      type: System.Boolean
+    content.vb: Public Sub New(weight As String, height As UInteger, totalIters As String, signagePointIndex As Byte, posSsCcChallengeHash As Byte(), proofOfSpace As ProofOfSpace, challengeChainSpVdf As VdfInfo, challengeChainSpSignature As Signature, challengeChainIpVdf As VdfInfo, rewardChainSpVdf As VdfInfo, rewardChainSpSignature As Signature, rewardChainIpVdf As VdfInfo, infusedChallengeChainIpVdf As VdfInfo, headerMmrRoot As Byte(), isTransactionBlock As Boolean)
+  overload: ChiaWalletSdk.RewardChainBlock.#ctor*
+  nameWithType.vb: RewardChainBlock.New(String, UInteger, String, Byte, Byte(), ProofOfSpace, VdfInfo, Signature, VdfInfo, VdfInfo, Signature, VdfInfo, VdfInfo, Byte(), Boolean)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.New(String, UInteger, String, Byte, Byte(), ChiaWalletSdk.ProofOfSpace, ChiaWalletSdk.VdfInfo, ChiaWalletSdk.Signature, ChiaWalletSdk.VdfInfo, ChiaWalletSdk.VdfInfo, ChiaWalletSdk.Signature, ChiaWalletSdk.VdfInfo, ChiaWalletSdk.VdfInfo, Byte(), Boolean)
+  name.vb: New(String, UInteger, String, Byte, Byte(), ProofOfSpace, VdfInfo, Signature, VdfInfo, VdfInfo, Signature, VdfInfo, VdfInfo, Byte(), Boolean)
+- uid: ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: RewardChainBlock.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr*
+- uid: ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: RewardChainBlock.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr*
+- uid: ChiaWalletSdk.RewardChainBlock.Destroy
+  commentId: M:ChiaWalletSdk.RewardChainBlock.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: RewardChainBlock.Destroy()
+  fullName: ChiaWalletSdk.RewardChainBlock.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.RewardChainBlock.Destroy*
+- uid: ChiaWalletSdk.RewardChainBlock.Dispose
+  commentId: M:ChiaWalletSdk.RewardChainBlock.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RewardChainBlock.Dispose()
+  fullName: ChiaWalletSdk.RewardChainBlock.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.RewardChainBlock.Dispose*
+- uid: ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf
+  id: GetChallengeChainIpVdf
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainIpVdf()
+  nameWithType: RewardChainBlock.GetChallengeChainIpVdf()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo GetChallengeChainIpVdf()
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function GetChallengeChainIpVdf() As VdfInfo
+  overload: ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetChallengeChainIpVdf
+- uid: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature
+  id: GetChallengeChainSpSignature
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainSpSignature()
+  nameWithType: RewardChainBlock.GetChallengeChainSpSignature()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Signature GetChallengeChainSpSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Function GetChallengeChainSpSignature() As Signature
+  overload: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpSignature
+- uid: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf
+  id: GetChallengeChainSpVdf
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainSpVdf()
+  nameWithType: RewardChainBlock.GetChallengeChainSpVdf()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo? GetChallengeChainSpVdf()
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function GetChallengeChainSpVdf() As VdfInfo
+  overload: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpVdf
+- uid: ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot
+  id: GetHeaderMmrRoot
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetHeaderMmrRoot()
+  nameWithType: RewardChainBlock.GetHeaderMmrRoot()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetHeaderMmrRoot()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetHeaderMmrRoot() As Byte()
+  overload: ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetHeaderMmrRoot
+- uid: ChiaWalletSdk.RewardChainBlock.GetHeight
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetHeight
+  id: GetHeight
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetHeight()
+  nameWithType: RewardChainBlock.GetHeight()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetHeight() As UInteger
+  overload: ChiaWalletSdk.RewardChainBlock.GetHeight*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetHeight
+- uid: ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf
+  id: GetInfusedChallengeChainIpVdf
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetInfusedChallengeChainIpVdf()
+  nameWithType: RewardChainBlock.GetInfusedChallengeChainIpVdf()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo? GetInfusedChallengeChainIpVdf()
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function GetInfusedChallengeChainIpVdf() As VdfInfo
+  overload: ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetInfusedChallengeChainIpVdf
+- uid: ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock
+  id: GetIsTransactionBlock
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetIsTransactionBlock()
+  nameWithType: RewardChainBlock.GetIsTransactionBlock()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetIsTransactionBlock()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetIsTransactionBlock() As Boolean
+  overload: ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetIsTransactionBlock
+- uid: ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash
+  id: GetPosSsCcChallengeHash
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetPosSsCcChallengeHash()
+  nameWithType: RewardChainBlock.GetPosSsCcChallengeHash()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPosSsCcChallengeHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPosSsCcChallengeHash() As Byte()
+  overload: ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetPosSsCcChallengeHash
+- uid: ChiaWalletSdk.RewardChainBlock.GetProofOfSpace
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetProofOfSpace
+  id: GetProofOfSpace
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetProofOfSpace()
+  nameWithType: RewardChainBlock.GetProofOfSpace()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetProofOfSpace()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace GetProofOfSpace()
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function GetProofOfSpace() As ProofOfSpace
+  overload: ChiaWalletSdk.RewardChainBlock.GetProofOfSpace*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetProofOfSpace
+- uid: ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf
+  id: GetRewardChainIpVdf
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainIpVdf()
+  nameWithType: RewardChainBlock.GetRewardChainIpVdf()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo GetRewardChainIpVdf()
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function GetRewardChainIpVdf() As VdfInfo
+  overload: ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetRewardChainIpVdf
+- uid: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature
+  id: GetRewardChainSpSignature
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainSpSignature()
+  nameWithType: RewardChainBlock.GetRewardChainSpSignature()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Signature GetRewardChainSpSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Function GetRewardChainSpSignature() As Signature
+  overload: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpSignature
+- uid: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf
+  id: GetRewardChainSpVdf
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainSpVdf()
+  nameWithType: RewardChainBlock.GetRewardChainSpVdf()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo? GetRewardChainSpVdf()
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function GetRewardChainSpVdf() As VdfInfo
+  overload: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpVdf
+- uid: ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex
+  id: GetSignagePointIndex
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetSignagePointIndex()
+  nameWithType: RewardChainBlock.GetSignagePointIndex()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte GetSignagePointIndex()
+    return:
+      type: System.Byte
+    content.vb: Public Function GetSignagePointIndex() As Byte
+  overload: ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetSignagePointIndex
+- uid: ChiaWalletSdk.RewardChainBlock.GetTotalIters
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetTotalIters
+  id: GetTotalIters
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetTotalIters()
+  nameWithType: RewardChainBlock.GetTotalIters()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetTotalIters()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetTotalIters()
+    return:
+      type: System.String
+    content.vb: Public Function GetTotalIters() As String
+  overload: ChiaWalletSdk.RewardChainBlock.GetTotalIters*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetTotalIters
+- uid: ChiaWalletSdk.RewardChainBlock.GetWeight
+  commentId: M:ChiaWalletSdk.RewardChainBlock.GetWeight
+  id: GetWeight
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: GetWeight()
+  nameWithType: RewardChainBlock.GetWeight()
+  fullName: ChiaWalletSdk.RewardChainBlock.GetWeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetWeight()
+    return:
+      type: System.String
+    content.vb: Public Function GetWeight() As String
+  overload: ChiaWalletSdk.RewardChainBlock.GetWeight*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.GetWeight
+- uid: ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  id: SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainIpVdf(VdfInfo)
+  nameWithType: RewardChainBlock.SetChallengeChainIpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetChallengeChainIpVdf(VdfInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfInfo
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetChallengeChainIpVdf(value As VdfInfo) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+- uid: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  id: SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainSpSignature(Signature)
+  nameWithType: RewardChainBlock.SetChallengeChainSpSignature(Signature)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetChallengeChainSpSignature(Signature value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Signature
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetChallengeChainSpSignature(value As Signature) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+- uid: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  id: SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainSpVdf(VdfInfo?)
+  nameWithType: RewardChainBlock.SetChallengeChainSpVdf(VdfInfo?)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetChallengeChainSpVdf(VdfInfo? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfInfo
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetChallengeChainSpVdf(value As VdfInfo) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  nameWithType.vb: RewardChainBlock.SetChallengeChainSpVdf(VdfInfo)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  name.vb: SetChallengeChainSpVdf(VdfInfo)
+- uid: ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+  id: SetHeaderMmrRoot(System.Byte[])
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetHeaderMmrRoot(byte[]?)
+  nameWithType: RewardChainBlock.SetHeaderMmrRoot(byte[]?)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetHeaderMmrRoot(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetHeaderMmrRoot(value As Byte()) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+  nameWithType.vb: RewardChainBlock.SetHeaderMmrRoot(Byte())
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot(Byte())
+  name.vb: SetHeaderMmrRoot(Byte())
+- uid: ChiaWalletSdk.RewardChainBlock.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetHeight(System.UInt32)
+  id: SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(uint)
+  nameWithType: RewardChainBlock.SetHeight(uint)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetHeight(value As UInteger) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetHeight*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetHeight(System.UInt32)
+  nameWithType.vb: RewardChainBlock.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+- uid: ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  id: SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetInfusedChallengeChainIpVdf(VdfInfo?)
+  nameWithType: RewardChainBlock.SetInfusedChallengeChainIpVdf(VdfInfo?)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetInfusedChallengeChainIpVdf(VdfInfo? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfInfo
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetInfusedChallengeChainIpVdf(value As VdfInfo) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  nameWithType.vb: RewardChainBlock.SetInfusedChallengeChainIpVdf(VdfInfo)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  name.vb: SetInfusedChallengeChainIpVdf(VdfInfo)
+- uid: ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock(System.Boolean)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock(System.Boolean)
+  id: SetIsTransactionBlock(System.Boolean)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetIsTransactionBlock(bool)
+  nameWithType: RewardChainBlock.SetIsTransactionBlock(bool)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetIsTransactionBlock(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetIsTransactionBlock(value As Boolean) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(System.Boolean)
+  nameWithType.vb: RewardChainBlock.SetIsTransactionBlock(Boolean)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock(Boolean)
+  name.vb: SetIsTransactionBlock(Boolean)
+- uid: ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+  id: SetPosSsCcChallengeHash(System.Byte[])
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetPosSsCcChallengeHash(byte[])
+  nameWithType: RewardChainBlock.SetPosSsCcChallengeHash(byte[])
+  fullName: ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetPosSsCcChallengeHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetPosSsCcChallengeHash(value As Byte()) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+  nameWithType.vb: RewardChainBlock.SetPosSsCcChallengeHash(Byte())
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash(Byte())
+  name.vb: SetPosSsCcChallengeHash(Byte())
+- uid: ChiaWalletSdk.RewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  id: SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetProofOfSpace(ProofOfSpace)
+  nameWithType: RewardChainBlock.SetProofOfSpace(ProofOfSpace)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetProofOfSpace(ProofOfSpace value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.ProofOfSpace
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetProofOfSpace(value As ProofOfSpace) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetProofOfSpace*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+- uid: ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  id: SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainIpVdf(VdfInfo)
+  nameWithType: RewardChainBlock.SetRewardChainIpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetRewardChainIpVdf(VdfInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfInfo
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetRewardChainIpVdf(value As VdfInfo) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+- uid: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  id: SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainSpSignature(Signature)
+  nameWithType: RewardChainBlock.SetRewardChainSpSignature(Signature)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetRewardChainSpSignature(Signature value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Signature
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetRewardChainSpSignature(value As Signature) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+- uid: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  id: SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainSpVdf(VdfInfo?)
+  nameWithType: RewardChainBlock.SetRewardChainSpVdf(VdfInfo?)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetRewardChainSpVdf(VdfInfo? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfInfo
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetRewardChainSpVdf(value As VdfInfo) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  nameWithType.vb: RewardChainBlock.SetRewardChainSpVdf(VdfInfo)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  name.vb: SetRewardChainSpVdf(VdfInfo)
+- uid: ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex(System.Byte)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex(System.Byte)
+  id: SetSignagePointIndex(System.Byte)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetSignagePointIndex(byte)
+  nameWithType: RewardChainBlock.SetSignagePointIndex(byte)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex(byte)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetSignagePointIndex(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetSignagePointIndex(value As Byte) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(System.Byte)
+  nameWithType.vb: RewardChainBlock.SetSignagePointIndex(Byte)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex(Byte)
+  name.vb: SetSignagePointIndex(Byte)
+- uid: ChiaWalletSdk.RewardChainBlock.SetTotalIters(System.String)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetTotalIters(System.String)
+  id: SetTotalIters(System.String)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetTotalIters(string)
+  nameWithType: RewardChainBlock.SetTotalIters(string)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetTotalIters(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetTotalIters(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetTotalIters(value As String) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetTotalIters*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetTotalIters(System.String)
+  nameWithType.vb: RewardChainBlock.SetTotalIters(String)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetTotalIters(String)
+  name.vb: SetTotalIters(String)
+- uid: ChiaWalletSdk.RewardChainBlock.SetWeight(System.String)
+  commentId: M:ChiaWalletSdk.RewardChainBlock.SetWeight(System.String)
+  id: SetWeight(System.String)
+  parent: ChiaWalletSdk.RewardChainBlock
+  langs:
+  - csharp
+  - vb
+  name: SetWeight(string)
+  nameWithType: RewardChainBlock.SetWeight(string)
+  fullName: ChiaWalletSdk.RewardChainBlock.SetWeight(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock SetWeight(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function SetWeight(value As String) As RewardChainBlock
+  overload: ChiaWalletSdk.RewardChainBlock.SetWeight*
+  implements:
+  - ChiaWalletSdk.IRewardChainBlock.SetWeight(System.String)
+  nameWithType.vb: RewardChainBlock.SetWeight(String)
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.SetWeight(String)
+  name.vb: SetWeight(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IRewardChainBlock
+  commentId: T:ChiaWalletSdk.IRewardChainBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html
+  name: IRewardChainBlock
+  nameWithType: IRewardChainBlock
+  fullName: ChiaWalletSdk.IRewardChainBlock
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.RewardChainBlock.#ctor*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock__ctor_System_IntPtr_
+  name: RewardChainBlock
+  nameWithType: RewardChainBlock.RewardChainBlock
+  fullName: ChiaWalletSdk.RewardChainBlock.RewardChainBlock
+  nameWithType.vb: RewardChainBlock.New
+  fullName.vb: ChiaWalletSdk.RewardChainBlock.New
+  name.vb: New
+- uid: ChiaWalletSdk.RewardChainBlock.Finalize*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_Finalize
+  name: ~RewardChainBlock
+  nameWithType: RewardChainBlock.~RewardChainBlock
+  fullName: ChiaWalletSdk.RewardChainBlock.~RewardChainBlock
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.RewardChainBlock.Finalize*
+    name: RewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace
+  commentId: T:ChiaWalletSdk.ProofOfSpace
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html
+  name: ProofOfSpace
+  nameWithType: ProofOfSpace
+  fullName: ChiaWalletSdk.ProofOfSpace
+- uid: ChiaWalletSdk.VdfInfo
+  commentId: T:ChiaWalletSdk.VdfInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html
+  name: VdfInfo
+  nameWithType: VdfInfo
+  fullName: ChiaWalletSdk.VdfInfo
+- uid: ChiaWalletSdk.Signature
+  commentId: T:ChiaWalletSdk.Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Signature.html
+  name: Signature
+  nameWithType: Signature
+  fullName: ChiaWalletSdk.Signature
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: RewardChainBlock.FreeRustArcPtr
+  fullName: ChiaWalletSdk.RewardChainBlock.FreeRustArcPtr
+- uid: ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: RewardChainBlock.CloneRustArcPtr
+  fullName: ChiaWalletSdk.RewardChainBlock.CloneRustArcPtr
+- uid: ChiaWalletSdk.RewardChainBlock.Destroy*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_Destroy
+  name: Destroy
+  nameWithType: RewardChainBlock.Destroy
+  fullName: ChiaWalletSdk.RewardChainBlock.Destroy
+- uid: ChiaWalletSdk.RewardChainBlock.Dispose*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_Dispose
+  name: Dispose
+  nameWithType: RewardChainBlock.Dispose
+  fullName: ChiaWalletSdk.RewardChainBlock.Dispose
+- uid: ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetChallengeChainIpVdf
+  name: GetChallengeChainIpVdf
+  nameWithType: RewardChainBlock.GetChallengeChainIpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.GetChallengeChainIpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainIpVdf
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetChallengeChainIpVdf
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainIpVdf
+  name: GetChallengeChainIpVdf()
+  nameWithType: IRewardChainBlock.GetChallengeChainIpVdf()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainIpVdf()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainIpVdf
+    name: GetChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainIpVdf
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainIpVdf
+    name: GetChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainIpVdf
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetChallengeChainSpSignature
+  name: GetChallengeChainSpSignature
+  nameWithType: RewardChainBlock.GetChallengeChainSpSignature
+  fullName: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpSignature
+- uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpSignature
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpSignature
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainSpSignature
+  name: GetChallengeChainSpSignature()
+  nameWithType: IRewardChainBlock.GetChallengeChainSpSignature()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpSignature()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpSignature
+    name: GetChallengeChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainSpSignature
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpSignature
+    name: GetChallengeChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainSpSignature
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetChallengeChainSpVdf
+  name: GetChallengeChainSpVdf
+  nameWithType: RewardChainBlock.GetChallengeChainSpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.GetChallengeChainSpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpVdf
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpVdf
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainSpVdf
+  name: GetChallengeChainSpVdf()
+  nameWithType: IRewardChainBlock.GetChallengeChainSpVdf()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpVdf()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpVdf
+    name: GetChallengeChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainSpVdf
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetChallengeChainSpVdf
+    name: GetChallengeChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetChallengeChainSpVdf
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetHeaderMmrRoot
+  name: GetHeaderMmrRoot
+  nameWithType: RewardChainBlock.GetHeaderMmrRoot
+  fullName: ChiaWalletSdk.RewardChainBlock.GetHeaderMmrRoot
+- uid: ChiaWalletSdk.IRewardChainBlock.GetHeaderMmrRoot
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetHeaderMmrRoot
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetHeaderMmrRoot
+  name: GetHeaderMmrRoot()
+  nameWithType: IRewardChainBlock.GetHeaderMmrRoot()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetHeaderMmrRoot()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetHeaderMmrRoot
+    name: GetHeaderMmrRoot
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetHeaderMmrRoot
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetHeaderMmrRoot
+    name: GetHeaderMmrRoot
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetHeaderMmrRoot
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetHeight*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetHeight
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetHeight
+  name: GetHeight
+  nameWithType: RewardChainBlock.GetHeight
+  fullName: ChiaWalletSdk.RewardChainBlock.GetHeight
+- uid: ChiaWalletSdk.IRewardChainBlock.GetHeight
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetHeight
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetHeight
+  name: GetHeight()
+  nameWithType: IRewardChainBlock.GetHeight()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetInfusedChallengeChainIpVdf
+  name: GetInfusedChallengeChainIpVdf
+  nameWithType: RewardChainBlock.GetInfusedChallengeChainIpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.GetInfusedChallengeChainIpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.GetInfusedChallengeChainIpVdf
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetInfusedChallengeChainIpVdf
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetInfusedChallengeChainIpVdf
+  name: GetInfusedChallengeChainIpVdf()
+  nameWithType: IRewardChainBlock.GetInfusedChallengeChainIpVdf()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetInfusedChallengeChainIpVdf()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetInfusedChallengeChainIpVdf
+    name: GetInfusedChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetInfusedChallengeChainIpVdf
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetInfusedChallengeChainIpVdf
+    name: GetInfusedChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetInfusedChallengeChainIpVdf
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetIsTransactionBlock
+  name: GetIsTransactionBlock
+  nameWithType: RewardChainBlock.GetIsTransactionBlock
+  fullName: ChiaWalletSdk.RewardChainBlock.GetIsTransactionBlock
+- uid: ChiaWalletSdk.IRewardChainBlock.GetIsTransactionBlock
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetIsTransactionBlock
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetIsTransactionBlock
+  name: GetIsTransactionBlock()
+  nameWithType: IRewardChainBlock.GetIsTransactionBlock()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetIsTransactionBlock()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetIsTransactionBlock
+    name: GetIsTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetIsTransactionBlock
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetIsTransactionBlock
+    name: GetIsTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetIsTransactionBlock
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetPosSsCcChallengeHash
+  name: GetPosSsCcChallengeHash
+  nameWithType: RewardChainBlock.GetPosSsCcChallengeHash
+  fullName: ChiaWalletSdk.RewardChainBlock.GetPosSsCcChallengeHash
+- uid: ChiaWalletSdk.IRewardChainBlock.GetPosSsCcChallengeHash
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetPosSsCcChallengeHash
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetPosSsCcChallengeHash
+  name: GetPosSsCcChallengeHash()
+  nameWithType: IRewardChainBlock.GetPosSsCcChallengeHash()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetPosSsCcChallengeHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetPosSsCcChallengeHash
+    name: GetPosSsCcChallengeHash
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetPosSsCcChallengeHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetPosSsCcChallengeHash
+    name: GetPosSsCcChallengeHash
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetPosSsCcChallengeHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetProofOfSpace*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetProofOfSpace
+  name: GetProofOfSpace
+  nameWithType: RewardChainBlock.GetProofOfSpace
+  fullName: ChiaWalletSdk.RewardChainBlock.GetProofOfSpace
+- uid: ChiaWalletSdk.IRewardChainBlock.GetProofOfSpace
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetProofOfSpace
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetProofOfSpace
+  name: GetProofOfSpace()
+  nameWithType: IRewardChainBlock.GetProofOfSpace()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetProofOfSpace()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetProofOfSpace
+    name: GetProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetProofOfSpace
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetProofOfSpace
+    name: GetProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetProofOfSpace
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetRewardChainIpVdf
+  name: GetRewardChainIpVdf
+  nameWithType: RewardChainBlock.GetRewardChainIpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.GetRewardChainIpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainIpVdf
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetRewardChainIpVdf
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainIpVdf
+  name: GetRewardChainIpVdf()
+  nameWithType: IRewardChainBlock.GetRewardChainIpVdf()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetRewardChainIpVdf()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainIpVdf
+    name: GetRewardChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainIpVdf
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainIpVdf
+    name: GetRewardChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainIpVdf
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetRewardChainSpSignature
+  name: GetRewardChainSpSignature
+  nameWithType: RewardChainBlock.GetRewardChainSpSignature
+  fullName: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpSignature
+- uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpSignature
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpSignature
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainSpSignature
+  name: GetRewardChainSpSignature()
+  nameWithType: IRewardChainBlock.GetRewardChainSpSignature()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpSignature()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpSignature
+    name: GetRewardChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainSpSignature
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpSignature
+    name: GetRewardChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainSpSignature
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetRewardChainSpVdf
+  name: GetRewardChainSpVdf
+  nameWithType: RewardChainBlock.GetRewardChainSpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.GetRewardChainSpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpVdf
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpVdf
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainSpVdf
+  name: GetRewardChainSpVdf()
+  nameWithType: IRewardChainBlock.GetRewardChainSpVdf()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpVdf()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpVdf
+    name: GetRewardChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainSpVdf
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetRewardChainSpVdf
+    name: GetRewardChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetRewardChainSpVdf
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetSignagePointIndex
+  name: GetSignagePointIndex
+  nameWithType: RewardChainBlock.GetSignagePointIndex
+  fullName: ChiaWalletSdk.RewardChainBlock.GetSignagePointIndex
+- uid: ChiaWalletSdk.IRewardChainBlock.GetSignagePointIndex
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetSignagePointIndex
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetSignagePointIndex
+  name: GetSignagePointIndex()
+  nameWithType: IRewardChainBlock.GetSignagePointIndex()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetSignagePointIndex()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetSignagePointIndex
+    name: GetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetSignagePointIndex
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetSignagePointIndex
+    name: GetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetSignagePointIndex
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetTotalIters*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetTotalIters
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetTotalIters
+  name: GetTotalIters
+  nameWithType: RewardChainBlock.GetTotalIters
+  fullName: ChiaWalletSdk.RewardChainBlock.GetTotalIters
+- uid: ChiaWalletSdk.IRewardChainBlock.GetTotalIters
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetTotalIters
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetTotalIters
+  name: GetTotalIters()
+  nameWithType: IRewardChainBlock.GetTotalIters()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetTotalIters()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetTotalIters
+    name: GetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetTotalIters
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetTotalIters
+    name: GetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetTotalIters
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.GetWeight*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.GetWeight
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_GetWeight
+  name: GetWeight
+  nameWithType: RewardChainBlock.GetWeight
+  fullName: ChiaWalletSdk.RewardChainBlock.GetWeight
+- uid: ChiaWalletSdk.IRewardChainBlock.GetWeight
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.GetWeight
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetWeight
+  name: GetWeight()
+  nameWithType: IRewardChainBlock.GetWeight()
+  fullName: ChiaWalletSdk.IRewardChainBlock.GetWeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetWeight
+    name: GetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetWeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.GetWeight
+    name: GetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_GetWeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetChallengeChainIpVdf
+  nameWithType: RewardChainBlock.SetChallengeChainIpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.SetChallengeChainIpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetChallengeChainIpVdf(VdfInfo)
+  nameWithType: IRewardChainBlock.SetChallengeChainIpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock
+  commentId: T:ChiaWalletSdk.RewardChainBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html
+  name: RewardChainBlock
+  nameWithType: RewardChainBlock
+  fullName: ChiaWalletSdk.RewardChainBlock
+- uid: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetChallengeChainSpSignature_ChiaWalletSdk_Signature_
+  name: SetChallengeChainSpSignature
+  nameWithType: RewardChainBlock.SetChallengeChainSpSignature
+  fullName: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpSignature
+- uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainSpSignature_ChiaWalletSdk_Signature_
+  name: SetChallengeChainSpSignature(Signature)
+  nameWithType: IRewardChainBlock.SetChallengeChainSpSignature(Signature)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+    name: SetChallengeChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainSpSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpSignature(ChiaWalletSdk.Signature)
+    name: SetChallengeChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainSpSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetChallengeChainSpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetChallengeChainSpVdf
+  nameWithType: RewardChainBlock.SetChallengeChainSpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.SetChallengeChainSpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainSpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetChallengeChainSpVdf(VdfInfo)
+  nameWithType: IRewardChainBlock.SetChallengeChainSpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetChallengeChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainSpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetChallengeChainSpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetChallengeChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetChallengeChainSpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetHeaderMmrRoot_System_Byte___
+  name: SetHeaderMmrRoot
+  nameWithType: RewardChainBlock.SetHeaderMmrRoot
+  fullName: ChiaWalletSdk.RewardChainBlock.SetHeaderMmrRoot
+- uid: ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetHeaderMmrRoot_System_Byte___
+  name: SetHeaderMmrRoot(byte[])
+  nameWithType: IRewardChainBlock.SetHeaderMmrRoot(byte[])
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(byte[])
+  nameWithType.vb: IRewardChainBlock.SetHeaderMmrRoot(Byte())
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(Byte())
+  name.vb: SetHeaderMmrRoot(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+    name: SetHeaderMmrRoot
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetHeaderMmrRoot_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetHeaderMmrRoot(System.Byte[])
+    name: SetHeaderMmrRoot
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetHeaderMmrRoot_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetHeight*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetHeight
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetHeight_System_UInt32_
+  name: SetHeight
+  nameWithType: RewardChainBlock.SetHeight
+  fullName: ChiaWalletSdk.RewardChainBlock.SetHeight
+- uid: ChiaWalletSdk.IRewardChainBlock.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetHeight_System_UInt32_
+  name: SetHeight(uint)
+  nameWithType: IRewardChainBlock.SetHeight(uint)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetHeight(uint)
+  nameWithType.vb: IRewardChainBlock.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetInfusedChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetInfusedChallengeChainIpVdf
+  nameWithType: RewardChainBlock.SetInfusedChallengeChainIpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.SetInfusedChallengeChainIpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetInfusedChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetInfusedChallengeChainIpVdf(VdfInfo)
+  nameWithType: IRewardChainBlock.SetInfusedChallengeChainIpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetInfusedChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetInfusedChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetInfusedChallengeChainIpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetInfusedChallengeChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetInfusedChallengeChainIpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetIsTransactionBlock_System_Boolean_
+  name: SetIsTransactionBlock
+  nameWithType: RewardChainBlock.SetIsTransactionBlock
+  fullName: ChiaWalletSdk.RewardChainBlock.SetIsTransactionBlock
+- uid: ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(System.Boolean)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(System.Boolean)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetIsTransactionBlock_System_Boolean_
+  name: SetIsTransactionBlock(bool)
+  nameWithType: IRewardChainBlock.SetIsTransactionBlock(bool)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(bool)
+  nameWithType.vb: IRewardChainBlock.SetIsTransactionBlock(Boolean)
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(Boolean)
+  name.vb: SetIsTransactionBlock(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(System.Boolean)
+    name: SetIsTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetIsTransactionBlock_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetIsTransactionBlock(System.Boolean)
+    name: SetIsTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetIsTransactionBlock_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetPosSsCcChallengeHash_System_Byte___
+  name: SetPosSsCcChallengeHash
+  nameWithType: RewardChainBlock.SetPosSsCcChallengeHash
+  fullName: ChiaWalletSdk.RewardChainBlock.SetPosSsCcChallengeHash
+- uid: ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetPosSsCcChallengeHash_System_Byte___
+  name: SetPosSsCcChallengeHash(byte[])
+  nameWithType: IRewardChainBlock.SetPosSsCcChallengeHash(byte[])
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(byte[])
+  nameWithType.vb: IRewardChainBlock.SetPosSsCcChallengeHash(Byte())
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(Byte())
+  name.vb: SetPosSsCcChallengeHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+    name: SetPosSsCcChallengeHash
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetPosSsCcChallengeHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetPosSsCcChallengeHash(System.Byte[])
+    name: SetPosSsCcChallengeHash
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetPosSsCcChallengeHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetProofOfSpace*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetProofOfSpace_ChiaWalletSdk_ProofOfSpace_
+  name: SetProofOfSpace
+  nameWithType: RewardChainBlock.SetProofOfSpace
+  fullName: ChiaWalletSdk.RewardChainBlock.SetProofOfSpace
+- uid: ChiaWalletSdk.IRewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetProofOfSpace_ChiaWalletSdk_ProofOfSpace_
+  name: SetProofOfSpace(ProofOfSpace)
+  nameWithType: IRewardChainBlock.SetProofOfSpace(ProofOfSpace)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+    name: SetProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetProofOfSpace_ChiaWalletSdk_ProofOfSpace_
+  - name: (
+  - uid: ChiaWalletSdk.ProofOfSpace
+    name: ProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.ProofOfSpace.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetProofOfSpace(ChiaWalletSdk.ProofOfSpace)
+    name: SetProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetProofOfSpace_ChiaWalletSdk_ProofOfSpace_
+  - name: (
+  - uid: ChiaWalletSdk.ProofOfSpace
+    name: ProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.ProofOfSpace.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetRewardChainIpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetRewardChainIpVdf
+  nameWithType: RewardChainBlock.SetRewardChainIpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.SetRewardChainIpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainIpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetRewardChainIpVdf(VdfInfo)
+  nameWithType: IRewardChainBlock.SetRewardChainIpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetRewardChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainIpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainIpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetRewardChainIpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainIpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetRewardChainSpSignature_ChiaWalletSdk_Signature_
+  name: SetRewardChainSpSignature
+  nameWithType: RewardChainBlock.SetRewardChainSpSignature
+  fullName: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpSignature
+- uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainSpSignature_ChiaWalletSdk_Signature_
+  name: SetRewardChainSpSignature(Signature)
+  nameWithType: IRewardChainBlock.SetRewardChainSpSignature(Signature)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+    name: SetRewardChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainSpSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpSignature(ChiaWalletSdk.Signature)
+    name: SetRewardChainSpSignature
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainSpSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetRewardChainSpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetRewardChainSpVdf
+  nameWithType: RewardChainBlock.SetRewardChainSpVdf
+  fullName: ChiaWalletSdk.RewardChainBlock.SetRewardChainSpVdf
+- uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainSpVdf_ChiaWalletSdk_VdfInfo_
+  name: SetRewardChainSpVdf(VdfInfo)
+  nameWithType: IRewardChainBlock.SetRewardChainSpVdf(VdfInfo)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetRewardChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainSpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetRewardChainSpVdf(ChiaWalletSdk.VdfInfo)
+    name: SetRewardChainSpVdf
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetRewardChainSpVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetSignagePointIndex_System_Byte_
+  name: SetSignagePointIndex
+  nameWithType: RewardChainBlock.SetSignagePointIndex
+  fullName: ChiaWalletSdk.RewardChainBlock.SetSignagePointIndex
+- uid: ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(System.Byte)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(System.Byte)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetSignagePointIndex_System_Byte_
+  name: SetSignagePointIndex(byte)
+  nameWithType: IRewardChainBlock.SetSignagePointIndex(byte)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(byte)
+  nameWithType.vb: IRewardChainBlock.SetSignagePointIndex(Byte)
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(Byte)
+  name.vb: SetSignagePointIndex(Byte)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(System.Byte)
+    name: SetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetSignagePointIndex_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetSignagePointIndex(System.Byte)
+    name: SetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetSignagePointIndex_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetTotalIters*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetTotalIters
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetTotalIters_System_String_
+  name: SetTotalIters
+  nameWithType: RewardChainBlock.SetTotalIters
+  fullName: ChiaWalletSdk.RewardChainBlock.SetTotalIters
+- uid: ChiaWalletSdk.IRewardChainBlock.SetTotalIters(System.String)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetTotalIters(System.String)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetTotalIters_System_String_
+  name: SetTotalIters(string)
+  nameWithType: IRewardChainBlock.SetTotalIters(string)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetTotalIters(string)
+  nameWithType.vb: IRewardChainBlock.SetTotalIters(String)
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetTotalIters(String)
+  name.vb: SetTotalIters(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetTotalIters(System.String)
+    name: SetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetTotalIters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetTotalIters(System.String)
+    name: SetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetTotalIters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock.SetWeight*
+  commentId: Overload:ChiaWalletSdk.RewardChainBlock.SetWeight
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html#ChiaWalletSdk_RewardChainBlock_SetWeight_System_String_
+  name: SetWeight
+  nameWithType: RewardChainBlock.SetWeight
+  fullName: ChiaWalletSdk.RewardChainBlock.SetWeight
+- uid: ChiaWalletSdk.IRewardChainBlock.SetWeight(System.String)
+  commentId: M:ChiaWalletSdk.IRewardChainBlock.SetWeight(System.String)
+  parent: ChiaWalletSdk.IRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetWeight_System_String_
+  name: SetWeight(string)
+  nameWithType: IRewardChainBlock.SetWeight(string)
+  fullName: ChiaWalletSdk.IRewardChainBlock.SetWeight(string)
+  nameWithType.vb: IRewardChainBlock.SetWeight(String)
+  fullName.vb: ChiaWalletSdk.IRewardChainBlock.SetWeight(String)
+  name.vb: SetWeight(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetWeight(System.String)
+    name: SetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetWeight_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardChainBlock.SetWeight(System.String)
+    name: SetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IRewardChainBlock.html#ChiaWalletSdk_IRewardChainBlock_SetWeight_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

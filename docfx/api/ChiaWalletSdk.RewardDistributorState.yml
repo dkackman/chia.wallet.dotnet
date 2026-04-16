@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.RewardDistributorState
+  commentId: T:ChiaWalletSdk.RewardDistributorState
+  id: RewardDistributorState
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.RewardDistributorState.#ctor(System.IntPtr)
+  - ChiaWalletSdk.RewardDistributorState.#ctor(System.String,System.String,ChiaWalletSdk.RoundRewardInfo,ChiaWalletSdk.RoundTimeInfo)
+  - ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr
+  - ChiaWalletSdk.RewardDistributorState.Destroy
+  - ChiaWalletSdk.RewardDistributorState.Dispose
+  - ChiaWalletSdk.RewardDistributorState.Finalize
+  - ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr
+  - ChiaWalletSdk.RewardDistributorState.GetActiveShares
+  - ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo
+  - ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo
+  - ChiaWalletSdk.RewardDistributorState.GetTotalReserves
+  - ChiaWalletSdk.RewardDistributorState.SetActiveShares(System.String)
+  - ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  - ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  - ChiaWalletSdk.RewardDistributorState.SetTotalReserves(System.String)
+  - ChiaWalletSdk.RewardDistributorState.pointer
+  langs:
+  - csharp
+  - vb
+  name: RewardDistributorState
+  nameWithType: RewardDistributorState
+  fullName: ChiaWalletSdk.RewardDistributorState
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class RewardDistributorState : IRewardDistributorState'
+    content.vb: Public Class RewardDistributorState Implements IRewardDistributorState
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState
+- uid: ChiaWalletSdk.RewardDistributorState.pointer
+  commentId: F:ChiaWalletSdk.RewardDistributorState.pointer
+  id: pointer
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: RewardDistributorState.pointer
+  fullName: ChiaWalletSdk.RewardDistributorState.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.RewardDistributorState.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.RewardDistributorState.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: RewardDistributorState(nint)
+  nameWithType: RewardDistributorState.RewardDistributorState(nint)
+  fullName: ChiaWalletSdk.RewardDistributorState.RewardDistributorState(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RewardDistributorState(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.RewardDistributorState.#ctor*
+  nameWithType.vb: RewardDistributorState.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.RewardDistributorState.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.RewardDistributorState.Finalize
+  commentId: M:ChiaWalletSdk.RewardDistributorState.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: ~RewardDistributorState()
+  nameWithType: RewardDistributorState.~RewardDistributorState()
+  fullName: ChiaWalletSdk.RewardDistributorState.~RewardDistributorState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~RewardDistributorState()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.RewardDistributorState.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.RewardDistributorState.#ctor(System.String,System.String,ChiaWalletSdk.RoundRewardInfo,ChiaWalletSdk.RoundTimeInfo)
+  commentId: M:ChiaWalletSdk.RewardDistributorState.#ctor(System.String,System.String,ChiaWalletSdk.RoundRewardInfo,ChiaWalletSdk.RoundTimeInfo)
+  id: '#ctor(System.String,System.String,ChiaWalletSdk.RoundRewardInfo,ChiaWalletSdk.RoundTimeInfo)'
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: RewardDistributorState(string, string, RoundRewardInfo, RoundTimeInfo)
+  nameWithType: RewardDistributorState.RewardDistributorState(string, string, RoundRewardInfo, RoundTimeInfo)
+  fullName: ChiaWalletSdk.RewardDistributorState.RewardDistributorState(string, string, ChiaWalletSdk.RoundRewardInfo, ChiaWalletSdk.RoundTimeInfo)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RewardDistributorState(string totalReserves, string activeShares, RoundRewardInfo roundRewardInfo, RoundTimeInfo roundTimeInfo)
+    parameters:
+    - id: totalReserves
+      type: System.String
+    - id: activeShares
+      type: System.String
+    - id: roundRewardInfo
+      type: ChiaWalletSdk.RoundRewardInfo
+    - id: roundTimeInfo
+      type: ChiaWalletSdk.RoundTimeInfo
+    content.vb: Public Sub New(totalReserves As String, activeShares As String, roundRewardInfo As RoundRewardInfo, roundTimeInfo As RoundTimeInfo)
+  overload: ChiaWalletSdk.RewardDistributorState.#ctor*
+  nameWithType.vb: RewardDistributorState.New(String, String, RoundRewardInfo, RoundTimeInfo)
+  fullName.vb: ChiaWalletSdk.RewardDistributorState.New(String, String, ChiaWalletSdk.RoundRewardInfo, ChiaWalletSdk.RoundTimeInfo)
+  name.vb: New(String, String, RoundRewardInfo, RoundTimeInfo)
+- uid: ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: RewardDistributorState.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr*
+- uid: ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: RewardDistributorState.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr*
+- uid: ChiaWalletSdk.RewardDistributorState.Destroy
+  commentId: M:ChiaWalletSdk.RewardDistributorState.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: RewardDistributorState.Destroy()
+  fullName: ChiaWalletSdk.RewardDistributorState.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.RewardDistributorState.Destroy*
+- uid: ChiaWalletSdk.RewardDistributorState.Dispose
+  commentId: M:ChiaWalletSdk.RewardDistributorState.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RewardDistributorState.Dispose()
+  fullName: ChiaWalletSdk.RewardDistributorState.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.RewardDistributorState.Dispose*
+- uid: ChiaWalletSdk.RewardDistributorState.GetActiveShares
+  commentId: M:ChiaWalletSdk.RewardDistributorState.GetActiveShares
+  id: GetActiveShares
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: GetActiveShares()
+  nameWithType: RewardDistributorState.GetActiveShares()
+  fullName: ChiaWalletSdk.RewardDistributorState.GetActiveShares()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetActiveShares()
+    return:
+      type: System.String
+    content.vb: Public Function GetActiveShares() As String
+  overload: ChiaWalletSdk.RewardDistributorState.GetActiveShares*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.GetActiveShares
+- uid: ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo
+  commentId: M:ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo
+  id: GetRoundRewardInfo
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: GetRoundRewardInfo()
+  nameWithType: RewardDistributorState.GetRoundRewardInfo()
+  fullName: ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RoundRewardInfo GetRoundRewardInfo()
+    return:
+      type: ChiaWalletSdk.RoundRewardInfo
+    content.vb: Public Function GetRoundRewardInfo() As RoundRewardInfo
+  overload: ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.GetRoundRewardInfo
+- uid: ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo
+  commentId: M:ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo
+  id: GetRoundTimeInfo
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: GetRoundTimeInfo()
+  nameWithType: RewardDistributorState.GetRoundTimeInfo()
+  fullName: ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RoundTimeInfo GetRoundTimeInfo()
+    return:
+      type: ChiaWalletSdk.RoundTimeInfo
+    content.vb: Public Function GetRoundTimeInfo() As RoundTimeInfo
+  overload: ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.GetRoundTimeInfo
+- uid: ChiaWalletSdk.RewardDistributorState.GetTotalReserves
+  commentId: M:ChiaWalletSdk.RewardDistributorState.GetTotalReserves
+  id: GetTotalReserves
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: GetTotalReserves()
+  nameWithType: RewardDistributorState.GetTotalReserves()
+  fullName: ChiaWalletSdk.RewardDistributorState.GetTotalReserves()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetTotalReserves()
+    return:
+      type: System.String
+    content.vb: Public Function GetTotalReserves() As String
+  overload: ChiaWalletSdk.RewardDistributorState.GetTotalReserves*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.GetTotalReserves
+- uid: ChiaWalletSdk.RewardDistributorState.SetActiveShares(System.String)
+  commentId: M:ChiaWalletSdk.RewardDistributorState.SetActiveShares(System.String)
+  id: SetActiveShares(System.String)
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: SetActiveShares(string)
+  nameWithType: RewardDistributorState.SetActiveShares(string)
+  fullName: ChiaWalletSdk.RewardDistributorState.SetActiveShares(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardDistributorState SetActiveShares(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.RewardDistributorState
+    content.vb: Public Function SetActiveShares(value As String) As RewardDistributorState
+  overload: ChiaWalletSdk.RewardDistributorState.SetActiveShares*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.SetActiveShares(System.String)
+  nameWithType.vb: RewardDistributorState.SetActiveShares(String)
+  fullName.vb: ChiaWalletSdk.RewardDistributorState.SetActiveShares(String)
+  name.vb: SetActiveShares(String)
+- uid: ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  commentId: M:ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  id: SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: SetRoundRewardInfo(RoundRewardInfo)
+  nameWithType: RewardDistributorState.SetRoundRewardInfo(RoundRewardInfo)
+  fullName: ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardDistributorState SetRoundRewardInfo(RoundRewardInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.RoundRewardInfo
+    return:
+      type: ChiaWalletSdk.RewardDistributorState
+    content.vb: Public Function SetRoundRewardInfo(value As RoundRewardInfo) As RewardDistributorState
+  overload: ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+- uid: ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  commentId: M:ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  id: SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: SetRoundTimeInfo(RoundTimeInfo)
+  nameWithType: RewardDistributorState.SetRoundTimeInfo(RoundTimeInfo)
+  fullName: ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardDistributorState SetRoundTimeInfo(RoundTimeInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.RoundTimeInfo
+    return:
+      type: ChiaWalletSdk.RewardDistributorState
+    content.vb: Public Function SetRoundTimeInfo(value As RoundTimeInfo) As RewardDistributorState
+  overload: ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+- uid: ChiaWalletSdk.RewardDistributorState.SetTotalReserves(System.String)
+  commentId: M:ChiaWalletSdk.RewardDistributorState.SetTotalReserves(System.String)
+  id: SetTotalReserves(System.String)
+  parent: ChiaWalletSdk.RewardDistributorState
+  langs:
+  - csharp
+  - vb
+  name: SetTotalReserves(string)
+  nameWithType: RewardDistributorState.SetTotalReserves(string)
+  fullName: ChiaWalletSdk.RewardDistributorState.SetTotalReserves(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardDistributorState SetTotalReserves(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.RewardDistributorState
+    content.vb: Public Function SetTotalReserves(value As String) As RewardDistributorState
+  overload: ChiaWalletSdk.RewardDistributorState.SetTotalReserves*
+  implements:
+  - ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(System.String)
+  nameWithType.vb: RewardDistributorState.SetTotalReserves(String)
+  fullName.vb: ChiaWalletSdk.RewardDistributorState.SetTotalReserves(String)
+  name.vb: SetTotalReserves(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IRewardDistributorState
+  commentId: T:ChiaWalletSdk.IRewardDistributorState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html
+  name: IRewardDistributorState
+  nameWithType: IRewardDistributorState
+  fullName: ChiaWalletSdk.IRewardDistributorState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.RewardDistributorState.#ctor*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState__ctor_System_IntPtr_
+  name: RewardDistributorState
+  nameWithType: RewardDistributorState.RewardDistributorState
+  fullName: ChiaWalletSdk.RewardDistributorState.RewardDistributorState
+  nameWithType.vb: RewardDistributorState.New
+  fullName.vb: ChiaWalletSdk.RewardDistributorState.New
+  name.vb: New
+- uid: ChiaWalletSdk.RewardDistributorState.Finalize*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_Finalize
+  name: ~RewardDistributorState
+  nameWithType: RewardDistributorState.~RewardDistributorState
+  fullName: ChiaWalletSdk.RewardDistributorState.~RewardDistributorState
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.RewardDistributorState.Finalize*
+    name: RewardDistributorState
+    isExternal: true
+    href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.RoundRewardInfo
+  commentId: T:ChiaWalletSdk.RoundRewardInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RoundRewardInfo.html
+  name: RoundRewardInfo
+  nameWithType: RoundRewardInfo
+  fullName: ChiaWalletSdk.RoundRewardInfo
+- uid: ChiaWalletSdk.RoundTimeInfo
+  commentId: T:ChiaWalletSdk.RoundTimeInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html
+  name: RoundTimeInfo
+  nameWithType: RoundTimeInfo
+  fullName: ChiaWalletSdk.RoundTimeInfo
+- uid: ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: RewardDistributorState.FreeRustArcPtr
+  fullName: ChiaWalletSdk.RewardDistributorState.FreeRustArcPtr
+- uid: ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: RewardDistributorState.CloneRustArcPtr
+  fullName: ChiaWalletSdk.RewardDistributorState.CloneRustArcPtr
+- uid: ChiaWalletSdk.RewardDistributorState.Destroy*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_Destroy
+  name: Destroy
+  nameWithType: RewardDistributorState.Destroy
+  fullName: ChiaWalletSdk.RewardDistributorState.Destroy
+- uid: ChiaWalletSdk.RewardDistributorState.Dispose*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_Dispose
+  name: Dispose
+  nameWithType: RewardDistributorState.Dispose
+  fullName: ChiaWalletSdk.RewardDistributorState.Dispose
+- uid: ChiaWalletSdk.RewardDistributorState.GetActiveShares*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.GetActiveShares
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_GetActiveShares
+  name: GetActiveShares
+  nameWithType: RewardDistributorState.GetActiveShares
+  fullName: ChiaWalletSdk.RewardDistributorState.GetActiveShares
+- uid: ChiaWalletSdk.IRewardDistributorState.GetActiveShares
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.GetActiveShares
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetActiveShares
+  name: GetActiveShares()
+  nameWithType: IRewardDistributorState.GetActiveShares()
+  fullName: ChiaWalletSdk.IRewardDistributorState.GetActiveShares()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetActiveShares
+    name: GetActiveShares
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetActiveShares
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetActiveShares
+    name: GetActiveShares
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetActiveShares
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_GetRoundRewardInfo
+  name: GetRoundRewardInfo
+  nameWithType: RewardDistributorState.GetRoundRewardInfo
+  fullName: ChiaWalletSdk.RewardDistributorState.GetRoundRewardInfo
+- uid: ChiaWalletSdk.IRewardDistributorState.GetRoundRewardInfo
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.GetRoundRewardInfo
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetRoundRewardInfo
+  name: GetRoundRewardInfo()
+  nameWithType: IRewardDistributorState.GetRoundRewardInfo()
+  fullName: ChiaWalletSdk.IRewardDistributorState.GetRoundRewardInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetRoundRewardInfo
+    name: GetRoundRewardInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetRoundRewardInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetRoundRewardInfo
+    name: GetRoundRewardInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetRoundRewardInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_GetRoundTimeInfo
+  name: GetRoundTimeInfo
+  nameWithType: RewardDistributorState.GetRoundTimeInfo
+  fullName: ChiaWalletSdk.RewardDistributorState.GetRoundTimeInfo
+- uid: ChiaWalletSdk.IRewardDistributorState.GetRoundTimeInfo
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.GetRoundTimeInfo
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetRoundTimeInfo
+  name: GetRoundTimeInfo()
+  nameWithType: IRewardDistributorState.GetRoundTimeInfo()
+  fullName: ChiaWalletSdk.IRewardDistributorState.GetRoundTimeInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetRoundTimeInfo
+    name: GetRoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetRoundTimeInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetRoundTimeInfo
+    name: GetRoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetRoundTimeInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState.GetTotalReserves*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.GetTotalReserves
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_GetTotalReserves
+  name: GetTotalReserves
+  nameWithType: RewardDistributorState.GetTotalReserves
+  fullName: ChiaWalletSdk.RewardDistributorState.GetTotalReserves
+- uid: ChiaWalletSdk.IRewardDistributorState.GetTotalReserves
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.GetTotalReserves
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetTotalReserves
+  name: GetTotalReserves()
+  nameWithType: IRewardDistributorState.GetTotalReserves()
+  fullName: ChiaWalletSdk.IRewardDistributorState.GetTotalReserves()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetTotalReserves
+    name: GetTotalReserves
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetTotalReserves
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.GetTotalReserves
+    name: GetTotalReserves
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_GetTotalReserves
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState.SetActiveShares*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.SetActiveShares
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_SetActiveShares_System_String_
+  name: SetActiveShares
+  nameWithType: RewardDistributorState.SetActiveShares
+  fullName: ChiaWalletSdk.RewardDistributorState.SetActiveShares
+- uid: ChiaWalletSdk.IRewardDistributorState.SetActiveShares(System.String)
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.SetActiveShares(System.String)
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetActiveShares_System_String_
+  name: SetActiveShares(string)
+  nameWithType: IRewardDistributorState.SetActiveShares(string)
+  fullName: ChiaWalletSdk.IRewardDistributorState.SetActiveShares(string)
+  nameWithType.vb: IRewardDistributorState.SetActiveShares(String)
+  fullName.vb: ChiaWalletSdk.IRewardDistributorState.SetActiveShares(String)
+  name.vb: SetActiveShares(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetActiveShares(System.String)
+    name: SetActiveShares
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetActiveShares_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetActiveShares(System.String)
+    name: SetActiveShares
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetActiveShares_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState
+  commentId: T:ChiaWalletSdk.RewardDistributorState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html
+  name: RewardDistributorState
+  nameWithType: RewardDistributorState
+  fullName: ChiaWalletSdk.RewardDistributorState
+- uid: ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_SetRoundRewardInfo_ChiaWalletSdk_RoundRewardInfo_
+  name: SetRoundRewardInfo
+  nameWithType: RewardDistributorState.SetRoundRewardInfo
+  fullName: ChiaWalletSdk.RewardDistributorState.SetRoundRewardInfo
+- uid: ChiaWalletSdk.IRewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetRoundRewardInfo_ChiaWalletSdk_RoundRewardInfo_
+  name: SetRoundRewardInfo(RoundRewardInfo)
+  nameWithType: IRewardDistributorState.SetRoundRewardInfo(RoundRewardInfo)
+  fullName: ChiaWalletSdk.IRewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+    name: SetRoundRewardInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetRoundRewardInfo_ChiaWalletSdk_RoundRewardInfo_
+  - name: (
+  - uid: ChiaWalletSdk.RoundRewardInfo
+    name: RoundRewardInfo
+    isExternal: true
+    href: ChiaWalletSdk.RoundRewardInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetRoundRewardInfo(ChiaWalletSdk.RoundRewardInfo)
+    name: SetRoundRewardInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetRoundRewardInfo_ChiaWalletSdk_RoundRewardInfo_
+  - name: (
+  - uid: ChiaWalletSdk.RoundRewardInfo
+    name: RoundRewardInfo
+    isExternal: true
+    href: ChiaWalletSdk.RoundRewardInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_SetRoundTimeInfo_ChiaWalletSdk_RoundTimeInfo_
+  name: SetRoundTimeInfo
+  nameWithType: RewardDistributorState.SetRoundTimeInfo
+  fullName: ChiaWalletSdk.RewardDistributorState.SetRoundTimeInfo
+- uid: ChiaWalletSdk.IRewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetRoundTimeInfo_ChiaWalletSdk_RoundTimeInfo_
+  name: SetRoundTimeInfo(RoundTimeInfo)
+  nameWithType: IRewardDistributorState.SetRoundTimeInfo(RoundTimeInfo)
+  fullName: ChiaWalletSdk.IRewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+    name: SetRoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetRoundTimeInfo_ChiaWalletSdk_RoundTimeInfo_
+  - name: (
+  - uid: ChiaWalletSdk.RoundTimeInfo
+    name: RoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.RoundTimeInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetRoundTimeInfo(ChiaWalletSdk.RoundTimeInfo)
+    name: SetRoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetRoundTimeInfo_ChiaWalletSdk_RoundTimeInfo_
+  - name: (
+  - uid: ChiaWalletSdk.RoundTimeInfo
+    name: RoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.RoundTimeInfo.html
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorState.SetTotalReserves*
+  commentId: Overload:ChiaWalletSdk.RewardDistributorState.SetTotalReserves
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html#ChiaWalletSdk_RewardDistributorState_SetTotalReserves_System_String_
+  name: SetTotalReserves
+  nameWithType: RewardDistributorState.SetTotalReserves
+  fullName: ChiaWalletSdk.RewardDistributorState.SetTotalReserves
+- uid: ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(System.String)
+  commentId: M:ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(System.String)
+  parent: ChiaWalletSdk.IRewardDistributorState
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetTotalReserves_System_String_
+  name: SetTotalReserves(string)
+  nameWithType: IRewardDistributorState.SetTotalReserves(string)
+  fullName: ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(string)
+  nameWithType.vb: IRewardDistributorState.SetTotalReserves(String)
+  fullName.vb: ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(String)
+  name.vb: SetTotalReserves(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(System.String)
+    name: SetTotalReserves
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetTotalReserves_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRewardDistributorState.SetTotalReserves(System.String)
+    name: SetTotalReserves
+    isExternal: true
+    href: ChiaWalletSdk.IRewardDistributorState.html#ChiaWalletSdk_IRewardDistributorState_SetTotalReserves_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.GetMempoolItemsResponse
+  commentId: T:ChiaWalletSdk.GetMempoolItemsResponse
+  id: GetMempoolItemsResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.GetMempoolItemsResponse.#ctor(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem},System.String,System.Boolean)
+  - ChiaWalletSdk.GetMempoolItemsResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr
+  - ChiaWalletSdk.GetMempoolItemsResponse.Destroy
+  - ChiaWalletSdk.GetMempoolItemsResponse.Dispose
+  - ChiaWalletSdk.GetMempoolItemsResponse.Finalize
+  - ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr
+  - ChiaWalletSdk.GetMempoolItemsResponse.GetError
+  - ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems
+  - ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess
+  - ChiaWalletSdk.GetMempoolItemsResponse.SetError(System.String)
+  - ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  - ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.GetMempoolItemsResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolItemsResponse
+  nameWithType: GetMempoolItemsResponse
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class GetMempoolItemsResponse : IGetMempoolItemsResponse'
+    content.vb: Public Class GetMempoolItemsResponse Implements IGetMempoolItemsResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.pointer
+  commentId: F:ChiaWalletSdk.GetMempoolItemsResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: GetMempoolItemsResponse.pointer
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolItemsResponse(nint)
+  nameWithType: GetMempoolItemsResponse.GetMempoolItemsResponse(nint)
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItemsResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetMempoolItemsResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.#ctor*
+  nameWithType.vb: GetMempoolItemsResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.GetMempoolItemsResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.Finalize
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: ~GetMempoolItemsResponse()
+  nameWithType: GetMempoolItemsResponse.~GetMempoolItemsResponse()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.~GetMempoolItemsResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~GetMempoolItemsResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.#ctor(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem},System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.#ctor(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem},System.String,System.Boolean)
+  id: '#ctor(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem},System.String,System.Boolean)'
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolItemsResponse(List<MempoolItem>?, string?, bool)
+  nameWithType: GetMempoolItemsResponse.GetMempoolItemsResponse(List<MempoolItem>?, string?, bool)
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItemsResponse(System.Collections.Generic.List<ChiaWalletSdk.MempoolItem>?, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetMempoolItemsResponse(List<MempoolItem>? mempoolItems, string? error, bool success)
+    parameters:
+    - id: mempoolItems
+      type: System.Collections.Generic.List{ChiaWalletSdk.MempoolItem}
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(mempoolItems As List(Of MempoolItem), [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.#ctor*
+  nameWithType.vb: GetMempoolItemsResponse.New(List(Of MempoolItem), String, Boolean)
+  fullName.vb: ChiaWalletSdk.GetMempoolItemsResponse.New(System.Collections.Generic.List(Of ChiaWalletSdk.MempoolItem), String, Boolean)
+  name.vb: New(List(Of MempoolItem), String, Boolean)
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: GetMempoolItemsResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: GetMempoolItemsResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.Destroy
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: GetMempoolItemsResponse.Destroy()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.Destroy*
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.Dispose
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: GetMempoolItemsResponse.Dispose()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.Dispose*
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.GetError
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: GetMempoolItemsResponse.GetError()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse.GetError
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems
+  id: GetMempoolItems
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolItems()
+  nameWithType: GetMempoolItemsResponse.GetMempoolItems()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<MempoolItem>? GetMempoolItems()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.MempoolItem}
+    content.vb: Public Function GetMempoolItems() As List(Of MempoolItem)
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems*
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse.GetMempoolItems
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: GetMempoolItemsResponse.GetSuccess()
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse.GetSuccess
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: GetMempoolItemsResponse.SetError(string?)
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetMempoolItemsResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.GetMempoolItemsResponse
+    content.vb: Public Function SetError(value As String) As GetMempoolItemsResponse
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse.SetError(System.String)
+  nameWithType.vb: GetMempoolItemsResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.GetMempoolItemsResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  id: SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetMempoolItems(List<MempoolItem>?)
+  nameWithType: GetMempoolItemsResponse.SetMempoolItems(List<MempoolItem>?)
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List<ChiaWalletSdk.MempoolItem>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetMempoolItemsResponse SetMempoolItems(List<MempoolItem>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.MempoolItem}
+    return:
+      type: ChiaWalletSdk.GetMempoolItemsResponse
+    content.vb: Public Function SetMempoolItems(value As List(Of MempoolItem)) As GetMempoolItemsResponse
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems*
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  nameWithType.vb: GetMempoolItemsResponse.SetMempoolItems(List(Of MempoolItem))
+  fullName.vb: ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List(Of ChiaWalletSdk.MempoolItem))
+  name.vb: SetMempoolItems(List(Of MempoolItem))
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.GetMempoolItemsResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: GetMempoolItemsResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetMempoolItemsResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.GetMempoolItemsResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As GetMempoolItemsResponse
+  overload: ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: GetMempoolItemsResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse
+  commentId: T:ChiaWalletSdk.IGetMempoolItemsResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html
+  name: IGetMempoolItemsResponse
+  nameWithType: IGetMempoolItemsResponse
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse__ctor_System_IntPtr_
+  name: GetMempoolItemsResponse
+  nameWithType: GetMempoolItemsResponse.GetMempoolItemsResponse
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItemsResponse
+  nameWithType.vb: GetMempoolItemsResponse.New
+  fullName.vb: ChiaWalletSdk.GetMempoolItemsResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_Finalize
+  name: ~GetMempoolItemsResponse
+  nameWithType: GetMempoolItemsResponse.~GetMempoolItemsResponse
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.~GetMempoolItemsResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.GetMempoolItemsResponse.Finalize*
+    name: GetMempoolItemsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_Finalize
+- uid: System.Collections.Generic.List{ChiaWalletSdk.MempoolItem}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.MempoolItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.MempoolItem.html
+  name: List<MempoolItem>
+  nameWithType: List<MempoolItem>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.MempoolItem>
+  nameWithType.vb: List(Of MempoolItem)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.MempoolItem)
+  name.vb: List(Of MempoolItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.MempoolItem
+    name: MempoolItem
+    isExternal: true
+    href: ChiaWalletSdk.MempoolItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.MempoolItem
+    name: MempoolItem
+    isExternal: true
+    href: ChiaWalletSdk.MempoolItem.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: GetMempoolItemsResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: GetMempoolItemsResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_Destroy
+  name: Destroy
+  nameWithType: GetMempoolItemsResponse.Destroy
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.Destroy
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_Dispose
+  name: Dispose
+  nameWithType: GetMempoolItemsResponse.Dispose
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.Dispose
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_GetError
+  name: GetError
+  nameWithType: GetMempoolItemsResponse.GetError
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetError
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetError
+  commentId: M:ChiaWalletSdk.IGetMempoolItemsResponse.GetError
+  parent: ChiaWalletSdk.IGetMempoolItemsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetError
+  name: GetError()
+  nameWithType: IGetMempoolItemsResponse.GetError()
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_GetMempoolItems
+  name: GetMempoolItems
+  nameWithType: GetMempoolItemsResponse.GetMempoolItems
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetMempoolItems
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetMempoolItems
+  commentId: M:ChiaWalletSdk.IGetMempoolItemsResponse.GetMempoolItems
+  parent: ChiaWalletSdk.IGetMempoolItemsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetMempoolItems
+  name: GetMempoolItems()
+  nameWithType: IGetMempoolItemsResponse.GetMempoolItems()
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse.GetMempoolItems()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetMempoolItems
+    name: GetMempoolItems
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetMempoolItems
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetMempoolItems
+    name: GetMempoolItems
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetMempoolItems
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: GetMempoolItemsResponse.GetSuccess
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.GetSuccess
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IGetMempoolItemsResponse.GetSuccess
+  parent: ChiaWalletSdk.IGetMempoolItemsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IGetMempoolItemsResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_SetError_System_String_
+  name: SetError
+  nameWithType: GetMempoolItemsResponse.SetError
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.SetError
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IGetMempoolItemsResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IGetMempoolItemsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IGetMempoolItemsResponse.SetError(string)
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse.SetError(string)
+  nameWithType.vb: IGetMempoolItemsResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IGetMempoolItemsResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.GetMempoolItemsResponse
+  commentId: T:ChiaWalletSdk.GetMempoolItemsResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html
+  name: GetMempoolItemsResponse
+  nameWithType: GetMempoolItemsResponse
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_SetMempoolItems_System_Collections_Generic_List_ChiaWalletSdk_MempoolItem__
+  name: SetMempoolItems
+  nameWithType: GetMempoolItemsResponse.SetMempoolItems
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.SetMempoolItems
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  commentId: M:ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+  parent: ChiaWalletSdk.IGetMempoolItemsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetMempoolItems_System_Collections_Generic_List_ChiaWalletSdk_MempoolItem__
+  name: SetMempoolItems(List<MempoolItem>)
+  nameWithType: IGetMempoolItemsResponse.SetMempoolItems(List<MempoolItem>)
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List<ChiaWalletSdk.MempoolItem>)
+  nameWithType.vb: IGetMempoolItemsResponse.SetMempoolItems(List(Of MempoolItem))
+  fullName.vb: ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List(Of ChiaWalletSdk.MempoolItem))
+  name.vb: SetMempoolItems(List(Of MempoolItem))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+    name: SetMempoolItems
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetMempoolItems_System_Collections_Generic_List_ChiaWalletSdk_MempoolItem__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.MempoolItem
+    name: MempoolItem
+    isExternal: true
+    href: ChiaWalletSdk.MempoolItem.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetMempoolItems(System.Collections.Generic.List{ChiaWalletSdk.MempoolItem})
+    name: SetMempoolItems
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetMempoolItems_System_Collections_Generic_List_ChiaWalletSdk_MempoolItem__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.MempoolItem
+    name: MempoolItem
+    isExternal: true
+    href: ChiaWalletSdk.MempoolItem.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html#ChiaWalletSdk_GetMempoolItemsResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: GetMempoolItemsResponse.SetSuccess
+  fullName: ChiaWalletSdk.GetMempoolItemsResponse.SetSuccess
+- uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IGetMempoolItemsResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IGetMempoolItemsResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(bool)
+  nameWithType.vb: IGetMempoolItemsResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetMempoolItemsResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetMempoolItemsResponse.html#ChiaWalletSdk_IGetMempoolItemsResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ICoin
+  commentId: T:ChiaWalletSdk.ICoin
+  id: ICoin
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ICoin.CoinId
+  - ChiaWalletSdk.ICoin.GetAmount
+  - ChiaWalletSdk.ICoin.GetParentCoinInfo
+  - ChiaWalletSdk.ICoin.GetPuzzleHash
+  - ChiaWalletSdk.ICoin.SetAmount(System.String)
+  - ChiaWalletSdk.ICoin.SetParentCoinInfo(System.Byte[])
+  - ChiaWalletSdk.ICoin.SetPuzzleHash(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ICoin
+  nameWithType: ICoin
+  fullName: ChiaWalletSdk.ICoin
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface ICoin
+    content.vb: Public Interface ICoin
+  derivedClasses:
+  - ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.ICoin.CoinId
+  commentId: M:ChiaWalletSdk.ICoin.CoinId
+  id: CoinId
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: CoinId()
+  nameWithType: ICoin.CoinId()
+  fullName: ChiaWalletSdk.ICoin.CoinId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] CoinId()
+    return:
+      type: System.Byte[]
+    content.vb: Function CoinId() As Byte()
+  overload: ChiaWalletSdk.ICoin.CoinId*
+- uid: ChiaWalletSdk.ICoin.GetAmount
+  commentId: M:ChiaWalletSdk.ICoin.GetAmount
+  id: GetAmount
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: GetAmount()
+  nameWithType: ICoin.GetAmount()
+  fullName: ChiaWalletSdk.ICoin.GetAmount()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetAmount()
+    return:
+      type: System.String
+    content.vb: Function GetAmount() As String
+  overload: ChiaWalletSdk.ICoin.GetAmount*
+- uid: ChiaWalletSdk.ICoin.GetParentCoinInfo
+  commentId: M:ChiaWalletSdk.ICoin.GetParentCoinInfo
+  id: GetParentCoinInfo
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: GetParentCoinInfo()
+  nameWithType: ICoin.GetParentCoinInfo()
+  fullName: ChiaWalletSdk.ICoin.GetParentCoinInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetParentCoinInfo()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetParentCoinInfo() As Byte()
+  overload: ChiaWalletSdk.ICoin.GetParentCoinInfo*
+- uid: ChiaWalletSdk.ICoin.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.ICoin.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: ICoin.GetPuzzleHash()
+  fullName: ChiaWalletSdk.ICoin.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.ICoin.GetPuzzleHash*
+- uid: ChiaWalletSdk.ICoin.SetAmount(System.String)
+  commentId: M:ChiaWalletSdk.ICoin.SetAmount(System.String)
+  id: SetAmount(System.String)
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: SetAmount(string)
+  nameWithType: ICoin.SetAmount(string)
+  fullName: ChiaWalletSdk.ICoin.SetAmount(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin SetAmount(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function SetAmount(value As String) As Coin
+  overload: ChiaWalletSdk.ICoin.SetAmount*
+  nameWithType.vb: ICoin.SetAmount(String)
+  fullName.vb: ChiaWalletSdk.ICoin.SetAmount(String)
+  name.vb: SetAmount(String)
+- uid: ChiaWalletSdk.ICoin.SetParentCoinInfo(System.Byte[])
+  commentId: M:ChiaWalletSdk.ICoin.SetParentCoinInfo(System.Byte[])
+  id: SetParentCoinInfo(System.Byte[])
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: SetParentCoinInfo(byte[])
+  nameWithType: ICoin.SetParentCoinInfo(byte[])
+  fullName: ChiaWalletSdk.ICoin.SetParentCoinInfo(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin SetParentCoinInfo(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function SetParentCoinInfo(value As Byte()) As Coin
+  overload: ChiaWalletSdk.ICoin.SetParentCoinInfo*
+  nameWithType.vb: ICoin.SetParentCoinInfo(Byte())
+  fullName.vb: ChiaWalletSdk.ICoin.SetParentCoinInfo(Byte())
+  name.vb: SetParentCoinInfo(Byte())
+- uid: ChiaWalletSdk.ICoin.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.ICoin.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.ICoin
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: ICoin.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.ICoin.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function SetPuzzleHash(value As Byte()) As Coin
+  overload: ChiaWalletSdk.ICoin.SetPuzzleHash*
+  nameWithType.vb: ICoin.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.ICoin.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.ICoin.CoinId*
+  commentId: Overload:ChiaWalletSdk.ICoin.CoinId
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_CoinId
+  name: CoinId
+  nameWithType: ICoin.CoinId
+  fullName: ChiaWalletSdk.ICoin.CoinId
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ICoin.GetAmount*
+  commentId: Overload:ChiaWalletSdk.ICoin.GetAmount
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_GetAmount
+  name: GetAmount
+  nameWithType: ICoin.GetAmount
+  fullName: ChiaWalletSdk.ICoin.GetAmount
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.ICoin.GetParentCoinInfo*
+  commentId: Overload:ChiaWalletSdk.ICoin.GetParentCoinInfo
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_GetParentCoinInfo
+  name: GetParentCoinInfo
+  nameWithType: ICoin.GetParentCoinInfo
+  fullName: ChiaWalletSdk.ICoin.GetParentCoinInfo
+- uid: ChiaWalletSdk.ICoin.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.ICoin.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: ICoin.GetPuzzleHash
+  fullName: ChiaWalletSdk.ICoin.GetPuzzleHash
+- uid: ChiaWalletSdk.ICoin.SetAmount*
+  commentId: Overload:ChiaWalletSdk.ICoin.SetAmount
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_SetAmount_System_String_
+  name: SetAmount
+  nameWithType: ICoin.SetAmount
+  fullName: ChiaWalletSdk.ICoin.SetAmount
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.ICoin.SetParentCoinInfo*
+  commentId: Overload:ChiaWalletSdk.ICoin.SetParentCoinInfo
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_SetParentCoinInfo_System_Byte___
+  name: SetParentCoinInfo
+  nameWithType: ICoin.SetParentCoinInfo
+  fullName: ChiaWalletSdk.ICoin.SetParentCoinInfo
+- uid: ChiaWalletSdk.ICoin.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.ICoin.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.ICoin.html#ChiaWalletSdk_ICoin_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: ICoin.SetPuzzleHash
+  fullName: ChiaWalletSdk.ICoin.SetPuzzleHash

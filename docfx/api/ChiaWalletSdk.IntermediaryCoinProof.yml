@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IntermediaryCoinProof
+  commentId: T:ChiaWalletSdk.IntermediaryCoinProof
+  id: IntermediaryCoinProof
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IntermediaryCoinProof.#ctor(System.Byte[],System.String)
+  - ChiaWalletSdk.IntermediaryCoinProof.#ctor(System.IntPtr)
+  - ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr
+  - ChiaWalletSdk.IntermediaryCoinProof.Destroy
+  - ChiaWalletSdk.IntermediaryCoinProof.Dispose
+  - ChiaWalletSdk.IntermediaryCoinProof.Finalize
+  - ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr
+  - ChiaWalletSdk.IntermediaryCoinProof.GetAmount
+  - ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash
+  - ChiaWalletSdk.IntermediaryCoinProof.SetAmount(System.String)
+  - ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IntermediaryCoinProof.pointer
+  langs:
+  - csharp
+  - vb
+  name: IntermediaryCoinProof
+  nameWithType: IntermediaryCoinProof
+  fullName: ChiaWalletSdk.IntermediaryCoinProof
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class IntermediaryCoinProof : IIntermediaryCoinProof'
+    content.vb: Public Class IntermediaryCoinProof Implements IIntermediaryCoinProof
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IIntermediaryCoinProof
+- uid: ChiaWalletSdk.IntermediaryCoinProof.pointer
+  commentId: F:ChiaWalletSdk.IntermediaryCoinProof.pointer
+  id: pointer
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: IntermediaryCoinProof.pointer
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.IntermediaryCoinProof.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: IntermediaryCoinProof(nint)
+  nameWithType: IntermediaryCoinProof.IntermediaryCoinProof(nint)
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.IntermediaryCoinProof(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public IntermediaryCoinProof(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.IntermediaryCoinProof.#ctor*
+  nameWithType.vb: IntermediaryCoinProof.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.IntermediaryCoinProof.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.IntermediaryCoinProof.Finalize
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: ~IntermediaryCoinProof()
+  nameWithType: IntermediaryCoinProof.~IntermediaryCoinProof()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.~IntermediaryCoinProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~IntermediaryCoinProof()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.IntermediaryCoinProof.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.IntermediaryCoinProof.#ctor(System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.#ctor(System.Byte[],System.String)
+  id: '#ctor(System.Byte[],System.String)'
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: IntermediaryCoinProof(byte[], string)
+  nameWithType: IntermediaryCoinProof.IntermediaryCoinProof(byte[], string)
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.IntermediaryCoinProof(byte[], string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public IntermediaryCoinProof(byte[] fullPuzzleHash, string amount)
+    parameters:
+    - id: fullPuzzleHash
+      type: System.Byte[]
+    - id: amount
+      type: System.String
+    content.vb: Public Sub New(fullPuzzleHash As Byte(), amount As String)
+  overload: ChiaWalletSdk.IntermediaryCoinProof.#ctor*
+  nameWithType.vb: IntermediaryCoinProof.New(Byte(), String)
+  fullName.vb: ChiaWalletSdk.IntermediaryCoinProof.New(Byte(), String)
+  name.vb: New(Byte(), String)
+- uid: ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: IntermediaryCoinProof.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr*
+- uid: ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: IntermediaryCoinProof.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr*
+- uid: ChiaWalletSdk.IntermediaryCoinProof.Destroy
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: IntermediaryCoinProof.Destroy()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.IntermediaryCoinProof.Destroy*
+- uid: ChiaWalletSdk.IntermediaryCoinProof.Dispose
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: IntermediaryCoinProof.Dispose()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.IntermediaryCoinProof.Dispose*
+- uid: ChiaWalletSdk.IntermediaryCoinProof.GetAmount
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.GetAmount
+  id: GetAmount
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: GetAmount()
+  nameWithType: IntermediaryCoinProof.GetAmount()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.GetAmount()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetAmount()
+    return:
+      type: System.String
+    content.vb: Public Function GetAmount() As String
+  overload: ChiaWalletSdk.IntermediaryCoinProof.GetAmount*
+  implements:
+  - ChiaWalletSdk.IIntermediaryCoinProof.GetAmount
+- uid: ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash
+  id: GetFullPuzzleHash
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: GetFullPuzzleHash()
+  nameWithType: IntermediaryCoinProof.GetFullPuzzleHash()
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetFullPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetFullPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IIntermediaryCoinProof.GetFullPuzzleHash
+- uid: ChiaWalletSdk.IntermediaryCoinProof.SetAmount(System.String)
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.SetAmount(System.String)
+  id: SetAmount(System.String)
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: SetAmount(string)
+  nameWithType: IntermediaryCoinProof.SetAmount(string)
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.SetAmount(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public IntermediaryCoinProof SetAmount(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.IntermediaryCoinProof
+    content.vb: Public Function SetAmount(value As String) As IntermediaryCoinProof
+  overload: ChiaWalletSdk.IntermediaryCoinProof.SetAmount*
+  implements:
+  - ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(System.String)
+  nameWithType.vb: IntermediaryCoinProof.SetAmount(String)
+  fullName.vb: ChiaWalletSdk.IntermediaryCoinProof.SetAmount(String)
+  name.vb: SetAmount(String)
+- uid: ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+  id: SetFullPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IntermediaryCoinProof
+  langs:
+  - csharp
+  - vb
+  name: SetFullPuzzleHash(byte[])
+  nameWithType: IntermediaryCoinProof.SetFullPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public IntermediaryCoinProof SetFullPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.IntermediaryCoinProof
+    content.vb: Public Function SetFullPuzzleHash(value As Byte()) As IntermediaryCoinProof
+  overload: ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+  nameWithType.vb: IntermediaryCoinProof.SetFullPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash(Byte())
+  name.vb: SetFullPuzzleHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IIntermediaryCoinProof
+  commentId: T:ChiaWalletSdk.IIntermediaryCoinProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IIntermediaryCoinProof.html
+  name: IIntermediaryCoinProof
+  nameWithType: IIntermediaryCoinProof
+  fullName: ChiaWalletSdk.IIntermediaryCoinProof
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.IntermediaryCoinProof.#ctor*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof__ctor_System_IntPtr_
+  name: IntermediaryCoinProof
+  nameWithType: IntermediaryCoinProof.IntermediaryCoinProof
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.IntermediaryCoinProof
+  nameWithType.vb: IntermediaryCoinProof.New
+  fullName.vb: ChiaWalletSdk.IntermediaryCoinProof.New
+  name.vb: New
+- uid: ChiaWalletSdk.IntermediaryCoinProof.Finalize*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_Finalize
+  name: ~IntermediaryCoinProof
+  nameWithType: IntermediaryCoinProof.~IntermediaryCoinProof
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.~IntermediaryCoinProof
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.IntermediaryCoinProof.Finalize*
+    name: IntermediaryCoinProof
+    isExternal: true
+    href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: IntermediaryCoinProof.FreeRustArcPtr
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.FreeRustArcPtr
+- uid: ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: IntermediaryCoinProof.CloneRustArcPtr
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.CloneRustArcPtr
+- uid: ChiaWalletSdk.IntermediaryCoinProof.Destroy*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_Destroy
+  name: Destroy
+  nameWithType: IntermediaryCoinProof.Destroy
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.Destroy
+- uid: ChiaWalletSdk.IntermediaryCoinProof.Dispose*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_Dispose
+  name: Dispose
+  nameWithType: IntermediaryCoinProof.Dispose
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.Dispose
+- uid: ChiaWalletSdk.IntermediaryCoinProof.GetAmount*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.GetAmount
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_GetAmount
+  name: GetAmount
+  nameWithType: IntermediaryCoinProof.GetAmount
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.GetAmount
+- uid: ChiaWalletSdk.IIntermediaryCoinProof.GetAmount
+  commentId: M:ChiaWalletSdk.IIntermediaryCoinProof.GetAmount
+  parent: ChiaWalletSdk.IIntermediaryCoinProof
+  isExternal: true
+  href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_GetAmount
+  name: GetAmount()
+  nameWithType: IIntermediaryCoinProof.GetAmount()
+  fullName: ChiaWalletSdk.IIntermediaryCoinProof.GetAmount()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.GetAmount
+    name: GetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_GetAmount
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.GetAmount
+    name: GetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_GetAmount
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_GetFullPuzzleHash
+  name: GetFullPuzzleHash
+  nameWithType: IntermediaryCoinProof.GetFullPuzzleHash
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.GetFullPuzzleHash
+- uid: ChiaWalletSdk.IIntermediaryCoinProof.GetFullPuzzleHash
+  commentId: M:ChiaWalletSdk.IIntermediaryCoinProof.GetFullPuzzleHash
+  parent: ChiaWalletSdk.IIntermediaryCoinProof
+  isExternal: true
+  href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_GetFullPuzzleHash
+  name: GetFullPuzzleHash()
+  nameWithType: IIntermediaryCoinProof.GetFullPuzzleHash()
+  fullName: ChiaWalletSdk.IIntermediaryCoinProof.GetFullPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.GetFullPuzzleHash
+    name: GetFullPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_GetFullPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.GetFullPuzzleHash
+    name: GetFullPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_GetFullPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IntermediaryCoinProof.SetAmount*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.SetAmount
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_SetAmount_System_String_
+  name: SetAmount
+  nameWithType: IntermediaryCoinProof.SetAmount
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.SetAmount
+- uid: ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(System.String)
+  commentId: M:ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(System.String)
+  parent: ChiaWalletSdk.IIntermediaryCoinProof
+  isExternal: true
+  href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_SetAmount_System_String_
+  name: SetAmount(string)
+  nameWithType: IIntermediaryCoinProof.SetAmount(string)
+  fullName: ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(string)
+  nameWithType.vb: IIntermediaryCoinProof.SetAmount(String)
+  fullName.vb: ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(String)
+  name.vb: SetAmount(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(System.String)
+    name: SetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_SetAmount_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.SetAmount(System.String)
+    name: SetAmount
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_SetAmount_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.IntermediaryCoinProof
+  commentId: T:ChiaWalletSdk.IntermediaryCoinProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html
+  name: IntermediaryCoinProof
+  nameWithType: IntermediaryCoinProof
+  fullName: ChiaWalletSdk.IntermediaryCoinProof
+- uid: ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IntermediaryCoinProof.html#ChiaWalletSdk_IntermediaryCoinProof_SetFullPuzzleHash_System_Byte___
+  name: SetFullPuzzleHash
+  nameWithType: IntermediaryCoinProof.SetFullPuzzleHash
+  fullName: ChiaWalletSdk.IntermediaryCoinProof.SetFullPuzzleHash
+- uid: ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IIntermediaryCoinProof
+  isExternal: true
+  href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_SetFullPuzzleHash_System_Byte___
+  name: SetFullPuzzleHash(byte[])
+  nameWithType: IIntermediaryCoinProof.SetFullPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(byte[])
+  nameWithType.vb: IIntermediaryCoinProof.SetFullPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(Byte())
+  name.vb: SetFullPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+    name: SetFullPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_SetFullPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IIntermediaryCoinProof.SetFullPuzzleHash(System.Byte[])
+    name: SetFullPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IIntermediaryCoinProof.html#ChiaWalletSdk_IIntermediaryCoinProof_SetFullPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

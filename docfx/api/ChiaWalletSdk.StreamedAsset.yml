@@ -1,0 +1,899 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.StreamedAsset
+  commentId: T:ChiaWalletSdk.StreamedAsset
+  id: StreamedAsset
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.StreamedAsset.#ctor(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  - ChiaWalletSdk.StreamedAsset.#ctor(System.IntPtr)
+  - ChiaWalletSdk.StreamedAsset.Cat(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  - ChiaWalletSdk.StreamedAsset.CloneRustArcPtr
+  - ChiaWalletSdk.StreamedAsset.Destroy
+  - ChiaWalletSdk.StreamedAsset.Dispose
+  - ChiaWalletSdk.StreamedAsset.Finalize
+  - ChiaWalletSdk.StreamedAsset.FreeRustArcPtr
+  - ChiaWalletSdk.StreamedAsset.GetAssetId
+  - ChiaWalletSdk.StreamedAsset.GetCoin
+  - ChiaWalletSdk.StreamedAsset.GetInfo
+  - ChiaWalletSdk.StreamedAsset.GetProof
+  - ChiaWalletSdk.StreamedAsset.SetAssetId(System.Byte[])
+  - ChiaWalletSdk.StreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.StreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  - ChiaWalletSdk.StreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  - ChiaWalletSdk.StreamedAsset.Xch(ChiaWalletSdk.Coin,ChiaWalletSdk.StreamingPuzzleInfo)
+  - ChiaWalletSdk.StreamedAsset.pointer
+  langs:
+  - csharp
+  - vb
+  name: StreamedAsset
+  nameWithType: StreamedAsset
+  fullName: ChiaWalletSdk.StreamedAsset
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class StreamedAsset : IStreamedAsset'
+    content.vb: Public Class StreamedAsset Implements IStreamedAsset
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IStreamedAsset
+- uid: ChiaWalletSdk.StreamedAsset.pointer
+  commentId: F:ChiaWalletSdk.StreamedAsset.pointer
+  id: pointer
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: StreamedAsset.pointer
+  fullName: ChiaWalletSdk.StreamedAsset.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.StreamedAsset.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.StreamedAsset.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: StreamedAsset(nint)
+  nameWithType: StreamedAsset.StreamedAsset(nint)
+  fullName: ChiaWalletSdk.StreamedAsset.StreamedAsset(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public StreamedAsset(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.StreamedAsset.#ctor*
+  nameWithType.vb: StreamedAsset.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.StreamedAsset.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.StreamedAsset.Finalize
+  commentId: M:ChiaWalletSdk.StreamedAsset.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: ~StreamedAsset()
+  nameWithType: StreamedAsset.~StreamedAsset()
+  fullName: ChiaWalletSdk.StreamedAsset.~StreamedAsset()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~StreamedAsset()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.StreamedAsset.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.StreamedAsset.#ctor(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  commentId: M:ChiaWalletSdk.StreamedAsset.#ctor(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  id: '#ctor(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)'
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: StreamedAsset(Coin, byte[]?, LineageProof?, StreamingPuzzleInfo)
+  nameWithType: StreamedAsset.StreamedAsset(Coin, byte[]?, LineageProof?, StreamingPuzzleInfo)
+  fullName: ChiaWalletSdk.StreamedAsset.StreamedAsset(ChiaWalletSdk.Coin, byte[]?, ChiaWalletSdk.LineageProof?, ChiaWalletSdk.StreamingPuzzleInfo)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public StreamedAsset(Coin coin, byte[]? assetId, LineageProof? proof, StreamingPuzzleInfo info)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: assetId
+      type: System.Byte[]
+    - id: proof
+      type: ChiaWalletSdk.LineageProof
+    - id: info
+      type: ChiaWalletSdk.StreamingPuzzleInfo
+    content.vb: Public Sub New(coin As Coin, assetId As Byte(), proof As LineageProof, info As StreamingPuzzleInfo)
+  overload: ChiaWalletSdk.StreamedAsset.#ctor*
+  nameWithType.vb: StreamedAsset.New(Coin, Byte(), LineageProof, StreamingPuzzleInfo)
+  fullName.vb: ChiaWalletSdk.StreamedAsset.New(ChiaWalletSdk.Coin, Byte(), ChiaWalletSdk.LineageProof, ChiaWalletSdk.StreamingPuzzleInfo)
+  name.vb: New(Coin, Byte(), LineageProof, StreamingPuzzleInfo)
+- uid: ChiaWalletSdk.StreamedAsset.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.StreamedAsset.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: StreamedAsset.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.StreamedAsset.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.StreamedAsset.FreeRustArcPtr*
+- uid: ChiaWalletSdk.StreamedAsset.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.StreamedAsset.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: StreamedAsset.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.StreamedAsset.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.StreamedAsset.CloneRustArcPtr*
+- uid: ChiaWalletSdk.StreamedAsset.Destroy
+  commentId: M:ChiaWalletSdk.StreamedAsset.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: StreamedAsset.Destroy()
+  fullName: ChiaWalletSdk.StreamedAsset.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.StreamedAsset.Destroy*
+- uid: ChiaWalletSdk.StreamedAsset.Dispose
+  commentId: M:ChiaWalletSdk.StreamedAsset.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: StreamedAsset.Dispose()
+  fullName: ChiaWalletSdk.StreamedAsset.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.StreamedAsset.Dispose*
+- uid: ChiaWalletSdk.StreamedAsset.GetAssetId
+  commentId: M:ChiaWalletSdk.StreamedAsset.GetAssetId
+  id: GetAssetId
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: GetAssetId()
+  nameWithType: StreamedAsset.GetAssetId()
+  fullName: ChiaWalletSdk.StreamedAsset.GetAssetId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetAssetId()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetAssetId() As Byte()
+  overload: ChiaWalletSdk.StreamedAsset.GetAssetId*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.GetAssetId
+- uid: ChiaWalletSdk.StreamedAsset.GetCoin
+  commentId: M:ChiaWalletSdk.StreamedAsset.GetCoin
+  id: GetCoin
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: GetCoin()
+  nameWithType: StreamedAsset.GetCoin()
+  fullName: ChiaWalletSdk.StreamedAsset.GetCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Coin GetCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Public Function GetCoin() As Coin
+  overload: ChiaWalletSdk.StreamedAsset.GetCoin*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.GetCoin
+- uid: ChiaWalletSdk.StreamedAsset.GetInfo
+  commentId: M:ChiaWalletSdk.StreamedAsset.GetInfo
+  id: GetInfo
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: GetInfo()
+  nameWithType: StreamedAsset.GetInfo()
+  fullName: ChiaWalletSdk.StreamedAsset.GetInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamingPuzzleInfo GetInfo()
+    return:
+      type: ChiaWalletSdk.StreamingPuzzleInfo
+    content.vb: Public Function GetInfo() As StreamingPuzzleInfo
+  overload: ChiaWalletSdk.StreamedAsset.GetInfo*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.GetInfo
+- uid: ChiaWalletSdk.StreamedAsset.GetProof
+  commentId: M:ChiaWalletSdk.StreamedAsset.GetProof
+  id: GetProof
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: GetProof()
+  nameWithType: StreamedAsset.GetProof()
+  fullName: ChiaWalletSdk.StreamedAsset.GetProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public LineageProof? GetProof()
+    return:
+      type: ChiaWalletSdk.LineageProof
+    content.vb: Public Function GetProof() As LineageProof
+  overload: ChiaWalletSdk.StreamedAsset.GetProof*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.GetProof
+- uid: ChiaWalletSdk.StreamedAsset.SetAssetId(System.Byte[])
+  commentId: M:ChiaWalletSdk.StreamedAsset.SetAssetId(System.Byte[])
+  id: SetAssetId(System.Byte[])
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: SetAssetId(byte[]?)
+  nameWithType: StreamedAsset.SetAssetId(byte[]?)
+  fullName: ChiaWalletSdk.StreamedAsset.SetAssetId(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAsset SetAssetId(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Function SetAssetId(value As Byte()) As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAsset.SetAssetId*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.SetAssetId(System.Byte[])
+  nameWithType.vb: StreamedAsset.SetAssetId(Byte())
+  fullName.vb: ChiaWalletSdk.StreamedAsset.SetAssetId(Byte())
+  name.vb: SetAssetId(Byte())
+- uid: ChiaWalletSdk.StreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.StreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  id: SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: SetCoin(Coin)
+  nameWithType: StreamedAsset.SetCoin(Coin)
+  fullName: ChiaWalletSdk.StreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAsset SetCoin(Coin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Function SetCoin(value As Coin) As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAsset.SetCoin*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+- uid: ChiaWalletSdk.StreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  commentId: M:ChiaWalletSdk.StreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  id: SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: SetInfo(StreamingPuzzleInfo)
+  nameWithType: StreamedAsset.SetInfo(StreamingPuzzleInfo)
+  fullName: ChiaWalletSdk.StreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAsset SetInfo(StreamingPuzzleInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.StreamingPuzzleInfo
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Function SetInfo(value As StreamingPuzzleInfo) As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAsset.SetInfo*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+- uid: ChiaWalletSdk.StreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  commentId: M:ChiaWalletSdk.StreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  id: SetProof(ChiaWalletSdk.LineageProof)
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: SetProof(LineageProof?)
+  nameWithType: StreamedAsset.SetProof(LineageProof?)
+  fullName: ChiaWalletSdk.StreamedAsset.SetProof(ChiaWalletSdk.LineageProof?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAsset SetProof(LineageProof? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.LineageProof
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Function SetProof(value As LineageProof) As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAsset.SetProof*
+  implements:
+  - ChiaWalletSdk.IStreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  nameWithType.vb: StreamedAsset.SetProof(LineageProof)
+  fullName.vb: ChiaWalletSdk.StreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  name.vb: SetProof(LineageProof)
+- uid: ChiaWalletSdk.StreamedAsset.Cat(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  commentId: M:ChiaWalletSdk.StreamedAsset.Cat(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  id: Cat(ChiaWalletSdk.Coin,System.Byte[],ChiaWalletSdk.LineageProof,ChiaWalletSdk.StreamingPuzzleInfo)
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: Cat(Coin, byte[], LineageProof, StreamingPuzzleInfo)
+  nameWithType: StreamedAsset.Cat(Coin, byte[], LineageProof, StreamingPuzzleInfo)
+  fullName: ChiaWalletSdk.StreamedAsset.Cat(ChiaWalletSdk.Coin, byte[], ChiaWalletSdk.LineageProof, ChiaWalletSdk.StreamingPuzzleInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static StreamedAsset Cat(Coin coin, byte[] assetId, LineageProof proof, StreamingPuzzleInfo info)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: assetId
+      type: System.Byte[]
+    - id: proof
+      type: ChiaWalletSdk.LineageProof
+    - id: info
+      type: ChiaWalletSdk.StreamingPuzzleInfo
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Shared Function Cat(coin As Coin, assetId As Byte(), proof As LineageProof, info As StreamingPuzzleInfo) As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAsset.Cat*
+  nameWithType.vb: StreamedAsset.Cat(Coin, Byte(), LineageProof, StreamingPuzzleInfo)
+  fullName.vb: ChiaWalletSdk.StreamedAsset.Cat(ChiaWalletSdk.Coin, Byte(), ChiaWalletSdk.LineageProof, ChiaWalletSdk.StreamingPuzzleInfo)
+  name.vb: Cat(Coin, Byte(), LineageProof, StreamingPuzzleInfo)
+- uid: ChiaWalletSdk.StreamedAsset.Xch(ChiaWalletSdk.Coin,ChiaWalletSdk.StreamingPuzzleInfo)
+  commentId: M:ChiaWalletSdk.StreamedAsset.Xch(ChiaWalletSdk.Coin,ChiaWalletSdk.StreamingPuzzleInfo)
+  id: Xch(ChiaWalletSdk.Coin,ChiaWalletSdk.StreamingPuzzleInfo)
+  parent: ChiaWalletSdk.StreamedAsset
+  langs:
+  - csharp
+  - vb
+  name: Xch(Coin, StreamingPuzzleInfo)
+  nameWithType: StreamedAsset.Xch(Coin, StreamingPuzzleInfo)
+  fullName: ChiaWalletSdk.StreamedAsset.Xch(ChiaWalletSdk.Coin, ChiaWalletSdk.StreamingPuzzleInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static StreamedAsset Xch(Coin coin, StreamingPuzzleInfo info)
+    parameters:
+    - id: coin
+      type: ChiaWalletSdk.Coin
+    - id: info
+      type: ChiaWalletSdk.StreamingPuzzleInfo
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Shared Function Xch(coin As Coin, info As StreamingPuzzleInfo) As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAsset.Xch*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IStreamedAsset
+  commentId: T:ChiaWalletSdk.IStreamedAsset
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html
+  name: IStreamedAsset
+  nameWithType: IStreamedAsset
+  fullName: ChiaWalletSdk.IStreamedAsset
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.StreamedAsset.#ctor*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset__ctor_System_IntPtr_
+  name: StreamedAsset
+  nameWithType: StreamedAsset.StreamedAsset
+  fullName: ChiaWalletSdk.StreamedAsset.StreamedAsset
+  nameWithType.vb: StreamedAsset.New
+  fullName.vb: ChiaWalletSdk.StreamedAsset.New
+  name.vb: New
+- uid: ChiaWalletSdk.StreamedAsset.Finalize*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_Finalize
+  name: ~StreamedAsset
+  nameWithType: StreamedAsset.~StreamedAsset
+  fullName: ChiaWalletSdk.StreamedAsset.~StreamedAsset
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.StreamedAsset.Finalize*
+    name: StreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_Finalize
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.LineageProof
+  commentId: T:ChiaWalletSdk.LineageProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.LineageProof.html
+  name: LineageProof
+  nameWithType: LineageProof
+  fullName: ChiaWalletSdk.LineageProof
+- uid: ChiaWalletSdk.StreamingPuzzleInfo
+  commentId: T:ChiaWalletSdk.StreamingPuzzleInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.StreamingPuzzleInfo.html
+  name: StreamingPuzzleInfo
+  nameWithType: StreamingPuzzleInfo
+  fullName: ChiaWalletSdk.StreamingPuzzleInfo
+- uid: ChiaWalletSdk.StreamedAsset.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: StreamedAsset.FreeRustArcPtr
+  fullName: ChiaWalletSdk.StreamedAsset.FreeRustArcPtr
+- uid: ChiaWalletSdk.StreamedAsset.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: StreamedAsset.CloneRustArcPtr
+  fullName: ChiaWalletSdk.StreamedAsset.CloneRustArcPtr
+- uid: ChiaWalletSdk.StreamedAsset.Destroy*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_Destroy
+  name: Destroy
+  nameWithType: StreamedAsset.Destroy
+  fullName: ChiaWalletSdk.StreamedAsset.Destroy
+- uid: ChiaWalletSdk.StreamedAsset.Dispose*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_Dispose
+  name: Dispose
+  nameWithType: StreamedAsset.Dispose
+  fullName: ChiaWalletSdk.StreamedAsset.Dispose
+- uid: ChiaWalletSdk.StreamedAsset.GetAssetId*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.GetAssetId
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_GetAssetId
+  name: GetAssetId
+  nameWithType: StreamedAsset.GetAssetId
+  fullName: ChiaWalletSdk.StreamedAsset.GetAssetId
+- uid: ChiaWalletSdk.IStreamedAsset.GetAssetId
+  commentId: M:ChiaWalletSdk.IStreamedAsset.GetAssetId
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetAssetId
+  name: GetAssetId()
+  nameWithType: IStreamedAsset.GetAssetId()
+  fullName: ChiaWalletSdk.IStreamedAsset.GetAssetId()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetAssetId
+    name: GetAssetId
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetAssetId
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetAssetId
+    name: GetAssetId
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetAssetId
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.GetCoin*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.GetCoin
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_GetCoin
+  name: GetCoin
+  nameWithType: StreamedAsset.GetCoin
+  fullName: ChiaWalletSdk.StreamedAsset.GetCoin
+- uid: ChiaWalletSdk.IStreamedAsset.GetCoin
+  commentId: M:ChiaWalletSdk.IStreamedAsset.GetCoin
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetCoin
+  name: GetCoin()
+  nameWithType: IStreamedAsset.GetCoin()
+  fullName: ChiaWalletSdk.IStreamedAsset.GetCoin()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetCoin
+    name: GetCoin
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetCoin
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetCoin
+    name: GetCoin
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetCoin
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.GetInfo*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.GetInfo
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_GetInfo
+  name: GetInfo
+  nameWithType: StreamedAsset.GetInfo
+  fullName: ChiaWalletSdk.StreamedAsset.GetInfo
+- uid: ChiaWalletSdk.IStreamedAsset.GetInfo
+  commentId: M:ChiaWalletSdk.IStreamedAsset.GetInfo
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetInfo
+  name: GetInfo()
+  nameWithType: IStreamedAsset.GetInfo()
+  fullName: ChiaWalletSdk.IStreamedAsset.GetInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetInfo
+    name: GetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetInfo
+    name: GetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.GetProof*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.GetProof
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_GetProof
+  name: GetProof
+  nameWithType: StreamedAsset.GetProof
+  fullName: ChiaWalletSdk.StreamedAsset.GetProof
+- uid: ChiaWalletSdk.IStreamedAsset.GetProof
+  commentId: M:ChiaWalletSdk.IStreamedAsset.GetProof
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetProof
+  name: GetProof()
+  nameWithType: IStreamedAsset.GetProof()
+  fullName: ChiaWalletSdk.IStreamedAsset.GetProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetProof
+    name: GetProof
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.GetProof
+    name: GetProof
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_GetProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.SetAssetId*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.SetAssetId
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_SetAssetId_System_Byte___
+  name: SetAssetId
+  nameWithType: StreamedAsset.SetAssetId
+  fullName: ChiaWalletSdk.StreamedAsset.SetAssetId
+- uid: ChiaWalletSdk.IStreamedAsset.SetAssetId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IStreamedAsset.SetAssetId(System.Byte[])
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetAssetId_System_Byte___
+  name: SetAssetId(byte[])
+  nameWithType: IStreamedAsset.SetAssetId(byte[])
+  fullName: ChiaWalletSdk.IStreamedAsset.SetAssetId(byte[])
+  nameWithType.vb: IStreamedAsset.SetAssetId(Byte())
+  fullName.vb: ChiaWalletSdk.IStreamedAsset.SetAssetId(Byte())
+  name.vb: SetAssetId(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetAssetId(System.Byte[])
+    name: SetAssetId
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetAssetId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetAssetId(System.Byte[])
+    name: SetAssetId
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetAssetId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset
+  commentId: T:ChiaWalletSdk.StreamedAsset
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html
+  name: StreamedAsset
+  nameWithType: StreamedAsset
+  fullName: ChiaWalletSdk.StreamedAsset
+- uid: ChiaWalletSdk.StreamedAsset.SetCoin*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.SetCoin
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin
+  nameWithType: StreamedAsset.SetCoin
+  fullName: ChiaWalletSdk.StreamedAsset.SetCoin
+- uid: ChiaWalletSdk.IStreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.IStreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin(Coin)
+  nameWithType: IStreamedAsset.SetCoin(Coin)
+  fullName: ChiaWalletSdk.IStreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+    name: SetCoin
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetCoin_ChiaWalletSdk_Coin_
+  - name: (
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetCoin(ChiaWalletSdk.Coin)
+    name: SetCoin
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetCoin_ChiaWalletSdk_Coin_
+  - name: (
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.SetInfo*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.SetInfo
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_SetInfo_ChiaWalletSdk_StreamingPuzzleInfo_
+  name: SetInfo
+  nameWithType: StreamedAsset.SetInfo
+  fullName: ChiaWalletSdk.StreamedAsset.SetInfo
+- uid: ChiaWalletSdk.IStreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  commentId: M:ChiaWalletSdk.IStreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetInfo_ChiaWalletSdk_StreamingPuzzleInfo_
+  name: SetInfo(StreamingPuzzleInfo)
+  nameWithType: IStreamedAsset.SetInfo(StreamingPuzzleInfo)
+  fullName: ChiaWalletSdk.IStreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+    name: SetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetInfo_ChiaWalletSdk_StreamingPuzzleInfo_
+  - name: (
+  - uid: ChiaWalletSdk.StreamingPuzzleInfo
+    name: StreamingPuzzleInfo
+    isExternal: true
+    href: ChiaWalletSdk.StreamingPuzzleInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetInfo(ChiaWalletSdk.StreamingPuzzleInfo)
+    name: SetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetInfo_ChiaWalletSdk_StreamingPuzzleInfo_
+  - name: (
+  - uid: ChiaWalletSdk.StreamingPuzzleInfo
+    name: StreamingPuzzleInfo
+    isExternal: true
+    href: ChiaWalletSdk.StreamingPuzzleInfo.html
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.SetProof*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.SetProof
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_SetProof_ChiaWalletSdk_LineageProof_
+  name: SetProof
+  nameWithType: StreamedAsset.SetProof
+  fullName: ChiaWalletSdk.StreamedAsset.SetProof
+- uid: ChiaWalletSdk.IStreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  commentId: M:ChiaWalletSdk.IStreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  parent: ChiaWalletSdk.IStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetProof_ChiaWalletSdk_LineageProof_
+  name: SetProof(LineageProof)
+  nameWithType: IStreamedAsset.SetProof(LineageProof)
+  fullName: ChiaWalletSdk.IStreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+    name: SetProof
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetProof_ChiaWalletSdk_LineageProof_
+  - name: (
+  - uid: ChiaWalletSdk.LineageProof
+    name: LineageProof
+    isExternal: true
+    href: ChiaWalletSdk.LineageProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAsset.SetProof(ChiaWalletSdk.LineageProof)
+    name: SetProof
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAsset.html#ChiaWalletSdk_IStreamedAsset_SetProof_ChiaWalletSdk_LineageProof_
+  - name: (
+  - uid: ChiaWalletSdk.LineageProof
+    name: LineageProof
+    isExternal: true
+    href: ChiaWalletSdk.LineageProof.html
+  - name: )
+- uid: ChiaWalletSdk.StreamedAsset.Cat*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.Cat
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_Cat_ChiaWalletSdk_Coin_System_Byte___ChiaWalletSdk_LineageProof_ChiaWalletSdk_StreamingPuzzleInfo_
+  name: Cat
+  nameWithType: StreamedAsset.Cat
+  fullName: ChiaWalletSdk.StreamedAsset.Cat
+- uid: ChiaWalletSdk.StreamedAsset.Xch*
+  commentId: Overload:ChiaWalletSdk.StreamedAsset.Xch
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html#ChiaWalletSdk_StreamedAsset_Xch_ChiaWalletSdk_Coin_ChiaWalletSdk_StreamingPuzzleInfo_
+  name: Xch
+  nameWithType: StreamedAsset.Xch
+  fullName: ChiaWalletSdk.StreamedAsset.Xch

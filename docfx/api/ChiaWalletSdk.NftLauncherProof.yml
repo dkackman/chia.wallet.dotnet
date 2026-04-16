@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.NftLauncherProof
+  commentId: T:ChiaWalletSdk.NftLauncherProof
+  id: NftLauncherProof
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.NftLauncherProof.#ctor(ChiaWalletSdk.LineageProof,System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  - ChiaWalletSdk.NftLauncherProof.#ctor(System.IntPtr)
+  - ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr
+  - ChiaWalletSdk.NftLauncherProof.Destroy
+  - ChiaWalletSdk.NftLauncherProof.Dispose
+  - ChiaWalletSdk.NftLauncherProof.Finalize
+  - ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr
+  - ChiaWalletSdk.NftLauncherProof.GetDidProof
+  - ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs
+  - ChiaWalletSdk.NftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  - ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  - ChiaWalletSdk.NftLauncherProof.pointer
+  langs:
+  - csharp
+  - vb
+  name: NftLauncherProof
+  nameWithType: NftLauncherProof
+  fullName: ChiaWalletSdk.NftLauncherProof
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class NftLauncherProof : INftLauncherProof'
+    content.vb: Public Class NftLauncherProof Implements INftLauncherProof
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.INftLauncherProof
+- uid: ChiaWalletSdk.NftLauncherProof.pointer
+  commentId: F:ChiaWalletSdk.NftLauncherProof.pointer
+  id: pointer
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: NftLauncherProof.pointer
+  fullName: ChiaWalletSdk.NftLauncherProof.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.NftLauncherProof.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.NftLauncherProof.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: NftLauncherProof(nint)
+  nameWithType: NftLauncherProof.NftLauncherProof(nint)
+  fullName: ChiaWalletSdk.NftLauncherProof.NftLauncherProof(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NftLauncherProof(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.NftLauncherProof.#ctor*
+  nameWithType.vb: NftLauncherProof.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.NftLauncherProof.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.NftLauncherProof.Finalize
+  commentId: M:ChiaWalletSdk.NftLauncherProof.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: ~NftLauncherProof()
+  nameWithType: NftLauncherProof.~NftLauncherProof()
+  fullName: ChiaWalletSdk.NftLauncherProof.~NftLauncherProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~NftLauncherProof()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.NftLauncherProof.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.NftLauncherProof.#ctor(ChiaWalletSdk.LineageProof,System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  commentId: M:ChiaWalletSdk.NftLauncherProof.#ctor(ChiaWalletSdk.LineageProof,System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  id: '#ctor(ChiaWalletSdk.LineageProof,System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})'
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: NftLauncherProof(LineageProof, List<IntermediaryCoinProof>)
+  nameWithType: NftLauncherProof.NftLauncherProof(LineageProof, List<IntermediaryCoinProof>)
+  fullName: ChiaWalletSdk.NftLauncherProof.NftLauncherProof(ChiaWalletSdk.LineageProof, System.Collections.Generic.List<ChiaWalletSdk.IntermediaryCoinProof>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NftLauncherProof(LineageProof didProof, List<IntermediaryCoinProof> intermediaryCoinProofs)
+    parameters:
+    - id: didProof
+      type: ChiaWalletSdk.LineageProof
+    - id: intermediaryCoinProofs
+      type: System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof}
+    content.vb: Public Sub New(didProof As LineageProof, intermediaryCoinProofs As List(Of IntermediaryCoinProof))
+  overload: ChiaWalletSdk.NftLauncherProof.#ctor*
+  nameWithType.vb: NftLauncherProof.New(LineageProof, List(Of IntermediaryCoinProof))
+  fullName.vb: ChiaWalletSdk.NftLauncherProof.New(ChiaWalletSdk.LineageProof, System.Collections.Generic.List(Of ChiaWalletSdk.IntermediaryCoinProof))
+  name.vb: New(LineageProof, List(Of IntermediaryCoinProof))
+- uid: ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: NftLauncherProof.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr*
+- uid: ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: NftLauncherProof.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr*
+- uid: ChiaWalletSdk.NftLauncherProof.Destroy
+  commentId: M:ChiaWalletSdk.NftLauncherProof.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: NftLauncherProof.Destroy()
+  fullName: ChiaWalletSdk.NftLauncherProof.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.NftLauncherProof.Destroy*
+- uid: ChiaWalletSdk.NftLauncherProof.Dispose
+  commentId: M:ChiaWalletSdk.NftLauncherProof.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NftLauncherProof.Dispose()
+  fullName: ChiaWalletSdk.NftLauncherProof.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.NftLauncherProof.Dispose*
+- uid: ChiaWalletSdk.NftLauncherProof.GetDidProof
+  commentId: M:ChiaWalletSdk.NftLauncherProof.GetDidProof
+  id: GetDidProof
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: GetDidProof()
+  nameWithType: NftLauncherProof.GetDidProof()
+  fullName: ChiaWalletSdk.NftLauncherProof.GetDidProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public LineageProof GetDidProof()
+    return:
+      type: ChiaWalletSdk.LineageProof
+    content.vb: Public Function GetDidProof() As LineageProof
+  overload: ChiaWalletSdk.NftLauncherProof.GetDidProof*
+  implements:
+  - ChiaWalletSdk.INftLauncherProof.GetDidProof
+- uid: ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs
+  commentId: M:ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs
+  id: GetIntermediaryCoinProofs
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: GetIntermediaryCoinProofs()
+  nameWithType: NftLauncherProof.GetIntermediaryCoinProofs()
+  fullName: ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<IntermediaryCoinProof> GetIntermediaryCoinProofs()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof}
+    content.vb: Public Function GetIntermediaryCoinProofs() As List(Of IntermediaryCoinProof)
+  overload: ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs*
+  implements:
+  - ChiaWalletSdk.INftLauncherProof.GetIntermediaryCoinProofs
+- uid: ChiaWalletSdk.NftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  commentId: M:ChiaWalletSdk.NftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  id: SetDidProof(ChiaWalletSdk.LineageProof)
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: SetDidProof(LineageProof)
+  nameWithType: NftLauncherProof.SetDidProof(LineageProof)
+  fullName: ChiaWalletSdk.NftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftLauncherProof SetDidProof(LineageProof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.LineageProof
+    return:
+      type: ChiaWalletSdk.NftLauncherProof
+    content.vb: Public Function SetDidProof(value As LineageProof) As NftLauncherProof
+  overload: ChiaWalletSdk.NftLauncherProof.SetDidProof*
+  implements:
+  - ChiaWalletSdk.INftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+- uid: ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  commentId: M:ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  id: SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  parent: ChiaWalletSdk.NftLauncherProof
+  langs:
+  - csharp
+  - vb
+  name: SetIntermediaryCoinProofs(List<IntermediaryCoinProof>)
+  nameWithType: NftLauncherProof.SetIntermediaryCoinProofs(List<IntermediaryCoinProof>)
+  fullName: ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List<ChiaWalletSdk.IntermediaryCoinProof>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftLauncherProof SetIntermediaryCoinProofs(List<IntermediaryCoinProof> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof}
+    return:
+      type: ChiaWalletSdk.NftLauncherProof
+    content.vb: Public Function SetIntermediaryCoinProofs(value As List(Of IntermediaryCoinProof)) As NftLauncherProof
+  overload: ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs*
+  implements:
+  - ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  nameWithType.vb: NftLauncherProof.SetIntermediaryCoinProofs(List(Of IntermediaryCoinProof))
+  fullName.vb: ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List(Of ChiaWalletSdk.IntermediaryCoinProof))
+  name.vb: SetIntermediaryCoinProofs(List(Of IntermediaryCoinProof))
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.INftLauncherProof
+  commentId: T:ChiaWalletSdk.INftLauncherProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.INftLauncherProof.html
+  name: INftLauncherProof
+  nameWithType: INftLauncherProof
+  fullName: ChiaWalletSdk.INftLauncherProof
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.NftLauncherProof.#ctor*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof__ctor_System_IntPtr_
+  name: NftLauncherProof
+  nameWithType: NftLauncherProof.NftLauncherProof
+  fullName: ChiaWalletSdk.NftLauncherProof.NftLauncherProof
+  nameWithType.vb: NftLauncherProof.New
+  fullName.vb: ChiaWalletSdk.NftLauncherProof.New
+  name.vb: New
+- uid: ChiaWalletSdk.NftLauncherProof.Finalize*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_Finalize
+  name: ~NftLauncherProof
+  nameWithType: NftLauncherProof.~NftLauncherProof
+  fullName: ChiaWalletSdk.NftLauncherProof.~NftLauncherProof
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.NftLauncherProof.Finalize*
+    name: NftLauncherProof
+    isExternal: true
+    href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_Finalize
+- uid: ChiaWalletSdk.LineageProof
+  commentId: T:ChiaWalletSdk.LineageProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.LineageProof.html
+  name: LineageProof
+  nameWithType: LineageProof
+  fullName: ChiaWalletSdk.LineageProof
+- uid: System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.IntermediaryCoinProof.html
+  name: List<IntermediaryCoinProof>
+  nameWithType: List<IntermediaryCoinProof>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.IntermediaryCoinProof>
+  nameWithType.vb: List(Of IntermediaryCoinProof)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.IntermediaryCoinProof)
+  name.vb: List(Of IntermediaryCoinProof)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.IntermediaryCoinProof
+    name: IntermediaryCoinProof
+    isExternal: true
+    href: ChiaWalletSdk.IntermediaryCoinProof.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.IntermediaryCoinProof
+    name: IntermediaryCoinProof
+    isExternal: true
+    href: ChiaWalletSdk.IntermediaryCoinProof.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: NftLauncherProof.FreeRustArcPtr
+  fullName: ChiaWalletSdk.NftLauncherProof.FreeRustArcPtr
+- uid: ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: NftLauncherProof.CloneRustArcPtr
+  fullName: ChiaWalletSdk.NftLauncherProof.CloneRustArcPtr
+- uid: ChiaWalletSdk.NftLauncherProof.Destroy*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_Destroy
+  name: Destroy
+  nameWithType: NftLauncherProof.Destroy
+  fullName: ChiaWalletSdk.NftLauncherProof.Destroy
+- uid: ChiaWalletSdk.NftLauncherProof.Dispose*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_Dispose
+  name: Dispose
+  nameWithType: NftLauncherProof.Dispose
+  fullName: ChiaWalletSdk.NftLauncherProof.Dispose
+- uid: ChiaWalletSdk.NftLauncherProof.GetDidProof*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.GetDidProof
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_GetDidProof
+  name: GetDidProof
+  nameWithType: NftLauncherProof.GetDidProof
+  fullName: ChiaWalletSdk.NftLauncherProof.GetDidProof
+- uid: ChiaWalletSdk.INftLauncherProof.GetDidProof
+  commentId: M:ChiaWalletSdk.INftLauncherProof.GetDidProof
+  parent: ChiaWalletSdk.INftLauncherProof
+  isExternal: true
+  href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_GetDidProof
+  name: GetDidProof()
+  nameWithType: INftLauncherProof.GetDidProof()
+  fullName: ChiaWalletSdk.INftLauncherProof.GetDidProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftLauncherProof.GetDidProof
+    name: GetDidProof
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_GetDidProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftLauncherProof.GetDidProof
+    name: GetDidProof
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_GetDidProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_GetIntermediaryCoinProofs
+  name: GetIntermediaryCoinProofs
+  nameWithType: NftLauncherProof.GetIntermediaryCoinProofs
+  fullName: ChiaWalletSdk.NftLauncherProof.GetIntermediaryCoinProofs
+- uid: ChiaWalletSdk.INftLauncherProof.GetIntermediaryCoinProofs
+  commentId: M:ChiaWalletSdk.INftLauncherProof.GetIntermediaryCoinProofs
+  parent: ChiaWalletSdk.INftLauncherProof
+  isExternal: true
+  href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_GetIntermediaryCoinProofs
+  name: GetIntermediaryCoinProofs()
+  nameWithType: INftLauncherProof.GetIntermediaryCoinProofs()
+  fullName: ChiaWalletSdk.INftLauncherProof.GetIntermediaryCoinProofs()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftLauncherProof.GetIntermediaryCoinProofs
+    name: GetIntermediaryCoinProofs
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_GetIntermediaryCoinProofs
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftLauncherProof.GetIntermediaryCoinProofs
+    name: GetIntermediaryCoinProofs
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_GetIntermediaryCoinProofs
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NftLauncherProof.SetDidProof*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.SetDidProof
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_SetDidProof_ChiaWalletSdk_LineageProof_
+  name: SetDidProof
+  nameWithType: NftLauncherProof.SetDidProof
+  fullName: ChiaWalletSdk.NftLauncherProof.SetDidProof
+- uid: ChiaWalletSdk.INftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  commentId: M:ChiaWalletSdk.INftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  parent: ChiaWalletSdk.INftLauncherProof
+  isExternal: true
+  href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_SetDidProof_ChiaWalletSdk_LineageProof_
+  name: SetDidProof(LineageProof)
+  nameWithType: INftLauncherProof.SetDidProof(LineageProof)
+  fullName: ChiaWalletSdk.INftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+    name: SetDidProof
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_SetDidProof_ChiaWalletSdk_LineageProof_
+  - name: (
+  - uid: ChiaWalletSdk.LineageProof
+    name: LineageProof
+    isExternal: true
+    href: ChiaWalletSdk.LineageProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftLauncherProof.SetDidProof(ChiaWalletSdk.LineageProof)
+    name: SetDidProof
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_SetDidProof_ChiaWalletSdk_LineageProof_
+  - name: (
+  - uid: ChiaWalletSdk.LineageProof
+    name: LineageProof
+    isExternal: true
+    href: ChiaWalletSdk.LineageProof.html
+  - name: )
+- uid: ChiaWalletSdk.NftLauncherProof
+  commentId: T:ChiaWalletSdk.NftLauncherProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html
+  name: NftLauncherProof
+  nameWithType: NftLauncherProof
+  fullName: ChiaWalletSdk.NftLauncherProof
+- uid: ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs*
+  commentId: Overload:ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html#ChiaWalletSdk_NftLauncherProof_SetIntermediaryCoinProofs_System_Collections_Generic_List_ChiaWalletSdk_IntermediaryCoinProof__
+  name: SetIntermediaryCoinProofs
+  nameWithType: NftLauncherProof.SetIntermediaryCoinProofs
+  fullName: ChiaWalletSdk.NftLauncherProof.SetIntermediaryCoinProofs
+- uid: ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  commentId: M:ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+  parent: ChiaWalletSdk.INftLauncherProof
+  isExternal: true
+  href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_SetIntermediaryCoinProofs_System_Collections_Generic_List_ChiaWalletSdk_IntermediaryCoinProof__
+  name: SetIntermediaryCoinProofs(List<IntermediaryCoinProof>)
+  nameWithType: INftLauncherProof.SetIntermediaryCoinProofs(List<IntermediaryCoinProof>)
+  fullName: ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List<ChiaWalletSdk.IntermediaryCoinProof>)
+  nameWithType.vb: INftLauncherProof.SetIntermediaryCoinProofs(List(Of IntermediaryCoinProof))
+  fullName.vb: ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List(Of ChiaWalletSdk.IntermediaryCoinProof))
+  name.vb: SetIntermediaryCoinProofs(List(Of IntermediaryCoinProof))
+  spec.csharp:
+  - uid: ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+    name: SetIntermediaryCoinProofs
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_SetIntermediaryCoinProofs_System_Collections_Generic_List_ChiaWalletSdk_IntermediaryCoinProof__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.IntermediaryCoinProof
+    name: IntermediaryCoinProof
+    isExternal: true
+    href: ChiaWalletSdk.IntermediaryCoinProof.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INftLauncherProof.SetIntermediaryCoinProofs(System.Collections.Generic.List{ChiaWalletSdk.IntermediaryCoinProof})
+    name: SetIntermediaryCoinProofs
+    isExternal: true
+    href: ChiaWalletSdk.INftLauncherProof.html#ChiaWalletSdk_INftLauncherProof_SetIntermediaryCoinProofs_System_Collections_Generic_List_ChiaWalletSdk_IntermediaryCoinProof__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.IntermediaryCoinProof
+    name: IntermediaryCoinProof
+    isExternal: true
+    href: ChiaWalletSdk.IntermediaryCoinProof.html
+  - name: )
+  - name: )

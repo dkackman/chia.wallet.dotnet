@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ParsedNftInfo
+  commentId: T:ChiaWalletSdk.ParsedNftInfo
+  id: ParsedNftInfo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ParsedNftInfo.#ctor(ChiaWalletSdk.NftInfo,ChiaWalletSdk.Puzzle)
+  - ChiaWalletSdk.ParsedNftInfo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr
+  - ChiaWalletSdk.ParsedNftInfo.Destroy
+  - ChiaWalletSdk.ParsedNftInfo.Dispose
+  - ChiaWalletSdk.ParsedNftInfo.Finalize
+  - ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr
+  - ChiaWalletSdk.ParsedNftInfo.GetInfo
+  - ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle
+  - ChiaWalletSdk.ParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  - ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  - ChiaWalletSdk.ParsedNftInfo.pointer
+  langs:
+  - csharp
+  - vb
+  name: ParsedNftInfo
+  nameWithType: ParsedNftInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class ParsedNftInfo : IParsedNftInfo'
+    content.vb: Public Class ParsedNftInfo Implements IParsedNftInfo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IParsedNftInfo
+- uid: ChiaWalletSdk.ParsedNftInfo.pointer
+  commentId: F:ChiaWalletSdk.ParsedNftInfo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: ParsedNftInfo.pointer
+  fullName: ChiaWalletSdk.ParsedNftInfo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.ParsedNftInfo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: ParsedNftInfo(nint)
+  nameWithType: ParsedNftInfo.ParsedNftInfo(nint)
+  fullName: ChiaWalletSdk.ParsedNftInfo.ParsedNftInfo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ParsedNftInfo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.ParsedNftInfo.#ctor*
+  nameWithType.vb: ParsedNftInfo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.ParsedNftInfo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.ParsedNftInfo.Finalize
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: ~ParsedNftInfo()
+  nameWithType: ParsedNftInfo.~ParsedNftInfo()
+  fullName: ChiaWalletSdk.ParsedNftInfo.~ParsedNftInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~ParsedNftInfo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.ParsedNftInfo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.ParsedNftInfo.#ctor(ChiaWalletSdk.NftInfo,ChiaWalletSdk.Puzzle)
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.#ctor(ChiaWalletSdk.NftInfo,ChiaWalletSdk.Puzzle)
+  id: '#ctor(ChiaWalletSdk.NftInfo,ChiaWalletSdk.Puzzle)'
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: ParsedNftInfo(NftInfo, Puzzle)
+  nameWithType: ParsedNftInfo.ParsedNftInfo(NftInfo, Puzzle)
+  fullName: ChiaWalletSdk.ParsedNftInfo.ParsedNftInfo(ChiaWalletSdk.NftInfo, ChiaWalletSdk.Puzzle)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ParsedNftInfo(NftInfo info, Puzzle p2Puzzle)
+    parameters:
+    - id: info
+      type: ChiaWalletSdk.NftInfo
+    - id: p2Puzzle
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Public Sub New(info As NftInfo, p2Puzzle As Puzzle)
+  overload: ChiaWalletSdk.ParsedNftInfo.#ctor*
+  nameWithType.vb: ParsedNftInfo.New(NftInfo, Puzzle)
+  fullName.vb: ChiaWalletSdk.ParsedNftInfo.New(ChiaWalletSdk.NftInfo, ChiaWalletSdk.Puzzle)
+  name.vb: New(NftInfo, Puzzle)
+- uid: ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: ParsedNftInfo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: ParsedNftInfo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.ParsedNftInfo.Destroy
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: ParsedNftInfo.Destroy()
+  fullName: ChiaWalletSdk.ParsedNftInfo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.ParsedNftInfo.Destroy*
+- uid: ChiaWalletSdk.ParsedNftInfo.Dispose
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ParsedNftInfo.Dispose()
+  fullName: ChiaWalletSdk.ParsedNftInfo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.ParsedNftInfo.Dispose*
+- uid: ChiaWalletSdk.ParsedNftInfo.GetInfo
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.GetInfo
+  id: GetInfo
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: GetInfo()
+  nameWithType: ParsedNftInfo.GetInfo()
+  fullName: ChiaWalletSdk.ParsedNftInfo.GetInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NftInfo GetInfo()
+    return:
+      type: ChiaWalletSdk.NftInfo
+    content.vb: Public Function GetInfo() As NftInfo
+  overload: ChiaWalletSdk.ParsedNftInfo.GetInfo*
+  implements:
+  - ChiaWalletSdk.IParsedNftInfo.GetInfo
+- uid: ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle
+  id: GetP2Puzzle
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: GetP2Puzzle()
+  nameWithType: ParsedNftInfo.GetP2Puzzle()
+  fullName: ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Puzzle GetP2Puzzle()
+    return:
+      type: ChiaWalletSdk.Puzzle
+    content.vb: Public Function GetP2Puzzle() As Puzzle
+  overload: ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle*
+  implements:
+  - ChiaWalletSdk.IParsedNftInfo.GetP2Puzzle
+- uid: ChiaWalletSdk.ParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  id: SetInfo(ChiaWalletSdk.NftInfo)
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: SetInfo(NftInfo)
+  nameWithType: ParsedNftInfo.SetInfo(NftInfo)
+  fullName: ChiaWalletSdk.ParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedNftInfo SetInfo(NftInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.NftInfo
+    return:
+      type: ChiaWalletSdk.ParsedNftInfo
+    content.vb: Public Function SetInfo(value As NftInfo) As ParsedNftInfo
+  overload: ChiaWalletSdk.ParsedNftInfo.SetInfo*
+  implements:
+  - ChiaWalletSdk.IParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+- uid: ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  commentId: M:ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  id: SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  parent: ChiaWalletSdk.ParsedNftInfo
+  langs:
+  - csharp
+  - vb
+  name: SetP2Puzzle(Puzzle)
+  nameWithType: ParsedNftInfo.SetP2Puzzle(Puzzle)
+  fullName: ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedNftInfo SetP2Puzzle(Puzzle value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Puzzle
+    return:
+      type: ChiaWalletSdk.ParsedNftInfo
+    content.vb: Public Function SetP2Puzzle(value As Puzzle) As ParsedNftInfo
+  overload: ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle*
+  implements:
+  - ChiaWalletSdk.IParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IParsedNftInfo
+  commentId: T:ChiaWalletSdk.IParsedNftInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftInfo.html
+  name: IParsedNftInfo
+  nameWithType: IParsedNftInfo
+  fullName: ChiaWalletSdk.IParsedNftInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.ParsedNftInfo.#ctor*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo__ctor_System_IntPtr_
+  name: ParsedNftInfo
+  nameWithType: ParsedNftInfo.ParsedNftInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo.ParsedNftInfo
+  nameWithType.vb: ParsedNftInfo.New
+  fullName.vb: ChiaWalletSdk.ParsedNftInfo.New
+  name.vb: New
+- uid: ChiaWalletSdk.ParsedNftInfo.Finalize*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_Finalize
+  name: ~ParsedNftInfo
+  nameWithType: ParsedNftInfo.~ParsedNftInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo.~ParsedNftInfo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.ParsedNftInfo.Finalize*
+    name: ParsedNftInfo
+    isExternal: true
+    href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_Finalize
+- uid: ChiaWalletSdk.NftInfo
+  commentId: T:ChiaWalletSdk.NftInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NftInfo.html
+  name: NftInfo
+  nameWithType: NftInfo
+  fullName: ChiaWalletSdk.NftInfo
+- uid: ChiaWalletSdk.Puzzle
+  commentId: T:ChiaWalletSdk.Puzzle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Puzzle.html
+  name: Puzzle
+  nameWithType: Puzzle
+  fullName: ChiaWalletSdk.Puzzle
+- uid: ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: ParsedNftInfo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.ParsedNftInfo.FreeRustArcPtr
+- uid: ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: ParsedNftInfo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.ParsedNftInfo.CloneRustArcPtr
+- uid: ChiaWalletSdk.ParsedNftInfo.Destroy*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_Destroy
+  name: Destroy
+  nameWithType: ParsedNftInfo.Destroy
+  fullName: ChiaWalletSdk.ParsedNftInfo.Destroy
+- uid: ChiaWalletSdk.ParsedNftInfo.Dispose*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_Dispose
+  name: Dispose
+  nameWithType: ParsedNftInfo.Dispose
+  fullName: ChiaWalletSdk.ParsedNftInfo.Dispose
+- uid: ChiaWalletSdk.ParsedNftInfo.GetInfo*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.GetInfo
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_GetInfo
+  name: GetInfo
+  nameWithType: ParsedNftInfo.GetInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo.GetInfo
+- uid: ChiaWalletSdk.IParsedNftInfo.GetInfo
+  commentId: M:ChiaWalletSdk.IParsedNftInfo.GetInfo
+  parent: ChiaWalletSdk.IParsedNftInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_GetInfo
+  name: GetInfo()
+  nameWithType: IParsedNftInfo.GetInfo()
+  fullName: ChiaWalletSdk.IParsedNftInfo.GetInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedNftInfo.GetInfo
+    name: GetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_GetInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedNftInfo.GetInfo
+    name: GetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_GetInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_GetP2Puzzle
+  name: GetP2Puzzle
+  nameWithType: ParsedNftInfo.GetP2Puzzle
+  fullName: ChiaWalletSdk.ParsedNftInfo.GetP2Puzzle
+- uid: ChiaWalletSdk.IParsedNftInfo.GetP2Puzzle
+  commentId: M:ChiaWalletSdk.IParsedNftInfo.GetP2Puzzle
+  parent: ChiaWalletSdk.IParsedNftInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_GetP2Puzzle
+  name: GetP2Puzzle()
+  nameWithType: IParsedNftInfo.GetP2Puzzle()
+  fullName: ChiaWalletSdk.IParsedNftInfo.GetP2Puzzle()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedNftInfo.GetP2Puzzle
+    name: GetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_GetP2Puzzle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedNftInfo.GetP2Puzzle
+    name: GetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_GetP2Puzzle
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ParsedNftInfo.SetInfo*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.SetInfo
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_SetInfo_ChiaWalletSdk_NftInfo_
+  name: SetInfo
+  nameWithType: ParsedNftInfo.SetInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo.SetInfo
+- uid: ChiaWalletSdk.IParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  commentId: M:ChiaWalletSdk.IParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  parent: ChiaWalletSdk.IParsedNftInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_SetInfo_ChiaWalletSdk_NftInfo_
+  name: SetInfo(NftInfo)
+  nameWithType: IParsedNftInfo.SetInfo(NftInfo)
+  fullName: ChiaWalletSdk.IParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+    name: SetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_SetInfo_ChiaWalletSdk_NftInfo_
+  - name: (
+  - uid: ChiaWalletSdk.NftInfo
+    name: NftInfo
+    isExternal: true
+    href: ChiaWalletSdk.NftInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedNftInfo.SetInfo(ChiaWalletSdk.NftInfo)
+    name: SetInfo
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_SetInfo_ChiaWalletSdk_NftInfo_
+  - name: (
+  - uid: ChiaWalletSdk.NftInfo
+    name: NftInfo
+    isExternal: true
+    href: ChiaWalletSdk.NftInfo.html
+  - name: )
+- uid: ChiaWalletSdk.ParsedNftInfo
+  commentId: T:ChiaWalletSdk.ParsedNftInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html
+  name: ParsedNftInfo
+  nameWithType: ParsedNftInfo
+  fullName: ChiaWalletSdk.ParsedNftInfo
+- uid: ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle*
+  commentId: Overload:ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftInfo.html#ChiaWalletSdk_ParsedNftInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  name: SetP2Puzzle
+  nameWithType: ParsedNftInfo.SetP2Puzzle
+  fullName: ChiaWalletSdk.ParsedNftInfo.SetP2Puzzle
+- uid: ChiaWalletSdk.IParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  commentId: M:ChiaWalletSdk.IParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  parent: ChiaWalletSdk.IParsedNftInfo
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  name: SetP2Puzzle(Puzzle)
+  nameWithType: IParsedNftInfo.SetP2Puzzle(Puzzle)
+  fullName: ChiaWalletSdk.IParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+    name: SetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  - name: (
+  - uid: ChiaWalletSdk.Puzzle
+    name: Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.Puzzle.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedNftInfo.SetP2Puzzle(ChiaWalletSdk.Puzzle)
+    name: SetP2Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.IParsedNftInfo.html#ChiaWalletSdk_IParsedNftInfo_SetP2Puzzle_ChiaWalletSdk_Puzzle_
+  - name: (
+  - uid: ChiaWalletSdk.Puzzle
+    name: Puzzle
+    isExternal: true
+    href: ChiaWalletSdk.Puzzle.html
+  - name: )

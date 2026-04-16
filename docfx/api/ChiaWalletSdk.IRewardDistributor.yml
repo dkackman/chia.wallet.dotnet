@@ -1,0 +1,1184 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IRewardDistributor
+  commentId: T:ChiaWalletSdk.IRewardDistributor
+  id: IRewardDistributor
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IRewardDistributor.AddEntry(System.Byte[],System.String,System.Byte[])
+  - ChiaWalletSdk.IRewardDistributor.AddIncentives(System.String)
+  - ChiaWalletSdk.IRewardDistributor.Coin
+  - ChiaWalletSdk.IRewardDistributor.CommitIncentives(ChiaWalletSdk.RewardSlot,System.String,System.Byte[],System.String)
+  - ChiaWalletSdk.IRewardDistributor.Constants
+  - ChiaWalletSdk.IRewardDistributor.FinishSpend(System.Collections.Generic.List{ChiaWalletSdk.CatSpend})
+  - ChiaWalletSdk.IRewardDistributor.InitiatePayout(ChiaWalletSdk.EntrySlot)
+  - ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash
+  - ChiaWalletSdk.IRewardDistributor.NewEpoch(ChiaWalletSdk.RewardSlot)
+  - ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots
+  - ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots
+  - ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots
+  - ChiaWalletSdk.IRewardDistributor.PendingSignature
+  - ChiaWalletSdk.IRewardDistributor.Proof
+  - ChiaWalletSdk.IRewardDistributor.PuzzleHash
+  - ChiaWalletSdk.IRewardDistributor.RemoveEntry(ChiaWalletSdk.EntrySlot,System.Byte[])
+  - ChiaWalletSdk.IRewardDistributor.ReserveAssetId
+  - ChiaWalletSdk.IRewardDistributor.ReserveCoin
+  - ChiaWalletSdk.IRewardDistributor.ReserveProof
+  - ChiaWalletSdk.IRewardDistributor.Stake(ChiaWalletSdk.Nft,ChiaWalletSdk.NftLauncherProof,System.Byte[])
+  - ChiaWalletSdk.IRewardDistributor.State
+  - ChiaWalletSdk.IRewardDistributor.Sync(System.String)
+  - ChiaWalletSdk.IRewardDistributor.Unstake(ChiaWalletSdk.EntrySlot,ChiaWalletSdk.Nft)
+  - ChiaWalletSdk.IRewardDistributor.WithdrawIncentives(ChiaWalletSdk.CommitmentSlot,ChiaWalletSdk.RewardSlot)
+  langs:
+  - csharp
+  - vb
+  name: IRewardDistributor
+  nameWithType: IRewardDistributor
+  fullName: ChiaWalletSdk.IRewardDistributor
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IRewardDistributor
+    content.vb: Public Interface IRewardDistributor
+  derivedClasses:
+  - ChiaWalletSdk.RewardDistributor
+- uid: ChiaWalletSdk.IRewardDistributor.AddEntry(System.Byte[],System.String,System.Byte[])
+  commentId: M:ChiaWalletSdk.IRewardDistributor.AddEntry(System.Byte[],System.String,System.Byte[])
+  id: AddEntry(System.Byte[],System.String,System.Byte[])
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: AddEntry(byte[], string, byte[])
+  nameWithType: IRewardDistributor.AddEntry(byte[], string, byte[])
+  fullName: ChiaWalletSdk.IRewardDistributor.AddEntry(byte[], string, byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Program> AddEntry(byte[] payoutPuzzleHash, string shares, byte[] managerSingletonInnerPuzzleHash)
+    parameters:
+    - id: payoutPuzzleHash
+      type: System.Byte[]
+    - id: shares
+      type: System.String
+    - id: managerSingletonInnerPuzzleHash
+      type: System.Byte[]
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Function AddEntry(payoutPuzzleHash As Byte(), shares As String, managerSingletonInnerPuzzleHash As Byte()) As List(Of Program)
+  overload: ChiaWalletSdk.IRewardDistributor.AddEntry*
+  nameWithType.vb: IRewardDistributor.AddEntry(Byte(), String, Byte())
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.AddEntry(Byte(), String, Byte())
+  name.vb: AddEntry(Byte(), String, Byte())
+- uid: ChiaWalletSdk.IRewardDistributor.AddIncentives(System.String)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.AddIncentives(System.String)
+  id: AddIncentives(System.String)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: AddIncentives(string)
+  nameWithType: IRewardDistributor.AddIncentives(string)
+  fullName: ChiaWalletSdk.IRewardDistributor.AddIncentives(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Program> AddIncentives(string amount)
+    parameters:
+    - id: amount
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Function AddIncentives(amount As String) As List(Of Program)
+  overload: ChiaWalletSdk.IRewardDistributor.AddIncentives*
+  nameWithType.vb: IRewardDistributor.AddIncentives(String)
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.AddIncentives(String)
+  name.vb: AddIncentives(String)
+- uid: ChiaWalletSdk.IRewardDistributor.Coin
+  commentId: M:ChiaWalletSdk.IRewardDistributor.Coin
+  id: Coin
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: Coin()
+  nameWithType: IRewardDistributor.Coin()
+  fullName: ChiaWalletSdk.IRewardDistributor.Coin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin Coin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function Coin() As Coin
+  overload: ChiaWalletSdk.IRewardDistributor.Coin*
+- uid: ChiaWalletSdk.IRewardDistributor.CommitIncentives(ChiaWalletSdk.RewardSlot,System.String,System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.CommitIncentives(ChiaWalletSdk.RewardSlot,System.String,System.Byte[],System.String)
+  id: CommitIncentives(ChiaWalletSdk.RewardSlot,System.String,System.Byte[],System.String)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: CommitIncentives(RewardSlot, string, byte[], string)
+  nameWithType: IRewardDistributor.CommitIncentives(RewardSlot, string, byte[], string)
+  fullName: ChiaWalletSdk.IRewardDistributor.CommitIncentives(ChiaWalletSdk.RewardSlot, string, byte[], string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Program> CommitIncentives(RewardSlot rewardSlot, string epochStart, byte[] clawbackPh, string rewardsToAdd)
+    parameters:
+    - id: rewardSlot
+      type: ChiaWalletSdk.RewardSlot
+    - id: epochStart
+      type: System.String
+    - id: clawbackPh
+      type: System.Byte[]
+    - id: rewardsToAdd
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Function CommitIncentives(rewardSlot As RewardSlot, epochStart As String, clawbackPh As Byte(), rewardsToAdd As String) As List(Of Program)
+  overload: ChiaWalletSdk.IRewardDistributor.CommitIncentives*
+  nameWithType.vb: IRewardDistributor.CommitIncentives(RewardSlot, String, Byte(), String)
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.CommitIncentives(ChiaWalletSdk.RewardSlot, String, Byte(), String)
+  name.vb: CommitIncentives(RewardSlot, String, Byte(), String)
+- uid: ChiaWalletSdk.IRewardDistributor.Constants
+  commentId: M:ChiaWalletSdk.IRewardDistributor.Constants
+  id: Constants
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: Constants()
+  nameWithType: IRewardDistributor.Constants()
+  fullName: ChiaWalletSdk.IRewardDistributor.Constants()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorConstants Constants()
+    return:
+      type: ChiaWalletSdk.RewardDistributorConstants
+    content.vb: Function Constants() As RewardDistributorConstants
+  overload: ChiaWalletSdk.IRewardDistributor.Constants*
+- uid: ChiaWalletSdk.IRewardDistributor.FinishSpend(System.Collections.Generic.List{ChiaWalletSdk.CatSpend})
+  commentId: M:ChiaWalletSdk.IRewardDistributor.FinishSpend(System.Collections.Generic.List{ChiaWalletSdk.CatSpend})
+  id: FinishSpend(System.Collections.Generic.List{ChiaWalletSdk.CatSpend})
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: FinishSpend(List<CatSpend>)
+  nameWithType: IRewardDistributor.FinishSpend(List<CatSpend>)
+  fullName: ChiaWalletSdk.IRewardDistributor.FinishSpend(System.Collections.Generic.List<ChiaWalletSdk.CatSpend>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorFinishedSpendResult FinishSpend(List<CatSpend> otherCatSpends)
+    parameters:
+    - id: otherCatSpends
+      type: System.Collections.Generic.List{ChiaWalletSdk.CatSpend}
+    return:
+      type: ChiaWalletSdk.RewardDistributorFinishedSpendResult
+    content.vb: Function FinishSpend(otherCatSpends As List(Of CatSpend)) As RewardDistributorFinishedSpendResult
+  overload: ChiaWalletSdk.IRewardDistributor.FinishSpend*
+  nameWithType.vb: IRewardDistributor.FinishSpend(List(Of CatSpend))
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.FinishSpend(System.Collections.Generic.List(Of ChiaWalletSdk.CatSpend))
+  name.vb: FinishSpend(List(Of CatSpend))
+- uid: ChiaWalletSdk.IRewardDistributor.InitiatePayout(ChiaWalletSdk.EntrySlot)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.InitiatePayout(ChiaWalletSdk.EntrySlot)
+  id: InitiatePayout(ChiaWalletSdk.EntrySlot)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: InitiatePayout(EntrySlot)
+  nameWithType: IRewardDistributor.InitiatePayout(EntrySlot)
+  fullName: ChiaWalletSdk.IRewardDistributor.InitiatePayout(ChiaWalletSdk.EntrySlot)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorInitiatePayoutResult InitiatePayout(EntrySlot entrySlot)
+    parameters:
+    - id: entrySlot
+      type: ChiaWalletSdk.EntrySlot
+    return:
+      type: ChiaWalletSdk.RewardDistributorInitiatePayoutResult
+    content.vb: Function InitiatePayout(entrySlot As EntrySlot) As RewardDistributorInitiatePayoutResult
+  overload: ChiaWalletSdk.IRewardDistributor.InitiatePayout*
+- uid: ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash
+  commentId: M:ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash
+  id: InnerPuzzleHash
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: InnerPuzzleHash()
+  nameWithType: IRewardDistributor.InnerPuzzleHash()
+  fullName: ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] InnerPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function InnerPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash*
+- uid: ChiaWalletSdk.IRewardDistributor.NewEpoch(ChiaWalletSdk.RewardSlot)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.NewEpoch(ChiaWalletSdk.RewardSlot)
+  id: NewEpoch(ChiaWalletSdk.RewardSlot)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: NewEpoch(RewardSlot)
+  nameWithType: IRewardDistributor.NewEpoch(RewardSlot)
+  fullName: ChiaWalletSdk.IRewardDistributor.NewEpoch(ChiaWalletSdk.RewardSlot)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorNewEpochResult NewEpoch(RewardSlot rewardSlot)
+    parameters:
+    - id: rewardSlot
+      type: ChiaWalletSdk.RewardSlot
+    return:
+      type: ChiaWalletSdk.RewardDistributorNewEpochResult
+    content.vb: Function NewEpoch(rewardSlot As RewardSlot) As RewardDistributorNewEpochResult
+  overload: ChiaWalletSdk.IRewardDistributor.NewEpoch*
+- uid: ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots
+  commentId: M:ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots
+  id: PendingCreatedCommitmentSlots
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: PendingCreatedCommitmentSlots()
+  nameWithType: IRewardDistributor.PendingCreatedCommitmentSlots()
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<CommitmentSlot> PendingCreatedCommitmentSlots()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CommitmentSlot}
+    content.vb: Function PendingCreatedCommitmentSlots() As List(Of CommitmentSlot)
+  overload: ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots*
+- uid: ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots
+  commentId: M:ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots
+  id: PendingCreatedEntrySlots
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: PendingCreatedEntrySlots()
+  nameWithType: IRewardDistributor.PendingCreatedEntrySlots()
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<EntrySlot> PendingCreatedEntrySlots()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.EntrySlot}
+    content.vb: Function PendingCreatedEntrySlots() As List(Of EntrySlot)
+  overload: ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots*
+- uid: ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots
+  commentId: M:ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots
+  id: PendingCreatedRewardSlots
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: PendingCreatedRewardSlots()
+  nameWithType: IRewardDistributor.PendingCreatedRewardSlots()
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<RewardSlot> PendingCreatedRewardSlots()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.RewardSlot}
+    content.vb: Function PendingCreatedRewardSlots() As List(Of RewardSlot)
+  overload: ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots*
+- uid: ChiaWalletSdk.IRewardDistributor.PendingSignature
+  commentId: M:ChiaWalletSdk.IRewardDistributor.PendingSignature
+  id: PendingSignature
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: PendingSignature()
+  nameWithType: IRewardDistributor.PendingSignature()
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Signature PendingSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Function PendingSignature() As Signature
+  overload: ChiaWalletSdk.IRewardDistributor.PendingSignature*
+- uid: ChiaWalletSdk.IRewardDistributor.Proof
+  commentId: M:ChiaWalletSdk.IRewardDistributor.Proof
+  id: Proof
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: Proof()
+  nameWithType: IRewardDistributor.Proof()
+  fullName: ChiaWalletSdk.IRewardDistributor.Proof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Proof Proof()
+    return:
+      type: ChiaWalletSdk.Proof
+    content.vb: Function Proof() As Proof
+  overload: ChiaWalletSdk.IRewardDistributor.Proof*
+- uid: ChiaWalletSdk.IRewardDistributor.PuzzleHash
+  commentId: M:ChiaWalletSdk.IRewardDistributor.PuzzleHash
+  id: PuzzleHash
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: PuzzleHash()
+  nameWithType: IRewardDistributor.PuzzleHash()
+  fullName: ChiaWalletSdk.IRewardDistributor.PuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] PuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function PuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IRewardDistributor.PuzzleHash*
+- uid: ChiaWalletSdk.IRewardDistributor.RemoveEntry(ChiaWalletSdk.EntrySlot,System.Byte[])
+  commentId: M:ChiaWalletSdk.IRewardDistributor.RemoveEntry(ChiaWalletSdk.EntrySlot,System.Byte[])
+  id: RemoveEntry(ChiaWalletSdk.EntrySlot,System.Byte[])
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: RemoveEntry(EntrySlot, byte[])
+  nameWithType: IRewardDistributor.RemoveEntry(EntrySlot, byte[])
+  fullName: ChiaWalletSdk.IRewardDistributor.RemoveEntry(ChiaWalletSdk.EntrySlot, byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorRemoveEntryResult RemoveEntry(EntrySlot entrySlot, byte[] managerSingletonInnerPuzzleHash)
+    parameters:
+    - id: entrySlot
+      type: ChiaWalletSdk.EntrySlot
+    - id: managerSingletonInnerPuzzleHash
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.RewardDistributorRemoveEntryResult
+    content.vb: Function RemoveEntry(entrySlot As EntrySlot, managerSingletonInnerPuzzleHash As Byte()) As RewardDistributorRemoveEntryResult
+  overload: ChiaWalletSdk.IRewardDistributor.RemoveEntry*
+  nameWithType.vb: IRewardDistributor.RemoveEntry(EntrySlot, Byte())
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.RemoveEntry(ChiaWalletSdk.EntrySlot, Byte())
+  name.vb: RemoveEntry(EntrySlot, Byte())
+- uid: ChiaWalletSdk.IRewardDistributor.ReserveAssetId
+  commentId: M:ChiaWalletSdk.IRewardDistributor.ReserveAssetId
+  id: ReserveAssetId
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: ReserveAssetId()
+  nameWithType: IRewardDistributor.ReserveAssetId()
+  fullName: ChiaWalletSdk.IRewardDistributor.ReserveAssetId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] ReserveAssetId()
+    return:
+      type: System.Byte[]
+    content.vb: Function ReserveAssetId() As Byte()
+  overload: ChiaWalletSdk.IRewardDistributor.ReserveAssetId*
+- uid: ChiaWalletSdk.IRewardDistributor.ReserveCoin
+  commentId: M:ChiaWalletSdk.IRewardDistributor.ReserveCoin
+  id: ReserveCoin
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: ReserveCoin()
+  nameWithType: IRewardDistributor.ReserveCoin()
+  fullName: ChiaWalletSdk.IRewardDistributor.ReserveCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin ReserveCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function ReserveCoin() As Coin
+  overload: ChiaWalletSdk.IRewardDistributor.ReserveCoin*
+- uid: ChiaWalletSdk.IRewardDistributor.ReserveProof
+  commentId: M:ChiaWalletSdk.IRewardDistributor.ReserveProof
+  id: ReserveProof
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: ReserveProof()
+  nameWithType: IRewardDistributor.ReserveProof()
+  fullName: ChiaWalletSdk.IRewardDistributor.ReserveProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: LineageProof ReserveProof()
+    return:
+      type: ChiaWalletSdk.LineageProof
+    content.vb: Function ReserveProof() As LineageProof
+  overload: ChiaWalletSdk.IRewardDistributor.ReserveProof*
+- uid: ChiaWalletSdk.IRewardDistributor.Stake(ChiaWalletSdk.Nft,ChiaWalletSdk.NftLauncherProof,System.Byte[])
+  commentId: M:ChiaWalletSdk.IRewardDistributor.Stake(ChiaWalletSdk.Nft,ChiaWalletSdk.NftLauncherProof,System.Byte[])
+  id: Stake(ChiaWalletSdk.Nft,ChiaWalletSdk.NftLauncherProof,System.Byte[])
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: Stake(Nft, NftLauncherProof, byte[])
+  nameWithType: IRewardDistributor.Stake(Nft, NftLauncherProof, byte[])
+  fullName: ChiaWalletSdk.IRewardDistributor.Stake(ChiaWalletSdk.Nft, ChiaWalletSdk.NftLauncherProof, byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorStakeResult Stake(Nft currentNft, NftLauncherProof nftLauncherProof, byte[] entryCustodyPuzzleHash)
+    parameters:
+    - id: currentNft
+      type: ChiaWalletSdk.Nft
+    - id: nftLauncherProof
+      type: ChiaWalletSdk.NftLauncherProof
+    - id: entryCustodyPuzzleHash
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.RewardDistributorStakeResult
+    content.vb: Function Stake(currentNft As Nft, nftLauncherProof As NftLauncherProof, entryCustodyPuzzleHash As Byte()) As RewardDistributorStakeResult
+  overload: ChiaWalletSdk.IRewardDistributor.Stake*
+  nameWithType.vb: IRewardDistributor.Stake(Nft, NftLauncherProof, Byte())
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.Stake(ChiaWalletSdk.Nft, ChiaWalletSdk.NftLauncherProof, Byte())
+  name.vb: Stake(Nft, NftLauncherProof, Byte())
+- uid: ChiaWalletSdk.IRewardDistributor.State
+  commentId: M:ChiaWalletSdk.IRewardDistributor.State
+  id: State
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: State()
+  nameWithType: IRewardDistributor.State()
+  fullName: ChiaWalletSdk.IRewardDistributor.State()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorState State()
+    return:
+      type: ChiaWalletSdk.RewardDistributorState
+    content.vb: Function State() As RewardDistributorState
+  overload: ChiaWalletSdk.IRewardDistributor.State*
+- uid: ChiaWalletSdk.IRewardDistributor.Sync(System.String)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.Sync(System.String)
+  id: Sync(System.String)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: Sync(string)
+  nameWithType: IRewardDistributor.Sync(string)
+  fullName: ChiaWalletSdk.IRewardDistributor.Sync(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Program> Sync(string updateTime)
+    parameters:
+    - id: updateTime
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Function Sync(updateTime As String) As List(Of Program)
+  overload: ChiaWalletSdk.IRewardDistributor.Sync*
+  nameWithType.vb: IRewardDistributor.Sync(String)
+  fullName.vb: ChiaWalletSdk.IRewardDistributor.Sync(String)
+  name.vb: Sync(String)
+- uid: ChiaWalletSdk.IRewardDistributor.Unstake(ChiaWalletSdk.EntrySlot,ChiaWalletSdk.Nft)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.Unstake(ChiaWalletSdk.EntrySlot,ChiaWalletSdk.Nft)
+  id: Unstake(ChiaWalletSdk.EntrySlot,ChiaWalletSdk.Nft)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: Unstake(EntrySlot, Nft)
+  nameWithType: IRewardDistributor.Unstake(EntrySlot, Nft)
+  fullName: ChiaWalletSdk.IRewardDistributor.Unstake(ChiaWalletSdk.EntrySlot, ChiaWalletSdk.Nft)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorUnstakeResult Unstake(EntrySlot entrySlot, Nft lockedNft)
+    parameters:
+    - id: entrySlot
+      type: ChiaWalletSdk.EntrySlot
+    - id: lockedNft
+      type: ChiaWalletSdk.Nft
+    return:
+      type: ChiaWalletSdk.RewardDistributorUnstakeResult
+    content.vb: Function Unstake(entrySlot As EntrySlot, lockedNft As Nft) As RewardDistributorUnstakeResult
+  overload: ChiaWalletSdk.IRewardDistributor.Unstake*
+- uid: ChiaWalletSdk.IRewardDistributor.WithdrawIncentives(ChiaWalletSdk.CommitmentSlot,ChiaWalletSdk.RewardSlot)
+  commentId: M:ChiaWalletSdk.IRewardDistributor.WithdrawIncentives(ChiaWalletSdk.CommitmentSlot,ChiaWalletSdk.RewardSlot)
+  id: WithdrawIncentives(ChiaWalletSdk.CommitmentSlot,ChiaWalletSdk.RewardSlot)
+  parent: ChiaWalletSdk.IRewardDistributor
+  langs:
+  - csharp
+  - vb
+  name: WithdrawIncentives(CommitmentSlot, RewardSlot)
+  nameWithType: IRewardDistributor.WithdrawIncentives(CommitmentSlot, RewardSlot)
+  fullName: ChiaWalletSdk.IRewardDistributor.WithdrawIncentives(ChiaWalletSdk.CommitmentSlot, ChiaWalletSdk.RewardSlot)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: RewardDistributorWithdrawIncentivesResult WithdrawIncentives(CommitmentSlot commitmentSlot, RewardSlot rewardSlot)
+    parameters:
+    - id: commitmentSlot
+      type: ChiaWalletSdk.CommitmentSlot
+    - id: rewardSlot
+      type: ChiaWalletSdk.RewardSlot
+    return:
+      type: ChiaWalletSdk.RewardDistributorWithdrawIncentivesResult
+    content.vb: Function WithdrawIncentives(commitmentSlot As CommitmentSlot, rewardSlot As RewardSlot) As RewardDistributorWithdrawIncentivesResult
+  overload: ChiaWalletSdk.IRewardDistributor.WithdrawIncentives*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IRewardDistributor.AddEntry*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.AddEntry
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_AddEntry_System_Byte___System_String_System_Byte___
+  name: AddEntry
+  nameWithType: IRewardDistributor.AddEntry
+  fullName: ChiaWalletSdk.IRewardDistributor.AddEntry
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Program}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Program}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Program.html
+  name: List<Program>
+  nameWithType: List<Program>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Program>
+  nameWithType.vb: List(Of Program)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Program)
+  name.vb: List(Of Program)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IRewardDistributor.AddIncentives*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.AddIncentives
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_AddIncentives_System_String_
+  name: AddIncentives
+  nameWithType: IRewardDistributor.AddIncentives
+  fullName: ChiaWalletSdk.IRewardDistributor.AddIncentives
+- uid: ChiaWalletSdk.IRewardDistributor.Coin*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.Coin
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_Coin
+  name: Coin
+  nameWithType: IRewardDistributor.Coin
+  fullName: ChiaWalletSdk.IRewardDistributor.Coin
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.IRewardDistributor.CommitIncentives*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.CommitIncentives
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_CommitIncentives_ChiaWalletSdk_RewardSlot_System_String_System_Byte___System_String_
+  name: CommitIncentives
+  nameWithType: IRewardDistributor.CommitIncentives
+  fullName: ChiaWalletSdk.IRewardDistributor.CommitIncentives
+- uid: ChiaWalletSdk.RewardSlot
+  commentId: T:ChiaWalletSdk.RewardSlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardSlot.html
+  name: RewardSlot
+  nameWithType: RewardSlot
+  fullName: ChiaWalletSdk.RewardSlot
+- uid: ChiaWalletSdk.IRewardDistributor.Constants*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.Constants
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_Constants
+  name: Constants
+  nameWithType: IRewardDistributor.Constants
+  fullName: ChiaWalletSdk.IRewardDistributor.Constants
+- uid: ChiaWalletSdk.RewardDistributorConstants
+  commentId: T:ChiaWalletSdk.RewardDistributorConstants
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorConstants.html
+  name: RewardDistributorConstants
+  nameWithType: RewardDistributorConstants
+  fullName: ChiaWalletSdk.RewardDistributorConstants
+- uid: ChiaWalletSdk.IRewardDistributor.FinishSpend*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.FinishSpend
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_FinishSpend_System_Collections_Generic_List_ChiaWalletSdk_CatSpend__
+  name: FinishSpend
+  nameWithType: IRewardDistributor.FinishSpend
+  fullName: ChiaWalletSdk.IRewardDistributor.FinishSpend
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CatSpend}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CatSpend}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CatSpend.html
+  name: List<CatSpend>
+  nameWithType: List<CatSpend>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CatSpend>
+  nameWithType.vb: List(Of CatSpend)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CatSpend)
+  name.vb: List(Of CatSpend)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CatSpend
+    name: CatSpend
+    isExternal: true
+    href: ChiaWalletSdk.CatSpend.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CatSpend
+    name: CatSpend
+    isExternal: true
+    href: ChiaWalletSdk.CatSpend.html
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorFinishedSpendResult
+  commentId: T:ChiaWalletSdk.RewardDistributorFinishedSpendResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorFinishedSpendResult.html
+  name: RewardDistributorFinishedSpendResult
+  nameWithType: RewardDistributorFinishedSpendResult
+  fullName: ChiaWalletSdk.RewardDistributorFinishedSpendResult
+- uid: ChiaWalletSdk.IRewardDistributor.InitiatePayout*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.InitiatePayout
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_InitiatePayout_ChiaWalletSdk_EntrySlot_
+  name: InitiatePayout
+  nameWithType: IRewardDistributor.InitiatePayout
+  fullName: ChiaWalletSdk.IRewardDistributor.InitiatePayout
+- uid: ChiaWalletSdk.EntrySlot
+  commentId: T:ChiaWalletSdk.EntrySlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.EntrySlot.html
+  name: EntrySlot
+  nameWithType: EntrySlot
+  fullName: ChiaWalletSdk.EntrySlot
+- uid: ChiaWalletSdk.RewardDistributorInitiatePayoutResult
+  commentId: T:ChiaWalletSdk.RewardDistributorInitiatePayoutResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorInitiatePayoutResult.html
+  name: RewardDistributorInitiatePayoutResult
+  nameWithType: RewardDistributorInitiatePayoutResult
+  fullName: ChiaWalletSdk.RewardDistributorInitiatePayoutResult
+- uid: ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_InnerPuzzleHash
+  name: InnerPuzzleHash
+  nameWithType: IRewardDistributor.InnerPuzzleHash
+  fullName: ChiaWalletSdk.IRewardDistributor.InnerPuzzleHash
+- uid: ChiaWalletSdk.IRewardDistributor.NewEpoch*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.NewEpoch
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_NewEpoch_ChiaWalletSdk_RewardSlot_
+  name: NewEpoch
+  nameWithType: IRewardDistributor.NewEpoch
+  fullName: ChiaWalletSdk.IRewardDistributor.NewEpoch
+- uid: ChiaWalletSdk.RewardDistributorNewEpochResult
+  commentId: T:ChiaWalletSdk.RewardDistributorNewEpochResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorNewEpochResult.html
+  name: RewardDistributorNewEpochResult
+  nameWithType: RewardDistributorNewEpochResult
+  fullName: ChiaWalletSdk.RewardDistributorNewEpochResult
+- uid: ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_PendingCreatedCommitmentSlots
+  name: PendingCreatedCommitmentSlots
+  nameWithType: IRewardDistributor.PendingCreatedCommitmentSlots
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingCreatedCommitmentSlots
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CommitmentSlot}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CommitmentSlot}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CommitmentSlot.html
+  name: List<CommitmentSlot>
+  nameWithType: List<CommitmentSlot>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CommitmentSlot>
+  nameWithType.vb: List(Of CommitmentSlot)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CommitmentSlot)
+  name.vb: List(Of CommitmentSlot)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CommitmentSlot
+    name: CommitmentSlot
+    isExternal: true
+    href: ChiaWalletSdk.CommitmentSlot.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CommitmentSlot
+    name: CommitmentSlot
+    isExternal: true
+    href: ChiaWalletSdk.CommitmentSlot.html
+  - name: )
+- uid: ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_PendingCreatedEntrySlots
+  name: PendingCreatedEntrySlots
+  nameWithType: IRewardDistributor.PendingCreatedEntrySlots
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingCreatedEntrySlots
+- uid: System.Collections.Generic.List{ChiaWalletSdk.EntrySlot}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.EntrySlot}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.EntrySlot.html
+  name: List<EntrySlot>
+  nameWithType: List<EntrySlot>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.EntrySlot>
+  nameWithType.vb: List(Of EntrySlot)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.EntrySlot)
+  name.vb: List(Of EntrySlot)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.EntrySlot
+    name: EntrySlot
+    isExternal: true
+    href: ChiaWalletSdk.EntrySlot.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.EntrySlot
+    name: EntrySlot
+    isExternal: true
+    href: ChiaWalletSdk.EntrySlot.html
+  - name: )
+- uid: ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_PendingCreatedRewardSlots
+  name: PendingCreatedRewardSlots
+  nameWithType: IRewardDistributor.PendingCreatedRewardSlots
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingCreatedRewardSlots
+- uid: System.Collections.Generic.List{ChiaWalletSdk.RewardSlot}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.RewardSlot}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.RewardSlot.html
+  name: List<RewardSlot>
+  nameWithType: List<RewardSlot>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.RewardSlot>
+  nameWithType.vb: List(Of RewardSlot)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.RewardSlot)
+  name.vb: List(Of RewardSlot)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.RewardSlot
+    name: RewardSlot
+    isExternal: true
+    href: ChiaWalletSdk.RewardSlot.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.RewardSlot
+    name: RewardSlot
+    isExternal: true
+    href: ChiaWalletSdk.RewardSlot.html
+  - name: )
+- uid: ChiaWalletSdk.IRewardDistributor.PendingSignature*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.PendingSignature
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_PendingSignature
+  name: PendingSignature
+  nameWithType: IRewardDistributor.PendingSignature
+  fullName: ChiaWalletSdk.IRewardDistributor.PendingSignature
+- uid: ChiaWalletSdk.Signature
+  commentId: T:ChiaWalletSdk.Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Signature.html
+  name: Signature
+  nameWithType: Signature
+  fullName: ChiaWalletSdk.Signature
+- uid: ChiaWalletSdk.IRewardDistributor.Proof*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.Proof
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_Proof
+  name: Proof
+  nameWithType: IRewardDistributor.Proof
+  fullName: ChiaWalletSdk.IRewardDistributor.Proof
+- uid: ChiaWalletSdk.Proof
+  commentId: T:ChiaWalletSdk.Proof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html
+  name: Proof
+  nameWithType: Proof
+  fullName: ChiaWalletSdk.Proof
+- uid: ChiaWalletSdk.IRewardDistributor.PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_PuzzleHash
+  name: PuzzleHash
+  nameWithType: IRewardDistributor.PuzzleHash
+  fullName: ChiaWalletSdk.IRewardDistributor.PuzzleHash
+- uid: ChiaWalletSdk.IRewardDistributor.RemoveEntry*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.RemoveEntry
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_RemoveEntry_ChiaWalletSdk_EntrySlot_System_Byte___
+  name: RemoveEntry
+  nameWithType: IRewardDistributor.RemoveEntry
+  fullName: ChiaWalletSdk.IRewardDistributor.RemoveEntry
+- uid: ChiaWalletSdk.RewardDistributorRemoveEntryResult
+  commentId: T:ChiaWalletSdk.RewardDistributorRemoveEntryResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorRemoveEntryResult.html
+  name: RewardDistributorRemoveEntryResult
+  nameWithType: RewardDistributorRemoveEntryResult
+  fullName: ChiaWalletSdk.RewardDistributorRemoveEntryResult
+- uid: ChiaWalletSdk.IRewardDistributor.ReserveAssetId*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.ReserveAssetId
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_ReserveAssetId
+  name: ReserveAssetId
+  nameWithType: IRewardDistributor.ReserveAssetId
+  fullName: ChiaWalletSdk.IRewardDistributor.ReserveAssetId
+- uid: ChiaWalletSdk.IRewardDistributor.ReserveCoin*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.ReserveCoin
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_ReserveCoin
+  name: ReserveCoin
+  nameWithType: IRewardDistributor.ReserveCoin
+  fullName: ChiaWalletSdk.IRewardDistributor.ReserveCoin
+- uid: ChiaWalletSdk.IRewardDistributor.ReserveProof*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.ReserveProof
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_ReserveProof
+  name: ReserveProof
+  nameWithType: IRewardDistributor.ReserveProof
+  fullName: ChiaWalletSdk.IRewardDistributor.ReserveProof
+- uid: ChiaWalletSdk.LineageProof
+  commentId: T:ChiaWalletSdk.LineageProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.LineageProof.html
+  name: LineageProof
+  nameWithType: LineageProof
+  fullName: ChiaWalletSdk.LineageProof
+- uid: ChiaWalletSdk.IRewardDistributor.Stake*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.Stake
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_Stake_ChiaWalletSdk_Nft_ChiaWalletSdk_NftLauncherProof_System_Byte___
+  name: Stake
+  nameWithType: IRewardDistributor.Stake
+  fullName: ChiaWalletSdk.IRewardDistributor.Stake
+- uid: ChiaWalletSdk.Nft
+  commentId: T:ChiaWalletSdk.Nft
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Nft.html
+  name: Nft
+  nameWithType: Nft
+  fullName: ChiaWalletSdk.Nft
+- uid: ChiaWalletSdk.NftLauncherProof
+  commentId: T:ChiaWalletSdk.NftLauncherProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NftLauncherProof.html
+  name: NftLauncherProof
+  nameWithType: NftLauncherProof
+  fullName: ChiaWalletSdk.NftLauncherProof
+- uid: ChiaWalletSdk.RewardDistributorStakeResult
+  commentId: T:ChiaWalletSdk.RewardDistributorStakeResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorStakeResult.html
+  name: RewardDistributorStakeResult
+  nameWithType: RewardDistributorStakeResult
+  fullName: ChiaWalletSdk.RewardDistributorStakeResult
+- uid: ChiaWalletSdk.IRewardDistributor.State*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.State
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_State
+  name: State
+  nameWithType: IRewardDistributor.State
+  fullName: ChiaWalletSdk.IRewardDistributor.State
+- uid: ChiaWalletSdk.RewardDistributorState
+  commentId: T:ChiaWalletSdk.RewardDistributorState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorState.html
+  name: RewardDistributorState
+  nameWithType: RewardDistributorState
+  fullName: ChiaWalletSdk.RewardDistributorState
+- uid: ChiaWalletSdk.IRewardDistributor.Sync*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.Sync
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_Sync_System_String_
+  name: Sync
+  nameWithType: IRewardDistributor.Sync
+  fullName: ChiaWalletSdk.IRewardDistributor.Sync
+- uid: ChiaWalletSdk.IRewardDistributor.Unstake*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.Unstake
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_Unstake_ChiaWalletSdk_EntrySlot_ChiaWalletSdk_Nft_
+  name: Unstake
+  nameWithType: IRewardDistributor.Unstake
+  fullName: ChiaWalletSdk.IRewardDistributor.Unstake
+- uid: ChiaWalletSdk.RewardDistributorUnstakeResult
+  commentId: T:ChiaWalletSdk.RewardDistributorUnstakeResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorUnstakeResult.html
+  name: RewardDistributorUnstakeResult
+  nameWithType: RewardDistributorUnstakeResult
+  fullName: ChiaWalletSdk.RewardDistributorUnstakeResult
+- uid: ChiaWalletSdk.IRewardDistributor.WithdrawIncentives*
+  commentId: Overload:ChiaWalletSdk.IRewardDistributor.WithdrawIncentives
+  isExternal: true
+  href: ChiaWalletSdk.IRewardDistributor.html#ChiaWalletSdk_IRewardDistributor_WithdrawIncentives_ChiaWalletSdk_CommitmentSlot_ChiaWalletSdk_RewardSlot_
+  name: WithdrawIncentives
+  nameWithType: IRewardDistributor.WithdrawIncentives
+  fullName: ChiaWalletSdk.IRewardDistributor.WithdrawIncentives
+- uid: ChiaWalletSdk.CommitmentSlot
+  commentId: T:ChiaWalletSdk.CommitmentSlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html
+  name: CommitmentSlot
+  nameWithType: CommitmentSlot
+  fullName: ChiaWalletSdk.CommitmentSlot
+- uid: ChiaWalletSdk.RewardDistributorWithdrawIncentivesResult
+  commentId: T:ChiaWalletSdk.RewardDistributorWithdrawIncentivesResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorWithdrawIncentivesResult.html
+  name: RewardDistributorWithdrawIncentivesResult
+  nameWithType: RewardDistributorWithdrawIncentivesResult
+  fullName: ChiaWalletSdk.RewardDistributorWithdrawIncentivesResult

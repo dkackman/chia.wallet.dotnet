@@ -1,0 +1,1965 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.FullBlock
+  commentId: T:ChiaWalletSdk.FullBlock
+  id: FullBlock
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.FullBlock.#ctor(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle},ChiaWalletSdk.RewardChainBlock,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.Foliage,ChiaWalletSdk.FoliageTransactionBlock,ChiaWalletSdk.TransactionsInfo,System.Byte[],System.Collections.Generic.List{System.UInt32})
+  - ChiaWalletSdk.FullBlock.#ctor(System.IntPtr)
+  - ChiaWalletSdk.FullBlock.CloneRustArcPtr
+  - ChiaWalletSdk.FullBlock.Destroy
+  - ChiaWalletSdk.FullBlock.Dispose
+  - ChiaWalletSdk.FullBlock.Finalize
+  - ChiaWalletSdk.FullBlock.FreeRustArcPtr
+  - ChiaWalletSdk.FullBlock.GetChallengeChainIpProof
+  - ChiaWalletSdk.FullBlock.GetChallengeChainSpProof
+  - ChiaWalletSdk.FullBlock.GetFinishedSubSlots
+  - ChiaWalletSdk.FullBlock.GetFoliage
+  - ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock
+  - ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof
+  - ChiaWalletSdk.FullBlock.GetRewardChainBlock
+  - ChiaWalletSdk.FullBlock.GetRewardChainIpProof
+  - ChiaWalletSdk.FullBlock.GetRewardChainSpProof
+  - ChiaWalletSdk.FullBlock.GetTransactionsGenerator
+  - ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList
+  - ChiaWalletSdk.FullBlock.GetTransactionsInfo
+  - ChiaWalletSdk.FullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.FullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.FullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  - ChiaWalletSdk.FullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  - ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  - ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.FullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  - ChiaWalletSdk.FullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.FullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.FullBlock.SetTransactionsGenerator(System.Byte[])
+  - ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  - ChiaWalletSdk.FullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  - ChiaWalletSdk.FullBlock.pointer
+  langs:
+  - csharp
+  - vb
+  name: FullBlock
+  nameWithType: FullBlock
+  fullName: ChiaWalletSdk.FullBlock
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class FullBlock : IFullBlock'
+    content.vb: Public Class FullBlock Implements IFullBlock
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IFullBlock
+- uid: ChiaWalletSdk.FullBlock.pointer
+  commentId: F:ChiaWalletSdk.FullBlock.pointer
+  id: pointer
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: FullBlock.pointer
+  fullName: ChiaWalletSdk.FullBlock.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.FullBlock.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.FullBlock.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: FullBlock(nint)
+  nameWithType: FullBlock.FullBlock(nint)
+  fullName: ChiaWalletSdk.FullBlock.FullBlock(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public FullBlock(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.FullBlock.#ctor*
+  nameWithType.vb: FullBlock.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.FullBlock.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.FullBlock.Finalize
+  commentId: M:ChiaWalletSdk.FullBlock.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: ~FullBlock()
+  nameWithType: FullBlock.~FullBlock()
+  fullName: ChiaWalletSdk.FullBlock.~FullBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~FullBlock()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.FullBlock.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.FullBlock.#ctor(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle},ChiaWalletSdk.RewardChainBlock,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.Foliage,ChiaWalletSdk.FoliageTransactionBlock,ChiaWalletSdk.TransactionsInfo,System.Byte[],System.Collections.Generic.List{System.UInt32})
+  commentId: M:ChiaWalletSdk.FullBlock.#ctor(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle},ChiaWalletSdk.RewardChainBlock,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.Foliage,ChiaWalletSdk.FoliageTransactionBlock,ChiaWalletSdk.TransactionsInfo,System.Byte[],System.Collections.Generic.List{System.UInt32})
+  id: '#ctor(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle},ChiaWalletSdk.RewardChainBlock,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.Foliage,ChiaWalletSdk.FoliageTransactionBlock,ChiaWalletSdk.TransactionsInfo,System.Byte[],System.Collections.Generic.List{System.UInt32})'
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: FullBlock(List<EndOfSubSlotBundle>, RewardChainBlock, VdfProof?, VdfProof, VdfProof?, VdfProof, VdfProof?, Foliage, FoliageTransactionBlock?, TransactionsInfo?, byte[]?, List<uint>)
+  nameWithType: FullBlock.FullBlock(List<EndOfSubSlotBundle>, RewardChainBlock, VdfProof?, VdfProof, VdfProof?, VdfProof, VdfProof?, Foliage, FoliageTransactionBlock?, TransactionsInfo?, byte[]?, List<uint>)
+  fullName: ChiaWalletSdk.FullBlock.FullBlock(System.Collections.Generic.List<ChiaWalletSdk.EndOfSubSlotBundle>, ChiaWalletSdk.RewardChainBlock, ChiaWalletSdk.VdfProof?, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof?, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof?, ChiaWalletSdk.Foliage, ChiaWalletSdk.FoliageTransactionBlock?, ChiaWalletSdk.TransactionsInfo?, byte[]?, System.Collections.Generic.List<uint>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public FullBlock(List<EndOfSubSlotBundle> finishedSubSlots, RewardChainBlock rewardChainBlock, VdfProof? challengeChainSpProof, VdfProof challengeChainIpProof, VdfProof? rewardChainSpProof, VdfProof rewardChainIpProof, VdfProof? infusedChallengeChainIpProof, Foliage foliage, FoliageTransactionBlock? foliageTransactionBlock, TransactionsInfo? transactionsInfo, byte[]? transactionsGenerator, List<uint> transactionsGeneratorRefList)
+    parameters:
+    - id: finishedSubSlots
+      type: System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle}
+    - id: rewardChainBlock
+      type: ChiaWalletSdk.RewardChainBlock
+    - id: challengeChainSpProof
+      type: ChiaWalletSdk.VdfProof
+    - id: challengeChainIpProof
+      type: ChiaWalletSdk.VdfProof
+    - id: rewardChainSpProof
+      type: ChiaWalletSdk.VdfProof
+    - id: rewardChainIpProof
+      type: ChiaWalletSdk.VdfProof
+    - id: infusedChallengeChainIpProof
+      type: ChiaWalletSdk.VdfProof
+    - id: foliage
+      type: ChiaWalletSdk.Foliage
+    - id: foliageTransactionBlock
+      type: ChiaWalletSdk.FoliageTransactionBlock
+    - id: transactionsInfo
+      type: ChiaWalletSdk.TransactionsInfo
+    - id: transactionsGenerator
+      type: System.Byte[]
+    - id: transactionsGeneratorRefList
+      type: System.Collections.Generic.List{System.UInt32}
+    content.vb: Public Sub New(finishedSubSlots As List(Of EndOfSubSlotBundle), rewardChainBlock As RewardChainBlock, challengeChainSpProof As VdfProof, challengeChainIpProof As VdfProof, rewardChainSpProof As VdfProof, rewardChainIpProof As VdfProof, infusedChallengeChainIpProof As VdfProof, foliage As Foliage, foliageTransactionBlock As FoliageTransactionBlock, transactionsInfo As TransactionsInfo, transactionsGenerator As Byte(), transactionsGeneratorRefList As List(Of UInteger))
+  overload: ChiaWalletSdk.FullBlock.#ctor*
+  nameWithType.vb: FullBlock.New(List(Of EndOfSubSlotBundle), RewardChainBlock, VdfProof, VdfProof, VdfProof, VdfProof, VdfProof, Foliage, FoliageTransactionBlock, TransactionsInfo, Byte(), List(Of UInteger))
+  fullName.vb: ChiaWalletSdk.FullBlock.New(System.Collections.Generic.List(Of ChiaWalletSdk.EndOfSubSlotBundle), ChiaWalletSdk.RewardChainBlock, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof, ChiaWalletSdk.Foliage, ChiaWalletSdk.FoliageTransactionBlock, ChiaWalletSdk.TransactionsInfo, Byte(), System.Collections.Generic.List(Of UInteger))
+  name.vb: New(List(Of EndOfSubSlotBundle), RewardChainBlock, VdfProof, VdfProof, VdfProof, VdfProof, VdfProof, Foliage, FoliageTransactionBlock, TransactionsInfo, Byte(), List(Of UInteger))
+- uid: ChiaWalletSdk.FullBlock.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.FullBlock.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: FullBlock.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.FullBlock.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.FullBlock.FreeRustArcPtr*
+- uid: ChiaWalletSdk.FullBlock.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.FullBlock.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: FullBlock.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.FullBlock.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.FullBlock.CloneRustArcPtr*
+- uid: ChiaWalletSdk.FullBlock.Destroy
+  commentId: M:ChiaWalletSdk.FullBlock.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: FullBlock.Destroy()
+  fullName: ChiaWalletSdk.FullBlock.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.FullBlock.Destroy*
+- uid: ChiaWalletSdk.FullBlock.Dispose
+  commentId: M:ChiaWalletSdk.FullBlock.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: FullBlock.Dispose()
+  fullName: ChiaWalletSdk.FullBlock.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.FullBlock.Dispose*
+- uid: ChiaWalletSdk.FullBlock.GetChallengeChainIpProof
+  commentId: M:ChiaWalletSdk.FullBlock.GetChallengeChainIpProof
+  id: GetChallengeChainIpProof
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainIpProof()
+  nameWithType: FullBlock.GetChallengeChainIpProof()
+  fullName: ChiaWalletSdk.FullBlock.GetChallengeChainIpProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof GetChallengeChainIpProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetChallengeChainIpProof() As VdfProof
+  overload: ChiaWalletSdk.FullBlock.GetChallengeChainIpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof
+- uid: ChiaWalletSdk.FullBlock.GetChallengeChainSpProof
+  commentId: M:ChiaWalletSdk.FullBlock.GetChallengeChainSpProof
+  id: GetChallengeChainSpProof
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainSpProof()
+  nameWithType: FullBlock.GetChallengeChainSpProof()
+  fullName: ChiaWalletSdk.FullBlock.GetChallengeChainSpProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof? GetChallengeChainSpProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetChallengeChainSpProof() As VdfProof
+  overload: ChiaWalletSdk.FullBlock.GetChallengeChainSpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof
+- uid: ChiaWalletSdk.FullBlock.GetFinishedSubSlots
+  commentId: M:ChiaWalletSdk.FullBlock.GetFinishedSubSlots
+  id: GetFinishedSubSlots
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetFinishedSubSlots()
+  nameWithType: FullBlock.GetFinishedSubSlots()
+  fullName: ChiaWalletSdk.FullBlock.GetFinishedSubSlots()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<EndOfSubSlotBundle> GetFinishedSubSlots()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle}
+    content.vb: Public Function GetFinishedSubSlots() As List(Of EndOfSubSlotBundle)
+  overload: ChiaWalletSdk.FullBlock.GetFinishedSubSlots*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetFinishedSubSlots
+- uid: ChiaWalletSdk.FullBlock.GetFoliage
+  commentId: M:ChiaWalletSdk.FullBlock.GetFoliage
+  id: GetFoliage
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetFoliage()
+  nameWithType: FullBlock.GetFoliage()
+  fullName: ChiaWalletSdk.FullBlock.GetFoliage()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage GetFoliage()
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function GetFoliage() As Foliage
+  overload: ChiaWalletSdk.FullBlock.GetFoliage*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetFoliage
+- uid: ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock
+  commentId: M:ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock
+  id: GetFoliageTransactionBlock
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetFoliageTransactionBlock()
+  nameWithType: FullBlock.GetFoliageTransactionBlock()
+  fullName: ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageTransactionBlock? GetFoliageTransactionBlock()
+    return:
+      type: ChiaWalletSdk.FoliageTransactionBlock
+    content.vb: Public Function GetFoliageTransactionBlock() As FoliageTransactionBlock
+  overload: ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock
+- uid: ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof
+  commentId: M:ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof
+  id: GetInfusedChallengeChainIpProof
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetInfusedChallengeChainIpProof()
+  nameWithType: FullBlock.GetInfusedChallengeChainIpProof()
+  fullName: ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof? GetInfusedChallengeChainIpProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetInfusedChallengeChainIpProof() As VdfProof
+  overload: ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof
+- uid: ChiaWalletSdk.FullBlock.GetRewardChainBlock
+  commentId: M:ChiaWalletSdk.FullBlock.GetRewardChainBlock
+  id: GetRewardChainBlock
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainBlock()
+  nameWithType: FullBlock.GetRewardChainBlock()
+  fullName: ChiaWalletSdk.FullBlock.GetRewardChainBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardChainBlock GetRewardChainBlock()
+    return:
+      type: ChiaWalletSdk.RewardChainBlock
+    content.vb: Public Function GetRewardChainBlock() As RewardChainBlock
+  overload: ChiaWalletSdk.FullBlock.GetRewardChainBlock*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetRewardChainBlock
+- uid: ChiaWalletSdk.FullBlock.GetRewardChainIpProof
+  commentId: M:ChiaWalletSdk.FullBlock.GetRewardChainIpProof
+  id: GetRewardChainIpProof
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainIpProof()
+  nameWithType: FullBlock.GetRewardChainIpProof()
+  fullName: ChiaWalletSdk.FullBlock.GetRewardChainIpProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof GetRewardChainIpProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetRewardChainIpProof() As VdfProof
+  overload: ChiaWalletSdk.FullBlock.GetRewardChainIpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetRewardChainIpProof
+- uid: ChiaWalletSdk.FullBlock.GetRewardChainSpProof
+  commentId: M:ChiaWalletSdk.FullBlock.GetRewardChainSpProof
+  id: GetRewardChainSpProof
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainSpProof()
+  nameWithType: FullBlock.GetRewardChainSpProof()
+  fullName: ChiaWalletSdk.FullBlock.GetRewardChainSpProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof? GetRewardChainSpProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetRewardChainSpProof() As VdfProof
+  overload: ChiaWalletSdk.FullBlock.GetRewardChainSpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetRewardChainSpProof
+- uid: ChiaWalletSdk.FullBlock.GetTransactionsGenerator
+  commentId: M:ChiaWalletSdk.FullBlock.GetTransactionsGenerator
+  id: GetTransactionsGenerator
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetTransactionsGenerator()
+  nameWithType: FullBlock.GetTransactionsGenerator()
+  fullName: ChiaWalletSdk.FullBlock.GetTransactionsGenerator()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetTransactionsGenerator()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetTransactionsGenerator() As Byte()
+  overload: ChiaWalletSdk.FullBlock.GetTransactionsGenerator*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetTransactionsGenerator
+- uid: ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList
+  commentId: M:ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList
+  id: GetTransactionsGeneratorRefList
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetTransactionsGeneratorRefList()
+  nameWithType: FullBlock.GetTransactionsGeneratorRefList()
+  fullName: ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<uint> GetTransactionsGeneratorRefList()
+    return:
+      type: System.Collections.Generic.List{System.UInt32}
+    content.vb: Public Function GetTransactionsGeneratorRefList() As List(Of UInteger)
+  overload: ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList
+- uid: ChiaWalletSdk.FullBlock.GetTransactionsInfo
+  commentId: M:ChiaWalletSdk.FullBlock.GetTransactionsInfo
+  id: GetTransactionsInfo
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: GetTransactionsInfo()
+  nameWithType: FullBlock.GetTransactionsInfo()
+  fullName: ChiaWalletSdk.FullBlock.GetTransactionsInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public TransactionsInfo? GetTransactionsInfo()
+    return:
+      type: ChiaWalletSdk.TransactionsInfo
+    content.vb: Public Function GetTransactionsInfo() As TransactionsInfo
+  overload: ChiaWalletSdk.FullBlock.GetTransactionsInfo*
+  implements:
+  - ChiaWalletSdk.IFullBlock.GetTransactionsInfo
+- uid: ChiaWalletSdk.FullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.FullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  id: SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainIpProof(VdfProof)
+  nameWithType: FullBlock.SetChallengeChainIpProof(VdfProof)
+  fullName: ChiaWalletSdk.FullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetChallengeChainIpProof(VdfProof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetChallengeChainIpProof(value As VdfProof) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetChallengeChainIpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+- uid: ChiaWalletSdk.FullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.FullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  id: SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainSpProof(VdfProof?)
+  nameWithType: FullBlock.SetChallengeChainSpProof(VdfProof?)
+  fullName: ChiaWalletSdk.FullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetChallengeChainSpProof(VdfProof? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetChallengeChainSpProof(value As VdfProof) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetChallengeChainSpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  nameWithType.vb: FullBlock.SetChallengeChainSpProof(VdfProof)
+  fullName.vb: ChiaWalletSdk.FullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  name.vb: SetChallengeChainSpProof(VdfProof)
+- uid: ChiaWalletSdk.FullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  commentId: M:ChiaWalletSdk.FullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  id: SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetFinishedSubSlots(List<EndOfSubSlotBundle>)
+  nameWithType: FullBlock.SetFinishedSubSlots(List<EndOfSubSlotBundle>)
+  fullName: ChiaWalletSdk.FullBlock.SetFinishedSubSlots(System.Collections.Generic.List<ChiaWalletSdk.EndOfSubSlotBundle>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetFinishedSubSlots(List<EndOfSubSlotBundle> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle}
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetFinishedSubSlots(value As List(Of EndOfSubSlotBundle)) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetFinishedSubSlots*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  nameWithType.vb: FullBlock.SetFinishedSubSlots(List(Of EndOfSubSlotBundle))
+  fullName.vb: ChiaWalletSdk.FullBlock.SetFinishedSubSlots(System.Collections.Generic.List(Of ChiaWalletSdk.EndOfSubSlotBundle))
+  name.vb: SetFinishedSubSlots(List(Of EndOfSubSlotBundle))
+- uid: ChiaWalletSdk.FullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  commentId: M:ChiaWalletSdk.FullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  id: SetFoliage(ChiaWalletSdk.Foliage)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetFoliage(Foliage)
+  nameWithType: FullBlock.SetFoliage(Foliage)
+  fullName: ChiaWalletSdk.FullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetFoliage(Foliage value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Foliage
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetFoliage(value As Foliage) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetFoliage*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+- uid: ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  commentId: M:ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  id: SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetFoliageTransactionBlock(FoliageTransactionBlock?)
+  nameWithType: FullBlock.SetFoliageTransactionBlock(FoliageTransactionBlock?)
+  fullName: ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetFoliageTransactionBlock(FoliageTransactionBlock? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.FoliageTransactionBlock
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetFoliageTransactionBlock(value As FoliageTransactionBlock) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  nameWithType.vb: FullBlock.SetFoliageTransactionBlock(FoliageTransactionBlock)
+  fullName.vb: ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  name.vb: SetFoliageTransactionBlock(FoliageTransactionBlock)
+- uid: ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  id: SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetInfusedChallengeChainIpProof(VdfProof?)
+  nameWithType: FullBlock.SetInfusedChallengeChainIpProof(VdfProof?)
+  fullName: ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetInfusedChallengeChainIpProof(VdfProof? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetInfusedChallengeChainIpProof(value As VdfProof) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  nameWithType.vb: FullBlock.SetInfusedChallengeChainIpProof(VdfProof)
+  fullName.vb: ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  name.vb: SetInfusedChallengeChainIpProof(VdfProof)
+- uid: ChiaWalletSdk.FullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  commentId: M:ChiaWalletSdk.FullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  id: SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainBlock(RewardChainBlock)
+  nameWithType: FullBlock.SetRewardChainBlock(RewardChainBlock)
+  fullName: ChiaWalletSdk.FullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetRewardChainBlock(RewardChainBlock value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.RewardChainBlock
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetRewardChainBlock(value As RewardChainBlock) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetRewardChainBlock*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+- uid: ChiaWalletSdk.FullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.FullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  id: SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainIpProof(VdfProof)
+  nameWithType: FullBlock.SetRewardChainIpProof(VdfProof)
+  fullName: ChiaWalletSdk.FullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetRewardChainIpProof(VdfProof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetRewardChainIpProof(value As VdfProof) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetRewardChainIpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+- uid: ChiaWalletSdk.FullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.FullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  id: SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainSpProof(VdfProof?)
+  nameWithType: FullBlock.SetRewardChainSpProof(VdfProof?)
+  fullName: ChiaWalletSdk.FullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetRewardChainSpProof(VdfProof? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetRewardChainSpProof(value As VdfProof) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetRewardChainSpProof*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  nameWithType.vb: FullBlock.SetRewardChainSpProof(VdfProof)
+  fullName.vb: ChiaWalletSdk.FullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  name.vb: SetRewardChainSpProof(VdfProof)
+- uid: ChiaWalletSdk.FullBlock.SetTransactionsGenerator(System.Byte[])
+  commentId: M:ChiaWalletSdk.FullBlock.SetTransactionsGenerator(System.Byte[])
+  id: SetTransactionsGenerator(System.Byte[])
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetTransactionsGenerator(byte[]?)
+  nameWithType: FullBlock.SetTransactionsGenerator(byte[]?)
+  fullName: ChiaWalletSdk.FullBlock.SetTransactionsGenerator(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetTransactionsGenerator(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetTransactionsGenerator(value As Byte()) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetTransactionsGenerator*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(System.Byte[])
+  nameWithType.vb: FullBlock.SetTransactionsGenerator(Byte())
+  fullName.vb: ChiaWalletSdk.FullBlock.SetTransactionsGenerator(Byte())
+  name.vb: SetTransactionsGenerator(Byte())
+- uid: ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  commentId: M:ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  id: SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetTransactionsGeneratorRefList(List<uint>)
+  nameWithType: FullBlock.SetTransactionsGeneratorRefList(List<uint>)
+  fullName: ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List<uint>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetTransactionsGeneratorRefList(List<uint> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.UInt32}
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetTransactionsGeneratorRefList(value As List(Of UInteger)) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  nameWithType.vb: FullBlock.SetTransactionsGeneratorRefList(List(Of UInteger))
+  fullName.vb: ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List(Of UInteger))
+  name.vb: SetTransactionsGeneratorRefList(List(Of UInteger))
+- uid: ChiaWalletSdk.FullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  commentId: M:ChiaWalletSdk.FullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  id: SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  parent: ChiaWalletSdk.FullBlock
+  langs:
+  - csharp
+  - vb
+  name: SetTransactionsInfo(TransactionsInfo?)
+  nameWithType: FullBlock.SetTransactionsInfo(TransactionsInfo?)
+  fullName: ChiaWalletSdk.FullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock SetTransactionsInfo(TransactionsInfo? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.TransactionsInfo
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function SetTransactionsInfo(value As TransactionsInfo) As FullBlock
+  overload: ChiaWalletSdk.FullBlock.SetTransactionsInfo*
+  implements:
+  - ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  nameWithType.vb: FullBlock.SetTransactionsInfo(TransactionsInfo)
+  fullName.vb: ChiaWalletSdk.FullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  name.vb: SetTransactionsInfo(TransactionsInfo)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IFullBlock
+  commentId: T:ChiaWalletSdk.IFullBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html
+  name: IFullBlock
+  nameWithType: IFullBlock
+  fullName: ChiaWalletSdk.IFullBlock
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.FullBlock.#ctor*
+  commentId: Overload:ChiaWalletSdk.FullBlock.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock__ctor_System_IntPtr_
+  name: FullBlock
+  nameWithType: FullBlock.FullBlock
+  fullName: ChiaWalletSdk.FullBlock.FullBlock
+  nameWithType.vb: FullBlock.New
+  fullName.vb: ChiaWalletSdk.FullBlock.New
+  name.vb: New
+- uid: ChiaWalletSdk.FullBlock.Finalize*
+  commentId: Overload:ChiaWalletSdk.FullBlock.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_Finalize
+  name: ~FullBlock
+  nameWithType: FullBlock.~FullBlock
+  fullName: ChiaWalletSdk.FullBlock.~FullBlock
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.FullBlock.Finalize*
+    name: FullBlock
+    isExternal: true
+    href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_Finalize
+- uid: System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.EndOfSubSlotBundle.html
+  name: List<EndOfSubSlotBundle>
+  nameWithType: List<EndOfSubSlotBundle>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.EndOfSubSlotBundle>
+  nameWithType.vb: List(Of EndOfSubSlotBundle)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.EndOfSubSlotBundle)
+  name.vb: List(Of EndOfSubSlotBundle)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.EndOfSubSlotBundle
+    name: EndOfSubSlotBundle
+    isExternal: true
+    href: ChiaWalletSdk.EndOfSubSlotBundle.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.EndOfSubSlotBundle
+    name: EndOfSubSlotBundle
+    isExternal: true
+    href: ChiaWalletSdk.EndOfSubSlotBundle.html
+  - name: )
+- uid: ChiaWalletSdk.RewardChainBlock
+  commentId: T:ChiaWalletSdk.RewardChainBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardChainBlock.html
+  name: RewardChainBlock
+  nameWithType: RewardChainBlock
+  fullName: ChiaWalletSdk.RewardChainBlock
+- uid: ChiaWalletSdk.VdfProof
+  commentId: T:ChiaWalletSdk.VdfProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html
+  name: VdfProof
+  nameWithType: VdfProof
+  fullName: ChiaWalletSdk.VdfProof
+- uid: ChiaWalletSdk.Foliage
+  commentId: T:ChiaWalletSdk.Foliage
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html
+  name: Foliage
+  nameWithType: Foliage
+  fullName: ChiaWalletSdk.Foliage
+- uid: ChiaWalletSdk.FoliageTransactionBlock
+  commentId: T:ChiaWalletSdk.FoliageTransactionBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.FoliageTransactionBlock.html
+  name: FoliageTransactionBlock
+  nameWithType: FoliageTransactionBlock
+  fullName: ChiaWalletSdk.FoliageTransactionBlock
+- uid: ChiaWalletSdk.TransactionsInfo
+  commentId: T:ChiaWalletSdk.TransactionsInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.TransactionsInfo.html
+  name: TransactionsInfo
+  nameWithType: TransactionsInfo
+  fullName: ChiaWalletSdk.TransactionsInfo
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{System.UInt32}
+  commentId: T:System.Collections.Generic.List{System.UInt32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<uint>
+  nameWithType: List<uint>
+  fullName: System.Collections.Generic.List<uint>
+  nameWithType.vb: List(Of UInteger)
+  fullName.vb: System.Collections.Generic.List(Of UInteger)
+  name.vb: List(Of UInteger)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.FullBlock.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.FullBlock.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: FullBlock.FreeRustArcPtr
+  fullName: ChiaWalletSdk.FullBlock.FreeRustArcPtr
+- uid: ChiaWalletSdk.FullBlock.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.FullBlock.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: FullBlock.CloneRustArcPtr
+  fullName: ChiaWalletSdk.FullBlock.CloneRustArcPtr
+- uid: ChiaWalletSdk.FullBlock.Destroy*
+  commentId: Overload:ChiaWalletSdk.FullBlock.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_Destroy
+  name: Destroy
+  nameWithType: FullBlock.Destroy
+  fullName: ChiaWalletSdk.FullBlock.Destroy
+- uid: ChiaWalletSdk.FullBlock.Dispose*
+  commentId: Overload:ChiaWalletSdk.FullBlock.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_Dispose
+  name: Dispose
+  nameWithType: FullBlock.Dispose
+  fullName: ChiaWalletSdk.FullBlock.Dispose
+- uid: ChiaWalletSdk.FullBlock.GetChallengeChainIpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetChallengeChainIpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetChallengeChainIpProof
+  name: GetChallengeChainIpProof
+  nameWithType: FullBlock.GetChallengeChainIpProof
+  fullName: ChiaWalletSdk.FullBlock.GetChallengeChainIpProof
+- uid: ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof
+  commentId: M:ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetChallengeChainIpProof
+  name: GetChallengeChainIpProof()
+  nameWithType: IFullBlock.GetChallengeChainIpProof()
+  fullName: ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof
+    name: GetChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetChallengeChainIpProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof
+    name: GetChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetChallengeChainIpProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetChallengeChainSpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetChallengeChainSpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetChallengeChainSpProof
+  name: GetChallengeChainSpProof
+  nameWithType: FullBlock.GetChallengeChainSpProof
+  fullName: ChiaWalletSdk.FullBlock.GetChallengeChainSpProof
+- uid: ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof
+  commentId: M:ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetChallengeChainSpProof
+  name: GetChallengeChainSpProof()
+  nameWithType: IFullBlock.GetChallengeChainSpProof()
+  fullName: ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof
+    name: GetChallengeChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetChallengeChainSpProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof
+    name: GetChallengeChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetChallengeChainSpProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetFinishedSubSlots*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetFinishedSubSlots
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetFinishedSubSlots
+  name: GetFinishedSubSlots
+  nameWithType: FullBlock.GetFinishedSubSlots
+  fullName: ChiaWalletSdk.FullBlock.GetFinishedSubSlots
+- uid: ChiaWalletSdk.IFullBlock.GetFinishedSubSlots
+  commentId: M:ChiaWalletSdk.IFullBlock.GetFinishedSubSlots
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFinishedSubSlots
+  name: GetFinishedSubSlots()
+  nameWithType: IFullBlock.GetFinishedSubSlots()
+  fullName: ChiaWalletSdk.IFullBlock.GetFinishedSubSlots()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetFinishedSubSlots
+    name: GetFinishedSubSlots
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFinishedSubSlots
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetFinishedSubSlots
+    name: GetFinishedSubSlots
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFinishedSubSlots
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetFoliage*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetFoliage
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetFoliage
+  name: GetFoliage
+  nameWithType: FullBlock.GetFoliage
+  fullName: ChiaWalletSdk.FullBlock.GetFoliage
+- uid: ChiaWalletSdk.IFullBlock.GetFoliage
+  commentId: M:ChiaWalletSdk.IFullBlock.GetFoliage
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFoliage
+  name: GetFoliage()
+  nameWithType: IFullBlock.GetFoliage()
+  fullName: ChiaWalletSdk.IFullBlock.GetFoliage()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetFoliage
+    name: GetFoliage
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFoliage
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetFoliage
+    name: GetFoliage
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFoliage
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetFoliageTransactionBlock
+  name: GetFoliageTransactionBlock
+  nameWithType: FullBlock.GetFoliageTransactionBlock
+  fullName: ChiaWalletSdk.FullBlock.GetFoliageTransactionBlock
+- uid: ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock
+  commentId: M:ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFoliageTransactionBlock
+  name: GetFoliageTransactionBlock()
+  nameWithType: IFullBlock.GetFoliageTransactionBlock()
+  fullName: ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock
+    name: GetFoliageTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFoliageTransactionBlock
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock
+    name: GetFoliageTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetFoliageTransactionBlock
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetInfusedChallengeChainIpProof
+  name: GetInfusedChallengeChainIpProof
+  nameWithType: FullBlock.GetInfusedChallengeChainIpProof
+  fullName: ChiaWalletSdk.FullBlock.GetInfusedChallengeChainIpProof
+- uid: ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof
+  commentId: M:ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetInfusedChallengeChainIpProof
+  name: GetInfusedChallengeChainIpProof()
+  nameWithType: IFullBlock.GetInfusedChallengeChainIpProof()
+  fullName: ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof
+    name: GetInfusedChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetInfusedChallengeChainIpProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof
+    name: GetInfusedChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetInfusedChallengeChainIpProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetRewardChainBlock*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetRewardChainBlock
+  name: GetRewardChainBlock
+  nameWithType: FullBlock.GetRewardChainBlock
+  fullName: ChiaWalletSdk.FullBlock.GetRewardChainBlock
+- uid: ChiaWalletSdk.IFullBlock.GetRewardChainBlock
+  commentId: M:ChiaWalletSdk.IFullBlock.GetRewardChainBlock
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainBlock
+  name: GetRewardChainBlock()
+  nameWithType: IFullBlock.GetRewardChainBlock()
+  fullName: ChiaWalletSdk.IFullBlock.GetRewardChainBlock()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetRewardChainBlock
+    name: GetRewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainBlock
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetRewardChainBlock
+    name: GetRewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainBlock
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetRewardChainIpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetRewardChainIpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetRewardChainIpProof
+  name: GetRewardChainIpProof
+  nameWithType: FullBlock.GetRewardChainIpProof
+  fullName: ChiaWalletSdk.FullBlock.GetRewardChainIpProof
+- uid: ChiaWalletSdk.IFullBlock.GetRewardChainIpProof
+  commentId: M:ChiaWalletSdk.IFullBlock.GetRewardChainIpProof
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainIpProof
+  name: GetRewardChainIpProof()
+  nameWithType: IFullBlock.GetRewardChainIpProof()
+  fullName: ChiaWalletSdk.IFullBlock.GetRewardChainIpProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetRewardChainIpProof
+    name: GetRewardChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainIpProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetRewardChainIpProof
+    name: GetRewardChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainIpProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetRewardChainSpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetRewardChainSpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetRewardChainSpProof
+  name: GetRewardChainSpProof
+  nameWithType: FullBlock.GetRewardChainSpProof
+  fullName: ChiaWalletSdk.FullBlock.GetRewardChainSpProof
+- uid: ChiaWalletSdk.IFullBlock.GetRewardChainSpProof
+  commentId: M:ChiaWalletSdk.IFullBlock.GetRewardChainSpProof
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainSpProof
+  name: GetRewardChainSpProof()
+  nameWithType: IFullBlock.GetRewardChainSpProof()
+  fullName: ChiaWalletSdk.IFullBlock.GetRewardChainSpProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetRewardChainSpProof
+    name: GetRewardChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainSpProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetRewardChainSpProof
+    name: GetRewardChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetRewardChainSpProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetTransactionsGenerator*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetTransactionsGenerator
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetTransactionsGenerator
+  name: GetTransactionsGenerator
+  nameWithType: FullBlock.GetTransactionsGenerator
+  fullName: ChiaWalletSdk.FullBlock.GetTransactionsGenerator
+- uid: ChiaWalletSdk.IFullBlock.GetTransactionsGenerator
+  commentId: M:ChiaWalletSdk.IFullBlock.GetTransactionsGenerator
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsGenerator
+  name: GetTransactionsGenerator()
+  nameWithType: IFullBlock.GetTransactionsGenerator()
+  fullName: ChiaWalletSdk.IFullBlock.GetTransactionsGenerator()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetTransactionsGenerator
+    name: GetTransactionsGenerator
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsGenerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetTransactionsGenerator
+    name: GetTransactionsGenerator
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsGenerator
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetTransactionsGeneratorRefList
+  name: GetTransactionsGeneratorRefList
+  nameWithType: FullBlock.GetTransactionsGeneratorRefList
+  fullName: ChiaWalletSdk.FullBlock.GetTransactionsGeneratorRefList
+- uid: ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList
+  commentId: M:ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsGeneratorRefList
+  name: GetTransactionsGeneratorRefList()
+  nameWithType: IFullBlock.GetTransactionsGeneratorRefList()
+  fullName: ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList
+    name: GetTransactionsGeneratorRefList
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsGeneratorRefList
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList
+    name: GetTransactionsGeneratorRefList
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsGeneratorRefList
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.GetTransactionsInfo*
+  commentId: Overload:ChiaWalletSdk.FullBlock.GetTransactionsInfo
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_GetTransactionsInfo
+  name: GetTransactionsInfo
+  nameWithType: FullBlock.GetTransactionsInfo
+  fullName: ChiaWalletSdk.FullBlock.GetTransactionsInfo
+- uid: ChiaWalletSdk.IFullBlock.GetTransactionsInfo
+  commentId: M:ChiaWalletSdk.IFullBlock.GetTransactionsInfo
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsInfo
+  name: GetTransactionsInfo()
+  nameWithType: IFullBlock.GetTransactionsInfo()
+  fullName: ChiaWalletSdk.IFullBlock.GetTransactionsInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.GetTransactionsInfo
+    name: GetTransactionsInfo
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.GetTransactionsInfo
+    name: GetTransactionsInfo
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_GetTransactionsInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetChallengeChainIpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetChallengeChainIpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  name: SetChallengeChainIpProof
+  nameWithType: FullBlock.SetChallengeChainIpProof
+  fullName: ChiaWalletSdk.FullBlock.SetChallengeChainIpProof
+- uid: ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  name: SetChallengeChainIpProof(VdfProof)
+  nameWithType: IFullBlock.SetChallengeChainIpProof(VdfProof)
+  fullName: ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+    name: SetChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+    name: SetChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock
+  commentId: T:ChiaWalletSdk.FullBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html
+  name: FullBlock
+  nameWithType: FullBlock
+  fullName: ChiaWalletSdk.FullBlock
+- uid: ChiaWalletSdk.FullBlock.SetChallengeChainSpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetChallengeChainSpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetChallengeChainSpProof_ChiaWalletSdk_VdfProof_
+  name: SetChallengeChainSpProof
+  nameWithType: FullBlock.SetChallengeChainSpProof
+  fullName: ChiaWalletSdk.FullBlock.SetChallengeChainSpProof
+- uid: ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetChallengeChainSpProof_ChiaWalletSdk_VdfProof_
+  name: SetChallengeChainSpProof(VdfProof)
+  nameWithType: IFullBlock.SetChallengeChainSpProof(VdfProof)
+  fullName: ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+    name: SetChallengeChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetChallengeChainSpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)
+    name: SetChallengeChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetChallengeChainSpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetFinishedSubSlots*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetFinishedSubSlots
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetFinishedSubSlots_System_Collections_Generic_List_ChiaWalletSdk_EndOfSubSlotBundle__
+  name: SetFinishedSubSlots
+  nameWithType: FullBlock.SetFinishedSubSlots
+  fullName: ChiaWalletSdk.FullBlock.SetFinishedSubSlots
+- uid: ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  commentId: M:ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFinishedSubSlots_System_Collections_Generic_List_ChiaWalletSdk_EndOfSubSlotBundle__
+  name: SetFinishedSubSlots(List<EndOfSubSlotBundle>)
+  nameWithType: IFullBlock.SetFinishedSubSlots(List<EndOfSubSlotBundle>)
+  fullName: ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List<ChiaWalletSdk.EndOfSubSlotBundle>)
+  nameWithType.vb: IFullBlock.SetFinishedSubSlots(List(Of EndOfSubSlotBundle))
+  fullName.vb: ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List(Of ChiaWalletSdk.EndOfSubSlotBundle))
+  name.vb: SetFinishedSubSlots(List(Of EndOfSubSlotBundle))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+    name: SetFinishedSubSlots
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFinishedSubSlots_System_Collections_Generic_List_ChiaWalletSdk_EndOfSubSlotBundle__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.EndOfSubSlotBundle
+    name: EndOfSubSlotBundle
+    isExternal: true
+    href: ChiaWalletSdk.EndOfSubSlotBundle.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})
+    name: SetFinishedSubSlots
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFinishedSubSlots_System_Collections_Generic_List_ChiaWalletSdk_EndOfSubSlotBundle__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.EndOfSubSlotBundle
+    name: EndOfSubSlotBundle
+    isExternal: true
+    href: ChiaWalletSdk.EndOfSubSlotBundle.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetFoliage*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetFoliage
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetFoliage_ChiaWalletSdk_Foliage_
+  name: SetFoliage
+  nameWithType: FullBlock.SetFoliage
+  fullName: ChiaWalletSdk.FullBlock.SetFoliage
+- uid: ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFoliage_ChiaWalletSdk_Foliage_
+  name: SetFoliage(Foliage)
+  nameWithType: IFullBlock.SetFoliage(Foliage)
+  fullName: ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+    name: SetFoliage
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFoliage_ChiaWalletSdk_Foliage_
+  - name: (
+  - uid: ChiaWalletSdk.Foliage
+    name: Foliage
+    isExternal: true
+    href: ChiaWalletSdk.Foliage.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)
+    name: SetFoliage
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFoliage_ChiaWalletSdk_Foliage_
+  - name: (
+  - uid: ChiaWalletSdk.Foliage
+    name: Foliage
+    isExternal: true
+    href: ChiaWalletSdk.Foliage.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetFoliageTransactionBlock_ChiaWalletSdk_FoliageTransactionBlock_
+  name: SetFoliageTransactionBlock
+  nameWithType: FullBlock.SetFoliageTransactionBlock
+  fullName: ChiaWalletSdk.FullBlock.SetFoliageTransactionBlock
+- uid: ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFoliageTransactionBlock_ChiaWalletSdk_FoliageTransactionBlock_
+  name: SetFoliageTransactionBlock(FoliageTransactionBlock)
+  nameWithType: IFullBlock.SetFoliageTransactionBlock(FoliageTransactionBlock)
+  fullName: ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+    name: SetFoliageTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFoliageTransactionBlock_ChiaWalletSdk_FoliageTransactionBlock_
+  - name: (
+  - uid: ChiaWalletSdk.FoliageTransactionBlock
+    name: FoliageTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.FoliageTransactionBlock.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)
+    name: SetFoliageTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetFoliageTransactionBlock_ChiaWalletSdk_FoliageTransactionBlock_
+  - name: (
+  - uid: ChiaWalletSdk.FoliageTransactionBlock
+    name: FoliageTransactionBlock
+    isExternal: true
+    href: ChiaWalletSdk.FoliageTransactionBlock.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetInfusedChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  name: SetInfusedChallengeChainIpProof
+  nameWithType: FullBlock.SetInfusedChallengeChainIpProof
+  fullName: ChiaWalletSdk.FullBlock.SetInfusedChallengeChainIpProof
+- uid: ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetInfusedChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  name: SetInfusedChallengeChainIpProof(VdfProof)
+  nameWithType: IFullBlock.SetInfusedChallengeChainIpProof(VdfProof)
+  fullName: ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+    name: SetInfusedChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetInfusedChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)
+    name: SetInfusedChallengeChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetInfusedChallengeChainIpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetRewardChainBlock*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetRewardChainBlock
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetRewardChainBlock_ChiaWalletSdk_RewardChainBlock_
+  name: SetRewardChainBlock
+  nameWithType: FullBlock.SetRewardChainBlock
+  fullName: ChiaWalletSdk.FullBlock.SetRewardChainBlock
+- uid: ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainBlock_ChiaWalletSdk_RewardChainBlock_
+  name: SetRewardChainBlock(RewardChainBlock)
+  nameWithType: IFullBlock.SetRewardChainBlock(RewardChainBlock)
+  fullName: ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+    name: SetRewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainBlock_ChiaWalletSdk_RewardChainBlock_
+  - name: (
+  - uid: ChiaWalletSdk.RewardChainBlock
+    name: RewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.RewardChainBlock.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)
+    name: SetRewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainBlock_ChiaWalletSdk_RewardChainBlock_
+  - name: (
+  - uid: ChiaWalletSdk.RewardChainBlock
+    name: RewardChainBlock
+    isExternal: true
+    href: ChiaWalletSdk.RewardChainBlock.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetRewardChainIpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetRewardChainIpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetRewardChainIpProof_ChiaWalletSdk_VdfProof_
+  name: SetRewardChainIpProof
+  nameWithType: FullBlock.SetRewardChainIpProof
+  fullName: ChiaWalletSdk.FullBlock.SetRewardChainIpProof
+- uid: ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainIpProof_ChiaWalletSdk_VdfProof_
+  name: SetRewardChainIpProof(VdfProof)
+  nameWithType: IFullBlock.SetRewardChainIpProof(VdfProof)
+  fullName: ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+    name: SetRewardChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainIpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)
+    name: SetRewardChainIpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainIpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetRewardChainSpProof*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetRewardChainSpProof
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetRewardChainSpProof_ChiaWalletSdk_VdfProof_
+  name: SetRewardChainSpProof
+  nameWithType: FullBlock.SetRewardChainSpProof
+  fullName: ChiaWalletSdk.FullBlock.SetRewardChainSpProof
+- uid: ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainSpProof_ChiaWalletSdk_VdfProof_
+  name: SetRewardChainSpProof(VdfProof)
+  nameWithType: IFullBlock.SetRewardChainSpProof(VdfProof)
+  fullName: ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+    name: SetRewardChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainSpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)
+    name: SetRewardChainSpProof
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetRewardChainSpProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetTransactionsGenerator*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetTransactionsGenerator
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetTransactionsGenerator_System_Byte___
+  name: SetTransactionsGenerator
+  nameWithType: FullBlock.SetTransactionsGenerator
+  fullName: ChiaWalletSdk.FullBlock.SetTransactionsGenerator
+- uid: ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(System.Byte[])
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsGenerator_System_Byte___
+  name: SetTransactionsGenerator(byte[])
+  nameWithType: IFullBlock.SetTransactionsGenerator(byte[])
+  fullName: ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(byte[])
+  nameWithType.vb: IFullBlock.SetTransactionsGenerator(Byte())
+  fullName.vb: ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(Byte())
+  name.vb: SetTransactionsGenerator(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(System.Byte[])
+    name: SetTransactionsGenerator
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsGenerator_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(System.Byte[])
+    name: SetTransactionsGenerator
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsGenerator_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetTransactionsGeneratorRefList_System_Collections_Generic_List_System_UInt32__
+  name: SetTransactionsGeneratorRefList
+  nameWithType: FullBlock.SetTransactionsGeneratorRefList
+  fullName: ChiaWalletSdk.FullBlock.SetTransactionsGeneratorRefList
+- uid: ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  commentId: M:ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsGeneratorRefList_System_Collections_Generic_List_System_UInt32__
+  name: SetTransactionsGeneratorRefList(List<uint>)
+  nameWithType: IFullBlock.SetTransactionsGeneratorRefList(List<uint>)
+  fullName: ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List<uint>)
+  nameWithType.vb: IFullBlock.SetTransactionsGeneratorRefList(List(Of UInteger))
+  fullName.vb: ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List(Of UInteger))
+  name.vb: SetTransactionsGeneratorRefList(List(Of UInteger))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+    name: SetTransactionsGeneratorRefList
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsGeneratorRefList_System_Collections_Generic_List_System_UInt32__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})
+    name: SetTransactionsGeneratorRefList
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsGeneratorRefList_System_Collections_Generic_List_System_UInt32__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.FullBlock.SetTransactionsInfo*
+  commentId: Overload:ChiaWalletSdk.FullBlock.SetTransactionsInfo
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html#ChiaWalletSdk_FullBlock_SetTransactionsInfo_ChiaWalletSdk_TransactionsInfo_
+  name: SetTransactionsInfo
+  nameWithType: FullBlock.SetTransactionsInfo
+  fullName: ChiaWalletSdk.FullBlock.SetTransactionsInfo
+- uid: ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  commentId: M:ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  parent: ChiaWalletSdk.IFullBlock
+  isExternal: true
+  href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsInfo_ChiaWalletSdk_TransactionsInfo_
+  name: SetTransactionsInfo(TransactionsInfo)
+  nameWithType: IFullBlock.SetTransactionsInfo(TransactionsInfo)
+  fullName: ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+    name: SetTransactionsInfo
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsInfo_ChiaWalletSdk_TransactionsInfo_
+  - name: (
+  - uid: ChiaWalletSdk.TransactionsInfo
+    name: TransactionsInfo
+    isExternal: true
+    href: ChiaWalletSdk.TransactionsInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)
+    name: SetTransactionsInfo
+    isExternal: true
+    href: ChiaWalletSdk.IFullBlock.html#ChiaWalletSdk_IFullBlock_SetTransactionsInfo_ChiaWalletSdk_TransactionsInfo_
+  - name: (
+  - uid: ChiaWalletSdk.TransactionsInfo
+    name: TransactionsInfo
+    isExternal: true
+    href: ChiaWalletSdk.TransactionsInfo.html
+  - name: )

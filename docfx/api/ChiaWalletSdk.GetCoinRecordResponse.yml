@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.GetCoinRecordResponse
+  commentId: T:ChiaWalletSdk.GetCoinRecordResponse
+  id: GetCoinRecordResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.GetCoinRecordResponse.#ctor(ChiaWalletSdk.CoinRecord,System.String,System.Boolean)
+  - ChiaWalletSdk.GetCoinRecordResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr
+  - ChiaWalletSdk.GetCoinRecordResponse.Destroy
+  - ChiaWalletSdk.GetCoinRecordResponse.Dispose
+  - ChiaWalletSdk.GetCoinRecordResponse.Finalize
+  - ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr
+  - ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord
+  - ChiaWalletSdk.GetCoinRecordResponse.GetError
+  - ChiaWalletSdk.GetCoinRecordResponse.GetSuccess
+  - ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  - ChiaWalletSdk.GetCoinRecordResponse.SetError(System.String)
+  - ChiaWalletSdk.GetCoinRecordResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.GetCoinRecordResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordResponse
+  nameWithType: GetCoinRecordResponse
+  fullName: ChiaWalletSdk.GetCoinRecordResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class GetCoinRecordResponse : IGetCoinRecordResponse'
+    content.vb: Public Class GetCoinRecordResponse Implements IGetCoinRecordResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse
+- uid: ChiaWalletSdk.GetCoinRecordResponse.pointer
+  commentId: F:ChiaWalletSdk.GetCoinRecordResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: GetCoinRecordResponse.pointer
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.GetCoinRecordResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordResponse(nint)
+  nameWithType: GetCoinRecordResponse.GetCoinRecordResponse(nint)
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecordResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetCoinRecordResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.GetCoinRecordResponse.#ctor*
+  nameWithType.vb: GetCoinRecordResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.GetCoinRecordResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.GetCoinRecordResponse.Finalize
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: ~GetCoinRecordResponse()
+  nameWithType: GetCoinRecordResponse.~GetCoinRecordResponse()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.~GetCoinRecordResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~GetCoinRecordResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.GetCoinRecordResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.GetCoinRecordResponse.#ctor(ChiaWalletSdk.CoinRecord,System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.#ctor(ChiaWalletSdk.CoinRecord,System.String,System.Boolean)
+  id: '#ctor(ChiaWalletSdk.CoinRecord,System.String,System.Boolean)'
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordResponse(CoinRecord?, string?, bool)
+  nameWithType: GetCoinRecordResponse.GetCoinRecordResponse(CoinRecord?, string?, bool)
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecordResponse(ChiaWalletSdk.CoinRecord?, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetCoinRecordResponse(CoinRecord? coinRecord, string? error, bool success)
+    parameters:
+    - id: coinRecord
+      type: ChiaWalletSdk.CoinRecord
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(coinRecord As CoinRecord, [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.GetCoinRecordResponse.#ctor*
+  nameWithType.vb: GetCoinRecordResponse.New(CoinRecord, String, Boolean)
+  fullName.vb: ChiaWalletSdk.GetCoinRecordResponse.New(ChiaWalletSdk.CoinRecord, String, Boolean)
+  name.vb: New(CoinRecord, String, Boolean)
+- uid: ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: GetCoinRecordResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: GetCoinRecordResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.GetCoinRecordResponse.Destroy
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: GetCoinRecordResponse.Destroy()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.GetCoinRecordResponse.Destroy*
+- uid: ChiaWalletSdk.GetCoinRecordResponse.Dispose
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: GetCoinRecordResponse.Dispose()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.GetCoinRecordResponse.Dispose*
+- uid: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord
+  id: GetCoinRecord
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecord()
+  nameWithType: GetCoinRecordResponse.GetCoinRecord()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CoinRecord? GetCoinRecord()
+    return:
+      type: ChiaWalletSdk.CoinRecord
+    content.vb: Public Function GetCoinRecord() As CoinRecord
+  overload: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord*
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse.GetCoinRecord
+- uid: ChiaWalletSdk.GetCoinRecordResponse.GetError
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: GetCoinRecordResponse.GetError()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.GetCoinRecordResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse.GetError
+- uid: ChiaWalletSdk.GetCoinRecordResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: GetCoinRecordResponse.GetSuccess()
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.GetCoinRecordResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse.GetSuccess
+- uid: ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  id: SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: SetCoinRecord(CoinRecord?)
+  nameWithType: GetCoinRecordResponse.SetCoinRecord(CoinRecord?)
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetCoinRecordResponse SetCoinRecord(CoinRecord? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.CoinRecord
+    return:
+      type: ChiaWalletSdk.GetCoinRecordResponse
+    content.vb: Public Function SetCoinRecord(value As CoinRecord) As GetCoinRecordResponse
+  overload: ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord*
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  nameWithType.vb: GetCoinRecordResponse.SetCoinRecord(CoinRecord)
+  fullName.vb: ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  name.vb: SetCoinRecord(CoinRecord)
+- uid: ChiaWalletSdk.GetCoinRecordResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: GetCoinRecordResponse.SetError(string?)
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetCoinRecordResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.GetCoinRecordResponse
+    content.vb: Public Function SetError(value As String) As GetCoinRecordResponse
+  overload: ChiaWalletSdk.GetCoinRecordResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse.SetError(System.String)
+  nameWithType.vb: GetCoinRecordResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.GetCoinRecordResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.GetCoinRecordResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.GetCoinRecordResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.GetCoinRecordResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: GetCoinRecordResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetCoinRecordResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.GetCoinRecordResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As GetCoinRecordResponse
+  overload: ChiaWalletSdk.GetCoinRecordResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: GetCoinRecordResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.GetCoinRecordResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IGetCoinRecordResponse
+  commentId: T:ChiaWalletSdk.IGetCoinRecordResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html
+  name: IGetCoinRecordResponse
+  nameWithType: IGetCoinRecordResponse
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.GetCoinRecordResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse__ctor_System_IntPtr_
+  name: GetCoinRecordResponse
+  nameWithType: GetCoinRecordResponse.GetCoinRecordResponse
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecordResponse
+  nameWithType.vb: GetCoinRecordResponse.New
+  fullName.vb: ChiaWalletSdk.GetCoinRecordResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.GetCoinRecordResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_Finalize
+  name: ~GetCoinRecordResponse
+  nameWithType: GetCoinRecordResponse.~GetCoinRecordResponse
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.~GetCoinRecordResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.GetCoinRecordResponse.Finalize*
+    name: GetCoinRecordResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_Finalize
+- uid: ChiaWalletSdk.CoinRecord
+  commentId: T:ChiaWalletSdk.CoinRecord
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CoinRecord.html
+  name: CoinRecord
+  nameWithType: CoinRecord
+  fullName: ChiaWalletSdk.CoinRecord
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: GetCoinRecordResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: GetCoinRecordResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.GetCoinRecordResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_Destroy
+  name: Destroy
+  nameWithType: GetCoinRecordResponse.Destroy
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.Destroy
+- uid: ChiaWalletSdk.GetCoinRecordResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_Dispose
+  name: Dispose
+  nameWithType: GetCoinRecordResponse.Dispose
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.Dispose
+- uid: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_GetCoinRecord
+  name: GetCoinRecord
+  nameWithType: GetCoinRecordResponse.GetCoinRecord
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetCoinRecord
+- uid: ChiaWalletSdk.IGetCoinRecordResponse.GetCoinRecord
+  commentId: M:ChiaWalletSdk.IGetCoinRecordResponse.GetCoinRecord
+  parent: ChiaWalletSdk.IGetCoinRecordResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetCoinRecord
+  name: GetCoinRecord()
+  nameWithType: IGetCoinRecordResponse.GetCoinRecord()
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse.GetCoinRecord()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.GetCoinRecord
+    name: GetCoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetCoinRecord
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.GetCoinRecord
+    name: GetCoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetCoinRecord
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetCoinRecordResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_GetError
+  name: GetError
+  nameWithType: GetCoinRecordResponse.GetError
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetError
+- uid: ChiaWalletSdk.IGetCoinRecordResponse.GetError
+  commentId: M:ChiaWalletSdk.IGetCoinRecordResponse.GetError
+  parent: ChiaWalletSdk.IGetCoinRecordResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetError
+  name: GetError()
+  nameWithType: IGetCoinRecordResponse.GetError()
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetCoinRecordResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: GetCoinRecordResponse.GetSuccess
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.GetSuccess
+- uid: ChiaWalletSdk.IGetCoinRecordResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IGetCoinRecordResponse.GetSuccess
+  parent: ChiaWalletSdk.IGetCoinRecordResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IGetCoinRecordResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_SetCoinRecord_ChiaWalletSdk_CoinRecord_
+  name: SetCoinRecord
+  nameWithType: GetCoinRecordResponse.SetCoinRecord
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.SetCoinRecord
+- uid: ChiaWalletSdk.IGetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  commentId: M:ChiaWalletSdk.IGetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  parent: ChiaWalletSdk.IGetCoinRecordResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetCoinRecord_ChiaWalletSdk_CoinRecord_
+  name: SetCoinRecord(CoinRecord)
+  nameWithType: IGetCoinRecordResponse.SetCoinRecord(CoinRecord)
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+    name: SetCoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetCoinRecord_ChiaWalletSdk_CoinRecord_
+  - name: (
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.SetCoinRecord(ChiaWalletSdk.CoinRecord)
+    name: SetCoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetCoinRecord_ChiaWalletSdk_CoinRecord_
+  - name: (
+  - uid: ChiaWalletSdk.CoinRecord
+    name: CoinRecord
+    isExternal: true
+    href: ChiaWalletSdk.CoinRecord.html
+  - name: )
+- uid: ChiaWalletSdk.GetCoinRecordResponse
+  commentId: T:ChiaWalletSdk.GetCoinRecordResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html
+  name: GetCoinRecordResponse
+  nameWithType: GetCoinRecordResponse
+  fullName: ChiaWalletSdk.GetCoinRecordResponse
+- uid: ChiaWalletSdk.GetCoinRecordResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_SetError_System_String_
+  name: SetError
+  nameWithType: GetCoinRecordResponse.SetError
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.SetError
+- uid: ChiaWalletSdk.IGetCoinRecordResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IGetCoinRecordResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IGetCoinRecordResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IGetCoinRecordResponse.SetError(string)
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse.SetError(string)
+  nameWithType.vb: IGetCoinRecordResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IGetCoinRecordResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.GetCoinRecordResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetCoinRecordResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetCoinRecordResponse.html#ChiaWalletSdk_GetCoinRecordResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: GetCoinRecordResponse.SetSuccess
+  fullName: ChiaWalletSdk.GetCoinRecordResponse.SetSuccess
+- uid: ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IGetCoinRecordResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IGetCoinRecordResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(bool)
+  nameWithType.vb: IGetCoinRecordResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetCoinRecordResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetCoinRecordResponse.html#ChiaWalletSdk_IGetCoinRecordResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

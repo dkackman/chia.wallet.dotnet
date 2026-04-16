@@ -1,0 +1,763 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Action
+  commentId: T:ChiaWalletSdk.Action
+  id: Action
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Action.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Action.CloneRustArcPtr
+  - ChiaWalletSdk.Action.Destroy
+  - ChiaWalletSdk.Action.Dispose
+  - ChiaWalletSdk.Action.Fee(System.String)
+  - ChiaWalletSdk.Action.Finalize
+  - ChiaWalletSdk.Action.FreeRustArcPtr
+  - ChiaWalletSdk.Action.IssueCat(ChiaWalletSdk.Spend,System.Byte[],System.String)
+  - ChiaWalletSdk.Action.MintNft(ChiaWalletSdk.Clvm,ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.UInt16,System.String,ChiaWalletSdk.Id)
+  - ChiaWalletSdk.Action.RunTail(ChiaWalletSdk.Id,ChiaWalletSdk.Spend,ChiaWalletSdk.Delta)
+  - ChiaWalletSdk.Action.Send(ChiaWalletSdk.Id,System.Byte[],System.String,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Action.Settle(ChiaWalletSdk.Id,ChiaWalletSdk.NotarizedPayment)
+  - ChiaWalletSdk.Action.SingleIssueCat(System.Byte[],System.String)
+  - ChiaWalletSdk.Action.UpdateNft(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.Spend},ChiaWalletSdk.TransferNftById)
+  - ChiaWalletSdk.Action.pointer
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Action
+  fullName: ChiaWalletSdk.Action
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Action : IAction'
+    content.vb: Public Class Action Implements IAction
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IAction
+- uid: ChiaWalletSdk.Action.pointer
+  commentId: F:ChiaWalletSdk.Action.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Action.pointer
+  fullName: ChiaWalletSdk.Action.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Action.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Action.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: Action(nint)
+  nameWithType: Action.Action(nint)
+  fullName: ChiaWalletSdk.Action.Action(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Action(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Action.#ctor*
+  nameWithType.vb: Action.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Action.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Action.Finalize
+  commentId: M:ChiaWalletSdk.Action.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: ~Action()
+  nameWithType: Action.~Action()
+  fullName: ChiaWalletSdk.Action.~Action()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Action()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Action.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Action.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Action.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Action.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Action.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Action.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Action.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Action.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Action.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Action.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Action.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Action.Destroy
+  commentId: M:ChiaWalletSdk.Action.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Action.Destroy()
+  fullName: ChiaWalletSdk.Action.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Action.Destroy*
+- uid: ChiaWalletSdk.Action.Dispose
+  commentId: M:ChiaWalletSdk.Action.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Action.Dispose()
+  fullName: ChiaWalletSdk.Action.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Action.Dispose*
+- uid: ChiaWalletSdk.Action.Fee(System.String)
+  commentId: M:ChiaWalletSdk.Action.Fee(System.String)
+  id: Fee(System.String)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: Fee(string)
+  nameWithType: Action.Fee(string)
+  fullName: ChiaWalletSdk.Action.Fee(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action Fee(string amount)
+    parameters:
+    - id: amount
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function Fee(amount As String) As Action
+  overload: ChiaWalletSdk.Action.Fee*
+  nameWithType.vb: Action.Fee(String)
+  fullName.vb: ChiaWalletSdk.Action.Fee(String)
+  name.vb: Fee(String)
+- uid: ChiaWalletSdk.Action.IssueCat(ChiaWalletSdk.Spend,System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.Action.IssueCat(ChiaWalletSdk.Spend,System.Byte[],System.String)
+  id: IssueCat(ChiaWalletSdk.Spend,System.Byte[],System.String)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: IssueCat(Spend, byte[]?, string)
+  nameWithType: Action.IssueCat(Spend, byte[]?, string)
+  fullName: ChiaWalletSdk.Action.IssueCat(ChiaWalletSdk.Spend, byte[]?, string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action IssueCat(Spend tailSpend, byte[]? hiddenPuzzleHash, string amount)
+    parameters:
+    - id: tailSpend
+      type: ChiaWalletSdk.Spend
+    - id: hiddenPuzzleHash
+      type: System.Byte[]
+    - id: amount
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function IssueCat(tailSpend As Spend, hiddenPuzzleHash As Byte(), amount As String) As Action
+  overload: ChiaWalletSdk.Action.IssueCat*
+  nameWithType.vb: Action.IssueCat(Spend, Byte(), String)
+  fullName.vb: ChiaWalletSdk.Action.IssueCat(ChiaWalletSdk.Spend, Byte(), String)
+  name.vb: IssueCat(Spend, Byte(), String)
+- uid: ChiaWalletSdk.Action.MintNft(ChiaWalletSdk.Clvm,ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.UInt16,System.String,ChiaWalletSdk.Id)
+  commentId: M:ChiaWalletSdk.Action.MintNft(ChiaWalletSdk.Clvm,ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.UInt16,System.String,ChiaWalletSdk.Id)
+  id: MintNft(ChiaWalletSdk.Clvm,ChiaWalletSdk.Program,System.Byte[],System.Byte[],System.UInt16,System.String,ChiaWalletSdk.Id)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: MintNft(Clvm, Program, byte[], byte[], ushort, string, Id?)
+  nameWithType: Action.MintNft(Clvm, Program, byte[], byte[], ushort, string, Id?)
+  fullName: ChiaWalletSdk.Action.MintNft(ChiaWalletSdk.Clvm, ChiaWalletSdk.Program, byte[], byte[], ushort, string, ChiaWalletSdk.Id?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action MintNft(Clvm clvm, Program metadata, byte[] metadataUpdaterPuzzleHash, byte[] royaltyPuzzleHash, ushort royaltyBasisPoints, string amount, Id? parentId)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    - id: metadata
+      type: ChiaWalletSdk.Program
+    - id: metadataUpdaterPuzzleHash
+      type: System.Byte[]
+    - id: royaltyPuzzleHash
+      type: System.Byte[]
+    - id: royaltyBasisPoints
+      type: System.UInt16
+    - id: amount
+      type: System.String
+    - id: parentId
+      type: ChiaWalletSdk.Id
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function MintNft(clvm As Clvm, metadata As Program, metadataUpdaterPuzzleHash As Byte(), royaltyPuzzleHash As Byte(), royaltyBasisPoints As UShort, amount As String, parentId As Id) As Action
+  overload: ChiaWalletSdk.Action.MintNft*
+  nameWithType.vb: Action.MintNft(Clvm, Program, Byte(), Byte(), UShort, String, Id)
+  fullName.vb: ChiaWalletSdk.Action.MintNft(ChiaWalletSdk.Clvm, ChiaWalletSdk.Program, Byte(), Byte(), UShort, String, ChiaWalletSdk.Id)
+  name.vb: MintNft(Clvm, Program, Byte(), Byte(), UShort, String, Id)
+- uid: ChiaWalletSdk.Action.RunTail(ChiaWalletSdk.Id,ChiaWalletSdk.Spend,ChiaWalletSdk.Delta)
+  commentId: M:ChiaWalletSdk.Action.RunTail(ChiaWalletSdk.Id,ChiaWalletSdk.Spend,ChiaWalletSdk.Delta)
+  id: RunTail(ChiaWalletSdk.Id,ChiaWalletSdk.Spend,ChiaWalletSdk.Delta)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: RunTail(Id, Spend, Delta)
+  nameWithType: Action.RunTail(Id, Spend, Delta)
+  fullName: ChiaWalletSdk.Action.RunTail(ChiaWalletSdk.Id, ChiaWalletSdk.Spend, ChiaWalletSdk.Delta)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action RunTail(Id id, Spend tailSpend, Delta supplyDelta)
+    parameters:
+    - id: id
+      type: ChiaWalletSdk.Id
+    - id: tailSpend
+      type: ChiaWalletSdk.Spend
+    - id: supplyDelta
+      type: ChiaWalletSdk.Delta
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function RunTail(id As Id, tailSpend As Spend, supplyDelta As Delta) As Action
+  overload: ChiaWalletSdk.Action.RunTail*
+- uid: ChiaWalletSdk.Action.Send(ChiaWalletSdk.Id,System.Byte[],System.String,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Action.Send(ChiaWalletSdk.Id,System.Byte[],System.String,ChiaWalletSdk.Program)
+  id: Send(ChiaWalletSdk.Id,System.Byte[],System.String,ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: Send(Id, byte[], string, Program?)
+  nameWithType: Action.Send(Id, byte[], string, Program?)
+  fullName: ChiaWalletSdk.Action.Send(ChiaWalletSdk.Id, byte[], string, ChiaWalletSdk.Program?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action Send(Id id, byte[] puzzleHash, string amount, Program? memos)
+    parameters:
+    - id: id
+      type: ChiaWalletSdk.Id
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: amount
+      type: System.String
+    - id: memos
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function Send(id As Id, puzzleHash As Byte(), amount As String, memos As Program) As Action
+  overload: ChiaWalletSdk.Action.Send*
+  nameWithType.vb: Action.Send(Id, Byte(), String, Program)
+  fullName.vb: ChiaWalletSdk.Action.Send(ChiaWalletSdk.Id, Byte(), String, ChiaWalletSdk.Program)
+  name.vb: Send(Id, Byte(), String, Program)
+- uid: ChiaWalletSdk.Action.Settle(ChiaWalletSdk.Id,ChiaWalletSdk.NotarizedPayment)
+  commentId: M:ChiaWalletSdk.Action.Settle(ChiaWalletSdk.Id,ChiaWalletSdk.NotarizedPayment)
+  id: Settle(ChiaWalletSdk.Id,ChiaWalletSdk.NotarizedPayment)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: Settle(Id, NotarizedPayment)
+  nameWithType: Action.Settle(Id, NotarizedPayment)
+  fullName: ChiaWalletSdk.Action.Settle(ChiaWalletSdk.Id, ChiaWalletSdk.NotarizedPayment)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action Settle(Id id, NotarizedPayment notarizedPayment)
+    parameters:
+    - id: id
+      type: ChiaWalletSdk.Id
+    - id: notarizedPayment
+      type: ChiaWalletSdk.NotarizedPayment
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function Settle(id As Id, notarizedPayment As NotarizedPayment) As Action
+  overload: ChiaWalletSdk.Action.Settle*
+- uid: ChiaWalletSdk.Action.SingleIssueCat(System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.Action.SingleIssueCat(System.Byte[],System.String)
+  id: SingleIssueCat(System.Byte[],System.String)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: SingleIssueCat(byte[]?, string)
+  nameWithType: Action.SingleIssueCat(byte[]?, string)
+  fullName: ChiaWalletSdk.Action.SingleIssueCat(byte[]?, string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action SingleIssueCat(byte[]? hiddenPuzzleHash, string amount)
+    parameters:
+    - id: hiddenPuzzleHash
+      type: System.Byte[]
+    - id: amount
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function SingleIssueCat(hiddenPuzzleHash As Byte(), amount As String) As Action
+  overload: ChiaWalletSdk.Action.SingleIssueCat*
+  nameWithType.vb: Action.SingleIssueCat(Byte(), String)
+  fullName.vb: ChiaWalletSdk.Action.SingleIssueCat(Byte(), String)
+  name.vb: SingleIssueCat(Byte(), String)
+- uid: ChiaWalletSdk.Action.UpdateNft(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.Spend},ChiaWalletSdk.TransferNftById)
+  commentId: M:ChiaWalletSdk.Action.UpdateNft(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.Spend},ChiaWalletSdk.TransferNftById)
+  id: UpdateNft(ChiaWalletSdk.Id,System.Collections.Generic.List{ChiaWalletSdk.Spend},ChiaWalletSdk.TransferNftById)
+  parent: ChiaWalletSdk.Action
+  langs:
+  - csharp
+  - vb
+  name: UpdateNft(Id, List<Spend>, TransferNftById?)
+  nameWithType: Action.UpdateNft(Id, List<Spend>, TransferNftById?)
+  fullName: ChiaWalletSdk.Action.UpdateNft(ChiaWalletSdk.Id, System.Collections.Generic.List<ChiaWalletSdk.Spend>, ChiaWalletSdk.TransferNftById?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Action UpdateNft(Id id, List<Spend> metadataUpdateSpends, TransferNftById? transfer)
+    parameters:
+    - id: id
+      type: ChiaWalletSdk.Id
+    - id: metadataUpdateSpends
+      type: System.Collections.Generic.List{ChiaWalletSdk.Spend}
+    - id: transfer
+      type: ChiaWalletSdk.TransferNftById
+    return:
+      type: ChiaWalletSdk.Action
+    content.vb: Public Shared Function UpdateNft(id As Id, metadataUpdateSpends As List(Of Spend), transfer As TransferNftById) As Action
+  overload: ChiaWalletSdk.Action.UpdateNft*
+  nameWithType.vb: Action.UpdateNft(Id, List(Of Spend), TransferNftById)
+  fullName.vb: ChiaWalletSdk.Action.UpdateNft(ChiaWalletSdk.Id, System.Collections.Generic.List(Of ChiaWalletSdk.Spend), ChiaWalletSdk.TransferNftById)
+  name.vb: UpdateNft(Id, List(Of Spend), TransferNftById)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IAction
+  commentId: T:ChiaWalletSdk.IAction
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IAction.html
+  name: IAction
+  nameWithType: IAction
+  fullName: ChiaWalletSdk.IAction
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Action.#ctor*
+  commentId: Overload:ChiaWalletSdk.Action.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action__ctor_System_IntPtr_
+  name: Action
+  nameWithType: Action.Action
+  fullName: ChiaWalletSdk.Action.Action
+  nameWithType.vb: Action.New
+  fullName.vb: ChiaWalletSdk.Action.New
+  name.vb: New
+- uid: ChiaWalletSdk.Action.Finalize*
+  commentId: Overload:ChiaWalletSdk.Action.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Finalize
+  name: ~Action
+  nameWithType: Action.~Action
+  fullName: ChiaWalletSdk.Action.~Action
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Action.Finalize*
+    name: Action
+    isExternal: true
+    href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Finalize
+- uid: ChiaWalletSdk.Action.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Action.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Action.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Action.FreeRustArcPtr
+- uid: ChiaWalletSdk.Action.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Action.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Action.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Action.CloneRustArcPtr
+- uid: ChiaWalletSdk.Action.Destroy*
+  commentId: Overload:ChiaWalletSdk.Action.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Destroy
+  name: Destroy
+  nameWithType: Action.Destroy
+  fullName: ChiaWalletSdk.Action.Destroy
+- uid: ChiaWalletSdk.Action.Dispose*
+  commentId: Overload:ChiaWalletSdk.Action.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Dispose
+  name: Dispose
+  nameWithType: Action.Dispose
+  fullName: ChiaWalletSdk.Action.Dispose
+- uid: ChiaWalletSdk.Action.Fee*
+  commentId: Overload:ChiaWalletSdk.Action.Fee
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Fee_System_String_
+  name: Fee
+  nameWithType: Action.Fee
+  fullName: ChiaWalletSdk.Action.Fee
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Action
+  commentId: T:ChiaWalletSdk.Action
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Action.html
+  name: Action
+  nameWithType: Action
+  fullName: ChiaWalletSdk.Action
+- uid: ChiaWalletSdk.Action.IssueCat*
+  commentId: Overload:ChiaWalletSdk.Action.IssueCat
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_IssueCat_ChiaWalletSdk_Spend_System_Byte___System_String_
+  name: IssueCat
+  nameWithType: Action.IssueCat
+  fullName: ChiaWalletSdk.Action.IssueCat
+- uid: ChiaWalletSdk.Spend
+  commentId: T:ChiaWalletSdk.Spend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html
+  name: Spend
+  nameWithType: Spend
+  fullName: ChiaWalletSdk.Spend
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Action.MintNft*
+  commentId: Overload:ChiaWalletSdk.Action.MintNft
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_MintNft_ChiaWalletSdk_Clvm_ChiaWalletSdk_Program_System_Byte___System_Byte___System_UInt16_System_String_ChiaWalletSdk_Id_
+  name: MintNft
+  nameWithType: Action.MintNft
+  fullName: ChiaWalletSdk.Action.MintNft
+- uid: ChiaWalletSdk.Clvm
+  commentId: T:ChiaWalletSdk.Clvm
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Clvm.html
+  name: Clvm
+  nameWithType: Clvm
+  fullName: ChiaWalletSdk.Clvm
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: ChiaWalletSdk.Id
+  commentId: T:ChiaWalletSdk.Id
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Id.html
+  name: Id
+  nameWithType: Id
+  fullName: ChiaWalletSdk.Id
+- uid: ChiaWalletSdk.Action.RunTail*
+  commentId: Overload:ChiaWalletSdk.Action.RunTail
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_RunTail_ChiaWalletSdk_Id_ChiaWalletSdk_Spend_ChiaWalletSdk_Delta_
+  name: RunTail
+  nameWithType: Action.RunTail
+  fullName: ChiaWalletSdk.Action.RunTail
+- uid: ChiaWalletSdk.Delta
+  commentId: T:ChiaWalletSdk.Delta
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html
+  name: Delta
+  nameWithType: Delta
+  fullName: ChiaWalletSdk.Delta
+- uid: ChiaWalletSdk.Action.Send*
+  commentId: Overload:ChiaWalletSdk.Action.Send
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Send_ChiaWalletSdk_Id_System_Byte___System_String_ChiaWalletSdk_Program_
+  name: Send
+  nameWithType: Action.Send
+  fullName: ChiaWalletSdk.Action.Send
+- uid: ChiaWalletSdk.Action.Settle*
+  commentId: Overload:ChiaWalletSdk.Action.Settle
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_Settle_ChiaWalletSdk_Id_ChiaWalletSdk_NotarizedPayment_
+  name: Settle
+  nameWithType: Action.Settle
+  fullName: ChiaWalletSdk.Action.Settle
+- uid: ChiaWalletSdk.NotarizedPayment
+  commentId: T:ChiaWalletSdk.NotarizedPayment
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html
+  name: NotarizedPayment
+  nameWithType: NotarizedPayment
+  fullName: ChiaWalletSdk.NotarizedPayment
+- uid: ChiaWalletSdk.Action.SingleIssueCat*
+  commentId: Overload:ChiaWalletSdk.Action.SingleIssueCat
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_SingleIssueCat_System_Byte___System_String_
+  name: SingleIssueCat
+  nameWithType: Action.SingleIssueCat
+  fullName: ChiaWalletSdk.Action.SingleIssueCat
+- uid: ChiaWalletSdk.Action.UpdateNft*
+  commentId: Overload:ChiaWalletSdk.Action.UpdateNft
+  isExternal: true
+  href: ChiaWalletSdk.Action.html#ChiaWalletSdk_Action_UpdateNft_ChiaWalletSdk_Id_System_Collections_Generic_List_ChiaWalletSdk_Spend__ChiaWalletSdk_TransferNftById_
+  name: UpdateNft
+  nameWithType: Action.UpdateNft
+  fullName: ChiaWalletSdk.Action.UpdateNft
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Spend}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Spend}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Spend.html
+  name: List<Spend>
+  nameWithType: List<Spend>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Spend>
+  nameWithType.vb: List(Of Spend)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Spend)
+  name.vb: List(Of Spend)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Spend
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Spend
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html
+  - name: )
+- uid: ChiaWalletSdk.TransferNftById
+  commentId: T:ChiaWalletSdk.TransferNftById
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.TransferNftById.html
+  name: TransferNftById
+  nameWithType: TransferNftById
+  fullName: ChiaWalletSdk.TransferNftById
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

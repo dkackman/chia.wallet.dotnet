@@ -1,0 +1,602 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IParsedPayment
+  commentId: T:ChiaWalletSdk.IParsedPayment
+  id: IParsedPayment
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IParsedPayment.GetAssetId
+  - ChiaWalletSdk.IParsedPayment.GetClawback
+  - ChiaWalletSdk.IParsedPayment.GetCoin
+  - ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash
+  - ChiaWalletSdk.IParsedPayment.GetMemos
+  - ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash
+  - ChiaWalletSdk.IParsedPayment.GetTransferType
+  - ChiaWalletSdk.IParsedPayment.SetAssetId(System.Byte[])
+  - ChiaWalletSdk.IParsedPayment.SetClawback(ChiaWalletSdk.ClawbackV2)
+  - ChiaWalletSdk.IParsedPayment.SetCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IParsedPayment.SetMemos(System.Collections.Generic.List{System.String})
+  - ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IParsedPayment.SetTransferType(ChiaWalletSdk.TransferType)
+  langs:
+  - csharp
+  - vb
+  name: IParsedPayment
+  nameWithType: IParsedPayment
+  fullName: ChiaWalletSdk.IParsedPayment
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IParsedPayment
+    content.vb: Public Interface IParsedPayment
+  derivedClasses:
+  - ChiaWalletSdk.ParsedPayment
+- uid: ChiaWalletSdk.IParsedPayment.GetAssetId
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetAssetId
+  id: GetAssetId
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetAssetId()
+  nameWithType: IParsedPayment.GetAssetId()
+  fullName: ChiaWalletSdk.IParsedPayment.GetAssetId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[]? GetAssetId()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetAssetId() As Byte()
+  overload: ChiaWalletSdk.IParsedPayment.GetAssetId*
+- uid: ChiaWalletSdk.IParsedPayment.GetClawback
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetClawback
+  id: GetClawback
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetClawback()
+  nameWithType: IParsedPayment.GetClawback()
+  fullName: ChiaWalletSdk.IParsedPayment.GetClawback()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ClawbackV2? GetClawback()
+    return:
+      type: ChiaWalletSdk.ClawbackV2
+    content.vb: Function GetClawback() As ClawbackV2
+  overload: ChiaWalletSdk.IParsedPayment.GetClawback*
+- uid: ChiaWalletSdk.IParsedPayment.GetCoin
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetCoin
+  id: GetCoin
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetCoin()
+  nameWithType: IParsedPayment.GetCoin()
+  fullName: ChiaWalletSdk.IParsedPayment.GetCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin GetCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function GetCoin() As Coin
+  overload: ChiaWalletSdk.IParsedPayment.GetCoin*
+- uid: ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash
+  id: GetHiddenPuzzleHash
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetHiddenPuzzleHash()
+  nameWithType: IParsedPayment.GetHiddenPuzzleHash()
+  fullName: ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[]? GetHiddenPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetHiddenPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash*
+- uid: ChiaWalletSdk.IParsedPayment.GetMemos
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetMemos
+  id: GetMemos
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetMemos()
+  nameWithType: IParsedPayment.GetMemos()
+  fullName: ChiaWalletSdk.IParsedPayment.GetMemos()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<string> GetMemos()
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Function GetMemos() As List(Of String)
+  overload: ChiaWalletSdk.IParsedPayment.GetMemos*
+- uid: ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash
+  id: GetP2PuzzleHash
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetP2PuzzleHash()
+  nameWithType: IParsedPayment.GetP2PuzzleHash()
+  fullName: ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetP2PuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetP2PuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash*
+- uid: ChiaWalletSdk.IParsedPayment.GetTransferType
+  commentId: M:ChiaWalletSdk.IParsedPayment.GetTransferType
+  id: GetTransferType
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetTransferType()
+  nameWithType: IParsedPayment.GetTransferType()
+  fullName: ChiaWalletSdk.IParsedPayment.GetTransferType()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: TransferType GetTransferType()
+    return:
+      type: ChiaWalletSdk.TransferType
+    content.vb: Function GetTransferType() As TransferType
+  overload: ChiaWalletSdk.IParsedPayment.GetTransferType*
+- uid: ChiaWalletSdk.IParsedPayment.SetAssetId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetAssetId(System.Byte[])
+  id: SetAssetId(System.Byte[])
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetAssetId(byte[]?)
+  nameWithType: IParsedPayment.SetAssetId(byte[]?)
+  fullName: ChiaWalletSdk.IParsedPayment.SetAssetId(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetAssetId(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetAssetId(value As Byte()) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetAssetId*
+  nameWithType.vb: IParsedPayment.SetAssetId(Byte())
+  fullName.vb: ChiaWalletSdk.IParsedPayment.SetAssetId(Byte())
+  name.vb: SetAssetId(Byte())
+- uid: ChiaWalletSdk.IParsedPayment.SetClawback(ChiaWalletSdk.ClawbackV2)
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetClawback(ChiaWalletSdk.ClawbackV2)
+  id: SetClawback(ChiaWalletSdk.ClawbackV2)
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetClawback(ClawbackV2?)
+  nameWithType: IParsedPayment.SetClawback(ClawbackV2?)
+  fullName: ChiaWalletSdk.IParsedPayment.SetClawback(ChiaWalletSdk.ClawbackV2?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetClawback(ClawbackV2? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.ClawbackV2
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetClawback(value As ClawbackV2) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetClawback*
+  nameWithType.vb: IParsedPayment.SetClawback(ClawbackV2)
+  fullName.vb: ChiaWalletSdk.IParsedPayment.SetClawback(ChiaWalletSdk.ClawbackV2)
+  name.vb: SetClawback(ClawbackV2)
+- uid: ChiaWalletSdk.IParsedPayment.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetCoin(ChiaWalletSdk.Coin)
+  id: SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetCoin(Coin)
+  nameWithType: IParsedPayment.SetCoin(Coin)
+  fullName: ChiaWalletSdk.IParsedPayment.SetCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetCoin(Coin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetCoin(value As Coin) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetCoin*
+- uid: ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash(System.Byte[])
+  id: SetHiddenPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetHiddenPuzzleHash(byte[]?)
+  nameWithType: IParsedPayment.SetHiddenPuzzleHash(byte[]?)
+  fullName: ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetHiddenPuzzleHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetHiddenPuzzleHash(value As Byte()) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash*
+  nameWithType.vb: IParsedPayment.SetHiddenPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash(Byte())
+  name.vb: SetHiddenPuzzleHash(Byte())
+- uid: ChiaWalletSdk.IParsedPayment.SetMemos(System.Collections.Generic.List{System.String})
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetMemos(System.Collections.Generic.List{System.String})
+  id: SetMemos(System.Collections.Generic.List{System.String})
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetMemos(List<string>)
+  nameWithType: IParsedPayment.SetMemos(List<string>)
+  fullName: ChiaWalletSdk.IParsedPayment.SetMemos(System.Collections.Generic.List<string>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetMemos(List<string> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetMemos(value As List(Of String)) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetMemos*
+  nameWithType.vb: IParsedPayment.SetMemos(List(Of String))
+  fullName.vb: ChiaWalletSdk.IParsedPayment.SetMemos(System.Collections.Generic.List(Of String))
+  name.vb: SetMemos(List(Of String))
+- uid: ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash(System.Byte[])
+  id: SetP2PuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetP2PuzzleHash(byte[])
+  nameWithType: IParsedPayment.SetP2PuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetP2PuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetP2PuzzleHash(value As Byte()) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash*
+  nameWithType.vb: IParsedPayment.SetP2PuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash(Byte())
+  name.vb: SetP2PuzzleHash(Byte())
+- uid: ChiaWalletSdk.IParsedPayment.SetTransferType(ChiaWalletSdk.TransferType)
+  commentId: M:ChiaWalletSdk.IParsedPayment.SetTransferType(ChiaWalletSdk.TransferType)
+  id: SetTransferType(ChiaWalletSdk.TransferType)
+  parent: ChiaWalletSdk.IParsedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetTransferType(TransferType)
+  nameWithType: IParsedPayment.SetTransferType(TransferType)
+  fullName: ChiaWalletSdk.IParsedPayment.SetTransferType(ChiaWalletSdk.TransferType)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedPayment SetTransferType(TransferType value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.TransferType
+    return:
+      type: ChiaWalletSdk.ParsedPayment
+    content.vb: Function SetTransferType(value As TransferType) As ParsedPayment
+  overload: ChiaWalletSdk.IParsedPayment.SetTransferType*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IParsedPayment.GetAssetId*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetAssetId
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetAssetId
+  name: GetAssetId
+  nameWithType: IParsedPayment.GetAssetId
+  fullName: ChiaWalletSdk.IParsedPayment.GetAssetId
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IParsedPayment.GetClawback*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetClawback
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetClawback
+  name: GetClawback
+  nameWithType: IParsedPayment.GetClawback
+  fullName: ChiaWalletSdk.IParsedPayment.GetClawback
+- uid: ChiaWalletSdk.ClawbackV2
+  commentId: T:ChiaWalletSdk.ClawbackV2
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ClawbackV2.html
+  name: ClawbackV2
+  nameWithType: ClawbackV2
+  fullName: ChiaWalletSdk.ClawbackV2
+- uid: ChiaWalletSdk.IParsedPayment.GetCoin*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetCoin
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetCoin
+  name: GetCoin
+  nameWithType: IParsedPayment.GetCoin
+  fullName: ChiaWalletSdk.IParsedPayment.GetCoin
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetHiddenPuzzleHash
+  name: GetHiddenPuzzleHash
+  nameWithType: IParsedPayment.GetHiddenPuzzleHash
+  fullName: ChiaWalletSdk.IParsedPayment.GetHiddenPuzzleHash
+- uid: ChiaWalletSdk.IParsedPayment.GetMemos*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetMemos
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetMemos
+  name: GetMemos
+  nameWithType: IParsedPayment.GetMemos
+  fullName: ChiaWalletSdk.IParsedPayment.GetMemos
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetP2PuzzleHash
+  name: GetP2PuzzleHash
+  nameWithType: IParsedPayment.GetP2PuzzleHash
+  fullName: ChiaWalletSdk.IParsedPayment.GetP2PuzzleHash
+- uid: ChiaWalletSdk.IParsedPayment.GetTransferType*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.GetTransferType
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_GetTransferType
+  name: GetTransferType
+  nameWithType: IParsedPayment.GetTransferType
+  fullName: ChiaWalletSdk.IParsedPayment.GetTransferType
+- uid: ChiaWalletSdk.TransferType
+  commentId: T:ChiaWalletSdk.TransferType
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.TransferType.html
+  name: TransferType
+  nameWithType: TransferType
+  fullName: ChiaWalletSdk.TransferType
+- uid: ChiaWalletSdk.IParsedPayment.SetAssetId*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetAssetId
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetAssetId_System_Byte___
+  name: SetAssetId
+  nameWithType: IParsedPayment.SetAssetId
+  fullName: ChiaWalletSdk.IParsedPayment.SetAssetId
+- uid: ChiaWalletSdk.ParsedPayment
+  commentId: T:ChiaWalletSdk.ParsedPayment
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedPayment.html
+  name: ParsedPayment
+  nameWithType: ParsedPayment
+  fullName: ChiaWalletSdk.ParsedPayment
+- uid: ChiaWalletSdk.IParsedPayment.SetClawback*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetClawback
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetClawback_ChiaWalletSdk_ClawbackV2_
+  name: SetClawback
+  nameWithType: IParsedPayment.SetClawback
+  fullName: ChiaWalletSdk.IParsedPayment.SetClawback
+- uid: ChiaWalletSdk.IParsedPayment.SetCoin*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetCoin
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin
+  nameWithType: IParsedPayment.SetCoin
+  fullName: ChiaWalletSdk.IParsedPayment.SetCoin
+- uid: ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetHiddenPuzzleHash_System_Byte___
+  name: SetHiddenPuzzleHash
+  nameWithType: IParsedPayment.SetHiddenPuzzleHash
+  fullName: ChiaWalletSdk.IParsedPayment.SetHiddenPuzzleHash
+- uid: ChiaWalletSdk.IParsedPayment.SetMemos*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetMemos
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetMemos_System_Collections_Generic_List_System_String__
+  name: SetMemos
+  nameWithType: IParsedPayment.SetMemos
+  fullName: ChiaWalletSdk.IParsedPayment.SetMemos
+- uid: ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetP2PuzzleHash_System_Byte___
+  name: SetP2PuzzleHash
+  nameWithType: IParsedPayment.SetP2PuzzleHash
+  fullName: ChiaWalletSdk.IParsedPayment.SetP2PuzzleHash
+- uid: ChiaWalletSdk.IParsedPayment.SetTransferType*
+  commentId: Overload:ChiaWalletSdk.IParsedPayment.SetTransferType
+  isExternal: true
+  href: ChiaWalletSdk.IParsedPayment.html#ChiaWalletSdk_IParsedPayment_SetTransferType_ChiaWalletSdk_TransferType_
+  name: SetTransferType
+  nameWithType: IParsedPayment.SetTransferType
+  fullName: ChiaWalletSdk.IParsedPayment.SetTransferType

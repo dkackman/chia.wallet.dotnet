@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Restriction
+  commentId: T:ChiaWalletSdk.Restriction
+  id: Restriction
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Restriction.#ctor(ChiaWalletSdk.RestrictionKind,System.Byte[])
+  - ChiaWalletSdk.Restriction.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Restriction.CloneRustArcPtr
+  - ChiaWalletSdk.Restriction.Destroy
+  - ChiaWalletSdk.Restriction.Dispose
+  - ChiaWalletSdk.Restriction.Finalize
+  - ChiaWalletSdk.Restriction.FreeRustArcPtr
+  - ChiaWalletSdk.Restriction.GetKind
+  - ChiaWalletSdk.Restriction.GetPuzzleHash
+  - ChiaWalletSdk.Restriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  - ChiaWalletSdk.Restriction.SetPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.Restriction.pointer
+  langs:
+  - csharp
+  - vb
+  name: Restriction
+  nameWithType: Restriction
+  fullName: ChiaWalletSdk.Restriction
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Restriction : IRestriction'
+    content.vb: Public Class Restriction Implements IRestriction
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IRestriction
+- uid: ChiaWalletSdk.Restriction.pointer
+  commentId: F:ChiaWalletSdk.Restriction.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Restriction.pointer
+  fullName: ChiaWalletSdk.Restriction.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Restriction.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Restriction.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: Restriction(nint)
+  nameWithType: Restriction.Restriction(nint)
+  fullName: ChiaWalletSdk.Restriction.Restriction(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Restriction(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Restriction.#ctor*
+  nameWithType.vb: Restriction.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Restriction.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Restriction.Finalize
+  commentId: M:ChiaWalletSdk.Restriction.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: ~Restriction()
+  nameWithType: Restriction.~Restriction()
+  fullName: ChiaWalletSdk.Restriction.~Restriction()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Restriction()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Restriction.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Restriction.#ctor(ChiaWalletSdk.RestrictionKind,System.Byte[])
+  commentId: M:ChiaWalletSdk.Restriction.#ctor(ChiaWalletSdk.RestrictionKind,System.Byte[])
+  id: '#ctor(ChiaWalletSdk.RestrictionKind,System.Byte[])'
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: Restriction(RestrictionKind, byte[])
+  nameWithType: Restriction.Restriction(RestrictionKind, byte[])
+  fullName: ChiaWalletSdk.Restriction.Restriction(ChiaWalletSdk.RestrictionKind, byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Restriction(RestrictionKind kind, byte[] puzzleHash)
+    parameters:
+    - id: kind
+      type: ChiaWalletSdk.RestrictionKind
+    - id: puzzleHash
+      type: System.Byte[]
+    content.vb: Public Sub New(kind As RestrictionKind, puzzleHash As Byte())
+  overload: ChiaWalletSdk.Restriction.#ctor*
+  nameWithType.vb: Restriction.New(RestrictionKind, Byte())
+  fullName.vb: ChiaWalletSdk.Restriction.New(ChiaWalletSdk.RestrictionKind, Byte())
+  name.vb: New(RestrictionKind, Byte())
+- uid: ChiaWalletSdk.Restriction.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Restriction.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Restriction.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Restriction.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Restriction.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Restriction.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Restriction.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Restriction.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Restriction.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Restriction.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Restriction.Destroy
+  commentId: M:ChiaWalletSdk.Restriction.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Restriction.Destroy()
+  fullName: ChiaWalletSdk.Restriction.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Restriction.Destroy*
+- uid: ChiaWalletSdk.Restriction.Dispose
+  commentId: M:ChiaWalletSdk.Restriction.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Restriction.Dispose()
+  fullName: ChiaWalletSdk.Restriction.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Restriction.Dispose*
+- uid: ChiaWalletSdk.Restriction.GetKind
+  commentId: M:ChiaWalletSdk.Restriction.GetKind
+  id: GetKind
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: GetKind()
+  nameWithType: Restriction.GetKind()
+  fullName: ChiaWalletSdk.Restriction.GetKind()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RestrictionKind GetKind()
+    return:
+      type: ChiaWalletSdk.RestrictionKind
+    content.vb: Public Function GetKind() As RestrictionKind
+  overload: ChiaWalletSdk.Restriction.GetKind*
+  implements:
+  - ChiaWalletSdk.IRestriction.GetKind
+- uid: ChiaWalletSdk.Restriction.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.Restriction.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: Restriction.GetPuzzleHash()
+  fullName: ChiaWalletSdk.Restriction.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.Restriction.GetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IRestriction.GetPuzzleHash
+- uid: ChiaWalletSdk.Restriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  commentId: M:ChiaWalletSdk.Restriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  id: SetKind(ChiaWalletSdk.RestrictionKind)
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: SetKind(RestrictionKind)
+  nameWithType: Restriction.SetKind(RestrictionKind)
+  fullName: ChiaWalletSdk.Restriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Restriction SetKind(RestrictionKind value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.RestrictionKind
+    return:
+      type: ChiaWalletSdk.Restriction
+    content.vb: Public Function SetKind(value As RestrictionKind) As Restriction
+  overload: ChiaWalletSdk.Restriction.SetKind*
+  implements:
+  - ChiaWalletSdk.IRestriction.SetKind(ChiaWalletSdk.RestrictionKind)
+- uid: ChiaWalletSdk.Restriction.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Restriction.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.Restriction
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: Restriction.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.Restriction.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Restriction SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Restriction
+    content.vb: Public Function SetPuzzleHash(value As Byte()) As Restriction
+  overload: ChiaWalletSdk.Restriction.SetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IRestriction.SetPuzzleHash(System.Byte[])
+  nameWithType.vb: Restriction.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.Restriction.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IRestriction
+  commentId: T:ChiaWalletSdk.IRestriction
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IRestriction.html
+  name: IRestriction
+  nameWithType: IRestriction
+  fullName: ChiaWalletSdk.IRestriction
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Restriction.#ctor*
+  commentId: Overload:ChiaWalletSdk.Restriction.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction__ctor_System_IntPtr_
+  name: Restriction
+  nameWithType: Restriction.Restriction
+  fullName: ChiaWalletSdk.Restriction.Restriction
+  nameWithType.vb: Restriction.New
+  fullName.vb: ChiaWalletSdk.Restriction.New
+  name.vb: New
+- uid: ChiaWalletSdk.Restriction.Finalize*
+  commentId: Overload:ChiaWalletSdk.Restriction.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_Finalize
+  name: ~Restriction
+  nameWithType: Restriction.~Restriction
+  fullName: ChiaWalletSdk.Restriction.~Restriction
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Restriction.Finalize*
+    name: Restriction
+    isExternal: true
+    href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_Finalize
+- uid: ChiaWalletSdk.RestrictionKind
+  commentId: T:ChiaWalletSdk.RestrictionKind
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RestrictionKind.html
+  name: RestrictionKind
+  nameWithType: RestrictionKind
+  fullName: ChiaWalletSdk.RestrictionKind
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Restriction.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Restriction.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Restriction.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Restriction.FreeRustArcPtr
+- uid: ChiaWalletSdk.Restriction.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Restriction.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Restriction.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Restriction.CloneRustArcPtr
+- uid: ChiaWalletSdk.Restriction.Destroy*
+  commentId: Overload:ChiaWalletSdk.Restriction.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_Destroy
+  name: Destroy
+  nameWithType: Restriction.Destroy
+  fullName: ChiaWalletSdk.Restriction.Destroy
+- uid: ChiaWalletSdk.Restriction.Dispose*
+  commentId: Overload:ChiaWalletSdk.Restriction.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_Dispose
+  name: Dispose
+  nameWithType: Restriction.Dispose
+  fullName: ChiaWalletSdk.Restriction.Dispose
+- uid: ChiaWalletSdk.Restriction.GetKind*
+  commentId: Overload:ChiaWalletSdk.Restriction.GetKind
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_GetKind
+  name: GetKind
+  nameWithType: Restriction.GetKind
+  fullName: ChiaWalletSdk.Restriction.GetKind
+- uid: ChiaWalletSdk.IRestriction.GetKind
+  commentId: M:ChiaWalletSdk.IRestriction.GetKind
+  parent: ChiaWalletSdk.IRestriction
+  isExternal: true
+  href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_GetKind
+  name: GetKind()
+  nameWithType: IRestriction.GetKind()
+  fullName: ChiaWalletSdk.IRestriction.GetKind()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestriction.GetKind
+    name: GetKind
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_GetKind
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestriction.GetKind
+    name: GetKind
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_GetKind
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Restriction.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Restriction.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: Restriction.GetPuzzleHash
+  fullName: ChiaWalletSdk.Restriction.GetPuzzleHash
+- uid: ChiaWalletSdk.IRestriction.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IRestriction.GetPuzzleHash
+  parent: ChiaWalletSdk.IRestriction
+  isExternal: true
+  href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_GetPuzzleHash
+  name: GetPuzzleHash()
+  nameWithType: IRestriction.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IRestriction.GetPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestriction.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_GetPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestriction.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_GetPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Restriction.SetKind*
+  commentId: Overload:ChiaWalletSdk.Restriction.SetKind
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_SetKind_ChiaWalletSdk_RestrictionKind_
+  name: SetKind
+  nameWithType: Restriction.SetKind
+  fullName: ChiaWalletSdk.Restriction.SetKind
+- uid: ChiaWalletSdk.IRestriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  commentId: M:ChiaWalletSdk.IRestriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  parent: ChiaWalletSdk.IRestriction
+  isExternal: true
+  href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_SetKind_ChiaWalletSdk_RestrictionKind_
+  name: SetKind(RestrictionKind)
+  nameWithType: IRestriction.SetKind(RestrictionKind)
+  fullName: ChiaWalletSdk.IRestriction.SetKind(ChiaWalletSdk.RestrictionKind)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestriction.SetKind(ChiaWalletSdk.RestrictionKind)
+    name: SetKind
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_SetKind_ChiaWalletSdk_RestrictionKind_
+  - name: (
+  - uid: ChiaWalletSdk.RestrictionKind
+    name: RestrictionKind
+    isExternal: true
+    href: ChiaWalletSdk.RestrictionKind.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestriction.SetKind(ChiaWalletSdk.RestrictionKind)
+    name: SetKind
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_SetKind_ChiaWalletSdk_RestrictionKind_
+  - name: (
+  - uid: ChiaWalletSdk.RestrictionKind
+    name: RestrictionKind
+    isExternal: true
+    href: ChiaWalletSdk.RestrictionKind.html
+  - name: )
+- uid: ChiaWalletSdk.Restriction
+  commentId: T:ChiaWalletSdk.Restriction
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html
+  name: Restriction
+  nameWithType: Restriction
+  fullName: ChiaWalletSdk.Restriction
+- uid: ChiaWalletSdk.Restriction.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Restriction.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Restriction.html#ChiaWalletSdk_Restriction_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: Restriction.SetPuzzleHash
+  fullName: ChiaWalletSdk.Restriction.SetPuzzleHash
+- uid: ChiaWalletSdk.IRestriction.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRestriction.SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IRestriction
+  isExternal: true
+  href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash(byte[])
+  nameWithType: IRestriction.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IRestriction.SetPuzzleHash(byte[])
+  nameWithType.vb: IRestriction.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IRestriction.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRestriction.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRestriction.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IRestriction.html#ChiaWalletSdk_IRestriction_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

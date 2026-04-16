@@ -1,0 +1,1005 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.CommitmentSlot
+  commentId: T:ChiaWalletSdk.CommitmentSlot
+  id: CommitmentSlot
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.CommitmentSlot.#ctor(ChiaWalletSdk.LineageProof,System.Byte[],ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  - ChiaWalletSdk.CommitmentSlot.#ctor(System.IntPtr)
+  - ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr
+  - ChiaWalletSdk.CommitmentSlot.Destroy
+  - ChiaWalletSdk.CommitmentSlot.Dispose
+  - ChiaWalletSdk.CommitmentSlot.Finalize
+  - ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr
+  - ChiaWalletSdk.CommitmentSlot.GetCoin
+  - ChiaWalletSdk.CommitmentSlot.GetLauncherId
+  - ChiaWalletSdk.CommitmentSlot.GetNonce
+  - ChiaWalletSdk.CommitmentSlot.GetProof
+  - ChiaWalletSdk.CommitmentSlot.GetValue
+  - ChiaWalletSdk.CommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.CommitmentSlot.SetLauncherId(System.Byte[])
+  - ChiaWalletSdk.CommitmentSlot.SetNonce(System.String)
+  - ChiaWalletSdk.CommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  - ChiaWalletSdk.CommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  - ChiaWalletSdk.CommitmentSlot.ValueHash
+  - ChiaWalletSdk.CommitmentSlot.pointer
+  langs:
+  - csharp
+  - vb
+  name: CommitmentSlot
+  nameWithType: CommitmentSlot
+  fullName: ChiaWalletSdk.CommitmentSlot
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class CommitmentSlot : ICommitmentSlot'
+    content.vb: Public Class CommitmentSlot Implements ICommitmentSlot
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot
+- uid: ChiaWalletSdk.CommitmentSlot.pointer
+  commentId: F:ChiaWalletSdk.CommitmentSlot.pointer
+  id: pointer
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: CommitmentSlot.pointer
+  fullName: ChiaWalletSdk.CommitmentSlot.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.CommitmentSlot.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.CommitmentSlot.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: CommitmentSlot(nint)
+  nameWithType: CommitmentSlot.CommitmentSlot(nint)
+  fullName: ChiaWalletSdk.CommitmentSlot.CommitmentSlot(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public CommitmentSlot(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.CommitmentSlot.#ctor*
+  nameWithType.vb: CommitmentSlot.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.CommitmentSlot.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.CommitmentSlot.Finalize
+  commentId: M:ChiaWalletSdk.CommitmentSlot.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: ~CommitmentSlot()
+  nameWithType: CommitmentSlot.~CommitmentSlot()
+  fullName: ChiaWalletSdk.CommitmentSlot.~CommitmentSlot()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~CommitmentSlot()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.CommitmentSlot.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.CommitmentSlot.#ctor(ChiaWalletSdk.LineageProof,System.Byte[],ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  commentId: M:ChiaWalletSdk.CommitmentSlot.#ctor(ChiaWalletSdk.LineageProof,System.Byte[],ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  id: '#ctor(ChiaWalletSdk.LineageProof,System.Byte[],ChiaWalletSdk.RewardDistributorCommitmentSlotValue)'
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: CommitmentSlot(LineageProof, byte[], RewardDistributorCommitmentSlotValue)
+  nameWithType: CommitmentSlot.CommitmentSlot(LineageProof, byte[], RewardDistributorCommitmentSlotValue)
+  fullName: ChiaWalletSdk.CommitmentSlot.CommitmentSlot(ChiaWalletSdk.LineageProof, byte[], ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public CommitmentSlot(LineageProof proof, byte[] launcherId, RewardDistributorCommitmentSlotValue value)
+    parameters:
+    - id: proof
+      type: ChiaWalletSdk.LineageProof
+    - id: launcherId
+      type: System.Byte[]
+    - id: value
+      type: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+    content.vb: Public Sub New(proof As LineageProof, launcherId As Byte(), value As RewardDistributorCommitmentSlotValue)
+  overload: ChiaWalletSdk.CommitmentSlot.#ctor*
+  nameWithType.vb: CommitmentSlot.New(LineageProof, Byte(), RewardDistributorCommitmentSlotValue)
+  fullName.vb: ChiaWalletSdk.CommitmentSlot.New(ChiaWalletSdk.LineageProof, Byte(), ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  name.vb: New(LineageProof, Byte(), RewardDistributorCommitmentSlotValue)
+- uid: ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: CommitmentSlot.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr*
+- uid: ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: CommitmentSlot.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr*
+- uid: ChiaWalletSdk.CommitmentSlot.Destroy
+  commentId: M:ChiaWalletSdk.CommitmentSlot.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: CommitmentSlot.Destroy()
+  fullName: ChiaWalletSdk.CommitmentSlot.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.CommitmentSlot.Destroy*
+- uid: ChiaWalletSdk.CommitmentSlot.Dispose
+  commentId: M:ChiaWalletSdk.CommitmentSlot.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CommitmentSlot.Dispose()
+  fullName: ChiaWalletSdk.CommitmentSlot.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.CommitmentSlot.Dispose*
+- uid: ChiaWalletSdk.CommitmentSlot.GetCoin
+  commentId: M:ChiaWalletSdk.CommitmentSlot.GetCoin
+  id: GetCoin
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: GetCoin()
+  nameWithType: CommitmentSlot.GetCoin()
+  fullName: ChiaWalletSdk.CommitmentSlot.GetCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Coin GetCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Public Function GetCoin() As Coin
+  overload: ChiaWalletSdk.CommitmentSlot.GetCoin*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.GetCoin
+- uid: ChiaWalletSdk.CommitmentSlot.GetLauncherId
+  commentId: M:ChiaWalletSdk.CommitmentSlot.GetLauncherId
+  id: GetLauncherId
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: GetLauncherId()
+  nameWithType: CommitmentSlot.GetLauncherId()
+  fullName: ChiaWalletSdk.CommitmentSlot.GetLauncherId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetLauncherId()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetLauncherId() As Byte()
+  overload: ChiaWalletSdk.CommitmentSlot.GetLauncherId*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.GetLauncherId
+- uid: ChiaWalletSdk.CommitmentSlot.GetNonce
+  commentId: M:ChiaWalletSdk.CommitmentSlot.GetNonce
+  id: GetNonce
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: GetNonce()
+  nameWithType: CommitmentSlot.GetNonce()
+  fullName: ChiaWalletSdk.CommitmentSlot.GetNonce()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetNonce()
+    return:
+      type: System.String
+    content.vb: Public Function GetNonce() As String
+  overload: ChiaWalletSdk.CommitmentSlot.GetNonce*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.GetNonce
+- uid: ChiaWalletSdk.CommitmentSlot.GetProof
+  commentId: M:ChiaWalletSdk.CommitmentSlot.GetProof
+  id: GetProof
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: GetProof()
+  nameWithType: CommitmentSlot.GetProof()
+  fullName: ChiaWalletSdk.CommitmentSlot.GetProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public LineageProof GetProof()
+    return:
+      type: ChiaWalletSdk.LineageProof
+    content.vb: Public Function GetProof() As LineageProof
+  overload: ChiaWalletSdk.CommitmentSlot.GetProof*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.GetProof
+- uid: ChiaWalletSdk.CommitmentSlot.GetValue
+  commentId: M:ChiaWalletSdk.CommitmentSlot.GetValue
+  id: GetValue
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: GetValue()
+  nameWithType: CommitmentSlot.GetValue()
+  fullName: ChiaWalletSdk.CommitmentSlot.GetValue()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RewardDistributorCommitmentSlotValue GetValue()
+    return:
+      type: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+    content.vb: Public Function GetValue() As RewardDistributorCommitmentSlotValue
+  overload: ChiaWalletSdk.CommitmentSlot.GetValue*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.GetValue
+- uid: ChiaWalletSdk.CommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.CommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  id: SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: SetCoin(Coin)
+  nameWithType: CommitmentSlot.SetCoin(Coin)
+  fullName: ChiaWalletSdk.CommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CommitmentSlot SetCoin(Coin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.CommitmentSlot
+    content.vb: Public Function SetCoin(value As Coin) As CommitmentSlot
+  overload: ChiaWalletSdk.CommitmentSlot.SetCoin*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+- uid: ChiaWalletSdk.CommitmentSlot.SetLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.CommitmentSlot.SetLauncherId(System.Byte[])
+  id: SetLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: SetLauncherId(byte[])
+  nameWithType: CommitmentSlot.SetLauncherId(byte[])
+  fullName: ChiaWalletSdk.CommitmentSlot.SetLauncherId(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CommitmentSlot SetLauncherId(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.CommitmentSlot
+    content.vb: Public Function SetLauncherId(value As Byte()) As CommitmentSlot
+  overload: ChiaWalletSdk.CommitmentSlot.SetLauncherId*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.SetLauncherId(System.Byte[])
+  nameWithType.vb: CommitmentSlot.SetLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.CommitmentSlot.SetLauncherId(Byte())
+  name.vb: SetLauncherId(Byte())
+- uid: ChiaWalletSdk.CommitmentSlot.SetNonce(System.String)
+  commentId: M:ChiaWalletSdk.CommitmentSlot.SetNonce(System.String)
+  id: SetNonce(System.String)
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: SetNonce(string)
+  nameWithType: CommitmentSlot.SetNonce(string)
+  fullName: ChiaWalletSdk.CommitmentSlot.SetNonce(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CommitmentSlot SetNonce(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.CommitmentSlot
+    content.vb: Public Function SetNonce(value As String) As CommitmentSlot
+  overload: ChiaWalletSdk.CommitmentSlot.SetNonce*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.SetNonce(System.String)
+  nameWithType.vb: CommitmentSlot.SetNonce(String)
+  fullName.vb: ChiaWalletSdk.CommitmentSlot.SetNonce(String)
+  name.vb: SetNonce(String)
+- uid: ChiaWalletSdk.CommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  commentId: M:ChiaWalletSdk.CommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  id: SetProof(ChiaWalletSdk.LineageProof)
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: SetProof(LineageProof)
+  nameWithType: CommitmentSlot.SetProof(LineageProof)
+  fullName: ChiaWalletSdk.CommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CommitmentSlot SetProof(LineageProof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.LineageProof
+    return:
+      type: ChiaWalletSdk.CommitmentSlot
+    content.vb: Public Function SetProof(value As LineageProof) As CommitmentSlot
+  overload: ChiaWalletSdk.CommitmentSlot.SetProof*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+- uid: ChiaWalletSdk.CommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  commentId: M:ChiaWalletSdk.CommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  id: SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: SetValue(RewardDistributorCommitmentSlotValue)
+  nameWithType: CommitmentSlot.SetValue(RewardDistributorCommitmentSlotValue)
+  fullName: ChiaWalletSdk.CommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CommitmentSlot SetValue(RewardDistributorCommitmentSlotValue value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+    return:
+      type: ChiaWalletSdk.CommitmentSlot
+    content.vb: Public Function SetValue(value As RewardDistributorCommitmentSlotValue) As CommitmentSlot
+  overload: ChiaWalletSdk.CommitmentSlot.SetValue*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+- uid: ChiaWalletSdk.CommitmentSlot.ValueHash
+  commentId: M:ChiaWalletSdk.CommitmentSlot.ValueHash
+  id: ValueHash
+  parent: ChiaWalletSdk.CommitmentSlot
+  langs:
+  - csharp
+  - vb
+  name: ValueHash()
+  nameWithType: CommitmentSlot.ValueHash()
+  fullName: ChiaWalletSdk.CommitmentSlot.ValueHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] ValueHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ValueHash() As Byte()
+  overload: ChiaWalletSdk.CommitmentSlot.ValueHash*
+  implements:
+  - ChiaWalletSdk.ICommitmentSlot.ValueHash
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ICommitmentSlot
+  commentId: T:ChiaWalletSdk.ICommitmentSlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html
+  name: ICommitmentSlot
+  nameWithType: ICommitmentSlot
+  fullName: ChiaWalletSdk.ICommitmentSlot
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.CommitmentSlot.#ctor*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot__ctor_System_IntPtr_
+  name: CommitmentSlot
+  nameWithType: CommitmentSlot.CommitmentSlot
+  fullName: ChiaWalletSdk.CommitmentSlot.CommitmentSlot
+  nameWithType.vb: CommitmentSlot.New
+  fullName.vb: ChiaWalletSdk.CommitmentSlot.New
+  name.vb: New
+- uid: ChiaWalletSdk.CommitmentSlot.Finalize*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_Finalize
+  name: ~CommitmentSlot
+  nameWithType: CommitmentSlot.~CommitmentSlot
+  fullName: ChiaWalletSdk.CommitmentSlot.~CommitmentSlot
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.CommitmentSlot.Finalize*
+    name: CommitmentSlot
+    isExternal: true
+    href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_Finalize
+- uid: ChiaWalletSdk.LineageProof
+  commentId: T:ChiaWalletSdk.LineageProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.LineageProof.html
+  name: LineageProof
+  nameWithType: LineageProof
+  fullName: ChiaWalletSdk.LineageProof
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+  commentId: T:ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RewardDistributorCommitmentSlotValue.html
+  name: RewardDistributorCommitmentSlotValue
+  nameWithType: RewardDistributorCommitmentSlotValue
+  fullName: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+- uid: ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: CommitmentSlot.FreeRustArcPtr
+  fullName: ChiaWalletSdk.CommitmentSlot.FreeRustArcPtr
+- uid: ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: CommitmentSlot.CloneRustArcPtr
+  fullName: ChiaWalletSdk.CommitmentSlot.CloneRustArcPtr
+- uid: ChiaWalletSdk.CommitmentSlot.Destroy*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_Destroy
+  name: Destroy
+  nameWithType: CommitmentSlot.Destroy
+  fullName: ChiaWalletSdk.CommitmentSlot.Destroy
+- uid: ChiaWalletSdk.CommitmentSlot.Dispose*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_Dispose
+  name: Dispose
+  nameWithType: CommitmentSlot.Dispose
+  fullName: ChiaWalletSdk.CommitmentSlot.Dispose
+- uid: ChiaWalletSdk.CommitmentSlot.GetCoin*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.GetCoin
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_GetCoin
+  name: GetCoin
+  nameWithType: CommitmentSlot.GetCoin
+  fullName: ChiaWalletSdk.CommitmentSlot.GetCoin
+- uid: ChiaWalletSdk.ICommitmentSlot.GetCoin
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.GetCoin
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetCoin
+  name: GetCoin()
+  nameWithType: ICommitmentSlot.GetCoin()
+  fullName: ChiaWalletSdk.ICommitmentSlot.GetCoin()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetCoin
+    name: GetCoin
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetCoin
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetCoin
+    name: GetCoin
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetCoin
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.CommitmentSlot.GetLauncherId*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.GetLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_GetLauncherId
+  name: GetLauncherId
+  nameWithType: CommitmentSlot.GetLauncherId
+  fullName: ChiaWalletSdk.CommitmentSlot.GetLauncherId
+- uid: ChiaWalletSdk.ICommitmentSlot.GetLauncherId
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.GetLauncherId
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetLauncherId
+  name: GetLauncherId()
+  nameWithType: ICommitmentSlot.GetLauncherId()
+  fullName: ChiaWalletSdk.ICommitmentSlot.GetLauncherId()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetLauncherId
+    name: GetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetLauncherId
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetLauncherId
+    name: GetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetLauncherId
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.GetNonce*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.GetNonce
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_GetNonce
+  name: GetNonce
+  nameWithType: CommitmentSlot.GetNonce
+  fullName: ChiaWalletSdk.CommitmentSlot.GetNonce
+- uid: ChiaWalletSdk.ICommitmentSlot.GetNonce
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.GetNonce
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetNonce
+  name: GetNonce()
+  nameWithType: ICommitmentSlot.GetNonce()
+  fullName: ChiaWalletSdk.ICommitmentSlot.GetNonce()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetNonce
+    name: GetNonce
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetNonce
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetNonce
+    name: GetNonce
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetNonce
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.CommitmentSlot.GetProof*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.GetProof
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_GetProof
+  name: GetProof
+  nameWithType: CommitmentSlot.GetProof
+  fullName: ChiaWalletSdk.CommitmentSlot.GetProof
+- uid: ChiaWalletSdk.ICommitmentSlot.GetProof
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.GetProof
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetProof
+  name: GetProof()
+  nameWithType: ICommitmentSlot.GetProof()
+  fullName: ChiaWalletSdk.ICommitmentSlot.GetProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetProof
+    name: GetProof
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetProof
+    name: GetProof
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.GetValue*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.GetValue
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_GetValue
+  name: GetValue
+  nameWithType: CommitmentSlot.GetValue
+  fullName: ChiaWalletSdk.CommitmentSlot.GetValue
+- uid: ChiaWalletSdk.ICommitmentSlot.GetValue
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.GetValue
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetValue
+  name: GetValue()
+  nameWithType: ICommitmentSlot.GetValue()
+  fullName: ChiaWalletSdk.ICommitmentSlot.GetValue()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetValue
+    name: GetValue
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.GetValue
+    name: GetValue
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_GetValue
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.SetCoin*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.SetCoin
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin
+  nameWithType: CommitmentSlot.SetCoin
+  fullName: ChiaWalletSdk.CommitmentSlot.SetCoin
+- uid: ChiaWalletSdk.ICommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin(Coin)
+  nameWithType: ICommitmentSlot.SetCoin(Coin)
+  fullName: ChiaWalletSdk.ICommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+    name: SetCoin
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetCoin_ChiaWalletSdk_Coin_
+  - name: (
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetCoin(ChiaWalletSdk.Coin)
+    name: SetCoin
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetCoin_ChiaWalletSdk_Coin_
+  - name: (
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot
+  commentId: T:ChiaWalletSdk.CommitmentSlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html
+  name: CommitmentSlot
+  nameWithType: CommitmentSlot
+  fullName: ChiaWalletSdk.CommitmentSlot
+- uid: ChiaWalletSdk.CommitmentSlot.SetLauncherId*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.SetLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_SetLauncherId_System_Byte___
+  name: SetLauncherId
+  nameWithType: CommitmentSlot.SetLauncherId
+  fullName: ChiaWalletSdk.CommitmentSlot.SetLauncherId
+- uid: ChiaWalletSdk.ICommitmentSlot.SetLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.SetLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetLauncherId_System_Byte___
+  name: SetLauncherId(byte[])
+  nameWithType: ICommitmentSlot.SetLauncherId(byte[])
+  fullName: ChiaWalletSdk.ICommitmentSlot.SetLauncherId(byte[])
+  nameWithType.vb: ICommitmentSlot.SetLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.ICommitmentSlot.SetLauncherId(Byte())
+  name.vb: SetLauncherId(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetLauncherId(System.Byte[])
+    name: SetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetLauncherId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetLauncherId(System.Byte[])
+    name: SetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetLauncherId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.SetNonce*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.SetNonce
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_SetNonce_System_String_
+  name: SetNonce
+  nameWithType: CommitmentSlot.SetNonce
+  fullName: ChiaWalletSdk.CommitmentSlot.SetNonce
+- uid: ChiaWalletSdk.ICommitmentSlot.SetNonce(System.String)
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.SetNonce(System.String)
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetNonce_System_String_
+  name: SetNonce(string)
+  nameWithType: ICommitmentSlot.SetNonce(string)
+  fullName: ChiaWalletSdk.ICommitmentSlot.SetNonce(string)
+  nameWithType.vb: ICommitmentSlot.SetNonce(String)
+  fullName.vb: ChiaWalletSdk.ICommitmentSlot.SetNonce(String)
+  name.vb: SetNonce(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetNonce(System.String)
+    name: SetNonce
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetNonce_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetNonce(System.String)
+    name: SetNonce
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetNonce_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.SetProof*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.SetProof
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_SetProof_ChiaWalletSdk_LineageProof_
+  name: SetProof
+  nameWithType: CommitmentSlot.SetProof
+  fullName: ChiaWalletSdk.CommitmentSlot.SetProof
+- uid: ChiaWalletSdk.ICommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetProof_ChiaWalletSdk_LineageProof_
+  name: SetProof(LineageProof)
+  nameWithType: ICommitmentSlot.SetProof(LineageProof)
+  fullName: ChiaWalletSdk.ICommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+    name: SetProof
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetProof_ChiaWalletSdk_LineageProof_
+  - name: (
+  - uid: ChiaWalletSdk.LineageProof
+    name: LineageProof
+    isExternal: true
+    href: ChiaWalletSdk.LineageProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetProof(ChiaWalletSdk.LineageProof)
+    name: SetProof
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetProof_ChiaWalletSdk_LineageProof_
+  - name: (
+  - uid: ChiaWalletSdk.LineageProof
+    name: LineageProof
+    isExternal: true
+    href: ChiaWalletSdk.LineageProof.html
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.SetValue*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.SetValue
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_SetValue_ChiaWalletSdk_RewardDistributorCommitmentSlotValue_
+  name: SetValue
+  nameWithType: CommitmentSlot.SetValue
+  fullName: ChiaWalletSdk.CommitmentSlot.SetValue
+- uid: ChiaWalletSdk.ICommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetValue_ChiaWalletSdk_RewardDistributorCommitmentSlotValue_
+  name: SetValue(RewardDistributorCommitmentSlotValue)
+  nameWithType: ICommitmentSlot.SetValue(RewardDistributorCommitmentSlotValue)
+  fullName: ChiaWalletSdk.ICommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+    name: SetValue
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetValue_ChiaWalletSdk_RewardDistributorCommitmentSlotValue_
+  - name: (
+  - uid: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+    name: RewardDistributorCommitmentSlotValue
+    isExternal: true
+    href: ChiaWalletSdk.RewardDistributorCommitmentSlotValue.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.SetValue(ChiaWalletSdk.RewardDistributorCommitmentSlotValue)
+    name: SetValue
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_SetValue_ChiaWalletSdk_RewardDistributorCommitmentSlotValue_
+  - name: (
+  - uid: ChiaWalletSdk.RewardDistributorCommitmentSlotValue
+    name: RewardDistributorCommitmentSlotValue
+    isExternal: true
+    href: ChiaWalletSdk.RewardDistributorCommitmentSlotValue.html
+  - name: )
+- uid: ChiaWalletSdk.CommitmentSlot.ValueHash*
+  commentId: Overload:ChiaWalletSdk.CommitmentSlot.ValueHash
+  isExternal: true
+  href: ChiaWalletSdk.CommitmentSlot.html#ChiaWalletSdk_CommitmentSlot_ValueHash
+  name: ValueHash
+  nameWithType: CommitmentSlot.ValueHash
+  fullName: ChiaWalletSdk.CommitmentSlot.ValueHash
+- uid: ChiaWalletSdk.ICommitmentSlot.ValueHash
+  commentId: M:ChiaWalletSdk.ICommitmentSlot.ValueHash
+  parent: ChiaWalletSdk.ICommitmentSlot
+  isExternal: true
+  href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_ValueHash
+  name: ValueHash()
+  nameWithType: ICommitmentSlot.ValueHash()
+  fullName: ChiaWalletSdk.ICommitmentSlot.ValueHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICommitmentSlot.ValueHash
+    name: ValueHash
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_ValueHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICommitmentSlot.ValueHash
+    name: ValueHash
+    isExternal: true
+    href: ChiaWalletSdk.ICommitmentSlot.html#ChiaWalletSdk_ICommitmentSlot_ValueHash
+  - name: (
+  - name: )

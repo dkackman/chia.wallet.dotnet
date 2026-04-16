@@ -1,0 +1,546 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.K1PublicKey
+  commentId: T:ChiaWalletSdk.K1PublicKey
+  id: K1PublicKey
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.K1PublicKey.#ctor(System.IntPtr)
+  - ChiaWalletSdk.K1PublicKey.CloneRustArcPtr
+  - ChiaWalletSdk.K1PublicKey.Destroy
+  - ChiaWalletSdk.K1PublicKey.Dispose
+  - ChiaWalletSdk.K1PublicKey.Finalize
+  - ChiaWalletSdk.K1PublicKey.Fingerprint
+  - ChiaWalletSdk.K1PublicKey.FreeRustArcPtr
+  - ChiaWalletSdk.K1PublicKey.FromBytes(System.Byte[])
+  - ChiaWalletSdk.K1PublicKey.ToBytes
+  - ChiaWalletSdk.K1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  - ChiaWalletSdk.K1PublicKey.pointer
+  langs:
+  - csharp
+  - vb
+  name: K1PublicKey
+  nameWithType: K1PublicKey
+  fullName: ChiaWalletSdk.K1PublicKey
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class K1PublicKey : IK1PublicKey'
+    content.vb: Public Class K1PublicKey Implements IK1PublicKey
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IK1PublicKey
+- uid: ChiaWalletSdk.K1PublicKey.pointer
+  commentId: F:ChiaWalletSdk.K1PublicKey.pointer
+  id: pointer
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: K1PublicKey.pointer
+  fullName: ChiaWalletSdk.K1PublicKey.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.K1PublicKey.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.K1PublicKey.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: K1PublicKey(nint)
+  nameWithType: K1PublicKey.K1PublicKey(nint)
+  fullName: ChiaWalletSdk.K1PublicKey.K1PublicKey(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public K1PublicKey(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.K1PublicKey.#ctor*
+  nameWithType.vb: K1PublicKey.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.K1PublicKey.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.K1PublicKey.Finalize
+  commentId: M:ChiaWalletSdk.K1PublicKey.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: ~K1PublicKey()
+  nameWithType: K1PublicKey.~K1PublicKey()
+  fullName: ChiaWalletSdk.K1PublicKey.~K1PublicKey()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~K1PublicKey()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.K1PublicKey.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.K1PublicKey.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.K1PublicKey.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: K1PublicKey.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.K1PublicKey.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.K1PublicKey.FreeRustArcPtr*
+- uid: ChiaWalletSdk.K1PublicKey.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.K1PublicKey.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: K1PublicKey.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.K1PublicKey.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.K1PublicKey.CloneRustArcPtr*
+- uid: ChiaWalletSdk.K1PublicKey.Destroy
+  commentId: M:ChiaWalletSdk.K1PublicKey.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: K1PublicKey.Destroy()
+  fullName: ChiaWalletSdk.K1PublicKey.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.K1PublicKey.Destroy*
+- uid: ChiaWalletSdk.K1PublicKey.Dispose
+  commentId: M:ChiaWalletSdk.K1PublicKey.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: K1PublicKey.Dispose()
+  fullName: ChiaWalletSdk.K1PublicKey.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.K1PublicKey.Dispose*
+- uid: ChiaWalletSdk.K1PublicKey.Fingerprint
+  commentId: M:ChiaWalletSdk.K1PublicKey.Fingerprint
+  id: Fingerprint
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: Fingerprint()
+  nameWithType: K1PublicKey.Fingerprint()
+  fullName: ChiaWalletSdk.K1PublicKey.Fingerprint()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint Fingerprint()
+    return:
+      type: System.UInt32
+    content.vb: Public Function Fingerprint() As UInteger
+  overload: ChiaWalletSdk.K1PublicKey.Fingerprint*
+  implements:
+  - ChiaWalletSdk.IK1PublicKey.Fingerprint
+- uid: ChiaWalletSdk.K1PublicKey.ToBytes
+  commentId: M:ChiaWalletSdk.K1PublicKey.ToBytes
+  id: ToBytes
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: ToBytes()
+  nameWithType: K1PublicKey.ToBytes()
+  fullName: ChiaWalletSdk.K1PublicKey.ToBytes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] ToBytes()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function ToBytes() As Byte()
+  overload: ChiaWalletSdk.K1PublicKey.ToBytes*
+  implements:
+  - ChiaWalletSdk.IK1PublicKey.ToBytes
+- uid: ChiaWalletSdk.K1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  commentId: M:ChiaWalletSdk.K1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  id: VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: VerifyPrehashed(byte[], K1Signature)
+  nameWithType: K1PublicKey.VerifyPrehashed(byte[], K1Signature)
+  fullName: ChiaWalletSdk.K1PublicKey.VerifyPrehashed(byte[], ChiaWalletSdk.K1Signature)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool VerifyPrehashed(byte[] prehashed, K1Signature signature)
+    parameters:
+    - id: prehashed
+      type: System.Byte[]
+    - id: signature
+      type: ChiaWalletSdk.K1Signature
+    return:
+      type: System.Boolean
+    content.vb: Public Function VerifyPrehashed(prehashed As Byte(), signature As K1Signature) As Boolean
+  overload: ChiaWalletSdk.K1PublicKey.VerifyPrehashed*
+  implements:
+  - ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  nameWithType.vb: K1PublicKey.VerifyPrehashed(Byte(), K1Signature)
+  fullName.vb: ChiaWalletSdk.K1PublicKey.VerifyPrehashed(Byte(), ChiaWalletSdk.K1Signature)
+  name.vb: VerifyPrehashed(Byte(), K1Signature)
+- uid: ChiaWalletSdk.K1PublicKey.FromBytes(System.Byte[])
+  commentId: M:ChiaWalletSdk.K1PublicKey.FromBytes(System.Byte[])
+  id: FromBytes(System.Byte[])
+  parent: ChiaWalletSdk.K1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: FromBytes(byte[])
+  nameWithType: K1PublicKey.FromBytes(byte[])
+  fullName: ChiaWalletSdk.K1PublicKey.FromBytes(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static K1PublicKey FromBytes(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.K1PublicKey
+    content.vb: Public Shared Function FromBytes(bytes As Byte()) As K1PublicKey
+  overload: ChiaWalletSdk.K1PublicKey.FromBytes*
+  nameWithType.vb: K1PublicKey.FromBytes(Byte())
+  fullName.vb: ChiaWalletSdk.K1PublicKey.FromBytes(Byte())
+  name.vb: FromBytes(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IK1PublicKey
+  commentId: T:ChiaWalletSdk.IK1PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IK1PublicKey.html
+  name: IK1PublicKey
+  nameWithType: IK1PublicKey
+  fullName: ChiaWalletSdk.IK1PublicKey
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.K1PublicKey.#ctor*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey__ctor_System_IntPtr_
+  name: K1PublicKey
+  nameWithType: K1PublicKey.K1PublicKey
+  fullName: ChiaWalletSdk.K1PublicKey.K1PublicKey
+  nameWithType.vb: K1PublicKey.New
+  fullName.vb: ChiaWalletSdk.K1PublicKey.New
+  name.vb: New
+- uid: ChiaWalletSdk.K1PublicKey.Finalize*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_Finalize
+  name: ~K1PublicKey
+  nameWithType: K1PublicKey.~K1PublicKey
+  fullName: ChiaWalletSdk.K1PublicKey.~K1PublicKey
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.K1PublicKey.Finalize*
+    name: K1PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_Finalize
+- uid: ChiaWalletSdk.K1PublicKey.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: K1PublicKey.FreeRustArcPtr
+  fullName: ChiaWalletSdk.K1PublicKey.FreeRustArcPtr
+- uid: ChiaWalletSdk.K1PublicKey.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: K1PublicKey.CloneRustArcPtr
+  fullName: ChiaWalletSdk.K1PublicKey.CloneRustArcPtr
+- uid: ChiaWalletSdk.K1PublicKey.Destroy*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_Destroy
+  name: Destroy
+  nameWithType: K1PublicKey.Destroy
+  fullName: ChiaWalletSdk.K1PublicKey.Destroy
+- uid: ChiaWalletSdk.K1PublicKey.Dispose*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_Dispose
+  name: Dispose
+  nameWithType: K1PublicKey.Dispose
+  fullName: ChiaWalletSdk.K1PublicKey.Dispose
+- uid: ChiaWalletSdk.K1PublicKey.Fingerprint*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.Fingerprint
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_Fingerprint
+  name: Fingerprint
+  nameWithType: K1PublicKey.Fingerprint
+  fullName: ChiaWalletSdk.K1PublicKey.Fingerprint
+- uid: ChiaWalletSdk.IK1PublicKey.Fingerprint
+  commentId: M:ChiaWalletSdk.IK1PublicKey.Fingerprint
+  parent: ChiaWalletSdk.IK1PublicKey
+  isExternal: true
+  href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_Fingerprint
+  name: Fingerprint()
+  nameWithType: IK1PublicKey.Fingerprint()
+  fullName: ChiaWalletSdk.IK1PublicKey.Fingerprint()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IK1PublicKey.Fingerprint
+    name: Fingerprint
+    isExternal: true
+    href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_Fingerprint
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IK1PublicKey.Fingerprint
+    name: Fingerprint
+    isExternal: true
+    href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_Fingerprint
+  - name: (
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.K1PublicKey.ToBytes*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.ToBytes
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_ToBytes
+  name: ToBytes
+  nameWithType: K1PublicKey.ToBytes
+  fullName: ChiaWalletSdk.K1PublicKey.ToBytes
+- uid: ChiaWalletSdk.IK1PublicKey.ToBytes
+  commentId: M:ChiaWalletSdk.IK1PublicKey.ToBytes
+  parent: ChiaWalletSdk.IK1PublicKey
+  isExternal: true
+  href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_ToBytes
+  name: ToBytes()
+  nameWithType: IK1PublicKey.ToBytes()
+  fullName: ChiaWalletSdk.IK1PublicKey.ToBytes()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IK1PublicKey.ToBytes
+    name: ToBytes
+    isExternal: true
+    href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_ToBytes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IK1PublicKey.ToBytes
+    name: ToBytes
+    isExternal: true
+    href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_ToBytes
+  - name: (
+  - name: )
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.K1PublicKey.VerifyPrehashed*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.VerifyPrehashed
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_VerifyPrehashed_System_Byte___ChiaWalletSdk_K1Signature_
+  name: VerifyPrehashed
+  nameWithType: K1PublicKey.VerifyPrehashed
+  fullName: ChiaWalletSdk.K1PublicKey.VerifyPrehashed
+- uid: ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  commentId: M:ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+  parent: ChiaWalletSdk.IK1PublicKey
+  isExternal: true
+  href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_VerifyPrehashed_System_Byte___ChiaWalletSdk_K1Signature_
+  name: VerifyPrehashed(byte[], K1Signature)
+  nameWithType: IK1PublicKey.VerifyPrehashed(byte[], K1Signature)
+  fullName: ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(byte[], ChiaWalletSdk.K1Signature)
+  nameWithType.vb: IK1PublicKey.VerifyPrehashed(Byte(), K1Signature)
+  fullName.vb: ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(Byte(), ChiaWalletSdk.K1Signature)
+  name.vb: VerifyPrehashed(Byte(), K1Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+    name: VerifyPrehashed
+    isExternal: true
+    href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_VerifyPrehashed_System_Byte___ChiaWalletSdk_K1Signature_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: ChiaWalletSdk.K1Signature
+    name: K1Signature
+    isExternal: true
+    href: ChiaWalletSdk.K1Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IK1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.K1Signature)
+    name: VerifyPrehashed
+    isExternal: true
+    href: ChiaWalletSdk.IK1PublicKey.html#ChiaWalletSdk_IK1PublicKey_VerifyPrehashed_System_Byte___ChiaWalletSdk_K1Signature_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: ChiaWalletSdk.K1Signature
+    name: K1Signature
+    isExternal: true
+    href: ChiaWalletSdk.K1Signature.html
+  - name: )
+- uid: ChiaWalletSdk.K1Signature
+  commentId: T:ChiaWalletSdk.K1Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.K1Signature.html
+  name: K1Signature
+  nameWithType: K1Signature
+  fullName: ChiaWalletSdk.K1Signature
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.K1PublicKey.FromBytes*
+  commentId: Overload:ChiaWalletSdk.K1PublicKey.FromBytes
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html#ChiaWalletSdk_K1PublicKey_FromBytes_System_Byte___
+  name: FromBytes
+  nameWithType: K1PublicKey.FromBytes
+  fullName: ChiaWalletSdk.K1PublicKey.FromBytes
+- uid: ChiaWalletSdk.K1PublicKey
+  commentId: T:ChiaWalletSdk.K1PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.K1PublicKey.html
+  name: K1PublicKey
+  nameWithType: K1PublicKey
+  fullName: ChiaWalletSdk.K1PublicKey

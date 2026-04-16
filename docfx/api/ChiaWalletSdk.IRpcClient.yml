@@ -1,0 +1,1481 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IRpcClient
+  commentId: T:ChiaWalletSdk.IRpcClient
+  id: IRpcClient
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetBlock(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetBlockRecord(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight(System.UInt32)
+  - ChiaWalletSdk.IRpcClient.GetBlockRecords(System.UInt32,System.UInt32)
+  - ChiaWalletSdk.IRpcClient.GetBlockSpends(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetBlockchainState
+  - ChiaWalletSdk.IRpcClient.GetBlocks(System.UInt32,System.UInt32,System.Boolean,System.Boolean)
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordByName(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  - ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  - ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName(System.Byte[])
+  - ChiaWalletSdk.IRpcClient.GetNetworkInfo
+  - ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution(System.Byte[],System.Nullable{System.UInt32})
+  - ChiaWalletSdk.IRpcClient.PushTx(ChiaWalletSdk.SpendBundle)
+  langs:
+  - csharp
+  - vb
+  name: IRpcClient
+  nameWithType: IRpcClient
+  fullName: ChiaWalletSdk.IRpcClient
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IRpcClient
+    content.vb: Public Interface IRpcClient
+  derivedClasses:
+  - ChiaWalletSdk.RpcClient
+- uid: ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals(System.Byte[])
+  id: GetAdditionsAndRemovals(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetAdditionsAndRemovals(byte[])
+  nameWithType: IRpcClient.GetAdditionsAndRemovals(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<AdditionsAndRemovalsResponse> GetAdditionsAndRemovals(byte[] headerHash)
+    parameters:
+    - id: headerHash
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.AdditionsAndRemovalsResponse}
+    content.vb: Function GetAdditionsAndRemovals(headerHash As Byte()) As Task(Of AdditionsAndRemovalsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals*
+  nameWithType.vb: IRpcClient.GetAdditionsAndRemovals(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals(Byte())
+  name.vb: GetAdditionsAndRemovals(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetBlock(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlock(System.Byte[])
+  id: GetBlock(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlock(byte[])
+  nameWithType: IRpcClient.GetBlock(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetBlock(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetBlockResponse> GetBlock(byte[] headerHash)
+    parameters:
+    - id: headerHash
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockResponse}
+    content.vb: Function GetBlock(headerHash As Byte()) As Task(Of GetBlockResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlock*
+  nameWithType.vb: IRpcClient.GetBlock(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetBlock(Byte())
+  name.vb: GetBlock(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetBlockRecord(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlockRecord(System.Byte[])
+  id: GetBlockRecord(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlockRecord(byte[])
+  nameWithType: IRpcClient.GetBlockRecord(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockRecord(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetBlockRecordResponse> GetBlockRecord(byte[] headerHash)
+    parameters:
+    - id: headerHash
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordResponse}
+    content.vb: Function GetBlockRecord(headerHash As Byte()) As Task(Of GetBlockRecordResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlockRecord*
+  nameWithType.vb: IRpcClient.GetBlockRecord(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetBlockRecord(Byte())
+  name.vb: GetBlockRecord(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight(System.UInt32)
+  id: GetBlockRecordByHeight(System.UInt32)
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlockRecordByHeight(uint)
+  nameWithType: IRpcClient.GetBlockRecordByHeight(uint)
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetBlockRecordResponse> GetBlockRecordByHeight(uint height)
+    parameters:
+    - id: height
+      type: System.UInt32
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordResponse}
+    content.vb: Function GetBlockRecordByHeight(height As UInteger) As Task(Of GetBlockRecordResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight*
+  nameWithType.vb: IRpcClient.GetBlockRecordByHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight(UInteger)
+  name.vb: GetBlockRecordByHeight(UInteger)
+- uid: ChiaWalletSdk.IRpcClient.GetBlockRecords(System.UInt32,System.UInt32)
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlockRecords(System.UInt32,System.UInt32)
+  id: GetBlockRecords(System.UInt32,System.UInt32)
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlockRecords(uint, uint)
+  nameWithType: IRpcClient.GetBlockRecords(uint, uint)
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockRecords(uint, uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetBlockRecordsResponse> GetBlockRecords(uint startHeight, uint endHeight)
+    parameters:
+    - id: startHeight
+      type: System.UInt32
+    - id: endHeight
+      type: System.UInt32
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordsResponse}
+    content.vb: Function GetBlockRecords(startHeight As UInteger, endHeight As UInteger) As Task(Of GetBlockRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlockRecords*
+  nameWithType.vb: IRpcClient.GetBlockRecords(UInteger, UInteger)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetBlockRecords(UInteger, UInteger)
+  name.vb: GetBlockRecords(UInteger, UInteger)
+- uid: ChiaWalletSdk.IRpcClient.GetBlockSpends(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlockSpends(System.Byte[])
+  id: GetBlockSpends(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlockSpends(byte[])
+  nameWithType: IRpcClient.GetBlockSpends(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockSpends(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetBlockSpendsResponse> GetBlockSpends(byte[] headerHash)
+    parameters:
+    - id: headerHash
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockSpendsResponse}
+    content.vb: Function GetBlockSpends(headerHash As Byte()) As Task(Of GetBlockSpendsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlockSpends*
+  nameWithType.vb: IRpcClient.GetBlockSpends(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetBlockSpends(Byte())
+  name.vb: GetBlockSpends(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetBlockchainState
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlockchainState
+  id: GetBlockchainState
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlockchainState()
+  nameWithType: IRpcClient.GetBlockchainState()
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockchainState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<BlockchainStateResponse> GetBlockchainState()
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.BlockchainStateResponse}
+    content.vb: Function GetBlockchainState() As Task(Of BlockchainStateResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlockchainState*
+- uid: ChiaWalletSdk.IRpcClient.GetBlocks(System.UInt32,System.UInt32,System.Boolean,System.Boolean)
+  commentId: M:ChiaWalletSdk.IRpcClient.GetBlocks(System.UInt32,System.UInt32,System.Boolean,System.Boolean)
+  id: GetBlocks(System.UInt32,System.UInt32,System.Boolean,System.Boolean)
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetBlocks(uint, uint, bool, bool)
+  nameWithType: IRpcClient.GetBlocks(uint, uint, bool, bool)
+  fullName: ChiaWalletSdk.IRpcClient.GetBlocks(uint, uint, bool, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetBlocksResponse> GetBlocks(uint start, uint end, bool excludeHeaderHash, bool excludeReorged)
+    parameters:
+    - id: start
+      type: System.UInt32
+    - id: end
+      type: System.UInt32
+    - id: excludeHeaderHash
+      type: System.Boolean
+    - id: excludeReorged
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlocksResponse}
+    content.vb: Function GetBlocks(start As UInteger, [end] As UInteger, excludeHeaderHash As Boolean, excludeReorged As Boolean) As Task(Of GetBlocksResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetBlocks*
+  nameWithType.vb: IRpcClient.GetBlocks(UInteger, UInteger, Boolean, Boolean)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetBlocks(UInteger, UInteger, Boolean, Boolean)
+  name.vb: GetBlocks(UInteger, UInteger, Boolean, Boolean)
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordByName(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordByName(System.Byte[])
+  id: GetCoinRecordByName(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordByName(byte[])
+  nameWithType: IRpcClient.GetCoinRecordByName(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordByName(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordResponse> GetCoinRecordByName(byte[] name)
+    parameters:
+    - id: name
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordResponse}
+    content.vb: Function GetCoinRecordByName(name As Byte()) As Task(Of GetCoinRecordResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordByName*
+  nameWithType.vb: IRpcClient.GetCoinRecordByName(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordByName(Byte())
+  name.vb: GetCoinRecordByName(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  id: GetCoinRecordsByHint(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordsByHint(byte[], uint?, uint?, bool?)
+  nameWithType: IRpcClient.GetCoinRecordsByHint(byte[], uint?, uint?, bool?)
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint(byte[], uint?, uint?, bool?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordsResponse> GetCoinRecordsByHint(byte[] hint, uint? startHeight, uint? endHeight, bool? includeSpentCoins)
+    parameters:
+    - id: hint
+      type: System.Byte[]
+    - id: startHeight
+      type: System.Nullable{System.UInt32}
+    - id: endHeight
+      type: System.Nullable{System.UInt32}
+    - id: includeSpentCoins
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+    content.vb: Function GetCoinRecordsByHint(hint As Byte(), startHeight As UInteger?, endHeight As UInteger?, includeSpentCoins As Boolean?) As Task(Of GetCoinRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint*
+  nameWithType.vb: IRpcClient.GetCoinRecordsByHint(Byte(), UInteger?, UInteger?, Boolean?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint(Byte(), UInteger?, UInteger?, Boolean?)
+  name.vb: GetCoinRecordsByHint(Byte(), UInteger?, UInteger?, Boolean?)
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  id: GetCoinRecordsByHints(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordsByHints(List<byte[]>, uint?, uint?, bool?)
+  nameWithType: IRpcClient.GetCoinRecordsByHints(List<byte[]>, uint?, uint?, bool?)
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints(System.Collections.Generic.List<byte[]>, uint?, uint?, bool?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordsResponse> GetCoinRecordsByHints(List<byte[]> hints, uint? startHeight, uint? endHeight, bool? includeSpentCoins)
+    parameters:
+    - id: hints
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: startHeight
+      type: System.Nullable{System.UInt32}
+    - id: endHeight
+      type: System.Nullable{System.UInt32}
+    - id: includeSpentCoins
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+    content.vb: Function GetCoinRecordsByHints(hints As List(Of Byte()), startHeight As UInteger?, endHeight As UInteger?, includeSpentCoins As Boolean?) As Task(Of GetCoinRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints*
+  nameWithType.vb: IRpcClient.GetCoinRecordsByHints(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints(System.Collections.Generic.List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  name.vb: GetCoinRecordsByHints(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  id: GetCoinRecordsByNames(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordsByNames(List<byte[]>, uint?, uint?, bool?)
+  nameWithType: IRpcClient.GetCoinRecordsByNames(List<byte[]>, uint?, uint?, bool?)
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames(System.Collections.Generic.List<byte[]>, uint?, uint?, bool?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordsResponse> GetCoinRecordsByNames(List<byte[]> names, uint? startHeight, uint? endHeight, bool? includeSpentCoins)
+    parameters:
+    - id: names
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: startHeight
+      type: System.Nullable{System.UInt32}
+    - id: endHeight
+      type: System.Nullable{System.UInt32}
+    - id: includeSpentCoins
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+    content.vb: Function GetCoinRecordsByNames(names As List(Of Byte()), startHeight As UInteger?, endHeight As UInteger?, includeSpentCoins As Boolean?) As Task(Of GetCoinRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames*
+  nameWithType.vb: IRpcClient.GetCoinRecordsByNames(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames(System.Collections.Generic.List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  name.vb: GetCoinRecordsByNames(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  id: GetCoinRecordsByParentIds(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordsByParentIds(List<byte[]>, uint?, uint?, bool?)
+  nameWithType: IRpcClient.GetCoinRecordsByParentIds(List<byte[]>, uint?, uint?, bool?)
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds(System.Collections.Generic.List<byte[]>, uint?, uint?, bool?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordsResponse> GetCoinRecordsByParentIds(List<byte[]> parentIds, uint? startHeight, uint? endHeight, bool? includeSpentCoins)
+    parameters:
+    - id: parentIds
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: startHeight
+      type: System.Nullable{System.UInt32}
+    - id: endHeight
+      type: System.Nullable{System.UInt32}
+    - id: includeSpentCoins
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+    content.vb: Function GetCoinRecordsByParentIds(parentIds As List(Of Byte()), startHeight As UInteger?, endHeight As UInteger?, includeSpentCoins As Boolean?) As Task(Of GetCoinRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds*
+  nameWithType.vb: IRpcClient.GetCoinRecordsByParentIds(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds(System.Collections.Generic.List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  name.vb: GetCoinRecordsByParentIds(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  id: GetCoinRecordsByPuzzleHash(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordsByPuzzleHash(byte[], uint?, uint?, bool?)
+  nameWithType: IRpcClient.GetCoinRecordsByPuzzleHash(byte[], uint?, uint?, bool?)
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash(byte[], uint?, uint?, bool?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordsResponse> GetCoinRecordsByPuzzleHash(byte[] puzzleHash, uint? startHeight, uint? endHeight, bool? includeSpentCoins)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: startHeight
+      type: System.Nullable{System.UInt32}
+    - id: endHeight
+      type: System.Nullable{System.UInt32}
+    - id: includeSpentCoins
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+    content.vb: Function GetCoinRecordsByPuzzleHash(puzzleHash As Byte(), startHeight As UInteger?, endHeight As UInteger?, includeSpentCoins As Boolean?) As Task(Of GetCoinRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash*
+  nameWithType.vb: IRpcClient.GetCoinRecordsByPuzzleHash(Byte(), UInteger?, UInteger?, Boolean?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash(Byte(), UInteger?, UInteger?, Boolean?)
+  name.vb: GetCoinRecordsByPuzzleHash(Byte(), UInteger?, UInteger?, Boolean?)
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  id: GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetCoinRecordsByPuzzleHashes(List<byte[]>, uint?, uint?, bool?)
+  nameWithType: IRpcClient.GetCoinRecordsByPuzzleHashes(List<byte[]>, uint?, uint?, bool?)
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List<byte[]>, uint?, uint?, bool?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetCoinRecordsResponse> GetCoinRecordsByPuzzleHashes(List<byte[]> puzzleHashes, uint? startHeight, uint? endHeight, bool? includeSpentCoins)
+    parameters:
+    - id: puzzleHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: startHeight
+      type: System.Nullable{System.UInt32}
+    - id: endHeight
+      type: System.Nullable{System.UInt32}
+    - id: includeSpentCoins
+      type: System.Nullable{System.Boolean}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+    content.vb: Function GetCoinRecordsByPuzzleHashes(puzzleHashes As List(Of Byte()), startHeight As UInteger?, endHeight As UInteger?, includeSpentCoins As Boolean?) As Task(Of GetCoinRecordsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes*
+  nameWithType.vb: IRpcClient.GetCoinRecordsByPuzzleHashes(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List(Of Byte()), UInteger?, UInteger?, Boolean?)
+  name.vb: GetCoinRecordsByPuzzleHashes(List(Of Byte()), UInteger?, UInteger?, Boolean?)
+- uid: ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId(System.Byte[])
+  id: GetMempoolItemByTxId(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolItemByTxId(byte[])
+  nameWithType: IRpcClient.GetMempoolItemByTxId(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetMempoolItemResponse> GetMempoolItemByTxId(byte[] txId)
+    parameters:
+    - id: txId
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetMempoolItemResponse}
+    content.vb: Function GetMempoolItemByTxId(txId As Byte()) As Task(Of GetMempoolItemResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId*
+  nameWithType.vb: IRpcClient.GetMempoolItemByTxId(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId(Byte())
+  name.vb: GetMempoolItemByTxId(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName(System.Byte[])
+  commentId: M:ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName(System.Byte[])
+  id: GetMempoolItemsByCoinName(System.Byte[])
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolItemsByCoinName(byte[])
+  nameWithType: IRpcClient.GetMempoolItemsByCoinName(byte[])
+  fullName: ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetMempoolItemsResponse> GetMempoolItemsByCoinName(byte[] coinName)
+    parameters:
+    - id: coinName
+      type: System.Byte[]
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetMempoolItemsResponse}
+    content.vb: Function GetMempoolItemsByCoinName(coinName As Byte()) As Task(Of GetMempoolItemsResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName*
+  nameWithType.vb: IRpcClient.GetMempoolItemsByCoinName(Byte())
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName(Byte())
+  name.vb: GetMempoolItemsByCoinName(Byte())
+- uid: ChiaWalletSdk.IRpcClient.GetNetworkInfo
+  commentId: M:ChiaWalletSdk.IRpcClient.GetNetworkInfo
+  id: GetNetworkInfo
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetNetworkInfo()
+  nameWithType: IRpcClient.GetNetworkInfo()
+  fullName: ChiaWalletSdk.IRpcClient.GetNetworkInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetNetworkInfoResponse> GetNetworkInfo()
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetNetworkInfoResponse}
+    content.vb: Function GetNetworkInfo() As Task(Of GetNetworkInfoResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetNetworkInfo*
+- uid: ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution(System.Byte[],System.Nullable{System.UInt32})
+  commentId: M:ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution(System.Byte[],System.Nullable{System.UInt32})
+  id: GetPuzzleAndSolution(System.Byte[],System.Nullable{System.UInt32})
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleAndSolution(byte[], uint?)
+  nameWithType: IRpcClient.GetPuzzleAndSolution(byte[], uint?)
+  fullName: ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution(byte[], uint?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<GetPuzzleAndSolutionResponse> GetPuzzleAndSolution(byte[] coinId, uint? height)
+    parameters:
+    - id: coinId
+      type: System.Byte[]
+    - id: height
+      type: System.Nullable{System.UInt32}
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.GetPuzzleAndSolutionResponse}
+    content.vb: Function GetPuzzleAndSolution(coinId As Byte(), height As UInteger?) As Task(Of GetPuzzleAndSolutionResponse)
+  overload: ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution*
+  nameWithType.vb: IRpcClient.GetPuzzleAndSolution(Byte(), UInteger?)
+  fullName.vb: ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution(Byte(), UInteger?)
+  name.vb: GetPuzzleAndSolution(Byte(), UInteger?)
+- uid: ChiaWalletSdk.IRpcClient.PushTx(ChiaWalletSdk.SpendBundle)
+  commentId: M:ChiaWalletSdk.IRpcClient.PushTx(ChiaWalletSdk.SpendBundle)
+  id: PushTx(ChiaWalletSdk.SpendBundle)
+  parent: ChiaWalletSdk.IRpcClient
+  langs:
+  - csharp
+  - vb
+  name: PushTx(SpendBundle)
+  nameWithType: IRpcClient.PushTx(SpendBundle)
+  fullName: ChiaWalletSdk.IRpcClient.PushTx(ChiaWalletSdk.SpendBundle)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<PushTxResponse> PushTx(SpendBundle spendBundle)
+    parameters:
+    - id: spendBundle
+      type: ChiaWalletSdk.SpendBundle
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.PushTxResponse}
+    content.vb: Function PushTx(spendBundle As SpendBundle) As Task(Of PushTxResponse)
+  overload: ChiaWalletSdk.IRpcClient.PushTx*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetAdditionsAndRemovals_System_Byte___
+  name: GetAdditionsAndRemovals
+  nameWithType: IRpcClient.GetAdditionsAndRemovals
+  fullName: ChiaWalletSdk.IRpcClient.GetAdditionsAndRemovals
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.AdditionsAndRemovalsResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.AdditionsAndRemovalsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html
+  name: Task<AdditionsAndRemovalsResponse>
+  nameWithType: Task<AdditionsAndRemovalsResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.AdditionsAndRemovalsResponse>
+  nameWithType.vb: Task(Of AdditionsAndRemovalsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.AdditionsAndRemovalsResponse)
+  name.vb: Task(Of AdditionsAndRemovalsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.AdditionsAndRemovalsResponse
+    name: AdditionsAndRemovalsResponse
+    isExternal: true
+    href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.AdditionsAndRemovalsResponse
+    name: AdditionsAndRemovalsResponse
+    isExternal: true
+    href: ChiaWalletSdk.AdditionsAndRemovalsResponse.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: ChiaWalletSdk.IRpcClient.GetBlock*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlock
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlock_System_Byte___
+  name: GetBlock
+  nameWithType: IRpcClient.GetBlock
+  fullName: ChiaWalletSdk.IRpcClient.GetBlock
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetBlockResponse.html
+  name: Task<GetBlockResponse>
+  nameWithType: Task<GetBlockResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetBlockResponse>
+  nameWithType.vb: Task(Of GetBlockResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetBlockResponse)
+  name.vb: Task(Of GetBlockResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetBlockResponse
+    name: GetBlockResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetBlockResponse
+    name: GetBlockResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetBlockRecord*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlockRecord_System_Byte___
+  name: GetBlockRecord
+  nameWithType: IRpcClient.GetBlockRecord
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockRecord
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetBlockRecordResponse.html
+  name: Task<GetBlockRecordResponse>
+  nameWithType: Task<GetBlockRecordResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetBlockRecordResponse>
+  nameWithType.vb: Task(Of GetBlockRecordResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetBlockRecordResponse)
+  name.vb: Task(Of GetBlockRecordResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetBlockRecordResponse
+    name: GetBlockRecordResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockRecordResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetBlockRecordResponse
+    name: GetBlockRecordResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockRecordResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlockRecordByHeight_System_UInt32_
+  name: GetBlockRecordByHeight
+  nameWithType: IRpcClient.GetBlockRecordByHeight
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockRecordByHeight
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IRpcClient.GetBlockRecords*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlockRecords
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlockRecords_System_UInt32_System_UInt32_
+  name: GetBlockRecords
+  nameWithType: IRpcClient.GetBlockRecords
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockRecords
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordsResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockRecordsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetBlockRecordsResponse.html
+  name: Task<GetBlockRecordsResponse>
+  nameWithType: Task<GetBlockRecordsResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetBlockRecordsResponse>
+  nameWithType.vb: Task(Of GetBlockRecordsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetBlockRecordsResponse)
+  name.vb: Task(Of GetBlockRecordsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetBlockRecordsResponse
+    name: GetBlockRecordsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockRecordsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetBlockRecordsResponse
+    name: GetBlockRecordsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockRecordsResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetBlockSpends*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlockSpends
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlockSpends_System_Byte___
+  name: GetBlockSpends
+  nameWithType: IRpcClient.GetBlockSpends
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockSpends
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockSpendsResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetBlockSpendsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetBlockSpendsResponse.html
+  name: Task<GetBlockSpendsResponse>
+  nameWithType: Task<GetBlockSpendsResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetBlockSpendsResponse>
+  nameWithType.vb: Task(Of GetBlockSpendsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetBlockSpendsResponse)
+  name.vb: Task(Of GetBlockSpendsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetBlockSpendsResponse
+    name: GetBlockSpendsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockSpendsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetBlockSpendsResponse
+    name: GetBlockSpendsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockSpendsResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetBlockchainState*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlockchainState
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlockchainState
+  name: GetBlockchainState
+  nameWithType: IRpcClient.GetBlockchainState
+  fullName: ChiaWalletSdk.IRpcClient.GetBlockchainState
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.BlockchainStateResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.BlockchainStateResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.BlockchainStateResponse.html
+  name: Task<BlockchainStateResponse>
+  nameWithType: Task<BlockchainStateResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.BlockchainStateResponse>
+  nameWithType.vb: Task(Of BlockchainStateResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.BlockchainStateResponse)
+  name.vb: Task(Of BlockchainStateResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.BlockchainStateResponse
+    name: BlockchainStateResponse
+    isExternal: true
+    href: ChiaWalletSdk.BlockchainStateResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.BlockchainStateResponse
+    name: BlockchainStateResponse
+    isExternal: true
+    href: ChiaWalletSdk.BlockchainStateResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetBlocks*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetBlocks
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetBlocks_System_UInt32_System_UInt32_System_Boolean_System_Boolean_
+  name: GetBlocks
+  nameWithType: IRpcClient.GetBlocks
+  fullName: ChiaWalletSdk.IRpcClient.GetBlocks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetBlocksResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetBlocksResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetBlocksResponse.html
+  name: Task<GetBlocksResponse>
+  nameWithType: Task<GetBlocksResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetBlocksResponse>
+  nameWithType.vb: Task(Of GetBlocksResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetBlocksResponse)
+  name.vb: Task(Of GetBlocksResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetBlocksResponse
+    name: GetBlocksResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlocksResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetBlocksResponse
+    name: GetBlocksResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlocksResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordByName*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordByName
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordByName_System_Byte___
+  name: GetCoinRecordByName
+  nameWithType: IRpcClient.GetCoinRecordByName
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordByName
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetCoinRecordResponse.html
+  name: Task<GetCoinRecordResponse>
+  nameWithType: Task<GetCoinRecordResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetCoinRecordResponse>
+  nameWithType.vb: Task(Of GetCoinRecordResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetCoinRecordResponse)
+  name.vb: Task(Of GetCoinRecordResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetCoinRecordResponse
+    name: GetCoinRecordResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetCoinRecordResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetCoinRecordResponse
+    name: GetCoinRecordResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetCoinRecordResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordsByHint_System_Byte___System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__
+  name: GetCoinRecordsByHint
+  nameWithType: IRpcClient.GetCoinRecordsByHint
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHint
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  name: uint?
+  nameWithType: uint?
+  fullName: uint?
+  nameWithType.vb: UInteger?
+  fullName.vb: UInteger?
+  name.vb: UInteger?
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: '?'
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetCoinRecordsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetCoinRecordsResponse.html
+  name: Task<GetCoinRecordsResponse>
+  nameWithType: Task<GetCoinRecordsResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetCoinRecordsResponse>
+  nameWithType.vb: Task(Of GetCoinRecordsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetCoinRecordsResponse)
+  name.vb: Task(Of GetCoinRecordsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetCoinRecordsResponse
+    name: GetCoinRecordsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetCoinRecordsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetCoinRecordsResponse
+    name: GetCoinRecordsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetCoinRecordsResponse.html
+  - name: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordsByHints_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__
+  name: GetCoinRecordsByHints
+  nameWithType: IRpcClient.GetCoinRecordsByHints
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByHints
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordsByNames_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__
+  name: GetCoinRecordsByNames
+  nameWithType: IRpcClient.GetCoinRecordsByNames
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByNames
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordsByParentIds_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__
+  name: GetCoinRecordsByParentIds
+  nameWithType: IRpcClient.GetCoinRecordsByParentIds
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByParentIds
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordsByPuzzleHash_System_Byte___System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__
+  name: GetCoinRecordsByPuzzleHash
+  nameWithType: IRpcClient.GetCoinRecordsByPuzzleHash
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHash
+- uid: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetCoinRecordsByPuzzleHashes_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__
+  name: GetCoinRecordsByPuzzleHashes
+  nameWithType: IRpcClient.GetCoinRecordsByPuzzleHashes
+  fullName: ChiaWalletSdk.IRpcClient.GetCoinRecordsByPuzzleHashes
+- uid: ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetMempoolItemByTxId_System_Byte___
+  name: GetMempoolItemByTxId
+  nameWithType: IRpcClient.GetMempoolItemByTxId
+  fullName: ChiaWalletSdk.IRpcClient.GetMempoolItemByTxId
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetMempoolItemResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetMempoolItemResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetMempoolItemResponse.html
+  name: Task<GetMempoolItemResponse>
+  nameWithType: Task<GetMempoolItemResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetMempoolItemResponse>
+  nameWithType.vb: Task(Of GetMempoolItemResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetMempoolItemResponse)
+  name.vb: Task(Of GetMempoolItemResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetMempoolItemResponse
+    name: GetMempoolItemResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetMempoolItemResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetMempoolItemResponse
+    name: GetMempoolItemResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetMempoolItemResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetMempoolItemsByCoinName_System_Byte___
+  name: GetMempoolItemsByCoinName
+  nameWithType: IRpcClient.GetMempoolItemsByCoinName
+  fullName: ChiaWalletSdk.IRpcClient.GetMempoolItemsByCoinName
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetMempoolItemsResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetMempoolItemsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetMempoolItemsResponse.html
+  name: Task<GetMempoolItemsResponse>
+  nameWithType: Task<GetMempoolItemsResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetMempoolItemsResponse>
+  nameWithType.vb: Task(Of GetMempoolItemsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetMempoolItemsResponse)
+  name.vb: Task(Of GetMempoolItemsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetMempoolItemsResponse
+    name: GetMempoolItemsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetMempoolItemsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetMempoolItemsResponse
+    name: GetMempoolItemsResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetMempoolItemsResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetNetworkInfo*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetNetworkInfo
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetNetworkInfo
+  name: GetNetworkInfo
+  nameWithType: IRpcClient.GetNetworkInfo
+  fullName: ChiaWalletSdk.IRpcClient.GetNetworkInfo
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetNetworkInfoResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetNetworkInfoResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html
+  name: Task<GetNetworkInfoResponse>
+  nameWithType: Task<GetNetworkInfoResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetNetworkInfoResponse>
+  nameWithType.vb: Task(Of GetNetworkInfoResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetNetworkInfoResponse)
+  name.vb: Task(Of GetNetworkInfoResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetNetworkInfoResponse
+    name: GetNetworkInfoResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetNetworkInfoResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetNetworkInfoResponse
+    name: GetNetworkInfoResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetNetworkInfoResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_GetPuzzleAndSolution_System_Byte___System_Nullable_System_UInt32__
+  name: GetPuzzleAndSolution
+  nameWithType: IRpcClient.GetPuzzleAndSolution
+  fullName: ChiaWalletSdk.IRpcClient.GetPuzzleAndSolution
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.GetPuzzleAndSolutionResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.GetPuzzleAndSolutionResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.GetPuzzleAndSolutionResponse.html
+  name: Task<GetPuzzleAndSolutionResponse>
+  nameWithType: Task<GetPuzzleAndSolutionResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.GetPuzzleAndSolutionResponse>
+  nameWithType.vb: Task(Of GetPuzzleAndSolutionResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.GetPuzzleAndSolutionResponse)
+  name.vb: Task(Of GetPuzzleAndSolutionResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.GetPuzzleAndSolutionResponse
+    name: GetPuzzleAndSolutionResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetPuzzleAndSolutionResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.GetPuzzleAndSolutionResponse
+    name: GetPuzzleAndSolutionResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetPuzzleAndSolutionResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IRpcClient.PushTx*
+  commentId: Overload:ChiaWalletSdk.IRpcClient.PushTx
+  isExternal: true
+  href: ChiaWalletSdk.IRpcClient.html#ChiaWalletSdk_IRpcClient_PushTx_ChiaWalletSdk_SpendBundle_
+  name: PushTx
+  nameWithType: IRpcClient.PushTx
+  fullName: ChiaWalletSdk.IRpcClient.PushTx
+- uid: ChiaWalletSdk.SpendBundle
+  commentId: T:ChiaWalletSdk.SpendBundle
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SpendBundle.html
+  name: SpendBundle
+  nameWithType: SpendBundle
+  fullName: ChiaWalletSdk.SpendBundle
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.PushTxResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.PushTxResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.PushTxResponse.html
+  name: Task<PushTxResponse>
+  nameWithType: Task<PushTxResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.PushTxResponse>
+  nameWithType.vb: Task(Of PushTxResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.PushTxResponse)
+  name.vb: Task(Of PushTxResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.PushTxResponse
+    name: PushTxResponse
+    isExternal: true
+    href: ChiaWalletSdk.PushTxResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.PushTxResponse
+    name: PushTxResponse
+    isExternal: true
+    href: ChiaWalletSdk.PushTxResponse.html
+  - name: )

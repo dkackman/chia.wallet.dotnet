@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.MedievalVaultHint
+  commentId: T:ChiaWalletSdk.MedievalVaultHint
+  id: MedievalVaultHint
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.MedievalVaultHint.#ctor(System.Byte[],System.UInt64,System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  - ChiaWalletSdk.MedievalVaultHint.#ctor(System.IntPtr)
+  - ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr
+  - ChiaWalletSdk.MedievalVaultHint.Destroy
+  - ChiaWalletSdk.MedievalVaultHint.Dispose
+  - ChiaWalletSdk.MedievalVaultHint.Finalize
+  - ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr
+  - ChiaWalletSdk.MedievalVaultHint.GetM
+  - ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId
+  - ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList
+  - ChiaWalletSdk.MedievalVaultHint.SetM(System.UInt64)
+  - ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId(System.Byte[])
+  - ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  - ChiaWalletSdk.MedievalVaultHint.pointer
+  langs:
+  - csharp
+  - vb
+  name: MedievalVaultHint
+  nameWithType: MedievalVaultHint
+  fullName: ChiaWalletSdk.MedievalVaultHint
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class MedievalVaultHint : IMedievalVaultHint'
+    content.vb: Public Class MedievalVaultHint Implements IMedievalVaultHint
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint
+- uid: ChiaWalletSdk.MedievalVaultHint.pointer
+  commentId: F:ChiaWalletSdk.MedievalVaultHint.pointer
+  id: pointer
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: MedievalVaultHint.pointer
+  fullName: ChiaWalletSdk.MedievalVaultHint.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.MedievalVaultHint.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: MedievalVaultHint(nint)
+  nameWithType: MedievalVaultHint.MedievalVaultHint(nint)
+  fullName: ChiaWalletSdk.MedievalVaultHint.MedievalVaultHint(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public MedievalVaultHint(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.MedievalVaultHint.#ctor*
+  nameWithType.vb: MedievalVaultHint.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.MedievalVaultHint.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.MedievalVaultHint.Finalize
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: ~MedievalVaultHint()
+  nameWithType: MedievalVaultHint.~MedievalVaultHint()
+  fullName: ChiaWalletSdk.MedievalVaultHint.~MedievalVaultHint()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~MedievalVaultHint()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.MedievalVaultHint.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.MedievalVaultHint.#ctor(System.Byte[],System.UInt64,System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.#ctor(System.Byte[],System.UInt64,System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  id: '#ctor(System.Byte[],System.UInt64,System.Collections.Generic.List{ChiaWalletSdk.PublicKey})'
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: MedievalVaultHint(byte[], ulong, List<PublicKey>)
+  nameWithType: MedievalVaultHint.MedievalVaultHint(byte[], ulong, List<PublicKey>)
+  fullName: ChiaWalletSdk.MedievalVaultHint.MedievalVaultHint(byte[], ulong, System.Collections.Generic.List<ChiaWalletSdk.PublicKey>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public MedievalVaultHint(byte[] myLauncherId, ulong m, List<PublicKey> publicKeyList)
+    parameters:
+    - id: myLauncherId
+      type: System.Byte[]
+    - id: m
+      type: System.UInt64
+    - id: publicKeyList
+      type: System.Collections.Generic.List{ChiaWalletSdk.PublicKey}
+    content.vb: Public Sub New(myLauncherId As Byte(), m As ULong, publicKeyList As List(Of PublicKey))
+  overload: ChiaWalletSdk.MedievalVaultHint.#ctor*
+  nameWithType.vb: MedievalVaultHint.New(Byte(), ULong, List(Of PublicKey))
+  fullName.vb: ChiaWalletSdk.MedievalVaultHint.New(Byte(), ULong, System.Collections.Generic.List(Of ChiaWalletSdk.PublicKey))
+  name.vb: New(Byte(), ULong, List(Of PublicKey))
+- uid: ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: MedievalVaultHint.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr*
+- uid: ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: MedievalVaultHint.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr*
+- uid: ChiaWalletSdk.MedievalVaultHint.Destroy
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: MedievalVaultHint.Destroy()
+  fullName: ChiaWalletSdk.MedievalVaultHint.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.MedievalVaultHint.Destroy*
+- uid: ChiaWalletSdk.MedievalVaultHint.Dispose
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MedievalVaultHint.Dispose()
+  fullName: ChiaWalletSdk.MedievalVaultHint.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.MedievalVaultHint.Dispose*
+- uid: ChiaWalletSdk.MedievalVaultHint.GetM
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.GetM
+  id: GetM
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: GetM()
+  nameWithType: MedievalVaultHint.GetM()
+  fullName: ChiaWalletSdk.MedievalVaultHint.GetM()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ulong GetM()
+    return:
+      type: System.UInt64
+    content.vb: Public Function GetM() As ULong
+  overload: ChiaWalletSdk.MedievalVaultHint.GetM*
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint.GetM
+- uid: ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId
+  id: GetMyLauncherId
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: GetMyLauncherId()
+  nameWithType: MedievalVaultHint.GetMyLauncherId()
+  fullName: ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetMyLauncherId()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetMyLauncherId() As Byte()
+  overload: ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId*
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint.GetMyLauncherId
+- uid: ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList
+  id: GetPublicKeyList
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKeyList()
+  nameWithType: MedievalVaultHint.GetPublicKeyList()
+  fullName: ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<PublicKey> GetPublicKeyList()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.PublicKey}
+    content.vb: Public Function GetPublicKeyList() As List(Of PublicKey)
+  overload: ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList*
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint.GetPublicKeyList
+- uid: ChiaWalletSdk.MedievalVaultHint.SetM(System.UInt64)
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.SetM(System.UInt64)
+  id: SetM(System.UInt64)
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: SetM(ulong)
+  nameWithType: MedievalVaultHint.SetM(ulong)
+  fullName: ChiaWalletSdk.MedievalVaultHint.SetM(ulong)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public MedievalVaultHint SetM(ulong value)
+    parameters:
+    - id: value
+      type: System.UInt64
+    return:
+      type: ChiaWalletSdk.MedievalVaultHint
+    content.vb: Public Function SetM(value As ULong) As MedievalVaultHint
+  overload: ChiaWalletSdk.MedievalVaultHint.SetM*
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint.SetM(System.UInt64)
+  nameWithType.vb: MedievalVaultHint.SetM(ULong)
+  fullName.vb: ChiaWalletSdk.MedievalVaultHint.SetM(ULong)
+  name.vb: SetM(ULong)
+- uid: ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId(System.Byte[])
+  id: SetMyLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: SetMyLauncherId(byte[])
+  nameWithType: MedievalVaultHint.SetMyLauncherId(byte[])
+  fullName: ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public MedievalVaultHint SetMyLauncherId(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.MedievalVaultHint
+    content.vb: Public Function SetMyLauncherId(value As Byte()) As MedievalVaultHint
+  overload: ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId*
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(System.Byte[])
+  nameWithType.vb: MedievalVaultHint.SetMyLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId(Byte())
+  name.vb: SetMyLauncherId(Byte())
+- uid: ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  commentId: M:ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  id: SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  parent: ChiaWalletSdk.MedievalVaultHint
+  langs:
+  - csharp
+  - vb
+  name: SetPublicKeyList(List<PublicKey>)
+  nameWithType: MedievalVaultHint.SetPublicKeyList(List<PublicKey>)
+  fullName: ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List<ChiaWalletSdk.PublicKey>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public MedievalVaultHint SetPublicKeyList(List<PublicKey> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.PublicKey}
+    return:
+      type: ChiaWalletSdk.MedievalVaultHint
+    content.vb: Public Function SetPublicKeyList(value As List(Of PublicKey)) As MedievalVaultHint
+  overload: ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList*
+  implements:
+  - ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  nameWithType.vb: MedievalVaultHint.SetPublicKeyList(List(Of PublicKey))
+  fullName.vb: ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List(Of ChiaWalletSdk.PublicKey))
+  name.vb: SetPublicKeyList(List(Of PublicKey))
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IMedievalVaultHint
+  commentId: T:ChiaWalletSdk.IMedievalVaultHint
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html
+  name: IMedievalVaultHint
+  nameWithType: IMedievalVaultHint
+  fullName: ChiaWalletSdk.IMedievalVaultHint
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.MedievalVaultHint.#ctor*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint__ctor_System_IntPtr_
+  name: MedievalVaultHint
+  nameWithType: MedievalVaultHint.MedievalVaultHint
+  fullName: ChiaWalletSdk.MedievalVaultHint.MedievalVaultHint
+  nameWithType.vb: MedievalVaultHint.New
+  fullName.vb: ChiaWalletSdk.MedievalVaultHint.New
+  name.vb: New
+- uid: ChiaWalletSdk.MedievalVaultHint.Finalize*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_Finalize
+  name: ~MedievalVaultHint
+  nameWithType: MedievalVaultHint.~MedievalVaultHint
+  fullName: ChiaWalletSdk.MedievalVaultHint.~MedievalVaultHint
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.MedievalVaultHint.Finalize*
+    name: MedievalVaultHint
+    isExternal: true
+    href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.Collections.Generic.List{ChiaWalletSdk.PublicKey}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.PublicKey}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.PublicKey.html
+  name: List<PublicKey>
+  nameWithType: List<PublicKey>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.PublicKey>
+  nameWithType.vb: List(Of PublicKey)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.PublicKey)
+  name.vb: List(Of PublicKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: MedievalVaultHint.FreeRustArcPtr
+  fullName: ChiaWalletSdk.MedievalVaultHint.FreeRustArcPtr
+- uid: ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: MedievalVaultHint.CloneRustArcPtr
+  fullName: ChiaWalletSdk.MedievalVaultHint.CloneRustArcPtr
+- uid: ChiaWalletSdk.MedievalVaultHint.Destroy*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_Destroy
+  name: Destroy
+  nameWithType: MedievalVaultHint.Destroy
+  fullName: ChiaWalletSdk.MedievalVaultHint.Destroy
+- uid: ChiaWalletSdk.MedievalVaultHint.Dispose*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_Dispose
+  name: Dispose
+  nameWithType: MedievalVaultHint.Dispose
+  fullName: ChiaWalletSdk.MedievalVaultHint.Dispose
+- uid: ChiaWalletSdk.MedievalVaultHint.GetM*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.GetM
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_GetM
+  name: GetM
+  nameWithType: MedievalVaultHint.GetM
+  fullName: ChiaWalletSdk.MedievalVaultHint.GetM
+- uid: ChiaWalletSdk.IMedievalVaultHint.GetM
+  commentId: M:ChiaWalletSdk.IMedievalVaultHint.GetM
+  parent: ChiaWalletSdk.IMedievalVaultHint
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetM
+  name: GetM()
+  nameWithType: IMedievalVaultHint.GetM()
+  fullName: ChiaWalletSdk.IMedievalVaultHint.GetM()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.GetM
+    name: GetM
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetM
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.GetM
+    name: GetM
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetM
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_GetMyLauncherId
+  name: GetMyLauncherId
+  nameWithType: MedievalVaultHint.GetMyLauncherId
+  fullName: ChiaWalletSdk.MedievalVaultHint.GetMyLauncherId
+- uid: ChiaWalletSdk.IMedievalVaultHint.GetMyLauncherId
+  commentId: M:ChiaWalletSdk.IMedievalVaultHint.GetMyLauncherId
+  parent: ChiaWalletSdk.IMedievalVaultHint
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetMyLauncherId
+  name: GetMyLauncherId()
+  nameWithType: IMedievalVaultHint.GetMyLauncherId()
+  fullName: ChiaWalletSdk.IMedievalVaultHint.GetMyLauncherId()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.GetMyLauncherId
+    name: GetMyLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetMyLauncherId
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.GetMyLauncherId
+    name: GetMyLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetMyLauncherId
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_GetPublicKeyList
+  name: GetPublicKeyList
+  nameWithType: MedievalVaultHint.GetPublicKeyList
+  fullName: ChiaWalletSdk.MedievalVaultHint.GetPublicKeyList
+- uid: ChiaWalletSdk.IMedievalVaultHint.GetPublicKeyList
+  commentId: M:ChiaWalletSdk.IMedievalVaultHint.GetPublicKeyList
+  parent: ChiaWalletSdk.IMedievalVaultHint
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetPublicKeyList
+  name: GetPublicKeyList()
+  nameWithType: IMedievalVaultHint.GetPublicKeyList()
+  fullName: ChiaWalletSdk.IMedievalVaultHint.GetPublicKeyList()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.GetPublicKeyList
+    name: GetPublicKeyList
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetPublicKeyList
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.GetPublicKeyList
+    name: GetPublicKeyList
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_GetPublicKeyList
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MedievalVaultHint.SetM*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.SetM
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_SetM_System_UInt64_
+  name: SetM
+  nameWithType: MedievalVaultHint.SetM
+  fullName: ChiaWalletSdk.MedievalVaultHint.SetM
+- uid: ChiaWalletSdk.IMedievalVaultHint.SetM(System.UInt64)
+  commentId: M:ChiaWalletSdk.IMedievalVaultHint.SetM(System.UInt64)
+  parent: ChiaWalletSdk.IMedievalVaultHint
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetM_System_UInt64_
+  name: SetM(ulong)
+  nameWithType: IMedievalVaultHint.SetM(ulong)
+  fullName: ChiaWalletSdk.IMedievalVaultHint.SetM(ulong)
+  nameWithType.vb: IMedievalVaultHint.SetM(ULong)
+  fullName.vb: ChiaWalletSdk.IMedievalVaultHint.SetM(ULong)
+  name.vb: SetM(ULong)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.SetM(System.UInt64)
+    name: SetM
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetM_System_UInt64_
+  - name: (
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.SetM(System.UInt64)
+    name: SetM
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetM_System_UInt64_
+  - name: (
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.MedievalVaultHint
+  commentId: T:ChiaWalletSdk.MedievalVaultHint
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html
+  name: MedievalVaultHint
+  nameWithType: MedievalVaultHint
+  fullName: ChiaWalletSdk.MedievalVaultHint
+- uid: ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_SetMyLauncherId_System_Byte___
+  name: SetMyLauncherId
+  nameWithType: MedievalVaultHint.SetMyLauncherId
+  fullName: ChiaWalletSdk.MedievalVaultHint.SetMyLauncherId
+- uid: ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.IMedievalVaultHint
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetMyLauncherId_System_Byte___
+  name: SetMyLauncherId(byte[])
+  nameWithType: IMedievalVaultHint.SetMyLauncherId(byte[])
+  fullName: ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(byte[])
+  nameWithType.vb: IMedievalVaultHint.SetMyLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(Byte())
+  name.vb: SetMyLauncherId(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(System.Byte[])
+    name: SetMyLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetMyLauncherId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.SetMyLauncherId(System.Byte[])
+    name: SetMyLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetMyLauncherId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList*
+  commentId: Overload:ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList
+  isExternal: true
+  href: ChiaWalletSdk.MedievalVaultHint.html#ChiaWalletSdk_MedievalVaultHint_SetPublicKeyList_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__
+  name: SetPublicKeyList
+  nameWithType: MedievalVaultHint.SetPublicKeyList
+  fullName: ChiaWalletSdk.MedievalVaultHint.SetPublicKeyList
+- uid: ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  commentId: M:ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+  parent: ChiaWalletSdk.IMedievalVaultHint
+  isExternal: true
+  href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetPublicKeyList_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__
+  name: SetPublicKeyList(List<PublicKey>)
+  nameWithType: IMedievalVaultHint.SetPublicKeyList(List<PublicKey>)
+  fullName: ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List<ChiaWalletSdk.PublicKey>)
+  nameWithType.vb: IMedievalVaultHint.SetPublicKeyList(List(Of PublicKey))
+  fullName.vb: ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List(Of ChiaWalletSdk.PublicKey))
+  name.vb: SetPublicKeyList(List(Of PublicKey))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+    name: SetPublicKeyList
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetPublicKeyList_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMedievalVaultHint.SetPublicKeyList(System.Collections.Generic.List{ChiaWalletSdk.PublicKey})
+    name: SetPublicKeyList
+    isExternal: true
+    href: ChiaWalletSdk.IMedievalVaultHint.html#ChiaWalletSdk_IMedievalVaultHint_SetPublicKeyList_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+  - name: )

@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Softfork
+  commentId: T:ChiaWalletSdk.Softfork
+  id: Softfork
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Softfork.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Softfork.#ctor(System.String,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Softfork.CloneRustArcPtr
+  - ChiaWalletSdk.Softfork.Destroy
+  - ChiaWalletSdk.Softfork.Dispose
+  - ChiaWalletSdk.Softfork.Finalize
+  - ChiaWalletSdk.Softfork.FreeRustArcPtr
+  - ChiaWalletSdk.Softfork.GetCost
+  - ChiaWalletSdk.Softfork.GetRest
+  - ChiaWalletSdk.Softfork.SetCost(System.String)
+  - ChiaWalletSdk.Softfork.SetRest(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Softfork.pointer
+  langs:
+  - csharp
+  - vb
+  name: Softfork
+  nameWithType: Softfork
+  fullName: ChiaWalletSdk.Softfork
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Softfork : ISoftfork'
+    content.vb: Public Class Softfork Implements ISoftfork
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ISoftfork
+- uid: ChiaWalletSdk.Softfork.pointer
+  commentId: F:ChiaWalletSdk.Softfork.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Softfork.pointer
+  fullName: ChiaWalletSdk.Softfork.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Softfork.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Softfork.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: Softfork(nint)
+  nameWithType: Softfork.Softfork(nint)
+  fullName: ChiaWalletSdk.Softfork.Softfork(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Softfork(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Softfork.#ctor*
+  nameWithType.vb: Softfork.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Softfork.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Softfork.Finalize
+  commentId: M:ChiaWalletSdk.Softfork.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: ~Softfork()
+  nameWithType: Softfork.~Softfork()
+  fullName: ChiaWalletSdk.Softfork.~Softfork()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Softfork()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Softfork.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Softfork.#ctor(System.String,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Softfork.#ctor(System.String,ChiaWalletSdk.Program)
+  id: '#ctor(System.String,ChiaWalletSdk.Program)'
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: Softfork(string, Program)
+  nameWithType: Softfork.Softfork(string, Program)
+  fullName: ChiaWalletSdk.Softfork.Softfork(string, ChiaWalletSdk.Program)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Softfork(string cost, Program rest)
+    parameters:
+    - id: cost
+      type: System.String
+    - id: rest
+      type: ChiaWalletSdk.Program
+    content.vb: Public Sub New(cost As String, rest As Program)
+  overload: ChiaWalletSdk.Softfork.#ctor*
+  nameWithType.vb: Softfork.New(String, Program)
+  fullName.vb: ChiaWalletSdk.Softfork.New(String, ChiaWalletSdk.Program)
+  name.vb: New(String, Program)
+- uid: ChiaWalletSdk.Softfork.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Softfork.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Softfork.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Softfork.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Softfork.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Softfork.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Softfork.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Softfork.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Softfork.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Softfork.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Softfork.Destroy
+  commentId: M:ChiaWalletSdk.Softfork.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Softfork.Destroy()
+  fullName: ChiaWalletSdk.Softfork.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Softfork.Destroy*
+- uid: ChiaWalletSdk.Softfork.Dispose
+  commentId: M:ChiaWalletSdk.Softfork.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Softfork.Dispose()
+  fullName: ChiaWalletSdk.Softfork.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Softfork.Dispose*
+- uid: ChiaWalletSdk.Softfork.GetCost
+  commentId: M:ChiaWalletSdk.Softfork.GetCost
+  id: GetCost
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: GetCost()
+  nameWithType: Softfork.GetCost()
+  fullName: ChiaWalletSdk.Softfork.GetCost()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetCost()
+    return:
+      type: System.String
+    content.vb: Public Function GetCost() As String
+  overload: ChiaWalletSdk.Softfork.GetCost*
+  implements:
+  - ChiaWalletSdk.ISoftfork.GetCost
+- uid: ChiaWalletSdk.Softfork.GetRest
+  commentId: M:ChiaWalletSdk.Softfork.GetRest
+  id: GetRest
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: GetRest()
+  nameWithType: Softfork.GetRest()
+  fullName: ChiaWalletSdk.Softfork.GetRest()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetRest()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetRest() As Program
+  overload: ChiaWalletSdk.Softfork.GetRest*
+  implements:
+  - ChiaWalletSdk.ISoftfork.GetRest
+- uid: ChiaWalletSdk.Softfork.SetCost(System.String)
+  commentId: M:ChiaWalletSdk.Softfork.SetCost(System.String)
+  id: SetCost(System.String)
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: SetCost(string)
+  nameWithType: Softfork.SetCost(string)
+  fullName: ChiaWalletSdk.Softfork.SetCost(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Softfork SetCost(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Softfork
+    content.vb: Public Function SetCost(value As String) As Softfork
+  overload: ChiaWalletSdk.Softfork.SetCost*
+  implements:
+  - ChiaWalletSdk.ISoftfork.SetCost(System.String)
+  nameWithType.vb: Softfork.SetCost(String)
+  fullName.vb: ChiaWalletSdk.Softfork.SetCost(String)
+  name.vb: SetCost(String)
+- uid: ChiaWalletSdk.Softfork.SetRest(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Softfork.SetRest(ChiaWalletSdk.Program)
+  id: SetRest(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.Softfork
+  langs:
+  - csharp
+  - vb
+  name: SetRest(Program)
+  nameWithType: Softfork.SetRest(Program)
+  fullName: ChiaWalletSdk.Softfork.SetRest(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Softfork SetRest(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Softfork
+    content.vb: Public Function SetRest(value As Program) As Softfork
+  overload: ChiaWalletSdk.Softfork.SetRest*
+  implements:
+  - ChiaWalletSdk.ISoftfork.SetRest(ChiaWalletSdk.Program)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ISoftfork
+  commentId: T:ChiaWalletSdk.ISoftfork
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ISoftfork.html
+  name: ISoftfork
+  nameWithType: ISoftfork
+  fullName: ChiaWalletSdk.ISoftfork
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Softfork.#ctor*
+  commentId: Overload:ChiaWalletSdk.Softfork.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork__ctor_System_IntPtr_
+  name: Softfork
+  nameWithType: Softfork.Softfork
+  fullName: ChiaWalletSdk.Softfork.Softfork
+  nameWithType.vb: Softfork.New
+  fullName.vb: ChiaWalletSdk.Softfork.New
+  name.vb: New
+- uid: ChiaWalletSdk.Softfork.Finalize*
+  commentId: Overload:ChiaWalletSdk.Softfork.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_Finalize
+  name: ~Softfork
+  nameWithType: Softfork.~Softfork
+  fullName: ChiaWalletSdk.Softfork.~Softfork
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Softfork.Finalize*
+    name: Softfork
+    isExternal: true
+    href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.Softfork.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Softfork.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Softfork.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Softfork.FreeRustArcPtr
+- uid: ChiaWalletSdk.Softfork.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Softfork.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Softfork.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Softfork.CloneRustArcPtr
+- uid: ChiaWalletSdk.Softfork.Destroy*
+  commentId: Overload:ChiaWalletSdk.Softfork.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_Destroy
+  name: Destroy
+  nameWithType: Softfork.Destroy
+  fullName: ChiaWalletSdk.Softfork.Destroy
+- uid: ChiaWalletSdk.Softfork.Dispose*
+  commentId: Overload:ChiaWalletSdk.Softfork.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_Dispose
+  name: Dispose
+  nameWithType: Softfork.Dispose
+  fullName: ChiaWalletSdk.Softfork.Dispose
+- uid: ChiaWalletSdk.Softfork.GetCost*
+  commentId: Overload:ChiaWalletSdk.Softfork.GetCost
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_GetCost
+  name: GetCost
+  nameWithType: Softfork.GetCost
+  fullName: ChiaWalletSdk.Softfork.GetCost
+- uid: ChiaWalletSdk.ISoftfork.GetCost
+  commentId: M:ChiaWalletSdk.ISoftfork.GetCost
+  parent: ChiaWalletSdk.ISoftfork
+  isExternal: true
+  href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_GetCost
+  name: GetCost()
+  nameWithType: ISoftfork.GetCost()
+  fullName: ChiaWalletSdk.ISoftfork.GetCost()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISoftfork.GetCost
+    name: GetCost
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_GetCost
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISoftfork.GetCost
+    name: GetCost
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_GetCost
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Softfork.GetRest*
+  commentId: Overload:ChiaWalletSdk.Softfork.GetRest
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_GetRest
+  name: GetRest
+  nameWithType: Softfork.GetRest
+  fullName: ChiaWalletSdk.Softfork.GetRest
+- uid: ChiaWalletSdk.ISoftfork.GetRest
+  commentId: M:ChiaWalletSdk.ISoftfork.GetRest
+  parent: ChiaWalletSdk.ISoftfork
+  isExternal: true
+  href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_GetRest
+  name: GetRest()
+  nameWithType: ISoftfork.GetRest()
+  fullName: ChiaWalletSdk.ISoftfork.GetRest()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISoftfork.GetRest
+    name: GetRest
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_GetRest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISoftfork.GetRest
+    name: GetRest
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_GetRest
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Softfork.SetCost*
+  commentId: Overload:ChiaWalletSdk.Softfork.SetCost
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_SetCost_System_String_
+  name: SetCost
+  nameWithType: Softfork.SetCost
+  fullName: ChiaWalletSdk.Softfork.SetCost
+- uid: ChiaWalletSdk.ISoftfork.SetCost(System.String)
+  commentId: M:ChiaWalletSdk.ISoftfork.SetCost(System.String)
+  parent: ChiaWalletSdk.ISoftfork
+  isExternal: true
+  href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_SetCost_System_String_
+  name: SetCost(string)
+  nameWithType: ISoftfork.SetCost(string)
+  fullName: ChiaWalletSdk.ISoftfork.SetCost(string)
+  nameWithType.vb: ISoftfork.SetCost(String)
+  fullName.vb: ChiaWalletSdk.ISoftfork.SetCost(String)
+  name.vb: SetCost(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISoftfork.SetCost(System.String)
+    name: SetCost
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_SetCost_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISoftfork.SetCost(System.String)
+    name: SetCost
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_SetCost_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.Softfork
+  commentId: T:ChiaWalletSdk.Softfork
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html
+  name: Softfork
+  nameWithType: Softfork
+  fullName: ChiaWalletSdk.Softfork
+- uid: ChiaWalletSdk.Softfork.SetRest*
+  commentId: Overload:ChiaWalletSdk.Softfork.SetRest
+  isExternal: true
+  href: ChiaWalletSdk.Softfork.html#ChiaWalletSdk_Softfork_SetRest_ChiaWalletSdk_Program_
+  name: SetRest
+  nameWithType: Softfork.SetRest
+  fullName: ChiaWalletSdk.Softfork.SetRest
+- uid: ChiaWalletSdk.ISoftfork.SetRest(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.ISoftfork.SetRest(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.ISoftfork
+  isExternal: true
+  href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_SetRest_ChiaWalletSdk_Program_
+  name: SetRest(Program)
+  nameWithType: ISoftfork.SetRest(Program)
+  fullName: ChiaWalletSdk.ISoftfork.SetRest(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISoftfork.SetRest(ChiaWalletSdk.Program)
+    name: SetRest
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_SetRest_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISoftfork.SetRest(ChiaWalletSdk.Program)
+    name: SetRest
+    isExternal: true
+    href: ChiaWalletSdk.ISoftfork.html#ChiaWalletSdk_ISoftfork_SetRest_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )

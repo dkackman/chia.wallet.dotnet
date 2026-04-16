@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Delta
+  commentId: T:ChiaWalletSdk.Delta
+  id: Delta
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Delta.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Delta.#ctor(System.String,System.String)
+  - ChiaWalletSdk.Delta.CloneRustArcPtr
+  - ChiaWalletSdk.Delta.Destroy
+  - ChiaWalletSdk.Delta.Dispose
+  - ChiaWalletSdk.Delta.Finalize
+  - ChiaWalletSdk.Delta.FreeRustArcPtr
+  - ChiaWalletSdk.Delta.GetInput
+  - ChiaWalletSdk.Delta.GetOutput
+  - ChiaWalletSdk.Delta.SetInput(System.String)
+  - ChiaWalletSdk.Delta.SetOutput(System.String)
+  - ChiaWalletSdk.Delta.pointer
+  langs:
+  - csharp
+  - vb
+  name: Delta
+  nameWithType: Delta
+  fullName: ChiaWalletSdk.Delta
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Delta : IDelta'
+    content.vb: Public Class Delta Implements IDelta
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IDelta
+- uid: ChiaWalletSdk.Delta.pointer
+  commentId: F:ChiaWalletSdk.Delta.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Delta.pointer
+  fullName: ChiaWalletSdk.Delta.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Delta.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Delta.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: Delta(nint)
+  nameWithType: Delta.Delta(nint)
+  fullName: ChiaWalletSdk.Delta.Delta(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Delta(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Delta.#ctor*
+  nameWithType.vb: Delta.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Delta.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Delta.Finalize
+  commentId: M:ChiaWalletSdk.Delta.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: ~Delta()
+  nameWithType: Delta.~Delta()
+  fullName: ChiaWalletSdk.Delta.~Delta()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Delta()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Delta.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Delta.#ctor(System.String,System.String)
+  commentId: M:ChiaWalletSdk.Delta.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: Delta(string, string)
+  nameWithType: Delta.Delta(string, string)
+  fullName: ChiaWalletSdk.Delta.Delta(string, string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Delta(string input, string output)
+    parameters:
+    - id: input
+      type: System.String
+    - id: output
+      type: System.String
+    content.vb: Public Sub New(input As String, output As String)
+  overload: ChiaWalletSdk.Delta.#ctor*
+  nameWithType.vb: Delta.New(String, String)
+  fullName.vb: ChiaWalletSdk.Delta.New(String, String)
+  name.vb: New(String, String)
+- uid: ChiaWalletSdk.Delta.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Delta.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Delta.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Delta.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Delta.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Delta.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Delta.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Delta.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Delta.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Delta.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Delta.Destroy
+  commentId: M:ChiaWalletSdk.Delta.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Delta.Destroy()
+  fullName: ChiaWalletSdk.Delta.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Delta.Destroy*
+- uid: ChiaWalletSdk.Delta.Dispose
+  commentId: M:ChiaWalletSdk.Delta.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Delta.Dispose()
+  fullName: ChiaWalletSdk.Delta.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Delta.Dispose*
+- uid: ChiaWalletSdk.Delta.GetInput
+  commentId: M:ChiaWalletSdk.Delta.GetInput
+  id: GetInput
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: GetInput()
+  nameWithType: Delta.GetInput()
+  fullName: ChiaWalletSdk.Delta.GetInput()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetInput()
+    return:
+      type: System.String
+    content.vb: Public Function GetInput() As String
+  overload: ChiaWalletSdk.Delta.GetInput*
+  implements:
+  - ChiaWalletSdk.IDelta.GetInput
+- uid: ChiaWalletSdk.Delta.GetOutput
+  commentId: M:ChiaWalletSdk.Delta.GetOutput
+  id: GetOutput
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: GetOutput()
+  nameWithType: Delta.GetOutput()
+  fullName: ChiaWalletSdk.Delta.GetOutput()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetOutput()
+    return:
+      type: System.String
+    content.vb: Public Function GetOutput() As String
+  overload: ChiaWalletSdk.Delta.GetOutput*
+  implements:
+  - ChiaWalletSdk.IDelta.GetOutput
+- uid: ChiaWalletSdk.Delta.SetInput(System.String)
+  commentId: M:ChiaWalletSdk.Delta.SetInput(System.String)
+  id: SetInput(System.String)
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: SetInput(string)
+  nameWithType: Delta.SetInput(string)
+  fullName: ChiaWalletSdk.Delta.SetInput(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Delta SetInput(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Delta
+    content.vb: Public Function SetInput(value As String) As Delta
+  overload: ChiaWalletSdk.Delta.SetInput*
+  implements:
+  - ChiaWalletSdk.IDelta.SetInput(System.String)
+  nameWithType.vb: Delta.SetInput(String)
+  fullName.vb: ChiaWalletSdk.Delta.SetInput(String)
+  name.vb: SetInput(String)
+- uid: ChiaWalletSdk.Delta.SetOutput(System.String)
+  commentId: M:ChiaWalletSdk.Delta.SetOutput(System.String)
+  id: SetOutput(System.String)
+  parent: ChiaWalletSdk.Delta
+  langs:
+  - csharp
+  - vb
+  name: SetOutput(string)
+  nameWithType: Delta.SetOutput(string)
+  fullName: ChiaWalletSdk.Delta.SetOutput(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Delta SetOutput(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Delta
+    content.vb: Public Function SetOutput(value As String) As Delta
+  overload: ChiaWalletSdk.Delta.SetOutput*
+  implements:
+  - ChiaWalletSdk.IDelta.SetOutput(System.String)
+  nameWithType.vb: Delta.SetOutput(String)
+  fullName.vb: ChiaWalletSdk.Delta.SetOutput(String)
+  name.vb: SetOutput(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IDelta
+  commentId: T:ChiaWalletSdk.IDelta
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IDelta.html
+  name: IDelta
+  nameWithType: IDelta
+  fullName: ChiaWalletSdk.IDelta
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Delta.#ctor*
+  commentId: Overload:ChiaWalletSdk.Delta.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta__ctor_System_IntPtr_
+  name: Delta
+  nameWithType: Delta.Delta
+  fullName: ChiaWalletSdk.Delta.Delta
+  nameWithType.vb: Delta.New
+  fullName.vb: ChiaWalletSdk.Delta.New
+  name.vb: New
+- uid: ChiaWalletSdk.Delta.Finalize*
+  commentId: Overload:ChiaWalletSdk.Delta.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_Finalize
+  name: ~Delta
+  nameWithType: Delta.~Delta
+  fullName: ChiaWalletSdk.Delta.~Delta
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Delta.Finalize*
+    name: Delta
+    isExternal: true
+    href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Delta.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Delta.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Delta.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Delta.FreeRustArcPtr
+- uid: ChiaWalletSdk.Delta.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Delta.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Delta.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Delta.CloneRustArcPtr
+- uid: ChiaWalletSdk.Delta.Destroy*
+  commentId: Overload:ChiaWalletSdk.Delta.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_Destroy
+  name: Destroy
+  nameWithType: Delta.Destroy
+  fullName: ChiaWalletSdk.Delta.Destroy
+- uid: ChiaWalletSdk.Delta.Dispose*
+  commentId: Overload:ChiaWalletSdk.Delta.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_Dispose
+  name: Dispose
+  nameWithType: Delta.Dispose
+  fullName: ChiaWalletSdk.Delta.Dispose
+- uid: ChiaWalletSdk.Delta.GetInput*
+  commentId: Overload:ChiaWalletSdk.Delta.GetInput
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_GetInput
+  name: GetInput
+  nameWithType: Delta.GetInput
+  fullName: ChiaWalletSdk.Delta.GetInput
+- uid: ChiaWalletSdk.IDelta.GetInput
+  commentId: M:ChiaWalletSdk.IDelta.GetInput
+  parent: ChiaWalletSdk.IDelta
+  isExternal: true
+  href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_GetInput
+  name: GetInput()
+  nameWithType: IDelta.GetInput()
+  fullName: ChiaWalletSdk.IDelta.GetInput()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDelta.GetInput
+    name: GetInput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_GetInput
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDelta.GetInput
+    name: GetInput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_GetInput
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Delta.GetOutput*
+  commentId: Overload:ChiaWalletSdk.Delta.GetOutput
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_GetOutput
+  name: GetOutput
+  nameWithType: Delta.GetOutput
+  fullName: ChiaWalletSdk.Delta.GetOutput
+- uid: ChiaWalletSdk.IDelta.GetOutput
+  commentId: M:ChiaWalletSdk.IDelta.GetOutput
+  parent: ChiaWalletSdk.IDelta
+  isExternal: true
+  href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_GetOutput
+  name: GetOutput()
+  nameWithType: IDelta.GetOutput()
+  fullName: ChiaWalletSdk.IDelta.GetOutput()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDelta.GetOutput
+    name: GetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_GetOutput
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDelta.GetOutput
+    name: GetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_GetOutput
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Delta.SetInput*
+  commentId: Overload:ChiaWalletSdk.Delta.SetInput
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_SetInput_System_String_
+  name: SetInput
+  nameWithType: Delta.SetInput
+  fullName: ChiaWalletSdk.Delta.SetInput
+- uid: ChiaWalletSdk.IDelta.SetInput(System.String)
+  commentId: M:ChiaWalletSdk.IDelta.SetInput(System.String)
+  parent: ChiaWalletSdk.IDelta
+  isExternal: true
+  href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_SetInput_System_String_
+  name: SetInput(string)
+  nameWithType: IDelta.SetInput(string)
+  fullName: ChiaWalletSdk.IDelta.SetInput(string)
+  nameWithType.vb: IDelta.SetInput(String)
+  fullName.vb: ChiaWalletSdk.IDelta.SetInput(String)
+  name.vb: SetInput(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDelta.SetInput(System.String)
+    name: SetInput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_SetInput_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDelta.SetInput(System.String)
+    name: SetInput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_SetInput_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.Delta
+  commentId: T:ChiaWalletSdk.Delta
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html
+  name: Delta
+  nameWithType: Delta
+  fullName: ChiaWalletSdk.Delta
+- uid: ChiaWalletSdk.Delta.SetOutput*
+  commentId: Overload:ChiaWalletSdk.Delta.SetOutput
+  isExternal: true
+  href: ChiaWalletSdk.Delta.html#ChiaWalletSdk_Delta_SetOutput_System_String_
+  name: SetOutput
+  nameWithType: Delta.SetOutput
+  fullName: ChiaWalletSdk.Delta.SetOutput
+- uid: ChiaWalletSdk.IDelta.SetOutput(System.String)
+  commentId: M:ChiaWalletSdk.IDelta.SetOutput(System.String)
+  parent: ChiaWalletSdk.IDelta
+  isExternal: true
+  href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_SetOutput_System_String_
+  name: SetOutput(string)
+  nameWithType: IDelta.SetOutput(string)
+  fullName: ChiaWalletSdk.IDelta.SetOutput(string)
+  nameWithType.vb: IDelta.SetOutput(String)
+  fullName.vb: ChiaWalletSdk.IDelta.SetOutput(String)
+  name.vb: SetOutput(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IDelta.SetOutput(System.String)
+    name: SetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_SetOutput_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IDelta.SetOutput(System.String)
+    name: SetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IDelta.html#ChiaWalletSdk_IDelta_SetOutput_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

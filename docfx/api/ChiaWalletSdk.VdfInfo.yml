@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.VdfInfo
+  commentId: T:ChiaWalletSdk.VdfInfo
+  id: VdfInfo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.VdfInfo.#ctor(System.Byte[],System.String,System.Byte[])
+  - ChiaWalletSdk.VdfInfo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.VdfInfo.CloneRustArcPtr
+  - ChiaWalletSdk.VdfInfo.Destroy
+  - ChiaWalletSdk.VdfInfo.Dispose
+  - ChiaWalletSdk.VdfInfo.Finalize
+  - ChiaWalletSdk.VdfInfo.FreeRustArcPtr
+  - ChiaWalletSdk.VdfInfo.GetChallenge
+  - ChiaWalletSdk.VdfInfo.GetNumberOfIterations
+  - ChiaWalletSdk.VdfInfo.GetOutput
+  - ChiaWalletSdk.VdfInfo.SetChallenge(System.Byte[])
+  - ChiaWalletSdk.VdfInfo.SetNumberOfIterations(System.String)
+  - ChiaWalletSdk.VdfInfo.SetOutput(System.Byte[])
+  - ChiaWalletSdk.VdfInfo.pointer
+  langs:
+  - csharp
+  - vb
+  name: VdfInfo
+  nameWithType: VdfInfo
+  fullName: ChiaWalletSdk.VdfInfo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class VdfInfo : IVdfInfo'
+    content.vb: Public Class VdfInfo Implements IVdfInfo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IVdfInfo
+- uid: ChiaWalletSdk.VdfInfo.pointer
+  commentId: F:ChiaWalletSdk.VdfInfo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: VdfInfo.pointer
+  fullName: ChiaWalletSdk.VdfInfo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.VdfInfo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.VdfInfo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: VdfInfo(nint)
+  nameWithType: VdfInfo.VdfInfo(nint)
+  fullName: ChiaWalletSdk.VdfInfo.VdfInfo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public VdfInfo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.VdfInfo.#ctor*
+  nameWithType.vb: VdfInfo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.VdfInfo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.VdfInfo.Finalize
+  commentId: M:ChiaWalletSdk.VdfInfo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: ~VdfInfo()
+  nameWithType: VdfInfo.~VdfInfo()
+  fullName: ChiaWalletSdk.VdfInfo.~VdfInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~VdfInfo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.VdfInfo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.VdfInfo.#ctor(System.Byte[],System.String,System.Byte[])
+  commentId: M:ChiaWalletSdk.VdfInfo.#ctor(System.Byte[],System.String,System.Byte[])
+  id: '#ctor(System.Byte[],System.String,System.Byte[])'
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: VdfInfo(byte[], string, byte[])
+  nameWithType: VdfInfo.VdfInfo(byte[], string, byte[])
+  fullName: ChiaWalletSdk.VdfInfo.VdfInfo(byte[], string, byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public VdfInfo(byte[] challenge, string numberOfIterations, byte[] output)
+    parameters:
+    - id: challenge
+      type: System.Byte[]
+    - id: numberOfIterations
+      type: System.String
+    - id: output
+      type: System.Byte[]
+    content.vb: Public Sub New(challenge As Byte(), numberOfIterations As String, output As Byte())
+  overload: ChiaWalletSdk.VdfInfo.#ctor*
+  nameWithType.vb: VdfInfo.New(Byte(), String, Byte())
+  fullName.vb: ChiaWalletSdk.VdfInfo.New(Byte(), String, Byte())
+  name.vb: New(Byte(), String, Byte())
+- uid: ChiaWalletSdk.VdfInfo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.VdfInfo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: VdfInfo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.VdfInfo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.VdfInfo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.VdfInfo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.VdfInfo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: VdfInfo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.VdfInfo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.VdfInfo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.VdfInfo.Destroy
+  commentId: M:ChiaWalletSdk.VdfInfo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: VdfInfo.Destroy()
+  fullName: ChiaWalletSdk.VdfInfo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.VdfInfo.Destroy*
+- uid: ChiaWalletSdk.VdfInfo.Dispose
+  commentId: M:ChiaWalletSdk.VdfInfo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: VdfInfo.Dispose()
+  fullName: ChiaWalletSdk.VdfInfo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.VdfInfo.Dispose*
+- uid: ChiaWalletSdk.VdfInfo.GetChallenge
+  commentId: M:ChiaWalletSdk.VdfInfo.GetChallenge
+  id: GetChallenge
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: GetChallenge()
+  nameWithType: VdfInfo.GetChallenge()
+  fullName: ChiaWalletSdk.VdfInfo.GetChallenge()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetChallenge()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetChallenge() As Byte()
+  overload: ChiaWalletSdk.VdfInfo.GetChallenge*
+  implements:
+  - ChiaWalletSdk.IVdfInfo.GetChallenge
+- uid: ChiaWalletSdk.VdfInfo.GetNumberOfIterations
+  commentId: M:ChiaWalletSdk.VdfInfo.GetNumberOfIterations
+  id: GetNumberOfIterations
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNumberOfIterations()
+  nameWithType: VdfInfo.GetNumberOfIterations()
+  fullName: ChiaWalletSdk.VdfInfo.GetNumberOfIterations()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetNumberOfIterations()
+    return:
+      type: System.String
+    content.vb: Public Function GetNumberOfIterations() As String
+  overload: ChiaWalletSdk.VdfInfo.GetNumberOfIterations*
+  implements:
+  - ChiaWalletSdk.IVdfInfo.GetNumberOfIterations
+- uid: ChiaWalletSdk.VdfInfo.GetOutput
+  commentId: M:ChiaWalletSdk.VdfInfo.GetOutput
+  id: GetOutput
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: GetOutput()
+  nameWithType: VdfInfo.GetOutput()
+  fullName: ChiaWalletSdk.VdfInfo.GetOutput()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetOutput()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetOutput() As Byte()
+  overload: ChiaWalletSdk.VdfInfo.GetOutput*
+  implements:
+  - ChiaWalletSdk.IVdfInfo.GetOutput
+- uid: ChiaWalletSdk.VdfInfo.SetChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.VdfInfo.SetChallenge(System.Byte[])
+  id: SetChallenge(System.Byte[])
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: SetChallenge(byte[])
+  nameWithType: VdfInfo.SetChallenge(byte[])
+  fullName: ChiaWalletSdk.VdfInfo.SetChallenge(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo SetChallenge(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function SetChallenge(value As Byte()) As VdfInfo
+  overload: ChiaWalletSdk.VdfInfo.SetChallenge*
+  implements:
+  - ChiaWalletSdk.IVdfInfo.SetChallenge(System.Byte[])
+  nameWithType.vb: VdfInfo.SetChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.VdfInfo.SetChallenge(Byte())
+  name.vb: SetChallenge(Byte())
+- uid: ChiaWalletSdk.VdfInfo.SetNumberOfIterations(System.String)
+  commentId: M:ChiaWalletSdk.VdfInfo.SetNumberOfIterations(System.String)
+  id: SetNumberOfIterations(System.String)
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: SetNumberOfIterations(string)
+  nameWithType: VdfInfo.SetNumberOfIterations(string)
+  fullName: ChiaWalletSdk.VdfInfo.SetNumberOfIterations(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo SetNumberOfIterations(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function SetNumberOfIterations(value As String) As VdfInfo
+  overload: ChiaWalletSdk.VdfInfo.SetNumberOfIterations*
+  implements:
+  - ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(System.String)
+  nameWithType.vb: VdfInfo.SetNumberOfIterations(String)
+  fullName.vb: ChiaWalletSdk.VdfInfo.SetNumberOfIterations(String)
+  name.vb: SetNumberOfIterations(String)
+- uid: ChiaWalletSdk.VdfInfo.SetOutput(System.Byte[])
+  commentId: M:ChiaWalletSdk.VdfInfo.SetOutput(System.Byte[])
+  id: SetOutput(System.Byte[])
+  parent: ChiaWalletSdk.VdfInfo
+  langs:
+  - csharp
+  - vb
+  name: SetOutput(byte[])
+  nameWithType: VdfInfo.SetOutput(byte[])
+  fullName: ChiaWalletSdk.VdfInfo.SetOutput(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo SetOutput(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function SetOutput(value As Byte()) As VdfInfo
+  overload: ChiaWalletSdk.VdfInfo.SetOutput*
+  implements:
+  - ChiaWalletSdk.IVdfInfo.SetOutput(System.Byte[])
+  nameWithType.vb: VdfInfo.SetOutput(Byte())
+  fullName.vb: ChiaWalletSdk.VdfInfo.SetOutput(Byte())
+  name.vb: SetOutput(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IVdfInfo
+  commentId: T:ChiaWalletSdk.IVdfInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html
+  name: IVdfInfo
+  nameWithType: IVdfInfo
+  fullName: ChiaWalletSdk.IVdfInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.VdfInfo.#ctor*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo__ctor_System_IntPtr_
+  name: VdfInfo
+  nameWithType: VdfInfo.VdfInfo
+  fullName: ChiaWalletSdk.VdfInfo.VdfInfo
+  nameWithType.vb: VdfInfo.New
+  fullName.vb: ChiaWalletSdk.VdfInfo.New
+  name.vb: New
+- uid: ChiaWalletSdk.VdfInfo.Finalize*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_Finalize
+  name: ~VdfInfo
+  nameWithType: VdfInfo.~VdfInfo
+  fullName: ChiaWalletSdk.VdfInfo.~VdfInfo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.VdfInfo.Finalize*
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.VdfInfo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: VdfInfo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.VdfInfo.FreeRustArcPtr
+- uid: ChiaWalletSdk.VdfInfo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: VdfInfo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.VdfInfo.CloneRustArcPtr
+- uid: ChiaWalletSdk.VdfInfo.Destroy*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_Destroy
+  name: Destroy
+  nameWithType: VdfInfo.Destroy
+  fullName: ChiaWalletSdk.VdfInfo.Destroy
+- uid: ChiaWalletSdk.VdfInfo.Dispose*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_Dispose
+  name: Dispose
+  nameWithType: VdfInfo.Dispose
+  fullName: ChiaWalletSdk.VdfInfo.Dispose
+- uid: ChiaWalletSdk.VdfInfo.GetChallenge*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.GetChallenge
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_GetChallenge
+  name: GetChallenge
+  nameWithType: VdfInfo.GetChallenge
+  fullName: ChiaWalletSdk.VdfInfo.GetChallenge
+- uid: ChiaWalletSdk.IVdfInfo.GetChallenge
+  commentId: M:ChiaWalletSdk.IVdfInfo.GetChallenge
+  parent: ChiaWalletSdk.IVdfInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetChallenge
+  name: GetChallenge()
+  nameWithType: IVdfInfo.GetChallenge()
+  fullName: ChiaWalletSdk.IVdfInfo.GetChallenge()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfInfo.GetChallenge
+    name: GetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetChallenge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfInfo.GetChallenge
+    name: GetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetChallenge
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VdfInfo.GetNumberOfIterations*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.GetNumberOfIterations
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_GetNumberOfIterations
+  name: GetNumberOfIterations
+  nameWithType: VdfInfo.GetNumberOfIterations
+  fullName: ChiaWalletSdk.VdfInfo.GetNumberOfIterations
+- uid: ChiaWalletSdk.IVdfInfo.GetNumberOfIterations
+  commentId: M:ChiaWalletSdk.IVdfInfo.GetNumberOfIterations
+  parent: ChiaWalletSdk.IVdfInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetNumberOfIterations
+  name: GetNumberOfIterations()
+  nameWithType: IVdfInfo.GetNumberOfIterations()
+  fullName: ChiaWalletSdk.IVdfInfo.GetNumberOfIterations()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfInfo.GetNumberOfIterations
+    name: GetNumberOfIterations
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetNumberOfIterations
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfInfo.GetNumberOfIterations
+    name: GetNumberOfIterations
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetNumberOfIterations
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VdfInfo.GetOutput*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.GetOutput
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_GetOutput
+  name: GetOutput
+  nameWithType: VdfInfo.GetOutput
+  fullName: ChiaWalletSdk.VdfInfo.GetOutput
+- uid: ChiaWalletSdk.IVdfInfo.GetOutput
+  commentId: M:ChiaWalletSdk.IVdfInfo.GetOutput
+  parent: ChiaWalletSdk.IVdfInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetOutput
+  name: GetOutput()
+  nameWithType: IVdfInfo.GetOutput()
+  fullName: ChiaWalletSdk.IVdfInfo.GetOutput()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfInfo.GetOutput
+    name: GetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetOutput
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfInfo.GetOutput
+    name: GetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_GetOutput
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VdfInfo.SetChallenge*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.SetChallenge
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_SetChallenge_System_Byte___
+  name: SetChallenge
+  nameWithType: VdfInfo.SetChallenge
+  fullName: ChiaWalletSdk.VdfInfo.SetChallenge
+- uid: ChiaWalletSdk.IVdfInfo.SetChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVdfInfo.SetChallenge(System.Byte[])
+  parent: ChiaWalletSdk.IVdfInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetChallenge_System_Byte___
+  name: SetChallenge(byte[])
+  nameWithType: IVdfInfo.SetChallenge(byte[])
+  fullName: ChiaWalletSdk.IVdfInfo.SetChallenge(byte[])
+  nameWithType.vb: IVdfInfo.SetChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.IVdfInfo.SetChallenge(Byte())
+  name.vb: SetChallenge(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfInfo.SetChallenge(System.Byte[])
+    name: SetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfInfo.SetChallenge(System.Byte[])
+    name: SetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.VdfInfo
+  commentId: T:ChiaWalletSdk.VdfInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html
+  name: VdfInfo
+  nameWithType: VdfInfo
+  fullName: ChiaWalletSdk.VdfInfo
+- uid: ChiaWalletSdk.VdfInfo.SetNumberOfIterations*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.SetNumberOfIterations
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_SetNumberOfIterations_System_String_
+  name: SetNumberOfIterations
+  nameWithType: VdfInfo.SetNumberOfIterations
+  fullName: ChiaWalletSdk.VdfInfo.SetNumberOfIterations
+- uid: ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(System.String)
+  commentId: M:ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(System.String)
+  parent: ChiaWalletSdk.IVdfInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetNumberOfIterations_System_String_
+  name: SetNumberOfIterations(string)
+  nameWithType: IVdfInfo.SetNumberOfIterations(string)
+  fullName: ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(string)
+  nameWithType.vb: IVdfInfo.SetNumberOfIterations(String)
+  fullName.vb: ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(String)
+  name.vb: SetNumberOfIterations(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(System.String)
+    name: SetNumberOfIterations
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetNumberOfIterations_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfInfo.SetNumberOfIterations(System.String)
+    name: SetNumberOfIterations
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetNumberOfIterations_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.VdfInfo.SetOutput*
+  commentId: Overload:ChiaWalletSdk.VdfInfo.SetOutput
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html#ChiaWalletSdk_VdfInfo_SetOutput_System_Byte___
+  name: SetOutput
+  nameWithType: VdfInfo.SetOutput
+  fullName: ChiaWalletSdk.VdfInfo.SetOutput
+- uid: ChiaWalletSdk.IVdfInfo.SetOutput(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVdfInfo.SetOutput(System.Byte[])
+  parent: ChiaWalletSdk.IVdfInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetOutput_System_Byte___
+  name: SetOutput(byte[])
+  nameWithType: IVdfInfo.SetOutput(byte[])
+  fullName: ChiaWalletSdk.IVdfInfo.SetOutput(byte[])
+  nameWithType.vb: IVdfInfo.SetOutput(Byte())
+  fullName.vb: ChiaWalletSdk.IVdfInfo.SetOutput(Byte())
+  name.vb: SetOutput(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfInfo.SetOutput(System.Byte[])
+    name: SetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetOutput_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfInfo.SetOutput(System.Byte[])
+    name: SetOutput
+    isExternal: true
+    href: ChiaWalletSdk.IVdfInfo.html#ChiaWalletSdk_IVdfInfo_SetOutput_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

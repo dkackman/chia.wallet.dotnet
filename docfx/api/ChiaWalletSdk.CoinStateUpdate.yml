@@ -1,0 +1,930 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.CoinStateUpdate
+  commentId: T:ChiaWalletSdk.CoinStateUpdate
+  id: CoinStateUpdate
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.CoinStateUpdate.#ctor(System.IntPtr)
+  - ChiaWalletSdk.CoinStateUpdate.#ctor(System.UInt32,System.UInt32,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  - ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr
+  - ChiaWalletSdk.CoinStateUpdate.Destroy
+  - ChiaWalletSdk.CoinStateUpdate.Dispose
+  - ChiaWalletSdk.CoinStateUpdate.Finalize
+  - ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr
+  - ChiaWalletSdk.CoinStateUpdate.GetForkHeight
+  - ChiaWalletSdk.CoinStateUpdate.GetHeight
+  - ChiaWalletSdk.CoinStateUpdate.GetItems
+  - ChiaWalletSdk.CoinStateUpdate.GetPeakHash
+  - ChiaWalletSdk.CoinStateUpdate.SetForkHeight(System.UInt32)
+  - ChiaWalletSdk.CoinStateUpdate.SetHeight(System.UInt32)
+  - ChiaWalletSdk.CoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  - ChiaWalletSdk.CoinStateUpdate.SetPeakHash(System.Byte[])
+  - ChiaWalletSdk.CoinStateUpdate.pointer
+  langs:
+  - csharp
+  - vb
+  name: CoinStateUpdate
+  nameWithType: CoinStateUpdate
+  fullName: ChiaWalletSdk.CoinStateUpdate
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class CoinStateUpdate : ICoinStateUpdate'
+    content.vb: Public Class CoinStateUpdate Implements ICoinStateUpdate
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate
+- uid: ChiaWalletSdk.CoinStateUpdate.pointer
+  commentId: F:ChiaWalletSdk.CoinStateUpdate.pointer
+  id: pointer
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: CoinStateUpdate.pointer
+  fullName: ChiaWalletSdk.CoinStateUpdate.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.CoinStateUpdate.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: CoinStateUpdate(nint)
+  nameWithType: CoinStateUpdate.CoinStateUpdate(nint)
+  fullName: ChiaWalletSdk.CoinStateUpdate.CoinStateUpdate(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public CoinStateUpdate(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.CoinStateUpdate.#ctor*
+  nameWithType.vb: CoinStateUpdate.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.CoinStateUpdate.Finalize
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: ~CoinStateUpdate()
+  nameWithType: CoinStateUpdate.~CoinStateUpdate()
+  fullName: ChiaWalletSdk.CoinStateUpdate.~CoinStateUpdate()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~CoinStateUpdate()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.CoinStateUpdate.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.CoinStateUpdate.#ctor(System.UInt32,System.UInt32,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.#ctor(System.UInt32,System.UInt32,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  id: '#ctor(System.UInt32,System.UInt32,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.CoinState})'
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: CoinStateUpdate(uint, uint, byte[], List<CoinState>)
+  nameWithType: CoinStateUpdate.CoinStateUpdate(uint, uint, byte[], List<CoinState>)
+  fullName: ChiaWalletSdk.CoinStateUpdate.CoinStateUpdate(uint, uint, byte[], System.Collections.Generic.List<ChiaWalletSdk.CoinState>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public CoinStateUpdate(uint height, uint forkHeight, byte[] peakHash, List<CoinState> items)
+    parameters:
+    - id: height
+      type: System.UInt32
+    - id: forkHeight
+      type: System.UInt32
+    - id: peakHash
+      type: System.Byte[]
+    - id: items
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Public Sub New(height As UInteger, forkHeight As UInteger, peakHash As Byte(), items As List(Of CoinState))
+  overload: ChiaWalletSdk.CoinStateUpdate.#ctor*
+  nameWithType.vb: CoinStateUpdate.New(UInteger, UInteger, Byte(), List(Of CoinState))
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.New(UInteger, UInteger, Byte(), System.Collections.Generic.List(Of ChiaWalletSdk.CoinState))
+  name.vb: New(UInteger, UInteger, Byte(), List(Of CoinState))
+- uid: ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: CoinStateUpdate.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr*
+- uid: ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: CoinStateUpdate.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr*
+- uid: ChiaWalletSdk.CoinStateUpdate.Destroy
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: CoinStateUpdate.Destroy()
+  fullName: ChiaWalletSdk.CoinStateUpdate.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.CoinStateUpdate.Destroy*
+- uid: ChiaWalletSdk.CoinStateUpdate.Dispose
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CoinStateUpdate.Dispose()
+  fullName: ChiaWalletSdk.CoinStateUpdate.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.CoinStateUpdate.Dispose*
+- uid: ChiaWalletSdk.CoinStateUpdate.GetForkHeight
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.GetForkHeight
+  id: GetForkHeight
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetForkHeight()
+  nameWithType: CoinStateUpdate.GetForkHeight()
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetForkHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetForkHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetForkHeight() As UInteger
+  overload: ChiaWalletSdk.CoinStateUpdate.GetForkHeight*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.GetForkHeight
+- uid: ChiaWalletSdk.CoinStateUpdate.GetHeight
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.GetHeight
+  id: GetHeight
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetHeight()
+  nameWithType: CoinStateUpdate.GetHeight()
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetHeight() As UInteger
+  overload: ChiaWalletSdk.CoinStateUpdate.GetHeight*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.GetHeight
+- uid: ChiaWalletSdk.CoinStateUpdate.GetItems
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.GetItems
+  id: GetItems
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetItems()
+  nameWithType: CoinStateUpdate.GetItems()
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetItems()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<CoinState> GetItems()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    content.vb: Public Function GetItems() As List(Of CoinState)
+  overload: ChiaWalletSdk.CoinStateUpdate.GetItems*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.GetItems
+- uid: ChiaWalletSdk.CoinStateUpdate.GetPeakHash
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.GetPeakHash
+  id: GetPeakHash
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetPeakHash()
+  nameWithType: CoinStateUpdate.GetPeakHash()
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetPeakHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPeakHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPeakHash() As Byte()
+  overload: ChiaWalletSdk.CoinStateUpdate.GetPeakHash*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.GetPeakHash
+- uid: ChiaWalletSdk.CoinStateUpdate.SetForkHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.SetForkHeight(System.UInt32)
+  id: SetForkHeight(System.UInt32)
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: SetForkHeight(uint)
+  nameWithType: CoinStateUpdate.SetForkHeight(uint)
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetForkHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CoinStateUpdate SetForkHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.CoinStateUpdate
+    content.vb: Public Function SetForkHeight(value As UInteger) As CoinStateUpdate
+  overload: ChiaWalletSdk.CoinStateUpdate.SetForkHeight*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(System.UInt32)
+  nameWithType.vb: CoinStateUpdate.SetForkHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.SetForkHeight(UInteger)
+  name.vb: SetForkHeight(UInteger)
+- uid: ChiaWalletSdk.CoinStateUpdate.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.SetHeight(System.UInt32)
+  id: SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(uint)
+  nameWithType: CoinStateUpdate.SetHeight(uint)
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CoinStateUpdate SetHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.CoinStateUpdate
+    content.vb: Public Function SetHeight(value As UInteger) As CoinStateUpdate
+  overload: ChiaWalletSdk.CoinStateUpdate.SetHeight*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.SetHeight(System.UInt32)
+  nameWithType.vb: CoinStateUpdate.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+- uid: ChiaWalletSdk.CoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  id: SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: SetItems(List<CoinState>)
+  nameWithType: CoinStateUpdate.SetItems(List<CoinState>)
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetItems(System.Collections.Generic.List<ChiaWalletSdk.CoinState>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CoinStateUpdate SetItems(List<CoinState> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+    return:
+      type: ChiaWalletSdk.CoinStateUpdate
+    content.vb: Public Function SetItems(value As List(Of CoinState)) As CoinStateUpdate
+  overload: ChiaWalletSdk.CoinStateUpdate.SetItems*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  nameWithType.vb: CoinStateUpdate.SetItems(List(Of CoinState))
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.SetItems(System.Collections.Generic.List(Of ChiaWalletSdk.CoinState))
+  name.vb: SetItems(List(Of CoinState))
+- uid: ChiaWalletSdk.CoinStateUpdate.SetPeakHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.CoinStateUpdate.SetPeakHash(System.Byte[])
+  id: SetPeakHash(System.Byte[])
+  parent: ChiaWalletSdk.CoinStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: SetPeakHash(byte[])
+  nameWithType: CoinStateUpdate.SetPeakHash(byte[])
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetPeakHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CoinStateUpdate SetPeakHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.CoinStateUpdate
+    content.vb: Public Function SetPeakHash(value As Byte()) As CoinStateUpdate
+  overload: ChiaWalletSdk.CoinStateUpdate.SetPeakHash*
+  implements:
+  - ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(System.Byte[])
+  nameWithType.vb: CoinStateUpdate.SetPeakHash(Byte())
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.SetPeakHash(Byte())
+  name.vb: SetPeakHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ICoinStateUpdate
+  commentId: T:ChiaWalletSdk.ICoinStateUpdate
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html
+  name: ICoinStateUpdate
+  nameWithType: ICoinStateUpdate
+  fullName: ChiaWalletSdk.ICoinStateUpdate
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.CoinStateUpdate.#ctor*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate__ctor_System_IntPtr_
+  name: CoinStateUpdate
+  nameWithType: CoinStateUpdate.CoinStateUpdate
+  fullName: ChiaWalletSdk.CoinStateUpdate.CoinStateUpdate
+  nameWithType.vb: CoinStateUpdate.New
+  fullName.vb: ChiaWalletSdk.CoinStateUpdate.New
+  name.vb: New
+- uid: ChiaWalletSdk.CoinStateUpdate.Finalize*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_Finalize
+  name: ~CoinStateUpdate
+  nameWithType: CoinStateUpdate.~CoinStateUpdate
+  fullName: ChiaWalletSdk.CoinStateUpdate.~CoinStateUpdate
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.CoinStateUpdate.Finalize*
+    name: CoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_Finalize
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.CoinState}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.CoinState.html
+  name: List<CoinState>
+  nameWithType: List<CoinState>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.CoinState>
+  nameWithType.vb: List(Of CoinState)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.CoinState)
+  name.vb: List(Of CoinState)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: CoinStateUpdate.FreeRustArcPtr
+  fullName: ChiaWalletSdk.CoinStateUpdate.FreeRustArcPtr
+- uid: ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: CoinStateUpdate.CloneRustArcPtr
+  fullName: ChiaWalletSdk.CoinStateUpdate.CloneRustArcPtr
+- uid: ChiaWalletSdk.CoinStateUpdate.Destroy*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_Destroy
+  name: Destroy
+  nameWithType: CoinStateUpdate.Destroy
+  fullName: ChiaWalletSdk.CoinStateUpdate.Destroy
+- uid: ChiaWalletSdk.CoinStateUpdate.Dispose*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_Dispose
+  name: Dispose
+  nameWithType: CoinStateUpdate.Dispose
+  fullName: ChiaWalletSdk.CoinStateUpdate.Dispose
+- uid: ChiaWalletSdk.CoinStateUpdate.GetForkHeight*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.GetForkHeight
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_GetForkHeight
+  name: GetForkHeight
+  nameWithType: CoinStateUpdate.GetForkHeight
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetForkHeight
+- uid: ChiaWalletSdk.ICoinStateUpdate.GetForkHeight
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.GetForkHeight
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetForkHeight
+  name: GetForkHeight()
+  nameWithType: ICoinStateUpdate.GetForkHeight()
+  fullName: ChiaWalletSdk.ICoinStateUpdate.GetForkHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetForkHeight
+    name: GetForkHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetForkHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetForkHeight
+    name: GetForkHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetForkHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate.GetHeight*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.GetHeight
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_GetHeight
+  name: GetHeight
+  nameWithType: CoinStateUpdate.GetHeight
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetHeight
+- uid: ChiaWalletSdk.ICoinStateUpdate.GetHeight
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.GetHeight
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetHeight
+  name: GetHeight()
+  nameWithType: ICoinStateUpdate.GetHeight()
+  fullName: ChiaWalletSdk.ICoinStateUpdate.GetHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate.GetItems*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.GetItems
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_GetItems
+  name: GetItems
+  nameWithType: CoinStateUpdate.GetItems
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetItems
+- uid: ChiaWalletSdk.ICoinStateUpdate.GetItems
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.GetItems
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetItems
+  name: GetItems()
+  nameWithType: ICoinStateUpdate.GetItems()
+  fullName: ChiaWalletSdk.ICoinStateUpdate.GetItems()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetItems
+    name: GetItems
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetItems
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetItems
+    name: GetItems
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetItems
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate.GetPeakHash*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.GetPeakHash
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_GetPeakHash
+  name: GetPeakHash
+  nameWithType: CoinStateUpdate.GetPeakHash
+  fullName: ChiaWalletSdk.CoinStateUpdate.GetPeakHash
+- uid: ChiaWalletSdk.ICoinStateUpdate.GetPeakHash
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.GetPeakHash
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetPeakHash
+  name: GetPeakHash()
+  nameWithType: ICoinStateUpdate.GetPeakHash()
+  fullName: ChiaWalletSdk.ICoinStateUpdate.GetPeakHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetPeakHash
+    name: GetPeakHash
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetPeakHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.GetPeakHash
+    name: GetPeakHash
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_GetPeakHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate.SetForkHeight*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.SetForkHeight
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_SetForkHeight_System_UInt32_
+  name: SetForkHeight
+  nameWithType: CoinStateUpdate.SetForkHeight
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetForkHeight
+- uid: ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(System.UInt32)
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetForkHeight_System_UInt32_
+  name: SetForkHeight(uint)
+  nameWithType: ICoinStateUpdate.SetForkHeight(uint)
+  fullName: ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(uint)
+  nameWithType.vb: ICoinStateUpdate.SetForkHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(UInteger)
+  name.vb: SetForkHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(System.UInt32)
+    name: SetForkHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetForkHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetForkHeight(System.UInt32)
+    name: SetForkHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetForkHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate
+  commentId: T:ChiaWalletSdk.CoinStateUpdate
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html
+  name: CoinStateUpdate
+  nameWithType: CoinStateUpdate
+  fullName: ChiaWalletSdk.CoinStateUpdate
+- uid: ChiaWalletSdk.CoinStateUpdate.SetHeight*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.SetHeight
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_SetHeight_System_UInt32_
+  name: SetHeight
+  nameWithType: CoinStateUpdate.SetHeight
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetHeight
+- uid: ChiaWalletSdk.ICoinStateUpdate.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetHeight_System_UInt32_
+  name: SetHeight(uint)
+  nameWithType: ICoinStateUpdate.SetHeight(uint)
+  fullName: ChiaWalletSdk.ICoinStateUpdate.SetHeight(uint)
+  nameWithType.vb: ICoinStateUpdate.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.ICoinStateUpdate.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate.SetItems*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.SetItems
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_SetItems_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  name: SetItems
+  nameWithType: CoinStateUpdate.SetItems
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetItems
+- uid: ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetItems_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  name: SetItems(List<CoinState>)
+  nameWithType: ICoinStateUpdate.SetItems(List<CoinState>)
+  fullName: ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List<ChiaWalletSdk.CoinState>)
+  nameWithType.vb: ICoinStateUpdate.SetItems(List(Of CoinState))
+  fullName.vb: ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List(Of ChiaWalletSdk.CoinState))
+  name.vb: SetItems(List(Of CoinState))
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+    name: SetItems
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetItems_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetItems(System.Collections.Generic.List{ChiaWalletSdk.CoinState})
+    name: SetItems
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetItems_System_Collections_Generic_List_ChiaWalletSdk_CoinState__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.CoinState
+    name: CoinState
+    isExternal: true
+    href: ChiaWalletSdk.CoinState.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate.SetPeakHash*
+  commentId: Overload:ChiaWalletSdk.CoinStateUpdate.SetPeakHash
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html#ChiaWalletSdk_CoinStateUpdate_SetPeakHash_System_Byte___
+  name: SetPeakHash
+  nameWithType: CoinStateUpdate.SetPeakHash
+  fullName: ChiaWalletSdk.CoinStateUpdate.SetPeakHash
+- uid: ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(System.Byte[])
+  parent: ChiaWalletSdk.ICoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetPeakHash_System_Byte___
+  name: SetPeakHash(byte[])
+  nameWithType: ICoinStateUpdate.SetPeakHash(byte[])
+  fullName: ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(byte[])
+  nameWithType.vb: ICoinStateUpdate.SetPeakHash(Byte())
+  fullName.vb: ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(Byte())
+  name.vb: SetPeakHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(System.Byte[])
+    name: SetPeakHash
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetPeakHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICoinStateUpdate.SetPeakHash(System.Byte[])
+    name: SetPeakHash
+    isExternal: true
+    href: ChiaWalletSdk.ICoinStateUpdate.html#ChiaWalletSdk_ICoinStateUpdate_SetPeakHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

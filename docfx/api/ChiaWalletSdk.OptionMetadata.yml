@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.OptionMetadata
+  commentId: T:ChiaWalletSdk.OptionMetadata
+  id: OptionMetadata
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.OptionMetadata.#ctor(System.IntPtr)
+  - ChiaWalletSdk.OptionMetadata.#ctor(System.String,ChiaWalletSdk.OptionType)
+  - ChiaWalletSdk.OptionMetadata.CloneRustArcPtr
+  - ChiaWalletSdk.OptionMetadata.Destroy
+  - ChiaWalletSdk.OptionMetadata.Dispose
+  - ChiaWalletSdk.OptionMetadata.Finalize
+  - ChiaWalletSdk.OptionMetadata.FreeRustArcPtr
+  - ChiaWalletSdk.OptionMetadata.GetExpirationSeconds
+  - ChiaWalletSdk.OptionMetadata.GetStrikeType
+  - ChiaWalletSdk.OptionMetadata.SetExpirationSeconds(System.String)
+  - ChiaWalletSdk.OptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  - ChiaWalletSdk.OptionMetadata.pointer
+  langs:
+  - csharp
+  - vb
+  name: OptionMetadata
+  nameWithType: OptionMetadata
+  fullName: ChiaWalletSdk.OptionMetadata
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class OptionMetadata : IOptionMetadata'
+    content.vb: Public Class OptionMetadata Implements IOptionMetadata
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IOptionMetadata
+- uid: ChiaWalletSdk.OptionMetadata.pointer
+  commentId: F:ChiaWalletSdk.OptionMetadata.pointer
+  id: pointer
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: OptionMetadata.pointer
+  fullName: ChiaWalletSdk.OptionMetadata.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.OptionMetadata.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.OptionMetadata.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: OptionMetadata(nint)
+  nameWithType: OptionMetadata.OptionMetadata(nint)
+  fullName: ChiaWalletSdk.OptionMetadata.OptionMetadata(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public OptionMetadata(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.OptionMetadata.#ctor*
+  nameWithType.vb: OptionMetadata.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.OptionMetadata.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.OptionMetadata.Finalize
+  commentId: M:ChiaWalletSdk.OptionMetadata.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: ~OptionMetadata()
+  nameWithType: OptionMetadata.~OptionMetadata()
+  fullName: ChiaWalletSdk.OptionMetadata.~OptionMetadata()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~OptionMetadata()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.OptionMetadata.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.OptionMetadata.#ctor(System.String,ChiaWalletSdk.OptionType)
+  commentId: M:ChiaWalletSdk.OptionMetadata.#ctor(System.String,ChiaWalletSdk.OptionType)
+  id: '#ctor(System.String,ChiaWalletSdk.OptionType)'
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: OptionMetadata(string, OptionType)
+  nameWithType: OptionMetadata.OptionMetadata(string, OptionType)
+  fullName: ChiaWalletSdk.OptionMetadata.OptionMetadata(string, ChiaWalletSdk.OptionType)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public OptionMetadata(string expirationSeconds, OptionType strikeType)
+    parameters:
+    - id: expirationSeconds
+      type: System.String
+    - id: strikeType
+      type: ChiaWalletSdk.OptionType
+    content.vb: Public Sub New(expirationSeconds As String, strikeType As OptionType)
+  overload: ChiaWalletSdk.OptionMetadata.#ctor*
+  nameWithType.vb: OptionMetadata.New(String, OptionType)
+  fullName.vb: ChiaWalletSdk.OptionMetadata.New(String, ChiaWalletSdk.OptionType)
+  name.vb: New(String, OptionType)
+- uid: ChiaWalletSdk.OptionMetadata.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.OptionMetadata.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: OptionMetadata.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.OptionMetadata.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.OptionMetadata.FreeRustArcPtr*
+- uid: ChiaWalletSdk.OptionMetadata.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.OptionMetadata.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: OptionMetadata.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.OptionMetadata.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.OptionMetadata.CloneRustArcPtr*
+- uid: ChiaWalletSdk.OptionMetadata.Destroy
+  commentId: M:ChiaWalletSdk.OptionMetadata.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: OptionMetadata.Destroy()
+  fullName: ChiaWalletSdk.OptionMetadata.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.OptionMetadata.Destroy*
+- uid: ChiaWalletSdk.OptionMetadata.Dispose
+  commentId: M:ChiaWalletSdk.OptionMetadata.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: OptionMetadata.Dispose()
+  fullName: ChiaWalletSdk.OptionMetadata.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.OptionMetadata.Dispose*
+- uid: ChiaWalletSdk.OptionMetadata.GetExpirationSeconds
+  commentId: M:ChiaWalletSdk.OptionMetadata.GetExpirationSeconds
+  id: GetExpirationSeconds
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: GetExpirationSeconds()
+  nameWithType: OptionMetadata.GetExpirationSeconds()
+  fullName: ChiaWalletSdk.OptionMetadata.GetExpirationSeconds()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetExpirationSeconds()
+    return:
+      type: System.String
+    content.vb: Public Function GetExpirationSeconds() As String
+  overload: ChiaWalletSdk.OptionMetadata.GetExpirationSeconds*
+  implements:
+  - ChiaWalletSdk.IOptionMetadata.GetExpirationSeconds
+- uid: ChiaWalletSdk.OptionMetadata.GetStrikeType
+  commentId: M:ChiaWalletSdk.OptionMetadata.GetStrikeType
+  id: GetStrikeType
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: GetStrikeType()
+  nameWithType: OptionMetadata.GetStrikeType()
+  fullName: ChiaWalletSdk.OptionMetadata.GetStrikeType()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public OptionType GetStrikeType()
+    return:
+      type: ChiaWalletSdk.OptionType
+    content.vb: Public Function GetStrikeType() As OptionType
+  overload: ChiaWalletSdk.OptionMetadata.GetStrikeType*
+  implements:
+  - ChiaWalletSdk.IOptionMetadata.GetStrikeType
+- uid: ChiaWalletSdk.OptionMetadata.SetExpirationSeconds(System.String)
+  commentId: M:ChiaWalletSdk.OptionMetadata.SetExpirationSeconds(System.String)
+  id: SetExpirationSeconds(System.String)
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: SetExpirationSeconds(string)
+  nameWithType: OptionMetadata.SetExpirationSeconds(string)
+  fullName: ChiaWalletSdk.OptionMetadata.SetExpirationSeconds(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public OptionMetadata SetExpirationSeconds(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.OptionMetadata
+    content.vb: Public Function SetExpirationSeconds(value As String) As OptionMetadata
+  overload: ChiaWalletSdk.OptionMetadata.SetExpirationSeconds*
+  implements:
+  - ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(System.String)
+  nameWithType.vb: OptionMetadata.SetExpirationSeconds(String)
+  fullName.vb: ChiaWalletSdk.OptionMetadata.SetExpirationSeconds(String)
+  name.vb: SetExpirationSeconds(String)
+- uid: ChiaWalletSdk.OptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  commentId: M:ChiaWalletSdk.OptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  id: SetStrikeType(ChiaWalletSdk.OptionType)
+  parent: ChiaWalletSdk.OptionMetadata
+  langs:
+  - csharp
+  - vb
+  name: SetStrikeType(OptionType)
+  nameWithType: OptionMetadata.SetStrikeType(OptionType)
+  fullName: ChiaWalletSdk.OptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public OptionMetadata SetStrikeType(OptionType value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.OptionType
+    return:
+      type: ChiaWalletSdk.OptionMetadata
+    content.vb: Public Function SetStrikeType(value As OptionType) As OptionMetadata
+  overload: ChiaWalletSdk.OptionMetadata.SetStrikeType*
+  implements:
+  - ChiaWalletSdk.IOptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IOptionMetadata
+  commentId: T:ChiaWalletSdk.IOptionMetadata
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IOptionMetadata.html
+  name: IOptionMetadata
+  nameWithType: IOptionMetadata
+  fullName: ChiaWalletSdk.IOptionMetadata
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.OptionMetadata.#ctor*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata__ctor_System_IntPtr_
+  name: OptionMetadata
+  nameWithType: OptionMetadata.OptionMetadata
+  fullName: ChiaWalletSdk.OptionMetadata.OptionMetadata
+  nameWithType.vb: OptionMetadata.New
+  fullName.vb: ChiaWalletSdk.OptionMetadata.New
+  name.vb: New
+- uid: ChiaWalletSdk.OptionMetadata.Finalize*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_Finalize
+  name: ~OptionMetadata
+  nameWithType: OptionMetadata.~OptionMetadata
+  fullName: ChiaWalletSdk.OptionMetadata.~OptionMetadata
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.OptionMetadata.Finalize*
+    name: OptionMetadata
+    isExternal: true
+    href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.OptionType
+  commentId: T:ChiaWalletSdk.OptionType
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.OptionType.html
+  name: OptionType
+  nameWithType: OptionType
+  fullName: ChiaWalletSdk.OptionType
+- uid: ChiaWalletSdk.OptionMetadata.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: OptionMetadata.FreeRustArcPtr
+  fullName: ChiaWalletSdk.OptionMetadata.FreeRustArcPtr
+- uid: ChiaWalletSdk.OptionMetadata.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: OptionMetadata.CloneRustArcPtr
+  fullName: ChiaWalletSdk.OptionMetadata.CloneRustArcPtr
+- uid: ChiaWalletSdk.OptionMetadata.Destroy*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_Destroy
+  name: Destroy
+  nameWithType: OptionMetadata.Destroy
+  fullName: ChiaWalletSdk.OptionMetadata.Destroy
+- uid: ChiaWalletSdk.OptionMetadata.Dispose*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_Dispose
+  name: Dispose
+  nameWithType: OptionMetadata.Dispose
+  fullName: ChiaWalletSdk.OptionMetadata.Dispose
+- uid: ChiaWalletSdk.OptionMetadata.GetExpirationSeconds*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.GetExpirationSeconds
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_GetExpirationSeconds
+  name: GetExpirationSeconds
+  nameWithType: OptionMetadata.GetExpirationSeconds
+  fullName: ChiaWalletSdk.OptionMetadata.GetExpirationSeconds
+- uid: ChiaWalletSdk.IOptionMetadata.GetExpirationSeconds
+  commentId: M:ChiaWalletSdk.IOptionMetadata.GetExpirationSeconds
+  parent: ChiaWalletSdk.IOptionMetadata
+  isExternal: true
+  href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_GetExpirationSeconds
+  name: GetExpirationSeconds()
+  nameWithType: IOptionMetadata.GetExpirationSeconds()
+  fullName: ChiaWalletSdk.IOptionMetadata.GetExpirationSeconds()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOptionMetadata.GetExpirationSeconds
+    name: GetExpirationSeconds
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_GetExpirationSeconds
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOptionMetadata.GetExpirationSeconds
+    name: GetExpirationSeconds
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_GetExpirationSeconds
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.OptionMetadata.GetStrikeType*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.GetStrikeType
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_GetStrikeType
+  name: GetStrikeType
+  nameWithType: OptionMetadata.GetStrikeType
+  fullName: ChiaWalletSdk.OptionMetadata.GetStrikeType
+- uid: ChiaWalletSdk.IOptionMetadata.GetStrikeType
+  commentId: M:ChiaWalletSdk.IOptionMetadata.GetStrikeType
+  parent: ChiaWalletSdk.IOptionMetadata
+  isExternal: true
+  href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_GetStrikeType
+  name: GetStrikeType()
+  nameWithType: IOptionMetadata.GetStrikeType()
+  fullName: ChiaWalletSdk.IOptionMetadata.GetStrikeType()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOptionMetadata.GetStrikeType
+    name: GetStrikeType
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_GetStrikeType
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOptionMetadata.GetStrikeType
+    name: GetStrikeType
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_GetStrikeType
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.OptionMetadata.SetExpirationSeconds*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.SetExpirationSeconds
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_SetExpirationSeconds_System_String_
+  name: SetExpirationSeconds
+  nameWithType: OptionMetadata.SetExpirationSeconds
+  fullName: ChiaWalletSdk.OptionMetadata.SetExpirationSeconds
+- uid: ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(System.String)
+  commentId: M:ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(System.String)
+  parent: ChiaWalletSdk.IOptionMetadata
+  isExternal: true
+  href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_SetExpirationSeconds_System_String_
+  name: SetExpirationSeconds(string)
+  nameWithType: IOptionMetadata.SetExpirationSeconds(string)
+  fullName: ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(string)
+  nameWithType.vb: IOptionMetadata.SetExpirationSeconds(String)
+  fullName.vb: ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(String)
+  name.vb: SetExpirationSeconds(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(System.String)
+    name: SetExpirationSeconds
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_SetExpirationSeconds_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOptionMetadata.SetExpirationSeconds(System.String)
+    name: SetExpirationSeconds
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_SetExpirationSeconds_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.OptionMetadata
+  commentId: T:ChiaWalletSdk.OptionMetadata
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html
+  name: OptionMetadata
+  nameWithType: OptionMetadata
+  fullName: ChiaWalletSdk.OptionMetadata
+- uid: ChiaWalletSdk.OptionMetadata.SetStrikeType*
+  commentId: Overload:ChiaWalletSdk.OptionMetadata.SetStrikeType
+  isExternal: true
+  href: ChiaWalletSdk.OptionMetadata.html#ChiaWalletSdk_OptionMetadata_SetStrikeType_ChiaWalletSdk_OptionType_
+  name: SetStrikeType
+  nameWithType: OptionMetadata.SetStrikeType
+  fullName: ChiaWalletSdk.OptionMetadata.SetStrikeType
+- uid: ChiaWalletSdk.IOptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  commentId: M:ChiaWalletSdk.IOptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  parent: ChiaWalletSdk.IOptionMetadata
+  isExternal: true
+  href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_SetStrikeType_ChiaWalletSdk_OptionType_
+  name: SetStrikeType(OptionType)
+  nameWithType: IOptionMetadata.SetStrikeType(OptionType)
+  fullName: ChiaWalletSdk.IOptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+    name: SetStrikeType
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_SetStrikeType_ChiaWalletSdk_OptionType_
+  - name: (
+  - uid: ChiaWalletSdk.OptionType
+    name: OptionType
+    isExternal: true
+    href: ChiaWalletSdk.OptionType.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOptionMetadata.SetStrikeType(ChiaWalletSdk.OptionType)
+    name: SetStrikeType
+    isExternal: true
+    href: ChiaWalletSdk.IOptionMetadata.html#ChiaWalletSdk_IOptionMetadata_SetStrikeType_ChiaWalletSdk_OptionType_
+  - name: (
+  - uid: ChiaWalletSdk.OptionType
+    name: OptionType
+    isExternal: true
+    href: ChiaWalletSdk.OptionType.html
+  - name: )

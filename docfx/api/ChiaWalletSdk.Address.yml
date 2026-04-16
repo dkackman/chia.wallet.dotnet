@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Address
+  commentId: T:ChiaWalletSdk.Address
+  id: Address
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Address.#ctor(System.Byte[],System.String)
+  - ChiaWalletSdk.Address.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Address.CloneRustArcPtr
+  - ChiaWalletSdk.Address.Decode(System.String)
+  - ChiaWalletSdk.Address.Destroy
+  - ChiaWalletSdk.Address.Dispose
+  - ChiaWalletSdk.Address.Encode
+  - ChiaWalletSdk.Address.Finalize
+  - ChiaWalletSdk.Address.FreeRustArcPtr
+  - ChiaWalletSdk.Address.GetPrefix
+  - ChiaWalletSdk.Address.GetPuzzleHash
+  - ChiaWalletSdk.Address.SetPrefix(System.String)
+  - ChiaWalletSdk.Address.SetPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.Address.pointer
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Address
+  fullName: ChiaWalletSdk.Address
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Address : IAddress'
+    content.vb: Public Class Address Implements IAddress
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IAddress
+- uid: ChiaWalletSdk.Address.pointer
+  commentId: F:ChiaWalletSdk.Address.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Address.pointer
+  fullName: ChiaWalletSdk.Address.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Address.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Address.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: Address(nint)
+  nameWithType: Address.Address(nint)
+  fullName: ChiaWalletSdk.Address.Address(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Address(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Address.#ctor*
+  nameWithType.vb: Address.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Address.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Address.Finalize
+  commentId: M:ChiaWalletSdk.Address.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: ~Address()
+  nameWithType: Address.~Address()
+  fullName: ChiaWalletSdk.Address.~Address()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Address()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Address.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Address.#ctor(System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.Address.#ctor(System.Byte[],System.String)
+  id: '#ctor(System.Byte[],System.String)'
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: Address(byte[], string)
+  nameWithType: Address.Address(byte[], string)
+  fullName: ChiaWalletSdk.Address.Address(byte[], string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Address(byte[] puzzleHash, string prefix)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: prefix
+      type: System.String
+    content.vb: Public Sub New(puzzleHash As Byte(), prefix As String)
+  overload: ChiaWalletSdk.Address.#ctor*
+  nameWithType.vb: Address.New(Byte(), String)
+  fullName.vb: ChiaWalletSdk.Address.New(Byte(), String)
+  name.vb: New(Byte(), String)
+- uid: ChiaWalletSdk.Address.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Address.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Address.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Address.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Address.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Address.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Address.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Address.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Address.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Address.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Address.Destroy
+  commentId: M:ChiaWalletSdk.Address.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Address.Destroy()
+  fullName: ChiaWalletSdk.Address.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Address.Destroy*
+- uid: ChiaWalletSdk.Address.Dispose
+  commentId: M:ChiaWalletSdk.Address.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Address.Dispose()
+  fullName: ChiaWalletSdk.Address.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Address.Dispose*
+- uid: ChiaWalletSdk.Address.Encode
+  commentId: M:ChiaWalletSdk.Address.Encode
+  id: Encode
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: Encode()
+  nameWithType: Address.Encode()
+  fullName: ChiaWalletSdk.Address.Encode()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string Encode()
+    return:
+      type: System.String
+    content.vb: Public Function Encode() As String
+  overload: ChiaWalletSdk.Address.Encode*
+  implements:
+  - ChiaWalletSdk.IAddress.Encode
+- uid: ChiaWalletSdk.Address.GetPrefix
+  commentId: M:ChiaWalletSdk.Address.GetPrefix
+  id: GetPrefix
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: GetPrefix()
+  nameWithType: Address.GetPrefix()
+  fullName: ChiaWalletSdk.Address.GetPrefix()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetPrefix()
+    return:
+      type: System.String
+    content.vb: Public Function GetPrefix() As String
+  overload: ChiaWalletSdk.Address.GetPrefix*
+  implements:
+  - ChiaWalletSdk.IAddress.GetPrefix
+- uid: ChiaWalletSdk.Address.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.Address.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: Address.GetPuzzleHash()
+  fullName: ChiaWalletSdk.Address.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.Address.GetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IAddress.GetPuzzleHash
+- uid: ChiaWalletSdk.Address.SetPrefix(System.String)
+  commentId: M:ChiaWalletSdk.Address.SetPrefix(System.String)
+  id: SetPrefix(System.String)
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: SetPrefix(string)
+  nameWithType: Address.SetPrefix(string)
+  fullName: ChiaWalletSdk.Address.SetPrefix(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Address SetPrefix(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Address
+    content.vb: Public Function SetPrefix(value As String) As Address
+  overload: ChiaWalletSdk.Address.SetPrefix*
+  implements:
+  - ChiaWalletSdk.IAddress.SetPrefix(System.String)
+  nameWithType.vb: Address.SetPrefix(String)
+  fullName.vb: ChiaWalletSdk.Address.SetPrefix(String)
+  name.vb: SetPrefix(String)
+- uid: ChiaWalletSdk.Address.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Address.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: Address.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.Address.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Address SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Address
+    content.vb: Public Function SetPuzzleHash(value As Byte()) As Address
+  overload: ChiaWalletSdk.Address.SetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IAddress.SetPuzzleHash(System.Byte[])
+  nameWithType.vb: Address.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.Address.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+- uid: ChiaWalletSdk.Address.Decode(System.String)
+  commentId: M:ChiaWalletSdk.Address.Decode(System.String)
+  id: Decode(System.String)
+  parent: ChiaWalletSdk.Address
+  langs:
+  - csharp
+  - vb
+  name: Decode(string)
+  nameWithType: Address.Decode(string)
+  fullName: ChiaWalletSdk.Address.Decode(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Address Decode(string address)
+    parameters:
+    - id: address
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Address
+    content.vb: Public Shared Function Decode(address As String) As Address
+  overload: ChiaWalletSdk.Address.Decode*
+  nameWithType.vb: Address.Decode(String)
+  fullName.vb: ChiaWalletSdk.Address.Decode(String)
+  name.vb: Decode(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IAddress
+  commentId: T:ChiaWalletSdk.IAddress
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IAddress.html
+  name: IAddress
+  nameWithType: IAddress
+  fullName: ChiaWalletSdk.IAddress
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Address.#ctor*
+  commentId: Overload:ChiaWalletSdk.Address.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address__ctor_System_IntPtr_
+  name: Address
+  nameWithType: Address.Address
+  fullName: ChiaWalletSdk.Address.Address
+  nameWithType.vb: Address.New
+  fullName.vb: ChiaWalletSdk.Address.New
+  name.vb: New
+- uid: ChiaWalletSdk.Address.Finalize*
+  commentId: Overload:ChiaWalletSdk.Address.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_Finalize
+  name: ~Address
+  nameWithType: Address.~Address
+  fullName: ChiaWalletSdk.Address.~Address
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Address.Finalize*
+    name: Address
+    isExternal: true
+    href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Address.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Address.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Address.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Address.FreeRustArcPtr
+- uid: ChiaWalletSdk.Address.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Address.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Address.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Address.CloneRustArcPtr
+- uid: ChiaWalletSdk.Address.Destroy*
+  commentId: Overload:ChiaWalletSdk.Address.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_Destroy
+  name: Destroy
+  nameWithType: Address.Destroy
+  fullName: ChiaWalletSdk.Address.Destroy
+- uid: ChiaWalletSdk.Address.Dispose*
+  commentId: Overload:ChiaWalletSdk.Address.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_Dispose
+  name: Dispose
+  nameWithType: Address.Dispose
+  fullName: ChiaWalletSdk.Address.Dispose
+- uid: ChiaWalletSdk.Address.Encode*
+  commentId: Overload:ChiaWalletSdk.Address.Encode
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_Encode
+  name: Encode
+  nameWithType: Address.Encode
+  fullName: ChiaWalletSdk.Address.Encode
+- uid: ChiaWalletSdk.IAddress.Encode
+  commentId: M:ChiaWalletSdk.IAddress.Encode
+  parent: ChiaWalletSdk.IAddress
+  isExternal: true
+  href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_Encode
+  name: Encode()
+  nameWithType: IAddress.Encode()
+  fullName: ChiaWalletSdk.IAddress.Encode()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAddress.Encode
+    name: Encode
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_Encode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAddress.Encode
+    name: Encode
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_Encode
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Address.GetPrefix*
+  commentId: Overload:ChiaWalletSdk.Address.GetPrefix
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_GetPrefix
+  name: GetPrefix
+  nameWithType: Address.GetPrefix
+  fullName: ChiaWalletSdk.Address.GetPrefix
+- uid: ChiaWalletSdk.IAddress.GetPrefix
+  commentId: M:ChiaWalletSdk.IAddress.GetPrefix
+  parent: ChiaWalletSdk.IAddress
+  isExternal: true
+  href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_GetPrefix
+  name: GetPrefix()
+  nameWithType: IAddress.GetPrefix()
+  fullName: ChiaWalletSdk.IAddress.GetPrefix()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAddress.GetPrefix
+    name: GetPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_GetPrefix
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAddress.GetPrefix
+    name: GetPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_GetPrefix
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Address.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Address.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: Address.GetPuzzleHash
+  fullName: ChiaWalletSdk.Address.GetPuzzleHash
+- uid: ChiaWalletSdk.IAddress.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IAddress.GetPuzzleHash
+  parent: ChiaWalletSdk.IAddress
+  isExternal: true
+  href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_GetPuzzleHash
+  name: GetPuzzleHash()
+  nameWithType: IAddress.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IAddress.GetPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAddress.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_GetPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAddress.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_GetPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Address.SetPrefix*
+  commentId: Overload:ChiaWalletSdk.Address.SetPrefix
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_SetPrefix_System_String_
+  name: SetPrefix
+  nameWithType: Address.SetPrefix
+  fullName: ChiaWalletSdk.Address.SetPrefix
+- uid: ChiaWalletSdk.IAddress.SetPrefix(System.String)
+  commentId: M:ChiaWalletSdk.IAddress.SetPrefix(System.String)
+  parent: ChiaWalletSdk.IAddress
+  isExternal: true
+  href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_SetPrefix_System_String_
+  name: SetPrefix(string)
+  nameWithType: IAddress.SetPrefix(string)
+  fullName: ChiaWalletSdk.IAddress.SetPrefix(string)
+  nameWithType.vb: IAddress.SetPrefix(String)
+  fullName.vb: ChiaWalletSdk.IAddress.SetPrefix(String)
+  name.vb: SetPrefix(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAddress.SetPrefix(System.String)
+    name: SetPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_SetPrefix_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAddress.SetPrefix(System.String)
+    name: SetPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_SetPrefix_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.Address
+  commentId: T:ChiaWalletSdk.Address
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Address.html
+  name: Address
+  nameWithType: Address
+  fullName: ChiaWalletSdk.Address
+- uid: ChiaWalletSdk.Address.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Address.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: Address.SetPuzzleHash
+  fullName: ChiaWalletSdk.Address.SetPuzzleHash
+- uid: ChiaWalletSdk.IAddress.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IAddress.SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IAddress
+  isExternal: true
+  href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash(byte[])
+  nameWithType: IAddress.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IAddress.SetPuzzleHash(byte[])
+  nameWithType.vb: IAddress.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IAddress.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAddress.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAddress.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IAddress.html#ChiaWalletSdk_IAddress_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Address.Decode*
+  commentId: Overload:ChiaWalletSdk.Address.Decode
+  isExternal: true
+  href: ChiaWalletSdk.Address.html#ChiaWalletSdk_Address_Decode_System_String_
+  name: Decode
+  nameWithType: Address.Decode
+  fullName: ChiaWalletSdk.Address.Decode

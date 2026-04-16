@@ -1,0 +1,1078 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ProofOfSpace
+  commentId: T:ChiaWalletSdk.ProofOfSpace
+  id: ProofOfSpace
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ProofOfSpace.#ctor(System.Byte[],ChiaWalletSdk.PublicKey,System.Byte[],ChiaWalletSdk.PublicKey,System.Byte,System.Byte[])
+  - ChiaWalletSdk.ProofOfSpace.#ctor(System.IntPtr)
+  - ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr
+  - ChiaWalletSdk.ProofOfSpace.Destroy
+  - ChiaWalletSdk.ProofOfSpace.Dispose
+  - ChiaWalletSdk.ProofOfSpace.Finalize
+  - ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr
+  - ChiaWalletSdk.ProofOfSpace.GetChallenge
+  - ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey
+  - ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash
+  - ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey
+  - ChiaWalletSdk.ProofOfSpace.GetProof
+  - ChiaWalletSdk.ProofOfSpace.GetVersionAndSize
+  - ChiaWalletSdk.ProofOfSpace.SetChallenge(System.Byte[])
+  - ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  - ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  - ChiaWalletSdk.ProofOfSpace.SetProof(System.Byte[])
+  - ChiaWalletSdk.ProofOfSpace.SetVersionAndSize(System.Byte)
+  - ChiaWalletSdk.ProofOfSpace.pointer
+  langs:
+  - csharp
+  - vb
+  name: ProofOfSpace
+  nameWithType: ProofOfSpace
+  fullName: ChiaWalletSdk.ProofOfSpace
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class ProofOfSpace : IProofOfSpace'
+    content.vb: Public Class ProofOfSpace Implements IProofOfSpace
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IProofOfSpace
+- uid: ChiaWalletSdk.ProofOfSpace.pointer
+  commentId: F:ChiaWalletSdk.ProofOfSpace.pointer
+  id: pointer
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: ProofOfSpace.pointer
+  fullName: ChiaWalletSdk.ProofOfSpace.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.ProofOfSpace.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.ProofOfSpace.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: ProofOfSpace(nint)
+  nameWithType: ProofOfSpace.ProofOfSpace(nint)
+  fullName: ChiaWalletSdk.ProofOfSpace.ProofOfSpace(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ProofOfSpace(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.ProofOfSpace.#ctor*
+  nameWithType.vb: ProofOfSpace.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.ProofOfSpace.Finalize
+  commentId: M:ChiaWalletSdk.ProofOfSpace.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: ~ProofOfSpace()
+  nameWithType: ProofOfSpace.~ProofOfSpace()
+  fullName: ChiaWalletSdk.ProofOfSpace.~ProofOfSpace()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~ProofOfSpace()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.ProofOfSpace.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.ProofOfSpace.#ctor(System.Byte[],ChiaWalletSdk.PublicKey,System.Byte[],ChiaWalletSdk.PublicKey,System.Byte,System.Byte[])
+  commentId: M:ChiaWalletSdk.ProofOfSpace.#ctor(System.Byte[],ChiaWalletSdk.PublicKey,System.Byte[],ChiaWalletSdk.PublicKey,System.Byte,System.Byte[])
+  id: '#ctor(System.Byte[],ChiaWalletSdk.PublicKey,System.Byte[],ChiaWalletSdk.PublicKey,System.Byte,System.Byte[])'
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: ProofOfSpace(byte[], PublicKey?, byte[]?, PublicKey, byte, byte[])
+  nameWithType: ProofOfSpace.ProofOfSpace(byte[], PublicKey?, byte[]?, PublicKey, byte, byte[])
+  fullName: ChiaWalletSdk.ProofOfSpace.ProofOfSpace(byte[], ChiaWalletSdk.PublicKey?, byte[]?, ChiaWalletSdk.PublicKey, byte, byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ProofOfSpace(byte[] challenge, PublicKey? poolPublicKey, byte[]? poolContractPuzzleHash, PublicKey plotPublicKey, byte versionAndSize, byte[] proof)
+    parameters:
+    - id: challenge
+      type: System.Byte[]
+    - id: poolPublicKey
+      type: ChiaWalletSdk.PublicKey
+    - id: poolContractPuzzleHash
+      type: System.Byte[]
+    - id: plotPublicKey
+      type: ChiaWalletSdk.PublicKey
+    - id: versionAndSize
+      type: System.Byte
+    - id: proof
+      type: System.Byte[]
+    content.vb: Public Sub New(challenge As Byte(), poolPublicKey As PublicKey, poolContractPuzzleHash As Byte(), plotPublicKey As PublicKey, versionAndSize As Byte, proof As Byte())
+  overload: ChiaWalletSdk.ProofOfSpace.#ctor*
+  nameWithType.vb: ProofOfSpace.New(Byte(), PublicKey, Byte(), PublicKey, Byte, Byte())
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.New(Byte(), ChiaWalletSdk.PublicKey, Byte(), ChiaWalletSdk.PublicKey, Byte, Byte())
+  name.vb: New(Byte(), PublicKey, Byte(), PublicKey, Byte, Byte())
+- uid: ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: ProofOfSpace.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr*
+- uid: ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: ProofOfSpace.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr*
+- uid: ChiaWalletSdk.ProofOfSpace.Destroy
+  commentId: M:ChiaWalletSdk.ProofOfSpace.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: ProofOfSpace.Destroy()
+  fullName: ChiaWalletSdk.ProofOfSpace.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.ProofOfSpace.Destroy*
+- uid: ChiaWalletSdk.ProofOfSpace.Dispose
+  commentId: M:ChiaWalletSdk.ProofOfSpace.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ProofOfSpace.Dispose()
+  fullName: ChiaWalletSdk.ProofOfSpace.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.ProofOfSpace.Dispose*
+- uid: ChiaWalletSdk.ProofOfSpace.GetChallenge
+  commentId: M:ChiaWalletSdk.ProofOfSpace.GetChallenge
+  id: GetChallenge
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: GetChallenge()
+  nameWithType: ProofOfSpace.GetChallenge()
+  fullName: ChiaWalletSdk.ProofOfSpace.GetChallenge()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetChallenge()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetChallenge() As Byte()
+  overload: ChiaWalletSdk.ProofOfSpace.GetChallenge*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.GetChallenge
+- uid: ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey
+  commentId: M:ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey
+  id: GetPlotPublicKey
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: GetPlotPublicKey()
+  nameWithType: ProofOfSpace.GetPlotPublicKey()
+  fullName: ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PublicKey GetPlotPublicKey()
+    return:
+      type: ChiaWalletSdk.PublicKey
+    content.vb: Public Function GetPlotPublicKey() As PublicKey
+  overload: ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.GetPlotPublicKey
+- uid: ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash
+  commentId: M:ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash
+  id: GetPoolContractPuzzleHash
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: GetPoolContractPuzzleHash()
+  nameWithType: ProofOfSpace.GetPoolContractPuzzleHash()
+  fullName: ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetPoolContractPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPoolContractPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.GetPoolContractPuzzleHash
+- uid: ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey
+  commentId: M:ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey
+  id: GetPoolPublicKey
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: GetPoolPublicKey()
+  nameWithType: ProofOfSpace.GetPoolPublicKey()
+  fullName: ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PublicKey? GetPoolPublicKey()
+    return:
+      type: ChiaWalletSdk.PublicKey
+    content.vb: Public Function GetPoolPublicKey() As PublicKey
+  overload: ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.GetPoolPublicKey
+- uid: ChiaWalletSdk.ProofOfSpace.GetProof
+  commentId: M:ChiaWalletSdk.ProofOfSpace.GetProof
+  id: GetProof
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: GetProof()
+  nameWithType: ProofOfSpace.GetProof()
+  fullName: ChiaWalletSdk.ProofOfSpace.GetProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetProof()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetProof() As Byte()
+  overload: ChiaWalletSdk.ProofOfSpace.GetProof*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.GetProof
+- uid: ChiaWalletSdk.ProofOfSpace.GetVersionAndSize
+  commentId: M:ChiaWalletSdk.ProofOfSpace.GetVersionAndSize
+  id: GetVersionAndSize
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: GetVersionAndSize()
+  nameWithType: ProofOfSpace.GetVersionAndSize()
+  fullName: ChiaWalletSdk.ProofOfSpace.GetVersionAndSize()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte GetVersionAndSize()
+    return:
+      type: System.Byte
+    content.vb: Public Function GetVersionAndSize() As Byte
+  overload: ChiaWalletSdk.ProofOfSpace.GetVersionAndSize*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.GetVersionAndSize
+- uid: ChiaWalletSdk.ProofOfSpace.SetChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.ProofOfSpace.SetChallenge(System.Byte[])
+  id: SetChallenge(System.Byte[])
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: SetChallenge(byte[])
+  nameWithType: ProofOfSpace.SetChallenge(byte[])
+  fullName: ChiaWalletSdk.ProofOfSpace.SetChallenge(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace SetChallenge(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function SetChallenge(value As Byte()) As ProofOfSpace
+  overload: ChiaWalletSdk.ProofOfSpace.SetChallenge*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.SetChallenge(System.Byte[])
+  nameWithType.vb: ProofOfSpace.SetChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.SetChallenge(Byte())
+  name.vb: SetChallenge(Byte())
+- uid: ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  id: SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: SetPlotPublicKey(PublicKey)
+  nameWithType: ProofOfSpace.SetPlotPublicKey(PublicKey)
+  fullName: ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace SetPlotPublicKey(PublicKey value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.PublicKey
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function SetPlotPublicKey(value As PublicKey) As ProofOfSpace
+  overload: ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+- uid: ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+  id: SetPoolContractPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: SetPoolContractPuzzleHash(byte[]?)
+  nameWithType: ProofOfSpace.SetPoolContractPuzzleHash(byte[]?)
+  fullName: ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace SetPoolContractPuzzleHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function SetPoolContractPuzzleHash(value As Byte()) As ProofOfSpace
+  overload: ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+  nameWithType.vb: ProofOfSpace.SetPoolContractPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash(Byte())
+  name.vb: SetPoolContractPuzzleHash(Byte())
+- uid: ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  id: SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: SetPoolPublicKey(PublicKey?)
+  nameWithType: ProofOfSpace.SetPoolPublicKey(PublicKey?)
+  fullName: ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace SetPoolPublicKey(PublicKey? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.PublicKey
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function SetPoolPublicKey(value As PublicKey) As ProofOfSpace
+  overload: ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  nameWithType.vb: ProofOfSpace.SetPoolPublicKey(PublicKey)
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  name.vb: SetPoolPublicKey(PublicKey)
+- uid: ChiaWalletSdk.ProofOfSpace.SetProof(System.Byte[])
+  commentId: M:ChiaWalletSdk.ProofOfSpace.SetProof(System.Byte[])
+  id: SetProof(System.Byte[])
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: SetProof(byte[])
+  nameWithType: ProofOfSpace.SetProof(byte[])
+  fullName: ChiaWalletSdk.ProofOfSpace.SetProof(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace SetProof(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function SetProof(value As Byte()) As ProofOfSpace
+  overload: ChiaWalletSdk.ProofOfSpace.SetProof*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.SetProof(System.Byte[])
+  nameWithType.vb: ProofOfSpace.SetProof(Byte())
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.SetProof(Byte())
+  name.vb: SetProof(Byte())
+- uid: ChiaWalletSdk.ProofOfSpace.SetVersionAndSize(System.Byte)
+  commentId: M:ChiaWalletSdk.ProofOfSpace.SetVersionAndSize(System.Byte)
+  id: SetVersionAndSize(System.Byte)
+  parent: ChiaWalletSdk.ProofOfSpace
+  langs:
+  - csharp
+  - vb
+  name: SetVersionAndSize(byte)
+  nameWithType: ProofOfSpace.SetVersionAndSize(byte)
+  fullName: ChiaWalletSdk.ProofOfSpace.SetVersionAndSize(byte)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ProofOfSpace SetVersionAndSize(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: ChiaWalletSdk.ProofOfSpace
+    content.vb: Public Function SetVersionAndSize(value As Byte) As ProofOfSpace
+  overload: ChiaWalletSdk.ProofOfSpace.SetVersionAndSize*
+  implements:
+  - ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(System.Byte)
+  nameWithType.vb: ProofOfSpace.SetVersionAndSize(Byte)
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.SetVersionAndSize(Byte)
+  name.vb: SetVersionAndSize(Byte)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IProofOfSpace
+  commentId: T:ChiaWalletSdk.IProofOfSpace
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html
+  name: IProofOfSpace
+  nameWithType: IProofOfSpace
+  fullName: ChiaWalletSdk.IProofOfSpace
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.ProofOfSpace.#ctor*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace__ctor_System_IntPtr_
+  name: ProofOfSpace
+  nameWithType: ProofOfSpace.ProofOfSpace
+  fullName: ChiaWalletSdk.ProofOfSpace.ProofOfSpace
+  nameWithType.vb: ProofOfSpace.New
+  fullName.vb: ChiaWalletSdk.ProofOfSpace.New
+  name.vb: New
+- uid: ChiaWalletSdk.ProofOfSpace.Finalize*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_Finalize
+  name: ~ProofOfSpace
+  nameWithType: ProofOfSpace.~ProofOfSpace
+  fullName: ChiaWalletSdk.ProofOfSpace.~ProofOfSpace
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.ProofOfSpace.Finalize*
+    name: ProofOfSpace
+    isExternal: true
+    href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PublicKey
+  commentId: T:ChiaWalletSdk.PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PublicKey.html
+  name: PublicKey
+  nameWithType: PublicKey
+  fullName: ChiaWalletSdk.PublicKey
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: ProofOfSpace.FreeRustArcPtr
+  fullName: ChiaWalletSdk.ProofOfSpace.FreeRustArcPtr
+- uid: ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: ProofOfSpace.CloneRustArcPtr
+  fullName: ChiaWalletSdk.ProofOfSpace.CloneRustArcPtr
+- uid: ChiaWalletSdk.ProofOfSpace.Destroy*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_Destroy
+  name: Destroy
+  nameWithType: ProofOfSpace.Destroy
+  fullName: ChiaWalletSdk.ProofOfSpace.Destroy
+- uid: ChiaWalletSdk.ProofOfSpace.Dispose*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_Dispose
+  name: Dispose
+  nameWithType: ProofOfSpace.Dispose
+  fullName: ChiaWalletSdk.ProofOfSpace.Dispose
+- uid: ChiaWalletSdk.ProofOfSpace.GetChallenge*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.GetChallenge
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_GetChallenge
+  name: GetChallenge
+  nameWithType: ProofOfSpace.GetChallenge
+  fullName: ChiaWalletSdk.ProofOfSpace.GetChallenge
+- uid: ChiaWalletSdk.IProofOfSpace.GetChallenge
+  commentId: M:ChiaWalletSdk.IProofOfSpace.GetChallenge
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetChallenge
+  name: GetChallenge()
+  nameWithType: IProofOfSpace.GetChallenge()
+  fullName: ChiaWalletSdk.IProofOfSpace.GetChallenge()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetChallenge
+    name: GetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetChallenge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetChallenge
+    name: GetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetChallenge
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_GetPlotPublicKey
+  name: GetPlotPublicKey
+  nameWithType: ProofOfSpace.GetPlotPublicKey
+  fullName: ChiaWalletSdk.ProofOfSpace.GetPlotPublicKey
+- uid: ChiaWalletSdk.IProofOfSpace.GetPlotPublicKey
+  commentId: M:ChiaWalletSdk.IProofOfSpace.GetPlotPublicKey
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPlotPublicKey
+  name: GetPlotPublicKey()
+  nameWithType: IProofOfSpace.GetPlotPublicKey()
+  fullName: ChiaWalletSdk.IProofOfSpace.GetPlotPublicKey()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetPlotPublicKey
+    name: GetPlotPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPlotPublicKey
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetPlotPublicKey
+    name: GetPlotPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPlotPublicKey
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_GetPoolContractPuzzleHash
+  name: GetPoolContractPuzzleHash
+  nameWithType: ProofOfSpace.GetPoolContractPuzzleHash
+  fullName: ChiaWalletSdk.ProofOfSpace.GetPoolContractPuzzleHash
+- uid: ChiaWalletSdk.IProofOfSpace.GetPoolContractPuzzleHash
+  commentId: M:ChiaWalletSdk.IProofOfSpace.GetPoolContractPuzzleHash
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPoolContractPuzzleHash
+  name: GetPoolContractPuzzleHash()
+  nameWithType: IProofOfSpace.GetPoolContractPuzzleHash()
+  fullName: ChiaWalletSdk.IProofOfSpace.GetPoolContractPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetPoolContractPuzzleHash
+    name: GetPoolContractPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPoolContractPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetPoolContractPuzzleHash
+    name: GetPoolContractPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPoolContractPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_GetPoolPublicKey
+  name: GetPoolPublicKey
+  nameWithType: ProofOfSpace.GetPoolPublicKey
+  fullName: ChiaWalletSdk.ProofOfSpace.GetPoolPublicKey
+- uid: ChiaWalletSdk.IProofOfSpace.GetPoolPublicKey
+  commentId: M:ChiaWalletSdk.IProofOfSpace.GetPoolPublicKey
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPoolPublicKey
+  name: GetPoolPublicKey()
+  nameWithType: IProofOfSpace.GetPoolPublicKey()
+  fullName: ChiaWalletSdk.IProofOfSpace.GetPoolPublicKey()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetPoolPublicKey
+    name: GetPoolPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPoolPublicKey
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetPoolPublicKey
+    name: GetPoolPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetPoolPublicKey
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.GetProof*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.GetProof
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_GetProof
+  name: GetProof
+  nameWithType: ProofOfSpace.GetProof
+  fullName: ChiaWalletSdk.ProofOfSpace.GetProof
+- uid: ChiaWalletSdk.IProofOfSpace.GetProof
+  commentId: M:ChiaWalletSdk.IProofOfSpace.GetProof
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetProof
+  name: GetProof()
+  nameWithType: IProofOfSpace.GetProof()
+  fullName: ChiaWalletSdk.IProofOfSpace.GetProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetProof
+    name: GetProof
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetProof
+    name: GetProof
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.GetVersionAndSize*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.GetVersionAndSize
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_GetVersionAndSize
+  name: GetVersionAndSize
+  nameWithType: ProofOfSpace.GetVersionAndSize
+  fullName: ChiaWalletSdk.ProofOfSpace.GetVersionAndSize
+- uid: ChiaWalletSdk.IProofOfSpace.GetVersionAndSize
+  commentId: M:ChiaWalletSdk.IProofOfSpace.GetVersionAndSize
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetVersionAndSize
+  name: GetVersionAndSize()
+  nameWithType: IProofOfSpace.GetVersionAndSize()
+  fullName: ChiaWalletSdk.IProofOfSpace.GetVersionAndSize()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetVersionAndSize
+    name: GetVersionAndSize
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetVersionAndSize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.GetVersionAndSize
+    name: GetVersionAndSize
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_GetVersionAndSize
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.SetChallenge*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.SetChallenge
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_SetChallenge_System_Byte___
+  name: SetChallenge
+  nameWithType: ProofOfSpace.SetChallenge
+  fullName: ChiaWalletSdk.ProofOfSpace.SetChallenge
+- uid: ChiaWalletSdk.IProofOfSpace.SetChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.IProofOfSpace.SetChallenge(System.Byte[])
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetChallenge_System_Byte___
+  name: SetChallenge(byte[])
+  nameWithType: IProofOfSpace.SetChallenge(byte[])
+  fullName: ChiaWalletSdk.IProofOfSpace.SetChallenge(byte[])
+  nameWithType.vb: IProofOfSpace.SetChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.IProofOfSpace.SetChallenge(Byte())
+  name.vb: SetChallenge(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetChallenge(System.Byte[])
+    name: SetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetChallenge(System.Byte[])
+    name: SetChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace
+  commentId: T:ChiaWalletSdk.ProofOfSpace
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html
+  name: ProofOfSpace
+  nameWithType: ProofOfSpace
+  fullName: ChiaWalletSdk.ProofOfSpace
+- uid: ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_SetPlotPublicKey_ChiaWalletSdk_PublicKey_
+  name: SetPlotPublicKey
+  nameWithType: ProofOfSpace.SetPlotPublicKey
+  fullName: ChiaWalletSdk.ProofOfSpace.SetPlotPublicKey
+- uid: ChiaWalletSdk.IProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.IProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPlotPublicKey_ChiaWalletSdk_PublicKey_
+  name: SetPlotPublicKey(PublicKey)
+  nameWithType: IProofOfSpace.SetPlotPublicKey(PublicKey)
+  fullName: ChiaWalletSdk.IProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+    name: SetPlotPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPlotPublicKey_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetPlotPublicKey(ChiaWalletSdk.PublicKey)
+    name: SetPlotPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPlotPublicKey_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_SetPoolContractPuzzleHash_System_Byte___
+  name: SetPoolContractPuzzleHash
+  nameWithType: ProofOfSpace.SetPoolContractPuzzleHash
+  fullName: ChiaWalletSdk.ProofOfSpace.SetPoolContractPuzzleHash
+- uid: ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPoolContractPuzzleHash_System_Byte___
+  name: SetPoolContractPuzzleHash(byte[])
+  nameWithType: IProofOfSpace.SetPoolContractPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(byte[])
+  nameWithType.vb: IProofOfSpace.SetPoolContractPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(Byte())
+  name.vb: SetPoolContractPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+    name: SetPoolContractPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPoolContractPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetPoolContractPuzzleHash(System.Byte[])
+    name: SetPoolContractPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPoolContractPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_SetPoolPublicKey_ChiaWalletSdk_PublicKey_
+  name: SetPoolPublicKey
+  nameWithType: ProofOfSpace.SetPoolPublicKey
+  fullName: ChiaWalletSdk.ProofOfSpace.SetPoolPublicKey
+- uid: ChiaWalletSdk.IProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.IProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPoolPublicKey_ChiaWalletSdk_PublicKey_
+  name: SetPoolPublicKey(PublicKey)
+  nameWithType: IProofOfSpace.SetPoolPublicKey(PublicKey)
+  fullName: ChiaWalletSdk.IProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+    name: SetPoolPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPoolPublicKey_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetPoolPublicKey(ChiaWalletSdk.PublicKey)
+    name: SetPoolPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetPoolPublicKey_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.SetProof*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.SetProof
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_SetProof_System_Byte___
+  name: SetProof
+  nameWithType: ProofOfSpace.SetProof
+  fullName: ChiaWalletSdk.ProofOfSpace.SetProof
+- uid: ChiaWalletSdk.IProofOfSpace.SetProof(System.Byte[])
+  commentId: M:ChiaWalletSdk.IProofOfSpace.SetProof(System.Byte[])
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetProof_System_Byte___
+  name: SetProof(byte[])
+  nameWithType: IProofOfSpace.SetProof(byte[])
+  fullName: ChiaWalletSdk.IProofOfSpace.SetProof(byte[])
+  nameWithType.vb: IProofOfSpace.SetProof(Byte())
+  fullName.vb: ChiaWalletSdk.IProofOfSpace.SetProof(Byte())
+  name.vb: SetProof(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetProof(System.Byte[])
+    name: SetProof
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetProof_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetProof(System.Byte[])
+    name: SetProof
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetProof_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.ProofOfSpace.SetVersionAndSize*
+  commentId: Overload:ChiaWalletSdk.ProofOfSpace.SetVersionAndSize
+  isExternal: true
+  href: ChiaWalletSdk.ProofOfSpace.html#ChiaWalletSdk_ProofOfSpace_SetVersionAndSize_System_Byte_
+  name: SetVersionAndSize
+  nameWithType: ProofOfSpace.SetVersionAndSize
+  fullName: ChiaWalletSdk.ProofOfSpace.SetVersionAndSize
+- uid: ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(System.Byte)
+  commentId: M:ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(System.Byte)
+  parent: ChiaWalletSdk.IProofOfSpace
+  isExternal: true
+  href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetVersionAndSize_System_Byte_
+  name: SetVersionAndSize(byte)
+  nameWithType: IProofOfSpace.SetVersionAndSize(byte)
+  fullName: ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(byte)
+  nameWithType.vb: IProofOfSpace.SetVersionAndSize(Byte)
+  fullName.vb: ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(Byte)
+  name.vb: SetVersionAndSize(Byte)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(System.Byte)
+    name: SetVersionAndSize
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetVersionAndSize_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProofOfSpace.SetVersionAndSize(System.Byte)
+    name: SetVersionAndSize
+    isExternal: true
+    href: ChiaWalletSdk.IProofOfSpace.html#ChiaWalletSdk_IProofOfSpace_SetVersionAndSize_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )

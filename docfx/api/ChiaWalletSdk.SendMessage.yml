@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.SendMessage
+  commentId: T:ChiaWalletSdk.SendMessage
+  id: SendMessage
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.SendMessage.#ctor(System.Byte,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Program})
+  - ChiaWalletSdk.SendMessage.#ctor(System.IntPtr)
+  - ChiaWalletSdk.SendMessage.CloneRustArcPtr
+  - ChiaWalletSdk.SendMessage.Destroy
+  - ChiaWalletSdk.SendMessage.Dispose
+  - ChiaWalletSdk.SendMessage.Finalize
+  - ChiaWalletSdk.SendMessage.FreeRustArcPtr
+  - ChiaWalletSdk.SendMessage.GetData
+  - ChiaWalletSdk.SendMessage.GetMessage
+  - ChiaWalletSdk.SendMessage.GetMode
+  - ChiaWalletSdk.SendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  - ChiaWalletSdk.SendMessage.SetMessage(System.Byte[])
+  - ChiaWalletSdk.SendMessage.SetMode(System.Byte)
+  - ChiaWalletSdk.SendMessage.pointer
+  langs:
+  - csharp
+  - vb
+  name: SendMessage
+  nameWithType: SendMessage
+  fullName: ChiaWalletSdk.SendMessage
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class SendMessage : ISendMessage'
+    content.vb: Public Class SendMessage Implements ISendMessage
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ISendMessage
+- uid: ChiaWalletSdk.SendMessage.pointer
+  commentId: F:ChiaWalletSdk.SendMessage.pointer
+  id: pointer
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: SendMessage.pointer
+  fullName: ChiaWalletSdk.SendMessage.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.SendMessage.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.SendMessage.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(nint)
+  nameWithType: SendMessage.SendMessage(nint)
+  fullName: ChiaWalletSdk.SendMessage.SendMessage(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SendMessage(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.SendMessage.#ctor*
+  nameWithType.vb: SendMessage.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.SendMessage.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.SendMessage.Finalize
+  commentId: M:ChiaWalletSdk.SendMessage.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: ~SendMessage()
+  nameWithType: SendMessage.~SendMessage()
+  fullName: ChiaWalletSdk.SendMessage.~SendMessage()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~SendMessage()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.SendMessage.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.SendMessage.#ctor(System.Byte,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Program})
+  commentId: M:ChiaWalletSdk.SendMessage.#ctor(System.Byte,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Program})
+  id: '#ctor(System.Byte,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Program})'
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(byte, byte[], List<Program>)
+  nameWithType: SendMessage.SendMessage(byte, byte[], List<Program>)
+  fullName: ChiaWalletSdk.SendMessage.SendMessage(byte, byte[], System.Collections.Generic.List<ChiaWalletSdk.Program>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SendMessage(byte mode, byte[] message, List<Program> data)
+    parameters:
+    - id: mode
+      type: System.Byte
+    - id: message
+      type: System.Byte[]
+    - id: data
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Public Sub New(mode As Byte, message As Byte(), data As List(Of Program))
+  overload: ChiaWalletSdk.SendMessage.#ctor*
+  nameWithType.vb: SendMessage.New(Byte, Byte(), List(Of Program))
+  fullName.vb: ChiaWalletSdk.SendMessage.New(Byte, Byte(), System.Collections.Generic.List(Of ChiaWalletSdk.Program))
+  name.vb: New(Byte, Byte(), List(Of Program))
+- uid: ChiaWalletSdk.SendMessage.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.SendMessage.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: SendMessage.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.SendMessage.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.SendMessage.FreeRustArcPtr*
+- uid: ChiaWalletSdk.SendMessage.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.SendMessage.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: SendMessage.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.SendMessage.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.SendMessage.CloneRustArcPtr*
+- uid: ChiaWalletSdk.SendMessage.Destroy
+  commentId: M:ChiaWalletSdk.SendMessage.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: SendMessage.Destroy()
+  fullName: ChiaWalletSdk.SendMessage.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.SendMessage.Destroy*
+- uid: ChiaWalletSdk.SendMessage.Dispose
+  commentId: M:ChiaWalletSdk.SendMessage.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SendMessage.Dispose()
+  fullName: ChiaWalletSdk.SendMessage.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.SendMessage.Dispose*
+- uid: ChiaWalletSdk.SendMessage.GetData
+  commentId: M:ChiaWalletSdk.SendMessage.GetData
+  id: GetData
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: SendMessage.GetData()
+  fullName: ChiaWalletSdk.SendMessage.GetData()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<Program> GetData()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Public Function GetData() As List(Of Program)
+  overload: ChiaWalletSdk.SendMessage.GetData*
+  implements:
+  - ChiaWalletSdk.ISendMessage.GetData
+- uid: ChiaWalletSdk.SendMessage.GetMessage
+  commentId: M:ChiaWalletSdk.SendMessage.GetMessage
+  id: GetMessage
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: GetMessage()
+  nameWithType: SendMessage.GetMessage()
+  fullName: ChiaWalletSdk.SendMessage.GetMessage()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetMessage()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetMessage() As Byte()
+  overload: ChiaWalletSdk.SendMessage.GetMessage*
+  implements:
+  - ChiaWalletSdk.ISendMessage.GetMessage
+- uid: ChiaWalletSdk.SendMessage.GetMode
+  commentId: M:ChiaWalletSdk.SendMessage.GetMode
+  id: GetMode
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: GetMode()
+  nameWithType: SendMessage.GetMode()
+  fullName: ChiaWalletSdk.SendMessage.GetMode()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte GetMode()
+    return:
+      type: System.Byte
+    content.vb: Public Function GetMode() As Byte
+  overload: ChiaWalletSdk.SendMessage.GetMode*
+  implements:
+  - ChiaWalletSdk.ISendMessage.GetMode
+- uid: ChiaWalletSdk.SendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  commentId: M:ChiaWalletSdk.SendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  id: SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: SetData(List<Program>)
+  nameWithType: SendMessage.SetData(List<Program>)
+  fullName: ChiaWalletSdk.SendMessage.SetData(System.Collections.Generic.List<ChiaWalletSdk.Program>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SendMessage SetData(List<Program> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    return:
+      type: ChiaWalletSdk.SendMessage
+    content.vb: Public Function SetData(value As List(Of Program)) As SendMessage
+  overload: ChiaWalletSdk.SendMessage.SetData*
+  implements:
+  - ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  nameWithType.vb: SendMessage.SetData(List(Of Program))
+  fullName.vb: ChiaWalletSdk.SendMessage.SetData(System.Collections.Generic.List(Of ChiaWalletSdk.Program))
+  name.vb: SetData(List(Of Program))
+- uid: ChiaWalletSdk.SendMessage.SetMessage(System.Byte[])
+  commentId: M:ChiaWalletSdk.SendMessage.SetMessage(System.Byte[])
+  id: SetMessage(System.Byte[])
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: SetMessage(byte[])
+  nameWithType: SendMessage.SetMessage(byte[])
+  fullName: ChiaWalletSdk.SendMessage.SetMessage(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SendMessage SetMessage(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.SendMessage
+    content.vb: Public Function SetMessage(value As Byte()) As SendMessage
+  overload: ChiaWalletSdk.SendMessage.SetMessage*
+  implements:
+  - ChiaWalletSdk.ISendMessage.SetMessage(System.Byte[])
+  nameWithType.vb: SendMessage.SetMessage(Byte())
+  fullName.vb: ChiaWalletSdk.SendMessage.SetMessage(Byte())
+  name.vb: SetMessage(Byte())
+- uid: ChiaWalletSdk.SendMessage.SetMode(System.Byte)
+  commentId: M:ChiaWalletSdk.SendMessage.SetMode(System.Byte)
+  id: SetMode(System.Byte)
+  parent: ChiaWalletSdk.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: SetMode(byte)
+  nameWithType: SendMessage.SetMode(byte)
+  fullName: ChiaWalletSdk.SendMessage.SetMode(byte)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SendMessage SetMode(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: ChiaWalletSdk.SendMessage
+    content.vb: Public Function SetMode(value As Byte) As SendMessage
+  overload: ChiaWalletSdk.SendMessage.SetMode*
+  implements:
+  - ChiaWalletSdk.ISendMessage.SetMode(System.Byte)
+  nameWithType.vb: SendMessage.SetMode(Byte)
+  fullName.vb: ChiaWalletSdk.SendMessage.SetMode(Byte)
+  name.vb: SetMode(Byte)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ISendMessage
+  commentId: T:ChiaWalletSdk.ISendMessage
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html
+  name: ISendMessage
+  nameWithType: ISendMessage
+  fullName: ChiaWalletSdk.ISendMessage
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.SendMessage.#ctor*
+  commentId: Overload:ChiaWalletSdk.SendMessage.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage__ctor_System_IntPtr_
+  name: SendMessage
+  nameWithType: SendMessage.SendMessage
+  fullName: ChiaWalletSdk.SendMessage.SendMessage
+  nameWithType.vb: SendMessage.New
+  fullName.vb: ChiaWalletSdk.SendMessage.New
+  name.vb: New
+- uid: ChiaWalletSdk.SendMessage.Finalize*
+  commentId: Overload:ChiaWalletSdk.SendMessage.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_Finalize
+  name: ~SendMessage
+  nameWithType: SendMessage.~SendMessage
+  fullName: ChiaWalletSdk.SendMessage.~SendMessage
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.SendMessage.Finalize*
+    name: SendMessage
+    isExternal: true
+    href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_Finalize
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Program}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Program}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Program.html
+  name: List<Program>
+  nameWithType: List<Program>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Program>
+  nameWithType.vb: List(Of Program)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Program)
+  name.vb: List(Of Program)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.SendMessage.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SendMessage.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: SendMessage.FreeRustArcPtr
+  fullName: ChiaWalletSdk.SendMessage.FreeRustArcPtr
+- uid: ChiaWalletSdk.SendMessage.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SendMessage.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: SendMessage.CloneRustArcPtr
+  fullName: ChiaWalletSdk.SendMessage.CloneRustArcPtr
+- uid: ChiaWalletSdk.SendMessage.Destroy*
+  commentId: Overload:ChiaWalletSdk.SendMessage.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_Destroy
+  name: Destroy
+  nameWithType: SendMessage.Destroy
+  fullName: ChiaWalletSdk.SendMessage.Destroy
+- uid: ChiaWalletSdk.SendMessage.Dispose*
+  commentId: Overload:ChiaWalletSdk.SendMessage.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_Dispose
+  name: Dispose
+  nameWithType: SendMessage.Dispose
+  fullName: ChiaWalletSdk.SendMessage.Dispose
+- uid: ChiaWalletSdk.SendMessage.GetData*
+  commentId: Overload:ChiaWalletSdk.SendMessage.GetData
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_GetData
+  name: GetData
+  nameWithType: SendMessage.GetData
+  fullName: ChiaWalletSdk.SendMessage.GetData
+- uid: ChiaWalletSdk.ISendMessage.GetData
+  commentId: M:ChiaWalletSdk.ISendMessage.GetData
+  parent: ChiaWalletSdk.ISendMessage
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetData
+  name: GetData()
+  nameWithType: ISendMessage.GetData()
+  fullName: ChiaWalletSdk.ISendMessage.GetData()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISendMessage.GetData
+    name: GetData
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISendMessage.GetData
+    name: GetData
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetData
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SendMessage.GetMessage*
+  commentId: Overload:ChiaWalletSdk.SendMessage.GetMessage
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_GetMessage
+  name: GetMessage
+  nameWithType: SendMessage.GetMessage
+  fullName: ChiaWalletSdk.SendMessage.GetMessage
+- uid: ChiaWalletSdk.ISendMessage.GetMessage
+  commentId: M:ChiaWalletSdk.ISendMessage.GetMessage
+  parent: ChiaWalletSdk.ISendMessage
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetMessage
+  name: GetMessage()
+  nameWithType: ISendMessage.GetMessage()
+  fullName: ChiaWalletSdk.ISendMessage.GetMessage()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISendMessage.GetMessage
+    name: GetMessage
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetMessage
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISendMessage.GetMessage
+    name: GetMessage
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetMessage
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SendMessage.GetMode*
+  commentId: Overload:ChiaWalletSdk.SendMessage.GetMode
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_GetMode
+  name: GetMode
+  nameWithType: SendMessage.GetMode
+  fullName: ChiaWalletSdk.SendMessage.GetMode
+- uid: ChiaWalletSdk.ISendMessage.GetMode
+  commentId: M:ChiaWalletSdk.ISendMessage.GetMode
+  parent: ChiaWalletSdk.ISendMessage
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetMode
+  name: GetMode()
+  nameWithType: ISendMessage.GetMode()
+  fullName: ChiaWalletSdk.ISendMessage.GetMode()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISendMessage.GetMode
+    name: GetMode
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetMode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISendMessage.GetMode
+    name: GetMode
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_GetMode
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SendMessage.SetData*
+  commentId: Overload:ChiaWalletSdk.SendMessage.SetData
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_SetData_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  name: SetData
+  nameWithType: SendMessage.SetData
+  fullName: ChiaWalletSdk.SendMessage.SetData
+- uid: ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  commentId: M:ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  parent: ChiaWalletSdk.ISendMessage
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetData_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  name: SetData(List<Program>)
+  nameWithType: ISendMessage.SetData(List<Program>)
+  fullName: ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List<ChiaWalletSdk.Program>)
+  nameWithType.vb: ISendMessage.SetData(List(Of Program))
+  fullName.vb: ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List(Of ChiaWalletSdk.Program))
+  name.vb: SetData(List(Of Program))
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+    name: SetData
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetData_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISendMessage.SetData(System.Collections.Generic.List{ChiaWalletSdk.Program})
+    name: SetData
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetData_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.SendMessage
+  commentId: T:ChiaWalletSdk.SendMessage
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html
+  name: SendMessage
+  nameWithType: SendMessage
+  fullName: ChiaWalletSdk.SendMessage
+- uid: ChiaWalletSdk.SendMessage.SetMessage*
+  commentId: Overload:ChiaWalletSdk.SendMessage.SetMessage
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_SetMessage_System_Byte___
+  name: SetMessage
+  nameWithType: SendMessage.SetMessage
+  fullName: ChiaWalletSdk.SendMessage.SetMessage
+- uid: ChiaWalletSdk.ISendMessage.SetMessage(System.Byte[])
+  commentId: M:ChiaWalletSdk.ISendMessage.SetMessage(System.Byte[])
+  parent: ChiaWalletSdk.ISendMessage
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetMessage_System_Byte___
+  name: SetMessage(byte[])
+  nameWithType: ISendMessage.SetMessage(byte[])
+  fullName: ChiaWalletSdk.ISendMessage.SetMessage(byte[])
+  nameWithType.vb: ISendMessage.SetMessage(Byte())
+  fullName.vb: ChiaWalletSdk.ISendMessage.SetMessage(Byte())
+  name.vb: SetMessage(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISendMessage.SetMessage(System.Byte[])
+    name: SetMessage
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetMessage_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISendMessage.SetMessage(System.Byte[])
+    name: SetMessage
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetMessage_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.SendMessage.SetMode*
+  commentId: Overload:ChiaWalletSdk.SendMessage.SetMode
+  isExternal: true
+  href: ChiaWalletSdk.SendMessage.html#ChiaWalletSdk_SendMessage_SetMode_System_Byte_
+  name: SetMode
+  nameWithType: SendMessage.SetMode
+  fullName: ChiaWalletSdk.SendMessage.SetMode
+- uid: ChiaWalletSdk.ISendMessage.SetMode(System.Byte)
+  commentId: M:ChiaWalletSdk.ISendMessage.SetMode(System.Byte)
+  parent: ChiaWalletSdk.ISendMessage
+  isExternal: true
+  href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetMode_System_Byte_
+  name: SetMode(byte)
+  nameWithType: ISendMessage.SetMode(byte)
+  fullName: ChiaWalletSdk.ISendMessage.SetMode(byte)
+  nameWithType.vb: ISendMessage.SetMode(Byte)
+  fullName.vb: ChiaWalletSdk.ISendMessage.SetMode(Byte)
+  name.vb: SetMode(Byte)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISendMessage.SetMode(System.Byte)
+    name: SetMode
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetMode_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISendMessage.SetMode(System.Byte)
+    name: SetMode
+    isExternal: true
+    href: ChiaWalletSdk.ISendMessage.html#ChiaWalletSdk_ISendMessage_SetMode_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )

@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.BlockchainStateResponse
+  commentId: T:ChiaWalletSdk.BlockchainStateResponse
+  id: BlockchainStateResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.BlockchainStateResponse.#ctor(ChiaWalletSdk.BlockchainState,System.String,System.Boolean)
+  - ChiaWalletSdk.BlockchainStateResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr
+  - ChiaWalletSdk.BlockchainStateResponse.Destroy
+  - ChiaWalletSdk.BlockchainStateResponse.Dispose
+  - ChiaWalletSdk.BlockchainStateResponse.Finalize
+  - ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr
+  - ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState
+  - ChiaWalletSdk.BlockchainStateResponse.GetError
+  - ChiaWalletSdk.BlockchainStateResponse.GetSuccess
+  - ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  - ChiaWalletSdk.BlockchainStateResponse.SetError(System.String)
+  - ChiaWalletSdk.BlockchainStateResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.BlockchainStateResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: BlockchainStateResponse
+  nameWithType: BlockchainStateResponse
+  fullName: ChiaWalletSdk.BlockchainStateResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class BlockchainStateResponse : IBlockchainStateResponse'
+    content.vb: Public Class BlockchainStateResponse Implements IBlockchainStateResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse
+- uid: ChiaWalletSdk.BlockchainStateResponse.pointer
+  commentId: F:ChiaWalletSdk.BlockchainStateResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: BlockchainStateResponse.pointer
+  fullName: ChiaWalletSdk.BlockchainStateResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.BlockchainStateResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: BlockchainStateResponse(nint)
+  nameWithType: BlockchainStateResponse.BlockchainStateResponse(nint)
+  fullName: ChiaWalletSdk.BlockchainStateResponse.BlockchainStateResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public BlockchainStateResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.BlockchainStateResponse.#ctor*
+  nameWithType.vb: BlockchainStateResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.BlockchainStateResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.BlockchainStateResponse.Finalize
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: ~BlockchainStateResponse()
+  nameWithType: BlockchainStateResponse.~BlockchainStateResponse()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.~BlockchainStateResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~BlockchainStateResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.BlockchainStateResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.BlockchainStateResponse.#ctor(ChiaWalletSdk.BlockchainState,System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.#ctor(ChiaWalletSdk.BlockchainState,System.String,System.Boolean)
+  id: '#ctor(ChiaWalletSdk.BlockchainState,System.String,System.Boolean)'
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: BlockchainStateResponse(BlockchainState?, string?, bool)
+  nameWithType: BlockchainStateResponse.BlockchainStateResponse(BlockchainState?, string?, bool)
+  fullName: ChiaWalletSdk.BlockchainStateResponse.BlockchainStateResponse(ChiaWalletSdk.BlockchainState?, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public BlockchainStateResponse(BlockchainState? blockchainState, string? error, bool success)
+    parameters:
+    - id: blockchainState
+      type: ChiaWalletSdk.BlockchainState
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(blockchainState As BlockchainState, [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.BlockchainStateResponse.#ctor*
+  nameWithType.vb: BlockchainStateResponse.New(BlockchainState, String, Boolean)
+  fullName.vb: ChiaWalletSdk.BlockchainStateResponse.New(ChiaWalletSdk.BlockchainState, String, Boolean)
+  name.vb: New(BlockchainState, String, Boolean)
+- uid: ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: BlockchainStateResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: BlockchainStateResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.BlockchainStateResponse.Destroy
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: BlockchainStateResponse.Destroy()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.BlockchainStateResponse.Destroy*
+- uid: ChiaWalletSdk.BlockchainStateResponse.Dispose
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: BlockchainStateResponse.Dispose()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.BlockchainStateResponse.Dispose*
+- uid: ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState
+  id: GetBlockchainState
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: GetBlockchainState()
+  nameWithType: BlockchainStateResponse.GetBlockchainState()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockchainState? GetBlockchainState()
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Public Function GetBlockchainState() As BlockchainState
+  overload: ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState*
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse.GetBlockchainState
+- uid: ChiaWalletSdk.BlockchainStateResponse.GetError
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: BlockchainStateResponse.GetError()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.BlockchainStateResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse.GetError
+- uid: ChiaWalletSdk.BlockchainStateResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: BlockchainStateResponse.GetSuccess()
+  fullName: ChiaWalletSdk.BlockchainStateResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.BlockchainStateResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse.GetSuccess
+- uid: ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  id: SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: SetBlockchainState(BlockchainState?)
+  nameWithType: BlockchainStateResponse.SetBlockchainState(BlockchainState?)
+  fullName: ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockchainStateResponse SetBlockchainState(BlockchainState? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.BlockchainState
+    return:
+      type: ChiaWalletSdk.BlockchainStateResponse
+    content.vb: Public Function SetBlockchainState(value As BlockchainState) As BlockchainStateResponse
+  overload: ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState*
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  nameWithType.vb: BlockchainStateResponse.SetBlockchainState(BlockchainState)
+  fullName.vb: ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  name.vb: SetBlockchainState(BlockchainState)
+- uid: ChiaWalletSdk.BlockchainStateResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: BlockchainStateResponse.SetError(string?)
+  fullName: ChiaWalletSdk.BlockchainStateResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockchainStateResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainStateResponse
+    content.vb: Public Function SetError(value As String) As BlockchainStateResponse
+  overload: ChiaWalletSdk.BlockchainStateResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse.SetError(System.String)
+  nameWithType.vb: BlockchainStateResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.BlockchainStateResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.BlockchainStateResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.BlockchainStateResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.BlockchainStateResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: BlockchainStateResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.BlockchainStateResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockchainStateResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.BlockchainStateResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As BlockchainStateResponse
+  overload: ChiaWalletSdk.BlockchainStateResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: BlockchainStateResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.BlockchainStateResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IBlockchainStateResponse
+  commentId: T:ChiaWalletSdk.IBlockchainStateResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html
+  name: IBlockchainStateResponse
+  nameWithType: IBlockchainStateResponse
+  fullName: ChiaWalletSdk.IBlockchainStateResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.BlockchainStateResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse__ctor_System_IntPtr_
+  name: BlockchainStateResponse
+  nameWithType: BlockchainStateResponse.BlockchainStateResponse
+  fullName: ChiaWalletSdk.BlockchainStateResponse.BlockchainStateResponse
+  nameWithType.vb: BlockchainStateResponse.New
+  fullName.vb: ChiaWalletSdk.BlockchainStateResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.BlockchainStateResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_Finalize
+  name: ~BlockchainStateResponse
+  nameWithType: BlockchainStateResponse.~BlockchainStateResponse
+  fullName: ChiaWalletSdk.BlockchainStateResponse.~BlockchainStateResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.BlockchainStateResponse.Finalize*
+    name: BlockchainStateResponse
+    isExternal: true
+    href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_Finalize
+- uid: ChiaWalletSdk.BlockchainState
+  commentId: T:ChiaWalletSdk.BlockchainState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainState.html
+  name: BlockchainState
+  nameWithType: BlockchainState
+  fullName: ChiaWalletSdk.BlockchainState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: BlockchainStateResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.BlockchainStateResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: BlockchainStateResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.BlockchainStateResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.BlockchainStateResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_Destroy
+  name: Destroy
+  nameWithType: BlockchainStateResponse.Destroy
+  fullName: ChiaWalletSdk.BlockchainStateResponse.Destroy
+- uid: ChiaWalletSdk.BlockchainStateResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_Dispose
+  name: Dispose
+  nameWithType: BlockchainStateResponse.Dispose
+  fullName: ChiaWalletSdk.BlockchainStateResponse.Dispose
+- uid: ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_GetBlockchainState
+  name: GetBlockchainState
+  nameWithType: BlockchainStateResponse.GetBlockchainState
+  fullName: ChiaWalletSdk.BlockchainStateResponse.GetBlockchainState
+- uid: ChiaWalletSdk.IBlockchainStateResponse.GetBlockchainState
+  commentId: M:ChiaWalletSdk.IBlockchainStateResponse.GetBlockchainState
+  parent: ChiaWalletSdk.IBlockchainStateResponse
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetBlockchainState
+  name: GetBlockchainState()
+  nameWithType: IBlockchainStateResponse.GetBlockchainState()
+  fullName: ChiaWalletSdk.IBlockchainStateResponse.GetBlockchainState()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.GetBlockchainState
+    name: GetBlockchainState
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetBlockchainState
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.GetBlockchainState
+    name: GetBlockchainState
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetBlockchainState
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockchainStateResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_GetError
+  name: GetError
+  nameWithType: BlockchainStateResponse.GetError
+  fullName: ChiaWalletSdk.BlockchainStateResponse.GetError
+- uid: ChiaWalletSdk.IBlockchainStateResponse.GetError
+  commentId: M:ChiaWalletSdk.IBlockchainStateResponse.GetError
+  parent: ChiaWalletSdk.IBlockchainStateResponse
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetError
+  name: GetError()
+  nameWithType: IBlockchainStateResponse.GetError()
+  fullName: ChiaWalletSdk.IBlockchainStateResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockchainStateResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: BlockchainStateResponse.GetSuccess
+  fullName: ChiaWalletSdk.BlockchainStateResponse.GetSuccess
+- uid: ChiaWalletSdk.IBlockchainStateResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IBlockchainStateResponse.GetSuccess
+  parent: ChiaWalletSdk.IBlockchainStateResponse
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IBlockchainStateResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IBlockchainStateResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_SetBlockchainState_ChiaWalletSdk_BlockchainState_
+  name: SetBlockchainState
+  nameWithType: BlockchainStateResponse.SetBlockchainState
+  fullName: ChiaWalletSdk.BlockchainStateResponse.SetBlockchainState
+- uid: ChiaWalletSdk.IBlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  commentId: M:ChiaWalletSdk.IBlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  parent: ChiaWalletSdk.IBlockchainStateResponse
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetBlockchainState_ChiaWalletSdk_BlockchainState_
+  name: SetBlockchainState(BlockchainState)
+  nameWithType: IBlockchainStateResponse.SetBlockchainState(BlockchainState)
+  fullName: ChiaWalletSdk.IBlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+    name: SetBlockchainState
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetBlockchainState_ChiaWalletSdk_BlockchainState_
+  - name: (
+  - uid: ChiaWalletSdk.BlockchainState
+    name: BlockchainState
+    isExternal: true
+    href: ChiaWalletSdk.BlockchainState.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.SetBlockchainState(ChiaWalletSdk.BlockchainState)
+    name: SetBlockchainState
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetBlockchainState_ChiaWalletSdk_BlockchainState_
+  - name: (
+  - uid: ChiaWalletSdk.BlockchainState
+    name: BlockchainState
+    isExternal: true
+    href: ChiaWalletSdk.BlockchainState.html
+  - name: )
+- uid: ChiaWalletSdk.BlockchainStateResponse
+  commentId: T:ChiaWalletSdk.BlockchainStateResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html
+  name: BlockchainStateResponse
+  nameWithType: BlockchainStateResponse
+  fullName: ChiaWalletSdk.BlockchainStateResponse
+- uid: ChiaWalletSdk.BlockchainStateResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_SetError_System_String_
+  name: SetError
+  nameWithType: BlockchainStateResponse.SetError
+  fullName: ChiaWalletSdk.BlockchainStateResponse.SetError
+- uid: ChiaWalletSdk.IBlockchainStateResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainStateResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IBlockchainStateResponse
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IBlockchainStateResponse.SetError(string)
+  fullName: ChiaWalletSdk.IBlockchainStateResponse.SetError(string)
+  nameWithType.vb: IBlockchainStateResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainStateResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockchainStateResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.BlockchainStateResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainStateResponse.html#ChiaWalletSdk_BlockchainStateResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: BlockchainStateResponse.SetSuccess
+  fullName: ChiaWalletSdk.BlockchainStateResponse.SetSuccess
+- uid: ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IBlockchainStateResponse
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IBlockchainStateResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(bool)
+  nameWithType.vb: IBlockchainStateResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockchainStateResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IBlockchainStateResponse.html#ChiaWalletSdk_IBlockchainStateResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

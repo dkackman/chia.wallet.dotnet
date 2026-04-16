@@ -1,0 +1,674 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.NotarizedPayment
+  commentId: T:ChiaWalletSdk.NotarizedPayment
+  id: NotarizedPayment
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.NotarizedPayment.#ctor(System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  - ChiaWalletSdk.NotarizedPayment.#ctor(System.IntPtr)
+  - ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr
+  - ChiaWalletSdk.NotarizedPayment.Destroy
+  - ChiaWalletSdk.NotarizedPayment.Dispose
+  - ChiaWalletSdk.NotarizedPayment.Finalize
+  - ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr
+  - ChiaWalletSdk.NotarizedPayment.GetNonce
+  - ChiaWalletSdk.NotarizedPayment.GetPayments
+  - ChiaWalletSdk.NotarizedPayment.SetNonce(System.Byte[])
+  - ChiaWalletSdk.NotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  - ChiaWalletSdk.NotarizedPayment.pointer
+  langs:
+  - csharp
+  - vb
+  name: NotarizedPayment
+  nameWithType: NotarizedPayment
+  fullName: ChiaWalletSdk.NotarizedPayment
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class NotarizedPayment : INotarizedPayment'
+    content.vb: Public Class NotarizedPayment Implements INotarizedPayment
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.INotarizedPayment
+- uid: ChiaWalletSdk.NotarizedPayment.pointer
+  commentId: F:ChiaWalletSdk.NotarizedPayment.pointer
+  id: pointer
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: NotarizedPayment.pointer
+  fullName: ChiaWalletSdk.NotarizedPayment.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.NotarizedPayment.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.NotarizedPayment.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: NotarizedPayment(nint)
+  nameWithType: NotarizedPayment.NotarizedPayment(nint)
+  fullName: ChiaWalletSdk.NotarizedPayment.NotarizedPayment(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NotarizedPayment(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.NotarizedPayment.#ctor*
+  nameWithType.vb: NotarizedPayment.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.NotarizedPayment.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.NotarizedPayment.Finalize
+  commentId: M:ChiaWalletSdk.NotarizedPayment.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: ~NotarizedPayment()
+  nameWithType: NotarizedPayment.~NotarizedPayment()
+  fullName: ChiaWalletSdk.NotarizedPayment.~NotarizedPayment()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~NotarizedPayment()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.NotarizedPayment.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.NotarizedPayment.#ctor(System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  commentId: M:ChiaWalletSdk.NotarizedPayment.#ctor(System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  id: '#ctor(System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Payment})'
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: NotarizedPayment(byte[], List<Payment>)
+  nameWithType: NotarizedPayment.NotarizedPayment(byte[], List<Payment>)
+  fullName: ChiaWalletSdk.NotarizedPayment.NotarizedPayment(byte[], System.Collections.Generic.List<ChiaWalletSdk.Payment>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public NotarizedPayment(byte[] nonce, List<Payment> payments)
+    parameters:
+    - id: nonce
+      type: System.Byte[]
+    - id: payments
+      type: System.Collections.Generic.List{ChiaWalletSdk.Payment}
+    content.vb: Public Sub New(nonce As Byte(), payments As List(Of Payment))
+  overload: ChiaWalletSdk.NotarizedPayment.#ctor*
+  nameWithType.vb: NotarizedPayment.New(Byte(), List(Of Payment))
+  fullName.vb: ChiaWalletSdk.NotarizedPayment.New(Byte(), System.Collections.Generic.List(Of ChiaWalletSdk.Payment))
+  name.vb: New(Byte(), List(Of Payment))
+- uid: ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: NotarizedPayment.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr*
+- uid: ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: NotarizedPayment.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr*
+- uid: ChiaWalletSdk.NotarizedPayment.Destroy
+  commentId: M:ChiaWalletSdk.NotarizedPayment.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: NotarizedPayment.Destroy()
+  fullName: ChiaWalletSdk.NotarizedPayment.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.NotarizedPayment.Destroy*
+- uid: ChiaWalletSdk.NotarizedPayment.Dispose
+  commentId: M:ChiaWalletSdk.NotarizedPayment.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NotarizedPayment.Dispose()
+  fullName: ChiaWalletSdk.NotarizedPayment.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.NotarizedPayment.Dispose*
+- uid: ChiaWalletSdk.NotarizedPayment.GetNonce
+  commentId: M:ChiaWalletSdk.NotarizedPayment.GetNonce
+  id: GetNonce
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetNonce()
+  nameWithType: NotarizedPayment.GetNonce()
+  fullName: ChiaWalletSdk.NotarizedPayment.GetNonce()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetNonce()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetNonce() As Byte()
+  overload: ChiaWalletSdk.NotarizedPayment.GetNonce*
+  implements:
+  - ChiaWalletSdk.INotarizedPayment.GetNonce
+- uid: ChiaWalletSdk.NotarizedPayment.GetPayments
+  commentId: M:ChiaWalletSdk.NotarizedPayment.GetPayments
+  id: GetPayments
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: GetPayments()
+  nameWithType: NotarizedPayment.GetPayments()
+  fullName: ChiaWalletSdk.NotarizedPayment.GetPayments()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<Payment> GetPayments()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Payment}
+    content.vb: Public Function GetPayments() As List(Of Payment)
+  overload: ChiaWalletSdk.NotarizedPayment.GetPayments*
+  implements:
+  - ChiaWalletSdk.INotarizedPayment.GetPayments
+- uid: ChiaWalletSdk.NotarizedPayment.SetNonce(System.Byte[])
+  commentId: M:ChiaWalletSdk.NotarizedPayment.SetNonce(System.Byte[])
+  id: SetNonce(System.Byte[])
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetNonce(byte[])
+  nameWithType: NotarizedPayment.SetNonce(byte[])
+  fullName: ChiaWalletSdk.NotarizedPayment.SetNonce(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NotarizedPayment SetNonce(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.NotarizedPayment
+    content.vb: Public Function SetNonce(value As Byte()) As NotarizedPayment
+  overload: ChiaWalletSdk.NotarizedPayment.SetNonce*
+  implements:
+  - ChiaWalletSdk.INotarizedPayment.SetNonce(System.Byte[])
+  nameWithType.vb: NotarizedPayment.SetNonce(Byte())
+  fullName.vb: ChiaWalletSdk.NotarizedPayment.SetNonce(Byte())
+  name.vb: SetNonce(Byte())
+- uid: ChiaWalletSdk.NotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  commentId: M:ChiaWalletSdk.NotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  id: SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  parent: ChiaWalletSdk.NotarizedPayment
+  langs:
+  - csharp
+  - vb
+  name: SetPayments(List<Payment>)
+  nameWithType: NotarizedPayment.SetPayments(List<Payment>)
+  fullName: ChiaWalletSdk.NotarizedPayment.SetPayments(System.Collections.Generic.List<ChiaWalletSdk.Payment>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NotarizedPayment SetPayments(List<Payment> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.Payment}
+    return:
+      type: ChiaWalletSdk.NotarizedPayment
+    content.vb: Public Function SetPayments(value As List(Of Payment)) As NotarizedPayment
+  overload: ChiaWalletSdk.NotarizedPayment.SetPayments*
+  implements:
+  - ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  nameWithType.vb: NotarizedPayment.SetPayments(List(Of Payment))
+  fullName.vb: ChiaWalletSdk.NotarizedPayment.SetPayments(System.Collections.Generic.List(Of ChiaWalletSdk.Payment))
+  name.vb: SetPayments(List(Of Payment))
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.INotarizedPayment
+  commentId: T:ChiaWalletSdk.INotarizedPayment
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.INotarizedPayment.html
+  name: INotarizedPayment
+  nameWithType: INotarizedPayment
+  fullName: ChiaWalletSdk.INotarizedPayment
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.NotarizedPayment.#ctor*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment__ctor_System_IntPtr_
+  name: NotarizedPayment
+  nameWithType: NotarizedPayment.NotarizedPayment
+  fullName: ChiaWalletSdk.NotarizedPayment.NotarizedPayment
+  nameWithType.vb: NotarizedPayment.New
+  fullName.vb: ChiaWalletSdk.NotarizedPayment.New
+  name.vb: New
+- uid: ChiaWalletSdk.NotarizedPayment.Finalize*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_Finalize
+  name: ~NotarizedPayment
+  nameWithType: NotarizedPayment.~NotarizedPayment
+  fullName: ChiaWalletSdk.NotarizedPayment.~NotarizedPayment
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.NotarizedPayment.Finalize*
+    name: NotarizedPayment
+    isExternal: true
+    href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Payment}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Payment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Payment.html
+  name: List<Payment>
+  nameWithType: List<Payment>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Payment>
+  nameWithType.vb: List(Of Payment)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Payment)
+  name.vb: List(Of Payment)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Payment
+    name: Payment
+    isExternal: true
+    href: ChiaWalletSdk.Payment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Payment
+    name: Payment
+    isExternal: true
+    href: ChiaWalletSdk.Payment.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: NotarizedPayment.FreeRustArcPtr
+  fullName: ChiaWalletSdk.NotarizedPayment.FreeRustArcPtr
+- uid: ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: NotarizedPayment.CloneRustArcPtr
+  fullName: ChiaWalletSdk.NotarizedPayment.CloneRustArcPtr
+- uid: ChiaWalletSdk.NotarizedPayment.Destroy*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_Destroy
+  name: Destroy
+  nameWithType: NotarizedPayment.Destroy
+  fullName: ChiaWalletSdk.NotarizedPayment.Destroy
+- uid: ChiaWalletSdk.NotarizedPayment.Dispose*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_Dispose
+  name: Dispose
+  nameWithType: NotarizedPayment.Dispose
+  fullName: ChiaWalletSdk.NotarizedPayment.Dispose
+- uid: ChiaWalletSdk.NotarizedPayment.GetNonce*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.GetNonce
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_GetNonce
+  name: GetNonce
+  nameWithType: NotarizedPayment.GetNonce
+  fullName: ChiaWalletSdk.NotarizedPayment.GetNonce
+- uid: ChiaWalletSdk.INotarizedPayment.GetNonce
+  commentId: M:ChiaWalletSdk.INotarizedPayment.GetNonce
+  parent: ChiaWalletSdk.INotarizedPayment
+  isExternal: true
+  href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_GetNonce
+  name: GetNonce()
+  nameWithType: INotarizedPayment.GetNonce()
+  fullName: ChiaWalletSdk.INotarizedPayment.GetNonce()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INotarizedPayment.GetNonce
+    name: GetNonce
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_GetNonce
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INotarizedPayment.GetNonce
+    name: GetNonce
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_GetNonce
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NotarizedPayment.GetPayments*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.GetPayments
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_GetPayments
+  name: GetPayments
+  nameWithType: NotarizedPayment.GetPayments
+  fullName: ChiaWalletSdk.NotarizedPayment.GetPayments
+- uid: ChiaWalletSdk.INotarizedPayment.GetPayments
+  commentId: M:ChiaWalletSdk.INotarizedPayment.GetPayments
+  parent: ChiaWalletSdk.INotarizedPayment
+  isExternal: true
+  href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_GetPayments
+  name: GetPayments()
+  nameWithType: INotarizedPayment.GetPayments()
+  fullName: ChiaWalletSdk.INotarizedPayment.GetPayments()
+  spec.csharp:
+  - uid: ChiaWalletSdk.INotarizedPayment.GetPayments
+    name: GetPayments
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_GetPayments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INotarizedPayment.GetPayments
+    name: GetPayments
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_GetPayments
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NotarizedPayment.SetNonce*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.SetNonce
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_SetNonce_System_Byte___
+  name: SetNonce
+  nameWithType: NotarizedPayment.SetNonce
+  fullName: ChiaWalletSdk.NotarizedPayment.SetNonce
+- uid: ChiaWalletSdk.INotarizedPayment.SetNonce(System.Byte[])
+  commentId: M:ChiaWalletSdk.INotarizedPayment.SetNonce(System.Byte[])
+  parent: ChiaWalletSdk.INotarizedPayment
+  isExternal: true
+  href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_SetNonce_System_Byte___
+  name: SetNonce(byte[])
+  nameWithType: INotarizedPayment.SetNonce(byte[])
+  fullName: ChiaWalletSdk.INotarizedPayment.SetNonce(byte[])
+  nameWithType.vb: INotarizedPayment.SetNonce(Byte())
+  fullName.vb: ChiaWalletSdk.INotarizedPayment.SetNonce(Byte())
+  name.vb: SetNonce(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.INotarizedPayment.SetNonce(System.Byte[])
+    name: SetNonce
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_SetNonce_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INotarizedPayment.SetNonce(System.Byte[])
+    name: SetNonce
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_SetNonce_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.NotarizedPayment
+  commentId: T:ChiaWalletSdk.NotarizedPayment
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html
+  name: NotarizedPayment
+  nameWithType: NotarizedPayment
+  fullName: ChiaWalletSdk.NotarizedPayment
+- uid: ChiaWalletSdk.NotarizedPayment.SetPayments*
+  commentId: Overload:ChiaWalletSdk.NotarizedPayment.SetPayments
+  isExternal: true
+  href: ChiaWalletSdk.NotarizedPayment.html#ChiaWalletSdk_NotarizedPayment_SetPayments_System_Collections_Generic_List_ChiaWalletSdk_Payment__
+  name: SetPayments
+  nameWithType: NotarizedPayment.SetPayments
+  fullName: ChiaWalletSdk.NotarizedPayment.SetPayments
+- uid: ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  commentId: M:ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+  parent: ChiaWalletSdk.INotarizedPayment
+  isExternal: true
+  href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_SetPayments_System_Collections_Generic_List_ChiaWalletSdk_Payment__
+  name: SetPayments(List<Payment>)
+  nameWithType: INotarizedPayment.SetPayments(List<Payment>)
+  fullName: ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List<ChiaWalletSdk.Payment>)
+  nameWithType.vb: INotarizedPayment.SetPayments(List(Of Payment))
+  fullName.vb: ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List(Of ChiaWalletSdk.Payment))
+  name.vb: SetPayments(List(Of Payment))
+  spec.csharp:
+  - uid: ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+    name: SetPayments
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_SetPayments_System_Collections_Generic_List_ChiaWalletSdk_Payment__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Payment
+    name: Payment
+    isExternal: true
+    href: ChiaWalletSdk.Payment.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.INotarizedPayment.SetPayments(System.Collections.Generic.List{ChiaWalletSdk.Payment})
+    name: SetPayments
+    isExternal: true
+    href: ChiaWalletSdk.INotarizedPayment.html#ChiaWalletSdk_INotarizedPayment_SetPayments_System_Collections_Generic_List_ChiaWalletSdk_Payment__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Payment
+    name: Payment
+    isExternal: true
+    href: ChiaWalletSdk.Payment.html
+  - name: )
+  - name: )

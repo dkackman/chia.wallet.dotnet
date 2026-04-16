@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ParsedDid
+  commentId: T:ChiaWalletSdk.ParsedDid
+  id: ParsedDid
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ParsedDid.#ctor(ChiaWalletSdk.Did,ChiaWalletSdk.ParsedDidSpend)
+  - ChiaWalletSdk.ParsedDid.#ctor(System.IntPtr)
+  - ChiaWalletSdk.ParsedDid.CloneRustArcPtr
+  - ChiaWalletSdk.ParsedDid.Destroy
+  - ChiaWalletSdk.ParsedDid.Dispose
+  - ChiaWalletSdk.ParsedDid.Finalize
+  - ChiaWalletSdk.ParsedDid.FreeRustArcPtr
+  - ChiaWalletSdk.ParsedDid.GetDid
+  - ChiaWalletSdk.ParsedDid.GetP2Spend
+  - ChiaWalletSdk.ParsedDid.SetDid(ChiaWalletSdk.Did)
+  - ChiaWalletSdk.ParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  - ChiaWalletSdk.ParsedDid.pointer
+  langs:
+  - csharp
+  - vb
+  name: ParsedDid
+  nameWithType: ParsedDid
+  fullName: ChiaWalletSdk.ParsedDid
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class ParsedDid : IParsedDid'
+    content.vb: Public Class ParsedDid Implements IParsedDid
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IParsedDid
+- uid: ChiaWalletSdk.ParsedDid.pointer
+  commentId: F:ChiaWalletSdk.ParsedDid.pointer
+  id: pointer
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: ParsedDid.pointer
+  fullName: ChiaWalletSdk.ParsedDid.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.ParsedDid.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.ParsedDid.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: ParsedDid(nint)
+  nameWithType: ParsedDid.ParsedDid(nint)
+  fullName: ChiaWalletSdk.ParsedDid.ParsedDid(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ParsedDid(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.ParsedDid.#ctor*
+  nameWithType.vb: ParsedDid.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.ParsedDid.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.ParsedDid.Finalize
+  commentId: M:ChiaWalletSdk.ParsedDid.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: ~ParsedDid()
+  nameWithType: ParsedDid.~ParsedDid()
+  fullName: ChiaWalletSdk.ParsedDid.~ParsedDid()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~ParsedDid()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.ParsedDid.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.ParsedDid.#ctor(ChiaWalletSdk.Did,ChiaWalletSdk.ParsedDidSpend)
+  commentId: M:ChiaWalletSdk.ParsedDid.#ctor(ChiaWalletSdk.Did,ChiaWalletSdk.ParsedDidSpend)
+  id: '#ctor(ChiaWalletSdk.Did,ChiaWalletSdk.ParsedDidSpend)'
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: ParsedDid(Did, ParsedDidSpend?)
+  nameWithType: ParsedDid.ParsedDid(Did, ParsedDidSpend?)
+  fullName: ChiaWalletSdk.ParsedDid.ParsedDid(ChiaWalletSdk.Did, ChiaWalletSdk.ParsedDidSpend?)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ParsedDid(Did did, ParsedDidSpend? p2Spend)
+    parameters:
+    - id: did
+      type: ChiaWalletSdk.Did
+    - id: p2Spend
+      type: ChiaWalletSdk.ParsedDidSpend
+    content.vb: Public Sub New(did As Did, p2Spend As ParsedDidSpend)
+  overload: ChiaWalletSdk.ParsedDid.#ctor*
+  nameWithType.vb: ParsedDid.New(Did, ParsedDidSpend)
+  fullName.vb: ChiaWalletSdk.ParsedDid.New(ChiaWalletSdk.Did, ChiaWalletSdk.ParsedDidSpend)
+  name.vb: New(Did, ParsedDidSpend)
+- uid: ChiaWalletSdk.ParsedDid.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.ParsedDid.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: ParsedDid.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.ParsedDid.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.ParsedDid.FreeRustArcPtr*
+- uid: ChiaWalletSdk.ParsedDid.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.ParsedDid.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: ParsedDid.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.ParsedDid.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.ParsedDid.CloneRustArcPtr*
+- uid: ChiaWalletSdk.ParsedDid.Destroy
+  commentId: M:ChiaWalletSdk.ParsedDid.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: ParsedDid.Destroy()
+  fullName: ChiaWalletSdk.ParsedDid.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.ParsedDid.Destroy*
+- uid: ChiaWalletSdk.ParsedDid.Dispose
+  commentId: M:ChiaWalletSdk.ParsedDid.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ParsedDid.Dispose()
+  fullName: ChiaWalletSdk.ParsedDid.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.ParsedDid.Dispose*
+- uid: ChiaWalletSdk.ParsedDid.GetDid
+  commentId: M:ChiaWalletSdk.ParsedDid.GetDid
+  id: GetDid
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: GetDid()
+  nameWithType: ParsedDid.GetDid()
+  fullName: ChiaWalletSdk.ParsedDid.GetDid()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Did GetDid()
+    return:
+      type: ChiaWalletSdk.Did
+    content.vb: Public Function GetDid() As Did
+  overload: ChiaWalletSdk.ParsedDid.GetDid*
+  implements:
+  - ChiaWalletSdk.IParsedDid.GetDid
+- uid: ChiaWalletSdk.ParsedDid.GetP2Spend
+  commentId: M:ChiaWalletSdk.ParsedDid.GetP2Spend
+  id: GetP2Spend
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: GetP2Spend()
+  nameWithType: ParsedDid.GetP2Spend()
+  fullName: ChiaWalletSdk.ParsedDid.GetP2Spend()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedDidSpend? GetP2Spend()
+    return:
+      type: ChiaWalletSdk.ParsedDidSpend
+    content.vb: Public Function GetP2Spend() As ParsedDidSpend
+  overload: ChiaWalletSdk.ParsedDid.GetP2Spend*
+  implements:
+  - ChiaWalletSdk.IParsedDid.GetP2Spend
+- uid: ChiaWalletSdk.ParsedDid.SetDid(ChiaWalletSdk.Did)
+  commentId: M:ChiaWalletSdk.ParsedDid.SetDid(ChiaWalletSdk.Did)
+  id: SetDid(ChiaWalletSdk.Did)
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: SetDid(Did)
+  nameWithType: ParsedDid.SetDid(Did)
+  fullName: ChiaWalletSdk.ParsedDid.SetDid(ChiaWalletSdk.Did)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedDid SetDid(Did value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Did
+    return:
+      type: ChiaWalletSdk.ParsedDid
+    content.vb: Public Function SetDid(value As Did) As ParsedDid
+  overload: ChiaWalletSdk.ParsedDid.SetDid*
+  implements:
+  - ChiaWalletSdk.IParsedDid.SetDid(ChiaWalletSdk.Did)
+- uid: ChiaWalletSdk.ParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  commentId: M:ChiaWalletSdk.ParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  id: SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  parent: ChiaWalletSdk.ParsedDid
+  langs:
+  - csharp
+  - vb
+  name: SetP2Spend(ParsedDidSpend?)
+  nameWithType: ParsedDid.SetP2Spend(ParsedDidSpend?)
+  fullName: ChiaWalletSdk.ParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ParsedDid SetP2Spend(ParsedDidSpend? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.ParsedDidSpend
+    return:
+      type: ChiaWalletSdk.ParsedDid
+    content.vb: Public Function SetP2Spend(value As ParsedDidSpend) As ParsedDid
+  overload: ChiaWalletSdk.ParsedDid.SetP2Spend*
+  implements:
+  - ChiaWalletSdk.IParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  nameWithType.vb: ParsedDid.SetP2Spend(ParsedDidSpend)
+  fullName.vb: ChiaWalletSdk.ParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  name.vb: SetP2Spend(ParsedDidSpend)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IParsedDid
+  commentId: T:ChiaWalletSdk.IParsedDid
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IParsedDid.html
+  name: IParsedDid
+  nameWithType: IParsedDid
+  fullName: ChiaWalletSdk.IParsedDid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.ParsedDid.#ctor*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid__ctor_System_IntPtr_
+  name: ParsedDid
+  nameWithType: ParsedDid.ParsedDid
+  fullName: ChiaWalletSdk.ParsedDid.ParsedDid
+  nameWithType.vb: ParsedDid.New
+  fullName.vb: ChiaWalletSdk.ParsedDid.New
+  name.vb: New
+- uid: ChiaWalletSdk.ParsedDid.Finalize*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_Finalize
+  name: ~ParsedDid
+  nameWithType: ParsedDid.~ParsedDid
+  fullName: ChiaWalletSdk.ParsedDid.~ParsedDid
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.ParsedDid.Finalize*
+    name: ParsedDid
+    isExternal: true
+    href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_Finalize
+- uid: ChiaWalletSdk.Did
+  commentId: T:ChiaWalletSdk.Did
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Did.html
+  name: Did
+  nameWithType: Did
+  fullName: ChiaWalletSdk.Did
+- uid: ChiaWalletSdk.ParsedDidSpend
+  commentId: T:ChiaWalletSdk.ParsedDidSpend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDidSpend.html
+  name: ParsedDidSpend
+  nameWithType: ParsedDidSpend
+  fullName: ChiaWalletSdk.ParsedDidSpend
+- uid: ChiaWalletSdk.ParsedDid.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: ParsedDid.FreeRustArcPtr
+  fullName: ChiaWalletSdk.ParsedDid.FreeRustArcPtr
+- uid: ChiaWalletSdk.ParsedDid.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: ParsedDid.CloneRustArcPtr
+  fullName: ChiaWalletSdk.ParsedDid.CloneRustArcPtr
+- uid: ChiaWalletSdk.ParsedDid.Destroy*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_Destroy
+  name: Destroy
+  nameWithType: ParsedDid.Destroy
+  fullName: ChiaWalletSdk.ParsedDid.Destroy
+- uid: ChiaWalletSdk.ParsedDid.Dispose*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_Dispose
+  name: Dispose
+  nameWithType: ParsedDid.Dispose
+  fullName: ChiaWalletSdk.ParsedDid.Dispose
+- uid: ChiaWalletSdk.ParsedDid.GetDid*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.GetDid
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_GetDid
+  name: GetDid
+  nameWithType: ParsedDid.GetDid
+  fullName: ChiaWalletSdk.ParsedDid.GetDid
+- uid: ChiaWalletSdk.IParsedDid.GetDid
+  commentId: M:ChiaWalletSdk.IParsedDid.GetDid
+  parent: ChiaWalletSdk.IParsedDid
+  isExternal: true
+  href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_GetDid
+  name: GetDid()
+  nameWithType: IParsedDid.GetDid()
+  fullName: ChiaWalletSdk.IParsedDid.GetDid()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedDid.GetDid
+    name: GetDid
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_GetDid
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedDid.GetDid
+    name: GetDid
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_GetDid
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ParsedDid.GetP2Spend*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.GetP2Spend
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_GetP2Spend
+  name: GetP2Spend
+  nameWithType: ParsedDid.GetP2Spend
+  fullName: ChiaWalletSdk.ParsedDid.GetP2Spend
+- uid: ChiaWalletSdk.IParsedDid.GetP2Spend
+  commentId: M:ChiaWalletSdk.IParsedDid.GetP2Spend
+  parent: ChiaWalletSdk.IParsedDid
+  isExternal: true
+  href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_GetP2Spend
+  name: GetP2Spend()
+  nameWithType: IParsedDid.GetP2Spend()
+  fullName: ChiaWalletSdk.IParsedDid.GetP2Spend()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedDid.GetP2Spend
+    name: GetP2Spend
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_GetP2Spend
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedDid.GetP2Spend
+    name: GetP2Spend
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_GetP2Spend
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ParsedDid.SetDid*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.SetDid
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_SetDid_ChiaWalletSdk_Did_
+  name: SetDid
+  nameWithType: ParsedDid.SetDid
+  fullName: ChiaWalletSdk.ParsedDid.SetDid
+- uid: ChiaWalletSdk.IParsedDid.SetDid(ChiaWalletSdk.Did)
+  commentId: M:ChiaWalletSdk.IParsedDid.SetDid(ChiaWalletSdk.Did)
+  parent: ChiaWalletSdk.IParsedDid
+  isExternal: true
+  href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_SetDid_ChiaWalletSdk_Did_
+  name: SetDid(Did)
+  nameWithType: IParsedDid.SetDid(Did)
+  fullName: ChiaWalletSdk.IParsedDid.SetDid(ChiaWalletSdk.Did)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedDid.SetDid(ChiaWalletSdk.Did)
+    name: SetDid
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_SetDid_ChiaWalletSdk_Did_
+  - name: (
+  - uid: ChiaWalletSdk.Did
+    name: Did
+    isExternal: true
+    href: ChiaWalletSdk.Did.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedDid.SetDid(ChiaWalletSdk.Did)
+    name: SetDid
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_SetDid_ChiaWalletSdk_Did_
+  - name: (
+  - uid: ChiaWalletSdk.Did
+    name: Did
+    isExternal: true
+    href: ChiaWalletSdk.Did.html
+  - name: )
+- uid: ChiaWalletSdk.ParsedDid
+  commentId: T:ChiaWalletSdk.ParsedDid
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html
+  name: ParsedDid
+  nameWithType: ParsedDid
+  fullName: ChiaWalletSdk.ParsedDid
+- uid: ChiaWalletSdk.ParsedDid.SetP2Spend*
+  commentId: Overload:ChiaWalletSdk.ParsedDid.SetP2Spend
+  isExternal: true
+  href: ChiaWalletSdk.ParsedDid.html#ChiaWalletSdk_ParsedDid_SetP2Spend_ChiaWalletSdk_ParsedDidSpend_
+  name: SetP2Spend
+  nameWithType: ParsedDid.SetP2Spend
+  fullName: ChiaWalletSdk.ParsedDid.SetP2Spend
+- uid: ChiaWalletSdk.IParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  commentId: M:ChiaWalletSdk.IParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  parent: ChiaWalletSdk.IParsedDid
+  isExternal: true
+  href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_SetP2Spend_ChiaWalletSdk_ParsedDidSpend_
+  name: SetP2Spend(ParsedDidSpend)
+  nameWithType: IParsedDid.SetP2Spend(ParsedDidSpend)
+  fullName: ChiaWalletSdk.IParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+    name: SetP2Spend
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_SetP2Spend_ChiaWalletSdk_ParsedDidSpend_
+  - name: (
+  - uid: ChiaWalletSdk.ParsedDidSpend
+    name: ParsedDidSpend
+    isExternal: true
+    href: ChiaWalletSdk.ParsedDidSpend.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IParsedDid.SetP2Spend(ChiaWalletSdk.ParsedDidSpend)
+    name: SetP2Spend
+    isExternal: true
+    href: ChiaWalletSdk.IParsedDid.html#ChiaWalletSdk_IParsedDid_SetP2Spend_ChiaWalletSdk_ParsedDidSpend_
+  - name: (
+  - uid: ChiaWalletSdk.ParsedDidSpend
+    name: ParsedDidSpend
+    isExternal: true
+    href: ChiaWalletSdk.ParsedDidSpend.html
+  - name: )

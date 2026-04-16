@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Event
+  commentId: T:ChiaWalletSdk.Event
+  id: Event
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Event.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Event.CloneRustArcPtr
+  - ChiaWalletSdk.Event.Destroy
+  - ChiaWalletSdk.Event.Dispose
+  - ChiaWalletSdk.Event.Finalize
+  - ChiaWalletSdk.Event.FreeRustArcPtr
+  - ChiaWalletSdk.Event.GetCoinStateUpdate
+  - ChiaWalletSdk.Event.GetNewPeakWallet
+  - ChiaWalletSdk.Event.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  - ChiaWalletSdk.Event.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  - ChiaWalletSdk.Event.pointer
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: Event
+  fullName: ChiaWalletSdk.Event
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Event : IEvent'
+    content.vb: Public Class [Event] Implements IEvent
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IEvent
+- uid: ChiaWalletSdk.Event.pointer
+  commentId: F:ChiaWalletSdk.Event.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Event.pointer
+  fullName: ChiaWalletSdk.Event.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Event.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Event.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: Event(nint)
+  nameWithType: Event.Event(nint)
+  fullName: ChiaWalletSdk.Event.Event(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Event(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Event.#ctor*
+  nameWithType.vb: Event.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Event.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Event.Finalize
+  commentId: M:ChiaWalletSdk.Event.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: ~Event()
+  nameWithType: Event.~Event()
+  fullName: ChiaWalletSdk.Event.~Event()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Event()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Event.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Event.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Event.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Event.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Event.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Event.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Event.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Event.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Event.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Event.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Event.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Event.Destroy
+  commentId: M:ChiaWalletSdk.Event.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Event.Destroy()
+  fullName: ChiaWalletSdk.Event.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Event.Destroy*
+- uid: ChiaWalletSdk.Event.Dispose
+  commentId: M:ChiaWalletSdk.Event.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Event.Dispose()
+  fullName: ChiaWalletSdk.Event.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Event.Dispose*
+- uid: ChiaWalletSdk.Event.GetCoinStateUpdate
+  commentId: M:ChiaWalletSdk.Event.GetCoinStateUpdate
+  id: GetCoinStateUpdate
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: GetCoinStateUpdate()
+  nameWithType: Event.GetCoinStateUpdate()
+  fullName: ChiaWalletSdk.Event.GetCoinStateUpdate()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CoinStateUpdate? GetCoinStateUpdate()
+    return:
+      type: ChiaWalletSdk.CoinStateUpdate
+    content.vb: Public Function GetCoinStateUpdate() As CoinStateUpdate
+  overload: ChiaWalletSdk.Event.GetCoinStateUpdate*
+  implements:
+  - ChiaWalletSdk.IEvent.GetCoinStateUpdate
+- uid: ChiaWalletSdk.Event.GetNewPeakWallet
+  commentId: M:ChiaWalletSdk.Event.GetNewPeakWallet
+  id: GetNewPeakWallet
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: GetNewPeakWallet()
+  nameWithType: Event.GetNewPeakWallet()
+  fullName: ChiaWalletSdk.Event.GetNewPeakWallet()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public NewPeakWallet? GetNewPeakWallet()
+    return:
+      type: ChiaWalletSdk.NewPeakWallet
+    content.vb: Public Function GetNewPeakWallet() As NewPeakWallet
+  overload: ChiaWalletSdk.Event.GetNewPeakWallet*
+  implements:
+  - ChiaWalletSdk.IEvent.GetNewPeakWallet
+- uid: ChiaWalletSdk.Event.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  commentId: M:ChiaWalletSdk.Event.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  id: SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: SetCoinStateUpdate(CoinStateUpdate?)
+  nameWithType: Event.SetCoinStateUpdate(CoinStateUpdate?)
+  fullName: ChiaWalletSdk.Event.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Event SetCoinStateUpdate(CoinStateUpdate? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.CoinStateUpdate
+    return:
+      type: ChiaWalletSdk.Event
+    content.vb: Public Function SetCoinStateUpdate(value As CoinStateUpdate) As [Event]
+  overload: ChiaWalletSdk.Event.SetCoinStateUpdate*
+  implements:
+  - ChiaWalletSdk.IEvent.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  nameWithType.vb: Event.SetCoinStateUpdate(CoinStateUpdate)
+  fullName.vb: ChiaWalletSdk.Event.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  name.vb: SetCoinStateUpdate(CoinStateUpdate)
+- uid: ChiaWalletSdk.Event.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  commentId: M:ChiaWalletSdk.Event.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  id: SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  parent: ChiaWalletSdk.Event
+  langs:
+  - csharp
+  - vb
+  name: SetNewPeakWallet(NewPeakWallet?)
+  nameWithType: Event.SetNewPeakWallet(NewPeakWallet?)
+  fullName: ChiaWalletSdk.Event.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Event SetNewPeakWallet(NewPeakWallet? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.NewPeakWallet
+    return:
+      type: ChiaWalletSdk.Event
+    content.vb: Public Function SetNewPeakWallet(value As NewPeakWallet) As [Event]
+  overload: ChiaWalletSdk.Event.SetNewPeakWallet*
+  implements:
+  - ChiaWalletSdk.IEvent.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  nameWithType.vb: Event.SetNewPeakWallet(NewPeakWallet)
+  fullName.vb: ChiaWalletSdk.Event.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  name.vb: SetNewPeakWallet(NewPeakWallet)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IEvent
+  commentId: T:ChiaWalletSdk.IEvent
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IEvent.html
+  name: IEvent
+  nameWithType: IEvent
+  fullName: ChiaWalletSdk.IEvent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Event.#ctor*
+  commentId: Overload:ChiaWalletSdk.Event.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event__ctor_System_IntPtr_
+  name: Event
+  nameWithType: Event.Event
+  fullName: ChiaWalletSdk.Event.Event
+  nameWithType.vb: Event.New
+  fullName.vb: ChiaWalletSdk.Event.New
+  name.vb: New
+- uid: ChiaWalletSdk.Event.Finalize*
+  commentId: Overload:ChiaWalletSdk.Event.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_Finalize
+  name: ~Event
+  nameWithType: Event.~Event
+  fullName: ChiaWalletSdk.Event.~Event
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Event.Finalize*
+    name: Event
+    isExternal: true
+    href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_Finalize
+- uid: ChiaWalletSdk.Event.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Event.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Event.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Event.FreeRustArcPtr
+- uid: ChiaWalletSdk.Event.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Event.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Event.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Event.CloneRustArcPtr
+- uid: ChiaWalletSdk.Event.Destroy*
+  commentId: Overload:ChiaWalletSdk.Event.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_Destroy
+  name: Destroy
+  nameWithType: Event.Destroy
+  fullName: ChiaWalletSdk.Event.Destroy
+- uid: ChiaWalletSdk.Event.Dispose*
+  commentId: Overload:ChiaWalletSdk.Event.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_Dispose
+  name: Dispose
+  nameWithType: Event.Dispose
+  fullName: ChiaWalletSdk.Event.Dispose
+- uid: ChiaWalletSdk.Event.GetCoinStateUpdate*
+  commentId: Overload:ChiaWalletSdk.Event.GetCoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_GetCoinStateUpdate
+  name: GetCoinStateUpdate
+  nameWithType: Event.GetCoinStateUpdate
+  fullName: ChiaWalletSdk.Event.GetCoinStateUpdate
+- uid: ChiaWalletSdk.IEvent.GetCoinStateUpdate
+  commentId: M:ChiaWalletSdk.IEvent.GetCoinStateUpdate
+  parent: ChiaWalletSdk.IEvent
+  isExternal: true
+  href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_GetCoinStateUpdate
+  name: GetCoinStateUpdate()
+  nameWithType: IEvent.GetCoinStateUpdate()
+  fullName: ChiaWalletSdk.IEvent.GetCoinStateUpdate()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IEvent.GetCoinStateUpdate
+    name: GetCoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_GetCoinStateUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IEvent.GetCoinStateUpdate
+    name: GetCoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_GetCoinStateUpdate
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CoinStateUpdate
+  commentId: T:ChiaWalletSdk.CoinStateUpdate
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateUpdate.html
+  name: CoinStateUpdate
+  nameWithType: CoinStateUpdate
+  fullName: ChiaWalletSdk.CoinStateUpdate
+- uid: ChiaWalletSdk.Event.GetNewPeakWallet*
+  commentId: Overload:ChiaWalletSdk.Event.GetNewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_GetNewPeakWallet
+  name: GetNewPeakWallet
+  nameWithType: Event.GetNewPeakWallet
+  fullName: ChiaWalletSdk.Event.GetNewPeakWallet
+- uid: ChiaWalletSdk.IEvent.GetNewPeakWallet
+  commentId: M:ChiaWalletSdk.IEvent.GetNewPeakWallet
+  parent: ChiaWalletSdk.IEvent
+  isExternal: true
+  href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_GetNewPeakWallet
+  name: GetNewPeakWallet()
+  nameWithType: IEvent.GetNewPeakWallet()
+  fullName: ChiaWalletSdk.IEvent.GetNewPeakWallet()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IEvent.GetNewPeakWallet
+    name: GetNewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_GetNewPeakWallet
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IEvent.GetNewPeakWallet
+    name: GetNewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_GetNewPeakWallet
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.NewPeakWallet
+  commentId: T:ChiaWalletSdk.NewPeakWallet
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NewPeakWallet.html
+  name: NewPeakWallet
+  nameWithType: NewPeakWallet
+  fullName: ChiaWalletSdk.NewPeakWallet
+- uid: ChiaWalletSdk.Event.SetCoinStateUpdate*
+  commentId: Overload:ChiaWalletSdk.Event.SetCoinStateUpdate
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_SetCoinStateUpdate_ChiaWalletSdk_CoinStateUpdate_
+  name: SetCoinStateUpdate
+  nameWithType: Event.SetCoinStateUpdate
+  fullName: ChiaWalletSdk.Event.SetCoinStateUpdate
+- uid: ChiaWalletSdk.IEvent.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  commentId: M:ChiaWalletSdk.IEvent.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  parent: ChiaWalletSdk.IEvent
+  isExternal: true
+  href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_SetCoinStateUpdate_ChiaWalletSdk_CoinStateUpdate_
+  name: SetCoinStateUpdate(CoinStateUpdate)
+  nameWithType: IEvent.SetCoinStateUpdate(CoinStateUpdate)
+  fullName: ChiaWalletSdk.IEvent.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IEvent.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+    name: SetCoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_SetCoinStateUpdate_ChiaWalletSdk_CoinStateUpdate_
+  - name: (
+  - uid: ChiaWalletSdk.CoinStateUpdate
+    name: CoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.CoinStateUpdate.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IEvent.SetCoinStateUpdate(ChiaWalletSdk.CoinStateUpdate)
+    name: SetCoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_SetCoinStateUpdate_ChiaWalletSdk_CoinStateUpdate_
+  - name: (
+  - uid: ChiaWalletSdk.CoinStateUpdate
+    name: CoinStateUpdate
+    isExternal: true
+    href: ChiaWalletSdk.CoinStateUpdate.html
+  - name: )
+- uid: ChiaWalletSdk.Event
+  commentId: T:ChiaWalletSdk.Event
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Event.html
+  name: Event
+  nameWithType: Event
+  fullName: ChiaWalletSdk.Event
+- uid: ChiaWalletSdk.Event.SetNewPeakWallet*
+  commentId: Overload:ChiaWalletSdk.Event.SetNewPeakWallet
+  isExternal: true
+  href: ChiaWalletSdk.Event.html#ChiaWalletSdk_Event_SetNewPeakWallet_ChiaWalletSdk_NewPeakWallet_
+  name: SetNewPeakWallet
+  nameWithType: Event.SetNewPeakWallet
+  fullName: ChiaWalletSdk.Event.SetNewPeakWallet
+- uid: ChiaWalletSdk.IEvent.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  commentId: M:ChiaWalletSdk.IEvent.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  parent: ChiaWalletSdk.IEvent
+  isExternal: true
+  href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_SetNewPeakWallet_ChiaWalletSdk_NewPeakWallet_
+  name: SetNewPeakWallet(NewPeakWallet)
+  nameWithType: IEvent.SetNewPeakWallet(NewPeakWallet)
+  fullName: ChiaWalletSdk.IEvent.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IEvent.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+    name: SetNewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_SetNewPeakWallet_ChiaWalletSdk_NewPeakWallet_
+  - name: (
+  - uid: ChiaWalletSdk.NewPeakWallet
+    name: NewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.NewPeakWallet.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IEvent.SetNewPeakWallet(ChiaWalletSdk.NewPeakWallet)
+    name: SetNewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.IEvent.html#ChiaWalletSdk_IEvent_SetNewPeakWallet_ChiaWalletSdk_NewPeakWallet_
+  - name: (
+  - uid: ChiaWalletSdk.NewPeakWallet
+    name: NewPeakWallet
+    isExternal: true
+    href: ChiaWalletSdk.NewPeakWallet.html
+  - name: )

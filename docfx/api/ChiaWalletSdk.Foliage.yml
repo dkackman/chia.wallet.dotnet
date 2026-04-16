@@ -1,0 +1,1072 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Foliage
+  commentId: T:ChiaWalletSdk.Foliage
+  id: Foliage
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Foliage.#ctor(System.Byte[],System.Byte[],ChiaWalletSdk.FoliageBlockData,ChiaWalletSdk.Signature,System.Byte[],ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.Foliage.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Foliage.CloneRustArcPtr
+  - ChiaWalletSdk.Foliage.Destroy
+  - ChiaWalletSdk.Foliage.Dispose
+  - ChiaWalletSdk.Foliage.Finalize
+  - ChiaWalletSdk.Foliage.FreeRustArcPtr
+  - ChiaWalletSdk.Foliage.GetFoliageBlockData
+  - ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature
+  - ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash
+  - ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature
+  - ChiaWalletSdk.Foliage.GetPrevBlockHash
+  - ChiaWalletSdk.Foliage.GetRewardBlockHash
+  - ChiaWalletSdk.Foliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  - ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash(System.Byte[])
+  - ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  - ChiaWalletSdk.Foliage.SetPrevBlockHash(System.Byte[])
+  - ChiaWalletSdk.Foliage.SetRewardBlockHash(System.Byte[])
+  - ChiaWalletSdk.Foliage.pointer
+  langs:
+  - csharp
+  - vb
+  name: Foliage
+  nameWithType: Foliage
+  fullName: ChiaWalletSdk.Foliage
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Foliage : IFoliage'
+    content.vb: Public Class Foliage Implements IFoliage
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IFoliage
+- uid: ChiaWalletSdk.Foliage.pointer
+  commentId: F:ChiaWalletSdk.Foliage.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Foliage.pointer
+  fullName: ChiaWalletSdk.Foliage.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Foliage.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Foliage.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: Foliage(nint)
+  nameWithType: Foliage.Foliage(nint)
+  fullName: ChiaWalletSdk.Foliage.Foliage(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Foliage(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Foliage.#ctor*
+  nameWithType.vb: Foliage.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Foliage.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Foliage.Finalize
+  commentId: M:ChiaWalletSdk.Foliage.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: ~Foliage()
+  nameWithType: Foliage.~Foliage()
+  fullName: ChiaWalletSdk.Foliage.~Foliage()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Foliage()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Foliage.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Foliage.#ctor(System.Byte[],System.Byte[],ChiaWalletSdk.FoliageBlockData,ChiaWalletSdk.Signature,System.Byte[],ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.Foliage.#ctor(System.Byte[],System.Byte[],ChiaWalletSdk.FoliageBlockData,ChiaWalletSdk.Signature,System.Byte[],ChiaWalletSdk.Signature)
+  id: '#ctor(System.Byte[],System.Byte[],ChiaWalletSdk.FoliageBlockData,ChiaWalletSdk.Signature,System.Byte[],ChiaWalletSdk.Signature)'
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: Foliage(byte[], byte[], FoliageBlockData, Signature, byte[]?, Signature?)
+  nameWithType: Foliage.Foliage(byte[], byte[], FoliageBlockData, Signature, byte[]?, Signature?)
+  fullName: ChiaWalletSdk.Foliage.Foliage(byte[], byte[], ChiaWalletSdk.FoliageBlockData, ChiaWalletSdk.Signature, byte[]?, ChiaWalletSdk.Signature?)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Foliage(byte[] prevBlockHash, byte[] rewardBlockHash, FoliageBlockData foliageBlockData, Signature foliageBlockDataSignature, byte[]? foliageTransactionBlockHash, Signature? foliageTransactionBlockSignature)
+    parameters:
+    - id: prevBlockHash
+      type: System.Byte[]
+    - id: rewardBlockHash
+      type: System.Byte[]
+    - id: foliageBlockData
+      type: ChiaWalletSdk.FoliageBlockData
+    - id: foliageBlockDataSignature
+      type: ChiaWalletSdk.Signature
+    - id: foliageTransactionBlockHash
+      type: System.Byte[]
+    - id: foliageTransactionBlockSignature
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Sub New(prevBlockHash As Byte(), rewardBlockHash As Byte(), foliageBlockData As FoliageBlockData, foliageBlockDataSignature As Signature, foliageTransactionBlockHash As Byte(), foliageTransactionBlockSignature As Signature)
+  overload: ChiaWalletSdk.Foliage.#ctor*
+  nameWithType.vb: Foliage.New(Byte(), Byte(), FoliageBlockData, Signature, Byte(), Signature)
+  fullName.vb: ChiaWalletSdk.Foliage.New(Byte(), Byte(), ChiaWalletSdk.FoliageBlockData, ChiaWalletSdk.Signature, Byte(), ChiaWalletSdk.Signature)
+  name.vb: New(Byte(), Byte(), FoliageBlockData, Signature, Byte(), Signature)
+- uid: ChiaWalletSdk.Foliage.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Foliage.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Foliage.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Foliage.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Foliage.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Foliage.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Foliage.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Foliage.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Foliage.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Foliage.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Foliage.Destroy
+  commentId: M:ChiaWalletSdk.Foliage.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Foliage.Destroy()
+  fullName: ChiaWalletSdk.Foliage.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Foliage.Destroy*
+- uid: ChiaWalletSdk.Foliage.Dispose
+  commentId: M:ChiaWalletSdk.Foliage.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Foliage.Dispose()
+  fullName: ChiaWalletSdk.Foliage.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Foliage.Dispose*
+- uid: ChiaWalletSdk.Foliage.GetFoliageBlockData
+  commentId: M:ChiaWalletSdk.Foliage.GetFoliageBlockData
+  id: GetFoliageBlockData
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: GetFoliageBlockData()
+  nameWithType: Foliage.GetFoliageBlockData()
+  fullName: ChiaWalletSdk.Foliage.GetFoliageBlockData()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FoliageBlockData GetFoliageBlockData()
+    return:
+      type: ChiaWalletSdk.FoliageBlockData
+    content.vb: Public Function GetFoliageBlockData() As FoliageBlockData
+  overload: ChiaWalletSdk.Foliage.GetFoliageBlockData*
+  implements:
+  - ChiaWalletSdk.IFoliage.GetFoliageBlockData
+- uid: ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature
+  commentId: M:ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature
+  id: GetFoliageBlockDataSignature
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: GetFoliageBlockDataSignature()
+  nameWithType: Foliage.GetFoliageBlockDataSignature()
+  fullName: ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Signature GetFoliageBlockDataSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Function GetFoliageBlockDataSignature() As Signature
+  overload: ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature*
+  implements:
+  - ChiaWalletSdk.IFoliage.GetFoliageBlockDataSignature
+- uid: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash
+  commentId: M:ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash
+  id: GetFoliageTransactionBlockHash
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: GetFoliageTransactionBlockHash()
+  nameWithType: Foliage.GetFoliageTransactionBlockHash()
+  fullName: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetFoliageTransactionBlockHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetFoliageTransactionBlockHash() As Byte()
+  overload: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockHash
+- uid: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature
+  commentId: M:ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature
+  id: GetFoliageTransactionBlockSignature
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: GetFoliageTransactionBlockSignature()
+  nameWithType: Foliage.GetFoliageTransactionBlockSignature()
+  fullName: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Signature? GetFoliageTransactionBlockSignature()
+    return:
+      type: ChiaWalletSdk.Signature
+    content.vb: Public Function GetFoliageTransactionBlockSignature() As Signature
+  overload: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature*
+  implements:
+  - ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockSignature
+- uid: ChiaWalletSdk.Foliage.GetPrevBlockHash
+  commentId: M:ChiaWalletSdk.Foliage.GetPrevBlockHash
+  id: GetPrevBlockHash
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: GetPrevBlockHash()
+  nameWithType: Foliage.GetPrevBlockHash()
+  fullName: ChiaWalletSdk.Foliage.GetPrevBlockHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPrevBlockHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPrevBlockHash() As Byte()
+  overload: ChiaWalletSdk.Foliage.GetPrevBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliage.GetPrevBlockHash
+- uid: ChiaWalletSdk.Foliage.GetRewardBlockHash
+  commentId: M:ChiaWalletSdk.Foliage.GetRewardBlockHash
+  id: GetRewardBlockHash
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: GetRewardBlockHash()
+  nameWithType: Foliage.GetRewardBlockHash()
+  fullName: ChiaWalletSdk.Foliage.GetRewardBlockHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetRewardBlockHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetRewardBlockHash() As Byte()
+  overload: ChiaWalletSdk.Foliage.GetRewardBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliage.GetRewardBlockHash
+- uid: ChiaWalletSdk.Foliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  commentId: M:ChiaWalletSdk.Foliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  id: SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: SetFoliageBlockData(FoliageBlockData)
+  nameWithType: Foliage.SetFoliageBlockData(FoliageBlockData)
+  fullName: ChiaWalletSdk.Foliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage SetFoliageBlockData(FoliageBlockData value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.FoliageBlockData
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function SetFoliageBlockData(value As FoliageBlockData) As Foliage
+  overload: ChiaWalletSdk.Foliage.SetFoliageBlockData*
+  implements:
+  - ChiaWalletSdk.IFoliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+- uid: ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  id: SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: SetFoliageBlockDataSignature(Signature)
+  nameWithType: Foliage.SetFoliageBlockDataSignature(Signature)
+  fullName: ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage SetFoliageBlockDataSignature(Signature value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Signature
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function SetFoliageBlockDataSignature(value As Signature) As Foliage
+  overload: ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature*
+  implements:
+  - ChiaWalletSdk.IFoliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+- uid: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash(System.Byte[])
+  id: SetFoliageTransactionBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: SetFoliageTransactionBlockHash(byte[]?)
+  nameWithType: Foliage.SetFoliageTransactionBlockHash(byte[]?)
+  fullName: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage SetFoliageTransactionBlockHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function SetFoliageTransactionBlockHash(value As Byte()) As Foliage
+  overload: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(System.Byte[])
+  nameWithType.vb: Foliage.SetFoliageTransactionBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash(Byte())
+  name.vb: SetFoliageTransactionBlockHash(Byte())
+- uid: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  id: SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: SetFoliageTransactionBlockSignature(Signature?)
+  nameWithType: Foliage.SetFoliageTransactionBlockSignature(Signature?)
+  fullName: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage SetFoliageTransactionBlockSignature(Signature? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Signature
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function SetFoliageTransactionBlockSignature(value As Signature) As Foliage
+  overload: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature*
+  implements:
+  - ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  nameWithType.vb: Foliage.SetFoliageTransactionBlockSignature(Signature)
+  fullName.vb: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  name.vb: SetFoliageTransactionBlockSignature(Signature)
+- uid: ChiaWalletSdk.Foliage.SetPrevBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Foliage.SetPrevBlockHash(System.Byte[])
+  id: SetPrevBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: SetPrevBlockHash(byte[])
+  nameWithType: Foliage.SetPrevBlockHash(byte[])
+  fullName: ChiaWalletSdk.Foliage.SetPrevBlockHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage SetPrevBlockHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function SetPrevBlockHash(value As Byte()) As Foliage
+  overload: ChiaWalletSdk.Foliage.SetPrevBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliage.SetPrevBlockHash(System.Byte[])
+  nameWithType.vb: Foliage.SetPrevBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.Foliage.SetPrevBlockHash(Byte())
+  name.vb: SetPrevBlockHash(Byte())
+- uid: ChiaWalletSdk.Foliage.SetRewardBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Foliage.SetRewardBlockHash(System.Byte[])
+  id: SetRewardBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.Foliage
+  langs:
+  - csharp
+  - vb
+  name: SetRewardBlockHash(byte[])
+  nameWithType: Foliage.SetRewardBlockHash(byte[])
+  fullName: ChiaWalletSdk.Foliage.SetRewardBlockHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Foliage SetRewardBlockHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Foliage
+    content.vb: Public Function SetRewardBlockHash(value As Byte()) As Foliage
+  overload: ChiaWalletSdk.Foliage.SetRewardBlockHash*
+  implements:
+  - ChiaWalletSdk.IFoliage.SetRewardBlockHash(System.Byte[])
+  nameWithType.vb: Foliage.SetRewardBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.Foliage.SetRewardBlockHash(Byte())
+  name.vb: SetRewardBlockHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IFoliage
+  commentId: T:ChiaWalletSdk.IFoliage
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html
+  name: IFoliage
+  nameWithType: IFoliage
+  fullName: ChiaWalletSdk.IFoliage
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Foliage.#ctor*
+  commentId: Overload:ChiaWalletSdk.Foliage.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage__ctor_System_IntPtr_
+  name: Foliage
+  nameWithType: Foliage.Foliage
+  fullName: ChiaWalletSdk.Foliage.Foliage
+  nameWithType.vb: Foliage.New
+  fullName.vb: ChiaWalletSdk.Foliage.New
+  name.vb: New
+- uid: ChiaWalletSdk.Foliage.Finalize*
+  commentId: Overload:ChiaWalletSdk.Foliage.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_Finalize
+  name: ~Foliage
+  nameWithType: Foliage.~Foliage
+  fullName: ChiaWalletSdk.Foliage.~Foliage
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Foliage.Finalize*
+    name: Foliage
+    isExternal: true
+    href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.FoliageBlockData
+  commentId: T:ChiaWalletSdk.FoliageBlockData
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.FoliageBlockData.html
+  name: FoliageBlockData
+  nameWithType: FoliageBlockData
+  fullName: ChiaWalletSdk.FoliageBlockData
+- uid: ChiaWalletSdk.Signature
+  commentId: T:ChiaWalletSdk.Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Signature.html
+  name: Signature
+  nameWithType: Signature
+  fullName: ChiaWalletSdk.Signature
+- uid: ChiaWalletSdk.Foliage.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Foliage.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Foliage.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Foliage.FreeRustArcPtr
+- uid: ChiaWalletSdk.Foliage.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Foliage.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Foliage.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Foliage.CloneRustArcPtr
+- uid: ChiaWalletSdk.Foliage.Destroy*
+  commentId: Overload:ChiaWalletSdk.Foliage.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_Destroy
+  name: Destroy
+  nameWithType: Foliage.Destroy
+  fullName: ChiaWalletSdk.Foliage.Destroy
+- uid: ChiaWalletSdk.Foliage.Dispose*
+  commentId: Overload:ChiaWalletSdk.Foliage.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_Dispose
+  name: Dispose
+  nameWithType: Foliage.Dispose
+  fullName: ChiaWalletSdk.Foliage.Dispose
+- uid: ChiaWalletSdk.Foliage.GetFoliageBlockData*
+  commentId: Overload:ChiaWalletSdk.Foliage.GetFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_GetFoliageBlockData
+  name: GetFoliageBlockData
+  nameWithType: Foliage.GetFoliageBlockData
+  fullName: ChiaWalletSdk.Foliage.GetFoliageBlockData
+- uid: ChiaWalletSdk.IFoliage.GetFoliageBlockData
+  commentId: M:ChiaWalletSdk.IFoliage.GetFoliageBlockData
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageBlockData
+  name: GetFoliageBlockData()
+  nameWithType: IFoliage.GetFoliageBlockData()
+  fullName: ChiaWalletSdk.IFoliage.GetFoliageBlockData()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageBlockData
+    name: GetFoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageBlockData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageBlockData
+    name: GetFoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageBlockData
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature*
+  commentId: Overload:ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_GetFoliageBlockDataSignature
+  name: GetFoliageBlockDataSignature
+  nameWithType: Foliage.GetFoliageBlockDataSignature
+  fullName: ChiaWalletSdk.Foliage.GetFoliageBlockDataSignature
+- uid: ChiaWalletSdk.IFoliage.GetFoliageBlockDataSignature
+  commentId: M:ChiaWalletSdk.IFoliage.GetFoliageBlockDataSignature
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageBlockDataSignature
+  name: GetFoliageBlockDataSignature()
+  nameWithType: IFoliage.GetFoliageBlockDataSignature()
+  fullName: ChiaWalletSdk.IFoliage.GetFoliageBlockDataSignature()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageBlockDataSignature
+    name: GetFoliageBlockDataSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageBlockDataSignature
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageBlockDataSignature
+    name: GetFoliageBlockDataSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageBlockDataSignature
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash*
+  commentId: Overload:ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_GetFoliageTransactionBlockHash
+  name: GetFoliageTransactionBlockHash
+  nameWithType: Foliage.GetFoliageTransactionBlockHash
+  fullName: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockHash
+- uid: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockHash
+  commentId: M:ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockHash
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageTransactionBlockHash
+  name: GetFoliageTransactionBlockHash()
+  nameWithType: IFoliage.GetFoliageTransactionBlockHash()
+  fullName: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockHash
+    name: GetFoliageTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageTransactionBlockHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockHash
+    name: GetFoliageTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageTransactionBlockHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature*
+  commentId: Overload:ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_GetFoliageTransactionBlockSignature
+  name: GetFoliageTransactionBlockSignature
+  nameWithType: Foliage.GetFoliageTransactionBlockSignature
+  fullName: ChiaWalletSdk.Foliage.GetFoliageTransactionBlockSignature
+- uid: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockSignature
+  commentId: M:ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockSignature
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageTransactionBlockSignature
+  name: GetFoliageTransactionBlockSignature()
+  nameWithType: IFoliage.GetFoliageTransactionBlockSignature()
+  fullName: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockSignature()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockSignature
+    name: GetFoliageTransactionBlockSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageTransactionBlockSignature
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.GetFoliageTransactionBlockSignature
+    name: GetFoliageTransactionBlockSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetFoliageTransactionBlockSignature
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Foliage.GetPrevBlockHash*
+  commentId: Overload:ChiaWalletSdk.Foliage.GetPrevBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_GetPrevBlockHash
+  name: GetPrevBlockHash
+  nameWithType: Foliage.GetPrevBlockHash
+  fullName: ChiaWalletSdk.Foliage.GetPrevBlockHash
+- uid: ChiaWalletSdk.IFoliage.GetPrevBlockHash
+  commentId: M:ChiaWalletSdk.IFoliage.GetPrevBlockHash
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetPrevBlockHash
+  name: GetPrevBlockHash()
+  nameWithType: IFoliage.GetPrevBlockHash()
+  fullName: ChiaWalletSdk.IFoliage.GetPrevBlockHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.GetPrevBlockHash
+    name: GetPrevBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetPrevBlockHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.GetPrevBlockHash
+    name: GetPrevBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetPrevBlockHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Foliage.GetRewardBlockHash*
+  commentId: Overload:ChiaWalletSdk.Foliage.GetRewardBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_GetRewardBlockHash
+  name: GetRewardBlockHash
+  nameWithType: Foliage.GetRewardBlockHash
+  fullName: ChiaWalletSdk.Foliage.GetRewardBlockHash
+- uid: ChiaWalletSdk.IFoliage.GetRewardBlockHash
+  commentId: M:ChiaWalletSdk.IFoliage.GetRewardBlockHash
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetRewardBlockHash
+  name: GetRewardBlockHash()
+  nameWithType: IFoliage.GetRewardBlockHash()
+  fullName: ChiaWalletSdk.IFoliage.GetRewardBlockHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.GetRewardBlockHash
+    name: GetRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetRewardBlockHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.GetRewardBlockHash
+    name: GetRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_GetRewardBlockHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Foliage.SetFoliageBlockData*
+  commentId: Overload:ChiaWalletSdk.Foliage.SetFoliageBlockData
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_SetFoliageBlockData_ChiaWalletSdk_FoliageBlockData_
+  name: SetFoliageBlockData
+  nameWithType: Foliage.SetFoliageBlockData
+  fullName: ChiaWalletSdk.Foliage.SetFoliageBlockData
+- uid: ChiaWalletSdk.IFoliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  commentId: M:ChiaWalletSdk.IFoliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageBlockData_ChiaWalletSdk_FoliageBlockData_
+  name: SetFoliageBlockData(FoliageBlockData)
+  nameWithType: IFoliage.SetFoliageBlockData(FoliageBlockData)
+  fullName: ChiaWalletSdk.IFoliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+    name: SetFoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageBlockData_ChiaWalletSdk_FoliageBlockData_
+  - name: (
+  - uid: ChiaWalletSdk.FoliageBlockData
+    name: FoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.FoliageBlockData.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageBlockData(ChiaWalletSdk.FoliageBlockData)
+    name: SetFoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageBlockData_ChiaWalletSdk_FoliageBlockData_
+  - name: (
+  - uid: ChiaWalletSdk.FoliageBlockData
+    name: FoliageBlockData
+    isExternal: true
+    href: ChiaWalletSdk.FoliageBlockData.html
+  - name: )
+- uid: ChiaWalletSdk.Foliage
+  commentId: T:ChiaWalletSdk.Foliage
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html
+  name: Foliage
+  nameWithType: Foliage
+  fullName: ChiaWalletSdk.Foliage
+- uid: ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature*
+  commentId: Overload:ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_SetFoliageBlockDataSignature_ChiaWalletSdk_Signature_
+  name: SetFoliageBlockDataSignature
+  nameWithType: Foliage.SetFoliageBlockDataSignature
+  fullName: ChiaWalletSdk.Foliage.SetFoliageBlockDataSignature
+- uid: ChiaWalletSdk.IFoliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.IFoliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageBlockDataSignature_ChiaWalletSdk_Signature_
+  name: SetFoliageBlockDataSignature(Signature)
+  nameWithType: IFoliage.SetFoliageBlockDataSignature(Signature)
+  fullName: ChiaWalletSdk.IFoliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+    name: SetFoliageBlockDataSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageBlockDataSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageBlockDataSignature(ChiaWalletSdk.Signature)
+    name: SetFoliageBlockDataSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageBlockDataSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+- uid: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash*
+  commentId: Overload:ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_SetFoliageTransactionBlockHash_System_Byte___
+  name: SetFoliageTransactionBlockHash
+  nameWithType: Foliage.SetFoliageTransactionBlockHash
+  fullName: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockHash
+- uid: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageTransactionBlockHash_System_Byte___
+  name: SetFoliageTransactionBlockHash(byte[])
+  nameWithType: IFoliage.SetFoliageTransactionBlockHash(byte[])
+  fullName: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(byte[])
+  nameWithType.vb: IFoliage.SetFoliageTransactionBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(Byte())
+  name.vb: SetFoliageTransactionBlockHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(System.Byte[])
+    name: SetFoliageTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageTransactionBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockHash(System.Byte[])
+    name: SetFoliageTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageTransactionBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature*
+  commentId: Overload:ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_SetFoliageTransactionBlockSignature_ChiaWalletSdk_Signature_
+  name: SetFoliageTransactionBlockSignature
+  nameWithType: Foliage.SetFoliageTransactionBlockSignature
+  fullName: ChiaWalletSdk.Foliage.SetFoliageTransactionBlockSignature
+- uid: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  commentId: M:ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageTransactionBlockSignature_ChiaWalletSdk_Signature_
+  name: SetFoliageTransactionBlockSignature(Signature)
+  nameWithType: IFoliage.SetFoliageTransactionBlockSignature(Signature)
+  fullName: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+    name: SetFoliageTransactionBlockSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageTransactionBlockSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.SetFoliageTransactionBlockSignature(ChiaWalletSdk.Signature)
+    name: SetFoliageTransactionBlockSignature
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetFoliageTransactionBlockSignature_ChiaWalletSdk_Signature_
+  - name: (
+  - uid: ChiaWalletSdk.Signature
+    name: Signature
+    isExternal: true
+    href: ChiaWalletSdk.Signature.html
+  - name: )
+- uid: ChiaWalletSdk.Foliage.SetPrevBlockHash*
+  commentId: Overload:ChiaWalletSdk.Foliage.SetPrevBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_SetPrevBlockHash_System_Byte___
+  name: SetPrevBlockHash
+  nameWithType: Foliage.SetPrevBlockHash
+  fullName: ChiaWalletSdk.Foliage.SetPrevBlockHash
+- uid: ChiaWalletSdk.IFoliage.SetPrevBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFoliage.SetPrevBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetPrevBlockHash_System_Byte___
+  name: SetPrevBlockHash(byte[])
+  nameWithType: IFoliage.SetPrevBlockHash(byte[])
+  fullName: ChiaWalletSdk.IFoliage.SetPrevBlockHash(byte[])
+  nameWithType.vb: IFoliage.SetPrevBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.IFoliage.SetPrevBlockHash(Byte())
+  name.vb: SetPrevBlockHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.SetPrevBlockHash(System.Byte[])
+    name: SetPrevBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetPrevBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.SetPrevBlockHash(System.Byte[])
+    name: SetPrevBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetPrevBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Foliage.SetRewardBlockHash*
+  commentId: Overload:ChiaWalletSdk.Foliage.SetRewardBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.Foliage.html#ChiaWalletSdk_Foliage_SetRewardBlockHash_System_Byte___
+  name: SetRewardBlockHash
+  nameWithType: Foliage.SetRewardBlockHash
+  fullName: ChiaWalletSdk.Foliage.SetRewardBlockHash
+- uid: ChiaWalletSdk.IFoliage.SetRewardBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IFoliage.SetRewardBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.IFoliage
+  isExternal: true
+  href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetRewardBlockHash_System_Byte___
+  name: SetRewardBlockHash(byte[])
+  nameWithType: IFoliage.SetRewardBlockHash(byte[])
+  fullName: ChiaWalletSdk.IFoliage.SetRewardBlockHash(byte[])
+  nameWithType.vb: IFoliage.SetRewardBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.IFoliage.SetRewardBlockHash(Byte())
+  name.vb: SetRewardBlockHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IFoliage.SetRewardBlockHash(System.Byte[])
+    name: SetRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetRewardBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IFoliage.SetRewardBlockHash(System.Byte[])
+    name: SetRewardBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IFoliage.html#ChiaWalletSdk_IFoliage_SetRewardBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

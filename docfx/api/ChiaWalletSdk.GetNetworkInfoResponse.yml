@@ -1,0 +1,954 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.GetNetworkInfoResponse
+  commentId: T:ChiaWalletSdk.GetNetworkInfoResponse
+  id: GetNetworkInfoResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.String,System.String,System.Byte[],System.String,System.Boolean)
+  - ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr
+  - ChiaWalletSdk.GetNetworkInfoResponse.Destroy
+  - ChiaWalletSdk.GetNetworkInfoResponse.Dispose
+  - ChiaWalletSdk.GetNetworkInfoResponse.Finalize
+  - ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr
+  - ChiaWalletSdk.GetNetworkInfoResponse.GetError
+  - ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge
+  - ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName
+  - ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix
+  - ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess
+  - ChiaWalletSdk.GetNetworkInfoResponse.SetError(System.String)
+  - ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+  - ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName(System.String)
+  - ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix(System.String)
+  - ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.GetNetworkInfoResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: GetNetworkInfoResponse
+  nameWithType: GetNetworkInfoResponse
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class GetNetworkInfoResponse : IGetNetworkInfoResponse'
+    content.vb: Public Class GetNetworkInfoResponse Implements IGetNetworkInfoResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.pointer
+  commentId: F:ChiaWalletSdk.GetNetworkInfoResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: GetNetworkInfoResponse.pointer
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetNetworkInfoResponse(nint)
+  nameWithType: GetNetworkInfoResponse.GetNetworkInfoResponse(nint)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkInfoResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetNetworkInfoResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.#ctor*
+  nameWithType.vb: GetNetworkInfoResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.Finalize
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: ~GetNetworkInfoResponse()
+  nameWithType: GetNetworkInfoResponse.~GetNetworkInfoResponse()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.~GetNetworkInfoResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~GetNetworkInfoResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.String,System.String,System.Byte[],System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.String,System.String,System.Byte[],System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Byte[],System.String,System.Boolean)'
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetNetworkInfoResponse(string?, string?, byte[]?, string?, bool)
+  nameWithType: GetNetworkInfoResponse.GetNetworkInfoResponse(string?, string?, byte[]?, string?, bool)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkInfoResponse(string?, string?, byte[]?, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetNetworkInfoResponse(string? networkName, string? networkPrefix, byte[]? genesisChallenge, string? error, bool success)
+    parameters:
+    - id: networkName
+      type: System.String
+    - id: networkPrefix
+      type: System.String
+    - id: genesisChallenge
+      type: System.Byte[]
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(networkName As String, networkPrefix As String, genesisChallenge As Byte(), [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.#ctor*
+  nameWithType.vb: GetNetworkInfoResponse.New(String, String, Byte(), String, Boolean)
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.New(String, String, Byte(), String, Boolean)
+  name.vb: New(String, String, Byte(), String, Boolean)
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: GetNetworkInfoResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: GetNetworkInfoResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.Destroy
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: GetNetworkInfoResponse.Destroy()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.Destroy*
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.Dispose
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: GetNetworkInfoResponse.Dispose()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.Dispose*
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetError
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: GetNetworkInfoResponse.GetError()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.GetError
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge
+  id: GetGenesisChallenge
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetGenesisChallenge()
+  nameWithType: GetNetworkInfoResponse.GetGenesisChallenge()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetGenesisChallenge()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetGenesisChallenge() As Byte()
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.GetGenesisChallenge
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName
+  id: GetNetworkName
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetNetworkName()
+  nameWithType: GetNetworkInfoResponse.GetNetworkName()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetNetworkName()
+    return:
+      type: System.String
+    content.vb: Public Function GetNetworkName() As String
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkName
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix
+  id: GetNetworkPrefix
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetNetworkPrefix()
+  nameWithType: GetNetworkInfoResponse.GetNetworkPrefix()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetNetworkPrefix()
+    return:
+      type: System.String
+    content.vb: Public Function GetNetworkPrefix() As String
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkPrefix
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: GetNetworkInfoResponse.GetSuccess()
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.GetSuccess
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: GetNetworkInfoResponse.SetError(string?)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetNetworkInfoResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.GetNetworkInfoResponse
+    content.vb: Public Function SetError(value As String) As GetNetworkInfoResponse
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.SetError(System.String)
+  nameWithType.vb: GetNetworkInfoResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+  id: SetGenesisChallenge(System.Byte[])
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: SetGenesisChallenge(byte[]?)
+  nameWithType: GetNetworkInfoResponse.SetGenesisChallenge(byte[]?)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetNetworkInfoResponse SetGenesisChallenge(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.GetNetworkInfoResponse
+    content.vb: Public Function SetGenesisChallenge(value As Byte()) As GetNetworkInfoResponse
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+  nameWithType.vb: GetNetworkInfoResponse.SetGenesisChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge(Byte())
+  name.vb: SetGenesisChallenge(Byte())
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName(System.String)
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName(System.String)
+  id: SetNetworkName(System.String)
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: SetNetworkName(string?)
+  nameWithType: GetNetworkInfoResponse.SetNetworkName(string?)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetNetworkInfoResponse SetNetworkName(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.GetNetworkInfoResponse
+    content.vb: Public Function SetNetworkName(value As String) As GetNetworkInfoResponse
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(System.String)
+  nameWithType.vb: GetNetworkInfoResponse.SetNetworkName(String)
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName(String)
+  name.vb: SetNetworkName(String)
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix(System.String)
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix(System.String)
+  id: SetNetworkPrefix(System.String)
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: SetNetworkPrefix(string?)
+  nameWithType: GetNetworkInfoResponse.SetNetworkPrefix(string?)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetNetworkInfoResponse SetNetworkPrefix(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.GetNetworkInfoResponse
+    content.vb: Public Function SetNetworkPrefix(value As String) As GetNetworkInfoResponse
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(System.String)
+  nameWithType.vb: GetNetworkInfoResponse.SetNetworkPrefix(String)
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix(String)
+  name.vb: SetNetworkPrefix(String)
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.GetNetworkInfoResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: GetNetworkInfoResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetNetworkInfoResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.GetNetworkInfoResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As GetNetworkInfoResponse
+  overload: ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: GetNetworkInfoResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse
+  commentId: T:ChiaWalletSdk.IGetNetworkInfoResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html
+  name: IGetNetworkInfoResponse
+  nameWithType: IGetNetworkInfoResponse
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse__ctor_System_IntPtr_
+  name: GetNetworkInfoResponse
+  nameWithType: GetNetworkInfoResponse.GetNetworkInfoResponse
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkInfoResponse
+  nameWithType.vb: GetNetworkInfoResponse.New
+  fullName.vb: ChiaWalletSdk.GetNetworkInfoResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_Finalize
+  name: ~GetNetworkInfoResponse
+  nameWithType: GetNetworkInfoResponse.~GetNetworkInfoResponse
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.~GetNetworkInfoResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.GetNetworkInfoResponse.Finalize*
+    name: GetNetworkInfoResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: GetNetworkInfoResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: GetNetworkInfoResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_Destroy
+  name: Destroy
+  nameWithType: GetNetworkInfoResponse.Destroy
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.Destroy
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_Dispose
+  name: Dispose
+  nameWithType: GetNetworkInfoResponse.Dispose
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.Dispose
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_GetError
+  name: GetError
+  nameWithType: GetNetworkInfoResponse.GetError
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetError
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetError
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.GetError
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetError
+  name: GetError()
+  nameWithType: IGetNetworkInfoResponse.GetError()
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_GetGenesisChallenge
+  name: GetGenesisChallenge
+  nameWithType: GetNetworkInfoResponse.GetGenesisChallenge
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetGenesisChallenge
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.GetGenesisChallenge
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetGenesisChallenge
+  name: GetGenesisChallenge()
+  nameWithType: IGetNetworkInfoResponse.GetGenesisChallenge()
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.GetGenesisChallenge()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetGenesisChallenge
+    name: GetGenesisChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetGenesisChallenge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetGenesisChallenge
+    name: GetGenesisChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetGenesisChallenge
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_GetNetworkName
+  name: GetNetworkName
+  nameWithType: GetNetworkInfoResponse.GetNetworkName
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkName
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkName
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetNetworkName
+  name: GetNetworkName()
+  nameWithType: IGetNetworkInfoResponse.GetNetworkName()
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkName()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkName
+    name: GetNetworkName
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetNetworkName
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkName
+    name: GetNetworkName
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetNetworkName
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_GetNetworkPrefix
+  name: GetNetworkPrefix
+  nameWithType: GetNetworkInfoResponse.GetNetworkPrefix
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkPrefix
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkPrefix
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetNetworkPrefix
+  name: GetNetworkPrefix()
+  nameWithType: IGetNetworkInfoResponse.GetNetworkPrefix()
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkPrefix()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkPrefix
+    name: GetNetworkPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetNetworkPrefix
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetNetworkPrefix
+    name: GetNetworkPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetNetworkPrefix
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: GetNetworkInfoResponse.GetSuccess
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.GetSuccess
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IGetNetworkInfoResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_SetError_System_String_
+  name: SetError
+  nameWithType: GetNetworkInfoResponse.SetError
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetError
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IGetNetworkInfoResponse.SetError(string)
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.SetError(string)
+  nameWithType.vb: IGetNetworkInfoResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IGetNetworkInfoResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse
+  commentId: T:ChiaWalletSdk.GetNetworkInfoResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html
+  name: GetNetworkInfoResponse
+  nameWithType: GetNetworkInfoResponse
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_SetGenesisChallenge_System_Byte___
+  name: SetGenesisChallenge
+  nameWithType: GetNetworkInfoResponse.SetGenesisChallenge
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetGenesisChallenge_System_Byte___
+  name: SetGenesisChallenge(byte[])
+  nameWithType: IGetNetworkInfoResponse.SetGenesisChallenge(byte[])
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(byte[])
+  nameWithType.vb: IGetNetworkInfoResponse.SetGenesisChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(Byte())
+  name.vb: SetGenesisChallenge(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+    name: SetGenesisChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetGenesisChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])
+    name: SetGenesisChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetGenesisChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_SetNetworkName_System_String_
+  name: SetNetworkName
+  nameWithType: GetNetworkInfoResponse.SetNetworkName
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(System.String)
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(System.String)
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetNetworkName_System_String_
+  name: SetNetworkName(string)
+  nameWithType: IGetNetworkInfoResponse.SetNetworkName(string)
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(string)
+  nameWithType.vb: IGetNetworkInfoResponse.SetNetworkName(String)
+  fullName.vb: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(String)
+  name.vb: SetNetworkName(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(System.String)
+    name: SetNetworkName
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetNetworkName_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkName(System.String)
+    name: SetNetworkName
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetNetworkName_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_SetNetworkPrefix_System_String_
+  name: SetNetworkPrefix
+  nameWithType: GetNetworkInfoResponse.SetNetworkPrefix
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(System.String)
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(System.String)
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetNetworkPrefix_System_String_
+  name: SetNetworkPrefix(string)
+  nameWithType: IGetNetworkInfoResponse.SetNetworkPrefix(string)
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(string)
+  nameWithType.vb: IGetNetworkInfoResponse.SetNetworkPrefix(String)
+  fullName.vb: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(String)
+  name.vb: SetNetworkPrefix(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(System.String)
+    name: SetNetworkPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetNetworkPrefix_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetNetworkPrefix(System.String)
+    name: SetNetworkPrefix
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetNetworkPrefix_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetNetworkInfoResponse.html#ChiaWalletSdk_GetNetworkInfoResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: GetNetworkInfoResponse.SetSuccess
+  fullName: ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess
+- uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IGetNetworkInfoResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IGetNetworkInfoResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(bool)
+  nameWithType.vb: IGetNetworkInfoResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetNetworkInfoResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetNetworkInfoResponse.html#ChiaWalletSdk_IGetNetworkInfoResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

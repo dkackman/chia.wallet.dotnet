@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.GetBlockResponse
+  commentId: T:ChiaWalletSdk.GetBlockResponse
+  id: GetBlockResponse
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.GetBlockResponse.#ctor(ChiaWalletSdk.FullBlock,System.String,System.Boolean)
+  - ChiaWalletSdk.GetBlockResponse.#ctor(System.IntPtr)
+  - ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr
+  - ChiaWalletSdk.GetBlockResponse.Destroy
+  - ChiaWalletSdk.GetBlockResponse.Dispose
+  - ChiaWalletSdk.GetBlockResponse.Finalize
+  - ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr
+  - ChiaWalletSdk.GetBlockResponse.GetBlock
+  - ChiaWalletSdk.GetBlockResponse.GetError
+  - ChiaWalletSdk.GetBlockResponse.GetSuccess
+  - ChiaWalletSdk.GetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  - ChiaWalletSdk.GetBlockResponse.SetError(System.String)
+  - ChiaWalletSdk.GetBlockResponse.SetSuccess(System.Boolean)
+  - ChiaWalletSdk.GetBlockResponse.pointer
+  langs:
+  - csharp
+  - vb
+  name: GetBlockResponse
+  nameWithType: GetBlockResponse
+  fullName: ChiaWalletSdk.GetBlockResponse
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class GetBlockResponse : IGetBlockResponse'
+    content.vb: Public Class GetBlockResponse Implements IGetBlockResponse
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse
+- uid: ChiaWalletSdk.GetBlockResponse.pointer
+  commentId: F:ChiaWalletSdk.GetBlockResponse.pointer
+  id: pointer
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: GetBlockResponse.pointer
+  fullName: ChiaWalletSdk.GetBlockResponse.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.GetBlockResponse.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.GetBlockResponse.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: GetBlockResponse(nint)
+  nameWithType: GetBlockResponse.GetBlockResponse(nint)
+  fullName: ChiaWalletSdk.GetBlockResponse.GetBlockResponse(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetBlockResponse(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.GetBlockResponse.#ctor*
+  nameWithType.vb: GetBlockResponse.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.GetBlockResponse.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.GetBlockResponse.Finalize
+  commentId: M:ChiaWalletSdk.GetBlockResponse.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: ~GetBlockResponse()
+  nameWithType: GetBlockResponse.~GetBlockResponse()
+  fullName: ChiaWalletSdk.GetBlockResponse.~GetBlockResponse()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~GetBlockResponse()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.GetBlockResponse.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.GetBlockResponse.#ctor(ChiaWalletSdk.FullBlock,System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.GetBlockResponse.#ctor(ChiaWalletSdk.FullBlock,System.String,System.Boolean)
+  id: '#ctor(ChiaWalletSdk.FullBlock,System.String,System.Boolean)'
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: GetBlockResponse(FullBlock?, string?, bool)
+  nameWithType: GetBlockResponse.GetBlockResponse(FullBlock?, string?, bool)
+  fullName: ChiaWalletSdk.GetBlockResponse.GetBlockResponse(ChiaWalletSdk.FullBlock?, string?, bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public GetBlockResponse(FullBlock? block, string? error, bool success)
+    parameters:
+    - id: block
+      type: ChiaWalletSdk.FullBlock
+    - id: error
+      type: System.String
+    - id: success
+      type: System.Boolean
+    content.vb: Public Sub New(block As FullBlock, [error] As String, success As Boolean)
+  overload: ChiaWalletSdk.GetBlockResponse.#ctor*
+  nameWithType.vb: GetBlockResponse.New(FullBlock, String, Boolean)
+  fullName.vb: ChiaWalletSdk.GetBlockResponse.New(ChiaWalletSdk.FullBlock, String, Boolean)
+  name.vb: New(FullBlock, String, Boolean)
+- uid: ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: GetBlockResponse.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr*
+- uid: ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: GetBlockResponse.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr*
+- uid: ChiaWalletSdk.GetBlockResponse.Destroy
+  commentId: M:ChiaWalletSdk.GetBlockResponse.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: GetBlockResponse.Destroy()
+  fullName: ChiaWalletSdk.GetBlockResponse.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.GetBlockResponse.Destroy*
+- uid: ChiaWalletSdk.GetBlockResponse.Dispose
+  commentId: M:ChiaWalletSdk.GetBlockResponse.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: GetBlockResponse.Dispose()
+  fullName: ChiaWalletSdk.GetBlockResponse.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.GetBlockResponse.Dispose*
+- uid: ChiaWalletSdk.GetBlockResponse.GetBlock
+  commentId: M:ChiaWalletSdk.GetBlockResponse.GetBlock
+  id: GetBlock
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: GetBlock()
+  nameWithType: GetBlockResponse.GetBlock()
+  fullName: ChiaWalletSdk.GetBlockResponse.GetBlock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public FullBlock? GetBlock()
+    return:
+      type: ChiaWalletSdk.FullBlock
+    content.vb: Public Function GetBlock() As FullBlock
+  overload: ChiaWalletSdk.GetBlockResponse.GetBlock*
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse.GetBlock
+- uid: ChiaWalletSdk.GetBlockResponse.GetError
+  commentId: M:ChiaWalletSdk.GetBlockResponse.GetError
+  id: GetError
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: GetError()
+  nameWithType: GetBlockResponse.GetError()
+  fullName: ChiaWalletSdk.GetBlockResponse.GetError()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetError()
+    return:
+      type: System.String
+    content.vb: Public Function GetError() As String
+  overload: ChiaWalletSdk.GetBlockResponse.GetError*
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse.GetError
+- uid: ChiaWalletSdk.GetBlockResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.GetBlockResponse.GetSuccess
+  id: GetSuccess
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: GetSuccess()
+  nameWithType: GetBlockResponse.GetSuccess()
+  fullName: ChiaWalletSdk.GetBlockResponse.GetSuccess()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetSuccess()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSuccess() As Boolean
+  overload: ChiaWalletSdk.GetBlockResponse.GetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse.GetSuccess
+- uid: ChiaWalletSdk.GetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  commentId: M:ChiaWalletSdk.GetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  id: SetBlock(ChiaWalletSdk.FullBlock)
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: SetBlock(FullBlock?)
+  nameWithType: GetBlockResponse.SetBlock(FullBlock?)
+  fullName: ChiaWalletSdk.GetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetBlockResponse SetBlock(FullBlock? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.FullBlock
+    return:
+      type: ChiaWalletSdk.GetBlockResponse
+    content.vb: Public Function SetBlock(value As FullBlock) As GetBlockResponse
+  overload: ChiaWalletSdk.GetBlockResponse.SetBlock*
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  nameWithType.vb: GetBlockResponse.SetBlock(FullBlock)
+  fullName.vb: ChiaWalletSdk.GetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  name.vb: SetBlock(FullBlock)
+- uid: ChiaWalletSdk.GetBlockResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.GetBlockResponse.SetError(System.String)
+  id: SetError(System.String)
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: SetError(string?)
+  nameWithType: GetBlockResponse.SetError(string?)
+  fullName: ChiaWalletSdk.GetBlockResponse.SetError(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetBlockResponse SetError(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.GetBlockResponse
+    content.vb: Public Function SetError(value As String) As GetBlockResponse
+  overload: ChiaWalletSdk.GetBlockResponse.SetError*
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse.SetError(System.String)
+  nameWithType.vb: GetBlockResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.GetBlockResponse.SetError(String)
+  name.vb: SetError(String)
+- uid: ChiaWalletSdk.GetBlockResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.GetBlockResponse.SetSuccess(System.Boolean)
+  id: SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.GetBlockResponse
+  langs:
+  - csharp
+  - vb
+  name: SetSuccess(bool)
+  nameWithType: GetBlockResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.GetBlockResponse.SetSuccess(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public GetBlockResponse SetSuccess(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.GetBlockResponse
+    content.vb: Public Function SetSuccess(value As Boolean) As GetBlockResponse
+  overload: ChiaWalletSdk.GetBlockResponse.SetSuccess*
+  implements:
+  - ChiaWalletSdk.IGetBlockResponse.SetSuccess(System.Boolean)
+  nameWithType.vb: GetBlockResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.GetBlockResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IGetBlockResponse
+  commentId: T:ChiaWalletSdk.IGetBlockResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html
+  name: IGetBlockResponse
+  nameWithType: IGetBlockResponse
+  fullName: ChiaWalletSdk.IGetBlockResponse
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.GetBlockResponse.#ctor*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse__ctor_System_IntPtr_
+  name: GetBlockResponse
+  nameWithType: GetBlockResponse.GetBlockResponse
+  fullName: ChiaWalletSdk.GetBlockResponse.GetBlockResponse
+  nameWithType.vb: GetBlockResponse.New
+  fullName.vb: ChiaWalletSdk.GetBlockResponse.New
+  name.vb: New
+- uid: ChiaWalletSdk.GetBlockResponse.Finalize*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_Finalize
+  name: ~GetBlockResponse
+  nameWithType: GetBlockResponse.~GetBlockResponse
+  fullName: ChiaWalletSdk.GetBlockResponse.~GetBlockResponse
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.GetBlockResponse.Finalize*
+    name: GetBlockResponse
+    isExternal: true
+    href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_Finalize
+- uid: ChiaWalletSdk.FullBlock
+  commentId: T:ChiaWalletSdk.FullBlock
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.FullBlock.html
+  name: FullBlock
+  nameWithType: FullBlock
+  fullName: ChiaWalletSdk.FullBlock
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: GetBlockResponse.FreeRustArcPtr
+  fullName: ChiaWalletSdk.GetBlockResponse.FreeRustArcPtr
+- uid: ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: GetBlockResponse.CloneRustArcPtr
+  fullName: ChiaWalletSdk.GetBlockResponse.CloneRustArcPtr
+- uid: ChiaWalletSdk.GetBlockResponse.Destroy*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_Destroy
+  name: Destroy
+  nameWithType: GetBlockResponse.Destroy
+  fullName: ChiaWalletSdk.GetBlockResponse.Destroy
+- uid: ChiaWalletSdk.GetBlockResponse.Dispose*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_Dispose
+  name: Dispose
+  nameWithType: GetBlockResponse.Dispose
+  fullName: ChiaWalletSdk.GetBlockResponse.Dispose
+- uid: ChiaWalletSdk.GetBlockResponse.GetBlock*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.GetBlock
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_GetBlock
+  name: GetBlock
+  nameWithType: GetBlockResponse.GetBlock
+  fullName: ChiaWalletSdk.GetBlockResponse.GetBlock
+- uid: ChiaWalletSdk.IGetBlockResponse.GetBlock
+  commentId: M:ChiaWalletSdk.IGetBlockResponse.GetBlock
+  parent: ChiaWalletSdk.IGetBlockResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetBlock
+  name: GetBlock()
+  nameWithType: IGetBlockResponse.GetBlock()
+  fullName: ChiaWalletSdk.IGetBlockResponse.GetBlock()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetBlockResponse.GetBlock
+    name: GetBlock
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetBlock
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetBlockResponse.GetBlock
+    name: GetBlock
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetBlock
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetBlockResponse.GetError*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.GetError
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_GetError
+  name: GetError
+  nameWithType: GetBlockResponse.GetError
+  fullName: ChiaWalletSdk.GetBlockResponse.GetError
+- uid: ChiaWalletSdk.IGetBlockResponse.GetError
+  commentId: M:ChiaWalletSdk.IGetBlockResponse.GetError
+  parent: ChiaWalletSdk.IGetBlockResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetError
+  name: GetError()
+  nameWithType: IGetBlockResponse.GetError()
+  fullName: ChiaWalletSdk.IGetBlockResponse.GetError()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetBlockResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetError
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetBlockResponse.GetError
+    name: GetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetError
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetBlockResponse.GetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.GetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_GetSuccess
+  name: GetSuccess
+  nameWithType: GetBlockResponse.GetSuccess
+  fullName: ChiaWalletSdk.GetBlockResponse.GetSuccess
+- uid: ChiaWalletSdk.IGetBlockResponse.GetSuccess
+  commentId: M:ChiaWalletSdk.IGetBlockResponse.GetSuccess
+  parent: ChiaWalletSdk.IGetBlockResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetSuccess
+  name: GetSuccess()
+  nameWithType: IGetBlockResponse.GetSuccess()
+  fullName: ChiaWalletSdk.IGetBlockResponse.GetSuccess()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetBlockResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetSuccess
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetBlockResponse.GetSuccess
+    name: GetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_GetSuccess
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.GetBlockResponse.SetBlock*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.SetBlock
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_SetBlock_ChiaWalletSdk_FullBlock_
+  name: SetBlock
+  nameWithType: GetBlockResponse.SetBlock
+  fullName: ChiaWalletSdk.GetBlockResponse.SetBlock
+- uid: ChiaWalletSdk.IGetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  commentId: M:ChiaWalletSdk.IGetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  parent: ChiaWalletSdk.IGetBlockResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetBlock_ChiaWalletSdk_FullBlock_
+  name: SetBlock(FullBlock)
+  nameWithType: IGetBlockResponse.SetBlock(FullBlock)
+  fullName: ChiaWalletSdk.IGetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+    name: SetBlock
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetBlock_ChiaWalletSdk_FullBlock_
+  - name: (
+  - uid: ChiaWalletSdk.FullBlock
+    name: FullBlock
+    isExternal: true
+    href: ChiaWalletSdk.FullBlock.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetBlockResponse.SetBlock(ChiaWalletSdk.FullBlock)
+    name: SetBlock
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetBlock_ChiaWalletSdk_FullBlock_
+  - name: (
+  - uid: ChiaWalletSdk.FullBlock
+    name: FullBlock
+    isExternal: true
+    href: ChiaWalletSdk.FullBlock.html
+  - name: )
+- uid: ChiaWalletSdk.GetBlockResponse
+  commentId: T:ChiaWalletSdk.GetBlockResponse
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html
+  name: GetBlockResponse
+  nameWithType: GetBlockResponse
+  fullName: ChiaWalletSdk.GetBlockResponse
+- uid: ChiaWalletSdk.GetBlockResponse.SetError*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.SetError
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_SetError_System_String_
+  name: SetError
+  nameWithType: GetBlockResponse.SetError
+  fullName: ChiaWalletSdk.GetBlockResponse.SetError
+- uid: ChiaWalletSdk.IGetBlockResponse.SetError(System.String)
+  commentId: M:ChiaWalletSdk.IGetBlockResponse.SetError(System.String)
+  parent: ChiaWalletSdk.IGetBlockResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetError_System_String_
+  name: SetError(string)
+  nameWithType: IGetBlockResponse.SetError(string)
+  fullName: ChiaWalletSdk.IGetBlockResponse.SetError(string)
+  nameWithType.vb: IGetBlockResponse.SetError(String)
+  fullName.vb: ChiaWalletSdk.IGetBlockResponse.SetError(String)
+  name.vb: SetError(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetBlockResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetBlockResponse.SetError(System.String)
+    name: SetError
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetError_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.GetBlockResponse.SetSuccess*
+  commentId: Overload:ChiaWalletSdk.GetBlockResponse.SetSuccess
+  isExternal: true
+  href: ChiaWalletSdk.GetBlockResponse.html#ChiaWalletSdk_GetBlockResponse_SetSuccess_System_Boolean_
+  name: SetSuccess
+  nameWithType: GetBlockResponse.SetSuccess
+  fullName: ChiaWalletSdk.GetBlockResponse.SetSuccess
+- uid: ChiaWalletSdk.IGetBlockResponse.SetSuccess(System.Boolean)
+  commentId: M:ChiaWalletSdk.IGetBlockResponse.SetSuccess(System.Boolean)
+  parent: ChiaWalletSdk.IGetBlockResponse
+  isExternal: true
+  href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetSuccess_System_Boolean_
+  name: SetSuccess(bool)
+  nameWithType: IGetBlockResponse.SetSuccess(bool)
+  fullName: ChiaWalletSdk.IGetBlockResponse.SetSuccess(bool)
+  nameWithType.vb: IGetBlockResponse.SetSuccess(Boolean)
+  fullName.vb: ChiaWalletSdk.IGetBlockResponse.SetSuccess(Boolean)
+  name.vb: SetSuccess(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IGetBlockResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IGetBlockResponse.SetSuccess(System.Boolean)
+    name: SetSuccess
+    isExternal: true
+    href: ChiaWalletSdk.IGetBlockResponse.html#ChiaWalletSdk_IGetBlockResponse_SetSuccess_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )

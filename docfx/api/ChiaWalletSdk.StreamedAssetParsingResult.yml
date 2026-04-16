@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.StreamedAssetParsingResult
+  commentId: T:ChiaWalletSdk.StreamedAssetParsingResult
+  id: StreamedAssetParsingResult
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.StreamedAssetParsingResult.#ctor(ChiaWalletSdk.StreamedAsset,System.Boolean,System.String)
+  - ChiaWalletSdk.StreamedAssetParsingResult.#ctor(System.IntPtr)
+  - ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr
+  - ChiaWalletSdk.StreamedAssetParsingResult.Destroy
+  - ChiaWalletSdk.StreamedAssetParsingResult.Dispose
+  - ChiaWalletSdk.StreamedAssetParsingResult.Finalize
+  - ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr
+  - ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  - ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback
+  - ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset
+  - ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+  - ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+  - ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  - ChiaWalletSdk.StreamedAssetParsingResult.pointer
+  langs:
+  - csharp
+  - vb
+  name: StreamedAssetParsingResult
+  nameWithType: StreamedAssetParsingResult
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class StreamedAssetParsingResult : IStreamedAssetParsingResult'
+    content.vb: Public Class StreamedAssetParsingResult Implements IStreamedAssetParsingResult
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.pointer
+  commentId: F:ChiaWalletSdk.StreamedAssetParsingResult.pointer
+  id: pointer
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: StreamedAssetParsingResult.pointer
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: StreamedAssetParsingResult(nint)
+  nameWithType: StreamedAssetParsingResult.StreamedAssetParsingResult(nint)
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.StreamedAssetParsingResult(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public StreamedAssetParsingResult(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.#ctor*
+  nameWithType.vb: StreamedAssetParsingResult.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.StreamedAssetParsingResult.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.Finalize
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: ~StreamedAssetParsingResult()
+  nameWithType: StreamedAssetParsingResult.~StreamedAssetParsingResult()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.~StreamedAssetParsingResult()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~StreamedAssetParsingResult()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.#ctor(ChiaWalletSdk.StreamedAsset,System.Boolean,System.String)
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.#ctor(ChiaWalletSdk.StreamedAsset,System.Boolean,System.String)
+  id: '#ctor(ChiaWalletSdk.StreamedAsset,System.Boolean,System.String)'
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: StreamedAssetParsingResult(StreamedAsset?, bool, string)
+  nameWithType: StreamedAssetParsingResult.StreamedAssetParsingResult(StreamedAsset?, bool, string)
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.StreamedAssetParsingResult(ChiaWalletSdk.StreamedAsset?, bool, string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public StreamedAssetParsingResult(StreamedAsset? streamedAsset, bool lastSpendWasClawback, string lastPaymentAmountIfClawback)
+    parameters:
+    - id: streamedAsset
+      type: ChiaWalletSdk.StreamedAsset
+    - id: lastSpendWasClawback
+      type: System.Boolean
+    - id: lastPaymentAmountIfClawback
+      type: System.String
+    content.vb: Public Sub New(streamedAsset As StreamedAsset, lastSpendWasClawback As Boolean, lastPaymentAmountIfClawback As String)
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.#ctor*
+  nameWithType.vb: StreamedAssetParsingResult.New(StreamedAsset, Boolean, String)
+  fullName.vb: ChiaWalletSdk.StreamedAssetParsingResult.New(ChiaWalletSdk.StreamedAsset, Boolean, String)
+  name.vb: New(StreamedAsset, Boolean, String)
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: StreamedAssetParsingResult.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr*
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: StreamedAssetParsingResult.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr*
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.Destroy
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: StreamedAssetParsingResult.Destroy()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.Destroy*
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.Dispose
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: StreamedAssetParsingResult.Dispose()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.Dispose*
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  id: GetLastPaymentAmountIfClawback
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: GetLastPaymentAmountIfClawback()
+  nameWithType: StreamedAssetParsingResult.GetLastPaymentAmountIfClawback()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetLastPaymentAmountIfClawback()
+    return:
+      type: System.String
+    content.vb: Public Function GetLastPaymentAmountIfClawback() As String
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback*
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback
+  id: GetLastSpendWasClawback
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: GetLastSpendWasClawback()
+  nameWithType: StreamedAssetParsingResult.GetLastSpendWasClawback()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetLastSpendWasClawback()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetLastSpendWasClawback() As Boolean
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback*
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult.GetLastSpendWasClawback
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset
+  id: GetStreamedAsset
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: GetStreamedAsset()
+  nameWithType: StreamedAssetParsingResult.GetStreamedAsset()
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAsset? GetStreamedAsset()
+    return:
+      type: ChiaWalletSdk.StreamedAsset
+    content.vb: Public Function GetStreamedAsset() As StreamedAsset
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset*
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult.GetStreamedAsset
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+  id: SetLastPaymentAmountIfClawback(System.String)
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: SetLastPaymentAmountIfClawback(string)
+  nameWithType: StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(string)
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAssetParsingResult SetLastPaymentAmountIfClawback(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.StreamedAssetParsingResult
+    content.vb: Public Function SetLastPaymentAmountIfClawback(value As String) As StreamedAssetParsingResult
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback*
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+  nameWithType.vb: StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(String)
+  fullName.vb: ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback(String)
+  name.vb: SetLastPaymentAmountIfClawback(String)
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+  id: SetLastSpendWasClawback(System.Boolean)
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: SetLastSpendWasClawback(bool)
+  nameWithType: StreamedAssetParsingResult.SetLastSpendWasClawback(bool)
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAssetParsingResult SetLastSpendWasClawback(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.StreamedAssetParsingResult
+    content.vb: Public Function SetLastSpendWasClawback(value As Boolean) As StreamedAssetParsingResult
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback*
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+  nameWithType.vb: StreamedAssetParsingResult.SetLastSpendWasClawback(Boolean)
+  fullName.vb: ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback(Boolean)
+  name.vb: SetLastSpendWasClawback(Boolean)
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  commentId: M:ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  id: SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  parent: ChiaWalletSdk.StreamedAssetParsingResult
+  langs:
+  - csharp
+  - vb
+  name: SetStreamedAsset(StreamedAsset?)
+  nameWithType: StreamedAssetParsingResult.SetStreamedAsset(StreamedAsset?)
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public StreamedAssetParsingResult SetStreamedAsset(StreamedAsset? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.StreamedAsset
+    return:
+      type: ChiaWalletSdk.StreamedAssetParsingResult
+    content.vb: Public Function SetStreamedAsset(value As StreamedAsset) As StreamedAssetParsingResult
+  overload: ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset*
+  implements:
+  - ChiaWalletSdk.IStreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  nameWithType.vb: StreamedAssetParsingResult.SetStreamedAsset(StreamedAsset)
+  fullName.vb: ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  name.vb: SetStreamedAsset(StreamedAsset)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult
+  commentId: T:ChiaWalletSdk.IStreamedAssetParsingResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html
+  name: IStreamedAssetParsingResult
+  nameWithType: IStreamedAssetParsingResult
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.#ctor*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult__ctor_System_IntPtr_
+  name: StreamedAssetParsingResult
+  nameWithType: StreamedAssetParsingResult.StreamedAssetParsingResult
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.StreamedAssetParsingResult
+  nameWithType.vb: StreamedAssetParsingResult.New
+  fullName.vb: ChiaWalletSdk.StreamedAssetParsingResult.New
+  name.vb: New
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.Finalize*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_Finalize
+  name: ~StreamedAssetParsingResult
+  nameWithType: StreamedAssetParsingResult.~StreamedAssetParsingResult
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.~StreamedAssetParsingResult
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.StreamedAssetParsingResult.Finalize*
+    name: StreamedAssetParsingResult
+    isExternal: true
+    href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_Finalize
+- uid: ChiaWalletSdk.StreamedAsset
+  commentId: T:ChiaWalletSdk.StreamedAsset
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAsset.html
+  name: StreamedAsset
+  nameWithType: StreamedAsset
+  fullName: ChiaWalletSdk.StreamedAsset
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: StreamedAssetParsingResult.FreeRustArcPtr
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.FreeRustArcPtr
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: StreamedAssetParsingResult.CloneRustArcPtr
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.CloneRustArcPtr
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.Destroy*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_Destroy
+  name: Destroy
+  nameWithType: StreamedAssetParsingResult.Destroy
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.Destroy
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.Dispose*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_Dispose
+  name: Dispose
+  nameWithType: StreamedAssetParsingResult.Dispose
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.Dispose
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_GetLastPaymentAmountIfClawback
+  name: GetLastPaymentAmountIfClawback
+  nameWithType: StreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  commentId: M:ChiaWalletSdk.IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+  parent: ChiaWalletSdk.IStreamedAssetParsingResult
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetLastPaymentAmountIfClawback
+  name: GetLastPaymentAmountIfClawback()
+  nameWithType: IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback()
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+    name: GetLastPaymentAmountIfClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetLastPaymentAmountIfClawback
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastPaymentAmountIfClawback
+    name: GetLastPaymentAmountIfClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetLastPaymentAmountIfClawback
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_GetLastSpendWasClawback
+  name: GetLastSpendWasClawback
+  nameWithType: StreamedAssetParsingResult.GetLastSpendWasClawback
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.GetLastSpendWasClawback
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastSpendWasClawback
+  commentId: M:ChiaWalletSdk.IStreamedAssetParsingResult.GetLastSpendWasClawback
+  parent: ChiaWalletSdk.IStreamedAssetParsingResult
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetLastSpendWasClawback
+  name: GetLastSpendWasClawback()
+  nameWithType: IStreamedAssetParsingResult.GetLastSpendWasClawback()
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastSpendWasClawback()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastSpendWasClawback
+    name: GetLastSpendWasClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetLastSpendWasClawback
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetLastSpendWasClawback
+    name: GetLastSpendWasClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetLastSpendWasClawback
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_GetStreamedAsset
+  name: GetStreamedAsset
+  nameWithType: StreamedAssetParsingResult.GetStreamedAsset
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.GetStreamedAsset
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetStreamedAsset
+  commentId: M:ChiaWalletSdk.IStreamedAssetParsingResult.GetStreamedAsset
+  parent: ChiaWalletSdk.IStreamedAssetParsingResult
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetStreamedAsset
+  name: GetStreamedAsset()
+  nameWithType: IStreamedAssetParsingResult.GetStreamedAsset()
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult.GetStreamedAsset()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetStreamedAsset
+    name: GetStreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetStreamedAsset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.GetStreamedAsset
+    name: GetStreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_GetStreamedAsset
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_SetLastPaymentAmountIfClawback_System_String_
+  name: SetLastPaymentAmountIfClawback
+  nameWithType: StreamedAssetParsingResult.SetLastPaymentAmountIfClawback
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.SetLastPaymentAmountIfClawback
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+  commentId: M:ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+  parent: ChiaWalletSdk.IStreamedAssetParsingResult
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetLastPaymentAmountIfClawback_System_String_
+  name: SetLastPaymentAmountIfClawback(string)
+  nameWithType: IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(string)
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(string)
+  nameWithType.vb: IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(String)
+  fullName.vb: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(String)
+  name.vb: SetLastPaymentAmountIfClawback(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+    name: SetLastPaymentAmountIfClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetLastPaymentAmountIfClawback_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastPaymentAmountIfClawback(System.String)
+    name: SetLastPaymentAmountIfClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetLastPaymentAmountIfClawback_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.StreamedAssetParsingResult
+  commentId: T:ChiaWalletSdk.StreamedAssetParsingResult
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html
+  name: StreamedAssetParsingResult
+  nameWithType: StreamedAssetParsingResult
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_SetLastSpendWasClawback_System_Boolean_
+  name: SetLastSpendWasClawback
+  nameWithType: StreamedAssetParsingResult.SetLastSpendWasClawback
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.SetLastSpendWasClawback
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+  commentId: M:ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+  parent: ChiaWalletSdk.IStreamedAssetParsingResult
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetLastSpendWasClawback_System_Boolean_
+  name: SetLastSpendWasClawback(bool)
+  nameWithType: IStreamedAssetParsingResult.SetLastSpendWasClawback(bool)
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(bool)
+  nameWithType.vb: IStreamedAssetParsingResult.SetLastSpendWasClawback(Boolean)
+  fullName.vb: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(Boolean)
+  name.vb: SetLastSpendWasClawback(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+    name: SetLastSpendWasClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetLastSpendWasClawback_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetLastSpendWasClawback(System.Boolean)
+    name: SetLastSpendWasClawback
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetLastSpendWasClawback_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset*
+  commentId: Overload:ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset
+  isExternal: true
+  href: ChiaWalletSdk.StreamedAssetParsingResult.html#ChiaWalletSdk_StreamedAssetParsingResult_SetStreamedAsset_ChiaWalletSdk_StreamedAsset_
+  name: SetStreamedAsset
+  nameWithType: StreamedAssetParsingResult.SetStreamedAsset
+  fullName: ChiaWalletSdk.StreamedAssetParsingResult.SetStreamedAsset
+- uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  commentId: M:ChiaWalletSdk.IStreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  parent: ChiaWalletSdk.IStreamedAssetParsingResult
+  isExternal: true
+  href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetStreamedAsset_ChiaWalletSdk_StreamedAsset_
+  name: SetStreamedAsset(StreamedAsset)
+  nameWithType: IStreamedAssetParsingResult.SetStreamedAsset(StreamedAsset)
+  fullName: ChiaWalletSdk.IStreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+    name: SetStreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetStreamedAsset_ChiaWalletSdk_StreamedAsset_
+  - name: (
+  - uid: ChiaWalletSdk.StreamedAsset
+    name: StreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.StreamedAsset.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IStreamedAssetParsingResult.SetStreamedAsset(ChiaWalletSdk.StreamedAsset)
+    name: SetStreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.IStreamedAssetParsingResult.html#ChiaWalletSdk_IStreamedAssetParsingResult_SetStreamedAsset_ChiaWalletSdk_StreamedAsset_
+  - name: (
+  - uid: ChiaWalletSdk.StreamedAsset
+    name: StreamedAsset
+    isExternal: true
+    href: ChiaWalletSdk.StreamedAsset.html
+  - name: )

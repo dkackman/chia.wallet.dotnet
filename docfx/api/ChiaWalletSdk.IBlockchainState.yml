@@ -1,0 +1,978 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IBlockchainState
+  commentId: T:ChiaWalletSdk.IBlockchainState
+  id: IBlockchainState
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IBlockchainState.GetAverageBlockTime
+  - ChiaWalletSdk.IBlockchainState.GetBlockMaxCost
+  - ChiaWalletSdk.IBlockchainState.GetDifficulty
+  - ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized
+  - ChiaWalletSdk.IBlockchainState.GetMempoolCost
+  - ChiaWalletSdk.IBlockchainState.GetMempoolFees
+  - ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost
+  - ChiaWalletSdk.IBlockchainState.GetMempoolMinFees
+  - ChiaWalletSdk.IBlockchainState.GetMempoolSize
+  - ChiaWalletSdk.IBlockchainState.GetNodeId
+  - ChiaWalletSdk.IBlockchainState.GetPeak
+  - ChiaWalletSdk.IBlockchainState.GetSpace
+  - ChiaWalletSdk.IBlockchainState.GetSubSlotIters
+  - ChiaWalletSdk.IBlockchainState.GetSync
+  - ChiaWalletSdk.IBlockchainState.SetAverageBlockTime(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetBlockMaxCost(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetDifficulty(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized(System.Boolean)
+  - ChiaWalletSdk.IBlockchainState.SetMempoolCost(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetMempoolFees(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetMempoolMinFees(ChiaWalletSdk.MempoolMinFees)
+  - ChiaWalletSdk.IBlockchainState.SetMempoolSize(System.UInt32)
+  - ChiaWalletSdk.IBlockchainState.SetNodeId(System.Byte[])
+  - ChiaWalletSdk.IBlockchainState.SetPeak(ChiaWalletSdk.BlockRecord)
+  - ChiaWalletSdk.IBlockchainState.SetSpace(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetSubSlotIters(System.String)
+  - ChiaWalletSdk.IBlockchainState.SetSync(ChiaWalletSdk.SyncState)
+  langs:
+  - csharp
+  - vb
+  name: IBlockchainState
+  nameWithType: IBlockchainState
+  fullName: ChiaWalletSdk.IBlockchainState
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IBlockchainState
+    content.vb: Public Interface IBlockchainState
+  derivedClasses:
+  - ChiaWalletSdk.BlockchainState
+- uid: ChiaWalletSdk.IBlockchainState.GetAverageBlockTime
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetAverageBlockTime
+  id: GetAverageBlockTime
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetAverageBlockTime()
+  nameWithType: IBlockchainState.GetAverageBlockTime()
+  fullName: ChiaWalletSdk.IBlockchainState.GetAverageBlockTime()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetAverageBlockTime()
+    return:
+      type: System.String
+    content.vb: Function GetAverageBlockTime() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetAverageBlockTime*
+- uid: ChiaWalletSdk.IBlockchainState.GetBlockMaxCost
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetBlockMaxCost
+  id: GetBlockMaxCost
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetBlockMaxCost()
+  nameWithType: IBlockchainState.GetBlockMaxCost()
+  fullName: ChiaWalletSdk.IBlockchainState.GetBlockMaxCost()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetBlockMaxCost()
+    return:
+      type: System.String
+    content.vb: Function GetBlockMaxCost() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetBlockMaxCost*
+- uid: ChiaWalletSdk.IBlockchainState.GetDifficulty
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetDifficulty
+  id: GetDifficulty
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetDifficulty()
+  nameWithType: IBlockchainState.GetDifficulty()
+  fullName: ChiaWalletSdk.IBlockchainState.GetDifficulty()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetDifficulty()
+    return:
+      type: System.String
+    content.vb: Function GetDifficulty() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetDifficulty*
+- uid: ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized
+  id: GetGenesisChallengeInitialized
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetGenesisChallengeInitialized()
+  nameWithType: IBlockchainState.GetGenesisChallengeInitialized()
+  fullName: ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: bool GetGenesisChallengeInitialized()
+    return:
+      type: System.Boolean
+    content.vb: Function GetGenesisChallengeInitialized() As Boolean
+  overload: ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized*
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolCost
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetMempoolCost
+  id: GetMempoolCost
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolCost()
+  nameWithType: IBlockchainState.GetMempoolCost()
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolCost()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetMempoolCost()
+    return:
+      type: System.String
+    content.vb: Function GetMempoolCost() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetMempoolCost*
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolFees
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetMempoolFees
+  id: GetMempoolFees
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolFees()
+  nameWithType: IBlockchainState.GetMempoolFees()
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolFees()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetMempoolFees()
+    return:
+      type: System.String
+    content.vb: Function GetMempoolFees() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetMempoolFees*
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost
+  id: GetMempoolMaxTotalCost
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolMaxTotalCost()
+  nameWithType: IBlockchainState.GetMempoolMaxTotalCost()
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetMempoolMaxTotalCost()
+    return:
+      type: System.String
+    content.vb: Function GetMempoolMaxTotalCost() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost*
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolMinFees
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetMempoolMinFees
+  id: GetMempoolMinFees
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolMinFees()
+  nameWithType: IBlockchainState.GetMempoolMinFees()
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolMinFees()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MempoolMinFees GetMempoolMinFees()
+    return:
+      type: ChiaWalletSdk.MempoolMinFees
+    content.vb: Function GetMempoolMinFees() As MempoolMinFees
+  overload: ChiaWalletSdk.IBlockchainState.GetMempoolMinFees*
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolSize
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetMempoolSize
+  id: GetMempoolSize
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetMempoolSize()
+  nameWithType: IBlockchainState.GetMempoolSize()
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolSize()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: uint GetMempoolSize()
+    return:
+      type: System.UInt32
+    content.vb: Function GetMempoolSize() As UInteger
+  overload: ChiaWalletSdk.IBlockchainState.GetMempoolSize*
+- uid: ChiaWalletSdk.IBlockchainState.GetNodeId
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetNodeId
+  id: GetNodeId
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetNodeId()
+  nameWithType: IBlockchainState.GetNodeId()
+  fullName: ChiaWalletSdk.IBlockchainState.GetNodeId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetNodeId()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetNodeId() As Byte()
+  overload: ChiaWalletSdk.IBlockchainState.GetNodeId*
+- uid: ChiaWalletSdk.IBlockchainState.GetPeak
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetPeak
+  id: GetPeak
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetPeak()
+  nameWithType: IBlockchainState.GetPeak()
+  fullName: ChiaWalletSdk.IBlockchainState.GetPeak()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockRecord GetPeak()
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Function GetPeak() As BlockRecord
+  overload: ChiaWalletSdk.IBlockchainState.GetPeak*
+- uid: ChiaWalletSdk.IBlockchainState.GetSpace
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetSpace
+  id: GetSpace
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetSpace()
+  nameWithType: IBlockchainState.GetSpace()
+  fullName: ChiaWalletSdk.IBlockchainState.GetSpace()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetSpace()
+    return:
+      type: System.String
+    content.vb: Function GetSpace() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetSpace*
+- uid: ChiaWalletSdk.IBlockchainState.GetSubSlotIters
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetSubSlotIters
+  id: GetSubSlotIters
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetSubSlotIters()
+  nameWithType: IBlockchainState.GetSubSlotIters()
+  fullName: ChiaWalletSdk.IBlockchainState.GetSubSlotIters()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: string GetSubSlotIters()
+    return:
+      type: System.String
+    content.vb: Function GetSubSlotIters() As String
+  overload: ChiaWalletSdk.IBlockchainState.GetSubSlotIters*
+- uid: ChiaWalletSdk.IBlockchainState.GetSync
+  commentId: M:ChiaWalletSdk.IBlockchainState.GetSync
+  id: GetSync
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: GetSync()
+  nameWithType: IBlockchainState.GetSync()
+  fullName: ChiaWalletSdk.IBlockchainState.GetSync()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: SyncState GetSync()
+    return:
+      type: ChiaWalletSdk.SyncState
+    content.vb: Function GetSync() As SyncState
+  overload: ChiaWalletSdk.IBlockchainState.GetSync*
+- uid: ChiaWalletSdk.IBlockchainState.SetAverageBlockTime(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetAverageBlockTime(System.String)
+  id: SetAverageBlockTime(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetAverageBlockTime(string)
+  nameWithType: IBlockchainState.SetAverageBlockTime(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetAverageBlockTime(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetAverageBlockTime(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetAverageBlockTime(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetAverageBlockTime*
+  nameWithType.vb: IBlockchainState.SetAverageBlockTime(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetAverageBlockTime(String)
+  name.vb: SetAverageBlockTime(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetBlockMaxCost(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetBlockMaxCost(System.String)
+  id: SetBlockMaxCost(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetBlockMaxCost(string)
+  nameWithType: IBlockchainState.SetBlockMaxCost(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetBlockMaxCost(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetBlockMaxCost(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetBlockMaxCost(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetBlockMaxCost*
+  nameWithType.vb: IBlockchainState.SetBlockMaxCost(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetBlockMaxCost(String)
+  name.vb: SetBlockMaxCost(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetDifficulty(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetDifficulty(System.String)
+  id: SetDifficulty(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetDifficulty(string)
+  nameWithType: IBlockchainState.SetDifficulty(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetDifficulty(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetDifficulty(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetDifficulty(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetDifficulty*
+  nameWithType.vb: IBlockchainState.SetDifficulty(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetDifficulty(String)
+  name.vb: SetDifficulty(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized(System.Boolean)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized(System.Boolean)
+  id: SetGenesisChallengeInitialized(System.Boolean)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetGenesisChallengeInitialized(bool)
+  nameWithType: IBlockchainState.SetGenesisChallengeInitialized(bool)
+  fullName: ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetGenesisChallengeInitialized(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetGenesisChallengeInitialized(value As Boolean) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized*
+  nameWithType.vb: IBlockchainState.SetGenesisChallengeInitialized(Boolean)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized(Boolean)
+  name.vb: SetGenesisChallengeInitialized(Boolean)
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolCost(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetMempoolCost(System.String)
+  id: SetMempoolCost(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetMempoolCost(string)
+  nameWithType: IBlockchainState.SetMempoolCost(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolCost(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetMempoolCost(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetMempoolCost(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetMempoolCost*
+  nameWithType.vb: IBlockchainState.SetMempoolCost(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetMempoolCost(String)
+  name.vb: SetMempoolCost(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolFees(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetMempoolFees(System.String)
+  id: SetMempoolFees(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetMempoolFees(string)
+  nameWithType: IBlockchainState.SetMempoolFees(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolFees(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetMempoolFees(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetMempoolFees(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetMempoolFees*
+  nameWithType.vb: IBlockchainState.SetMempoolFees(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetMempoolFees(String)
+  name.vb: SetMempoolFees(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost(System.String)
+  id: SetMempoolMaxTotalCost(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetMempoolMaxTotalCost(string)
+  nameWithType: IBlockchainState.SetMempoolMaxTotalCost(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetMempoolMaxTotalCost(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetMempoolMaxTotalCost(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost*
+  nameWithType.vb: IBlockchainState.SetMempoolMaxTotalCost(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost(String)
+  name.vb: SetMempoolMaxTotalCost(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolMinFees(ChiaWalletSdk.MempoolMinFees)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetMempoolMinFees(ChiaWalletSdk.MempoolMinFees)
+  id: SetMempoolMinFees(ChiaWalletSdk.MempoolMinFees)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetMempoolMinFees(MempoolMinFees)
+  nameWithType: IBlockchainState.SetMempoolMinFees(MempoolMinFees)
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolMinFees(ChiaWalletSdk.MempoolMinFees)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetMempoolMinFees(MempoolMinFees value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.MempoolMinFees
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetMempoolMinFees(value As MempoolMinFees) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetMempoolMinFees*
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolSize(System.UInt32)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetMempoolSize(System.UInt32)
+  id: SetMempoolSize(System.UInt32)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetMempoolSize(uint)
+  nameWithType: IBlockchainState.SetMempoolSize(uint)
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolSize(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetMempoolSize(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetMempoolSize(value As UInteger) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetMempoolSize*
+  nameWithType.vb: IBlockchainState.SetMempoolSize(UInteger)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetMempoolSize(UInteger)
+  name.vb: SetMempoolSize(UInteger)
+- uid: ChiaWalletSdk.IBlockchainState.SetNodeId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetNodeId(System.Byte[])
+  id: SetNodeId(System.Byte[])
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetNodeId(byte[])
+  nameWithType: IBlockchainState.SetNodeId(byte[])
+  fullName: ChiaWalletSdk.IBlockchainState.SetNodeId(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetNodeId(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetNodeId(value As Byte()) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetNodeId*
+  nameWithType.vb: IBlockchainState.SetNodeId(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetNodeId(Byte())
+  name.vb: SetNodeId(Byte())
+- uid: ChiaWalletSdk.IBlockchainState.SetPeak(ChiaWalletSdk.BlockRecord)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetPeak(ChiaWalletSdk.BlockRecord)
+  id: SetPeak(ChiaWalletSdk.BlockRecord)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetPeak(BlockRecord)
+  nameWithType: IBlockchainState.SetPeak(BlockRecord)
+  fullName: ChiaWalletSdk.IBlockchainState.SetPeak(ChiaWalletSdk.BlockRecord)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetPeak(BlockRecord value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.BlockRecord
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetPeak(value As BlockRecord) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetPeak*
+- uid: ChiaWalletSdk.IBlockchainState.SetSpace(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetSpace(System.String)
+  id: SetSpace(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetSpace(string)
+  nameWithType: IBlockchainState.SetSpace(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetSpace(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetSpace(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetSpace(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetSpace*
+  nameWithType.vb: IBlockchainState.SetSpace(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetSpace(String)
+  name.vb: SetSpace(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetSubSlotIters(System.String)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetSubSlotIters(System.String)
+  id: SetSubSlotIters(System.String)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetSubSlotIters(string)
+  nameWithType: IBlockchainState.SetSubSlotIters(string)
+  fullName: ChiaWalletSdk.IBlockchainState.SetSubSlotIters(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetSubSlotIters(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetSubSlotIters(value As String) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetSubSlotIters*
+  nameWithType.vb: IBlockchainState.SetSubSlotIters(String)
+  fullName.vb: ChiaWalletSdk.IBlockchainState.SetSubSlotIters(String)
+  name.vb: SetSubSlotIters(String)
+- uid: ChiaWalletSdk.IBlockchainState.SetSync(ChiaWalletSdk.SyncState)
+  commentId: M:ChiaWalletSdk.IBlockchainState.SetSync(ChiaWalletSdk.SyncState)
+  id: SetSync(ChiaWalletSdk.SyncState)
+  parent: ChiaWalletSdk.IBlockchainState
+  langs:
+  - csharp
+  - vb
+  name: SetSync(SyncState)
+  nameWithType: IBlockchainState.SetSync(SyncState)
+  fullName: ChiaWalletSdk.IBlockchainState.SetSync(ChiaWalletSdk.SyncState)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: BlockchainState SetSync(SyncState value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.SyncState
+    return:
+      type: ChiaWalletSdk.BlockchainState
+    content.vb: Function SetSync(value As SyncState) As BlockchainState
+  overload: ChiaWalletSdk.IBlockchainState.SetSync*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IBlockchainState.GetAverageBlockTime*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetAverageBlockTime
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetAverageBlockTime
+  name: GetAverageBlockTime
+  nameWithType: IBlockchainState.GetAverageBlockTime
+  fullName: ChiaWalletSdk.IBlockchainState.GetAverageBlockTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IBlockchainState.GetBlockMaxCost*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetBlockMaxCost
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetBlockMaxCost
+  name: GetBlockMaxCost
+  nameWithType: IBlockchainState.GetBlockMaxCost
+  fullName: ChiaWalletSdk.IBlockchainState.GetBlockMaxCost
+- uid: ChiaWalletSdk.IBlockchainState.GetDifficulty*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetDifficulty
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetDifficulty
+  name: GetDifficulty
+  nameWithType: IBlockchainState.GetDifficulty
+  fullName: ChiaWalletSdk.IBlockchainState.GetDifficulty
+- uid: ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetGenesisChallengeInitialized
+  name: GetGenesisChallengeInitialized
+  nameWithType: IBlockchainState.GetGenesisChallengeInitialized
+  fullName: ChiaWalletSdk.IBlockchainState.GetGenesisChallengeInitialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolCost*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetMempoolCost
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetMempoolCost
+  name: GetMempoolCost
+  nameWithType: IBlockchainState.GetMempoolCost
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolCost
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolFees*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetMempoolFees
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetMempoolFees
+  name: GetMempoolFees
+  nameWithType: IBlockchainState.GetMempoolFees
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolFees
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetMempoolMaxTotalCost
+  name: GetMempoolMaxTotalCost
+  nameWithType: IBlockchainState.GetMempoolMaxTotalCost
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolMaxTotalCost
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolMinFees*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetMempoolMinFees
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetMempoolMinFees
+  name: GetMempoolMinFees
+  nameWithType: IBlockchainState.GetMempoolMinFees
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolMinFees
+- uid: ChiaWalletSdk.MempoolMinFees
+  commentId: T:ChiaWalletSdk.MempoolMinFees
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.MempoolMinFees.html
+  name: MempoolMinFees
+  nameWithType: MempoolMinFees
+  fullName: ChiaWalletSdk.MempoolMinFees
+- uid: ChiaWalletSdk.IBlockchainState.GetMempoolSize*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetMempoolSize
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetMempoolSize
+  name: GetMempoolSize
+  nameWithType: IBlockchainState.GetMempoolSize
+  fullName: ChiaWalletSdk.IBlockchainState.GetMempoolSize
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.IBlockchainState.GetNodeId*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetNodeId
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetNodeId
+  name: GetNodeId
+  nameWithType: IBlockchainState.GetNodeId
+  fullName: ChiaWalletSdk.IBlockchainState.GetNodeId
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IBlockchainState.GetPeak*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetPeak
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetPeak
+  name: GetPeak
+  nameWithType: IBlockchainState.GetPeak
+  fullName: ChiaWalletSdk.IBlockchainState.GetPeak
+- uid: ChiaWalletSdk.BlockRecord
+  commentId: T:ChiaWalletSdk.BlockRecord
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html
+  name: BlockRecord
+  nameWithType: BlockRecord
+  fullName: ChiaWalletSdk.BlockRecord
+- uid: ChiaWalletSdk.IBlockchainState.GetSpace*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetSpace
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetSpace
+  name: GetSpace
+  nameWithType: IBlockchainState.GetSpace
+  fullName: ChiaWalletSdk.IBlockchainState.GetSpace
+- uid: ChiaWalletSdk.IBlockchainState.GetSubSlotIters*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetSubSlotIters
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetSubSlotIters
+  name: GetSubSlotIters
+  nameWithType: IBlockchainState.GetSubSlotIters
+  fullName: ChiaWalletSdk.IBlockchainState.GetSubSlotIters
+- uid: ChiaWalletSdk.IBlockchainState.GetSync*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.GetSync
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_GetSync
+  name: GetSync
+  nameWithType: IBlockchainState.GetSync
+  fullName: ChiaWalletSdk.IBlockchainState.GetSync
+- uid: ChiaWalletSdk.SyncState
+  commentId: T:ChiaWalletSdk.SyncState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SyncState.html
+  name: SyncState
+  nameWithType: SyncState
+  fullName: ChiaWalletSdk.SyncState
+- uid: ChiaWalletSdk.IBlockchainState.SetAverageBlockTime*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetAverageBlockTime
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetAverageBlockTime_System_String_
+  name: SetAverageBlockTime
+  nameWithType: IBlockchainState.SetAverageBlockTime
+  fullName: ChiaWalletSdk.IBlockchainState.SetAverageBlockTime
+- uid: ChiaWalletSdk.BlockchainState
+  commentId: T:ChiaWalletSdk.BlockchainState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlockchainState.html
+  name: BlockchainState
+  nameWithType: BlockchainState
+  fullName: ChiaWalletSdk.BlockchainState
+- uid: ChiaWalletSdk.IBlockchainState.SetBlockMaxCost*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetBlockMaxCost
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetBlockMaxCost_System_String_
+  name: SetBlockMaxCost
+  nameWithType: IBlockchainState.SetBlockMaxCost
+  fullName: ChiaWalletSdk.IBlockchainState.SetBlockMaxCost
+- uid: ChiaWalletSdk.IBlockchainState.SetDifficulty*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetDifficulty
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetDifficulty_System_String_
+  name: SetDifficulty
+  nameWithType: IBlockchainState.SetDifficulty
+  fullName: ChiaWalletSdk.IBlockchainState.SetDifficulty
+- uid: ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetGenesisChallengeInitialized_System_Boolean_
+  name: SetGenesisChallengeInitialized
+  nameWithType: IBlockchainState.SetGenesisChallengeInitialized
+  fullName: ChiaWalletSdk.IBlockchainState.SetGenesisChallengeInitialized
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolCost*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetMempoolCost
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetMempoolCost_System_String_
+  name: SetMempoolCost
+  nameWithType: IBlockchainState.SetMempoolCost
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolCost
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolFees*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetMempoolFees
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetMempoolFees_System_String_
+  name: SetMempoolFees
+  nameWithType: IBlockchainState.SetMempoolFees
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolFees
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetMempoolMaxTotalCost_System_String_
+  name: SetMempoolMaxTotalCost
+  nameWithType: IBlockchainState.SetMempoolMaxTotalCost
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolMaxTotalCost
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolMinFees*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetMempoolMinFees
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetMempoolMinFees_ChiaWalletSdk_MempoolMinFees_
+  name: SetMempoolMinFees
+  nameWithType: IBlockchainState.SetMempoolMinFees
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolMinFees
+- uid: ChiaWalletSdk.IBlockchainState.SetMempoolSize*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetMempoolSize
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetMempoolSize_System_UInt32_
+  name: SetMempoolSize
+  nameWithType: IBlockchainState.SetMempoolSize
+  fullName: ChiaWalletSdk.IBlockchainState.SetMempoolSize
+- uid: ChiaWalletSdk.IBlockchainState.SetNodeId*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetNodeId
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetNodeId_System_Byte___
+  name: SetNodeId
+  nameWithType: IBlockchainState.SetNodeId
+  fullName: ChiaWalletSdk.IBlockchainState.SetNodeId
+- uid: ChiaWalletSdk.IBlockchainState.SetPeak*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetPeak
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetPeak_ChiaWalletSdk_BlockRecord_
+  name: SetPeak
+  nameWithType: IBlockchainState.SetPeak
+  fullName: ChiaWalletSdk.IBlockchainState.SetPeak
+- uid: ChiaWalletSdk.IBlockchainState.SetSpace*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetSpace
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetSpace_System_String_
+  name: SetSpace
+  nameWithType: IBlockchainState.SetSpace
+  fullName: ChiaWalletSdk.IBlockchainState.SetSpace
+- uid: ChiaWalletSdk.IBlockchainState.SetSubSlotIters*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetSubSlotIters
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetSubSlotIters_System_String_
+  name: SetSubSlotIters
+  nameWithType: IBlockchainState.SetSubSlotIters
+  fullName: ChiaWalletSdk.IBlockchainState.SetSubSlotIters
+- uid: ChiaWalletSdk.IBlockchainState.SetSync*
+  commentId: Overload:ChiaWalletSdk.IBlockchainState.SetSync
+  isExternal: true
+  href: ChiaWalletSdk.IBlockchainState.html#ChiaWalletSdk_IBlockchainState_SetSync_ChiaWalletSdk_SyncState_
+  name: SetSync
+  nameWithType: IBlockchainState.SetSync
+  fullName: ChiaWalletSdk.IBlockchainState.SetSync

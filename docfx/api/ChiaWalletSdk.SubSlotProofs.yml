@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.SubSlotProofs
+  commentId: T:ChiaWalletSdk.SubSlotProofs
+  id: SubSlotProofs
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.SubSlotProofs.#ctor(ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.SubSlotProofs.#ctor(System.IntPtr)
+  - ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr
+  - ChiaWalletSdk.SubSlotProofs.Destroy
+  - ChiaWalletSdk.SubSlotProofs.Dispose
+  - ChiaWalletSdk.SubSlotProofs.Finalize
+  - ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr
+  - ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof
+  - ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof
+  - ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof
+  - ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  - ChiaWalletSdk.SubSlotProofs.pointer
+  langs:
+  - csharp
+  - vb
+  name: SubSlotProofs
+  nameWithType: SubSlotProofs
+  fullName: ChiaWalletSdk.SubSlotProofs
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class SubSlotProofs : ISubSlotProofs'
+    content.vb: Public Class SubSlotProofs Implements ISubSlotProofs
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs
+- uid: ChiaWalletSdk.SubSlotProofs.pointer
+  commentId: F:ChiaWalletSdk.SubSlotProofs.pointer
+  id: pointer
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: SubSlotProofs.pointer
+  fullName: ChiaWalletSdk.SubSlotProofs.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.SubSlotProofs.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.SubSlotProofs.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: SubSlotProofs(nint)
+  nameWithType: SubSlotProofs.SubSlotProofs(nint)
+  fullName: ChiaWalletSdk.SubSlotProofs.SubSlotProofs(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SubSlotProofs(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.SubSlotProofs.#ctor*
+  nameWithType.vb: SubSlotProofs.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.SubSlotProofs.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.SubSlotProofs.Finalize
+  commentId: M:ChiaWalletSdk.SubSlotProofs.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: ~SubSlotProofs()
+  nameWithType: SubSlotProofs.~SubSlotProofs()
+  fullName: ChiaWalletSdk.SubSlotProofs.~SubSlotProofs()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~SubSlotProofs()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.SubSlotProofs.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.SubSlotProofs.#ctor(ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.SubSlotProofs.#ctor(ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof)
+  id: '#ctor(ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof,ChiaWalletSdk.VdfProof)'
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: SubSlotProofs(VdfProof, VdfProof?, VdfProof)
+  nameWithType: SubSlotProofs.SubSlotProofs(VdfProof, VdfProof?, VdfProof)
+  fullName: ChiaWalletSdk.SubSlotProofs.SubSlotProofs(ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof?, ChiaWalletSdk.VdfProof)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public SubSlotProofs(VdfProof challengeChainSlotProof, VdfProof? infusedChallengeChainSlotProof, VdfProof rewardChainSlotProof)
+    parameters:
+    - id: challengeChainSlotProof
+      type: ChiaWalletSdk.VdfProof
+    - id: infusedChallengeChainSlotProof
+      type: ChiaWalletSdk.VdfProof
+    - id: rewardChainSlotProof
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Sub New(challengeChainSlotProof As VdfProof, infusedChallengeChainSlotProof As VdfProof, rewardChainSlotProof As VdfProof)
+  overload: ChiaWalletSdk.SubSlotProofs.#ctor*
+  nameWithType.vb: SubSlotProofs.New(VdfProof, VdfProof, VdfProof)
+  fullName.vb: ChiaWalletSdk.SubSlotProofs.New(ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof, ChiaWalletSdk.VdfProof)
+  name.vb: New(VdfProof, VdfProof, VdfProof)
+- uid: ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: SubSlotProofs.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr*
+- uid: ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: SubSlotProofs.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr*
+- uid: ChiaWalletSdk.SubSlotProofs.Destroy
+  commentId: M:ChiaWalletSdk.SubSlotProofs.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: SubSlotProofs.Destroy()
+  fullName: ChiaWalletSdk.SubSlotProofs.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.SubSlotProofs.Destroy*
+- uid: ChiaWalletSdk.SubSlotProofs.Dispose
+  commentId: M:ChiaWalletSdk.SubSlotProofs.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SubSlotProofs.Dispose()
+  fullName: ChiaWalletSdk.SubSlotProofs.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.SubSlotProofs.Dispose*
+- uid: ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof
+  commentId: M:ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof
+  id: GetChallengeChainSlotProof
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainSlotProof()
+  nameWithType: SubSlotProofs.GetChallengeChainSlotProof()
+  fullName: ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof GetChallengeChainSlotProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetChallengeChainSlotProof() As VdfProof
+  overload: ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof*
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs.GetChallengeChainSlotProof
+- uid: ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof
+  commentId: M:ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof
+  id: GetInfusedChallengeChainSlotProof
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: GetInfusedChallengeChainSlotProof()
+  nameWithType: SubSlotProofs.GetInfusedChallengeChainSlotProof()
+  fullName: ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof? GetInfusedChallengeChainSlotProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetInfusedChallengeChainSlotProof() As VdfProof
+  overload: ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof*
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs.GetInfusedChallengeChainSlotProof
+- uid: ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof
+  commentId: M:ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof
+  id: GetRewardChainSlotProof
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: GetRewardChainSlotProof()
+  nameWithType: SubSlotProofs.GetRewardChainSlotProof()
+  fullName: ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof GetRewardChainSlotProof()
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function GetRewardChainSlotProof() As VdfProof
+  overload: ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof*
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs.GetRewardChainSlotProof
+- uid: ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  id: SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainSlotProof(VdfProof)
+  nameWithType: SubSlotProofs.SetChallengeChainSlotProof(VdfProof)
+  fullName: ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SubSlotProofs SetChallengeChainSlotProof(VdfProof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.SubSlotProofs
+    content.vb: Public Function SetChallengeChainSlotProof(value As VdfProof) As SubSlotProofs
+  overload: ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof*
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+- uid: ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  id: SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: SetInfusedChallengeChainSlotProof(VdfProof?)
+  nameWithType: SubSlotProofs.SetInfusedChallengeChainSlotProof(VdfProof?)
+  fullName: ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SubSlotProofs SetInfusedChallengeChainSlotProof(VdfProof? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.SubSlotProofs
+    content.vb: Public Function SetInfusedChallengeChainSlotProof(value As VdfProof) As SubSlotProofs
+  overload: ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof*
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  nameWithType.vb: SubSlotProofs.SetInfusedChallengeChainSlotProof(VdfProof)
+  fullName.vb: ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  name.vb: SetInfusedChallengeChainSlotProof(VdfProof)
+- uid: ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  id: SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.SubSlotProofs
+  langs:
+  - csharp
+  - vb
+  name: SetRewardChainSlotProof(VdfProof)
+  nameWithType: SubSlotProofs.SetRewardChainSlotProof(VdfProof)
+  fullName: ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SubSlotProofs SetRewardChainSlotProof(VdfProof value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfProof
+    return:
+      type: ChiaWalletSdk.SubSlotProofs
+    content.vb: Public Function SetRewardChainSlotProof(value As VdfProof) As SubSlotProofs
+  overload: ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof*
+  implements:
+  - ChiaWalletSdk.ISubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ISubSlotProofs
+  commentId: T:ChiaWalletSdk.ISubSlotProofs
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html
+  name: ISubSlotProofs
+  nameWithType: ISubSlotProofs
+  fullName: ChiaWalletSdk.ISubSlotProofs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.SubSlotProofs.#ctor*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs__ctor_System_IntPtr_
+  name: SubSlotProofs
+  nameWithType: SubSlotProofs.SubSlotProofs
+  fullName: ChiaWalletSdk.SubSlotProofs.SubSlotProofs
+  nameWithType.vb: SubSlotProofs.New
+  fullName.vb: ChiaWalletSdk.SubSlotProofs.New
+  name.vb: New
+- uid: ChiaWalletSdk.SubSlotProofs.Finalize*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_Finalize
+  name: ~SubSlotProofs
+  nameWithType: SubSlotProofs.~SubSlotProofs
+  fullName: ChiaWalletSdk.SubSlotProofs.~SubSlotProofs
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.SubSlotProofs.Finalize*
+    name: SubSlotProofs
+    isExternal: true
+    href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_Finalize
+- uid: ChiaWalletSdk.VdfProof
+  commentId: T:ChiaWalletSdk.VdfProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html
+  name: VdfProof
+  nameWithType: VdfProof
+  fullName: ChiaWalletSdk.VdfProof
+- uid: ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: SubSlotProofs.FreeRustArcPtr
+  fullName: ChiaWalletSdk.SubSlotProofs.FreeRustArcPtr
+- uid: ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: SubSlotProofs.CloneRustArcPtr
+  fullName: ChiaWalletSdk.SubSlotProofs.CloneRustArcPtr
+- uid: ChiaWalletSdk.SubSlotProofs.Destroy*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_Destroy
+  name: Destroy
+  nameWithType: SubSlotProofs.Destroy
+  fullName: ChiaWalletSdk.SubSlotProofs.Destroy
+- uid: ChiaWalletSdk.SubSlotProofs.Dispose*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_Dispose
+  name: Dispose
+  nameWithType: SubSlotProofs.Dispose
+  fullName: ChiaWalletSdk.SubSlotProofs.Dispose
+- uid: ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_GetChallengeChainSlotProof
+  name: GetChallengeChainSlotProof
+  nameWithType: SubSlotProofs.GetChallengeChainSlotProof
+  fullName: ChiaWalletSdk.SubSlotProofs.GetChallengeChainSlotProof
+- uid: ChiaWalletSdk.ISubSlotProofs.GetChallengeChainSlotProof
+  commentId: M:ChiaWalletSdk.ISubSlotProofs.GetChallengeChainSlotProof
+  parent: ChiaWalletSdk.ISubSlotProofs
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetChallengeChainSlotProof
+  name: GetChallengeChainSlotProof()
+  nameWithType: ISubSlotProofs.GetChallengeChainSlotProof()
+  fullName: ChiaWalletSdk.ISubSlotProofs.GetChallengeChainSlotProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISubSlotProofs.GetChallengeChainSlotProof
+    name: GetChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetChallengeChainSlotProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISubSlotProofs.GetChallengeChainSlotProof
+    name: GetChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetChallengeChainSlotProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_GetInfusedChallengeChainSlotProof
+  name: GetInfusedChallengeChainSlotProof
+  nameWithType: SubSlotProofs.GetInfusedChallengeChainSlotProof
+  fullName: ChiaWalletSdk.SubSlotProofs.GetInfusedChallengeChainSlotProof
+- uid: ChiaWalletSdk.ISubSlotProofs.GetInfusedChallengeChainSlotProof
+  commentId: M:ChiaWalletSdk.ISubSlotProofs.GetInfusedChallengeChainSlotProof
+  parent: ChiaWalletSdk.ISubSlotProofs
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetInfusedChallengeChainSlotProof
+  name: GetInfusedChallengeChainSlotProof()
+  nameWithType: ISubSlotProofs.GetInfusedChallengeChainSlotProof()
+  fullName: ChiaWalletSdk.ISubSlotProofs.GetInfusedChallengeChainSlotProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISubSlotProofs.GetInfusedChallengeChainSlotProof
+    name: GetInfusedChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetInfusedChallengeChainSlotProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISubSlotProofs.GetInfusedChallengeChainSlotProof
+    name: GetInfusedChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetInfusedChallengeChainSlotProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_GetRewardChainSlotProof
+  name: GetRewardChainSlotProof
+  nameWithType: SubSlotProofs.GetRewardChainSlotProof
+  fullName: ChiaWalletSdk.SubSlotProofs.GetRewardChainSlotProof
+- uid: ChiaWalletSdk.ISubSlotProofs.GetRewardChainSlotProof
+  commentId: M:ChiaWalletSdk.ISubSlotProofs.GetRewardChainSlotProof
+  parent: ChiaWalletSdk.ISubSlotProofs
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetRewardChainSlotProof
+  name: GetRewardChainSlotProof()
+  nameWithType: ISubSlotProofs.GetRewardChainSlotProof()
+  fullName: ChiaWalletSdk.ISubSlotProofs.GetRewardChainSlotProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISubSlotProofs.GetRewardChainSlotProof
+    name: GetRewardChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetRewardChainSlotProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISubSlotProofs.GetRewardChainSlotProof
+    name: GetRewardChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_GetRewardChainSlotProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_SetChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  name: SetChallengeChainSlotProof
+  nameWithType: SubSlotProofs.SetChallengeChainSlotProof
+  fullName: ChiaWalletSdk.SubSlotProofs.SetChallengeChainSlotProof
+- uid: ChiaWalletSdk.ISubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.ISubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.ISubSlotProofs
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  name: SetChallengeChainSlotProof(VdfProof)
+  nameWithType: ISubSlotProofs.SetChallengeChainSlotProof(VdfProof)
+  fullName: ChiaWalletSdk.ISubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+    name: SetChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISubSlotProofs.SetChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+    name: SetChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.SubSlotProofs
+  commentId: T:ChiaWalletSdk.SubSlotProofs
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html
+  name: SubSlotProofs
+  nameWithType: SubSlotProofs
+  fullName: ChiaWalletSdk.SubSlotProofs
+- uid: ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_SetInfusedChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  name: SetInfusedChallengeChainSlotProof
+  nameWithType: SubSlotProofs.SetInfusedChallengeChainSlotProof
+  fullName: ChiaWalletSdk.SubSlotProofs.SetInfusedChallengeChainSlotProof
+- uid: ChiaWalletSdk.ISubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.ISubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.ISubSlotProofs
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetInfusedChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  name: SetInfusedChallengeChainSlotProof(VdfProof)
+  nameWithType: ISubSlotProofs.SetInfusedChallengeChainSlotProof(VdfProof)
+  fullName: ChiaWalletSdk.ISubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+    name: SetInfusedChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetInfusedChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISubSlotProofs.SetInfusedChallengeChainSlotProof(ChiaWalletSdk.VdfProof)
+    name: SetInfusedChallengeChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetInfusedChallengeChainSlotProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+- uid: ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof*
+  commentId: Overload:ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof
+  isExternal: true
+  href: ChiaWalletSdk.SubSlotProofs.html#ChiaWalletSdk_SubSlotProofs_SetRewardChainSlotProof_ChiaWalletSdk_VdfProof_
+  name: SetRewardChainSlotProof
+  nameWithType: SubSlotProofs.SetRewardChainSlotProof
+  fullName: ChiaWalletSdk.SubSlotProofs.SetRewardChainSlotProof
+- uid: ChiaWalletSdk.ISubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  commentId: M:ChiaWalletSdk.ISubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  parent: ChiaWalletSdk.ISubSlotProofs
+  isExternal: true
+  href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetRewardChainSlotProof_ChiaWalletSdk_VdfProof_
+  name: SetRewardChainSlotProof(VdfProof)
+  nameWithType: ISubSlotProofs.SetRewardChainSlotProof(VdfProof)
+  fullName: ChiaWalletSdk.ISubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+    name: SetRewardChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetRewardChainSlotProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISubSlotProofs.SetRewardChainSlotProof(ChiaWalletSdk.VdfProof)
+    name: SetRewardChainSlotProof
+    isExternal: true
+    href: ChiaWalletSdk.ISubSlotProofs.html#ChiaWalletSdk_ISubSlotProofs_SetRewardChainSlotProof_ChiaWalletSdk_VdfProof_
+  - name: (
+  - uid: ChiaWalletSdk.VdfProof
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html
+  - name: )

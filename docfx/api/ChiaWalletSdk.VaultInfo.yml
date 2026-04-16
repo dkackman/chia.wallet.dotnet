@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.VaultInfo
+  commentId: T:ChiaWalletSdk.VaultInfo
+  id: VaultInfo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.VaultInfo.#ctor(System.Byte[],System.Byte[])
+  - ChiaWalletSdk.VaultInfo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.VaultInfo.CloneRustArcPtr
+  - ChiaWalletSdk.VaultInfo.Destroy
+  - ChiaWalletSdk.VaultInfo.Dispose
+  - ChiaWalletSdk.VaultInfo.Finalize
+  - ChiaWalletSdk.VaultInfo.FreeRustArcPtr
+  - ChiaWalletSdk.VaultInfo.GetCustodyHash
+  - ChiaWalletSdk.VaultInfo.GetLauncherId
+  - ChiaWalletSdk.VaultInfo.SetCustodyHash(System.Byte[])
+  - ChiaWalletSdk.VaultInfo.SetLauncherId(System.Byte[])
+  - ChiaWalletSdk.VaultInfo.pointer
+  langs:
+  - csharp
+  - vb
+  name: VaultInfo
+  nameWithType: VaultInfo
+  fullName: ChiaWalletSdk.VaultInfo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class VaultInfo : IVaultInfo'
+    content.vb: Public Class VaultInfo Implements IVaultInfo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IVaultInfo
+- uid: ChiaWalletSdk.VaultInfo.pointer
+  commentId: F:ChiaWalletSdk.VaultInfo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: VaultInfo.pointer
+  fullName: ChiaWalletSdk.VaultInfo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.VaultInfo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.VaultInfo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: VaultInfo(nint)
+  nameWithType: VaultInfo.VaultInfo(nint)
+  fullName: ChiaWalletSdk.VaultInfo.VaultInfo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public VaultInfo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.VaultInfo.#ctor*
+  nameWithType.vb: VaultInfo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.VaultInfo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.VaultInfo.Finalize
+  commentId: M:ChiaWalletSdk.VaultInfo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: ~VaultInfo()
+  nameWithType: VaultInfo.~VaultInfo()
+  fullName: ChiaWalletSdk.VaultInfo.~VaultInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~VaultInfo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.VaultInfo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.VaultInfo.#ctor(System.Byte[],System.Byte[])
+  commentId: M:ChiaWalletSdk.VaultInfo.#ctor(System.Byte[],System.Byte[])
+  id: '#ctor(System.Byte[],System.Byte[])'
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: VaultInfo(byte[], byte[])
+  nameWithType: VaultInfo.VaultInfo(byte[], byte[])
+  fullName: ChiaWalletSdk.VaultInfo.VaultInfo(byte[], byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public VaultInfo(byte[] launcherId, byte[] custodyHash)
+    parameters:
+    - id: launcherId
+      type: System.Byte[]
+    - id: custodyHash
+      type: System.Byte[]
+    content.vb: Public Sub New(launcherId As Byte(), custodyHash As Byte())
+  overload: ChiaWalletSdk.VaultInfo.#ctor*
+  nameWithType.vb: VaultInfo.New(Byte(), Byte())
+  fullName.vb: ChiaWalletSdk.VaultInfo.New(Byte(), Byte())
+  name.vb: New(Byte(), Byte())
+- uid: ChiaWalletSdk.VaultInfo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.VaultInfo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: VaultInfo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.VaultInfo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.VaultInfo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.VaultInfo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.VaultInfo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: VaultInfo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.VaultInfo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.VaultInfo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.VaultInfo.Destroy
+  commentId: M:ChiaWalletSdk.VaultInfo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: VaultInfo.Destroy()
+  fullName: ChiaWalletSdk.VaultInfo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.VaultInfo.Destroy*
+- uid: ChiaWalletSdk.VaultInfo.Dispose
+  commentId: M:ChiaWalletSdk.VaultInfo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: VaultInfo.Dispose()
+  fullName: ChiaWalletSdk.VaultInfo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.VaultInfo.Dispose*
+- uid: ChiaWalletSdk.VaultInfo.GetCustodyHash
+  commentId: M:ChiaWalletSdk.VaultInfo.GetCustodyHash
+  id: GetCustodyHash
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCustodyHash()
+  nameWithType: VaultInfo.GetCustodyHash()
+  fullName: ChiaWalletSdk.VaultInfo.GetCustodyHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetCustodyHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetCustodyHash() As Byte()
+  overload: ChiaWalletSdk.VaultInfo.GetCustodyHash*
+  implements:
+  - ChiaWalletSdk.IVaultInfo.GetCustodyHash
+- uid: ChiaWalletSdk.VaultInfo.GetLauncherId
+  commentId: M:ChiaWalletSdk.VaultInfo.GetLauncherId
+  id: GetLauncherId
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLauncherId()
+  nameWithType: VaultInfo.GetLauncherId()
+  fullName: ChiaWalletSdk.VaultInfo.GetLauncherId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetLauncherId()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetLauncherId() As Byte()
+  overload: ChiaWalletSdk.VaultInfo.GetLauncherId*
+  implements:
+  - ChiaWalletSdk.IVaultInfo.GetLauncherId
+- uid: ChiaWalletSdk.VaultInfo.SetCustodyHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.VaultInfo.SetCustodyHash(System.Byte[])
+  id: SetCustodyHash(System.Byte[])
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: SetCustodyHash(byte[])
+  nameWithType: VaultInfo.SetCustodyHash(byte[])
+  fullName: ChiaWalletSdk.VaultInfo.SetCustodyHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VaultInfo SetCustodyHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VaultInfo
+    content.vb: Public Function SetCustodyHash(value As Byte()) As VaultInfo
+  overload: ChiaWalletSdk.VaultInfo.SetCustodyHash*
+  implements:
+  - ChiaWalletSdk.IVaultInfo.SetCustodyHash(System.Byte[])
+  nameWithType.vb: VaultInfo.SetCustodyHash(Byte())
+  fullName.vb: ChiaWalletSdk.VaultInfo.SetCustodyHash(Byte())
+  name.vb: SetCustodyHash(Byte())
+- uid: ChiaWalletSdk.VaultInfo.SetLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.VaultInfo.SetLauncherId(System.Byte[])
+  id: SetLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.VaultInfo
+  langs:
+  - csharp
+  - vb
+  name: SetLauncherId(byte[])
+  nameWithType: VaultInfo.SetLauncherId(byte[])
+  fullName: ChiaWalletSdk.VaultInfo.SetLauncherId(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VaultInfo SetLauncherId(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VaultInfo
+    content.vb: Public Function SetLauncherId(value As Byte()) As VaultInfo
+  overload: ChiaWalletSdk.VaultInfo.SetLauncherId*
+  implements:
+  - ChiaWalletSdk.IVaultInfo.SetLauncherId(System.Byte[])
+  nameWithType.vb: VaultInfo.SetLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.VaultInfo.SetLauncherId(Byte())
+  name.vb: SetLauncherId(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IVaultInfo
+  commentId: T:ChiaWalletSdk.IVaultInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IVaultInfo.html
+  name: IVaultInfo
+  nameWithType: IVaultInfo
+  fullName: ChiaWalletSdk.IVaultInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.VaultInfo.#ctor*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo__ctor_System_IntPtr_
+  name: VaultInfo
+  nameWithType: VaultInfo.VaultInfo
+  fullName: ChiaWalletSdk.VaultInfo.VaultInfo
+  nameWithType.vb: VaultInfo.New
+  fullName.vb: ChiaWalletSdk.VaultInfo.New
+  name.vb: New
+- uid: ChiaWalletSdk.VaultInfo.Finalize*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_Finalize
+  name: ~VaultInfo
+  nameWithType: VaultInfo.~VaultInfo
+  fullName: ChiaWalletSdk.VaultInfo.~VaultInfo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.VaultInfo.Finalize*
+    name: VaultInfo
+    isExternal: true
+    href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VaultInfo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: VaultInfo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.VaultInfo.FreeRustArcPtr
+- uid: ChiaWalletSdk.VaultInfo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: VaultInfo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.VaultInfo.CloneRustArcPtr
+- uid: ChiaWalletSdk.VaultInfo.Destroy*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_Destroy
+  name: Destroy
+  nameWithType: VaultInfo.Destroy
+  fullName: ChiaWalletSdk.VaultInfo.Destroy
+- uid: ChiaWalletSdk.VaultInfo.Dispose*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_Dispose
+  name: Dispose
+  nameWithType: VaultInfo.Dispose
+  fullName: ChiaWalletSdk.VaultInfo.Dispose
+- uid: ChiaWalletSdk.VaultInfo.GetCustodyHash*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.GetCustodyHash
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_GetCustodyHash
+  name: GetCustodyHash
+  nameWithType: VaultInfo.GetCustodyHash
+  fullName: ChiaWalletSdk.VaultInfo.GetCustodyHash
+- uid: ChiaWalletSdk.IVaultInfo.GetCustodyHash
+  commentId: M:ChiaWalletSdk.IVaultInfo.GetCustodyHash
+  parent: ChiaWalletSdk.IVaultInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_GetCustodyHash
+  name: GetCustodyHash()
+  nameWithType: IVaultInfo.GetCustodyHash()
+  fullName: ChiaWalletSdk.IVaultInfo.GetCustodyHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVaultInfo.GetCustodyHash
+    name: GetCustodyHash
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_GetCustodyHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVaultInfo.GetCustodyHash
+    name: GetCustodyHash
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_GetCustodyHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VaultInfo.GetLauncherId*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.GetLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_GetLauncherId
+  name: GetLauncherId
+  nameWithType: VaultInfo.GetLauncherId
+  fullName: ChiaWalletSdk.VaultInfo.GetLauncherId
+- uid: ChiaWalletSdk.IVaultInfo.GetLauncherId
+  commentId: M:ChiaWalletSdk.IVaultInfo.GetLauncherId
+  parent: ChiaWalletSdk.IVaultInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_GetLauncherId
+  name: GetLauncherId()
+  nameWithType: IVaultInfo.GetLauncherId()
+  fullName: ChiaWalletSdk.IVaultInfo.GetLauncherId()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVaultInfo.GetLauncherId
+    name: GetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_GetLauncherId
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVaultInfo.GetLauncherId
+    name: GetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_GetLauncherId
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VaultInfo.SetCustodyHash*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.SetCustodyHash
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_SetCustodyHash_System_Byte___
+  name: SetCustodyHash
+  nameWithType: VaultInfo.SetCustodyHash
+  fullName: ChiaWalletSdk.VaultInfo.SetCustodyHash
+- uid: ChiaWalletSdk.IVaultInfo.SetCustodyHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVaultInfo.SetCustodyHash(System.Byte[])
+  parent: ChiaWalletSdk.IVaultInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_SetCustodyHash_System_Byte___
+  name: SetCustodyHash(byte[])
+  nameWithType: IVaultInfo.SetCustodyHash(byte[])
+  fullName: ChiaWalletSdk.IVaultInfo.SetCustodyHash(byte[])
+  nameWithType.vb: IVaultInfo.SetCustodyHash(Byte())
+  fullName.vb: ChiaWalletSdk.IVaultInfo.SetCustodyHash(Byte())
+  name.vb: SetCustodyHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVaultInfo.SetCustodyHash(System.Byte[])
+    name: SetCustodyHash
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_SetCustodyHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVaultInfo.SetCustodyHash(System.Byte[])
+    name: SetCustodyHash
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_SetCustodyHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.VaultInfo
+  commentId: T:ChiaWalletSdk.VaultInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html
+  name: VaultInfo
+  nameWithType: VaultInfo
+  fullName: ChiaWalletSdk.VaultInfo
+- uid: ChiaWalletSdk.VaultInfo.SetLauncherId*
+  commentId: Overload:ChiaWalletSdk.VaultInfo.SetLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.VaultInfo.html#ChiaWalletSdk_VaultInfo_SetLauncherId_System_Byte___
+  name: SetLauncherId
+  nameWithType: VaultInfo.SetLauncherId
+  fullName: ChiaWalletSdk.VaultInfo.SetLauncherId
+- uid: ChiaWalletSdk.IVaultInfo.SetLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVaultInfo.SetLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.IVaultInfo
+  isExternal: true
+  href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_SetLauncherId_System_Byte___
+  name: SetLauncherId(byte[])
+  nameWithType: IVaultInfo.SetLauncherId(byte[])
+  fullName: ChiaWalletSdk.IVaultInfo.SetLauncherId(byte[])
+  nameWithType.vb: IVaultInfo.SetLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.IVaultInfo.SetLauncherId(Byte())
+  name.vb: SetLauncherId(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVaultInfo.SetLauncherId(System.Byte[])
+    name: SetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_SetLauncherId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVaultInfo.SetLauncherId(System.Byte[])
+    name: SetLauncherId
+    isExternal: true
+    href: ChiaWalletSdk.IVaultInfo.html#ChiaWalletSdk_IVaultInfo_SetLauncherId_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

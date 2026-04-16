@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.CreatedBulletin
+  commentId: T:ChiaWalletSdk.CreatedBulletin
+  id: CreatedBulletin
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.CreatedBulletin.#ctor(ChiaWalletSdk.Bulletin,System.Collections.Generic.List{ChiaWalletSdk.Program})
+  - ChiaWalletSdk.CreatedBulletin.#ctor(System.IntPtr)
+  - ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr
+  - ChiaWalletSdk.CreatedBulletin.Destroy
+  - ChiaWalletSdk.CreatedBulletin.Dispose
+  - ChiaWalletSdk.CreatedBulletin.Finalize
+  - ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr
+  - ChiaWalletSdk.CreatedBulletin.GetBulletin
+  - ChiaWalletSdk.CreatedBulletin.GetParentConditions
+  - ChiaWalletSdk.CreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  - ChiaWalletSdk.CreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  - ChiaWalletSdk.CreatedBulletin.pointer
+  langs:
+  - csharp
+  - vb
+  name: CreatedBulletin
+  nameWithType: CreatedBulletin
+  fullName: ChiaWalletSdk.CreatedBulletin
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class CreatedBulletin : ICreatedBulletin'
+    content.vb: Public Class CreatedBulletin Implements ICreatedBulletin
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ICreatedBulletin
+- uid: ChiaWalletSdk.CreatedBulletin.pointer
+  commentId: F:ChiaWalletSdk.CreatedBulletin.pointer
+  id: pointer
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: CreatedBulletin.pointer
+  fullName: ChiaWalletSdk.CreatedBulletin.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.CreatedBulletin.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.CreatedBulletin.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: CreatedBulletin(nint)
+  nameWithType: CreatedBulletin.CreatedBulletin(nint)
+  fullName: ChiaWalletSdk.CreatedBulletin.CreatedBulletin(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public CreatedBulletin(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.CreatedBulletin.#ctor*
+  nameWithType.vb: CreatedBulletin.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.CreatedBulletin.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.CreatedBulletin.Finalize
+  commentId: M:ChiaWalletSdk.CreatedBulletin.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: ~CreatedBulletin()
+  nameWithType: CreatedBulletin.~CreatedBulletin()
+  fullName: ChiaWalletSdk.CreatedBulletin.~CreatedBulletin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~CreatedBulletin()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.CreatedBulletin.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.CreatedBulletin.#ctor(ChiaWalletSdk.Bulletin,System.Collections.Generic.List{ChiaWalletSdk.Program})
+  commentId: M:ChiaWalletSdk.CreatedBulletin.#ctor(ChiaWalletSdk.Bulletin,System.Collections.Generic.List{ChiaWalletSdk.Program})
+  id: '#ctor(ChiaWalletSdk.Bulletin,System.Collections.Generic.List{ChiaWalletSdk.Program})'
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: CreatedBulletin(Bulletin, List<Program>)
+  nameWithType: CreatedBulletin.CreatedBulletin(Bulletin, List<Program>)
+  fullName: ChiaWalletSdk.CreatedBulletin.CreatedBulletin(ChiaWalletSdk.Bulletin, System.Collections.Generic.List<ChiaWalletSdk.Program>)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public CreatedBulletin(Bulletin bulletin, List<Program> parentConditions)
+    parameters:
+    - id: bulletin
+      type: ChiaWalletSdk.Bulletin
+    - id: parentConditions
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Public Sub New(bulletin As Bulletin, parentConditions As List(Of Program))
+  overload: ChiaWalletSdk.CreatedBulletin.#ctor*
+  nameWithType.vb: CreatedBulletin.New(Bulletin, List(Of Program))
+  fullName.vb: ChiaWalletSdk.CreatedBulletin.New(ChiaWalletSdk.Bulletin, System.Collections.Generic.List(Of ChiaWalletSdk.Program))
+  name.vb: New(Bulletin, List(Of Program))
+- uid: ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: CreatedBulletin.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr*
+- uid: ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: CreatedBulletin.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr*
+- uid: ChiaWalletSdk.CreatedBulletin.Destroy
+  commentId: M:ChiaWalletSdk.CreatedBulletin.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: CreatedBulletin.Destroy()
+  fullName: ChiaWalletSdk.CreatedBulletin.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.CreatedBulletin.Destroy*
+- uid: ChiaWalletSdk.CreatedBulletin.Dispose
+  commentId: M:ChiaWalletSdk.CreatedBulletin.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CreatedBulletin.Dispose()
+  fullName: ChiaWalletSdk.CreatedBulletin.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.CreatedBulletin.Dispose*
+- uid: ChiaWalletSdk.CreatedBulletin.GetBulletin
+  commentId: M:ChiaWalletSdk.CreatedBulletin.GetBulletin
+  id: GetBulletin
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: GetBulletin()
+  nameWithType: CreatedBulletin.GetBulletin()
+  fullName: ChiaWalletSdk.CreatedBulletin.GetBulletin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Bulletin GetBulletin()
+    return:
+      type: ChiaWalletSdk.Bulletin
+    content.vb: Public Function GetBulletin() As Bulletin
+  overload: ChiaWalletSdk.CreatedBulletin.GetBulletin*
+  implements:
+  - ChiaWalletSdk.ICreatedBulletin.GetBulletin
+- uid: ChiaWalletSdk.CreatedBulletin.GetParentConditions
+  commentId: M:ChiaWalletSdk.CreatedBulletin.GetParentConditions
+  id: GetParentConditions
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: GetParentConditions()
+  nameWithType: CreatedBulletin.GetParentConditions()
+  fullName: ChiaWalletSdk.CreatedBulletin.GetParentConditions()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<Program> GetParentConditions()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    content.vb: Public Function GetParentConditions() As List(Of Program)
+  overload: ChiaWalletSdk.CreatedBulletin.GetParentConditions*
+  implements:
+  - ChiaWalletSdk.ICreatedBulletin.GetParentConditions
+- uid: ChiaWalletSdk.CreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  commentId: M:ChiaWalletSdk.CreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  id: SetBulletin(ChiaWalletSdk.Bulletin)
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: SetBulletin(Bulletin)
+  nameWithType: CreatedBulletin.SetBulletin(Bulletin)
+  fullName: ChiaWalletSdk.CreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CreatedBulletin SetBulletin(Bulletin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Bulletin
+    return:
+      type: ChiaWalletSdk.CreatedBulletin
+    content.vb: Public Function SetBulletin(value As Bulletin) As CreatedBulletin
+  overload: ChiaWalletSdk.CreatedBulletin.SetBulletin*
+  implements:
+  - ChiaWalletSdk.ICreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+- uid: ChiaWalletSdk.CreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  commentId: M:ChiaWalletSdk.CreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  id: SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  parent: ChiaWalletSdk.CreatedBulletin
+  langs:
+  - csharp
+  - vb
+  name: SetParentConditions(List<Program>)
+  nameWithType: CreatedBulletin.SetParentConditions(List<Program>)
+  fullName: ChiaWalletSdk.CreatedBulletin.SetParentConditions(System.Collections.Generic.List<ChiaWalletSdk.Program>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public CreatedBulletin SetParentConditions(List<Program> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.Program}
+    return:
+      type: ChiaWalletSdk.CreatedBulletin
+    content.vb: Public Function SetParentConditions(value As List(Of Program)) As CreatedBulletin
+  overload: ChiaWalletSdk.CreatedBulletin.SetParentConditions*
+  implements:
+  - ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  nameWithType.vb: CreatedBulletin.SetParentConditions(List(Of Program))
+  fullName.vb: ChiaWalletSdk.CreatedBulletin.SetParentConditions(System.Collections.Generic.List(Of ChiaWalletSdk.Program))
+  name.vb: SetParentConditions(List(Of Program))
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ICreatedBulletin
+  commentId: T:ChiaWalletSdk.ICreatedBulletin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ICreatedBulletin.html
+  name: ICreatedBulletin
+  nameWithType: ICreatedBulletin
+  fullName: ChiaWalletSdk.ICreatedBulletin
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.CreatedBulletin.#ctor*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin__ctor_System_IntPtr_
+  name: CreatedBulletin
+  nameWithType: CreatedBulletin.CreatedBulletin
+  fullName: ChiaWalletSdk.CreatedBulletin.CreatedBulletin
+  nameWithType.vb: CreatedBulletin.New
+  fullName.vb: ChiaWalletSdk.CreatedBulletin.New
+  name.vb: New
+- uid: ChiaWalletSdk.CreatedBulletin.Finalize*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_Finalize
+  name: ~CreatedBulletin
+  nameWithType: CreatedBulletin.~CreatedBulletin
+  fullName: ChiaWalletSdk.CreatedBulletin.~CreatedBulletin
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.CreatedBulletin.Finalize*
+    name: CreatedBulletin
+    isExternal: true
+    href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_Finalize
+- uid: ChiaWalletSdk.Bulletin
+  commentId: T:ChiaWalletSdk.Bulletin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Bulletin.html
+  name: Bulletin
+  nameWithType: Bulletin
+  fullName: ChiaWalletSdk.Bulletin
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Program}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Program}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Program.html
+  name: List<Program>
+  nameWithType: List<Program>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Program>
+  nameWithType.vb: List(Of Program)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Program)
+  name.vb: List(Of Program)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: CreatedBulletin.FreeRustArcPtr
+  fullName: ChiaWalletSdk.CreatedBulletin.FreeRustArcPtr
+- uid: ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: CreatedBulletin.CloneRustArcPtr
+  fullName: ChiaWalletSdk.CreatedBulletin.CloneRustArcPtr
+- uid: ChiaWalletSdk.CreatedBulletin.Destroy*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_Destroy
+  name: Destroy
+  nameWithType: CreatedBulletin.Destroy
+  fullName: ChiaWalletSdk.CreatedBulletin.Destroy
+- uid: ChiaWalletSdk.CreatedBulletin.Dispose*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_Dispose
+  name: Dispose
+  nameWithType: CreatedBulletin.Dispose
+  fullName: ChiaWalletSdk.CreatedBulletin.Dispose
+- uid: ChiaWalletSdk.CreatedBulletin.GetBulletin*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.GetBulletin
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_GetBulletin
+  name: GetBulletin
+  nameWithType: CreatedBulletin.GetBulletin
+  fullName: ChiaWalletSdk.CreatedBulletin.GetBulletin
+- uid: ChiaWalletSdk.ICreatedBulletin.GetBulletin
+  commentId: M:ChiaWalletSdk.ICreatedBulletin.GetBulletin
+  parent: ChiaWalletSdk.ICreatedBulletin
+  isExternal: true
+  href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_GetBulletin
+  name: GetBulletin()
+  nameWithType: ICreatedBulletin.GetBulletin()
+  fullName: ChiaWalletSdk.ICreatedBulletin.GetBulletin()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICreatedBulletin.GetBulletin
+    name: GetBulletin
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_GetBulletin
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICreatedBulletin.GetBulletin
+    name: GetBulletin
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_GetBulletin
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CreatedBulletin.GetParentConditions*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.GetParentConditions
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_GetParentConditions
+  name: GetParentConditions
+  nameWithType: CreatedBulletin.GetParentConditions
+  fullName: ChiaWalletSdk.CreatedBulletin.GetParentConditions
+- uid: ChiaWalletSdk.ICreatedBulletin.GetParentConditions
+  commentId: M:ChiaWalletSdk.ICreatedBulletin.GetParentConditions
+  parent: ChiaWalletSdk.ICreatedBulletin
+  isExternal: true
+  href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_GetParentConditions
+  name: GetParentConditions()
+  nameWithType: ICreatedBulletin.GetParentConditions()
+  fullName: ChiaWalletSdk.ICreatedBulletin.GetParentConditions()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICreatedBulletin.GetParentConditions
+    name: GetParentConditions
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_GetParentConditions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICreatedBulletin.GetParentConditions
+    name: GetParentConditions
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_GetParentConditions
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.CreatedBulletin.SetBulletin*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.SetBulletin
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_SetBulletin_ChiaWalletSdk_Bulletin_
+  name: SetBulletin
+  nameWithType: CreatedBulletin.SetBulletin
+  fullName: ChiaWalletSdk.CreatedBulletin.SetBulletin
+- uid: ChiaWalletSdk.ICreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  commentId: M:ChiaWalletSdk.ICreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  parent: ChiaWalletSdk.ICreatedBulletin
+  isExternal: true
+  href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_SetBulletin_ChiaWalletSdk_Bulletin_
+  name: SetBulletin(Bulletin)
+  nameWithType: ICreatedBulletin.SetBulletin(Bulletin)
+  fullName: ChiaWalletSdk.ICreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+    name: SetBulletin
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_SetBulletin_ChiaWalletSdk_Bulletin_
+  - name: (
+  - uid: ChiaWalletSdk.Bulletin
+    name: Bulletin
+    isExternal: true
+    href: ChiaWalletSdk.Bulletin.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICreatedBulletin.SetBulletin(ChiaWalletSdk.Bulletin)
+    name: SetBulletin
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_SetBulletin_ChiaWalletSdk_Bulletin_
+  - name: (
+  - uid: ChiaWalletSdk.Bulletin
+    name: Bulletin
+    isExternal: true
+    href: ChiaWalletSdk.Bulletin.html
+  - name: )
+- uid: ChiaWalletSdk.CreatedBulletin
+  commentId: T:ChiaWalletSdk.CreatedBulletin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html
+  name: CreatedBulletin
+  nameWithType: CreatedBulletin
+  fullName: ChiaWalletSdk.CreatedBulletin
+- uid: ChiaWalletSdk.CreatedBulletin.SetParentConditions*
+  commentId: Overload:ChiaWalletSdk.CreatedBulletin.SetParentConditions
+  isExternal: true
+  href: ChiaWalletSdk.CreatedBulletin.html#ChiaWalletSdk_CreatedBulletin_SetParentConditions_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  name: SetParentConditions
+  nameWithType: CreatedBulletin.SetParentConditions
+  fullName: ChiaWalletSdk.CreatedBulletin.SetParentConditions
+- uid: ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  commentId: M:ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+  parent: ChiaWalletSdk.ICreatedBulletin
+  isExternal: true
+  href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_SetParentConditions_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  name: SetParentConditions(List<Program>)
+  nameWithType: ICreatedBulletin.SetParentConditions(List<Program>)
+  fullName: ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List<ChiaWalletSdk.Program>)
+  nameWithType.vb: ICreatedBulletin.SetParentConditions(List(Of Program))
+  fullName.vb: ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List(Of ChiaWalletSdk.Program))
+  name.vb: SetParentConditions(List(Of Program))
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+    name: SetParentConditions
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_SetParentConditions_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICreatedBulletin.SetParentConditions(System.Collections.Generic.List{ChiaWalletSdk.Program})
+    name: SetParentConditions
+    isExternal: true
+    href: ChiaWalletSdk.ICreatedBulletin.html#ChiaWalletSdk_ICreatedBulletin_SetParentConditions_System_Collections_Generic_List_ChiaWalletSdk_Program__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  - name: )

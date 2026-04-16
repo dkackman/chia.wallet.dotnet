@@ -1,0 +1,971 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Clawback
+  commentId: T:ChiaWalletSdk.Clawback
+  id: Clawback
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Clawback.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Clawback.#ctor(System.String,System.Byte[],System.Byte[])
+  - ChiaWalletSdk.Clawback.CloneRustArcPtr
+  - ChiaWalletSdk.Clawback.Destroy
+  - ChiaWalletSdk.Clawback.Dispose
+  - ChiaWalletSdk.Clawback.Finalize
+  - ChiaWalletSdk.Clawback.FreeRustArcPtr
+  - ChiaWalletSdk.Clawback.GetReceiverPuzzleHash
+  - ChiaWalletSdk.Clawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  - ChiaWalletSdk.Clawback.GetSenderPuzzleHash
+  - ChiaWalletSdk.Clawback.GetTimelock
+  - ChiaWalletSdk.Clawback.PuzzleHash
+  - ChiaWalletSdk.Clawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  - ChiaWalletSdk.Clawback.SenderSpend(ChiaWalletSdk.Spend)
+  - ChiaWalletSdk.Clawback.SetReceiverPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.Clawback.SetSenderPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.Clawback.SetTimelock(System.String)
+  - ChiaWalletSdk.Clawback.pointer
+  langs:
+  - csharp
+  - vb
+  name: Clawback
+  nameWithType: Clawback
+  fullName: ChiaWalletSdk.Clawback
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Clawback : IClawback'
+    content.vb: Public Class Clawback Implements IClawback
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IClawback
+- uid: ChiaWalletSdk.Clawback.pointer
+  commentId: F:ChiaWalletSdk.Clawback.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Clawback.pointer
+  fullName: ChiaWalletSdk.Clawback.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Clawback.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Clawback.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: Clawback(nint)
+  nameWithType: Clawback.Clawback(nint)
+  fullName: ChiaWalletSdk.Clawback.Clawback(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Clawback(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Clawback.#ctor*
+  nameWithType.vb: Clawback.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Clawback.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Clawback.Finalize
+  commentId: M:ChiaWalletSdk.Clawback.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: ~Clawback()
+  nameWithType: Clawback.~Clawback()
+  fullName: ChiaWalletSdk.Clawback.~Clawback()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Clawback()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Clawback.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Clawback.#ctor(System.String,System.Byte[],System.Byte[])
+  commentId: M:ChiaWalletSdk.Clawback.#ctor(System.String,System.Byte[],System.Byte[])
+  id: '#ctor(System.String,System.Byte[],System.Byte[])'
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: Clawback(string, byte[], byte[])
+  nameWithType: Clawback.Clawback(string, byte[], byte[])
+  fullName: ChiaWalletSdk.Clawback.Clawback(string, byte[], byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Clawback(string timelock, byte[] senderPuzzleHash, byte[] receiverPuzzleHash)
+    parameters:
+    - id: timelock
+      type: System.String
+    - id: senderPuzzleHash
+      type: System.Byte[]
+    - id: receiverPuzzleHash
+      type: System.Byte[]
+    content.vb: Public Sub New(timelock As String, senderPuzzleHash As Byte(), receiverPuzzleHash As Byte())
+  overload: ChiaWalletSdk.Clawback.#ctor*
+  nameWithType.vb: Clawback.New(String, Byte(), Byte())
+  fullName.vb: ChiaWalletSdk.Clawback.New(String, Byte(), Byte())
+  name.vb: New(String, Byte(), Byte())
+- uid: ChiaWalletSdk.Clawback.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Clawback.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Clawback.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Clawback.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Clawback.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Clawback.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Clawback.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Clawback.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Clawback.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Clawback.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Clawback.Destroy
+  commentId: M:ChiaWalletSdk.Clawback.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Clawback.Destroy()
+  fullName: ChiaWalletSdk.Clawback.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Clawback.Destroy*
+- uid: ChiaWalletSdk.Clawback.Dispose
+  commentId: M:ChiaWalletSdk.Clawback.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Clawback.Dispose()
+  fullName: ChiaWalletSdk.Clawback.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Clawback.Dispose*
+- uid: ChiaWalletSdk.Clawback.GetReceiverPuzzleHash
+  commentId: M:ChiaWalletSdk.Clawback.GetReceiverPuzzleHash
+  id: GetReceiverPuzzleHash
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: GetReceiverPuzzleHash()
+  nameWithType: Clawback.GetReceiverPuzzleHash()
+  fullName: ChiaWalletSdk.Clawback.GetReceiverPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetReceiverPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetReceiverPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.Clawback.GetReceiverPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IClawback.GetReceiverPuzzleHash
+- uid: ChiaWalletSdk.Clawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  commentId: M:ChiaWalletSdk.Clawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  id: GetRemarkCondition(ChiaWalletSdk.Clvm)
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: GetRemarkCondition(Clvm)
+  nameWithType: Clawback.GetRemarkCondition(Clvm)
+  fullName: ChiaWalletSdk.Clawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Remark GetRemarkCondition(Clvm clvm)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    return:
+      type: ChiaWalletSdk.Remark
+    content.vb: Public Function GetRemarkCondition(clvm As Clvm) As Remark
+  overload: ChiaWalletSdk.Clawback.GetRemarkCondition*
+  implements:
+  - ChiaWalletSdk.IClawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+- uid: ChiaWalletSdk.Clawback.GetSenderPuzzleHash
+  commentId: M:ChiaWalletSdk.Clawback.GetSenderPuzzleHash
+  id: GetSenderPuzzleHash
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: GetSenderPuzzleHash()
+  nameWithType: Clawback.GetSenderPuzzleHash()
+  fullName: ChiaWalletSdk.Clawback.GetSenderPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetSenderPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetSenderPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.Clawback.GetSenderPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IClawback.GetSenderPuzzleHash
+- uid: ChiaWalletSdk.Clawback.GetTimelock
+  commentId: M:ChiaWalletSdk.Clawback.GetTimelock
+  id: GetTimelock
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: GetTimelock()
+  nameWithType: Clawback.GetTimelock()
+  fullName: ChiaWalletSdk.Clawback.GetTimelock()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetTimelock()
+    return:
+      type: System.String
+    content.vb: Public Function GetTimelock() As String
+  overload: ChiaWalletSdk.Clawback.GetTimelock*
+  implements:
+  - ChiaWalletSdk.IClawback.GetTimelock
+- uid: ChiaWalletSdk.Clawback.PuzzleHash
+  commentId: M:ChiaWalletSdk.Clawback.PuzzleHash
+  id: PuzzleHash
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: PuzzleHash()
+  nameWithType: Clawback.PuzzleHash()
+  fullName: ChiaWalletSdk.Clawback.PuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] PuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function PuzzleHash() As Byte()
+  overload: ChiaWalletSdk.Clawback.PuzzleHash*
+  implements:
+  - ChiaWalletSdk.IClawback.PuzzleHash
+- uid: ChiaWalletSdk.Clawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  commentId: M:ChiaWalletSdk.Clawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  id: ReceiverSpend(ChiaWalletSdk.Spend)
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: ReceiverSpend(Spend)
+  nameWithType: Clawback.ReceiverSpend(Spend)
+  fullName: ChiaWalletSdk.Clawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Spend ReceiverSpend(Spend spend)
+    parameters:
+    - id: spend
+      type: ChiaWalletSdk.Spend
+    return:
+      type: ChiaWalletSdk.Spend
+    content.vb: Public Function ReceiverSpend(spend As Spend) As Spend
+  overload: ChiaWalletSdk.Clawback.ReceiverSpend*
+  implements:
+  - ChiaWalletSdk.IClawback.ReceiverSpend(ChiaWalletSdk.Spend)
+- uid: ChiaWalletSdk.Clawback.SenderSpend(ChiaWalletSdk.Spend)
+  commentId: M:ChiaWalletSdk.Clawback.SenderSpend(ChiaWalletSdk.Spend)
+  id: SenderSpend(ChiaWalletSdk.Spend)
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: SenderSpend(Spend)
+  nameWithType: Clawback.SenderSpend(Spend)
+  fullName: ChiaWalletSdk.Clawback.SenderSpend(ChiaWalletSdk.Spend)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Spend SenderSpend(Spend spend)
+    parameters:
+    - id: spend
+      type: ChiaWalletSdk.Spend
+    return:
+      type: ChiaWalletSdk.Spend
+    content.vb: Public Function SenderSpend(spend As Spend) As Spend
+  overload: ChiaWalletSdk.Clawback.SenderSpend*
+  implements:
+  - ChiaWalletSdk.IClawback.SenderSpend(ChiaWalletSdk.Spend)
+- uid: ChiaWalletSdk.Clawback.SetReceiverPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Clawback.SetReceiverPuzzleHash(System.Byte[])
+  id: SetReceiverPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: SetReceiverPuzzleHash(byte[])
+  nameWithType: Clawback.SetReceiverPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.Clawback.SetReceiverPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Clawback SetReceiverPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Clawback
+    content.vb: Public Function SetReceiverPuzzleHash(value As Byte()) As Clawback
+  overload: ChiaWalletSdk.Clawback.SetReceiverPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(System.Byte[])
+  nameWithType.vb: Clawback.SetReceiverPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.Clawback.SetReceiverPuzzleHash(Byte())
+  name.vb: SetReceiverPuzzleHash(Byte())
+- uid: ChiaWalletSdk.Clawback.SetSenderPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Clawback.SetSenderPuzzleHash(System.Byte[])
+  id: SetSenderPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: SetSenderPuzzleHash(byte[])
+  nameWithType: Clawback.SetSenderPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.Clawback.SetSenderPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Clawback SetSenderPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Clawback
+    content.vb: Public Function SetSenderPuzzleHash(value As Byte()) As Clawback
+  overload: ChiaWalletSdk.Clawback.SetSenderPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IClawback.SetSenderPuzzleHash(System.Byte[])
+  nameWithType.vb: Clawback.SetSenderPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.Clawback.SetSenderPuzzleHash(Byte())
+  name.vb: SetSenderPuzzleHash(Byte())
+- uid: ChiaWalletSdk.Clawback.SetTimelock(System.String)
+  commentId: M:ChiaWalletSdk.Clawback.SetTimelock(System.String)
+  id: SetTimelock(System.String)
+  parent: ChiaWalletSdk.Clawback
+  langs:
+  - csharp
+  - vb
+  name: SetTimelock(string)
+  nameWithType: Clawback.SetTimelock(string)
+  fullName: ChiaWalletSdk.Clawback.SetTimelock(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Clawback SetTimelock(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Clawback
+    content.vb: Public Function SetTimelock(value As String) As Clawback
+  overload: ChiaWalletSdk.Clawback.SetTimelock*
+  implements:
+  - ChiaWalletSdk.IClawback.SetTimelock(System.String)
+  nameWithType.vb: Clawback.SetTimelock(String)
+  fullName.vb: ChiaWalletSdk.Clawback.SetTimelock(String)
+  name.vb: SetTimelock(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IClawback
+  commentId: T:ChiaWalletSdk.IClawback
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html
+  name: IClawback
+  nameWithType: IClawback
+  fullName: ChiaWalletSdk.IClawback
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Clawback.#ctor*
+  commentId: Overload:ChiaWalletSdk.Clawback.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback__ctor_System_IntPtr_
+  name: Clawback
+  nameWithType: Clawback.Clawback
+  fullName: ChiaWalletSdk.Clawback.Clawback
+  nameWithType.vb: Clawback.New
+  fullName.vb: ChiaWalletSdk.Clawback.New
+  name.vb: New
+- uid: ChiaWalletSdk.Clawback.Finalize*
+  commentId: Overload:ChiaWalletSdk.Clawback.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_Finalize
+  name: ~Clawback
+  nameWithType: Clawback.~Clawback
+  fullName: ChiaWalletSdk.Clawback.~Clawback
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Clawback.Finalize*
+    name: Clawback
+    isExternal: true
+    href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Clawback.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Clawback.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Clawback.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Clawback.FreeRustArcPtr
+- uid: ChiaWalletSdk.Clawback.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Clawback.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Clawback.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Clawback.CloneRustArcPtr
+- uid: ChiaWalletSdk.Clawback.Destroy*
+  commentId: Overload:ChiaWalletSdk.Clawback.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_Destroy
+  name: Destroy
+  nameWithType: Clawback.Destroy
+  fullName: ChiaWalletSdk.Clawback.Destroy
+- uid: ChiaWalletSdk.Clawback.Dispose*
+  commentId: Overload:ChiaWalletSdk.Clawback.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_Dispose
+  name: Dispose
+  nameWithType: Clawback.Dispose
+  fullName: ChiaWalletSdk.Clawback.Dispose
+- uid: ChiaWalletSdk.Clawback.GetReceiverPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Clawback.GetReceiverPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_GetReceiverPuzzleHash
+  name: GetReceiverPuzzleHash
+  nameWithType: Clawback.GetReceiverPuzzleHash
+  fullName: ChiaWalletSdk.Clawback.GetReceiverPuzzleHash
+- uid: ChiaWalletSdk.IClawback.GetReceiverPuzzleHash
+  commentId: M:ChiaWalletSdk.IClawback.GetReceiverPuzzleHash
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetReceiverPuzzleHash
+  name: GetReceiverPuzzleHash()
+  nameWithType: IClawback.GetReceiverPuzzleHash()
+  fullName: ChiaWalletSdk.IClawback.GetReceiverPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.GetReceiverPuzzleHash
+    name: GetReceiverPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetReceiverPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.GetReceiverPuzzleHash
+    name: GetReceiverPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetReceiverPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Clawback.GetRemarkCondition*
+  commentId: Overload:ChiaWalletSdk.Clawback.GetRemarkCondition
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_GetRemarkCondition_ChiaWalletSdk_Clvm_
+  name: GetRemarkCondition
+  nameWithType: Clawback.GetRemarkCondition
+  fullName: ChiaWalletSdk.Clawback.GetRemarkCondition
+- uid: ChiaWalletSdk.IClawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  commentId: M:ChiaWalletSdk.IClawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetRemarkCondition_ChiaWalletSdk_Clvm_
+  name: GetRemarkCondition(Clvm)
+  nameWithType: IClawback.GetRemarkCondition(Clvm)
+  fullName: ChiaWalletSdk.IClawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+    name: GetRemarkCondition
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetRemarkCondition_ChiaWalletSdk_Clvm_
+  - name: (
+  - uid: ChiaWalletSdk.Clvm
+    name: Clvm
+    isExternal: true
+    href: ChiaWalletSdk.Clvm.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.GetRemarkCondition(ChiaWalletSdk.Clvm)
+    name: GetRemarkCondition
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetRemarkCondition_ChiaWalletSdk_Clvm_
+  - name: (
+  - uid: ChiaWalletSdk.Clvm
+    name: Clvm
+    isExternal: true
+    href: ChiaWalletSdk.Clvm.html
+  - name: )
+- uid: ChiaWalletSdk.Clvm
+  commentId: T:ChiaWalletSdk.Clvm
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Clvm.html
+  name: Clvm
+  nameWithType: Clvm
+  fullName: ChiaWalletSdk.Clvm
+- uid: ChiaWalletSdk.Remark
+  commentId: T:ChiaWalletSdk.Remark
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Remark.html
+  name: Remark
+  nameWithType: Remark
+  fullName: ChiaWalletSdk.Remark
+- uid: ChiaWalletSdk.Clawback.GetSenderPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Clawback.GetSenderPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_GetSenderPuzzleHash
+  name: GetSenderPuzzleHash
+  nameWithType: Clawback.GetSenderPuzzleHash
+  fullName: ChiaWalletSdk.Clawback.GetSenderPuzzleHash
+- uid: ChiaWalletSdk.IClawback.GetSenderPuzzleHash
+  commentId: M:ChiaWalletSdk.IClawback.GetSenderPuzzleHash
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetSenderPuzzleHash
+  name: GetSenderPuzzleHash()
+  nameWithType: IClawback.GetSenderPuzzleHash()
+  fullName: ChiaWalletSdk.IClawback.GetSenderPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.GetSenderPuzzleHash
+    name: GetSenderPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetSenderPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.GetSenderPuzzleHash
+    name: GetSenderPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetSenderPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Clawback.GetTimelock*
+  commentId: Overload:ChiaWalletSdk.Clawback.GetTimelock
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_GetTimelock
+  name: GetTimelock
+  nameWithType: Clawback.GetTimelock
+  fullName: ChiaWalletSdk.Clawback.GetTimelock
+- uid: ChiaWalletSdk.IClawback.GetTimelock
+  commentId: M:ChiaWalletSdk.IClawback.GetTimelock
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetTimelock
+  name: GetTimelock()
+  nameWithType: IClawback.GetTimelock()
+  fullName: ChiaWalletSdk.IClawback.GetTimelock()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.GetTimelock
+    name: GetTimelock
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetTimelock
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.GetTimelock
+    name: GetTimelock
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_GetTimelock
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Clawback.PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Clawback.PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_PuzzleHash
+  name: PuzzleHash
+  nameWithType: Clawback.PuzzleHash
+  fullName: ChiaWalletSdk.Clawback.PuzzleHash
+- uid: ChiaWalletSdk.IClawback.PuzzleHash
+  commentId: M:ChiaWalletSdk.IClawback.PuzzleHash
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_PuzzleHash
+  name: PuzzleHash()
+  nameWithType: IClawback.PuzzleHash()
+  fullName: ChiaWalletSdk.IClawback.PuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.PuzzleHash
+    name: PuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_PuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.PuzzleHash
+    name: PuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_PuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Clawback.ReceiverSpend*
+  commentId: Overload:ChiaWalletSdk.Clawback.ReceiverSpend
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_ReceiverSpend_ChiaWalletSdk_Spend_
+  name: ReceiverSpend
+  nameWithType: Clawback.ReceiverSpend
+  fullName: ChiaWalletSdk.Clawback.ReceiverSpend
+- uid: ChiaWalletSdk.IClawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  commentId: M:ChiaWalletSdk.IClawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_ReceiverSpend_ChiaWalletSdk_Spend_
+  name: ReceiverSpend(Spend)
+  nameWithType: IClawback.ReceiverSpend(Spend)
+  fullName: ChiaWalletSdk.IClawback.ReceiverSpend(ChiaWalletSdk.Spend)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.ReceiverSpend(ChiaWalletSdk.Spend)
+    name: ReceiverSpend
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_ReceiverSpend_ChiaWalletSdk_Spend_
+  - name: (
+  - uid: ChiaWalletSdk.Spend
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.ReceiverSpend(ChiaWalletSdk.Spend)
+    name: ReceiverSpend
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_ReceiverSpend_ChiaWalletSdk_Spend_
+  - name: (
+  - uid: ChiaWalletSdk.Spend
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html
+  - name: )
+- uid: ChiaWalletSdk.Spend
+  commentId: T:ChiaWalletSdk.Spend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html
+  name: Spend
+  nameWithType: Spend
+  fullName: ChiaWalletSdk.Spend
+- uid: ChiaWalletSdk.Clawback.SenderSpend*
+  commentId: Overload:ChiaWalletSdk.Clawback.SenderSpend
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_SenderSpend_ChiaWalletSdk_Spend_
+  name: SenderSpend
+  nameWithType: Clawback.SenderSpend
+  fullName: ChiaWalletSdk.Clawback.SenderSpend
+- uid: ChiaWalletSdk.IClawback.SenderSpend(ChiaWalletSdk.Spend)
+  commentId: M:ChiaWalletSdk.IClawback.SenderSpend(ChiaWalletSdk.Spend)
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SenderSpend_ChiaWalletSdk_Spend_
+  name: SenderSpend(Spend)
+  nameWithType: IClawback.SenderSpend(Spend)
+  fullName: ChiaWalletSdk.IClawback.SenderSpend(ChiaWalletSdk.Spend)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.SenderSpend(ChiaWalletSdk.Spend)
+    name: SenderSpend
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SenderSpend_ChiaWalletSdk_Spend_
+  - name: (
+  - uid: ChiaWalletSdk.Spend
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.SenderSpend(ChiaWalletSdk.Spend)
+    name: SenderSpend
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SenderSpend_ChiaWalletSdk_Spend_
+  - name: (
+  - uid: ChiaWalletSdk.Spend
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html
+  - name: )
+- uid: ChiaWalletSdk.Clawback.SetReceiverPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Clawback.SetReceiverPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_SetReceiverPuzzleHash_System_Byte___
+  name: SetReceiverPuzzleHash
+  nameWithType: Clawback.SetReceiverPuzzleHash
+  fullName: ChiaWalletSdk.Clawback.SetReceiverPuzzleHash
+- uid: ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetReceiverPuzzleHash_System_Byte___
+  name: SetReceiverPuzzleHash(byte[])
+  nameWithType: IClawback.SetReceiverPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(byte[])
+  nameWithType.vb: IClawback.SetReceiverPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(Byte())
+  name.vb: SetReceiverPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(System.Byte[])
+    name: SetReceiverPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetReceiverPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.SetReceiverPuzzleHash(System.Byte[])
+    name: SetReceiverPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetReceiverPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Clawback
+  commentId: T:ChiaWalletSdk.Clawback
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html
+  name: Clawback
+  nameWithType: Clawback
+  fullName: ChiaWalletSdk.Clawback
+- uid: ChiaWalletSdk.Clawback.SetSenderPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Clawback.SetSenderPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_SetSenderPuzzleHash_System_Byte___
+  name: SetSenderPuzzleHash
+  nameWithType: Clawback.SetSenderPuzzleHash
+  fullName: ChiaWalletSdk.Clawback.SetSenderPuzzleHash
+- uid: ChiaWalletSdk.IClawback.SetSenderPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IClawback.SetSenderPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetSenderPuzzleHash_System_Byte___
+  name: SetSenderPuzzleHash(byte[])
+  nameWithType: IClawback.SetSenderPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IClawback.SetSenderPuzzleHash(byte[])
+  nameWithType.vb: IClawback.SetSenderPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IClawback.SetSenderPuzzleHash(Byte())
+  name.vb: SetSenderPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.SetSenderPuzzleHash(System.Byte[])
+    name: SetSenderPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetSenderPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.SetSenderPuzzleHash(System.Byte[])
+    name: SetSenderPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetSenderPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Clawback.SetTimelock*
+  commentId: Overload:ChiaWalletSdk.Clawback.SetTimelock
+  isExternal: true
+  href: ChiaWalletSdk.Clawback.html#ChiaWalletSdk_Clawback_SetTimelock_System_String_
+  name: SetTimelock
+  nameWithType: Clawback.SetTimelock
+  fullName: ChiaWalletSdk.Clawback.SetTimelock
+- uid: ChiaWalletSdk.IClawback.SetTimelock(System.String)
+  commentId: M:ChiaWalletSdk.IClawback.SetTimelock(System.String)
+  parent: ChiaWalletSdk.IClawback
+  isExternal: true
+  href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetTimelock_System_String_
+  name: SetTimelock(string)
+  nameWithType: IClawback.SetTimelock(string)
+  fullName: ChiaWalletSdk.IClawback.SetTimelock(string)
+  nameWithType.vb: IClawback.SetTimelock(String)
+  fullName.vb: ChiaWalletSdk.IClawback.SetTimelock(String)
+  name.vb: SetTimelock(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IClawback.SetTimelock(System.String)
+    name: SetTimelock
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetTimelock_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IClawback.SetTimelock(System.String)
+    name: SetTimelock
+    isExternal: true
+    href: ChiaWalletSdk.IClawback.html#ChiaWalletSdk_IClawback_SetTimelock_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

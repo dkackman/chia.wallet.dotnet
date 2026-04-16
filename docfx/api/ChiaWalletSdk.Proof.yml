@@ -1,0 +1,763 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Proof
+  commentId: T:ChiaWalletSdk.Proof
+  id: Proof
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Proof.#ctor(System.Byte[],System.Byte[],System.String)
+  - ChiaWalletSdk.Proof.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Proof.CloneRustArcPtr
+  - ChiaWalletSdk.Proof.Destroy
+  - ChiaWalletSdk.Proof.Dispose
+  - ChiaWalletSdk.Proof.Finalize
+  - ChiaWalletSdk.Proof.FreeRustArcPtr
+  - ChiaWalletSdk.Proof.GetParentAmount
+  - ChiaWalletSdk.Proof.GetParentInnerPuzzleHash
+  - ChiaWalletSdk.Proof.GetParentParentCoinInfo
+  - ChiaWalletSdk.Proof.SetParentAmount(System.String)
+  - ChiaWalletSdk.Proof.SetParentInnerPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.Proof.SetParentParentCoinInfo(System.Byte[])
+  - ChiaWalletSdk.Proof.ToLineageProof
+  - ChiaWalletSdk.Proof.pointer
+  langs:
+  - csharp
+  - vb
+  name: Proof
+  nameWithType: Proof
+  fullName: ChiaWalletSdk.Proof
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Proof : IProof'
+    content.vb: Public Class Proof Implements IProof
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IProof
+- uid: ChiaWalletSdk.Proof.pointer
+  commentId: F:ChiaWalletSdk.Proof.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Proof.pointer
+  fullName: ChiaWalletSdk.Proof.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Proof.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Proof.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: Proof(nint)
+  nameWithType: Proof.Proof(nint)
+  fullName: ChiaWalletSdk.Proof.Proof(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Proof(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Proof.#ctor*
+  nameWithType.vb: Proof.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Proof.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Proof.Finalize
+  commentId: M:ChiaWalletSdk.Proof.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: ~Proof()
+  nameWithType: Proof.~Proof()
+  fullName: ChiaWalletSdk.Proof.~Proof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Proof()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Proof.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Proof.#ctor(System.Byte[],System.Byte[],System.String)
+  commentId: M:ChiaWalletSdk.Proof.#ctor(System.Byte[],System.Byte[],System.String)
+  id: '#ctor(System.Byte[],System.Byte[],System.String)'
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: Proof(byte[], byte[]?, string)
+  nameWithType: Proof.Proof(byte[], byte[]?, string)
+  fullName: ChiaWalletSdk.Proof.Proof(byte[], byte[]?, string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Proof(byte[] parentParentCoinInfo, byte[]? parentInnerPuzzleHash, string parentAmount)
+    parameters:
+    - id: parentParentCoinInfo
+      type: System.Byte[]
+    - id: parentInnerPuzzleHash
+      type: System.Byte[]
+    - id: parentAmount
+      type: System.String
+    content.vb: Public Sub New(parentParentCoinInfo As Byte(), parentInnerPuzzleHash As Byte(), parentAmount As String)
+  overload: ChiaWalletSdk.Proof.#ctor*
+  nameWithType.vb: Proof.New(Byte(), Byte(), String)
+  fullName.vb: ChiaWalletSdk.Proof.New(Byte(), Byte(), String)
+  name.vb: New(Byte(), Byte(), String)
+- uid: ChiaWalletSdk.Proof.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Proof.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Proof.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Proof.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Proof.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Proof.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Proof.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Proof.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Proof.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Proof.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Proof.Destroy
+  commentId: M:ChiaWalletSdk.Proof.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Proof.Destroy()
+  fullName: ChiaWalletSdk.Proof.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Proof.Destroy*
+- uid: ChiaWalletSdk.Proof.Dispose
+  commentId: M:ChiaWalletSdk.Proof.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Proof.Dispose()
+  fullName: ChiaWalletSdk.Proof.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Proof.Dispose*
+- uid: ChiaWalletSdk.Proof.GetParentAmount
+  commentId: M:ChiaWalletSdk.Proof.GetParentAmount
+  id: GetParentAmount
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: GetParentAmount()
+  nameWithType: Proof.GetParentAmount()
+  fullName: ChiaWalletSdk.Proof.GetParentAmount()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetParentAmount()
+    return:
+      type: System.String
+    content.vb: Public Function GetParentAmount() As String
+  overload: ChiaWalletSdk.Proof.GetParentAmount*
+  implements:
+  - ChiaWalletSdk.IProof.GetParentAmount
+- uid: ChiaWalletSdk.Proof.GetParentInnerPuzzleHash
+  commentId: M:ChiaWalletSdk.Proof.GetParentInnerPuzzleHash
+  id: GetParentInnerPuzzleHash
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: GetParentInnerPuzzleHash()
+  nameWithType: Proof.GetParentInnerPuzzleHash()
+  fullName: ChiaWalletSdk.Proof.GetParentInnerPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetParentInnerPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetParentInnerPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.Proof.GetParentInnerPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IProof.GetParentInnerPuzzleHash
+- uid: ChiaWalletSdk.Proof.GetParentParentCoinInfo
+  commentId: M:ChiaWalletSdk.Proof.GetParentParentCoinInfo
+  id: GetParentParentCoinInfo
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: GetParentParentCoinInfo()
+  nameWithType: Proof.GetParentParentCoinInfo()
+  fullName: ChiaWalletSdk.Proof.GetParentParentCoinInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetParentParentCoinInfo()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetParentParentCoinInfo() As Byte()
+  overload: ChiaWalletSdk.Proof.GetParentParentCoinInfo*
+  implements:
+  - ChiaWalletSdk.IProof.GetParentParentCoinInfo
+- uid: ChiaWalletSdk.Proof.SetParentAmount(System.String)
+  commentId: M:ChiaWalletSdk.Proof.SetParentAmount(System.String)
+  id: SetParentAmount(System.String)
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: SetParentAmount(string)
+  nameWithType: Proof.SetParentAmount(string)
+  fullName: ChiaWalletSdk.Proof.SetParentAmount(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Proof SetParentAmount(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Proof
+    content.vb: Public Function SetParentAmount(value As String) As Proof
+  overload: ChiaWalletSdk.Proof.SetParentAmount*
+  implements:
+  - ChiaWalletSdk.IProof.SetParentAmount(System.String)
+  nameWithType.vb: Proof.SetParentAmount(String)
+  fullName.vb: ChiaWalletSdk.Proof.SetParentAmount(String)
+  name.vb: SetParentAmount(String)
+- uid: ChiaWalletSdk.Proof.SetParentInnerPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.Proof.SetParentInnerPuzzleHash(System.Byte[])
+  id: SetParentInnerPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: SetParentInnerPuzzleHash(byte[]?)
+  nameWithType: Proof.SetParentInnerPuzzleHash(byte[]?)
+  fullName: ChiaWalletSdk.Proof.SetParentInnerPuzzleHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Proof SetParentInnerPuzzleHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Proof
+    content.vb: Public Function SetParentInnerPuzzleHash(value As Byte()) As Proof
+  overload: ChiaWalletSdk.Proof.SetParentInnerPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(System.Byte[])
+  nameWithType.vb: Proof.SetParentInnerPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.Proof.SetParentInnerPuzzleHash(Byte())
+  name.vb: SetParentInnerPuzzleHash(Byte())
+- uid: ChiaWalletSdk.Proof.SetParentParentCoinInfo(System.Byte[])
+  commentId: M:ChiaWalletSdk.Proof.SetParentParentCoinInfo(System.Byte[])
+  id: SetParentParentCoinInfo(System.Byte[])
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: SetParentParentCoinInfo(byte[])
+  nameWithType: Proof.SetParentParentCoinInfo(byte[])
+  fullName: ChiaWalletSdk.Proof.SetParentParentCoinInfo(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Proof SetParentParentCoinInfo(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.Proof
+    content.vb: Public Function SetParentParentCoinInfo(value As Byte()) As Proof
+  overload: ChiaWalletSdk.Proof.SetParentParentCoinInfo*
+  implements:
+  - ChiaWalletSdk.IProof.SetParentParentCoinInfo(System.Byte[])
+  nameWithType.vb: Proof.SetParentParentCoinInfo(Byte())
+  fullName.vb: ChiaWalletSdk.Proof.SetParentParentCoinInfo(Byte())
+  name.vb: SetParentParentCoinInfo(Byte())
+- uid: ChiaWalletSdk.Proof.ToLineageProof
+  commentId: M:ChiaWalletSdk.Proof.ToLineageProof
+  id: ToLineageProof
+  parent: ChiaWalletSdk.Proof
+  langs:
+  - csharp
+  - vb
+  name: ToLineageProof()
+  nameWithType: Proof.ToLineageProof()
+  fullName: ChiaWalletSdk.Proof.ToLineageProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public LineageProof? ToLineageProof()
+    return:
+      type: ChiaWalletSdk.LineageProof
+    content.vb: Public Function ToLineageProof() As LineageProof
+  overload: ChiaWalletSdk.Proof.ToLineageProof*
+  implements:
+  - ChiaWalletSdk.IProof.ToLineageProof
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IProof
+  commentId: T:ChiaWalletSdk.IProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html
+  name: IProof
+  nameWithType: IProof
+  fullName: ChiaWalletSdk.IProof
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Proof.#ctor*
+  commentId: Overload:ChiaWalletSdk.Proof.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof__ctor_System_IntPtr_
+  name: Proof
+  nameWithType: Proof.Proof
+  fullName: ChiaWalletSdk.Proof.Proof
+  nameWithType.vb: Proof.New
+  fullName.vb: ChiaWalletSdk.Proof.New
+  name.vb: New
+- uid: ChiaWalletSdk.Proof.Finalize*
+  commentId: Overload:ChiaWalletSdk.Proof.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_Finalize
+  name: ~Proof
+  nameWithType: Proof.~Proof
+  fullName: ChiaWalletSdk.Proof.~Proof
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Proof.Finalize*
+    name: Proof
+    isExternal: true
+    href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Proof.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Proof.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Proof.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Proof.FreeRustArcPtr
+- uid: ChiaWalletSdk.Proof.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Proof.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Proof.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Proof.CloneRustArcPtr
+- uid: ChiaWalletSdk.Proof.Destroy*
+  commentId: Overload:ChiaWalletSdk.Proof.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_Destroy
+  name: Destroy
+  nameWithType: Proof.Destroy
+  fullName: ChiaWalletSdk.Proof.Destroy
+- uid: ChiaWalletSdk.Proof.Dispose*
+  commentId: Overload:ChiaWalletSdk.Proof.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_Dispose
+  name: Dispose
+  nameWithType: Proof.Dispose
+  fullName: ChiaWalletSdk.Proof.Dispose
+- uid: ChiaWalletSdk.Proof.GetParentAmount*
+  commentId: Overload:ChiaWalletSdk.Proof.GetParentAmount
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_GetParentAmount
+  name: GetParentAmount
+  nameWithType: Proof.GetParentAmount
+  fullName: ChiaWalletSdk.Proof.GetParentAmount
+- uid: ChiaWalletSdk.IProof.GetParentAmount
+  commentId: M:ChiaWalletSdk.IProof.GetParentAmount
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentAmount
+  name: GetParentAmount()
+  nameWithType: IProof.GetParentAmount()
+  fullName: ChiaWalletSdk.IProof.GetParentAmount()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.GetParentAmount
+    name: GetParentAmount
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentAmount
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.GetParentAmount
+    name: GetParentAmount
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentAmount
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Proof.GetParentInnerPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Proof.GetParentInnerPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_GetParentInnerPuzzleHash
+  name: GetParentInnerPuzzleHash
+  nameWithType: Proof.GetParentInnerPuzzleHash
+  fullName: ChiaWalletSdk.Proof.GetParentInnerPuzzleHash
+- uid: ChiaWalletSdk.IProof.GetParentInnerPuzzleHash
+  commentId: M:ChiaWalletSdk.IProof.GetParentInnerPuzzleHash
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentInnerPuzzleHash
+  name: GetParentInnerPuzzleHash()
+  nameWithType: IProof.GetParentInnerPuzzleHash()
+  fullName: ChiaWalletSdk.IProof.GetParentInnerPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.GetParentInnerPuzzleHash
+    name: GetParentInnerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentInnerPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.GetParentInnerPuzzleHash
+    name: GetParentInnerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentInnerPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Proof.GetParentParentCoinInfo*
+  commentId: Overload:ChiaWalletSdk.Proof.GetParentParentCoinInfo
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_GetParentParentCoinInfo
+  name: GetParentParentCoinInfo
+  nameWithType: Proof.GetParentParentCoinInfo
+  fullName: ChiaWalletSdk.Proof.GetParentParentCoinInfo
+- uid: ChiaWalletSdk.IProof.GetParentParentCoinInfo
+  commentId: M:ChiaWalletSdk.IProof.GetParentParentCoinInfo
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentParentCoinInfo
+  name: GetParentParentCoinInfo()
+  nameWithType: IProof.GetParentParentCoinInfo()
+  fullName: ChiaWalletSdk.IProof.GetParentParentCoinInfo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.GetParentParentCoinInfo
+    name: GetParentParentCoinInfo
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentParentCoinInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.GetParentParentCoinInfo
+    name: GetParentParentCoinInfo
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_GetParentParentCoinInfo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Proof.SetParentAmount*
+  commentId: Overload:ChiaWalletSdk.Proof.SetParentAmount
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_SetParentAmount_System_String_
+  name: SetParentAmount
+  nameWithType: Proof.SetParentAmount
+  fullName: ChiaWalletSdk.Proof.SetParentAmount
+- uid: ChiaWalletSdk.IProof.SetParentAmount(System.String)
+  commentId: M:ChiaWalletSdk.IProof.SetParentAmount(System.String)
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentAmount_System_String_
+  name: SetParentAmount(string)
+  nameWithType: IProof.SetParentAmount(string)
+  fullName: ChiaWalletSdk.IProof.SetParentAmount(string)
+  nameWithType.vb: IProof.SetParentAmount(String)
+  fullName.vb: ChiaWalletSdk.IProof.SetParentAmount(String)
+  name.vb: SetParentAmount(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.SetParentAmount(System.String)
+    name: SetParentAmount
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentAmount_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.SetParentAmount(System.String)
+    name: SetParentAmount
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentAmount_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.Proof
+  commentId: T:ChiaWalletSdk.Proof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html
+  name: Proof
+  nameWithType: Proof
+  fullName: ChiaWalletSdk.Proof
+- uid: ChiaWalletSdk.Proof.SetParentInnerPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.Proof.SetParentInnerPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_SetParentInnerPuzzleHash_System_Byte___
+  name: SetParentInnerPuzzleHash
+  nameWithType: Proof.SetParentInnerPuzzleHash
+  fullName: ChiaWalletSdk.Proof.SetParentInnerPuzzleHash
+- uid: ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentInnerPuzzleHash_System_Byte___
+  name: SetParentInnerPuzzleHash(byte[])
+  nameWithType: IProof.SetParentInnerPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(byte[])
+  nameWithType.vb: IProof.SetParentInnerPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(Byte())
+  name.vb: SetParentInnerPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(System.Byte[])
+    name: SetParentInnerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentInnerPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.SetParentInnerPuzzleHash(System.Byte[])
+    name: SetParentInnerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentInnerPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Proof.SetParentParentCoinInfo*
+  commentId: Overload:ChiaWalletSdk.Proof.SetParentParentCoinInfo
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_SetParentParentCoinInfo_System_Byte___
+  name: SetParentParentCoinInfo
+  nameWithType: Proof.SetParentParentCoinInfo
+  fullName: ChiaWalletSdk.Proof.SetParentParentCoinInfo
+- uid: ChiaWalletSdk.IProof.SetParentParentCoinInfo(System.Byte[])
+  commentId: M:ChiaWalletSdk.IProof.SetParentParentCoinInfo(System.Byte[])
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentParentCoinInfo_System_Byte___
+  name: SetParentParentCoinInfo(byte[])
+  nameWithType: IProof.SetParentParentCoinInfo(byte[])
+  fullName: ChiaWalletSdk.IProof.SetParentParentCoinInfo(byte[])
+  nameWithType.vb: IProof.SetParentParentCoinInfo(Byte())
+  fullName.vb: ChiaWalletSdk.IProof.SetParentParentCoinInfo(Byte())
+  name.vb: SetParentParentCoinInfo(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.SetParentParentCoinInfo(System.Byte[])
+    name: SetParentParentCoinInfo
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentParentCoinInfo_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.SetParentParentCoinInfo(System.Byte[])
+    name: SetParentParentCoinInfo
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_SetParentParentCoinInfo_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.Proof.ToLineageProof*
+  commentId: Overload:ChiaWalletSdk.Proof.ToLineageProof
+  isExternal: true
+  href: ChiaWalletSdk.Proof.html#ChiaWalletSdk_Proof_ToLineageProof
+  name: ToLineageProof
+  nameWithType: Proof.ToLineageProof
+  fullName: ChiaWalletSdk.Proof.ToLineageProof
+- uid: ChiaWalletSdk.IProof.ToLineageProof
+  commentId: M:ChiaWalletSdk.IProof.ToLineageProof
+  parent: ChiaWalletSdk.IProof
+  isExternal: true
+  href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_ToLineageProof
+  name: ToLineageProof()
+  nameWithType: IProof.ToLineageProof()
+  fullName: ChiaWalletSdk.IProof.ToLineageProof()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IProof.ToLineageProof
+    name: ToLineageProof
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_ToLineageProof
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IProof.ToLineageProof
+    name: ToLineageProof
+    isExternal: true
+    href: ChiaWalletSdk.IProof.html#ChiaWalletSdk_IProof_ToLineageProof
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.LineageProof
+  commentId: T:ChiaWalletSdk.LineageProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.LineageProof.html
+  name: LineageProof
+  nameWithType: LineageProof
+  fullName: ChiaWalletSdk.LineageProof

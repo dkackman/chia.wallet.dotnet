@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IMemberConfig
+  commentId: T:ChiaWalletSdk.IMemberConfig
+  id: IMemberConfig
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IMemberConfig.GetNonce
+  - ChiaWalletSdk.IMemberConfig.GetRestrictions
+  - ChiaWalletSdk.IMemberConfig.GetTopLevel
+  - ChiaWalletSdk.IMemberConfig.SetNonce(System.UInt32)
+  - ChiaWalletSdk.IMemberConfig.SetRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  - ChiaWalletSdk.IMemberConfig.SetTopLevel(System.Boolean)
+  - ChiaWalletSdk.IMemberConfig.WithNonce(System.UInt32)
+  - ChiaWalletSdk.IMemberConfig.WithRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  - ChiaWalletSdk.IMemberConfig.WithTopLevel(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IMemberConfig
+  nameWithType: IMemberConfig
+  fullName: ChiaWalletSdk.IMemberConfig
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IMemberConfig
+    content.vb: Public Interface IMemberConfig
+  derivedClasses:
+  - ChiaWalletSdk.MemberConfig
+- uid: ChiaWalletSdk.IMemberConfig.GetNonce
+  commentId: M:ChiaWalletSdk.IMemberConfig.GetNonce
+  id: GetNonce
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: GetNonce()
+  nameWithType: IMemberConfig.GetNonce()
+  fullName: ChiaWalletSdk.IMemberConfig.GetNonce()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: uint GetNonce()
+    return:
+      type: System.UInt32
+    content.vb: Function GetNonce() As UInteger
+  overload: ChiaWalletSdk.IMemberConfig.GetNonce*
+- uid: ChiaWalletSdk.IMemberConfig.GetRestrictions
+  commentId: M:ChiaWalletSdk.IMemberConfig.GetRestrictions
+  id: GetRestrictions
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictions()
+  nameWithType: IMemberConfig.GetRestrictions()
+  fullName: ChiaWalletSdk.IMemberConfig.GetRestrictions()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<Restriction> GetRestrictions()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Restriction}
+    content.vb: Function GetRestrictions() As List(Of Restriction)
+  overload: ChiaWalletSdk.IMemberConfig.GetRestrictions*
+- uid: ChiaWalletSdk.IMemberConfig.GetTopLevel
+  commentId: M:ChiaWalletSdk.IMemberConfig.GetTopLevel
+  id: GetTopLevel
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: GetTopLevel()
+  nameWithType: IMemberConfig.GetTopLevel()
+  fullName: ChiaWalletSdk.IMemberConfig.GetTopLevel()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: bool GetTopLevel()
+    return:
+      type: System.Boolean
+    content.vb: Function GetTopLevel() As Boolean
+  overload: ChiaWalletSdk.IMemberConfig.GetTopLevel*
+- uid: ChiaWalletSdk.IMemberConfig.SetNonce(System.UInt32)
+  commentId: M:ChiaWalletSdk.IMemberConfig.SetNonce(System.UInt32)
+  id: SetNonce(System.UInt32)
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: SetNonce(uint)
+  nameWithType: IMemberConfig.SetNonce(uint)
+  fullName: ChiaWalletSdk.IMemberConfig.SetNonce(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MemberConfig SetNonce(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.MemberConfig
+    content.vb: Function SetNonce(value As UInteger) As MemberConfig
+  overload: ChiaWalletSdk.IMemberConfig.SetNonce*
+  nameWithType.vb: IMemberConfig.SetNonce(UInteger)
+  fullName.vb: ChiaWalletSdk.IMemberConfig.SetNonce(UInteger)
+  name.vb: SetNonce(UInteger)
+- uid: ChiaWalletSdk.IMemberConfig.SetRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  commentId: M:ChiaWalletSdk.IMemberConfig.SetRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  id: SetRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: SetRestrictions(List<Restriction>)
+  nameWithType: IMemberConfig.SetRestrictions(List<Restriction>)
+  fullName: ChiaWalletSdk.IMemberConfig.SetRestrictions(System.Collections.Generic.List<ChiaWalletSdk.Restriction>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MemberConfig SetRestrictions(List<Restriction> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.Restriction}
+    return:
+      type: ChiaWalletSdk.MemberConfig
+    content.vb: Function SetRestrictions(value As List(Of Restriction)) As MemberConfig
+  overload: ChiaWalletSdk.IMemberConfig.SetRestrictions*
+  nameWithType.vb: IMemberConfig.SetRestrictions(List(Of Restriction))
+  fullName.vb: ChiaWalletSdk.IMemberConfig.SetRestrictions(System.Collections.Generic.List(Of ChiaWalletSdk.Restriction))
+  name.vb: SetRestrictions(List(Of Restriction))
+- uid: ChiaWalletSdk.IMemberConfig.SetTopLevel(System.Boolean)
+  commentId: M:ChiaWalletSdk.IMemberConfig.SetTopLevel(System.Boolean)
+  id: SetTopLevel(System.Boolean)
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: SetTopLevel(bool)
+  nameWithType: IMemberConfig.SetTopLevel(bool)
+  fullName: ChiaWalletSdk.IMemberConfig.SetTopLevel(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MemberConfig SetTopLevel(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.MemberConfig
+    content.vb: Function SetTopLevel(value As Boolean) As MemberConfig
+  overload: ChiaWalletSdk.IMemberConfig.SetTopLevel*
+  nameWithType.vb: IMemberConfig.SetTopLevel(Boolean)
+  fullName.vb: ChiaWalletSdk.IMemberConfig.SetTopLevel(Boolean)
+  name.vb: SetTopLevel(Boolean)
+- uid: ChiaWalletSdk.IMemberConfig.WithNonce(System.UInt32)
+  commentId: M:ChiaWalletSdk.IMemberConfig.WithNonce(System.UInt32)
+  id: WithNonce(System.UInt32)
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: WithNonce(uint)
+  nameWithType: IMemberConfig.WithNonce(uint)
+  fullName: ChiaWalletSdk.IMemberConfig.WithNonce(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MemberConfig WithNonce(uint nonce)
+    parameters:
+    - id: nonce
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.MemberConfig
+    content.vb: Function WithNonce(nonce As UInteger) As MemberConfig
+  overload: ChiaWalletSdk.IMemberConfig.WithNonce*
+  nameWithType.vb: IMemberConfig.WithNonce(UInteger)
+  fullName.vb: ChiaWalletSdk.IMemberConfig.WithNonce(UInteger)
+  name.vb: WithNonce(UInteger)
+- uid: ChiaWalletSdk.IMemberConfig.WithRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  commentId: M:ChiaWalletSdk.IMemberConfig.WithRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  id: WithRestrictions(System.Collections.Generic.List{ChiaWalletSdk.Restriction})
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: WithRestrictions(List<Restriction>)
+  nameWithType: IMemberConfig.WithRestrictions(List<Restriction>)
+  fullName: ChiaWalletSdk.IMemberConfig.WithRestrictions(System.Collections.Generic.List<ChiaWalletSdk.Restriction>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MemberConfig WithRestrictions(List<Restriction> restrictions)
+    parameters:
+    - id: restrictions
+      type: System.Collections.Generic.List{ChiaWalletSdk.Restriction}
+    return:
+      type: ChiaWalletSdk.MemberConfig
+    content.vb: Function WithRestrictions(restrictions As List(Of Restriction)) As MemberConfig
+  overload: ChiaWalletSdk.IMemberConfig.WithRestrictions*
+  nameWithType.vb: IMemberConfig.WithRestrictions(List(Of Restriction))
+  fullName.vb: ChiaWalletSdk.IMemberConfig.WithRestrictions(System.Collections.Generic.List(Of ChiaWalletSdk.Restriction))
+  name.vb: WithRestrictions(List(Of Restriction))
+- uid: ChiaWalletSdk.IMemberConfig.WithTopLevel(System.Boolean)
+  commentId: M:ChiaWalletSdk.IMemberConfig.WithTopLevel(System.Boolean)
+  id: WithTopLevel(System.Boolean)
+  parent: ChiaWalletSdk.IMemberConfig
+  langs:
+  - csharp
+  - vb
+  name: WithTopLevel(bool)
+  nameWithType: IMemberConfig.WithTopLevel(bool)
+  fullName: ChiaWalletSdk.IMemberConfig.WithTopLevel(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: MemberConfig WithTopLevel(bool topLevel)
+    parameters:
+    - id: topLevel
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.MemberConfig
+    content.vb: Function WithTopLevel(topLevel As Boolean) As MemberConfig
+  overload: ChiaWalletSdk.IMemberConfig.WithTopLevel*
+  nameWithType.vb: IMemberConfig.WithTopLevel(Boolean)
+  fullName.vb: ChiaWalletSdk.IMemberConfig.WithTopLevel(Boolean)
+  name.vb: WithTopLevel(Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IMemberConfig.GetNonce*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.GetNonce
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_GetNonce
+  name: GetNonce
+  nameWithType: IMemberConfig.GetNonce
+  fullName: ChiaWalletSdk.IMemberConfig.GetNonce
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IMemberConfig.GetRestrictions*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.GetRestrictions
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_GetRestrictions
+  name: GetRestrictions
+  nameWithType: IMemberConfig.GetRestrictions
+  fullName: ChiaWalletSdk.IMemberConfig.GetRestrictions
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Restriction}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Restriction}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Restriction.html
+  name: List<Restriction>
+  nameWithType: List<Restriction>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Restriction>
+  nameWithType.vb: List(Of Restriction)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Restriction)
+  name.vb: List(Of Restriction)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Restriction
+    name: Restriction
+    isExternal: true
+    href: ChiaWalletSdk.Restriction.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Restriction
+    name: Restriction
+    isExternal: true
+    href: ChiaWalletSdk.Restriction.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IMemberConfig.GetTopLevel*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.GetTopLevel
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_GetTopLevel
+  name: GetTopLevel
+  nameWithType: IMemberConfig.GetTopLevel
+  fullName: ChiaWalletSdk.IMemberConfig.GetTopLevel
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.IMemberConfig.SetNonce*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.SetNonce
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_SetNonce_System_UInt32_
+  name: SetNonce
+  nameWithType: IMemberConfig.SetNonce
+  fullName: ChiaWalletSdk.IMemberConfig.SetNonce
+- uid: ChiaWalletSdk.MemberConfig
+  commentId: T:ChiaWalletSdk.MemberConfig
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.MemberConfig.html
+  name: MemberConfig
+  nameWithType: MemberConfig
+  fullName: ChiaWalletSdk.MemberConfig
+- uid: ChiaWalletSdk.IMemberConfig.SetRestrictions*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.SetRestrictions
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_SetRestrictions_System_Collections_Generic_List_ChiaWalletSdk_Restriction__
+  name: SetRestrictions
+  nameWithType: IMemberConfig.SetRestrictions
+  fullName: ChiaWalletSdk.IMemberConfig.SetRestrictions
+- uid: ChiaWalletSdk.IMemberConfig.SetTopLevel*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.SetTopLevel
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_SetTopLevel_System_Boolean_
+  name: SetTopLevel
+  nameWithType: IMemberConfig.SetTopLevel
+  fullName: ChiaWalletSdk.IMemberConfig.SetTopLevel
+- uid: ChiaWalletSdk.IMemberConfig.WithNonce*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.WithNonce
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_WithNonce_System_UInt32_
+  name: WithNonce
+  nameWithType: IMemberConfig.WithNonce
+  fullName: ChiaWalletSdk.IMemberConfig.WithNonce
+- uid: ChiaWalletSdk.IMemberConfig.WithRestrictions*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.WithRestrictions
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_WithRestrictions_System_Collections_Generic_List_ChiaWalletSdk_Restriction__
+  name: WithRestrictions
+  nameWithType: IMemberConfig.WithRestrictions
+  fullName: ChiaWalletSdk.IMemberConfig.WithRestrictions
+- uid: ChiaWalletSdk.IMemberConfig.WithTopLevel*
+  commentId: Overload:ChiaWalletSdk.IMemberConfig.WithTopLevel
+  isExternal: true
+  href: ChiaWalletSdk.IMemberConfig.html#ChiaWalletSdk_IMemberConfig_WithTopLevel_System_Boolean_
+  name: WithTopLevel
+  nameWithType: IMemberConfig.WithTopLevel
+  fullName: ChiaWalletSdk.IMemberConfig.WithTopLevel

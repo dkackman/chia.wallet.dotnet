@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Certificate
+  commentId: T:ChiaWalletSdk.Certificate
+  id: Certificate
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Certificate.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Certificate.#ctor(System.String,System.String)
+  - ChiaWalletSdk.Certificate.CloneRustArcPtr
+  - ChiaWalletSdk.Certificate.Destroy
+  - ChiaWalletSdk.Certificate.Dispose
+  - ChiaWalletSdk.Certificate.Finalize
+  - ChiaWalletSdk.Certificate.FreeRustArcPtr
+  - ChiaWalletSdk.Certificate.Generate
+  - ChiaWalletSdk.Certificate.GetCertPem
+  - ChiaWalletSdk.Certificate.GetKeyPem
+  - ChiaWalletSdk.Certificate.Load(System.String,System.String)
+  - ChiaWalletSdk.Certificate.SetCertPem(System.String)
+  - ChiaWalletSdk.Certificate.SetKeyPem(System.String)
+  - ChiaWalletSdk.Certificate.pointer
+  langs:
+  - csharp
+  - vb
+  name: Certificate
+  nameWithType: Certificate
+  fullName: ChiaWalletSdk.Certificate
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Certificate : ICertificate'
+    content.vb: Public Class Certificate Implements ICertificate
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ICertificate
+- uid: ChiaWalletSdk.Certificate.pointer
+  commentId: F:ChiaWalletSdk.Certificate.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Certificate.pointer
+  fullName: ChiaWalletSdk.Certificate.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Certificate.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Certificate.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: Certificate(nint)
+  nameWithType: Certificate.Certificate(nint)
+  fullName: ChiaWalletSdk.Certificate.Certificate(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Certificate(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Certificate.#ctor*
+  nameWithType.vb: Certificate.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Certificate.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Certificate.Finalize
+  commentId: M:ChiaWalletSdk.Certificate.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: ~Certificate()
+  nameWithType: Certificate.~Certificate()
+  fullName: ChiaWalletSdk.Certificate.~Certificate()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Certificate()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Certificate.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Certificate.#ctor(System.String,System.String)
+  commentId: M:ChiaWalletSdk.Certificate.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: Certificate(string, string)
+  nameWithType: Certificate.Certificate(string, string)
+  fullName: ChiaWalletSdk.Certificate.Certificate(string, string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Certificate(string certPem, string keyPem)
+    parameters:
+    - id: certPem
+      type: System.String
+    - id: keyPem
+      type: System.String
+    content.vb: Public Sub New(certPem As String, keyPem As String)
+  overload: ChiaWalletSdk.Certificate.#ctor*
+  nameWithType.vb: Certificate.New(String, String)
+  fullName.vb: ChiaWalletSdk.Certificate.New(String, String)
+  name.vb: New(String, String)
+- uid: ChiaWalletSdk.Certificate.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Certificate.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Certificate.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Certificate.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Certificate.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Certificate.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Certificate.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Certificate.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Certificate.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Certificate.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Certificate.Destroy
+  commentId: M:ChiaWalletSdk.Certificate.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Certificate.Destroy()
+  fullName: ChiaWalletSdk.Certificate.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Certificate.Destroy*
+- uid: ChiaWalletSdk.Certificate.Dispose
+  commentId: M:ChiaWalletSdk.Certificate.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Certificate.Dispose()
+  fullName: ChiaWalletSdk.Certificate.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Certificate.Dispose*
+- uid: ChiaWalletSdk.Certificate.GetCertPem
+  commentId: M:ChiaWalletSdk.Certificate.GetCertPem
+  id: GetCertPem
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: GetCertPem()
+  nameWithType: Certificate.GetCertPem()
+  fullName: ChiaWalletSdk.Certificate.GetCertPem()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetCertPem()
+    return:
+      type: System.String
+    content.vb: Public Function GetCertPem() As String
+  overload: ChiaWalletSdk.Certificate.GetCertPem*
+  implements:
+  - ChiaWalletSdk.ICertificate.GetCertPem
+- uid: ChiaWalletSdk.Certificate.GetKeyPem
+  commentId: M:ChiaWalletSdk.Certificate.GetKeyPem
+  id: GetKeyPem
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: GetKeyPem()
+  nameWithType: Certificate.GetKeyPem()
+  fullName: ChiaWalletSdk.Certificate.GetKeyPem()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetKeyPem()
+    return:
+      type: System.String
+    content.vb: Public Function GetKeyPem() As String
+  overload: ChiaWalletSdk.Certificate.GetKeyPem*
+  implements:
+  - ChiaWalletSdk.ICertificate.GetKeyPem
+- uid: ChiaWalletSdk.Certificate.SetCertPem(System.String)
+  commentId: M:ChiaWalletSdk.Certificate.SetCertPem(System.String)
+  id: SetCertPem(System.String)
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: SetCertPem(string)
+  nameWithType: Certificate.SetCertPem(string)
+  fullName: ChiaWalletSdk.Certificate.SetCertPem(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Certificate SetCertPem(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Certificate
+    content.vb: Public Function SetCertPem(value As String) As Certificate
+  overload: ChiaWalletSdk.Certificate.SetCertPem*
+  implements:
+  - ChiaWalletSdk.ICertificate.SetCertPem(System.String)
+  nameWithType.vb: Certificate.SetCertPem(String)
+  fullName.vb: ChiaWalletSdk.Certificate.SetCertPem(String)
+  name.vb: SetCertPem(String)
+- uid: ChiaWalletSdk.Certificate.SetKeyPem(System.String)
+  commentId: M:ChiaWalletSdk.Certificate.SetKeyPem(System.String)
+  id: SetKeyPem(System.String)
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: SetKeyPem(string)
+  nameWithType: Certificate.SetKeyPem(string)
+  fullName: ChiaWalletSdk.Certificate.SetKeyPem(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Certificate SetKeyPem(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Certificate
+    content.vb: Public Function SetKeyPem(value As String) As Certificate
+  overload: ChiaWalletSdk.Certificate.SetKeyPem*
+  implements:
+  - ChiaWalletSdk.ICertificate.SetKeyPem(System.String)
+  nameWithType.vb: Certificate.SetKeyPem(String)
+  fullName.vb: ChiaWalletSdk.Certificate.SetKeyPem(String)
+  name.vb: SetKeyPem(String)
+- uid: ChiaWalletSdk.Certificate.Generate
+  commentId: M:ChiaWalletSdk.Certificate.Generate
+  id: Generate
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: Generate()
+  nameWithType: Certificate.Generate()
+  fullName: ChiaWalletSdk.Certificate.Generate()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Certificate Generate()
+    return:
+      type: ChiaWalletSdk.Certificate
+    content.vb: Public Shared Function Generate() As Certificate
+  overload: ChiaWalletSdk.Certificate.Generate*
+- uid: ChiaWalletSdk.Certificate.Load(System.String,System.String)
+  commentId: M:ChiaWalletSdk.Certificate.Load(System.String,System.String)
+  id: Load(System.String,System.String)
+  parent: ChiaWalletSdk.Certificate
+  langs:
+  - csharp
+  - vb
+  name: Load(string, string)
+  nameWithType: Certificate.Load(string, string)
+  fullName: ChiaWalletSdk.Certificate.Load(string, string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static Certificate Load(string certPath, string keyPath)
+    parameters:
+    - id: certPath
+      type: System.String
+    - id: keyPath
+      type: System.String
+    return:
+      type: ChiaWalletSdk.Certificate
+    content.vb: Public Shared Function Load(certPath As String, keyPath As String) As Certificate
+  overload: ChiaWalletSdk.Certificate.Load*
+  nameWithType.vb: Certificate.Load(String, String)
+  fullName.vb: ChiaWalletSdk.Certificate.Load(String, String)
+  name.vb: Load(String, String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ICertificate
+  commentId: T:ChiaWalletSdk.ICertificate
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ICertificate.html
+  name: ICertificate
+  nameWithType: ICertificate
+  fullName: ChiaWalletSdk.ICertificate
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Certificate.#ctor*
+  commentId: Overload:ChiaWalletSdk.Certificate.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate__ctor_System_IntPtr_
+  name: Certificate
+  nameWithType: Certificate.Certificate
+  fullName: ChiaWalletSdk.Certificate.Certificate
+  nameWithType.vb: Certificate.New
+  fullName.vb: ChiaWalletSdk.Certificate.New
+  name.vb: New
+- uid: ChiaWalletSdk.Certificate.Finalize*
+  commentId: Overload:ChiaWalletSdk.Certificate.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_Finalize
+  name: ~Certificate
+  nameWithType: Certificate.~Certificate
+  fullName: ChiaWalletSdk.Certificate.~Certificate
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Certificate.Finalize*
+    name: Certificate
+    isExternal: true
+    href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.Certificate.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Certificate.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Certificate.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Certificate.FreeRustArcPtr
+- uid: ChiaWalletSdk.Certificate.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Certificate.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Certificate.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Certificate.CloneRustArcPtr
+- uid: ChiaWalletSdk.Certificate.Destroy*
+  commentId: Overload:ChiaWalletSdk.Certificate.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_Destroy
+  name: Destroy
+  nameWithType: Certificate.Destroy
+  fullName: ChiaWalletSdk.Certificate.Destroy
+- uid: ChiaWalletSdk.Certificate.Dispose*
+  commentId: Overload:ChiaWalletSdk.Certificate.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_Dispose
+  name: Dispose
+  nameWithType: Certificate.Dispose
+  fullName: ChiaWalletSdk.Certificate.Dispose
+- uid: ChiaWalletSdk.Certificate.GetCertPem*
+  commentId: Overload:ChiaWalletSdk.Certificate.GetCertPem
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_GetCertPem
+  name: GetCertPem
+  nameWithType: Certificate.GetCertPem
+  fullName: ChiaWalletSdk.Certificate.GetCertPem
+- uid: ChiaWalletSdk.ICertificate.GetCertPem
+  commentId: M:ChiaWalletSdk.ICertificate.GetCertPem
+  parent: ChiaWalletSdk.ICertificate
+  isExternal: true
+  href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_GetCertPem
+  name: GetCertPem()
+  nameWithType: ICertificate.GetCertPem()
+  fullName: ChiaWalletSdk.ICertificate.GetCertPem()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICertificate.GetCertPem
+    name: GetCertPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_GetCertPem
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICertificate.GetCertPem
+    name: GetCertPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_GetCertPem
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Certificate.GetKeyPem*
+  commentId: Overload:ChiaWalletSdk.Certificate.GetKeyPem
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_GetKeyPem
+  name: GetKeyPem
+  nameWithType: Certificate.GetKeyPem
+  fullName: ChiaWalletSdk.Certificate.GetKeyPem
+- uid: ChiaWalletSdk.ICertificate.GetKeyPem
+  commentId: M:ChiaWalletSdk.ICertificate.GetKeyPem
+  parent: ChiaWalletSdk.ICertificate
+  isExternal: true
+  href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_GetKeyPem
+  name: GetKeyPem()
+  nameWithType: ICertificate.GetKeyPem()
+  fullName: ChiaWalletSdk.ICertificate.GetKeyPem()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICertificate.GetKeyPem
+    name: GetKeyPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_GetKeyPem
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICertificate.GetKeyPem
+    name: GetKeyPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_GetKeyPem
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Certificate.SetCertPem*
+  commentId: Overload:ChiaWalletSdk.Certificate.SetCertPem
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_SetCertPem_System_String_
+  name: SetCertPem
+  nameWithType: Certificate.SetCertPem
+  fullName: ChiaWalletSdk.Certificate.SetCertPem
+- uid: ChiaWalletSdk.ICertificate.SetCertPem(System.String)
+  commentId: M:ChiaWalletSdk.ICertificate.SetCertPem(System.String)
+  parent: ChiaWalletSdk.ICertificate
+  isExternal: true
+  href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_SetCertPem_System_String_
+  name: SetCertPem(string)
+  nameWithType: ICertificate.SetCertPem(string)
+  fullName: ChiaWalletSdk.ICertificate.SetCertPem(string)
+  nameWithType.vb: ICertificate.SetCertPem(String)
+  fullName.vb: ChiaWalletSdk.ICertificate.SetCertPem(String)
+  name.vb: SetCertPem(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICertificate.SetCertPem(System.String)
+    name: SetCertPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_SetCertPem_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICertificate.SetCertPem(System.String)
+    name: SetCertPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_SetCertPem_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.Certificate
+  commentId: T:ChiaWalletSdk.Certificate
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html
+  name: Certificate
+  nameWithType: Certificate
+  fullName: ChiaWalletSdk.Certificate
+- uid: ChiaWalletSdk.Certificate.SetKeyPem*
+  commentId: Overload:ChiaWalletSdk.Certificate.SetKeyPem
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_SetKeyPem_System_String_
+  name: SetKeyPem
+  nameWithType: Certificate.SetKeyPem
+  fullName: ChiaWalletSdk.Certificate.SetKeyPem
+- uid: ChiaWalletSdk.ICertificate.SetKeyPem(System.String)
+  commentId: M:ChiaWalletSdk.ICertificate.SetKeyPem(System.String)
+  parent: ChiaWalletSdk.ICertificate
+  isExternal: true
+  href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_SetKeyPem_System_String_
+  name: SetKeyPem(string)
+  nameWithType: ICertificate.SetKeyPem(string)
+  fullName: ChiaWalletSdk.ICertificate.SetKeyPem(string)
+  nameWithType.vb: ICertificate.SetKeyPem(String)
+  fullName.vb: ChiaWalletSdk.ICertificate.SetKeyPem(String)
+  name.vb: SetKeyPem(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ICertificate.SetKeyPem(System.String)
+    name: SetKeyPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_SetKeyPem_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ICertificate.SetKeyPem(System.String)
+    name: SetKeyPem
+    isExternal: true
+    href: ChiaWalletSdk.ICertificate.html#ChiaWalletSdk_ICertificate_SetKeyPem_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.Certificate.Generate*
+  commentId: Overload:ChiaWalletSdk.Certificate.Generate
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_Generate
+  name: Generate
+  nameWithType: Certificate.Generate
+  fullName: ChiaWalletSdk.Certificate.Generate
+- uid: ChiaWalletSdk.Certificate.Load*
+  commentId: Overload:ChiaWalletSdk.Certificate.Load
+  isExternal: true
+  href: ChiaWalletSdk.Certificate.html#ChiaWalletSdk_Certificate_Load_System_String_System_String_
+  name: Load
+  nameWithType: Certificate.Load
+  fullName: ChiaWalletSdk.Certificate.Load

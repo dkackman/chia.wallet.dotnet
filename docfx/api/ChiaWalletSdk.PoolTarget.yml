@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.PoolTarget
+  commentId: T:ChiaWalletSdk.PoolTarget
+  id: PoolTarget
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.PoolTarget.#ctor(System.Byte[],System.UInt32)
+  - ChiaWalletSdk.PoolTarget.#ctor(System.IntPtr)
+  - ChiaWalletSdk.PoolTarget.CloneRustArcPtr
+  - ChiaWalletSdk.PoolTarget.Destroy
+  - ChiaWalletSdk.PoolTarget.Dispose
+  - ChiaWalletSdk.PoolTarget.Finalize
+  - ChiaWalletSdk.PoolTarget.FreeRustArcPtr
+  - ChiaWalletSdk.PoolTarget.GetMaxHeight
+  - ChiaWalletSdk.PoolTarget.GetPuzzleHash
+  - ChiaWalletSdk.PoolTarget.SetMaxHeight(System.UInt32)
+  - ChiaWalletSdk.PoolTarget.SetPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.PoolTarget.pointer
+  langs:
+  - csharp
+  - vb
+  name: PoolTarget
+  nameWithType: PoolTarget
+  fullName: ChiaWalletSdk.PoolTarget
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class PoolTarget : IPoolTarget'
+    content.vb: Public Class PoolTarget Implements IPoolTarget
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IPoolTarget
+- uid: ChiaWalletSdk.PoolTarget.pointer
+  commentId: F:ChiaWalletSdk.PoolTarget.pointer
+  id: pointer
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: PoolTarget.pointer
+  fullName: ChiaWalletSdk.PoolTarget.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.PoolTarget.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.PoolTarget.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: PoolTarget(nint)
+  nameWithType: PoolTarget.PoolTarget(nint)
+  fullName: ChiaWalletSdk.PoolTarget.PoolTarget(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public PoolTarget(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.PoolTarget.#ctor*
+  nameWithType.vb: PoolTarget.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.PoolTarget.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.PoolTarget.Finalize
+  commentId: M:ChiaWalletSdk.PoolTarget.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: ~PoolTarget()
+  nameWithType: PoolTarget.~PoolTarget()
+  fullName: ChiaWalletSdk.PoolTarget.~PoolTarget()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~PoolTarget()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.PoolTarget.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.PoolTarget.#ctor(System.Byte[],System.UInt32)
+  commentId: M:ChiaWalletSdk.PoolTarget.#ctor(System.Byte[],System.UInt32)
+  id: '#ctor(System.Byte[],System.UInt32)'
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: PoolTarget(byte[], uint)
+  nameWithType: PoolTarget.PoolTarget(byte[], uint)
+  fullName: ChiaWalletSdk.PoolTarget.PoolTarget(byte[], uint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public PoolTarget(byte[] puzzleHash, uint maxHeight)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: maxHeight
+      type: System.UInt32
+    content.vb: Public Sub New(puzzleHash As Byte(), maxHeight As UInteger)
+  overload: ChiaWalletSdk.PoolTarget.#ctor*
+  nameWithType.vb: PoolTarget.New(Byte(), UInteger)
+  fullName.vb: ChiaWalletSdk.PoolTarget.New(Byte(), UInteger)
+  name.vb: New(Byte(), UInteger)
+- uid: ChiaWalletSdk.PoolTarget.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.PoolTarget.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: PoolTarget.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.PoolTarget.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.PoolTarget.FreeRustArcPtr*
+- uid: ChiaWalletSdk.PoolTarget.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.PoolTarget.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: PoolTarget.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.PoolTarget.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.PoolTarget.CloneRustArcPtr*
+- uid: ChiaWalletSdk.PoolTarget.Destroy
+  commentId: M:ChiaWalletSdk.PoolTarget.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: PoolTarget.Destroy()
+  fullName: ChiaWalletSdk.PoolTarget.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.PoolTarget.Destroy*
+- uid: ChiaWalletSdk.PoolTarget.Dispose
+  commentId: M:ChiaWalletSdk.PoolTarget.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: PoolTarget.Dispose()
+  fullName: ChiaWalletSdk.PoolTarget.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.PoolTarget.Dispose*
+- uid: ChiaWalletSdk.PoolTarget.GetMaxHeight
+  commentId: M:ChiaWalletSdk.PoolTarget.GetMaxHeight
+  id: GetMaxHeight
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: GetMaxHeight()
+  nameWithType: PoolTarget.GetMaxHeight()
+  fullName: ChiaWalletSdk.PoolTarget.GetMaxHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetMaxHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetMaxHeight() As UInteger
+  overload: ChiaWalletSdk.PoolTarget.GetMaxHeight*
+  implements:
+  - ChiaWalletSdk.IPoolTarget.GetMaxHeight
+- uid: ChiaWalletSdk.PoolTarget.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.PoolTarget.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: PoolTarget.GetPuzzleHash()
+  fullName: ChiaWalletSdk.PoolTarget.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.PoolTarget.GetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IPoolTarget.GetPuzzleHash
+- uid: ChiaWalletSdk.PoolTarget.SetMaxHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.PoolTarget.SetMaxHeight(System.UInt32)
+  id: SetMaxHeight(System.UInt32)
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: SetMaxHeight(uint)
+  nameWithType: PoolTarget.SetMaxHeight(uint)
+  fullName: ChiaWalletSdk.PoolTarget.SetMaxHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PoolTarget SetMaxHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.PoolTarget
+    content.vb: Public Function SetMaxHeight(value As UInteger) As PoolTarget
+  overload: ChiaWalletSdk.PoolTarget.SetMaxHeight*
+  implements:
+  - ChiaWalletSdk.IPoolTarget.SetMaxHeight(System.UInt32)
+  nameWithType.vb: PoolTarget.SetMaxHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.PoolTarget.SetMaxHeight(UInteger)
+  name.vb: SetMaxHeight(UInteger)
+- uid: ChiaWalletSdk.PoolTarget.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.PoolTarget.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.PoolTarget
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: PoolTarget.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.PoolTarget.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PoolTarget SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.PoolTarget
+    content.vb: Public Function SetPuzzleHash(value As Byte()) As PoolTarget
+  overload: ChiaWalletSdk.PoolTarget.SetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IPoolTarget.SetPuzzleHash(System.Byte[])
+  nameWithType.vb: PoolTarget.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.PoolTarget.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IPoolTarget
+  commentId: T:ChiaWalletSdk.IPoolTarget
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IPoolTarget.html
+  name: IPoolTarget
+  nameWithType: IPoolTarget
+  fullName: ChiaWalletSdk.IPoolTarget
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.PoolTarget.#ctor*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget__ctor_System_IntPtr_
+  name: PoolTarget
+  nameWithType: PoolTarget.PoolTarget
+  fullName: ChiaWalletSdk.PoolTarget.PoolTarget
+  nameWithType.vb: PoolTarget.New
+  fullName.vb: ChiaWalletSdk.PoolTarget.New
+  name.vb: New
+- uid: ChiaWalletSdk.PoolTarget.Finalize*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_Finalize
+  name: ~PoolTarget
+  nameWithType: PoolTarget.~PoolTarget
+  fullName: ChiaWalletSdk.PoolTarget.~PoolTarget
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.PoolTarget.Finalize*
+    name: PoolTarget
+    isExternal: true
+    href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ChiaWalletSdk.PoolTarget.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: PoolTarget.FreeRustArcPtr
+  fullName: ChiaWalletSdk.PoolTarget.FreeRustArcPtr
+- uid: ChiaWalletSdk.PoolTarget.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: PoolTarget.CloneRustArcPtr
+  fullName: ChiaWalletSdk.PoolTarget.CloneRustArcPtr
+- uid: ChiaWalletSdk.PoolTarget.Destroy*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_Destroy
+  name: Destroy
+  nameWithType: PoolTarget.Destroy
+  fullName: ChiaWalletSdk.PoolTarget.Destroy
+- uid: ChiaWalletSdk.PoolTarget.Dispose*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_Dispose
+  name: Dispose
+  nameWithType: PoolTarget.Dispose
+  fullName: ChiaWalletSdk.PoolTarget.Dispose
+- uid: ChiaWalletSdk.PoolTarget.GetMaxHeight*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.GetMaxHeight
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_GetMaxHeight
+  name: GetMaxHeight
+  nameWithType: PoolTarget.GetMaxHeight
+  fullName: ChiaWalletSdk.PoolTarget.GetMaxHeight
+- uid: ChiaWalletSdk.IPoolTarget.GetMaxHeight
+  commentId: M:ChiaWalletSdk.IPoolTarget.GetMaxHeight
+  parent: ChiaWalletSdk.IPoolTarget
+  isExternal: true
+  href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_GetMaxHeight
+  name: GetMaxHeight()
+  nameWithType: IPoolTarget.GetMaxHeight()
+  fullName: ChiaWalletSdk.IPoolTarget.GetMaxHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPoolTarget.GetMaxHeight
+    name: GetMaxHeight
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_GetMaxHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPoolTarget.GetMaxHeight
+    name: GetMaxHeight
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_GetMaxHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PoolTarget.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: PoolTarget.GetPuzzleHash
+  fullName: ChiaWalletSdk.PoolTarget.GetPuzzleHash
+- uid: ChiaWalletSdk.IPoolTarget.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IPoolTarget.GetPuzzleHash
+  parent: ChiaWalletSdk.IPoolTarget
+  isExternal: true
+  href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_GetPuzzleHash
+  name: GetPuzzleHash()
+  nameWithType: IPoolTarget.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IPoolTarget.GetPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPoolTarget.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_GetPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPoolTarget.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_GetPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.PoolTarget.SetMaxHeight*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.SetMaxHeight
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_SetMaxHeight_System_UInt32_
+  name: SetMaxHeight
+  nameWithType: PoolTarget.SetMaxHeight
+  fullName: ChiaWalletSdk.PoolTarget.SetMaxHeight
+- uid: ChiaWalletSdk.IPoolTarget.SetMaxHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.IPoolTarget.SetMaxHeight(System.UInt32)
+  parent: ChiaWalletSdk.IPoolTarget
+  isExternal: true
+  href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_SetMaxHeight_System_UInt32_
+  name: SetMaxHeight(uint)
+  nameWithType: IPoolTarget.SetMaxHeight(uint)
+  fullName: ChiaWalletSdk.IPoolTarget.SetMaxHeight(uint)
+  nameWithType.vb: IPoolTarget.SetMaxHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.IPoolTarget.SetMaxHeight(UInteger)
+  name.vb: SetMaxHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPoolTarget.SetMaxHeight(System.UInt32)
+    name: SetMaxHeight
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_SetMaxHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPoolTarget.SetMaxHeight(System.UInt32)
+    name: SetMaxHeight
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_SetMaxHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.PoolTarget
+  commentId: T:ChiaWalletSdk.PoolTarget
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html
+  name: PoolTarget
+  nameWithType: PoolTarget
+  fullName: ChiaWalletSdk.PoolTarget
+- uid: ChiaWalletSdk.PoolTarget.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.PoolTarget.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.PoolTarget.html#ChiaWalletSdk_PoolTarget_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: PoolTarget.SetPuzzleHash
+  fullName: ChiaWalletSdk.PoolTarget.SetPuzzleHash
+- uid: ChiaWalletSdk.IPoolTarget.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IPoolTarget.SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IPoolTarget
+  isExternal: true
+  href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash(byte[])
+  nameWithType: IPoolTarget.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IPoolTarget.SetPuzzleHash(byte[])
+  nameWithType.vb: IPoolTarget.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IPoolTarget.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IPoolTarget.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IPoolTarget.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IPoolTarget.html#ChiaWalletSdk_IPoolTarget_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.WrapperMemo
+  commentId: T:ChiaWalletSdk.WrapperMemo
+  id: WrapperMemo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.WrapperMemo.#ctor(System.Byte[],ChiaWalletSdk.Program)
+  - ChiaWalletSdk.WrapperMemo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.WrapperMemo.CloneRustArcPtr
+  - ChiaWalletSdk.WrapperMemo.Destroy
+  - ChiaWalletSdk.WrapperMemo.Dispose
+  - ChiaWalletSdk.WrapperMemo.Finalize
+  - ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement(ChiaWalletSdk.Clvm)
+  - ChiaWalletSdk.WrapperMemo.ForceCoinMessage(ChiaWalletSdk.Clvm)
+  - ChiaWalletSdk.WrapperMemo.FreeRustArcPtr
+  - ChiaWalletSdk.WrapperMemo.GetMemo
+  - ChiaWalletSdk.WrapperMemo.GetPuzzleHash
+  - ChiaWalletSdk.WrapperMemo.PreventConditionOpcode(ChiaWalletSdk.Clvm,System.UInt16,System.Boolean)
+  - ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins(ChiaWalletSdk.Clvm)
+  - ChiaWalletSdk.WrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.WrapperMemo.SetPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.WrapperMemo.Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  - ChiaWalletSdk.WrapperMemo.pointer
+  langs:
+  - csharp
+  - vb
+  name: WrapperMemo
+  nameWithType: WrapperMemo
+  fullName: ChiaWalletSdk.WrapperMemo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class WrapperMemo : IWrapperMemo'
+    content.vb: Public Class WrapperMemo Implements IWrapperMemo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IWrapperMemo
+- uid: ChiaWalletSdk.WrapperMemo.pointer
+  commentId: F:ChiaWalletSdk.WrapperMemo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: WrapperMemo.pointer
+  fullName: ChiaWalletSdk.WrapperMemo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.WrapperMemo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.WrapperMemo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: WrapperMemo(nint)
+  nameWithType: WrapperMemo.WrapperMemo(nint)
+  fullName: ChiaWalletSdk.WrapperMemo.WrapperMemo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public WrapperMemo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.WrapperMemo.#ctor*
+  nameWithType.vb: WrapperMemo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.WrapperMemo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.WrapperMemo.Finalize
+  commentId: M:ChiaWalletSdk.WrapperMemo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: ~WrapperMemo()
+  nameWithType: WrapperMemo.~WrapperMemo()
+  fullName: ChiaWalletSdk.WrapperMemo.~WrapperMemo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~WrapperMemo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.WrapperMemo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.WrapperMemo.#ctor(System.Byte[],ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.WrapperMemo.#ctor(System.Byte[],ChiaWalletSdk.Program)
+  id: '#ctor(System.Byte[],ChiaWalletSdk.Program)'
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: WrapperMemo(byte[], Program)
+  nameWithType: WrapperMemo.WrapperMemo(byte[], Program)
+  fullName: ChiaWalletSdk.WrapperMemo.WrapperMemo(byte[], ChiaWalletSdk.Program)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public WrapperMemo(byte[] puzzleHash, Program memo)
+    parameters:
+    - id: puzzleHash
+      type: System.Byte[]
+    - id: memo
+      type: ChiaWalletSdk.Program
+    content.vb: Public Sub New(puzzleHash As Byte(), memo As Program)
+  overload: ChiaWalletSdk.WrapperMemo.#ctor*
+  nameWithType.vb: WrapperMemo.New(Byte(), Program)
+  fullName.vb: ChiaWalletSdk.WrapperMemo.New(Byte(), ChiaWalletSdk.Program)
+  name.vb: New(Byte(), Program)
+- uid: ChiaWalletSdk.WrapperMemo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.WrapperMemo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: WrapperMemo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.WrapperMemo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.WrapperMemo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.WrapperMemo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.WrapperMemo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: WrapperMemo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.WrapperMemo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.WrapperMemo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.WrapperMemo.Destroy
+  commentId: M:ChiaWalletSdk.WrapperMemo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: WrapperMemo.Destroy()
+  fullName: ChiaWalletSdk.WrapperMemo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.WrapperMemo.Destroy*
+- uid: ChiaWalletSdk.WrapperMemo.Dispose
+  commentId: M:ChiaWalletSdk.WrapperMemo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: WrapperMemo.Dispose()
+  fullName: ChiaWalletSdk.WrapperMemo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.WrapperMemo.Dispose*
+- uid: ChiaWalletSdk.WrapperMemo.GetMemo
+  commentId: M:ChiaWalletSdk.WrapperMemo.GetMemo
+  id: GetMemo
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: GetMemo()
+  nameWithType: WrapperMemo.GetMemo()
+  fullName: ChiaWalletSdk.WrapperMemo.GetMemo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetMemo()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetMemo() As Program
+  overload: ChiaWalletSdk.WrapperMemo.GetMemo*
+  implements:
+  - ChiaWalletSdk.IWrapperMemo.GetMemo
+- uid: ChiaWalletSdk.WrapperMemo.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.WrapperMemo.GetPuzzleHash
+  id: GetPuzzleHash
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzleHash()
+  nameWithType: WrapperMemo.GetPuzzleHash()
+  fullName: ChiaWalletSdk.WrapperMemo.GetPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.WrapperMemo.GetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IWrapperMemo.GetPuzzleHash
+- uid: ChiaWalletSdk.WrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.WrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  id: SetMemo(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: SetMemo(Program)
+  nameWithType: WrapperMemo.SetMemo(Program)
+  fullName: ChiaWalletSdk.WrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public WrapperMemo SetMemo(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Function SetMemo(value As Program) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.SetMemo*
+  implements:
+  - ChiaWalletSdk.IWrapperMemo.SetMemo(ChiaWalletSdk.Program)
+- uid: ChiaWalletSdk.WrapperMemo.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.WrapperMemo.SetPuzzleHash(System.Byte[])
+  id: SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzleHash(byte[])
+  nameWithType: WrapperMemo.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.WrapperMemo.SetPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public WrapperMemo SetPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Function SetPuzzleHash(value As Byte()) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.SetPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(System.Byte[])
+  nameWithType.vb: WrapperMemo.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.WrapperMemo.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+- uid: ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement(ChiaWalletSdk.Clvm)
+  commentId: M:ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement(ChiaWalletSdk.Clvm)
+  id: ForceCoinAnnouncement(ChiaWalletSdk.Clvm)
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: ForceCoinAnnouncement(Clvm)
+  nameWithType: WrapperMemo.ForceCoinAnnouncement(Clvm)
+  fullName: ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement(ChiaWalletSdk.Clvm)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static WrapperMemo ForceCoinAnnouncement(Clvm clvm)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Shared Function ForceCoinAnnouncement(clvm As Clvm) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement*
+- uid: ChiaWalletSdk.WrapperMemo.ForceCoinMessage(ChiaWalletSdk.Clvm)
+  commentId: M:ChiaWalletSdk.WrapperMemo.ForceCoinMessage(ChiaWalletSdk.Clvm)
+  id: ForceCoinMessage(ChiaWalletSdk.Clvm)
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: ForceCoinMessage(Clvm)
+  nameWithType: WrapperMemo.ForceCoinMessage(Clvm)
+  fullName: ChiaWalletSdk.WrapperMemo.ForceCoinMessage(ChiaWalletSdk.Clvm)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static WrapperMemo ForceCoinMessage(Clvm clvm)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Shared Function ForceCoinMessage(clvm As Clvm) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.ForceCoinMessage*
+- uid: ChiaWalletSdk.WrapperMemo.PreventConditionOpcode(ChiaWalletSdk.Clvm,System.UInt16,System.Boolean)
+  commentId: M:ChiaWalletSdk.WrapperMemo.PreventConditionOpcode(ChiaWalletSdk.Clvm,System.UInt16,System.Boolean)
+  id: PreventConditionOpcode(ChiaWalletSdk.Clvm,System.UInt16,System.Boolean)
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: PreventConditionOpcode(Clvm, ushort, bool)
+  nameWithType: WrapperMemo.PreventConditionOpcode(Clvm, ushort, bool)
+  fullName: ChiaWalletSdk.WrapperMemo.PreventConditionOpcode(ChiaWalletSdk.Clvm, ushort, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static WrapperMemo PreventConditionOpcode(Clvm clvm, ushort opcode, bool reveal)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    - id: opcode
+      type: System.UInt16
+    - id: reveal
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Shared Function PreventConditionOpcode(clvm As Clvm, opcode As UShort, reveal As Boolean) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.PreventConditionOpcode*
+  nameWithType.vb: WrapperMemo.PreventConditionOpcode(Clvm, UShort, Boolean)
+  fullName.vb: ChiaWalletSdk.WrapperMemo.PreventConditionOpcode(ChiaWalletSdk.Clvm, UShort, Boolean)
+  name.vb: PreventConditionOpcode(Clvm, UShort, Boolean)
+- uid: ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins(ChiaWalletSdk.Clvm)
+  commentId: M:ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins(ChiaWalletSdk.Clvm)
+  id: PreventMultipleCreateCoins(ChiaWalletSdk.Clvm)
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: PreventMultipleCreateCoins(Clvm)
+  nameWithType: WrapperMemo.PreventMultipleCreateCoins(Clvm)
+  fullName: ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins(ChiaWalletSdk.Clvm)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static WrapperMemo PreventMultipleCreateCoins(Clvm clvm)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Shared Function PreventMultipleCreateCoins(clvm As Clvm) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins*
+- uid: ChiaWalletSdk.WrapperMemo.Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  commentId: M:ChiaWalletSdk.WrapperMemo.Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  id: Timelock(ChiaWalletSdk.Clvm,System.String,System.Boolean)
+  parent: ChiaWalletSdk.WrapperMemo
+  langs:
+  - csharp
+  - vb
+  name: Timelock(Clvm, string, bool)
+  nameWithType: WrapperMemo.Timelock(Clvm, string, bool)
+  fullName: ChiaWalletSdk.WrapperMemo.Timelock(ChiaWalletSdk.Clvm, string, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public static WrapperMemo Timelock(Clvm clvm, string seconds, bool reveal)
+    parameters:
+    - id: clvm
+      type: ChiaWalletSdk.Clvm
+    - id: seconds
+      type: System.String
+    - id: reveal
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.WrapperMemo
+    content.vb: Public Shared Function Timelock(clvm As Clvm, seconds As String, reveal As Boolean) As WrapperMemo
+  overload: ChiaWalletSdk.WrapperMemo.Timelock*
+  nameWithType.vb: WrapperMemo.Timelock(Clvm, String, Boolean)
+  fullName.vb: ChiaWalletSdk.WrapperMemo.Timelock(ChiaWalletSdk.Clvm, String, Boolean)
+  name.vb: Timelock(Clvm, String, Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IWrapperMemo
+  commentId: T:ChiaWalletSdk.IWrapperMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IWrapperMemo.html
+  name: IWrapperMemo
+  nameWithType: IWrapperMemo
+  fullName: ChiaWalletSdk.IWrapperMemo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.WrapperMemo.#ctor*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo__ctor_System_IntPtr_
+  name: WrapperMemo
+  nameWithType: WrapperMemo.WrapperMemo
+  fullName: ChiaWalletSdk.WrapperMemo.WrapperMemo
+  nameWithType.vb: WrapperMemo.New
+  fullName.vb: ChiaWalletSdk.WrapperMemo.New
+  name.vb: New
+- uid: ChiaWalletSdk.WrapperMemo.Finalize*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_Finalize
+  name: ~WrapperMemo
+  nameWithType: WrapperMemo.~WrapperMemo
+  fullName: ChiaWalletSdk.WrapperMemo.~WrapperMemo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.WrapperMemo.Finalize*
+    name: WrapperMemo
+    isExternal: true
+    href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.WrapperMemo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: WrapperMemo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.WrapperMemo.FreeRustArcPtr
+- uid: ChiaWalletSdk.WrapperMemo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: WrapperMemo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.WrapperMemo.CloneRustArcPtr
+- uid: ChiaWalletSdk.WrapperMemo.Destroy*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_Destroy
+  name: Destroy
+  nameWithType: WrapperMemo.Destroy
+  fullName: ChiaWalletSdk.WrapperMemo.Destroy
+- uid: ChiaWalletSdk.WrapperMemo.Dispose*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_Dispose
+  name: Dispose
+  nameWithType: WrapperMemo.Dispose
+  fullName: ChiaWalletSdk.WrapperMemo.Dispose
+- uid: ChiaWalletSdk.WrapperMemo.GetMemo*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.GetMemo
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_GetMemo
+  name: GetMemo
+  nameWithType: WrapperMemo.GetMemo
+  fullName: ChiaWalletSdk.WrapperMemo.GetMemo
+- uid: ChiaWalletSdk.IWrapperMemo.GetMemo
+  commentId: M:ChiaWalletSdk.IWrapperMemo.GetMemo
+  parent: ChiaWalletSdk.IWrapperMemo
+  isExternal: true
+  href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_GetMemo
+  name: GetMemo()
+  nameWithType: IWrapperMemo.GetMemo()
+  fullName: ChiaWalletSdk.IWrapperMemo.GetMemo()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IWrapperMemo.GetMemo
+    name: GetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_GetMemo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IWrapperMemo.GetMemo
+    name: GetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_GetMemo
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.WrapperMemo.GetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.GetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_GetPuzzleHash
+  name: GetPuzzleHash
+  nameWithType: WrapperMemo.GetPuzzleHash
+  fullName: ChiaWalletSdk.WrapperMemo.GetPuzzleHash
+- uid: ChiaWalletSdk.IWrapperMemo.GetPuzzleHash
+  commentId: M:ChiaWalletSdk.IWrapperMemo.GetPuzzleHash
+  parent: ChiaWalletSdk.IWrapperMemo
+  isExternal: true
+  href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_GetPuzzleHash
+  name: GetPuzzleHash()
+  nameWithType: IWrapperMemo.GetPuzzleHash()
+  fullName: ChiaWalletSdk.IWrapperMemo.GetPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IWrapperMemo.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_GetPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IWrapperMemo.GetPuzzleHash
+    name: GetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_GetPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.WrapperMemo.SetMemo*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.SetMemo
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_SetMemo_ChiaWalletSdk_Program_
+  name: SetMemo
+  nameWithType: WrapperMemo.SetMemo
+  fullName: ChiaWalletSdk.WrapperMemo.SetMemo
+- uid: ChiaWalletSdk.IWrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.IWrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.IWrapperMemo
+  isExternal: true
+  href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_SetMemo_ChiaWalletSdk_Program_
+  name: SetMemo(Program)
+  nameWithType: IWrapperMemo.SetMemo(Program)
+  fullName: ChiaWalletSdk.IWrapperMemo.SetMemo(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IWrapperMemo.SetMemo(ChiaWalletSdk.Program)
+    name: SetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_SetMemo_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IWrapperMemo.SetMemo(ChiaWalletSdk.Program)
+    name: SetMemo
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_SetMemo_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: ChiaWalletSdk.WrapperMemo
+  commentId: T:ChiaWalletSdk.WrapperMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html
+  name: WrapperMemo
+  nameWithType: WrapperMemo
+  fullName: ChiaWalletSdk.WrapperMemo
+- uid: ChiaWalletSdk.WrapperMemo.SetPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.SetPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash
+  nameWithType: WrapperMemo.SetPuzzleHash
+  fullName: ChiaWalletSdk.WrapperMemo.SetPuzzleHash
+- uid: ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IWrapperMemo
+  isExternal: true
+  href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_SetPuzzleHash_System_Byte___
+  name: SetPuzzleHash(byte[])
+  nameWithType: IWrapperMemo.SetPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(byte[])
+  nameWithType.vb: IWrapperMemo.SetPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(Byte())
+  name.vb: SetPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IWrapperMemo.SetPuzzleHash(System.Byte[])
+    name: SetPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IWrapperMemo.html#ChiaWalletSdk_IWrapperMemo_SetPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_ForceCoinAnnouncement_ChiaWalletSdk_Clvm_
+  name: ForceCoinAnnouncement
+  nameWithType: WrapperMemo.ForceCoinAnnouncement
+  fullName: ChiaWalletSdk.WrapperMemo.ForceCoinAnnouncement
+- uid: ChiaWalletSdk.Clvm
+  commentId: T:ChiaWalletSdk.Clvm
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Clvm.html
+  name: Clvm
+  nameWithType: Clvm
+  fullName: ChiaWalletSdk.Clvm
+- uid: ChiaWalletSdk.WrapperMemo.ForceCoinMessage*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.ForceCoinMessage
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_ForceCoinMessage_ChiaWalletSdk_Clvm_
+  name: ForceCoinMessage
+  nameWithType: WrapperMemo.ForceCoinMessage
+  fullName: ChiaWalletSdk.WrapperMemo.ForceCoinMessage
+- uid: ChiaWalletSdk.WrapperMemo.PreventConditionOpcode*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.PreventConditionOpcode
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_PreventConditionOpcode_ChiaWalletSdk_Clvm_System_UInt16_System_Boolean_
+  name: PreventConditionOpcode
+  nameWithType: WrapperMemo.PreventConditionOpcode
+  fullName: ChiaWalletSdk.WrapperMemo.PreventConditionOpcode
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_PreventMultipleCreateCoins_ChiaWalletSdk_Clvm_
+  name: PreventMultipleCreateCoins
+  nameWithType: WrapperMemo.PreventMultipleCreateCoins
+  fullName: ChiaWalletSdk.WrapperMemo.PreventMultipleCreateCoins
+- uid: ChiaWalletSdk.WrapperMemo.Timelock*
+  commentId: Overload:ChiaWalletSdk.WrapperMemo.Timelock
+  isExternal: true
+  href: ChiaWalletSdk.WrapperMemo.html#ChiaWalletSdk_WrapperMemo_Timelock_ChiaWalletSdk_Clvm_System_String_System_Boolean_
+  name: Timelock
+  nameWithType: WrapperMemo.Timelock
+  fullName: ChiaWalletSdk.WrapperMemo.Timelock
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

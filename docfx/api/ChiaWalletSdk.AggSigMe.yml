@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.AggSigMe
+  commentId: T:ChiaWalletSdk.AggSigMe
+  id: AggSigMe
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.AggSigMe.#ctor(ChiaWalletSdk.PublicKey,System.Byte[])
+  - ChiaWalletSdk.AggSigMe.#ctor(System.IntPtr)
+  - ChiaWalletSdk.AggSigMe.CloneRustArcPtr
+  - ChiaWalletSdk.AggSigMe.Destroy
+  - ChiaWalletSdk.AggSigMe.Dispose
+  - ChiaWalletSdk.AggSigMe.Finalize
+  - ChiaWalletSdk.AggSigMe.FreeRustArcPtr
+  - ChiaWalletSdk.AggSigMe.GetMessage
+  - ChiaWalletSdk.AggSigMe.GetPublicKey
+  - ChiaWalletSdk.AggSigMe.SetMessage(System.Byte[])
+  - ChiaWalletSdk.AggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  - ChiaWalletSdk.AggSigMe.pointer
+  langs:
+  - csharp
+  - vb
+  name: AggSigMe
+  nameWithType: AggSigMe
+  fullName: ChiaWalletSdk.AggSigMe
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class AggSigMe : IAggSigMe'
+    content.vb: Public Class AggSigMe Implements IAggSigMe
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IAggSigMe
+- uid: ChiaWalletSdk.AggSigMe.pointer
+  commentId: F:ChiaWalletSdk.AggSigMe.pointer
+  id: pointer
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: AggSigMe.pointer
+  fullName: ChiaWalletSdk.AggSigMe.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.AggSigMe.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.AggSigMe.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: AggSigMe(nint)
+  nameWithType: AggSigMe.AggSigMe(nint)
+  fullName: ChiaWalletSdk.AggSigMe.AggSigMe(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public AggSigMe(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.AggSigMe.#ctor*
+  nameWithType.vb: AggSigMe.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.AggSigMe.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.AggSigMe.Finalize
+  commentId: M:ChiaWalletSdk.AggSigMe.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: ~AggSigMe()
+  nameWithType: AggSigMe.~AggSigMe()
+  fullName: ChiaWalletSdk.AggSigMe.~AggSigMe()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~AggSigMe()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.AggSigMe.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.AggSigMe.#ctor(ChiaWalletSdk.PublicKey,System.Byte[])
+  commentId: M:ChiaWalletSdk.AggSigMe.#ctor(ChiaWalletSdk.PublicKey,System.Byte[])
+  id: '#ctor(ChiaWalletSdk.PublicKey,System.Byte[])'
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: AggSigMe(PublicKey, byte[])
+  nameWithType: AggSigMe.AggSigMe(PublicKey, byte[])
+  fullName: ChiaWalletSdk.AggSigMe.AggSigMe(ChiaWalletSdk.PublicKey, byte[])
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public AggSigMe(PublicKey publicKey, byte[] message)
+    parameters:
+    - id: publicKey
+      type: ChiaWalletSdk.PublicKey
+    - id: message
+      type: System.Byte[]
+    content.vb: Public Sub New(publicKey As PublicKey, message As Byte())
+  overload: ChiaWalletSdk.AggSigMe.#ctor*
+  nameWithType.vb: AggSigMe.New(PublicKey, Byte())
+  fullName.vb: ChiaWalletSdk.AggSigMe.New(ChiaWalletSdk.PublicKey, Byte())
+  name.vb: New(PublicKey, Byte())
+- uid: ChiaWalletSdk.AggSigMe.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.AggSigMe.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: AggSigMe.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.AggSigMe.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.AggSigMe.FreeRustArcPtr*
+- uid: ChiaWalletSdk.AggSigMe.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.AggSigMe.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: AggSigMe.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.AggSigMe.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.AggSigMe.CloneRustArcPtr*
+- uid: ChiaWalletSdk.AggSigMe.Destroy
+  commentId: M:ChiaWalletSdk.AggSigMe.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: AggSigMe.Destroy()
+  fullName: ChiaWalletSdk.AggSigMe.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.AggSigMe.Destroy*
+- uid: ChiaWalletSdk.AggSigMe.Dispose
+  commentId: M:ChiaWalletSdk.AggSigMe.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AggSigMe.Dispose()
+  fullName: ChiaWalletSdk.AggSigMe.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.AggSigMe.Dispose*
+- uid: ChiaWalletSdk.AggSigMe.GetMessage
+  commentId: M:ChiaWalletSdk.AggSigMe.GetMessage
+  id: GetMessage
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: GetMessage()
+  nameWithType: AggSigMe.GetMessage()
+  fullName: ChiaWalletSdk.AggSigMe.GetMessage()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetMessage()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetMessage() As Byte()
+  overload: ChiaWalletSdk.AggSigMe.GetMessage*
+  implements:
+  - ChiaWalletSdk.IAggSigMe.GetMessage
+- uid: ChiaWalletSdk.AggSigMe.GetPublicKey
+  commentId: M:ChiaWalletSdk.AggSigMe.GetPublicKey
+  id: GetPublicKey
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKey()
+  nameWithType: AggSigMe.GetPublicKey()
+  fullName: ChiaWalletSdk.AggSigMe.GetPublicKey()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public PublicKey GetPublicKey()
+    return:
+      type: ChiaWalletSdk.PublicKey
+    content.vb: Public Function GetPublicKey() As PublicKey
+  overload: ChiaWalletSdk.AggSigMe.GetPublicKey*
+  implements:
+  - ChiaWalletSdk.IAggSigMe.GetPublicKey
+- uid: ChiaWalletSdk.AggSigMe.SetMessage(System.Byte[])
+  commentId: M:ChiaWalletSdk.AggSigMe.SetMessage(System.Byte[])
+  id: SetMessage(System.Byte[])
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: SetMessage(byte[])
+  nameWithType: AggSigMe.SetMessage(byte[])
+  fullName: ChiaWalletSdk.AggSigMe.SetMessage(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public AggSigMe SetMessage(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.AggSigMe
+    content.vb: Public Function SetMessage(value As Byte()) As AggSigMe
+  overload: ChiaWalletSdk.AggSigMe.SetMessage*
+  implements:
+  - ChiaWalletSdk.IAggSigMe.SetMessage(System.Byte[])
+  nameWithType.vb: AggSigMe.SetMessage(Byte())
+  fullName.vb: ChiaWalletSdk.AggSigMe.SetMessage(Byte())
+  name.vb: SetMessage(Byte())
+- uid: ChiaWalletSdk.AggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.AggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  id: SetPublicKey(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.AggSigMe
+  langs:
+  - csharp
+  - vb
+  name: SetPublicKey(PublicKey)
+  nameWithType: AggSigMe.SetPublicKey(PublicKey)
+  fullName: ChiaWalletSdk.AggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public AggSigMe SetPublicKey(PublicKey value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.PublicKey
+    return:
+      type: ChiaWalletSdk.AggSigMe
+    content.vb: Public Function SetPublicKey(value As PublicKey) As AggSigMe
+  overload: ChiaWalletSdk.AggSigMe.SetPublicKey*
+  implements:
+  - ChiaWalletSdk.IAggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IAggSigMe
+  commentId: T:ChiaWalletSdk.IAggSigMe
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IAggSigMe.html
+  name: IAggSigMe
+  nameWithType: IAggSigMe
+  fullName: ChiaWalletSdk.IAggSigMe
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.AggSigMe.#ctor*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe__ctor_System_IntPtr_
+  name: AggSigMe
+  nameWithType: AggSigMe.AggSigMe
+  fullName: ChiaWalletSdk.AggSigMe.AggSigMe
+  nameWithType.vb: AggSigMe.New
+  fullName.vb: ChiaWalletSdk.AggSigMe.New
+  name.vb: New
+- uid: ChiaWalletSdk.AggSigMe.Finalize*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_Finalize
+  name: ~AggSigMe
+  nameWithType: AggSigMe.~AggSigMe
+  fullName: ChiaWalletSdk.AggSigMe.~AggSigMe
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.AggSigMe.Finalize*
+    name: AggSigMe
+    isExternal: true
+    href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_Finalize
+- uid: ChiaWalletSdk.PublicKey
+  commentId: T:ChiaWalletSdk.PublicKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.PublicKey.html
+  name: PublicKey
+  nameWithType: PublicKey
+  fullName: ChiaWalletSdk.PublicKey
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AggSigMe.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: AggSigMe.FreeRustArcPtr
+  fullName: ChiaWalletSdk.AggSigMe.FreeRustArcPtr
+- uid: ChiaWalletSdk.AggSigMe.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: AggSigMe.CloneRustArcPtr
+  fullName: ChiaWalletSdk.AggSigMe.CloneRustArcPtr
+- uid: ChiaWalletSdk.AggSigMe.Destroy*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_Destroy
+  name: Destroy
+  nameWithType: AggSigMe.Destroy
+  fullName: ChiaWalletSdk.AggSigMe.Destroy
+- uid: ChiaWalletSdk.AggSigMe.Dispose*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_Dispose
+  name: Dispose
+  nameWithType: AggSigMe.Dispose
+  fullName: ChiaWalletSdk.AggSigMe.Dispose
+- uid: ChiaWalletSdk.AggSigMe.GetMessage*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.GetMessage
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_GetMessage
+  name: GetMessage
+  nameWithType: AggSigMe.GetMessage
+  fullName: ChiaWalletSdk.AggSigMe.GetMessage
+- uid: ChiaWalletSdk.IAggSigMe.GetMessage
+  commentId: M:ChiaWalletSdk.IAggSigMe.GetMessage
+  parent: ChiaWalletSdk.IAggSigMe
+  isExternal: true
+  href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_GetMessage
+  name: GetMessage()
+  nameWithType: IAggSigMe.GetMessage()
+  fullName: ChiaWalletSdk.IAggSigMe.GetMessage()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAggSigMe.GetMessage
+    name: GetMessage
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_GetMessage
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAggSigMe.GetMessage
+    name: GetMessage
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_GetMessage
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AggSigMe.GetPublicKey*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.GetPublicKey
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_GetPublicKey
+  name: GetPublicKey
+  nameWithType: AggSigMe.GetPublicKey
+  fullName: ChiaWalletSdk.AggSigMe.GetPublicKey
+- uid: ChiaWalletSdk.IAggSigMe.GetPublicKey
+  commentId: M:ChiaWalletSdk.IAggSigMe.GetPublicKey
+  parent: ChiaWalletSdk.IAggSigMe
+  isExternal: true
+  href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_GetPublicKey
+  name: GetPublicKey()
+  nameWithType: IAggSigMe.GetPublicKey()
+  fullName: ChiaWalletSdk.IAggSigMe.GetPublicKey()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAggSigMe.GetPublicKey
+    name: GetPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_GetPublicKey
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAggSigMe.GetPublicKey
+    name: GetPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_GetPublicKey
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.AggSigMe.SetMessage*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.SetMessage
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_SetMessage_System_Byte___
+  name: SetMessage
+  nameWithType: AggSigMe.SetMessage
+  fullName: ChiaWalletSdk.AggSigMe.SetMessage
+- uid: ChiaWalletSdk.IAggSigMe.SetMessage(System.Byte[])
+  commentId: M:ChiaWalletSdk.IAggSigMe.SetMessage(System.Byte[])
+  parent: ChiaWalletSdk.IAggSigMe
+  isExternal: true
+  href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_SetMessage_System_Byte___
+  name: SetMessage(byte[])
+  nameWithType: IAggSigMe.SetMessage(byte[])
+  fullName: ChiaWalletSdk.IAggSigMe.SetMessage(byte[])
+  nameWithType.vb: IAggSigMe.SetMessage(Byte())
+  fullName.vb: ChiaWalletSdk.IAggSigMe.SetMessage(Byte())
+  name.vb: SetMessage(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAggSigMe.SetMessage(System.Byte[])
+    name: SetMessage
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_SetMessage_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAggSigMe.SetMessage(System.Byte[])
+    name: SetMessage
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_SetMessage_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.AggSigMe
+  commentId: T:ChiaWalletSdk.AggSigMe
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html
+  name: AggSigMe
+  nameWithType: AggSigMe
+  fullName: ChiaWalletSdk.AggSigMe
+- uid: ChiaWalletSdk.AggSigMe.SetPublicKey*
+  commentId: Overload:ChiaWalletSdk.AggSigMe.SetPublicKey
+  isExternal: true
+  href: ChiaWalletSdk.AggSigMe.html#ChiaWalletSdk_AggSigMe_SetPublicKey_ChiaWalletSdk_PublicKey_
+  name: SetPublicKey
+  nameWithType: AggSigMe.SetPublicKey
+  fullName: ChiaWalletSdk.AggSigMe.SetPublicKey
+- uid: ChiaWalletSdk.IAggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  commentId: M:ChiaWalletSdk.IAggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  parent: ChiaWalletSdk.IAggSigMe
+  isExternal: true
+  href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_SetPublicKey_ChiaWalletSdk_PublicKey_
+  name: SetPublicKey(PublicKey)
+  nameWithType: IAggSigMe.SetPublicKey(PublicKey)
+  fullName: ChiaWalletSdk.IAggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IAggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+    name: SetPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_SetPublicKey_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IAggSigMe.SetPublicKey(ChiaWalletSdk.PublicKey)
+    name: SetPublicKey
+    isExternal: true
+    href: ChiaWalletSdk.IAggSigMe.html#ChiaWalletSdk_IAggSigMe_SetPublicKey_ChiaWalletSdk_PublicKey_
+  - name: (
+  - uid: ChiaWalletSdk.PublicKey
+    name: PublicKey
+    isExternal: true
+    href: ChiaWalletSdk.PublicKey.html
+  - name: )

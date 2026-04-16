@@ -1,0 +1,708 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.VdfProof
+  commentId: T:ChiaWalletSdk.VdfProof
+  id: VdfProof
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.VdfProof.#ctor(System.Byte,System.Byte[],System.Boolean)
+  - ChiaWalletSdk.VdfProof.#ctor(System.IntPtr)
+  - ChiaWalletSdk.VdfProof.CloneRustArcPtr
+  - ChiaWalletSdk.VdfProof.Destroy
+  - ChiaWalletSdk.VdfProof.Dispose
+  - ChiaWalletSdk.VdfProof.Finalize
+  - ChiaWalletSdk.VdfProof.FreeRustArcPtr
+  - ChiaWalletSdk.VdfProof.GetNormalizedToIdentity
+  - ChiaWalletSdk.VdfProof.GetWitness
+  - ChiaWalletSdk.VdfProof.GetWitnessType
+  - ChiaWalletSdk.VdfProof.SetNormalizedToIdentity(System.Boolean)
+  - ChiaWalletSdk.VdfProof.SetWitness(System.Byte[])
+  - ChiaWalletSdk.VdfProof.SetWitnessType(System.Byte)
+  - ChiaWalletSdk.VdfProof.pointer
+  langs:
+  - csharp
+  - vb
+  name: VdfProof
+  nameWithType: VdfProof
+  fullName: ChiaWalletSdk.VdfProof
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class VdfProof : IVdfProof'
+    content.vb: Public Class VdfProof Implements IVdfProof
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IVdfProof
+- uid: ChiaWalletSdk.VdfProof.pointer
+  commentId: F:ChiaWalletSdk.VdfProof.pointer
+  id: pointer
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: VdfProof.pointer
+  fullName: ChiaWalletSdk.VdfProof.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.VdfProof.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.VdfProof.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: VdfProof(nint)
+  nameWithType: VdfProof.VdfProof(nint)
+  fullName: ChiaWalletSdk.VdfProof.VdfProof(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public VdfProof(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.VdfProof.#ctor*
+  nameWithType.vb: VdfProof.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.VdfProof.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.VdfProof.Finalize
+  commentId: M:ChiaWalletSdk.VdfProof.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: ~VdfProof()
+  nameWithType: VdfProof.~VdfProof()
+  fullName: ChiaWalletSdk.VdfProof.~VdfProof()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~VdfProof()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.VdfProof.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.VdfProof.#ctor(System.Byte,System.Byte[],System.Boolean)
+  commentId: M:ChiaWalletSdk.VdfProof.#ctor(System.Byte,System.Byte[],System.Boolean)
+  id: '#ctor(System.Byte,System.Byte[],System.Boolean)'
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: VdfProof(byte, byte[], bool)
+  nameWithType: VdfProof.VdfProof(byte, byte[], bool)
+  fullName: ChiaWalletSdk.VdfProof.VdfProof(byte, byte[], bool)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public VdfProof(byte witnessType, byte[] witness, bool normalizedToIdentity)
+    parameters:
+    - id: witnessType
+      type: System.Byte
+    - id: witness
+      type: System.Byte[]
+    - id: normalizedToIdentity
+      type: System.Boolean
+    content.vb: Public Sub New(witnessType As Byte, witness As Byte(), normalizedToIdentity As Boolean)
+  overload: ChiaWalletSdk.VdfProof.#ctor*
+  nameWithType.vb: VdfProof.New(Byte, Byte(), Boolean)
+  fullName.vb: ChiaWalletSdk.VdfProof.New(Byte, Byte(), Boolean)
+  name.vb: New(Byte, Byte(), Boolean)
+- uid: ChiaWalletSdk.VdfProof.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.VdfProof.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: VdfProof.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.VdfProof.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.VdfProof.FreeRustArcPtr*
+- uid: ChiaWalletSdk.VdfProof.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.VdfProof.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: VdfProof.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.VdfProof.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.VdfProof.CloneRustArcPtr*
+- uid: ChiaWalletSdk.VdfProof.Destroy
+  commentId: M:ChiaWalletSdk.VdfProof.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: VdfProof.Destroy()
+  fullName: ChiaWalletSdk.VdfProof.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.VdfProof.Destroy*
+- uid: ChiaWalletSdk.VdfProof.Dispose
+  commentId: M:ChiaWalletSdk.VdfProof.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: VdfProof.Dispose()
+  fullName: ChiaWalletSdk.VdfProof.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.VdfProof.Dispose*
+- uid: ChiaWalletSdk.VdfProof.GetNormalizedToIdentity
+  commentId: M:ChiaWalletSdk.VdfProof.GetNormalizedToIdentity
+  id: GetNormalizedToIdentity
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: GetNormalizedToIdentity()
+  nameWithType: VdfProof.GetNormalizedToIdentity()
+  fullName: ChiaWalletSdk.VdfProof.GetNormalizedToIdentity()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetNormalizedToIdentity()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetNormalizedToIdentity() As Boolean
+  overload: ChiaWalletSdk.VdfProof.GetNormalizedToIdentity*
+  implements:
+  - ChiaWalletSdk.IVdfProof.GetNormalizedToIdentity
+- uid: ChiaWalletSdk.VdfProof.GetWitness
+  commentId: M:ChiaWalletSdk.VdfProof.GetWitness
+  id: GetWitness
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: GetWitness()
+  nameWithType: VdfProof.GetWitness()
+  fullName: ChiaWalletSdk.VdfProof.GetWitness()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetWitness()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetWitness() As Byte()
+  overload: ChiaWalletSdk.VdfProof.GetWitness*
+  implements:
+  - ChiaWalletSdk.IVdfProof.GetWitness
+- uid: ChiaWalletSdk.VdfProof.GetWitnessType
+  commentId: M:ChiaWalletSdk.VdfProof.GetWitnessType
+  id: GetWitnessType
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: GetWitnessType()
+  nameWithType: VdfProof.GetWitnessType()
+  fullName: ChiaWalletSdk.VdfProof.GetWitnessType()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte GetWitnessType()
+    return:
+      type: System.Byte
+    content.vb: Public Function GetWitnessType() As Byte
+  overload: ChiaWalletSdk.VdfProof.GetWitnessType*
+  implements:
+  - ChiaWalletSdk.IVdfProof.GetWitnessType
+- uid: ChiaWalletSdk.VdfProof.SetNormalizedToIdentity(System.Boolean)
+  commentId: M:ChiaWalletSdk.VdfProof.SetNormalizedToIdentity(System.Boolean)
+  id: SetNormalizedToIdentity(System.Boolean)
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: SetNormalizedToIdentity(bool)
+  nameWithType: VdfProof.SetNormalizedToIdentity(bool)
+  fullName: ChiaWalletSdk.VdfProof.SetNormalizedToIdentity(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof SetNormalizedToIdentity(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function SetNormalizedToIdentity(value As Boolean) As VdfProof
+  overload: ChiaWalletSdk.VdfProof.SetNormalizedToIdentity*
+  implements:
+  - ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(System.Boolean)
+  nameWithType.vb: VdfProof.SetNormalizedToIdentity(Boolean)
+  fullName.vb: ChiaWalletSdk.VdfProof.SetNormalizedToIdentity(Boolean)
+  name.vb: SetNormalizedToIdentity(Boolean)
+- uid: ChiaWalletSdk.VdfProof.SetWitness(System.Byte[])
+  commentId: M:ChiaWalletSdk.VdfProof.SetWitness(System.Byte[])
+  id: SetWitness(System.Byte[])
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: SetWitness(byte[])
+  nameWithType: VdfProof.SetWitness(byte[])
+  fullName: ChiaWalletSdk.VdfProof.SetWitness(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof SetWitness(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function SetWitness(value As Byte()) As VdfProof
+  overload: ChiaWalletSdk.VdfProof.SetWitness*
+  implements:
+  - ChiaWalletSdk.IVdfProof.SetWitness(System.Byte[])
+  nameWithType.vb: VdfProof.SetWitness(Byte())
+  fullName.vb: ChiaWalletSdk.VdfProof.SetWitness(Byte())
+  name.vb: SetWitness(Byte())
+- uid: ChiaWalletSdk.VdfProof.SetWitnessType(System.Byte)
+  commentId: M:ChiaWalletSdk.VdfProof.SetWitnessType(System.Byte)
+  id: SetWitnessType(System.Byte)
+  parent: ChiaWalletSdk.VdfProof
+  langs:
+  - csharp
+  - vb
+  name: SetWitnessType(byte)
+  nameWithType: VdfProof.SetWitnessType(byte)
+  fullName: ChiaWalletSdk.VdfProof.SetWitnessType(byte)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfProof SetWitnessType(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: ChiaWalletSdk.VdfProof
+    content.vb: Public Function SetWitnessType(value As Byte) As VdfProof
+  overload: ChiaWalletSdk.VdfProof.SetWitnessType*
+  implements:
+  - ChiaWalletSdk.IVdfProof.SetWitnessType(System.Byte)
+  nameWithType.vb: VdfProof.SetWitnessType(Byte)
+  fullName.vb: ChiaWalletSdk.VdfProof.SetWitnessType(Byte)
+  name.vb: SetWitnessType(Byte)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IVdfProof
+  commentId: T:ChiaWalletSdk.IVdfProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html
+  name: IVdfProof
+  nameWithType: IVdfProof
+  fullName: ChiaWalletSdk.IVdfProof
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.VdfProof.#ctor*
+  commentId: Overload:ChiaWalletSdk.VdfProof.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof__ctor_System_IntPtr_
+  name: VdfProof
+  nameWithType: VdfProof.VdfProof
+  fullName: ChiaWalletSdk.VdfProof.VdfProof
+  nameWithType.vb: VdfProof.New
+  fullName.vb: ChiaWalletSdk.VdfProof.New
+  name.vb: New
+- uid: ChiaWalletSdk.VdfProof.Finalize*
+  commentId: Overload:ChiaWalletSdk.VdfProof.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_Finalize
+  name: ~VdfProof
+  nameWithType: VdfProof.~VdfProof
+  fullName: ChiaWalletSdk.VdfProof.~VdfProof
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.VdfProof.Finalize*
+    name: VdfProof
+    isExternal: true
+    href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_Finalize
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ChiaWalletSdk.VdfProof.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.VdfProof.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: VdfProof.FreeRustArcPtr
+  fullName: ChiaWalletSdk.VdfProof.FreeRustArcPtr
+- uid: ChiaWalletSdk.VdfProof.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.VdfProof.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: VdfProof.CloneRustArcPtr
+  fullName: ChiaWalletSdk.VdfProof.CloneRustArcPtr
+- uid: ChiaWalletSdk.VdfProof.Destroy*
+  commentId: Overload:ChiaWalletSdk.VdfProof.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_Destroy
+  name: Destroy
+  nameWithType: VdfProof.Destroy
+  fullName: ChiaWalletSdk.VdfProof.Destroy
+- uid: ChiaWalletSdk.VdfProof.Dispose*
+  commentId: Overload:ChiaWalletSdk.VdfProof.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_Dispose
+  name: Dispose
+  nameWithType: VdfProof.Dispose
+  fullName: ChiaWalletSdk.VdfProof.Dispose
+- uid: ChiaWalletSdk.VdfProof.GetNormalizedToIdentity*
+  commentId: Overload:ChiaWalletSdk.VdfProof.GetNormalizedToIdentity
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_GetNormalizedToIdentity
+  name: GetNormalizedToIdentity
+  nameWithType: VdfProof.GetNormalizedToIdentity
+  fullName: ChiaWalletSdk.VdfProof.GetNormalizedToIdentity
+- uid: ChiaWalletSdk.IVdfProof.GetNormalizedToIdentity
+  commentId: M:ChiaWalletSdk.IVdfProof.GetNormalizedToIdentity
+  parent: ChiaWalletSdk.IVdfProof
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetNormalizedToIdentity
+  name: GetNormalizedToIdentity()
+  nameWithType: IVdfProof.GetNormalizedToIdentity()
+  fullName: ChiaWalletSdk.IVdfProof.GetNormalizedToIdentity()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfProof.GetNormalizedToIdentity
+    name: GetNormalizedToIdentity
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetNormalizedToIdentity
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfProof.GetNormalizedToIdentity
+    name: GetNormalizedToIdentity
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetNormalizedToIdentity
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VdfProof.GetWitness*
+  commentId: Overload:ChiaWalletSdk.VdfProof.GetWitness
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_GetWitness
+  name: GetWitness
+  nameWithType: VdfProof.GetWitness
+  fullName: ChiaWalletSdk.VdfProof.GetWitness
+- uid: ChiaWalletSdk.IVdfProof.GetWitness
+  commentId: M:ChiaWalletSdk.IVdfProof.GetWitness
+  parent: ChiaWalletSdk.IVdfProof
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetWitness
+  name: GetWitness()
+  nameWithType: IVdfProof.GetWitness()
+  fullName: ChiaWalletSdk.IVdfProof.GetWitness()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfProof.GetWitness
+    name: GetWitness
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetWitness
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfProof.GetWitness
+    name: GetWitness
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetWitness
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VdfProof.GetWitnessType*
+  commentId: Overload:ChiaWalletSdk.VdfProof.GetWitnessType
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_GetWitnessType
+  name: GetWitnessType
+  nameWithType: VdfProof.GetWitnessType
+  fullName: ChiaWalletSdk.VdfProof.GetWitnessType
+- uid: ChiaWalletSdk.IVdfProof.GetWitnessType
+  commentId: M:ChiaWalletSdk.IVdfProof.GetWitnessType
+  parent: ChiaWalletSdk.IVdfProof
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetWitnessType
+  name: GetWitnessType()
+  nameWithType: IVdfProof.GetWitnessType()
+  fullName: ChiaWalletSdk.IVdfProof.GetWitnessType()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfProof.GetWitnessType
+    name: GetWitnessType
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetWitnessType
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfProof.GetWitnessType
+    name: GetWitnessType
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_GetWitnessType
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.VdfProof.SetNormalizedToIdentity*
+  commentId: Overload:ChiaWalletSdk.VdfProof.SetNormalizedToIdentity
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_SetNormalizedToIdentity_System_Boolean_
+  name: SetNormalizedToIdentity
+  nameWithType: VdfProof.SetNormalizedToIdentity
+  fullName: ChiaWalletSdk.VdfProof.SetNormalizedToIdentity
+- uid: ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(System.Boolean)
+  commentId: M:ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(System.Boolean)
+  parent: ChiaWalletSdk.IVdfProof
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetNormalizedToIdentity_System_Boolean_
+  name: SetNormalizedToIdentity(bool)
+  nameWithType: IVdfProof.SetNormalizedToIdentity(bool)
+  fullName: ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(bool)
+  nameWithType.vb: IVdfProof.SetNormalizedToIdentity(Boolean)
+  fullName.vb: ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(Boolean)
+  name.vb: SetNormalizedToIdentity(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(System.Boolean)
+    name: SetNormalizedToIdentity
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetNormalizedToIdentity_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfProof.SetNormalizedToIdentity(System.Boolean)
+    name: SetNormalizedToIdentity
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetNormalizedToIdentity_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.VdfProof
+  commentId: T:ChiaWalletSdk.VdfProof
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html
+  name: VdfProof
+  nameWithType: VdfProof
+  fullName: ChiaWalletSdk.VdfProof
+- uid: ChiaWalletSdk.VdfProof.SetWitness*
+  commentId: Overload:ChiaWalletSdk.VdfProof.SetWitness
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_SetWitness_System_Byte___
+  name: SetWitness
+  nameWithType: VdfProof.SetWitness
+  fullName: ChiaWalletSdk.VdfProof.SetWitness
+- uid: ChiaWalletSdk.IVdfProof.SetWitness(System.Byte[])
+  commentId: M:ChiaWalletSdk.IVdfProof.SetWitness(System.Byte[])
+  parent: ChiaWalletSdk.IVdfProof
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetWitness_System_Byte___
+  name: SetWitness(byte[])
+  nameWithType: IVdfProof.SetWitness(byte[])
+  fullName: ChiaWalletSdk.IVdfProof.SetWitness(byte[])
+  nameWithType.vb: IVdfProof.SetWitness(Byte())
+  fullName.vb: ChiaWalletSdk.IVdfProof.SetWitness(Byte())
+  name.vb: SetWitness(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfProof.SetWitness(System.Byte[])
+    name: SetWitness
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetWitness_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfProof.SetWitness(System.Byte[])
+    name: SetWitness
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetWitness_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.VdfProof.SetWitnessType*
+  commentId: Overload:ChiaWalletSdk.VdfProof.SetWitnessType
+  isExternal: true
+  href: ChiaWalletSdk.VdfProof.html#ChiaWalletSdk_VdfProof_SetWitnessType_System_Byte_
+  name: SetWitnessType
+  nameWithType: VdfProof.SetWitnessType
+  fullName: ChiaWalletSdk.VdfProof.SetWitnessType
+- uid: ChiaWalletSdk.IVdfProof.SetWitnessType(System.Byte)
+  commentId: M:ChiaWalletSdk.IVdfProof.SetWitnessType(System.Byte)
+  parent: ChiaWalletSdk.IVdfProof
+  isExternal: true
+  href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetWitnessType_System_Byte_
+  name: SetWitnessType(byte)
+  nameWithType: IVdfProof.SetWitnessType(byte)
+  fullName: ChiaWalletSdk.IVdfProof.SetWitnessType(byte)
+  nameWithType.vb: IVdfProof.SetWitnessType(Byte)
+  fullName.vb: ChiaWalletSdk.IVdfProof.SetWitnessType(Byte)
+  name.vb: SetWitnessType(Byte)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IVdfProof.SetWitnessType(System.Byte)
+    name: SetWitnessType
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetWitnessType_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IVdfProof.SetWitnessType(System.Byte)
+    name: SetWitnessType
+    isExternal: true
+    href: ChiaWalletSdk.IVdfProof.html#ChiaWalletSdk_IVdfProof_SetWitnessType_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )

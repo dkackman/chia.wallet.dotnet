@@ -1,0 +1,3664 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.BlockRecord
+  commentId: T:ChiaWalletSdk.BlockRecord
+  id: BlockRecord
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.BlockRecord.#ctor(System.Byte[],System.Byte[],System.UInt32,System.String,System.String,System.Byte,System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.String,System.Byte[],System.Byte[],System.String,System.Byte,System.Boolean,System.UInt32,System.String,System.Byte[],System.String,System.Collections.Generic.List{ChiaWalletSdk.Coin},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},ChiaWalletSdk.SubEpochSummary)
+  - ChiaWalletSdk.BlockRecord.#ctor(System.IntPtr)
+  - ChiaWalletSdk.BlockRecord.CloneRustArcPtr
+  - ChiaWalletSdk.BlockRecord.Destroy
+  - ChiaWalletSdk.BlockRecord.Dispose
+  - ChiaWalletSdk.BlockRecord.Finalize
+  - ChiaWalletSdk.BlockRecord.FreeRustArcPtr
+  - ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash
+  - ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput
+  - ChiaWalletSdk.BlockRecord.GetDeficit
+  - ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash
+  - ChiaWalletSdk.BlockRecord.GetFees
+  - ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes
+  - ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes
+  - ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes
+  - ChiaWalletSdk.BlockRecord.GetHeaderHash
+  - ChiaWalletSdk.BlockRecord.GetHeight
+  - ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput
+  - ChiaWalletSdk.BlockRecord.GetOverflow
+  - ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash
+  - ChiaWalletSdk.BlockRecord.GetPrevHash
+  - ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash
+  - ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight
+  - ChiaWalletSdk.BlockRecord.GetRequiredIters
+  - ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated
+  - ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge
+  - ChiaWalletSdk.BlockRecord.GetSignagePointIndex
+  - ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded
+  - ChiaWalletSdk.BlockRecord.GetSubSlotIters
+  - ChiaWalletSdk.BlockRecord.GetTimestamp
+  - ChiaWalletSdk.BlockRecord.GetTotalIters
+  - ChiaWalletSdk.BlockRecord.GetWeight
+  - ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetDeficit(System.Byte)
+  - ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetFees(System.String)
+  - ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.BlockRecord.SetHeaderHash(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetHeight(System.UInt32)
+  - ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetOverflow(System.Boolean)
+  - ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetPrevHash(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+  - ChiaWalletSdk.BlockRecord.SetRequiredIters(System.String)
+  - ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  - ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+  - ChiaWalletSdk.BlockRecord.SetSignagePointIndex(System.Byte)
+  - ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  - ChiaWalletSdk.BlockRecord.SetSubSlotIters(System.String)
+  - ChiaWalletSdk.BlockRecord.SetTimestamp(System.String)
+  - ChiaWalletSdk.BlockRecord.SetTotalIters(System.String)
+  - ChiaWalletSdk.BlockRecord.SetWeight(System.String)
+  - ChiaWalletSdk.BlockRecord.pointer
+  langs:
+  - csharp
+  - vb
+  name: BlockRecord
+  nameWithType: BlockRecord
+  fullName: ChiaWalletSdk.BlockRecord
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class BlockRecord : IBlockRecord'
+    content.vb: Public Class BlockRecord Implements IBlockRecord
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IBlockRecord
+- uid: ChiaWalletSdk.BlockRecord.pointer
+  commentId: F:ChiaWalletSdk.BlockRecord.pointer
+  id: pointer
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: BlockRecord.pointer
+  fullName: ChiaWalletSdk.BlockRecord.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.BlockRecord.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.BlockRecord.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: BlockRecord(nint)
+  nameWithType: BlockRecord.BlockRecord(nint)
+  fullName: ChiaWalletSdk.BlockRecord.BlockRecord(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public BlockRecord(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.BlockRecord.#ctor*
+  nameWithType.vb: BlockRecord.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.BlockRecord.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.BlockRecord.Finalize
+  commentId: M:ChiaWalletSdk.BlockRecord.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: ~BlockRecord()
+  nameWithType: BlockRecord.~BlockRecord()
+  fullName: ChiaWalletSdk.BlockRecord.~BlockRecord()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~BlockRecord()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.BlockRecord.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.BlockRecord.#ctor(System.Byte[],System.Byte[],System.UInt32,System.String,System.String,System.Byte,System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.String,System.Byte[],System.Byte[],System.String,System.Byte,System.Boolean,System.UInt32,System.String,System.Byte[],System.String,System.Collections.Generic.List{ChiaWalletSdk.Coin},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},ChiaWalletSdk.SubEpochSummary)
+  commentId: M:ChiaWalletSdk.BlockRecord.#ctor(System.Byte[],System.Byte[],System.UInt32,System.String,System.String,System.Byte,System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.String,System.Byte[],System.Byte[],System.String,System.Byte,System.Boolean,System.UInt32,System.String,System.Byte[],System.String,System.Collections.Generic.List{ChiaWalletSdk.Coin},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},ChiaWalletSdk.SubEpochSummary)
+  id: '#ctor(System.Byte[],System.Byte[],System.UInt32,System.String,System.String,System.Byte,System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.String,System.Byte[],System.Byte[],System.String,System.Byte,System.Boolean,System.UInt32,System.String,System.Byte[],System.String,System.Collections.Generic.List{ChiaWalletSdk.Coin},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},ChiaWalletSdk.SubEpochSummary)'
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: BlockRecord(byte[], byte[], uint, string, string, byte, byte[], byte[]?, byte[], byte[], string, byte[], byte[], string, byte, bool, uint, string?, byte[]?, string?, List<Coin>?, List<byte[]>?, List<byte[]>?, List<byte[]>?, SubEpochSummary?)
+  nameWithType: BlockRecord.BlockRecord(byte[], byte[], uint, string, string, byte, byte[], byte[]?, byte[], byte[], string, byte[], byte[], string, byte, bool, uint, string?, byte[]?, string?, List<Coin>?, List<byte[]>?, List<byte[]>?, List<byte[]>?, SubEpochSummary?)
+  fullName: ChiaWalletSdk.BlockRecord.BlockRecord(byte[], byte[], uint, string, string, byte, byte[], byte[]?, byte[], byte[], string, byte[], byte[], string, byte, bool, uint, string?, byte[]?, string?, System.Collections.Generic.List<ChiaWalletSdk.Coin>?, System.Collections.Generic.List<byte[]>?, System.Collections.Generic.List<byte[]>?, System.Collections.Generic.List<byte[]>?, ChiaWalletSdk.SubEpochSummary?)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public BlockRecord(byte[] headerHash, byte[] prevHash, uint height, string weight, string totalIters, byte signagePointIndex, byte[] challengeVdfOutput, byte[]? infusedChallengeVdfOutput, byte[] rewardInfusionNewChallenge, byte[] challengeBlockInfoHash, string subSlotIters, byte[] poolPuzzleHash, byte[] farmerPuzzleHash, string requiredIters, byte deficit, bool overflow, uint prevTransactionBlockHeight, string? timestamp, byte[]? prevTransactionBlockHash, string? fees, List<Coin>? rewardClaimsIncorporated, List<byte[]>? finishedChallengeSlotHashes, List<byte[]>? finishedInfusedChallengeSlotHashes, List<byte[]>? finishedRewardSlotHashes, SubEpochSummary? subEpochSummaryIncluded)
+    parameters:
+    - id: headerHash
+      type: System.Byte[]
+    - id: prevHash
+      type: System.Byte[]
+    - id: height
+      type: System.UInt32
+    - id: weight
+      type: System.String
+    - id: totalIters
+      type: System.String
+    - id: signagePointIndex
+      type: System.Byte
+    - id: challengeVdfOutput
+      type: System.Byte[]
+    - id: infusedChallengeVdfOutput
+      type: System.Byte[]
+    - id: rewardInfusionNewChallenge
+      type: System.Byte[]
+    - id: challengeBlockInfoHash
+      type: System.Byte[]
+    - id: subSlotIters
+      type: System.String
+    - id: poolPuzzleHash
+      type: System.Byte[]
+    - id: farmerPuzzleHash
+      type: System.Byte[]
+    - id: requiredIters
+      type: System.String
+    - id: deficit
+      type: System.Byte
+    - id: overflow
+      type: System.Boolean
+    - id: prevTransactionBlockHeight
+      type: System.UInt32
+    - id: timestamp
+      type: System.String
+    - id: prevTransactionBlockHash
+      type: System.Byte[]
+    - id: fees
+      type: System.String
+    - id: rewardClaimsIncorporated
+      type: System.Collections.Generic.List{ChiaWalletSdk.Coin}
+    - id: finishedChallengeSlotHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: finishedInfusedChallengeSlotHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: finishedRewardSlotHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: subEpochSummaryIncluded
+      type: ChiaWalletSdk.SubEpochSummary
+    content.vb: Public Sub New(headerHash As Byte(), prevHash As Byte(), height As UInteger, weight As String, totalIters As String, signagePointIndex As Byte, challengeVdfOutput As Byte(), infusedChallengeVdfOutput As Byte(), rewardInfusionNewChallenge As Byte(), challengeBlockInfoHash As Byte(), subSlotIters As String, poolPuzzleHash As Byte(), farmerPuzzleHash As Byte(), requiredIters As String, deficit As Byte, overflow As Boolean, prevTransactionBlockHeight As UInteger, timestamp As String, prevTransactionBlockHash As Byte(), fees As String, rewardClaimsIncorporated As List(Of Coin), finishedChallengeSlotHashes As List(Of Byte()), finishedInfusedChallengeSlotHashes As List(Of Byte()), finishedRewardSlotHashes As List(Of Byte()), subEpochSummaryIncluded As SubEpochSummary)
+  overload: ChiaWalletSdk.BlockRecord.#ctor*
+  nameWithType.vb: BlockRecord.New(Byte(), Byte(), UInteger, String, String, Byte, Byte(), Byte(), Byte(), Byte(), String, Byte(), Byte(), String, Byte, Boolean, UInteger, String, Byte(), String, List(Of Coin), List(Of Byte()), List(Of Byte()), List(Of Byte()), SubEpochSummary)
+  fullName.vb: ChiaWalletSdk.BlockRecord.New(Byte(), Byte(), UInteger, String, String, Byte, Byte(), Byte(), Byte(), Byte(), String, Byte(), Byte(), String, Byte, Boolean, UInteger, String, Byte(), String, System.Collections.Generic.List(Of ChiaWalletSdk.Coin), System.Collections.Generic.List(Of Byte()), System.Collections.Generic.List(Of Byte()), System.Collections.Generic.List(Of Byte()), ChiaWalletSdk.SubEpochSummary)
+  name.vb: New(Byte(), Byte(), UInteger, String, String, Byte, Byte(), Byte(), Byte(), Byte(), String, Byte(), Byte(), String, Byte, Boolean, UInteger, String, Byte(), String, List(Of Coin), List(Of Byte()), List(Of Byte()), List(Of Byte()), SubEpochSummary)
+- uid: ChiaWalletSdk.BlockRecord.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.BlockRecord.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: BlockRecord.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.BlockRecord.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.BlockRecord.FreeRustArcPtr*
+- uid: ChiaWalletSdk.BlockRecord.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.BlockRecord.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: BlockRecord.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.BlockRecord.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.BlockRecord.CloneRustArcPtr*
+- uid: ChiaWalletSdk.BlockRecord.Destroy
+  commentId: M:ChiaWalletSdk.BlockRecord.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: BlockRecord.Destroy()
+  fullName: ChiaWalletSdk.BlockRecord.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.BlockRecord.Destroy*
+- uid: ChiaWalletSdk.BlockRecord.Dispose
+  commentId: M:ChiaWalletSdk.BlockRecord.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: BlockRecord.Dispose()
+  fullName: ChiaWalletSdk.BlockRecord.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.BlockRecord.Dispose*
+- uid: ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash
+  commentId: M:ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash
+  id: GetChallengeBlockInfoHash
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeBlockInfoHash()
+  nameWithType: BlockRecord.GetChallengeBlockInfoHash()
+  fullName: ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetChallengeBlockInfoHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetChallengeBlockInfoHash() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetChallengeBlockInfoHash
+- uid: ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput
+  commentId: M:ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput
+  id: GetChallengeVdfOutput
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeVdfOutput()
+  nameWithType: BlockRecord.GetChallengeVdfOutput()
+  fullName: ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetChallengeVdfOutput()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetChallengeVdfOutput() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetChallengeVdfOutput
+- uid: ChiaWalletSdk.BlockRecord.GetDeficit
+  commentId: M:ChiaWalletSdk.BlockRecord.GetDeficit
+  id: GetDeficit
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetDeficit()
+  nameWithType: BlockRecord.GetDeficit()
+  fullName: ChiaWalletSdk.BlockRecord.GetDeficit()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte GetDeficit()
+    return:
+      type: System.Byte
+    content.vb: Public Function GetDeficit() As Byte
+  overload: ChiaWalletSdk.BlockRecord.GetDeficit*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetDeficit
+- uid: ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash
+  commentId: M:ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash
+  id: GetFarmerPuzzleHash
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetFarmerPuzzleHash()
+  nameWithType: BlockRecord.GetFarmerPuzzleHash()
+  fullName: ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetFarmerPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetFarmerPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetFarmerPuzzleHash
+- uid: ChiaWalletSdk.BlockRecord.GetFees
+  commentId: M:ChiaWalletSdk.BlockRecord.GetFees
+  id: GetFees
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetFees()
+  nameWithType: BlockRecord.GetFees()
+  fullName: ChiaWalletSdk.BlockRecord.GetFees()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetFees()
+    return:
+      type: System.String
+    content.vb: Public Function GetFees() As String
+  overload: ChiaWalletSdk.BlockRecord.GetFees*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetFees
+- uid: ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes
+  commentId: M:ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes
+  id: GetFinishedChallengeSlotHashes
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetFinishedChallengeSlotHashes()
+  nameWithType: BlockRecord.GetFinishedChallengeSlotHashes()
+  fullName: ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<byte[]>? GetFinishedChallengeSlotHashes()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Public Function GetFinishedChallengeSlotHashes() As List(Of Byte())
+  overload: ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetFinishedChallengeSlotHashes
+- uid: ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes
+  commentId: M:ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes
+  id: GetFinishedInfusedChallengeSlotHashes
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetFinishedInfusedChallengeSlotHashes()
+  nameWithType: BlockRecord.GetFinishedInfusedChallengeSlotHashes()
+  fullName: ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<byte[]>? GetFinishedInfusedChallengeSlotHashes()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Public Function GetFinishedInfusedChallengeSlotHashes() As List(Of Byte())
+  overload: ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetFinishedInfusedChallengeSlotHashes
+- uid: ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes
+  commentId: M:ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes
+  id: GetFinishedRewardSlotHashes
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetFinishedRewardSlotHashes()
+  nameWithType: BlockRecord.GetFinishedRewardSlotHashes()
+  fullName: ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<byte[]>? GetFinishedRewardSlotHashes()
+    return:
+      type: System.Collections.Generic.List{System.Byte[]}
+    content.vb: Public Function GetFinishedRewardSlotHashes() As List(Of Byte())
+  overload: ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetFinishedRewardSlotHashes
+- uid: ChiaWalletSdk.BlockRecord.GetHeaderHash
+  commentId: M:ChiaWalletSdk.BlockRecord.GetHeaderHash
+  id: GetHeaderHash
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetHeaderHash()
+  nameWithType: BlockRecord.GetHeaderHash()
+  fullName: ChiaWalletSdk.BlockRecord.GetHeaderHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetHeaderHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetHeaderHash() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetHeaderHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetHeaderHash
+- uid: ChiaWalletSdk.BlockRecord.GetHeight
+  commentId: M:ChiaWalletSdk.BlockRecord.GetHeight
+  id: GetHeight
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetHeight()
+  nameWithType: BlockRecord.GetHeight()
+  fullName: ChiaWalletSdk.BlockRecord.GetHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetHeight() As UInteger
+  overload: ChiaWalletSdk.BlockRecord.GetHeight*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetHeight
+- uid: ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput
+  commentId: M:ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput
+  id: GetInfusedChallengeVdfOutput
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetInfusedChallengeVdfOutput()
+  nameWithType: BlockRecord.GetInfusedChallengeVdfOutput()
+  fullName: ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetInfusedChallengeVdfOutput()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetInfusedChallengeVdfOutput() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetInfusedChallengeVdfOutput
+- uid: ChiaWalletSdk.BlockRecord.GetOverflow
+  commentId: M:ChiaWalletSdk.BlockRecord.GetOverflow
+  id: GetOverflow
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetOverflow()
+  nameWithType: BlockRecord.GetOverflow()
+  fullName: ChiaWalletSdk.BlockRecord.GetOverflow()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public bool GetOverflow()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetOverflow() As Boolean
+  overload: ChiaWalletSdk.BlockRecord.GetOverflow*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetOverflow
+- uid: ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash
+  commentId: M:ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash
+  id: GetPoolPuzzleHash
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetPoolPuzzleHash()
+  nameWithType: BlockRecord.GetPoolPuzzleHash()
+  fullName: ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPoolPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPoolPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetPoolPuzzleHash
+- uid: ChiaWalletSdk.BlockRecord.GetPrevHash
+  commentId: M:ChiaWalletSdk.BlockRecord.GetPrevHash
+  id: GetPrevHash
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetPrevHash()
+  nameWithType: BlockRecord.GetPrevHash()
+  fullName: ChiaWalletSdk.BlockRecord.GetPrevHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetPrevHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPrevHash() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetPrevHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetPrevHash
+- uid: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash
+  commentId: M:ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash
+  id: GetPrevTransactionBlockHash
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetPrevTransactionBlockHash()
+  nameWithType: BlockRecord.GetPrevTransactionBlockHash()
+  fullName: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetPrevTransactionBlockHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetPrevTransactionBlockHash() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHash
+- uid: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight
+  commentId: M:ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight
+  id: GetPrevTransactionBlockHeight
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetPrevTransactionBlockHeight()
+  nameWithType: BlockRecord.GetPrevTransactionBlockHeight()
+  fullName: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public uint GetPrevTransactionBlockHeight()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetPrevTransactionBlockHeight() As UInteger
+  overload: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHeight
+- uid: ChiaWalletSdk.BlockRecord.GetRequiredIters
+  commentId: M:ChiaWalletSdk.BlockRecord.GetRequiredIters
+  id: GetRequiredIters
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetRequiredIters()
+  nameWithType: BlockRecord.GetRequiredIters()
+  fullName: ChiaWalletSdk.BlockRecord.GetRequiredIters()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetRequiredIters()
+    return:
+      type: System.String
+    content.vb: Public Function GetRequiredIters() As String
+  overload: ChiaWalletSdk.BlockRecord.GetRequiredIters*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetRequiredIters
+- uid: ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated
+  commentId: M:ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated
+  id: GetRewardClaimsIncorporated
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetRewardClaimsIncorporated()
+  nameWithType: BlockRecord.GetRewardClaimsIncorporated()
+  fullName: ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public List<Coin>? GetRewardClaimsIncorporated()
+    return:
+      type: System.Collections.Generic.List{ChiaWalletSdk.Coin}
+    content.vb: Public Function GetRewardClaimsIncorporated() As List(Of Coin)
+  overload: ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetRewardClaimsIncorporated
+- uid: ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge
+  commentId: M:ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge
+  id: GetRewardInfusionNewChallenge
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetRewardInfusionNewChallenge()
+  nameWithType: BlockRecord.GetRewardInfusionNewChallenge()
+  fullName: ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] GetRewardInfusionNewChallenge()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetRewardInfusionNewChallenge() As Byte()
+  overload: ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetRewardInfusionNewChallenge
+- uid: ChiaWalletSdk.BlockRecord.GetSignagePointIndex
+  commentId: M:ChiaWalletSdk.BlockRecord.GetSignagePointIndex
+  id: GetSignagePointIndex
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetSignagePointIndex()
+  nameWithType: BlockRecord.GetSignagePointIndex()
+  fullName: ChiaWalletSdk.BlockRecord.GetSignagePointIndex()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte GetSignagePointIndex()
+    return:
+      type: System.Byte
+    content.vb: Public Function GetSignagePointIndex() As Byte
+  overload: ChiaWalletSdk.BlockRecord.GetSignagePointIndex*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetSignagePointIndex
+- uid: ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded
+  commentId: M:ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded
+  id: GetSubEpochSummaryIncluded
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetSubEpochSummaryIncluded()
+  nameWithType: BlockRecord.GetSubEpochSummaryIncluded()
+  fullName: ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SubEpochSummary? GetSubEpochSummaryIncluded()
+    return:
+      type: ChiaWalletSdk.SubEpochSummary
+    content.vb: Public Function GetSubEpochSummaryIncluded() As SubEpochSummary
+  overload: ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetSubEpochSummaryIncluded
+- uid: ChiaWalletSdk.BlockRecord.GetSubSlotIters
+  commentId: M:ChiaWalletSdk.BlockRecord.GetSubSlotIters
+  id: GetSubSlotIters
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetSubSlotIters()
+  nameWithType: BlockRecord.GetSubSlotIters()
+  fullName: ChiaWalletSdk.BlockRecord.GetSubSlotIters()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetSubSlotIters()
+    return:
+      type: System.String
+    content.vb: Public Function GetSubSlotIters() As String
+  overload: ChiaWalletSdk.BlockRecord.GetSubSlotIters*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetSubSlotIters
+- uid: ChiaWalletSdk.BlockRecord.GetTimestamp
+  commentId: M:ChiaWalletSdk.BlockRecord.GetTimestamp
+  id: GetTimestamp
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetTimestamp()
+  nameWithType: BlockRecord.GetTimestamp()
+  fullName: ChiaWalletSdk.BlockRecord.GetTimestamp()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetTimestamp()
+    return:
+      type: System.String
+    content.vb: Public Function GetTimestamp() As String
+  overload: ChiaWalletSdk.BlockRecord.GetTimestamp*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetTimestamp
+- uid: ChiaWalletSdk.BlockRecord.GetTotalIters
+  commentId: M:ChiaWalletSdk.BlockRecord.GetTotalIters
+  id: GetTotalIters
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetTotalIters()
+  nameWithType: BlockRecord.GetTotalIters()
+  fullName: ChiaWalletSdk.BlockRecord.GetTotalIters()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetTotalIters()
+    return:
+      type: System.String
+    content.vb: Public Function GetTotalIters() As String
+  overload: ChiaWalletSdk.BlockRecord.GetTotalIters*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetTotalIters
+- uid: ChiaWalletSdk.BlockRecord.GetWeight
+  commentId: M:ChiaWalletSdk.BlockRecord.GetWeight
+  id: GetWeight
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: GetWeight()
+  nameWithType: BlockRecord.GetWeight()
+  fullName: ChiaWalletSdk.BlockRecord.GetWeight()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetWeight()
+    return:
+      type: System.String
+    content.vb: Public Function GetWeight() As String
+  overload: ChiaWalletSdk.BlockRecord.GetWeight*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.GetWeight
+- uid: ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+  id: SetChallengeBlockInfoHash(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeBlockInfoHash(byte[])
+  nameWithType: BlockRecord.SetChallengeBlockInfoHash(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetChallengeBlockInfoHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetChallengeBlockInfoHash(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+  nameWithType.vb: BlockRecord.SetChallengeBlockInfoHash(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash(Byte())
+  name.vb: SetChallengeBlockInfoHash(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput(System.Byte[])
+  id: SetChallengeVdfOutput(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeVdfOutput(byte[])
+  nameWithType: BlockRecord.SetChallengeVdfOutput(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetChallengeVdfOutput(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetChallengeVdfOutput(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(System.Byte[])
+  nameWithType.vb: BlockRecord.SetChallengeVdfOutput(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput(Byte())
+  name.vb: SetChallengeVdfOutput(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetDeficit(System.Byte)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetDeficit(System.Byte)
+  id: SetDeficit(System.Byte)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetDeficit(byte)
+  nameWithType: BlockRecord.SetDeficit(byte)
+  fullName: ChiaWalletSdk.BlockRecord.SetDeficit(byte)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetDeficit(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetDeficit(value As Byte) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetDeficit*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetDeficit(System.Byte)
+  nameWithType.vb: BlockRecord.SetDeficit(Byte)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetDeficit(Byte)
+  name.vb: SetDeficit(Byte)
+- uid: ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash(System.Byte[])
+  id: SetFarmerPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetFarmerPuzzleHash(byte[])
+  nameWithType: BlockRecord.SetFarmerPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetFarmerPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetFarmerPuzzleHash(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(System.Byte[])
+  nameWithType.vb: BlockRecord.SetFarmerPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash(Byte())
+  name.vb: SetFarmerPuzzleHash(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetFees(System.String)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetFees(System.String)
+  id: SetFees(System.String)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetFees(string?)
+  nameWithType: BlockRecord.SetFees(string?)
+  fullName: ChiaWalletSdk.BlockRecord.SetFees(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetFees(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetFees(value As String) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetFees*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetFees(System.String)
+  nameWithType.vb: BlockRecord.SetFees(String)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetFees(String)
+  name.vb: SetFees(String)
+- uid: ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  id: SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetFinishedChallengeSlotHashes(List<byte[]>?)
+  nameWithType: BlockRecord.SetFinishedChallengeSlotHashes(List<byte[]>?)
+  fullName: ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List<byte[]>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetFinishedChallengeSlotHashes(List<byte[]>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetFinishedChallengeSlotHashes(value As List(Of Byte())) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  nameWithType.vb: BlockRecord.SetFinishedChallengeSlotHashes(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetFinishedChallengeSlotHashes(List(Of Byte()))
+- uid: ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  id: SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetFinishedInfusedChallengeSlotHashes(List<byte[]>?)
+  nameWithType: BlockRecord.SetFinishedInfusedChallengeSlotHashes(List<byte[]>?)
+  fullName: ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List<byte[]>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetFinishedInfusedChallengeSlotHashes(List<byte[]>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetFinishedInfusedChallengeSlotHashes(value As List(Of Byte())) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  nameWithType.vb: BlockRecord.SetFinishedInfusedChallengeSlotHashes(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetFinishedInfusedChallengeSlotHashes(List(Of Byte()))
+- uid: ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  id: SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetFinishedRewardSlotHashes(List<byte[]>?)
+  nameWithType: BlockRecord.SetFinishedRewardSlotHashes(List<byte[]>?)
+  fullName: ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List<byte[]>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetFinishedRewardSlotHashes(List<byte[]>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetFinishedRewardSlotHashes(value As List(Of Byte())) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  nameWithType.vb: BlockRecord.SetFinishedRewardSlotHashes(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetFinishedRewardSlotHashes(List(Of Byte()))
+- uid: ChiaWalletSdk.BlockRecord.SetHeaderHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetHeaderHash(System.Byte[])
+  id: SetHeaderHash(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetHeaderHash(byte[])
+  nameWithType: BlockRecord.SetHeaderHash(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetHeaderHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetHeaderHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetHeaderHash(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetHeaderHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetHeaderHash(System.Byte[])
+  nameWithType.vb: BlockRecord.SetHeaderHash(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetHeaderHash(Byte())
+  name.vb: SetHeaderHash(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetHeight(System.UInt32)
+  id: SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(uint)
+  nameWithType: BlockRecord.SetHeight(uint)
+  fullName: ChiaWalletSdk.BlockRecord.SetHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetHeight(value As UInteger) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetHeight*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetHeight(System.UInt32)
+  nameWithType.vb: BlockRecord.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+- uid: ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+  id: SetInfusedChallengeVdfOutput(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetInfusedChallengeVdfOutput(byte[]?)
+  nameWithType: BlockRecord.SetInfusedChallengeVdfOutput(byte[]?)
+  fullName: ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetInfusedChallengeVdfOutput(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetInfusedChallengeVdfOutput(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+  nameWithType.vb: BlockRecord.SetInfusedChallengeVdfOutput(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput(Byte())
+  name.vb: SetInfusedChallengeVdfOutput(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetOverflow(System.Boolean)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetOverflow(System.Boolean)
+  id: SetOverflow(System.Boolean)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetOverflow(bool)
+  nameWithType: BlockRecord.SetOverflow(bool)
+  fullName: ChiaWalletSdk.BlockRecord.SetOverflow(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetOverflow(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetOverflow(value As Boolean) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetOverflow*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetOverflow(System.Boolean)
+  nameWithType.vb: BlockRecord.SetOverflow(Boolean)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetOverflow(Boolean)
+  name.vb: SetOverflow(Boolean)
+- uid: ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash(System.Byte[])
+  id: SetPoolPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetPoolPuzzleHash(byte[])
+  nameWithType: BlockRecord.SetPoolPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetPoolPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetPoolPuzzleHash(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(System.Byte[])
+  nameWithType.vb: BlockRecord.SetPoolPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash(Byte())
+  name.vb: SetPoolPuzzleHash(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetPrevHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetPrevHash(System.Byte[])
+  id: SetPrevHash(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetPrevHash(byte[])
+  nameWithType: BlockRecord.SetPrevHash(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetPrevHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetPrevHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetPrevHash(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetPrevHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetPrevHash(System.Byte[])
+  nameWithType.vb: BlockRecord.SetPrevHash(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetPrevHash(Byte())
+  name.vb: SetPrevHash(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+  id: SetPrevTransactionBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetPrevTransactionBlockHash(byte[]?)
+  nameWithType: BlockRecord.SetPrevTransactionBlockHash(byte[]?)
+  fullName: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetPrevTransactionBlockHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetPrevTransactionBlockHash(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+  nameWithType.vb: BlockRecord.SetPrevTransactionBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash(Byte())
+  name.vb: SetPrevTransactionBlockHash(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+  id: SetPrevTransactionBlockHeight(System.UInt32)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetPrevTransactionBlockHeight(uint)
+  nameWithType: BlockRecord.SetPrevTransactionBlockHeight(uint)
+  fullName: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight(uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetPrevTransactionBlockHeight(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetPrevTransactionBlockHeight(value As UInteger) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+  nameWithType.vb: BlockRecord.SetPrevTransactionBlockHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight(UInteger)
+  name.vb: SetPrevTransactionBlockHeight(UInteger)
+- uid: ChiaWalletSdk.BlockRecord.SetRequiredIters(System.String)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetRequiredIters(System.String)
+  id: SetRequiredIters(System.String)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetRequiredIters(string)
+  nameWithType: BlockRecord.SetRequiredIters(string)
+  fullName: ChiaWalletSdk.BlockRecord.SetRequiredIters(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetRequiredIters(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetRequiredIters(value As String) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetRequiredIters*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetRequiredIters(System.String)
+  nameWithType.vb: BlockRecord.SetRequiredIters(String)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetRequiredIters(String)
+  name.vb: SetRequiredIters(String)
+- uid: ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  commentId: M:ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  id: SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetRewardClaimsIncorporated(List<Coin>?)
+  nameWithType: BlockRecord.SetRewardClaimsIncorporated(List<Coin>?)
+  fullName: ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List<ChiaWalletSdk.Coin>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetRewardClaimsIncorporated(List<Coin>? value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{ChiaWalletSdk.Coin}
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetRewardClaimsIncorporated(value As List(Of Coin)) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  nameWithType.vb: BlockRecord.SetRewardClaimsIncorporated(List(Of Coin))
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List(Of ChiaWalletSdk.Coin))
+  name.vb: SetRewardClaimsIncorporated(List(Of Coin))
+- uid: ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+  id: SetRewardInfusionNewChallenge(System.Byte[])
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetRewardInfusionNewChallenge(byte[])
+  nameWithType: BlockRecord.SetRewardInfusionNewChallenge(byte[])
+  fullName: ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetRewardInfusionNewChallenge(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetRewardInfusionNewChallenge(value As Byte()) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+  nameWithType.vb: BlockRecord.SetRewardInfusionNewChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge(Byte())
+  name.vb: SetRewardInfusionNewChallenge(Byte())
+- uid: ChiaWalletSdk.BlockRecord.SetSignagePointIndex(System.Byte)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetSignagePointIndex(System.Byte)
+  id: SetSignagePointIndex(System.Byte)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetSignagePointIndex(byte)
+  nameWithType: BlockRecord.SetSignagePointIndex(byte)
+  fullName: ChiaWalletSdk.BlockRecord.SetSignagePointIndex(byte)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetSignagePointIndex(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetSignagePointIndex(value As Byte) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetSignagePointIndex*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(System.Byte)
+  nameWithType.vb: BlockRecord.SetSignagePointIndex(Byte)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetSignagePointIndex(Byte)
+  name.vb: SetSignagePointIndex(Byte)
+- uid: ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  id: SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetSubEpochSummaryIncluded(SubEpochSummary?)
+  nameWithType: BlockRecord.SetSubEpochSummaryIncluded(SubEpochSummary?)
+  fullName: ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetSubEpochSummaryIncluded(SubEpochSummary? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.SubEpochSummary
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetSubEpochSummaryIncluded(value As SubEpochSummary) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  nameWithType.vb: BlockRecord.SetSubEpochSummaryIncluded(SubEpochSummary)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  name.vb: SetSubEpochSummaryIncluded(SubEpochSummary)
+- uid: ChiaWalletSdk.BlockRecord.SetSubSlotIters(System.String)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetSubSlotIters(System.String)
+  id: SetSubSlotIters(System.String)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetSubSlotIters(string)
+  nameWithType: BlockRecord.SetSubSlotIters(string)
+  fullName: ChiaWalletSdk.BlockRecord.SetSubSlotIters(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetSubSlotIters(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetSubSlotIters(value As String) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetSubSlotIters*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetSubSlotIters(System.String)
+  nameWithType.vb: BlockRecord.SetSubSlotIters(String)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetSubSlotIters(String)
+  name.vb: SetSubSlotIters(String)
+- uid: ChiaWalletSdk.BlockRecord.SetTimestamp(System.String)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetTimestamp(System.String)
+  id: SetTimestamp(System.String)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetTimestamp(string?)
+  nameWithType: BlockRecord.SetTimestamp(string?)
+  fullName: ChiaWalletSdk.BlockRecord.SetTimestamp(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetTimestamp(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetTimestamp(value As String) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetTimestamp*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetTimestamp(System.String)
+  nameWithType.vb: BlockRecord.SetTimestamp(String)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetTimestamp(String)
+  name.vb: SetTimestamp(String)
+- uid: ChiaWalletSdk.BlockRecord.SetTotalIters(System.String)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetTotalIters(System.String)
+  id: SetTotalIters(System.String)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetTotalIters(string)
+  nameWithType: BlockRecord.SetTotalIters(string)
+  fullName: ChiaWalletSdk.BlockRecord.SetTotalIters(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetTotalIters(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetTotalIters(value As String) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetTotalIters*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetTotalIters(System.String)
+  nameWithType.vb: BlockRecord.SetTotalIters(String)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetTotalIters(String)
+  name.vb: SetTotalIters(String)
+- uid: ChiaWalletSdk.BlockRecord.SetWeight(System.String)
+  commentId: M:ChiaWalletSdk.BlockRecord.SetWeight(System.String)
+  id: SetWeight(System.String)
+  parent: ChiaWalletSdk.BlockRecord
+  langs:
+  - csharp
+  - vb
+  name: SetWeight(string)
+  nameWithType: BlockRecord.SetWeight(string)
+  fullName: ChiaWalletSdk.BlockRecord.SetWeight(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public BlockRecord SetWeight(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.BlockRecord
+    content.vb: Public Function SetWeight(value As String) As BlockRecord
+  overload: ChiaWalletSdk.BlockRecord.SetWeight*
+  implements:
+  - ChiaWalletSdk.IBlockRecord.SetWeight(System.String)
+  nameWithType.vb: BlockRecord.SetWeight(String)
+  fullName.vb: ChiaWalletSdk.BlockRecord.SetWeight(String)
+  name.vb: SetWeight(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IBlockRecord
+  commentId: T:ChiaWalletSdk.IBlockRecord
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html
+  name: IBlockRecord
+  nameWithType: IBlockRecord
+  fullName: ChiaWalletSdk.IBlockRecord
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.BlockRecord.#ctor*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord__ctor_System_IntPtr_
+  name: BlockRecord
+  nameWithType: BlockRecord.BlockRecord
+  fullName: ChiaWalletSdk.BlockRecord.BlockRecord
+  nameWithType.vb: BlockRecord.New
+  fullName.vb: ChiaWalletSdk.BlockRecord.New
+  name.vb: New
+- uid: ChiaWalletSdk.BlockRecord.Finalize*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_Finalize
+  name: ~BlockRecord
+  nameWithType: BlockRecord.~BlockRecord
+  fullName: ChiaWalletSdk.BlockRecord.~BlockRecord
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.BlockRecord.Finalize*
+    name: BlockRecord
+    isExternal: true
+    href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_Finalize
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.List{ChiaWalletSdk.Coin}
+  commentId: T:System.Collections.Generic.List{ChiaWalletSdk.Coin}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: ChiaWalletSdk.Coin.html
+  name: List<Coin>
+  nameWithType: List<Coin>
+  fullName: System.Collections.Generic.List<ChiaWalletSdk.Coin>
+  nameWithType.vb: List(Of Coin)
+  fullName.vb: System.Collections.Generic.List(Of ChiaWalletSdk.Coin)
+  name.vb: List(Of Coin)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.SubEpochSummary
+  commentId: T:ChiaWalletSdk.SubEpochSummary
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SubEpochSummary.html
+  name: SubEpochSummary
+  nameWithType: SubEpochSummary
+  fullName: ChiaWalletSdk.SubEpochSummary
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.BlockRecord.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: BlockRecord.FreeRustArcPtr
+  fullName: ChiaWalletSdk.BlockRecord.FreeRustArcPtr
+- uid: ChiaWalletSdk.BlockRecord.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: BlockRecord.CloneRustArcPtr
+  fullName: ChiaWalletSdk.BlockRecord.CloneRustArcPtr
+- uid: ChiaWalletSdk.BlockRecord.Destroy*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_Destroy
+  name: Destroy
+  nameWithType: BlockRecord.Destroy
+  fullName: ChiaWalletSdk.BlockRecord.Destroy
+- uid: ChiaWalletSdk.BlockRecord.Dispose*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_Dispose
+  name: Dispose
+  nameWithType: BlockRecord.Dispose
+  fullName: ChiaWalletSdk.BlockRecord.Dispose
+- uid: ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetChallengeBlockInfoHash
+  name: GetChallengeBlockInfoHash
+  nameWithType: BlockRecord.GetChallengeBlockInfoHash
+  fullName: ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash
+- uid: ChiaWalletSdk.IBlockRecord.GetChallengeBlockInfoHash
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetChallengeBlockInfoHash
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetChallengeBlockInfoHash
+  name: GetChallengeBlockInfoHash()
+  nameWithType: IBlockRecord.GetChallengeBlockInfoHash()
+  fullName: ChiaWalletSdk.IBlockRecord.GetChallengeBlockInfoHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetChallengeBlockInfoHash
+    name: GetChallengeBlockInfoHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetChallengeBlockInfoHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetChallengeBlockInfoHash
+    name: GetChallengeBlockInfoHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetChallengeBlockInfoHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetChallengeVdfOutput
+  name: GetChallengeVdfOutput
+  nameWithType: BlockRecord.GetChallengeVdfOutput
+  fullName: ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput
+- uid: ChiaWalletSdk.IBlockRecord.GetChallengeVdfOutput
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetChallengeVdfOutput
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetChallengeVdfOutput
+  name: GetChallengeVdfOutput()
+  nameWithType: IBlockRecord.GetChallengeVdfOutput()
+  fullName: ChiaWalletSdk.IBlockRecord.GetChallengeVdfOutput()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetChallengeVdfOutput
+    name: GetChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetChallengeVdfOutput
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetChallengeVdfOutput
+    name: GetChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetChallengeVdfOutput
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetDeficit*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetDeficit
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetDeficit
+  name: GetDeficit
+  nameWithType: BlockRecord.GetDeficit
+  fullName: ChiaWalletSdk.BlockRecord.GetDeficit
+- uid: ChiaWalletSdk.IBlockRecord.GetDeficit
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetDeficit
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetDeficit
+  name: GetDeficit()
+  nameWithType: IBlockRecord.GetDeficit()
+  fullName: ChiaWalletSdk.IBlockRecord.GetDeficit()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetDeficit
+    name: GetDeficit
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetDeficit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetDeficit
+    name: GetDeficit
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetDeficit
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetFarmerPuzzleHash
+  name: GetFarmerPuzzleHash
+  nameWithType: BlockRecord.GetFarmerPuzzleHash
+  fullName: ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash
+- uid: ChiaWalletSdk.IBlockRecord.GetFarmerPuzzleHash
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetFarmerPuzzleHash
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFarmerPuzzleHash
+  name: GetFarmerPuzzleHash()
+  nameWithType: IBlockRecord.GetFarmerPuzzleHash()
+  fullName: ChiaWalletSdk.IBlockRecord.GetFarmerPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFarmerPuzzleHash
+    name: GetFarmerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFarmerPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFarmerPuzzleHash
+    name: GetFarmerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFarmerPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetFees*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetFees
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetFees
+  name: GetFees
+  nameWithType: BlockRecord.GetFees
+  fullName: ChiaWalletSdk.BlockRecord.GetFees
+- uid: ChiaWalletSdk.IBlockRecord.GetFees
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetFees
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFees
+  name: GetFees()
+  nameWithType: IBlockRecord.GetFees()
+  fullName: ChiaWalletSdk.IBlockRecord.GetFees()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFees
+    name: GetFees
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFees
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFees
+    name: GetFees
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFees
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetFinishedChallengeSlotHashes
+  name: GetFinishedChallengeSlotHashes
+  nameWithType: BlockRecord.GetFinishedChallengeSlotHashes
+  fullName: ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes
+- uid: ChiaWalletSdk.IBlockRecord.GetFinishedChallengeSlotHashes
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetFinishedChallengeSlotHashes
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedChallengeSlotHashes
+  name: GetFinishedChallengeSlotHashes()
+  nameWithType: IBlockRecord.GetFinishedChallengeSlotHashes()
+  fullName: ChiaWalletSdk.IBlockRecord.GetFinishedChallengeSlotHashes()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFinishedChallengeSlotHashes
+    name: GetFinishedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedChallengeSlotHashes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFinishedChallengeSlotHashes
+    name: GetFinishedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedChallengeSlotHashes
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetFinishedInfusedChallengeSlotHashes
+  name: GetFinishedInfusedChallengeSlotHashes
+  nameWithType: BlockRecord.GetFinishedInfusedChallengeSlotHashes
+  fullName: ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes
+- uid: ChiaWalletSdk.IBlockRecord.GetFinishedInfusedChallengeSlotHashes
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetFinishedInfusedChallengeSlotHashes
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedInfusedChallengeSlotHashes
+  name: GetFinishedInfusedChallengeSlotHashes()
+  nameWithType: IBlockRecord.GetFinishedInfusedChallengeSlotHashes()
+  fullName: ChiaWalletSdk.IBlockRecord.GetFinishedInfusedChallengeSlotHashes()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFinishedInfusedChallengeSlotHashes
+    name: GetFinishedInfusedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedInfusedChallengeSlotHashes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFinishedInfusedChallengeSlotHashes
+    name: GetFinishedInfusedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedInfusedChallengeSlotHashes
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetFinishedRewardSlotHashes
+  name: GetFinishedRewardSlotHashes
+  nameWithType: BlockRecord.GetFinishedRewardSlotHashes
+  fullName: ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes
+- uid: ChiaWalletSdk.IBlockRecord.GetFinishedRewardSlotHashes
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetFinishedRewardSlotHashes
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedRewardSlotHashes
+  name: GetFinishedRewardSlotHashes()
+  nameWithType: IBlockRecord.GetFinishedRewardSlotHashes()
+  fullName: ChiaWalletSdk.IBlockRecord.GetFinishedRewardSlotHashes()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFinishedRewardSlotHashes
+    name: GetFinishedRewardSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedRewardSlotHashes
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetFinishedRewardSlotHashes
+    name: GetFinishedRewardSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetFinishedRewardSlotHashes
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetHeaderHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetHeaderHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetHeaderHash
+  name: GetHeaderHash
+  nameWithType: BlockRecord.GetHeaderHash
+  fullName: ChiaWalletSdk.BlockRecord.GetHeaderHash
+- uid: ChiaWalletSdk.IBlockRecord.GetHeaderHash
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetHeaderHash
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetHeaderHash
+  name: GetHeaderHash()
+  nameWithType: IBlockRecord.GetHeaderHash()
+  fullName: ChiaWalletSdk.IBlockRecord.GetHeaderHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetHeaderHash
+    name: GetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetHeaderHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetHeaderHash
+    name: GetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetHeaderHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetHeight*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetHeight
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetHeight
+  name: GetHeight
+  nameWithType: BlockRecord.GetHeight
+  fullName: ChiaWalletSdk.BlockRecord.GetHeight
+- uid: ChiaWalletSdk.IBlockRecord.GetHeight
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetHeight
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetHeight
+  name: GetHeight()
+  nameWithType: IBlockRecord.GetHeight()
+  fullName: ChiaWalletSdk.IBlockRecord.GetHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetHeight
+    name: GetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetInfusedChallengeVdfOutput
+  name: GetInfusedChallengeVdfOutput
+  nameWithType: BlockRecord.GetInfusedChallengeVdfOutput
+  fullName: ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput
+- uid: ChiaWalletSdk.IBlockRecord.GetInfusedChallengeVdfOutput
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetInfusedChallengeVdfOutput
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetInfusedChallengeVdfOutput
+  name: GetInfusedChallengeVdfOutput()
+  nameWithType: IBlockRecord.GetInfusedChallengeVdfOutput()
+  fullName: ChiaWalletSdk.IBlockRecord.GetInfusedChallengeVdfOutput()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetInfusedChallengeVdfOutput
+    name: GetInfusedChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetInfusedChallengeVdfOutput
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetInfusedChallengeVdfOutput
+    name: GetInfusedChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetInfusedChallengeVdfOutput
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetOverflow*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetOverflow
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetOverflow
+  name: GetOverflow
+  nameWithType: BlockRecord.GetOverflow
+  fullName: ChiaWalletSdk.BlockRecord.GetOverflow
+- uid: ChiaWalletSdk.IBlockRecord.GetOverflow
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetOverflow
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetOverflow
+  name: GetOverflow()
+  nameWithType: IBlockRecord.GetOverflow()
+  fullName: ChiaWalletSdk.IBlockRecord.GetOverflow()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetOverflow
+    name: GetOverflow
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetOverflow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetOverflow
+    name: GetOverflow
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetOverflow
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetPoolPuzzleHash
+  name: GetPoolPuzzleHash
+  nameWithType: BlockRecord.GetPoolPuzzleHash
+  fullName: ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash
+- uid: ChiaWalletSdk.IBlockRecord.GetPoolPuzzleHash
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetPoolPuzzleHash
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPoolPuzzleHash
+  name: GetPoolPuzzleHash()
+  nameWithType: IBlockRecord.GetPoolPuzzleHash()
+  fullName: ChiaWalletSdk.IBlockRecord.GetPoolPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPoolPuzzleHash
+    name: GetPoolPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPoolPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPoolPuzzleHash
+    name: GetPoolPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPoolPuzzleHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetPrevHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetPrevHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetPrevHash
+  name: GetPrevHash
+  nameWithType: BlockRecord.GetPrevHash
+  fullName: ChiaWalletSdk.BlockRecord.GetPrevHash
+- uid: ChiaWalletSdk.IBlockRecord.GetPrevHash
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetPrevHash
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevHash
+  name: GetPrevHash()
+  nameWithType: IBlockRecord.GetPrevHash()
+  fullName: ChiaWalletSdk.IBlockRecord.GetPrevHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPrevHash
+    name: GetPrevHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPrevHash
+    name: GetPrevHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetPrevTransactionBlockHash
+  name: GetPrevTransactionBlockHash
+  nameWithType: BlockRecord.GetPrevTransactionBlockHash
+  fullName: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash
+- uid: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHash
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHash
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevTransactionBlockHash
+  name: GetPrevTransactionBlockHash()
+  nameWithType: IBlockRecord.GetPrevTransactionBlockHash()
+  fullName: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHash
+    name: GetPrevTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevTransactionBlockHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHash
+    name: GetPrevTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevTransactionBlockHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetPrevTransactionBlockHeight
+  name: GetPrevTransactionBlockHeight
+  nameWithType: BlockRecord.GetPrevTransactionBlockHeight
+  fullName: ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight
+- uid: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHeight
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHeight
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevTransactionBlockHeight
+  name: GetPrevTransactionBlockHeight()
+  nameWithType: IBlockRecord.GetPrevTransactionBlockHeight()
+  fullName: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHeight
+    name: GetPrevTransactionBlockHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevTransactionBlockHeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetPrevTransactionBlockHeight
+    name: GetPrevTransactionBlockHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetPrevTransactionBlockHeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetRequiredIters*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetRequiredIters
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetRequiredIters
+  name: GetRequiredIters
+  nameWithType: BlockRecord.GetRequiredIters
+  fullName: ChiaWalletSdk.BlockRecord.GetRequiredIters
+- uid: ChiaWalletSdk.IBlockRecord.GetRequiredIters
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetRequiredIters
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRequiredIters
+  name: GetRequiredIters()
+  nameWithType: IBlockRecord.GetRequiredIters()
+  fullName: ChiaWalletSdk.IBlockRecord.GetRequiredIters()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetRequiredIters
+    name: GetRequiredIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRequiredIters
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetRequiredIters
+    name: GetRequiredIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRequiredIters
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetRewardClaimsIncorporated
+  name: GetRewardClaimsIncorporated
+  nameWithType: BlockRecord.GetRewardClaimsIncorporated
+  fullName: ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated
+- uid: ChiaWalletSdk.IBlockRecord.GetRewardClaimsIncorporated
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetRewardClaimsIncorporated
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRewardClaimsIncorporated
+  name: GetRewardClaimsIncorporated()
+  nameWithType: IBlockRecord.GetRewardClaimsIncorporated()
+  fullName: ChiaWalletSdk.IBlockRecord.GetRewardClaimsIncorporated()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetRewardClaimsIncorporated
+    name: GetRewardClaimsIncorporated
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRewardClaimsIncorporated
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetRewardClaimsIncorporated
+    name: GetRewardClaimsIncorporated
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRewardClaimsIncorporated
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetRewardInfusionNewChallenge
+  name: GetRewardInfusionNewChallenge
+  nameWithType: BlockRecord.GetRewardInfusionNewChallenge
+  fullName: ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge
+- uid: ChiaWalletSdk.IBlockRecord.GetRewardInfusionNewChallenge
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetRewardInfusionNewChallenge
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRewardInfusionNewChallenge
+  name: GetRewardInfusionNewChallenge()
+  nameWithType: IBlockRecord.GetRewardInfusionNewChallenge()
+  fullName: ChiaWalletSdk.IBlockRecord.GetRewardInfusionNewChallenge()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetRewardInfusionNewChallenge
+    name: GetRewardInfusionNewChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRewardInfusionNewChallenge
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetRewardInfusionNewChallenge
+    name: GetRewardInfusionNewChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetRewardInfusionNewChallenge
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetSignagePointIndex*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetSignagePointIndex
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetSignagePointIndex
+  name: GetSignagePointIndex
+  nameWithType: BlockRecord.GetSignagePointIndex
+  fullName: ChiaWalletSdk.BlockRecord.GetSignagePointIndex
+- uid: ChiaWalletSdk.IBlockRecord.GetSignagePointIndex
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetSignagePointIndex
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSignagePointIndex
+  name: GetSignagePointIndex()
+  nameWithType: IBlockRecord.GetSignagePointIndex()
+  fullName: ChiaWalletSdk.IBlockRecord.GetSignagePointIndex()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetSignagePointIndex
+    name: GetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSignagePointIndex
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetSignagePointIndex
+    name: GetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSignagePointIndex
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetSubEpochSummaryIncluded
+  name: GetSubEpochSummaryIncluded
+  nameWithType: BlockRecord.GetSubEpochSummaryIncluded
+  fullName: ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded
+- uid: ChiaWalletSdk.IBlockRecord.GetSubEpochSummaryIncluded
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetSubEpochSummaryIncluded
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSubEpochSummaryIncluded
+  name: GetSubEpochSummaryIncluded()
+  nameWithType: IBlockRecord.GetSubEpochSummaryIncluded()
+  fullName: ChiaWalletSdk.IBlockRecord.GetSubEpochSummaryIncluded()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetSubEpochSummaryIncluded
+    name: GetSubEpochSummaryIncluded
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSubEpochSummaryIncluded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetSubEpochSummaryIncluded
+    name: GetSubEpochSummaryIncluded
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSubEpochSummaryIncluded
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetSubSlotIters*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetSubSlotIters
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetSubSlotIters
+  name: GetSubSlotIters
+  nameWithType: BlockRecord.GetSubSlotIters
+  fullName: ChiaWalletSdk.BlockRecord.GetSubSlotIters
+- uid: ChiaWalletSdk.IBlockRecord.GetSubSlotIters
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetSubSlotIters
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSubSlotIters
+  name: GetSubSlotIters()
+  nameWithType: IBlockRecord.GetSubSlotIters()
+  fullName: ChiaWalletSdk.IBlockRecord.GetSubSlotIters()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetSubSlotIters
+    name: GetSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSubSlotIters
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetSubSlotIters
+    name: GetSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetSubSlotIters
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetTimestamp*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetTimestamp
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetTimestamp
+  name: GetTimestamp
+  nameWithType: BlockRecord.GetTimestamp
+  fullName: ChiaWalletSdk.BlockRecord.GetTimestamp
+- uid: ChiaWalletSdk.IBlockRecord.GetTimestamp
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetTimestamp
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetTimestamp
+  name: GetTimestamp()
+  nameWithType: IBlockRecord.GetTimestamp()
+  fullName: ChiaWalletSdk.IBlockRecord.GetTimestamp()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetTimestamp
+    name: GetTimestamp
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetTimestamp
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetTimestamp
+    name: GetTimestamp
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetTimestamp
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetTotalIters*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetTotalIters
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetTotalIters
+  name: GetTotalIters
+  nameWithType: BlockRecord.GetTotalIters
+  fullName: ChiaWalletSdk.BlockRecord.GetTotalIters
+- uid: ChiaWalletSdk.IBlockRecord.GetTotalIters
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetTotalIters
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetTotalIters
+  name: GetTotalIters()
+  nameWithType: IBlockRecord.GetTotalIters()
+  fullName: ChiaWalletSdk.IBlockRecord.GetTotalIters()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetTotalIters
+    name: GetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetTotalIters
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetTotalIters
+    name: GetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetTotalIters
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.GetWeight*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.GetWeight
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_GetWeight
+  name: GetWeight
+  nameWithType: BlockRecord.GetWeight
+  fullName: ChiaWalletSdk.BlockRecord.GetWeight
+- uid: ChiaWalletSdk.IBlockRecord.GetWeight
+  commentId: M:ChiaWalletSdk.IBlockRecord.GetWeight
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetWeight
+  name: GetWeight()
+  nameWithType: IBlockRecord.GetWeight()
+  fullName: ChiaWalletSdk.IBlockRecord.GetWeight()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.GetWeight
+    name: GetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetWeight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.GetWeight
+    name: GetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_GetWeight
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetChallengeBlockInfoHash_System_Byte___
+  name: SetChallengeBlockInfoHash
+  nameWithType: BlockRecord.SetChallengeBlockInfoHash
+  fullName: ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash
+- uid: ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetChallengeBlockInfoHash_System_Byte___
+  name: SetChallengeBlockInfoHash(byte[])
+  nameWithType: IBlockRecord.SetChallengeBlockInfoHash(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(byte[])
+  nameWithType.vb: IBlockRecord.SetChallengeBlockInfoHash(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(Byte())
+  name.vb: SetChallengeBlockInfoHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+    name: SetChallengeBlockInfoHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetChallengeBlockInfoHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetChallengeBlockInfoHash(System.Byte[])
+    name: SetChallengeBlockInfoHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetChallengeBlockInfoHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord
+  commentId: T:ChiaWalletSdk.BlockRecord
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html
+  name: BlockRecord
+  nameWithType: BlockRecord
+  fullName: ChiaWalletSdk.BlockRecord
+- uid: ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetChallengeVdfOutput_System_Byte___
+  name: SetChallengeVdfOutput
+  nameWithType: BlockRecord.SetChallengeVdfOutput
+  fullName: ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput
+- uid: ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetChallengeVdfOutput_System_Byte___
+  name: SetChallengeVdfOutput(byte[])
+  nameWithType: IBlockRecord.SetChallengeVdfOutput(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(byte[])
+  nameWithType.vb: IBlockRecord.SetChallengeVdfOutput(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(Byte())
+  name.vb: SetChallengeVdfOutput(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(System.Byte[])
+    name: SetChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetChallengeVdfOutput_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetChallengeVdfOutput(System.Byte[])
+    name: SetChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetChallengeVdfOutput_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetDeficit*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetDeficit
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetDeficit_System_Byte_
+  name: SetDeficit
+  nameWithType: BlockRecord.SetDeficit
+  fullName: ChiaWalletSdk.BlockRecord.SetDeficit
+- uid: ChiaWalletSdk.IBlockRecord.SetDeficit(System.Byte)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetDeficit(System.Byte)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetDeficit_System_Byte_
+  name: SetDeficit(byte)
+  nameWithType: IBlockRecord.SetDeficit(byte)
+  fullName: ChiaWalletSdk.IBlockRecord.SetDeficit(byte)
+  nameWithType.vb: IBlockRecord.SetDeficit(Byte)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetDeficit(Byte)
+  name.vb: SetDeficit(Byte)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetDeficit(System.Byte)
+    name: SetDeficit
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetDeficit_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetDeficit(System.Byte)
+    name: SetDeficit
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetDeficit_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetFarmerPuzzleHash_System_Byte___
+  name: SetFarmerPuzzleHash
+  nameWithType: BlockRecord.SetFarmerPuzzleHash
+  fullName: ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash
+- uid: ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFarmerPuzzleHash_System_Byte___
+  name: SetFarmerPuzzleHash(byte[])
+  nameWithType: IBlockRecord.SetFarmerPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(byte[])
+  nameWithType.vb: IBlockRecord.SetFarmerPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(Byte())
+  name.vb: SetFarmerPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(System.Byte[])
+    name: SetFarmerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFarmerPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFarmerPuzzleHash(System.Byte[])
+    name: SetFarmerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFarmerPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetFees*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetFees
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetFees_System_String_
+  name: SetFees
+  nameWithType: BlockRecord.SetFees
+  fullName: ChiaWalletSdk.BlockRecord.SetFees
+- uid: ChiaWalletSdk.IBlockRecord.SetFees(System.String)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetFees(System.String)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFees_System_String_
+  name: SetFees(string)
+  nameWithType: IBlockRecord.SetFees(string)
+  fullName: ChiaWalletSdk.IBlockRecord.SetFees(string)
+  nameWithType.vb: IBlockRecord.SetFees(String)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetFees(String)
+  name.vb: SetFees(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFees(System.String)
+    name: SetFees
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFees_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFees(System.String)
+    name: SetFees
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFees_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetFinishedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  name: SetFinishedChallengeSlotHashes
+  nameWithType: BlockRecord.SetFinishedChallengeSlotHashes
+  fullName: ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes
+- uid: ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  name: SetFinishedChallengeSlotHashes(List<byte[]>)
+  nameWithType: IBlockRecord.SetFinishedChallengeSlotHashes(List<byte[]>)
+  fullName: ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List<byte[]>)
+  nameWithType.vb: IBlockRecord.SetFinishedChallengeSlotHashes(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetFinishedChallengeSlotHashes(List(Of Byte()))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+    name: SetFinishedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+    name: SetFinishedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetFinishedInfusedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  name: SetFinishedInfusedChallengeSlotHashes
+  nameWithType: BlockRecord.SetFinishedInfusedChallengeSlotHashes
+  fullName: ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes
+- uid: ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedInfusedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  name: SetFinishedInfusedChallengeSlotHashes(List<byte[]>)
+  nameWithType: IBlockRecord.SetFinishedInfusedChallengeSlotHashes(List<byte[]>)
+  fullName: ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List<byte[]>)
+  nameWithType.vb: IBlockRecord.SetFinishedInfusedChallengeSlotHashes(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetFinishedInfusedChallengeSlotHashes(List(Of Byte()))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+    name: SetFinishedInfusedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedInfusedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})
+    name: SetFinishedInfusedChallengeSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedInfusedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetFinishedRewardSlotHashes_System_Collections_Generic_List_System_Byte____
+  name: SetFinishedRewardSlotHashes
+  nameWithType: BlockRecord.SetFinishedRewardSlotHashes
+  fullName: ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes
+- uid: ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedRewardSlotHashes_System_Collections_Generic_List_System_Byte____
+  name: SetFinishedRewardSlotHashes(List<byte[]>)
+  nameWithType: IBlockRecord.SetFinishedRewardSlotHashes(List<byte[]>)
+  fullName: ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List<byte[]>)
+  nameWithType.vb: IBlockRecord.SetFinishedRewardSlotHashes(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List(Of Byte()))
+  name.vb: SetFinishedRewardSlotHashes(List(Of Byte()))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+    name: SetFinishedRewardSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedRewardSlotHashes_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})
+    name: SetFinishedRewardSlotHashes
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetFinishedRewardSlotHashes_System_Collections_Generic_List_System_Byte____
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetHeaderHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetHeaderHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetHeaderHash_System_Byte___
+  name: SetHeaderHash
+  nameWithType: BlockRecord.SetHeaderHash
+  fullName: ChiaWalletSdk.BlockRecord.SetHeaderHash
+- uid: ChiaWalletSdk.IBlockRecord.SetHeaderHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetHeaderHash(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetHeaderHash_System_Byte___
+  name: SetHeaderHash(byte[])
+  nameWithType: IBlockRecord.SetHeaderHash(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetHeaderHash(byte[])
+  nameWithType.vb: IBlockRecord.SetHeaderHash(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetHeaderHash(Byte())
+  name.vb: SetHeaderHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetHeaderHash(System.Byte[])
+    name: SetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetHeaderHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetHeaderHash(System.Byte[])
+    name: SetHeaderHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetHeaderHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetHeight*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetHeight
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetHeight_System_UInt32_
+  name: SetHeight
+  nameWithType: BlockRecord.SetHeight
+  fullName: ChiaWalletSdk.BlockRecord.SetHeight
+- uid: ChiaWalletSdk.IBlockRecord.SetHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetHeight(System.UInt32)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetHeight_System_UInt32_
+  name: SetHeight(uint)
+  nameWithType: IBlockRecord.SetHeight(uint)
+  fullName: ChiaWalletSdk.IBlockRecord.SetHeight(uint)
+  nameWithType.vb: IBlockRecord.SetHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetHeight(UInteger)
+  name.vb: SetHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetHeight(System.UInt32)
+    name: SetHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetInfusedChallengeVdfOutput_System_Byte___
+  name: SetInfusedChallengeVdfOutput
+  nameWithType: BlockRecord.SetInfusedChallengeVdfOutput
+  fullName: ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput
+- uid: ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetInfusedChallengeVdfOutput_System_Byte___
+  name: SetInfusedChallengeVdfOutput(byte[])
+  nameWithType: IBlockRecord.SetInfusedChallengeVdfOutput(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(byte[])
+  nameWithType.vb: IBlockRecord.SetInfusedChallengeVdfOutput(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(Byte())
+  name.vb: SetInfusedChallengeVdfOutput(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+    name: SetInfusedChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetInfusedChallengeVdfOutput_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])
+    name: SetInfusedChallengeVdfOutput
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetInfusedChallengeVdfOutput_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetOverflow*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetOverflow
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetOverflow_System_Boolean_
+  name: SetOverflow
+  nameWithType: BlockRecord.SetOverflow
+  fullName: ChiaWalletSdk.BlockRecord.SetOverflow
+- uid: ChiaWalletSdk.IBlockRecord.SetOverflow(System.Boolean)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetOverflow(System.Boolean)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetOverflow_System_Boolean_
+  name: SetOverflow(bool)
+  nameWithType: IBlockRecord.SetOverflow(bool)
+  fullName: ChiaWalletSdk.IBlockRecord.SetOverflow(bool)
+  nameWithType.vb: IBlockRecord.SetOverflow(Boolean)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetOverflow(Boolean)
+  name.vb: SetOverflow(Boolean)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetOverflow(System.Boolean)
+    name: SetOverflow
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetOverflow_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetOverflow(System.Boolean)
+    name: SetOverflow
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetOverflow_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetPoolPuzzleHash_System_Byte___
+  name: SetPoolPuzzleHash
+  nameWithType: BlockRecord.SetPoolPuzzleHash
+  fullName: ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash
+- uid: ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPoolPuzzleHash_System_Byte___
+  name: SetPoolPuzzleHash(byte[])
+  nameWithType: IBlockRecord.SetPoolPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(byte[])
+  nameWithType.vb: IBlockRecord.SetPoolPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(Byte())
+  name.vb: SetPoolPuzzleHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(System.Byte[])
+    name: SetPoolPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPoolPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPoolPuzzleHash(System.Byte[])
+    name: SetPoolPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPoolPuzzleHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetPrevHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetPrevHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetPrevHash_System_Byte___
+  name: SetPrevHash
+  nameWithType: BlockRecord.SetPrevHash
+  fullName: ChiaWalletSdk.BlockRecord.SetPrevHash
+- uid: ChiaWalletSdk.IBlockRecord.SetPrevHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetPrevHash(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevHash_System_Byte___
+  name: SetPrevHash(byte[])
+  nameWithType: IBlockRecord.SetPrevHash(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetPrevHash(byte[])
+  nameWithType.vb: IBlockRecord.SetPrevHash(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetPrevHash(Byte())
+  name.vb: SetPrevHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPrevHash(System.Byte[])
+    name: SetPrevHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPrevHash(System.Byte[])
+    name: SetPrevHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetPrevTransactionBlockHash_System_Byte___
+  name: SetPrevTransactionBlockHash
+  nameWithType: BlockRecord.SetPrevTransactionBlockHash
+  fullName: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash
+- uid: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevTransactionBlockHash_System_Byte___
+  name: SetPrevTransactionBlockHash(byte[])
+  nameWithType: IBlockRecord.SetPrevTransactionBlockHash(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(byte[])
+  nameWithType.vb: IBlockRecord.SetPrevTransactionBlockHash(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(Byte())
+  name.vb: SetPrevTransactionBlockHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+    name: SetPrevTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevTransactionBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHash(System.Byte[])
+    name: SetPrevTransactionBlockHash
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevTransactionBlockHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetPrevTransactionBlockHeight_System_UInt32_
+  name: SetPrevTransactionBlockHeight
+  nameWithType: BlockRecord.SetPrevTransactionBlockHeight
+  fullName: ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight
+- uid: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevTransactionBlockHeight_System_UInt32_
+  name: SetPrevTransactionBlockHeight(uint)
+  nameWithType: IBlockRecord.SetPrevTransactionBlockHeight(uint)
+  fullName: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(uint)
+  nameWithType.vb: IBlockRecord.SetPrevTransactionBlockHeight(UInteger)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(UInteger)
+  name.vb: SetPrevTransactionBlockHeight(UInteger)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+    name: SetPrevTransactionBlockHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevTransactionBlockHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetPrevTransactionBlockHeight(System.UInt32)
+    name: SetPrevTransactionBlockHeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetPrevTransactionBlockHeight_System_UInt32_
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetRequiredIters*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetRequiredIters
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetRequiredIters_System_String_
+  name: SetRequiredIters
+  nameWithType: BlockRecord.SetRequiredIters
+  fullName: ChiaWalletSdk.BlockRecord.SetRequiredIters
+- uid: ChiaWalletSdk.IBlockRecord.SetRequiredIters(System.String)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetRequiredIters(System.String)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRequiredIters_System_String_
+  name: SetRequiredIters(string)
+  nameWithType: IBlockRecord.SetRequiredIters(string)
+  fullName: ChiaWalletSdk.IBlockRecord.SetRequiredIters(string)
+  nameWithType.vb: IBlockRecord.SetRequiredIters(String)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetRequiredIters(String)
+  name.vb: SetRequiredIters(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetRequiredIters(System.String)
+    name: SetRequiredIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRequiredIters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetRequiredIters(System.String)
+    name: SetRequiredIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRequiredIters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetRewardClaimsIncorporated_System_Collections_Generic_List_ChiaWalletSdk_Coin__
+  name: SetRewardClaimsIncorporated
+  nameWithType: BlockRecord.SetRewardClaimsIncorporated
+  fullName: ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated
+- uid: ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRewardClaimsIncorporated_System_Collections_Generic_List_ChiaWalletSdk_Coin__
+  name: SetRewardClaimsIncorporated(List<Coin>)
+  nameWithType: IBlockRecord.SetRewardClaimsIncorporated(List<Coin>)
+  fullName: ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List<ChiaWalletSdk.Coin>)
+  nameWithType.vb: IBlockRecord.SetRewardClaimsIncorporated(List(Of Coin))
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List(Of ChiaWalletSdk.Coin))
+  name.vb: SetRewardClaimsIncorporated(List(Of Coin))
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+    name: SetRewardClaimsIncorporated
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRewardClaimsIncorporated_System_Collections_Generic_List_ChiaWalletSdk_Coin__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})
+    name: SetRewardClaimsIncorporated
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRewardClaimsIncorporated_System_Collections_Generic_List_ChiaWalletSdk_Coin__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetRewardInfusionNewChallenge_System_Byte___
+  name: SetRewardInfusionNewChallenge
+  nameWithType: BlockRecord.SetRewardInfusionNewChallenge
+  fullName: ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge
+- uid: ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRewardInfusionNewChallenge_System_Byte___
+  name: SetRewardInfusionNewChallenge(byte[])
+  nameWithType: IBlockRecord.SetRewardInfusionNewChallenge(byte[])
+  fullName: ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(byte[])
+  nameWithType.vb: IBlockRecord.SetRewardInfusionNewChallenge(Byte())
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(Byte())
+  name.vb: SetRewardInfusionNewChallenge(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+    name: SetRewardInfusionNewChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRewardInfusionNewChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetRewardInfusionNewChallenge(System.Byte[])
+    name: SetRewardInfusionNewChallenge
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetRewardInfusionNewChallenge_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetSignagePointIndex*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetSignagePointIndex
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetSignagePointIndex_System_Byte_
+  name: SetSignagePointIndex
+  nameWithType: BlockRecord.SetSignagePointIndex
+  fullName: ChiaWalletSdk.BlockRecord.SetSignagePointIndex
+- uid: ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(System.Byte)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(System.Byte)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSignagePointIndex_System_Byte_
+  name: SetSignagePointIndex(byte)
+  nameWithType: IBlockRecord.SetSignagePointIndex(byte)
+  fullName: ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(byte)
+  nameWithType.vb: IBlockRecord.SetSignagePointIndex(Byte)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(Byte)
+  name.vb: SetSignagePointIndex(Byte)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(System.Byte)
+    name: SetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSignagePointIndex_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetSignagePointIndex(System.Byte)
+    name: SetSignagePointIndex
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSignagePointIndex_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetSubEpochSummaryIncluded_ChiaWalletSdk_SubEpochSummary_
+  name: SetSubEpochSummaryIncluded
+  nameWithType: BlockRecord.SetSubEpochSummaryIncluded
+  fullName: ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded
+- uid: ChiaWalletSdk.IBlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSubEpochSummaryIncluded_ChiaWalletSdk_SubEpochSummary_
+  name: SetSubEpochSummaryIncluded(SubEpochSummary)
+  nameWithType: IBlockRecord.SetSubEpochSummaryIncluded(SubEpochSummary)
+  fullName: ChiaWalletSdk.IBlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+    name: SetSubEpochSummaryIncluded
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSubEpochSummaryIncluded_ChiaWalletSdk_SubEpochSummary_
+  - name: (
+  - uid: ChiaWalletSdk.SubEpochSummary
+    name: SubEpochSummary
+    isExternal: true
+    href: ChiaWalletSdk.SubEpochSummary.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)
+    name: SetSubEpochSummaryIncluded
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSubEpochSummaryIncluded_ChiaWalletSdk_SubEpochSummary_
+  - name: (
+  - uid: ChiaWalletSdk.SubEpochSummary
+    name: SubEpochSummary
+    isExternal: true
+    href: ChiaWalletSdk.SubEpochSummary.html
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetSubSlotIters*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetSubSlotIters
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetSubSlotIters_System_String_
+  name: SetSubSlotIters
+  nameWithType: BlockRecord.SetSubSlotIters
+  fullName: ChiaWalletSdk.BlockRecord.SetSubSlotIters
+- uid: ChiaWalletSdk.IBlockRecord.SetSubSlotIters(System.String)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetSubSlotIters(System.String)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSubSlotIters_System_String_
+  name: SetSubSlotIters(string)
+  nameWithType: IBlockRecord.SetSubSlotIters(string)
+  fullName: ChiaWalletSdk.IBlockRecord.SetSubSlotIters(string)
+  nameWithType.vb: IBlockRecord.SetSubSlotIters(String)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetSubSlotIters(String)
+  name.vb: SetSubSlotIters(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetSubSlotIters(System.String)
+    name: SetSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSubSlotIters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetSubSlotIters(System.String)
+    name: SetSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetSubSlotIters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetTimestamp*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetTimestamp
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetTimestamp_System_String_
+  name: SetTimestamp
+  nameWithType: BlockRecord.SetTimestamp
+  fullName: ChiaWalletSdk.BlockRecord.SetTimestamp
+- uid: ChiaWalletSdk.IBlockRecord.SetTimestamp(System.String)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetTimestamp(System.String)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetTimestamp_System_String_
+  name: SetTimestamp(string)
+  nameWithType: IBlockRecord.SetTimestamp(string)
+  fullName: ChiaWalletSdk.IBlockRecord.SetTimestamp(string)
+  nameWithType.vb: IBlockRecord.SetTimestamp(String)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetTimestamp(String)
+  name.vb: SetTimestamp(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetTimestamp(System.String)
+    name: SetTimestamp
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetTimestamp_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetTimestamp(System.String)
+    name: SetTimestamp
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetTimestamp_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetTotalIters*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetTotalIters
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetTotalIters_System_String_
+  name: SetTotalIters
+  nameWithType: BlockRecord.SetTotalIters
+  fullName: ChiaWalletSdk.BlockRecord.SetTotalIters
+- uid: ChiaWalletSdk.IBlockRecord.SetTotalIters(System.String)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetTotalIters(System.String)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetTotalIters_System_String_
+  name: SetTotalIters(string)
+  nameWithType: IBlockRecord.SetTotalIters(string)
+  fullName: ChiaWalletSdk.IBlockRecord.SetTotalIters(string)
+  nameWithType.vb: IBlockRecord.SetTotalIters(String)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetTotalIters(String)
+  name.vb: SetTotalIters(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetTotalIters(System.String)
+    name: SetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetTotalIters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetTotalIters(System.String)
+    name: SetTotalIters
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetTotalIters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.BlockRecord.SetWeight*
+  commentId: Overload:ChiaWalletSdk.BlockRecord.SetWeight
+  isExternal: true
+  href: ChiaWalletSdk.BlockRecord.html#ChiaWalletSdk_BlockRecord_SetWeight_System_String_
+  name: SetWeight
+  nameWithType: BlockRecord.SetWeight
+  fullName: ChiaWalletSdk.BlockRecord.SetWeight
+- uid: ChiaWalletSdk.IBlockRecord.SetWeight(System.String)
+  commentId: M:ChiaWalletSdk.IBlockRecord.SetWeight(System.String)
+  parent: ChiaWalletSdk.IBlockRecord
+  isExternal: true
+  href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetWeight_System_String_
+  name: SetWeight(string)
+  nameWithType: IBlockRecord.SetWeight(string)
+  fullName: ChiaWalletSdk.IBlockRecord.SetWeight(string)
+  nameWithType.vb: IBlockRecord.SetWeight(String)
+  fullName.vb: ChiaWalletSdk.IBlockRecord.SetWeight(String)
+  name.vb: SetWeight(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IBlockRecord.SetWeight(System.String)
+    name: SetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetWeight_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IBlockRecord.SetWeight(System.String)
+    name: SetWeight
+    isExternal: true
+    href: ChiaWalletSdk.IBlockRecord.html#ChiaWalletSdk_IBlockRecord_SetWeight_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

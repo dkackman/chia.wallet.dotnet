@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.Spend
+  commentId: T:ChiaWalletSdk.Spend
+  id: Spend
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.Spend.#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Spend.#ctor(System.IntPtr)
+  - ChiaWalletSdk.Spend.CloneRustArcPtr
+  - ChiaWalletSdk.Spend.Destroy
+  - ChiaWalletSdk.Spend.Dispose
+  - ChiaWalletSdk.Spend.Finalize
+  - ChiaWalletSdk.Spend.FreeRustArcPtr
+  - ChiaWalletSdk.Spend.GetPuzzle
+  - ChiaWalletSdk.Spend.GetSolution
+  - ChiaWalletSdk.Spend.SetPuzzle(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Spend.SetSolution(ChiaWalletSdk.Program)
+  - ChiaWalletSdk.Spend.pointer
+  langs:
+  - csharp
+  - vb
+  name: Spend
+  nameWithType: Spend
+  fullName: ChiaWalletSdk.Spend
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class Spend : ISpend'
+    content.vb: Public Class Spend Implements ISpend
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.ISpend
+- uid: ChiaWalletSdk.Spend.pointer
+  commentId: F:ChiaWalletSdk.Spend.pointer
+  id: pointer
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: Spend.pointer
+  fullName: ChiaWalletSdk.Spend.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.Spend.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.Spend.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: Spend(nint)
+  nameWithType: Spend.Spend(nint)
+  fullName: ChiaWalletSdk.Spend.Spend(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Spend(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.Spend.#ctor*
+  nameWithType.vb: Spend.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.Spend.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.Spend.Finalize
+  commentId: M:ChiaWalletSdk.Spend.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: ~Spend()
+  nameWithType: Spend.~Spend()
+  fullName: ChiaWalletSdk.Spend.~Spend()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~Spend()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.Spend.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.Spend.#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Spend.#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)
+  id: '#ctor(ChiaWalletSdk.Program,ChiaWalletSdk.Program)'
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: Spend(Program, Program)
+  nameWithType: Spend.Spend(Program, Program)
+  fullName: ChiaWalletSdk.Spend.Spend(ChiaWalletSdk.Program, ChiaWalletSdk.Program)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public Spend(Program puzzle, Program solution)
+    parameters:
+    - id: puzzle
+      type: ChiaWalletSdk.Program
+    - id: solution
+      type: ChiaWalletSdk.Program
+    content.vb: Public Sub New(puzzle As Program, solution As Program)
+  overload: ChiaWalletSdk.Spend.#ctor*
+  nameWithType.vb: Spend.New(Program, Program)
+  fullName.vb: ChiaWalletSdk.Spend.New(ChiaWalletSdk.Program, ChiaWalletSdk.Program)
+  name.vb: New(Program, Program)
+- uid: ChiaWalletSdk.Spend.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.Spend.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: Spend.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.Spend.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.Spend.FreeRustArcPtr*
+- uid: ChiaWalletSdk.Spend.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.Spend.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: Spend.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.Spend.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.Spend.CloneRustArcPtr*
+- uid: ChiaWalletSdk.Spend.Destroy
+  commentId: M:ChiaWalletSdk.Spend.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Spend.Destroy()
+  fullName: ChiaWalletSdk.Spend.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.Spend.Destroy*
+- uid: ChiaWalletSdk.Spend.Dispose
+  commentId: M:ChiaWalletSdk.Spend.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Spend.Dispose()
+  fullName: ChiaWalletSdk.Spend.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.Spend.Dispose*
+- uid: ChiaWalletSdk.Spend.GetPuzzle
+  commentId: M:ChiaWalletSdk.Spend.GetPuzzle
+  id: GetPuzzle
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: GetPuzzle()
+  nameWithType: Spend.GetPuzzle()
+  fullName: ChiaWalletSdk.Spend.GetPuzzle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetPuzzle()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetPuzzle() As Program
+  overload: ChiaWalletSdk.Spend.GetPuzzle*
+  implements:
+  - ChiaWalletSdk.ISpend.GetPuzzle
+- uid: ChiaWalletSdk.Spend.GetSolution
+  commentId: M:ChiaWalletSdk.Spend.GetSolution
+  id: GetSolution
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: GetSolution()
+  nameWithType: Spend.GetSolution()
+  fullName: ChiaWalletSdk.Spend.GetSolution()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Program GetSolution()
+    return:
+      type: ChiaWalletSdk.Program
+    content.vb: Public Function GetSolution() As Program
+  overload: ChiaWalletSdk.Spend.GetSolution*
+  implements:
+  - ChiaWalletSdk.ISpend.GetSolution
+- uid: ChiaWalletSdk.Spend.SetPuzzle(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Spend.SetPuzzle(ChiaWalletSdk.Program)
+  id: SetPuzzle(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: SetPuzzle(Program)
+  nameWithType: Spend.SetPuzzle(Program)
+  fullName: ChiaWalletSdk.Spend.SetPuzzle(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Spend SetPuzzle(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Spend
+    content.vb: Public Function SetPuzzle(value As Program) As Spend
+  overload: ChiaWalletSdk.Spend.SetPuzzle*
+  implements:
+  - ChiaWalletSdk.ISpend.SetPuzzle(ChiaWalletSdk.Program)
+- uid: ChiaWalletSdk.Spend.SetSolution(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.Spend.SetSolution(ChiaWalletSdk.Program)
+  id: SetSolution(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.Spend
+  langs:
+  - csharp
+  - vb
+  name: SetSolution(Program)
+  nameWithType: Spend.SetSolution(Program)
+  fullName: ChiaWalletSdk.Spend.SetSolution(ChiaWalletSdk.Program)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Spend SetSolution(Program value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Program
+    return:
+      type: ChiaWalletSdk.Spend
+    content.vb: Public Function SetSolution(value As Program) As Spend
+  overload: ChiaWalletSdk.Spend.SetSolution*
+  implements:
+  - ChiaWalletSdk.ISpend.SetSolution(ChiaWalletSdk.Program)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.ISpend
+  commentId: T:ChiaWalletSdk.ISpend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ISpend.html
+  name: ISpend
+  nameWithType: ISpend
+  fullName: ChiaWalletSdk.ISpend
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.Spend.#ctor*
+  commentId: Overload:ChiaWalletSdk.Spend.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend__ctor_System_IntPtr_
+  name: Spend
+  nameWithType: Spend.Spend
+  fullName: ChiaWalletSdk.Spend.Spend
+  nameWithType.vb: Spend.New
+  fullName.vb: ChiaWalletSdk.Spend.New
+  name.vb: New
+- uid: ChiaWalletSdk.Spend.Finalize*
+  commentId: Overload:ChiaWalletSdk.Spend.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_Finalize
+  name: ~Spend
+  nameWithType: Spend.~Spend
+  fullName: ChiaWalletSdk.Spend.~Spend
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.Spend.Finalize*
+    name: Spend
+    isExternal: true
+    href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_Finalize
+- uid: ChiaWalletSdk.Program
+  commentId: T:ChiaWalletSdk.Program
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: ChiaWalletSdk.Program
+- uid: ChiaWalletSdk.Spend.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Spend.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: Spend.FreeRustArcPtr
+  fullName: ChiaWalletSdk.Spend.FreeRustArcPtr
+- uid: ChiaWalletSdk.Spend.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.Spend.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: Spend.CloneRustArcPtr
+  fullName: ChiaWalletSdk.Spend.CloneRustArcPtr
+- uid: ChiaWalletSdk.Spend.Destroy*
+  commentId: Overload:ChiaWalletSdk.Spend.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_Destroy
+  name: Destroy
+  nameWithType: Spend.Destroy
+  fullName: ChiaWalletSdk.Spend.Destroy
+- uid: ChiaWalletSdk.Spend.Dispose*
+  commentId: Overload:ChiaWalletSdk.Spend.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_Dispose
+  name: Dispose
+  nameWithType: Spend.Dispose
+  fullName: ChiaWalletSdk.Spend.Dispose
+- uid: ChiaWalletSdk.Spend.GetPuzzle*
+  commentId: Overload:ChiaWalletSdk.Spend.GetPuzzle
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_GetPuzzle
+  name: GetPuzzle
+  nameWithType: Spend.GetPuzzle
+  fullName: ChiaWalletSdk.Spend.GetPuzzle
+- uid: ChiaWalletSdk.ISpend.GetPuzzle
+  commentId: M:ChiaWalletSdk.ISpend.GetPuzzle
+  parent: ChiaWalletSdk.ISpend
+  isExternal: true
+  href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_GetPuzzle
+  name: GetPuzzle()
+  nameWithType: ISpend.GetPuzzle()
+  fullName: ChiaWalletSdk.ISpend.GetPuzzle()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpend.GetPuzzle
+    name: GetPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_GetPuzzle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpend.GetPuzzle
+    name: GetPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_GetPuzzle
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Spend.GetSolution*
+  commentId: Overload:ChiaWalletSdk.Spend.GetSolution
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_GetSolution
+  name: GetSolution
+  nameWithType: Spend.GetSolution
+  fullName: ChiaWalletSdk.Spend.GetSolution
+- uid: ChiaWalletSdk.ISpend.GetSolution
+  commentId: M:ChiaWalletSdk.ISpend.GetSolution
+  parent: ChiaWalletSdk.ISpend
+  isExternal: true
+  href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_GetSolution
+  name: GetSolution()
+  nameWithType: ISpend.GetSolution()
+  fullName: ChiaWalletSdk.ISpend.GetSolution()
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpend.GetSolution
+    name: GetSolution
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_GetSolution
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpend.GetSolution
+    name: GetSolution
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_GetSolution
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.Spend.SetPuzzle*
+  commentId: Overload:ChiaWalletSdk.Spend.SetPuzzle
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_SetPuzzle_ChiaWalletSdk_Program_
+  name: SetPuzzle
+  nameWithType: Spend.SetPuzzle
+  fullName: ChiaWalletSdk.Spend.SetPuzzle
+- uid: ChiaWalletSdk.ISpend.SetPuzzle(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.ISpend.SetPuzzle(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.ISpend
+  isExternal: true
+  href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_SetPuzzle_ChiaWalletSdk_Program_
+  name: SetPuzzle(Program)
+  nameWithType: ISpend.SetPuzzle(Program)
+  fullName: ChiaWalletSdk.ISpend.SetPuzzle(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpend.SetPuzzle(ChiaWalletSdk.Program)
+    name: SetPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_SetPuzzle_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpend.SetPuzzle(ChiaWalletSdk.Program)
+    name: SetPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_SetPuzzle_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+- uid: ChiaWalletSdk.Spend
+  commentId: T:ChiaWalletSdk.Spend
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html
+  name: Spend
+  nameWithType: Spend
+  fullName: ChiaWalletSdk.Spend
+- uid: ChiaWalletSdk.Spend.SetSolution*
+  commentId: Overload:ChiaWalletSdk.Spend.SetSolution
+  isExternal: true
+  href: ChiaWalletSdk.Spend.html#ChiaWalletSdk_Spend_SetSolution_ChiaWalletSdk_Program_
+  name: SetSolution
+  nameWithType: Spend.SetSolution
+  fullName: ChiaWalletSdk.Spend.SetSolution
+- uid: ChiaWalletSdk.ISpend.SetSolution(ChiaWalletSdk.Program)
+  commentId: M:ChiaWalletSdk.ISpend.SetSolution(ChiaWalletSdk.Program)
+  parent: ChiaWalletSdk.ISpend
+  isExternal: true
+  href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_SetSolution_ChiaWalletSdk_Program_
+  name: SetSolution(Program)
+  nameWithType: ISpend.SetSolution(Program)
+  fullName: ChiaWalletSdk.ISpend.SetSolution(ChiaWalletSdk.Program)
+  spec.csharp:
+  - uid: ChiaWalletSdk.ISpend.SetSolution(ChiaWalletSdk.Program)
+    name: SetSolution
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_SetSolution_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.ISpend.SetSolution(ChiaWalletSdk.Program)
+    name: SetSolution
+    isExternal: true
+    href: ChiaWalletSdk.ISpend.html#ChiaWalletSdk_ISpend_SetSolution_ChiaWalletSdk_Program_
+  - name: (
+  - uid: ChiaWalletSdk.Program
+    name: Program
+    isExternal: true
+    href: ChiaWalletSdk.Program.html
+  - name: )

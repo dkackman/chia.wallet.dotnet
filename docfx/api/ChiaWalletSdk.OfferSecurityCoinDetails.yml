@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails
+  commentId: T:ChiaWalletSdk.OfferSecurityCoinDetails
+  id: OfferSecurityCoinDetails
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.OfferSecurityCoinDetails.#ctor(ChiaWalletSdk.Coin,ChiaWalletSdk.SecretKey)
+  - ChiaWalletSdk.OfferSecurityCoinDetails.#ctor(System.IntPtr)
+  - ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr
+  - ChiaWalletSdk.OfferSecurityCoinDetails.Destroy
+  - ChiaWalletSdk.OfferSecurityCoinDetails.Dispose
+  - ChiaWalletSdk.OfferSecurityCoinDetails.Finalize
+  - ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr
+  - ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin
+  - ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk
+  - ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  - ChiaWalletSdk.OfferSecurityCoinDetails.pointer
+  langs:
+  - csharp
+  - vb
+  name: OfferSecurityCoinDetails
+  nameWithType: OfferSecurityCoinDetails
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class OfferSecurityCoinDetails : IOfferSecurityCoinDetails'
+    content.vb: Public Class OfferSecurityCoinDetails Implements IOfferSecurityCoinDetails
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IOfferSecurityCoinDetails
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.pointer
+  commentId: F:ChiaWalletSdk.OfferSecurityCoinDetails.pointer
+  id: pointer
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: OfferSecurityCoinDetails.pointer
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: OfferSecurityCoinDetails(nint)
+  nameWithType: OfferSecurityCoinDetails.OfferSecurityCoinDetails(nint)
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.OfferSecurityCoinDetails(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public OfferSecurityCoinDetails(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.#ctor*
+  nameWithType.vb: OfferSecurityCoinDetails.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.OfferSecurityCoinDetails.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.Finalize
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: ~OfferSecurityCoinDetails()
+  nameWithType: OfferSecurityCoinDetails.~OfferSecurityCoinDetails()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.~OfferSecurityCoinDetails()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~OfferSecurityCoinDetails()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.#ctor(ChiaWalletSdk.Coin,ChiaWalletSdk.SecretKey)
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.#ctor(ChiaWalletSdk.Coin,ChiaWalletSdk.SecretKey)
+  id: '#ctor(ChiaWalletSdk.Coin,ChiaWalletSdk.SecretKey)'
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: OfferSecurityCoinDetails(Coin, SecretKey)
+  nameWithType: OfferSecurityCoinDetails.OfferSecurityCoinDetails(Coin, SecretKey)
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.OfferSecurityCoinDetails(ChiaWalletSdk.Coin, ChiaWalletSdk.SecretKey)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public OfferSecurityCoinDetails(Coin securityCoin, SecretKey securityCoinSk)
+    parameters:
+    - id: securityCoin
+      type: ChiaWalletSdk.Coin
+    - id: securityCoinSk
+      type: ChiaWalletSdk.SecretKey
+    content.vb: Public Sub New(securityCoin As Coin, securityCoinSk As SecretKey)
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.#ctor*
+  nameWithType.vb: OfferSecurityCoinDetails.New(Coin, SecretKey)
+  fullName.vb: ChiaWalletSdk.OfferSecurityCoinDetails.New(ChiaWalletSdk.Coin, ChiaWalletSdk.SecretKey)
+  name.vb: New(Coin, SecretKey)
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: OfferSecurityCoinDetails.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr*
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: OfferSecurityCoinDetails.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr*
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.Destroy
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: OfferSecurityCoinDetails.Destroy()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.Destroy*
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.Dispose
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: OfferSecurityCoinDetails.Dispose()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.Dispose*
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin
+  id: GetSecurityCoin
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: GetSecurityCoin()
+  nameWithType: OfferSecurityCoinDetails.GetSecurityCoin()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public Coin GetSecurityCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Public Function GetSecurityCoin() As Coin
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin*
+  implements:
+  - ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoin
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk
+  id: GetSecurityCoinSk
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: GetSecurityCoinSk()
+  nameWithType: OfferSecurityCoinDetails.GetSecurityCoinSk()
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public SecretKey GetSecurityCoinSk()
+    return:
+      type: ChiaWalletSdk.SecretKey
+    content.vb: Public Function GetSecurityCoinSk() As SecretKey
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk*
+  implements:
+  - ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoinSk
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  id: SetSecurityCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: SetSecurityCoin(Coin)
+  nameWithType: OfferSecurityCoinDetails.SetSecurityCoin(Coin)
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public OfferSecurityCoinDetails SetSecurityCoin(Coin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.OfferSecurityCoinDetails
+    content.vb: Public Function SetSecurityCoin(value As Coin) As OfferSecurityCoinDetails
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin*
+  implements:
+  - ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  commentId: M:ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  id: SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  parent: ChiaWalletSdk.OfferSecurityCoinDetails
+  langs:
+  - csharp
+  - vb
+  name: SetSecurityCoinSk(SecretKey)
+  nameWithType: OfferSecurityCoinDetails.SetSecurityCoinSk(SecretKey)
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public OfferSecurityCoinDetails SetSecurityCoinSk(SecretKey value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.SecretKey
+    return:
+      type: ChiaWalletSdk.OfferSecurityCoinDetails
+    content.vb: Public Function SetSecurityCoinSk(value As SecretKey) As OfferSecurityCoinDetails
+  overload: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk*
+  implements:
+  - ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IOfferSecurityCoinDetails
+  commentId: T:ChiaWalletSdk.IOfferSecurityCoinDetails
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IOfferSecurityCoinDetails.html
+  name: IOfferSecurityCoinDetails
+  nameWithType: IOfferSecurityCoinDetails
+  fullName: ChiaWalletSdk.IOfferSecurityCoinDetails
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.#ctor*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails__ctor_System_IntPtr_
+  name: OfferSecurityCoinDetails
+  nameWithType: OfferSecurityCoinDetails.OfferSecurityCoinDetails
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.OfferSecurityCoinDetails
+  nameWithType.vb: OfferSecurityCoinDetails.New
+  fullName.vb: ChiaWalletSdk.OfferSecurityCoinDetails.New
+  name.vb: New
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.Finalize*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_Finalize
+  name: ~OfferSecurityCoinDetails
+  nameWithType: OfferSecurityCoinDetails.~OfferSecurityCoinDetails
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.~OfferSecurityCoinDetails
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.OfferSecurityCoinDetails.Finalize*
+    name: OfferSecurityCoinDetails
+    isExternal: true
+    href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_Finalize
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.SecretKey
+  commentId: T:ChiaWalletSdk.SecretKey
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.SecretKey.html
+  name: SecretKey
+  nameWithType: SecretKey
+  fullName: ChiaWalletSdk.SecretKey
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: OfferSecurityCoinDetails.FreeRustArcPtr
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.FreeRustArcPtr
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: OfferSecurityCoinDetails.CloneRustArcPtr
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.CloneRustArcPtr
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.Destroy*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_Destroy
+  name: Destroy
+  nameWithType: OfferSecurityCoinDetails.Destroy
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.Destroy
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.Dispose*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_Dispose
+  name: Dispose
+  nameWithType: OfferSecurityCoinDetails.Dispose
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.Dispose
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_GetSecurityCoin
+  name: GetSecurityCoin
+  nameWithType: OfferSecurityCoinDetails.GetSecurityCoin
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoin
+- uid: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoin
+  commentId: M:ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoin
+  parent: ChiaWalletSdk.IOfferSecurityCoinDetails
+  isExternal: true
+  href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_GetSecurityCoin
+  name: GetSecurityCoin()
+  nameWithType: IOfferSecurityCoinDetails.GetSecurityCoin()
+  fullName: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoin()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoin
+    name: GetSecurityCoin
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_GetSecurityCoin
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoin
+    name: GetSecurityCoin
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_GetSecurityCoin
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_GetSecurityCoinSk
+  name: GetSecurityCoinSk
+  nameWithType: OfferSecurityCoinDetails.GetSecurityCoinSk
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.GetSecurityCoinSk
+- uid: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoinSk
+  commentId: M:ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoinSk
+  parent: ChiaWalletSdk.IOfferSecurityCoinDetails
+  isExternal: true
+  href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_GetSecurityCoinSk
+  name: GetSecurityCoinSk()
+  nameWithType: IOfferSecurityCoinDetails.GetSecurityCoinSk()
+  fullName: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoinSk()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoinSk
+    name: GetSecurityCoinSk
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_GetSecurityCoinSk
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.GetSecurityCoinSk
+    name: GetSecurityCoinSk
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_GetSecurityCoinSk
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_SetSecurityCoin_ChiaWalletSdk_Coin_
+  name: SetSecurityCoin
+  nameWithType: OfferSecurityCoinDetails.SetSecurityCoin
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoin
+- uid: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.IOfferSecurityCoinDetails
+  isExternal: true
+  href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_SetSecurityCoin_ChiaWalletSdk_Coin_
+  name: SetSecurityCoin(Coin)
+  nameWithType: IOfferSecurityCoinDetails.SetSecurityCoin(Coin)
+  fullName: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+    name: SetSecurityCoin
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_SetSecurityCoin_ChiaWalletSdk_Coin_
+  - name: (
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoin(ChiaWalletSdk.Coin)
+    name: SetSecurityCoin
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_SetSecurityCoin_ChiaWalletSdk_Coin_
+  - name: (
+  - uid: ChiaWalletSdk.Coin
+    name: Coin
+    isExternal: true
+    href: ChiaWalletSdk.Coin.html
+  - name: )
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails
+  commentId: T:ChiaWalletSdk.OfferSecurityCoinDetails
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html
+  name: OfferSecurityCoinDetails
+  nameWithType: OfferSecurityCoinDetails
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails
+- uid: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk*
+  commentId: Overload:ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk
+  isExternal: true
+  href: ChiaWalletSdk.OfferSecurityCoinDetails.html#ChiaWalletSdk_OfferSecurityCoinDetails_SetSecurityCoinSk_ChiaWalletSdk_SecretKey_
+  name: SetSecurityCoinSk
+  nameWithType: OfferSecurityCoinDetails.SetSecurityCoinSk
+  fullName: ChiaWalletSdk.OfferSecurityCoinDetails.SetSecurityCoinSk
+- uid: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  commentId: M:ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  parent: ChiaWalletSdk.IOfferSecurityCoinDetails
+  isExternal: true
+  href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_SetSecurityCoinSk_ChiaWalletSdk_SecretKey_
+  name: SetSecurityCoinSk(SecretKey)
+  nameWithType: IOfferSecurityCoinDetails.SetSecurityCoinSk(SecretKey)
+  fullName: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+    name: SetSecurityCoinSk
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_SetSecurityCoinSk_ChiaWalletSdk_SecretKey_
+  - name: (
+  - uid: ChiaWalletSdk.SecretKey
+    name: SecretKey
+    isExternal: true
+    href: ChiaWalletSdk.SecretKey.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IOfferSecurityCoinDetails.SetSecurityCoinSk(ChiaWalletSdk.SecretKey)
+    name: SetSecurityCoinSk
+    isExternal: true
+    href: ChiaWalletSdk.IOfferSecurityCoinDetails.html#ChiaWalletSdk_IOfferSecurityCoinDetails_SetSecurityCoinSk_ChiaWalletSdk_SecretKey_
+  - name: (
+  - uid: ChiaWalletSdk.SecretKey
+    name: SecretKey
+    isExternal: true
+    href: ChiaWalletSdk.SecretKey.html
+  - name: )

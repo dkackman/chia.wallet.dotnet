@@ -1,0 +1,879 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IParsedNftTransfer
+  commentId: T:ChiaWalletSdk.IParsedNftTransfer
+  id: IParsedNftTransfer
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IParsedNftTransfer.GetClawback
+  - ChiaWalletSdk.IParsedNftTransfer.GetCoin
+  - ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates
+  - ChiaWalletSdk.IParsedNftTransfer.GetLauncherId
+  - ChiaWalletSdk.IParsedNftTransfer.GetMemos
+  - ChiaWalletSdk.IParsedNftTransfer.GetNewState
+  - ChiaWalletSdk.IParsedNftTransfer.GetOldState
+  - ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash
+  - ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints
+  - ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash
+  - ChiaWalletSdk.IParsedNftTransfer.GetTransferType
+  - ChiaWalletSdk.IParsedNftTransfer.SetClawback(ChiaWalletSdk.ClawbackV2)
+  - ChiaWalletSdk.IParsedNftTransfer.SetCoin(ChiaWalletSdk.Coin)
+  - ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates(System.Boolean)
+  - ChiaWalletSdk.IParsedNftTransfer.SetLauncherId(System.Byte[])
+  - ChiaWalletSdk.IParsedNftTransfer.SetMemos(System.Collections.Generic.List{System.String})
+  - ChiaWalletSdk.IParsedNftTransfer.SetNewState(ChiaWalletSdk.NftState)
+  - ChiaWalletSdk.IParsedNftTransfer.SetOldState(ChiaWalletSdk.NftState)
+  - ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints(System.UInt16)
+  - ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash(System.Byte[])
+  - ChiaWalletSdk.IParsedNftTransfer.SetTransferType(ChiaWalletSdk.TransferType)
+  langs:
+  - csharp
+  - vb
+  name: IParsedNftTransfer
+  nameWithType: IParsedNftTransfer
+  fullName: ChiaWalletSdk.IParsedNftTransfer
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IParsedNftTransfer
+    content.vb: Public Interface IParsedNftTransfer
+  derivedClasses:
+  - ChiaWalletSdk.ParsedNftTransfer
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetClawback
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetClawback
+  id: GetClawback
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetClawback()
+  nameWithType: IParsedNftTransfer.GetClawback()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetClawback()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ClawbackV2? GetClawback()
+    return:
+      type: ChiaWalletSdk.ClawbackV2
+    content.vb: Function GetClawback() As ClawbackV2
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetClawback*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetCoin
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetCoin
+  id: GetCoin
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetCoin()
+  nameWithType: IParsedNftTransfer.GetCoin()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetCoin()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Coin GetCoin()
+    return:
+      type: ChiaWalletSdk.Coin
+    content.vb: Function GetCoin() As Coin
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetCoin*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates
+  id: GetIncludesUnverifiableUpdates
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetIncludesUnverifiableUpdates()
+  nameWithType: IParsedNftTransfer.GetIncludesUnverifiableUpdates()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: bool GetIncludesUnverifiableUpdates()
+    return:
+      type: System.Boolean
+    content.vb: Function GetIncludesUnverifiableUpdates() As Boolean
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetLauncherId
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetLauncherId
+  id: GetLauncherId
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetLauncherId()
+  nameWithType: IParsedNftTransfer.GetLauncherId()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetLauncherId()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetLauncherId()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetLauncherId() As Byte()
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetLauncherId*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetMemos
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetMemos
+  id: GetMemos
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetMemos()
+  nameWithType: IParsedNftTransfer.GetMemos()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetMemos()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: List<string> GetMemos()
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Function GetMemos() As List(Of String)
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetMemos*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetNewState
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetNewState
+  id: GetNewState
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetNewState()
+  nameWithType: IParsedNftTransfer.GetNewState()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetNewState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: NftState GetNewState()
+    return:
+      type: ChiaWalletSdk.NftState
+    content.vb: Function GetNewState() As NftState
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetNewState*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetOldState
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetOldState
+  id: GetOldState
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetOldState()
+  nameWithType: IParsedNftTransfer.GetOldState()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetOldState()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: NftState GetOldState()
+    return:
+      type: ChiaWalletSdk.NftState
+    content.vb: Function GetOldState() As NftState
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetOldState*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash
+  id: GetP2PuzzleHash
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetP2PuzzleHash()
+  nameWithType: IParsedNftTransfer.GetP2PuzzleHash()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetP2PuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetP2PuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints
+  id: GetRoyaltyBasisPoints
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetRoyaltyBasisPoints()
+  nameWithType: IParsedNftTransfer.GetRoyaltyBasisPoints()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ushort GetRoyaltyBasisPoints()
+    return:
+      type: System.UInt16
+    content.vb: Function GetRoyaltyBasisPoints() As UShort
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash
+  id: GetRoyaltyPuzzleHash
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetRoyaltyPuzzleHash()
+  nameWithType: IParsedNftTransfer.GetRoyaltyPuzzleHash()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] GetRoyaltyPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Function GetRoyaltyPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash*
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetTransferType
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.GetTransferType
+  id: GetTransferType
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: GetTransferType()
+  nameWithType: IParsedNftTransfer.GetTransferType()
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetTransferType()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: TransferType GetTransferType()
+    return:
+      type: ChiaWalletSdk.TransferType
+    content.vb: Function GetTransferType() As TransferType
+  overload: ChiaWalletSdk.IParsedNftTransfer.GetTransferType*
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetClawback(ChiaWalletSdk.ClawbackV2)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetClawback(ChiaWalletSdk.ClawbackV2)
+  id: SetClawback(ChiaWalletSdk.ClawbackV2)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetClawback(ClawbackV2?)
+  nameWithType: IParsedNftTransfer.SetClawback(ClawbackV2?)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetClawback(ChiaWalletSdk.ClawbackV2?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetClawback(ClawbackV2? value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.ClawbackV2
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetClawback(value As ClawbackV2) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetClawback*
+  nameWithType.vb: IParsedNftTransfer.SetClawback(ClawbackV2)
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetClawback(ChiaWalletSdk.ClawbackV2)
+  name.vb: SetClawback(ClawbackV2)
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetCoin(ChiaWalletSdk.Coin)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetCoin(ChiaWalletSdk.Coin)
+  id: SetCoin(ChiaWalletSdk.Coin)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetCoin(Coin)
+  nameWithType: IParsedNftTransfer.SetCoin(Coin)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetCoin(ChiaWalletSdk.Coin)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetCoin(Coin value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.Coin
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetCoin(value As Coin) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetCoin*
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates(System.Boolean)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates(System.Boolean)
+  id: SetIncludesUnverifiableUpdates(System.Boolean)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetIncludesUnverifiableUpdates(bool)
+  nameWithType: IParsedNftTransfer.SetIncludesUnverifiableUpdates(bool)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates(bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetIncludesUnverifiableUpdates(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetIncludesUnverifiableUpdates(value As Boolean) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates*
+  nameWithType.vb: IParsedNftTransfer.SetIncludesUnverifiableUpdates(Boolean)
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates(Boolean)
+  name.vb: SetIncludesUnverifiableUpdates(Boolean)
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetLauncherId(System.Byte[])
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetLauncherId(System.Byte[])
+  id: SetLauncherId(System.Byte[])
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetLauncherId(byte[])
+  nameWithType: IParsedNftTransfer.SetLauncherId(byte[])
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetLauncherId(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetLauncherId(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetLauncherId(value As Byte()) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetLauncherId*
+  nameWithType.vb: IParsedNftTransfer.SetLauncherId(Byte())
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetLauncherId(Byte())
+  name.vb: SetLauncherId(Byte())
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetMemos(System.Collections.Generic.List{System.String})
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetMemos(System.Collections.Generic.List{System.String})
+  id: SetMemos(System.Collections.Generic.List{System.String})
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetMemos(List<string>)
+  nameWithType: IParsedNftTransfer.SetMemos(List<string>)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetMemos(System.Collections.Generic.List<string>)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetMemos(List<string> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetMemos(value As List(Of String)) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetMemos*
+  nameWithType.vb: IParsedNftTransfer.SetMemos(List(Of String))
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetMemos(System.Collections.Generic.List(Of String))
+  name.vb: SetMemos(List(Of String))
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetNewState(ChiaWalletSdk.NftState)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetNewState(ChiaWalletSdk.NftState)
+  id: SetNewState(ChiaWalletSdk.NftState)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetNewState(NftState)
+  nameWithType: IParsedNftTransfer.SetNewState(NftState)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetNewState(ChiaWalletSdk.NftState)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetNewState(NftState value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.NftState
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetNewState(value As NftState) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetNewState*
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetOldState(ChiaWalletSdk.NftState)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetOldState(ChiaWalletSdk.NftState)
+  id: SetOldState(ChiaWalletSdk.NftState)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetOldState(NftState)
+  nameWithType: IParsedNftTransfer.SetOldState(NftState)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetOldState(ChiaWalletSdk.NftState)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetOldState(NftState value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.NftState
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetOldState(value As NftState) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetOldState*
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash(System.Byte[])
+  id: SetP2PuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetP2PuzzleHash(byte[])
+  nameWithType: IParsedNftTransfer.SetP2PuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetP2PuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetP2PuzzleHash(value As Byte()) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash*
+  nameWithType.vb: IParsedNftTransfer.SetP2PuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash(Byte())
+  name.vb: SetP2PuzzleHash(Byte())
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints(System.UInt16)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints(System.UInt16)
+  id: SetRoyaltyBasisPoints(System.UInt16)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetRoyaltyBasisPoints(ushort)
+  nameWithType: IParsedNftTransfer.SetRoyaltyBasisPoints(ushort)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints(ushort)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetRoyaltyBasisPoints(ushort value)
+    parameters:
+    - id: value
+      type: System.UInt16
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetRoyaltyBasisPoints(value As UShort) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints*
+  nameWithType.vb: IParsedNftTransfer.SetRoyaltyBasisPoints(UShort)
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints(UShort)
+  name.vb: SetRoyaltyBasisPoints(UShort)
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash(System.Byte[])
+  id: SetRoyaltyPuzzleHash(System.Byte[])
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetRoyaltyPuzzleHash(byte[])
+  nameWithType: IParsedNftTransfer.SetRoyaltyPuzzleHash(byte[])
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash(byte[])
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetRoyaltyPuzzleHash(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetRoyaltyPuzzleHash(value As Byte()) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash*
+  nameWithType.vb: IParsedNftTransfer.SetRoyaltyPuzzleHash(Byte())
+  fullName.vb: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash(Byte())
+  name.vb: SetRoyaltyPuzzleHash(Byte())
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetTransferType(ChiaWalletSdk.TransferType)
+  commentId: M:ChiaWalletSdk.IParsedNftTransfer.SetTransferType(ChiaWalletSdk.TransferType)
+  id: SetTransferType(ChiaWalletSdk.TransferType)
+  parent: ChiaWalletSdk.IParsedNftTransfer
+  langs:
+  - csharp
+  - vb
+  name: SetTransferType(TransferType)
+  nameWithType: IParsedNftTransfer.SetTransferType(TransferType)
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetTransferType(ChiaWalletSdk.TransferType)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: ParsedNftTransfer SetTransferType(TransferType value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.TransferType
+    return:
+      type: ChiaWalletSdk.ParsedNftTransfer
+    content.vb: Function SetTransferType(value As TransferType) As ParsedNftTransfer
+  overload: ChiaWalletSdk.IParsedNftTransfer.SetTransferType*
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetClawback*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetClawback
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetClawback
+  name: GetClawback
+  nameWithType: IParsedNftTransfer.GetClawback
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetClawback
+- uid: ChiaWalletSdk.ClawbackV2
+  commentId: T:ChiaWalletSdk.ClawbackV2
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ClawbackV2.html
+  name: ClawbackV2
+  nameWithType: ClawbackV2
+  fullName: ChiaWalletSdk.ClawbackV2
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetCoin*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetCoin
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetCoin
+  name: GetCoin
+  nameWithType: IParsedNftTransfer.GetCoin
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetCoin
+- uid: ChiaWalletSdk.Coin
+  commentId: T:ChiaWalletSdk.Coin
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.Coin.html
+  name: Coin
+  nameWithType: Coin
+  fullName: ChiaWalletSdk.Coin
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetIncludesUnverifiableUpdates
+  name: GetIncludesUnverifiableUpdates
+  nameWithType: IParsedNftTransfer.GetIncludesUnverifiableUpdates
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetIncludesUnverifiableUpdates
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetLauncherId*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetLauncherId
+  name: GetLauncherId
+  nameWithType: IParsedNftTransfer.GetLauncherId
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetLauncherId
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetMemos*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetMemos
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetMemos
+  name: GetMemos
+  nameWithType: IParsedNftTransfer.GetMemos
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetMemos
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetNewState*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetNewState
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetNewState
+  name: GetNewState
+  nameWithType: IParsedNftTransfer.GetNewState
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetNewState
+- uid: ChiaWalletSdk.NftState
+  commentId: T:ChiaWalletSdk.NftState
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.NftState.html
+  name: NftState
+  nameWithType: NftState
+  fullName: ChiaWalletSdk.NftState
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetOldState*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetOldState
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetOldState
+  name: GetOldState
+  nameWithType: IParsedNftTransfer.GetOldState
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetOldState
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetP2PuzzleHash
+  name: GetP2PuzzleHash
+  nameWithType: IParsedNftTransfer.GetP2PuzzleHash
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetP2PuzzleHash
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetRoyaltyBasisPoints
+  name: GetRoyaltyBasisPoints
+  nameWithType: IParsedNftTransfer.GetRoyaltyBasisPoints
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyBasisPoints
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetRoyaltyPuzzleHash
+  name: GetRoyaltyPuzzleHash
+  nameWithType: IParsedNftTransfer.GetRoyaltyPuzzleHash
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetRoyaltyPuzzleHash
+- uid: ChiaWalletSdk.IParsedNftTransfer.GetTransferType*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.GetTransferType
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_GetTransferType
+  name: GetTransferType
+  nameWithType: IParsedNftTransfer.GetTransferType
+  fullName: ChiaWalletSdk.IParsedNftTransfer.GetTransferType
+- uid: ChiaWalletSdk.TransferType
+  commentId: T:ChiaWalletSdk.TransferType
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.TransferType.html
+  name: TransferType
+  nameWithType: TransferType
+  fullName: ChiaWalletSdk.TransferType
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetClawback*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetClawback
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetClawback_ChiaWalletSdk_ClawbackV2_
+  name: SetClawback
+  nameWithType: IParsedNftTransfer.SetClawback
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetClawback
+- uid: ChiaWalletSdk.ParsedNftTransfer
+  commentId: T:ChiaWalletSdk.ParsedNftTransfer
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ParsedNftTransfer.html
+  name: ParsedNftTransfer
+  nameWithType: ParsedNftTransfer
+  fullName: ChiaWalletSdk.ParsedNftTransfer
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetCoin*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetCoin
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetCoin_ChiaWalletSdk_Coin_
+  name: SetCoin
+  nameWithType: IParsedNftTransfer.SetCoin
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetCoin
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetIncludesUnverifiableUpdates_System_Boolean_
+  name: SetIncludesUnverifiableUpdates
+  nameWithType: IParsedNftTransfer.SetIncludesUnverifiableUpdates
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetIncludesUnverifiableUpdates
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetLauncherId*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetLauncherId
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetLauncherId_System_Byte___
+  name: SetLauncherId
+  nameWithType: IParsedNftTransfer.SetLauncherId
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetLauncherId
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetMemos*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetMemos
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetMemos_System_Collections_Generic_List_System_String__
+  name: SetMemos
+  nameWithType: IParsedNftTransfer.SetMemos
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetMemos
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetNewState*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetNewState
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetNewState_ChiaWalletSdk_NftState_
+  name: SetNewState
+  nameWithType: IParsedNftTransfer.SetNewState
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetNewState
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetOldState*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetOldState
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetOldState_ChiaWalletSdk_NftState_
+  name: SetOldState
+  nameWithType: IParsedNftTransfer.SetOldState
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetOldState
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetP2PuzzleHash_System_Byte___
+  name: SetP2PuzzleHash
+  nameWithType: IParsedNftTransfer.SetP2PuzzleHash
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetP2PuzzleHash
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetRoyaltyBasisPoints_System_UInt16_
+  name: SetRoyaltyBasisPoints
+  nameWithType: IParsedNftTransfer.SetRoyaltyBasisPoints
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyBasisPoints
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetRoyaltyPuzzleHash_System_Byte___
+  name: SetRoyaltyPuzzleHash
+  nameWithType: IParsedNftTransfer.SetRoyaltyPuzzleHash
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetRoyaltyPuzzleHash
+- uid: ChiaWalletSdk.IParsedNftTransfer.SetTransferType*
+  commentId: Overload:ChiaWalletSdk.IParsedNftTransfer.SetTransferType
+  isExternal: true
+  href: ChiaWalletSdk.IParsedNftTransfer.html#ChiaWalletSdk_IParsedNftTransfer_SetTransferType_ChiaWalletSdk_TransferType_
+  name: SetTransferType
+  nameWithType: IParsedNftTransfer.SetTransferType
+  fullName: ChiaWalletSdk.IParsedNftTransfer.SetTransferType

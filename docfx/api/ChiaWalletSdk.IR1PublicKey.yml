@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IR1PublicKey
+  commentId: T:ChiaWalletSdk.IR1PublicKey
+  id: IR1PublicKey
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IR1PublicKey.Fingerprint
+  - ChiaWalletSdk.IR1PublicKey.ToBytes
+  - ChiaWalletSdk.IR1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.R1Signature)
+  langs:
+  - csharp
+  - vb
+  name: IR1PublicKey
+  nameWithType: IR1PublicKey
+  fullName: ChiaWalletSdk.IR1PublicKey
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IR1PublicKey
+    content.vb: Public Interface IR1PublicKey
+  derivedClasses:
+  - ChiaWalletSdk.R1PublicKey
+- uid: ChiaWalletSdk.IR1PublicKey.Fingerprint
+  commentId: M:ChiaWalletSdk.IR1PublicKey.Fingerprint
+  id: Fingerprint
+  parent: ChiaWalletSdk.IR1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: Fingerprint()
+  nameWithType: IR1PublicKey.Fingerprint()
+  fullName: ChiaWalletSdk.IR1PublicKey.Fingerprint()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: uint Fingerprint()
+    return:
+      type: System.UInt32
+    content.vb: Function Fingerprint() As UInteger
+  overload: ChiaWalletSdk.IR1PublicKey.Fingerprint*
+- uid: ChiaWalletSdk.IR1PublicKey.ToBytes
+  commentId: M:ChiaWalletSdk.IR1PublicKey.ToBytes
+  id: ToBytes
+  parent: ChiaWalletSdk.IR1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: ToBytes()
+  nameWithType: IR1PublicKey.ToBytes()
+  fullName: ChiaWalletSdk.IR1PublicKey.ToBytes()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: byte[] ToBytes()
+    return:
+      type: System.Byte[]
+    content.vb: Function ToBytes() As Byte()
+  overload: ChiaWalletSdk.IR1PublicKey.ToBytes*
+- uid: ChiaWalletSdk.IR1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.R1Signature)
+  commentId: M:ChiaWalletSdk.IR1PublicKey.VerifyPrehashed(System.Byte[],ChiaWalletSdk.R1Signature)
+  id: VerifyPrehashed(System.Byte[],ChiaWalletSdk.R1Signature)
+  parent: ChiaWalletSdk.IR1PublicKey
+  langs:
+  - csharp
+  - vb
+  name: VerifyPrehashed(byte[], R1Signature)
+  nameWithType: IR1PublicKey.VerifyPrehashed(byte[], R1Signature)
+  fullName: ChiaWalletSdk.IR1PublicKey.VerifyPrehashed(byte[], ChiaWalletSdk.R1Signature)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: bool VerifyPrehashed(byte[] prehashed, R1Signature signature)
+    parameters:
+    - id: prehashed
+      type: System.Byte[]
+    - id: signature
+      type: ChiaWalletSdk.R1Signature
+    return:
+      type: System.Boolean
+    content.vb: Function VerifyPrehashed(prehashed As Byte(), signature As R1Signature) As Boolean
+  overload: ChiaWalletSdk.IR1PublicKey.VerifyPrehashed*
+  nameWithType.vb: IR1PublicKey.VerifyPrehashed(Byte(), R1Signature)
+  fullName.vb: ChiaWalletSdk.IR1PublicKey.VerifyPrehashed(Byte(), ChiaWalletSdk.R1Signature)
+  name.vb: VerifyPrehashed(Byte(), R1Signature)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IR1PublicKey.Fingerprint*
+  commentId: Overload:ChiaWalletSdk.IR1PublicKey.Fingerprint
+  isExternal: true
+  href: ChiaWalletSdk.IR1PublicKey.html#ChiaWalletSdk_IR1PublicKey_Fingerprint
+  name: Fingerprint
+  nameWithType: IR1PublicKey.Fingerprint
+  fullName: ChiaWalletSdk.IR1PublicKey.Fingerprint
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IR1PublicKey.ToBytes*
+  commentId: Overload:ChiaWalletSdk.IR1PublicKey.ToBytes
+  isExternal: true
+  href: ChiaWalletSdk.IR1PublicKey.html#ChiaWalletSdk_IR1PublicKey_ToBytes
+  name: ToBytes
+  nameWithType: IR1PublicKey.ToBytes
+  fullName: ChiaWalletSdk.IR1PublicKey.ToBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.IR1PublicKey.VerifyPrehashed*
+  commentId: Overload:ChiaWalletSdk.IR1PublicKey.VerifyPrehashed
+  isExternal: true
+  href: ChiaWalletSdk.IR1PublicKey.html#ChiaWalletSdk_IR1PublicKey_VerifyPrehashed_System_Byte___ChiaWalletSdk_R1Signature_
+  name: VerifyPrehashed
+  nameWithType: IR1PublicKey.VerifyPrehashed
+  fullName: ChiaWalletSdk.IR1PublicKey.VerifyPrehashed
+- uid: ChiaWalletSdk.R1Signature
+  commentId: T:ChiaWalletSdk.R1Signature
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.R1Signature.html
+  name: R1Signature
+  nameWithType: R1Signature
+  fullName: ChiaWalletSdk.R1Signature
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

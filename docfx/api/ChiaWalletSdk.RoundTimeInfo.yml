@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.RoundTimeInfo
+  commentId: T:ChiaWalletSdk.RoundTimeInfo
+  id: RoundTimeInfo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.RoundTimeInfo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.RoundTimeInfo.#ctor(System.String,System.String)
+  - ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr
+  - ChiaWalletSdk.RoundTimeInfo.Destroy
+  - ChiaWalletSdk.RoundTimeInfo.Dispose
+  - ChiaWalletSdk.RoundTimeInfo.Finalize
+  - ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr
+  - ChiaWalletSdk.RoundTimeInfo.GetEpochEnd
+  - ChiaWalletSdk.RoundTimeInfo.GetLastUpdate
+  - ChiaWalletSdk.RoundTimeInfo.SetEpochEnd(System.String)
+  - ChiaWalletSdk.RoundTimeInfo.SetLastUpdate(System.String)
+  - ChiaWalletSdk.RoundTimeInfo.pointer
+  langs:
+  - csharp
+  - vb
+  name: RoundTimeInfo
+  nameWithType: RoundTimeInfo
+  fullName: ChiaWalletSdk.RoundTimeInfo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class RoundTimeInfo : IRoundTimeInfo'
+    content.vb: Public Class RoundTimeInfo Implements IRoundTimeInfo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IRoundTimeInfo
+- uid: ChiaWalletSdk.RoundTimeInfo.pointer
+  commentId: F:ChiaWalletSdk.RoundTimeInfo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: RoundTimeInfo.pointer
+  fullName: ChiaWalletSdk.RoundTimeInfo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.RoundTimeInfo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: RoundTimeInfo(nint)
+  nameWithType: RoundTimeInfo.RoundTimeInfo(nint)
+  fullName: ChiaWalletSdk.RoundTimeInfo.RoundTimeInfo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RoundTimeInfo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.RoundTimeInfo.#ctor*
+  nameWithType.vb: RoundTimeInfo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.RoundTimeInfo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.RoundTimeInfo.Finalize
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: ~RoundTimeInfo()
+  nameWithType: RoundTimeInfo.~RoundTimeInfo()
+  fullName: ChiaWalletSdk.RoundTimeInfo.~RoundTimeInfo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~RoundTimeInfo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.RoundTimeInfo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.RoundTimeInfo.#ctor(System.String,System.String)
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: RoundTimeInfo(string, string)
+  nameWithType: RoundTimeInfo.RoundTimeInfo(string, string)
+  fullName: ChiaWalletSdk.RoundTimeInfo.RoundTimeInfo(string, string)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public RoundTimeInfo(string lastUpdate, string epochEnd)
+    parameters:
+    - id: lastUpdate
+      type: System.String
+    - id: epochEnd
+      type: System.String
+    content.vb: Public Sub New(lastUpdate As String, epochEnd As String)
+  overload: ChiaWalletSdk.RoundTimeInfo.#ctor*
+  nameWithType.vb: RoundTimeInfo.New(String, String)
+  fullName.vb: ChiaWalletSdk.RoundTimeInfo.New(String, String)
+  name.vb: New(String, String)
+- uid: ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: RoundTimeInfo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: RoundTimeInfo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.RoundTimeInfo.Destroy
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: RoundTimeInfo.Destroy()
+  fullName: ChiaWalletSdk.RoundTimeInfo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.RoundTimeInfo.Destroy*
+- uid: ChiaWalletSdk.RoundTimeInfo.Dispose
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RoundTimeInfo.Dispose()
+  fullName: ChiaWalletSdk.RoundTimeInfo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.RoundTimeInfo.Dispose*
+- uid: ChiaWalletSdk.RoundTimeInfo.GetEpochEnd
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.GetEpochEnd
+  id: GetEpochEnd
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: GetEpochEnd()
+  nameWithType: RoundTimeInfo.GetEpochEnd()
+  fullName: ChiaWalletSdk.RoundTimeInfo.GetEpochEnd()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetEpochEnd()
+    return:
+      type: System.String
+    content.vb: Public Function GetEpochEnd() As String
+  overload: ChiaWalletSdk.RoundTimeInfo.GetEpochEnd*
+  implements:
+  - ChiaWalletSdk.IRoundTimeInfo.GetEpochEnd
+- uid: ChiaWalletSdk.RoundTimeInfo.GetLastUpdate
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.GetLastUpdate
+  id: GetLastUpdate
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLastUpdate()
+  nameWithType: RoundTimeInfo.GetLastUpdate()
+  fullName: ChiaWalletSdk.RoundTimeInfo.GetLastUpdate()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string GetLastUpdate()
+    return:
+      type: System.String
+    content.vb: Public Function GetLastUpdate() As String
+  overload: ChiaWalletSdk.RoundTimeInfo.GetLastUpdate*
+  implements:
+  - ChiaWalletSdk.IRoundTimeInfo.GetLastUpdate
+- uid: ChiaWalletSdk.RoundTimeInfo.SetEpochEnd(System.String)
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.SetEpochEnd(System.String)
+  id: SetEpochEnd(System.String)
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: SetEpochEnd(string)
+  nameWithType: RoundTimeInfo.SetEpochEnd(string)
+  fullName: ChiaWalletSdk.RoundTimeInfo.SetEpochEnd(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RoundTimeInfo SetEpochEnd(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.RoundTimeInfo
+    content.vb: Public Function SetEpochEnd(value As String) As RoundTimeInfo
+  overload: ChiaWalletSdk.RoundTimeInfo.SetEpochEnd*
+  implements:
+  - ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(System.String)
+  nameWithType.vb: RoundTimeInfo.SetEpochEnd(String)
+  fullName.vb: ChiaWalletSdk.RoundTimeInfo.SetEpochEnd(String)
+  name.vb: SetEpochEnd(String)
+- uid: ChiaWalletSdk.RoundTimeInfo.SetLastUpdate(System.String)
+  commentId: M:ChiaWalletSdk.RoundTimeInfo.SetLastUpdate(System.String)
+  id: SetLastUpdate(System.String)
+  parent: ChiaWalletSdk.RoundTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: SetLastUpdate(string)
+  nameWithType: RoundTimeInfo.SetLastUpdate(string)
+  fullName: ChiaWalletSdk.RoundTimeInfo.SetLastUpdate(string)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public RoundTimeInfo SetLastUpdate(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.RoundTimeInfo
+    content.vb: Public Function SetLastUpdate(value As String) As RoundTimeInfo
+  overload: ChiaWalletSdk.RoundTimeInfo.SetLastUpdate*
+  implements:
+  - ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(System.String)
+  nameWithType.vb: RoundTimeInfo.SetLastUpdate(String)
+  fullName.vb: ChiaWalletSdk.RoundTimeInfo.SetLastUpdate(String)
+  name.vb: SetLastUpdate(String)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IRoundTimeInfo
+  commentId: T:ChiaWalletSdk.IRoundTimeInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IRoundTimeInfo.html
+  name: IRoundTimeInfo
+  nameWithType: IRoundTimeInfo
+  fullName: ChiaWalletSdk.IRoundTimeInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.RoundTimeInfo.#ctor*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo__ctor_System_IntPtr_
+  name: RoundTimeInfo
+  nameWithType: RoundTimeInfo.RoundTimeInfo
+  fullName: ChiaWalletSdk.RoundTimeInfo.RoundTimeInfo
+  nameWithType.vb: RoundTimeInfo.New
+  fullName.vb: ChiaWalletSdk.RoundTimeInfo.New
+  name.vb: New
+- uid: ChiaWalletSdk.RoundTimeInfo.Finalize*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_Finalize
+  name: ~RoundTimeInfo
+  nameWithType: RoundTimeInfo.~RoundTimeInfo
+  fullName: ChiaWalletSdk.RoundTimeInfo.~RoundTimeInfo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.RoundTimeInfo.Finalize*
+    name: RoundTimeInfo
+    isExternal: true
+    href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_Finalize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: RoundTimeInfo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.RoundTimeInfo.FreeRustArcPtr
+- uid: ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: RoundTimeInfo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.RoundTimeInfo.CloneRustArcPtr
+- uid: ChiaWalletSdk.RoundTimeInfo.Destroy*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_Destroy
+  name: Destroy
+  nameWithType: RoundTimeInfo.Destroy
+  fullName: ChiaWalletSdk.RoundTimeInfo.Destroy
+- uid: ChiaWalletSdk.RoundTimeInfo.Dispose*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_Dispose
+  name: Dispose
+  nameWithType: RoundTimeInfo.Dispose
+  fullName: ChiaWalletSdk.RoundTimeInfo.Dispose
+- uid: ChiaWalletSdk.RoundTimeInfo.GetEpochEnd*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.GetEpochEnd
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_GetEpochEnd
+  name: GetEpochEnd
+  nameWithType: RoundTimeInfo.GetEpochEnd
+  fullName: ChiaWalletSdk.RoundTimeInfo.GetEpochEnd
+- uid: ChiaWalletSdk.IRoundTimeInfo.GetEpochEnd
+  commentId: M:ChiaWalletSdk.IRoundTimeInfo.GetEpochEnd
+  parent: ChiaWalletSdk.IRoundTimeInfo
+  isExternal: true
+  href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_GetEpochEnd
+  name: GetEpochEnd()
+  nameWithType: IRoundTimeInfo.GetEpochEnd()
+  fullName: ChiaWalletSdk.IRoundTimeInfo.GetEpochEnd()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.GetEpochEnd
+    name: GetEpochEnd
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_GetEpochEnd
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.GetEpochEnd
+    name: GetEpochEnd
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_GetEpochEnd
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RoundTimeInfo.GetLastUpdate*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.GetLastUpdate
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_GetLastUpdate
+  name: GetLastUpdate
+  nameWithType: RoundTimeInfo.GetLastUpdate
+  fullName: ChiaWalletSdk.RoundTimeInfo.GetLastUpdate
+- uid: ChiaWalletSdk.IRoundTimeInfo.GetLastUpdate
+  commentId: M:ChiaWalletSdk.IRoundTimeInfo.GetLastUpdate
+  parent: ChiaWalletSdk.IRoundTimeInfo
+  isExternal: true
+  href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_GetLastUpdate
+  name: GetLastUpdate()
+  nameWithType: IRoundTimeInfo.GetLastUpdate()
+  fullName: ChiaWalletSdk.IRoundTimeInfo.GetLastUpdate()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.GetLastUpdate
+    name: GetLastUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_GetLastUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.GetLastUpdate
+    name: GetLastUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_GetLastUpdate
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.RoundTimeInfo.SetEpochEnd*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.SetEpochEnd
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_SetEpochEnd_System_String_
+  name: SetEpochEnd
+  nameWithType: RoundTimeInfo.SetEpochEnd
+  fullName: ChiaWalletSdk.RoundTimeInfo.SetEpochEnd
+- uid: ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(System.String)
+  commentId: M:ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(System.String)
+  parent: ChiaWalletSdk.IRoundTimeInfo
+  isExternal: true
+  href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_SetEpochEnd_System_String_
+  name: SetEpochEnd(string)
+  nameWithType: IRoundTimeInfo.SetEpochEnd(string)
+  fullName: ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(string)
+  nameWithType.vb: IRoundTimeInfo.SetEpochEnd(String)
+  fullName.vb: ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(String)
+  name.vb: SetEpochEnd(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(System.String)
+    name: SetEpochEnd
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_SetEpochEnd_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.SetEpochEnd(System.String)
+    name: SetEpochEnd
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_SetEpochEnd_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.RoundTimeInfo
+  commentId: T:ChiaWalletSdk.RoundTimeInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html
+  name: RoundTimeInfo
+  nameWithType: RoundTimeInfo
+  fullName: ChiaWalletSdk.RoundTimeInfo
+- uid: ChiaWalletSdk.RoundTimeInfo.SetLastUpdate*
+  commentId: Overload:ChiaWalletSdk.RoundTimeInfo.SetLastUpdate
+  isExternal: true
+  href: ChiaWalletSdk.RoundTimeInfo.html#ChiaWalletSdk_RoundTimeInfo_SetLastUpdate_System_String_
+  name: SetLastUpdate
+  nameWithType: RoundTimeInfo.SetLastUpdate
+  fullName: ChiaWalletSdk.RoundTimeInfo.SetLastUpdate
+- uid: ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(System.String)
+  commentId: M:ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(System.String)
+  parent: ChiaWalletSdk.IRoundTimeInfo
+  isExternal: true
+  href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_SetLastUpdate_System_String_
+  name: SetLastUpdate(string)
+  nameWithType: IRoundTimeInfo.SetLastUpdate(string)
+  fullName: ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(string)
+  nameWithType.vb: IRoundTimeInfo.SetLastUpdate(String)
+  fullName.vb: ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(String)
+  name.vb: SetLastUpdate(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(System.String)
+    name: SetLastUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_SetLastUpdate_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IRoundTimeInfo.SetLastUpdate(System.String)
+    name: SetLastUpdate
+    isExternal: true
+    href: ChiaWalletSdk.IRoundTimeInfo.html#ChiaWalletSdk_IRoundTimeInfo_SetLastUpdate_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

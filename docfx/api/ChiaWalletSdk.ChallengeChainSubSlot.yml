@@ -1,0 +1,952 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.ChallengeChainSubSlot
+  commentId: T:ChiaWalletSdk.ChallengeChainSubSlot
+  id: ChallengeChainSubSlot
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.ChallengeChainSubSlot.#ctor(ChiaWalletSdk.VdfInfo,System.Byte[],System.Byte[],System.String,System.String)
+  - ChiaWalletSdk.ChallengeChainSubSlot.#ctor(System.IntPtr)
+  - ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr
+  - ChiaWalletSdk.ChallengeChainSubSlot.Destroy
+  - ChiaWalletSdk.ChallengeChainSubSlot.Dispose
+  - ChiaWalletSdk.ChallengeChainSubSlot.Finalize
+  - ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr
+  - ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  - ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  - ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty
+  - ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters
+  - ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash
+  - ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  - ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  - ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty(System.String)
+  - ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+  - ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+  - ChiaWalletSdk.ChallengeChainSubSlot.pointer
+  langs:
+  - csharp
+  - vb
+  name: ChallengeChainSubSlot
+  nameWithType: ChallengeChainSubSlot
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class ChallengeChainSubSlot : IChallengeChainSubSlot'
+    content.vb: Public Class ChallengeChainSubSlot Implements IChallengeChainSubSlot
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.pointer
+  commentId: F:ChiaWalletSdk.ChallengeChainSubSlot.pointer
+  id: pointer
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: ChallengeChainSubSlot.pointer
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: ChallengeChainSubSlot(nint)
+  nameWithType: ChallengeChainSubSlot.ChallengeChainSubSlot(nint)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.ChallengeChainSubSlot(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ChallengeChainSubSlot(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.#ctor*
+  nameWithType.vb: ChallengeChainSubSlot.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.Finalize
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: ~ChallengeChainSubSlot()
+  nameWithType: ChallengeChainSubSlot.~ChallengeChainSubSlot()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.~ChallengeChainSubSlot()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~ChallengeChainSubSlot()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.#ctor(ChiaWalletSdk.VdfInfo,System.Byte[],System.Byte[],System.String,System.String)
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.#ctor(ChiaWalletSdk.VdfInfo,System.Byte[],System.Byte[],System.String,System.String)
+  id: '#ctor(ChiaWalletSdk.VdfInfo,System.Byte[],System.Byte[],System.String,System.String)'
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: ChallengeChainSubSlot(VdfInfo, byte[]?, byte[]?, string?, string?)
+  nameWithType: ChallengeChainSubSlot.ChallengeChainSubSlot(VdfInfo, byte[]?, byte[]?, string?, string?)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.ChallengeChainSubSlot(ChiaWalletSdk.VdfInfo, byte[]?, byte[]?, string?, string?)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public ChallengeChainSubSlot(VdfInfo challengeChainEndOfSlotVdf, byte[]? infusedChallengeChainSubSlotHash, byte[]? subepochSummaryHash, string? newSubSlotIters, string? newDifficulty)
+    parameters:
+    - id: challengeChainEndOfSlotVdf
+      type: ChiaWalletSdk.VdfInfo
+    - id: infusedChallengeChainSubSlotHash
+      type: System.Byte[]
+    - id: subepochSummaryHash
+      type: System.Byte[]
+    - id: newSubSlotIters
+      type: System.String
+    - id: newDifficulty
+      type: System.String
+    content.vb: Public Sub New(challengeChainEndOfSlotVdf As VdfInfo, infusedChallengeChainSubSlotHash As Byte(), subepochSummaryHash As Byte(), newSubSlotIters As String, newDifficulty As String)
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.#ctor*
+  nameWithType.vb: ChallengeChainSubSlot.New(VdfInfo, Byte(), Byte(), String, String)
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.New(ChiaWalletSdk.VdfInfo, Byte(), Byte(), String, String)
+  name.vb: New(VdfInfo, Byte(), Byte(), String, String)
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: ChallengeChainSubSlot.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr*
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: ChallengeChainSubSlot.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr*
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.Destroy
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: ChallengeChainSubSlot.Destroy()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.Destroy*
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.Dispose
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ChallengeChainSubSlot.Dispose()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.Dispose*
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  id: GetChallengeChainEndOfSlotVdf
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: GetChallengeChainEndOfSlotVdf()
+  nameWithType: ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public VdfInfo GetChallengeChainEndOfSlotVdf()
+    return:
+      type: ChiaWalletSdk.VdfInfo
+    content.vb: Public Function GetChallengeChainEndOfSlotVdf() As VdfInfo
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  id: GetInfusedChallengeChainSubSlotHash
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: GetInfusedChallengeChainSubSlotHash()
+  nameWithType: ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetInfusedChallengeChainSubSlotHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetInfusedChallengeChainSubSlotHash() As Byte()
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty
+  id: GetNewDifficulty
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: GetNewDifficulty()
+  nameWithType: ChallengeChainSubSlot.GetNewDifficulty()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetNewDifficulty()
+    return:
+      type: System.String
+    content.vb: Public Function GetNewDifficulty() As String
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.GetNewDifficulty
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters
+  id: GetNewSubSlotIters
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: GetNewSubSlotIters()
+  nameWithType: ChallengeChainSubSlot.GetNewSubSlotIters()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public string? GetNewSubSlotIters()
+    return:
+      type: System.String
+    content.vb: Public Function GetNewSubSlotIters() As String
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.GetNewSubSlotIters
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash
+  id: GetSubepochSummaryHash
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: GetSubepochSummaryHash()
+  nameWithType: ChallengeChainSubSlot.GetSubepochSummaryHash()
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[]? GetSubepochSummaryHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetSubepochSummaryHash() As Byte()
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.GetSubepochSummaryHash
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  id: SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: SetChallengeChainEndOfSlotVdf(VdfInfo)
+  nameWithType: ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(VdfInfo)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ChallengeChainSubSlot SetChallengeChainEndOfSlotVdf(VdfInfo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.VdfInfo
+    return:
+      type: ChiaWalletSdk.ChallengeChainSubSlot
+    content.vb: Public Function SetChallengeChainEndOfSlotVdf(value As VdfInfo) As ChallengeChainSubSlot
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  id: SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: SetInfusedChallengeChainSubSlotHash(byte[]?)
+  nameWithType: ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(byte[]?)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ChallengeChainSubSlot SetInfusedChallengeChainSubSlotHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ChallengeChainSubSlot
+    content.vb: Public Function SetInfusedChallengeChainSubSlotHash(value As Byte()) As ChallengeChainSubSlot
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  nameWithType.vb: ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(Byte())
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(Byte())
+  name.vb: SetInfusedChallengeChainSubSlotHash(Byte())
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty(System.String)
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty(System.String)
+  id: SetNewDifficulty(System.String)
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: SetNewDifficulty(string?)
+  nameWithType: ChallengeChainSubSlot.SetNewDifficulty(string?)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ChallengeChainSubSlot SetNewDifficulty(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.ChallengeChainSubSlot
+    content.vb: Public Function SetNewDifficulty(value As String) As ChallengeChainSubSlot
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(System.String)
+  nameWithType.vb: ChallengeChainSubSlot.SetNewDifficulty(String)
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty(String)
+  name.vb: SetNewDifficulty(String)
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+  id: SetNewSubSlotIters(System.String)
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: SetNewSubSlotIters(string?)
+  nameWithType: ChallengeChainSubSlot.SetNewSubSlotIters(string?)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters(string?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ChallengeChainSubSlot SetNewSubSlotIters(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: ChiaWalletSdk.ChallengeChainSubSlot
+    content.vb: Public Function SetNewSubSlotIters(value As String) As ChallengeChainSubSlot
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+  nameWithType.vb: ChallengeChainSubSlot.SetNewSubSlotIters(String)
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters(String)
+  name.vb: SetNewSubSlotIters(String)
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+  id: SetSubepochSummaryHash(System.Byte[])
+  parent: ChiaWalletSdk.ChallengeChainSubSlot
+  langs:
+  - csharp
+  - vb
+  name: SetSubepochSummaryHash(byte[]?)
+  nameWithType: ChallengeChainSubSlot.SetSubepochSummaryHash(byte[]?)
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash(byte[]?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public ChallengeChainSubSlot SetSubepochSummaryHash(byte[]? value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+    return:
+      type: ChiaWalletSdk.ChallengeChainSubSlot
+    content.vb: Public Function SetSubepochSummaryHash(value As Byte()) As ChallengeChainSubSlot
+  overload: ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash*
+  implements:
+  - ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+  nameWithType.vb: ChallengeChainSubSlot.SetSubepochSummaryHash(Byte())
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash(Byte())
+  name.vb: SetSubepochSummaryHash(Byte())
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IChallengeChainSubSlot
+  commentId: T:ChiaWalletSdk.IChallengeChainSubSlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html
+  name: IChallengeChainSubSlot
+  nameWithType: IChallengeChainSubSlot
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.#ctor*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot__ctor_System_IntPtr_
+  name: ChallengeChainSubSlot
+  nameWithType: ChallengeChainSubSlot.ChallengeChainSubSlot
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.ChallengeChainSubSlot
+  nameWithType.vb: ChallengeChainSubSlot.New
+  fullName.vb: ChiaWalletSdk.ChallengeChainSubSlot.New
+  name.vb: New
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.Finalize*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_Finalize
+  name: ~ChallengeChainSubSlot
+  nameWithType: ChallengeChainSubSlot.~ChallengeChainSubSlot
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.~ChallengeChainSubSlot
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.ChallengeChainSubSlot.Finalize*
+    name: ChallengeChainSubSlot
+    isExternal: true
+    href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_Finalize
+- uid: ChiaWalletSdk.VdfInfo
+  commentId: T:ChiaWalletSdk.VdfInfo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.VdfInfo.html
+  name: VdfInfo
+  nameWithType: VdfInfo
+  fullName: ChiaWalletSdk.VdfInfo
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: ChallengeChainSubSlot.FreeRustArcPtr
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.FreeRustArcPtr
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: ChallengeChainSubSlot.CloneRustArcPtr
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.CloneRustArcPtr
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.Destroy*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_Destroy
+  name: Destroy
+  nameWithType: ChallengeChainSubSlot.Destroy
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.Destroy
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.Dispose*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_Dispose
+  name: Dispose
+  nameWithType: ChallengeChainSubSlot.Dispose
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.Dispose
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_GetChallengeChainEndOfSlotVdf
+  name: GetChallengeChainEndOfSlotVdf
+  nameWithType: ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetChallengeChainEndOfSlotVdf
+  name: GetChallengeChainEndOfSlotVdf()
+  nameWithType: IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf()
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+    name: GetChallengeChainEndOfSlotVdf
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetChallengeChainEndOfSlotVdf
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetChallengeChainEndOfSlotVdf
+    name: GetChallengeChainEndOfSlotVdf
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetChallengeChainEndOfSlotVdf
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_GetInfusedChallengeChainSubSlotHash
+  name: GetInfusedChallengeChainSubSlotHash
+  nameWithType: ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetInfusedChallengeChainSubSlotHash
+  name: GetInfusedChallengeChainSubSlotHash()
+  nameWithType: IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash()
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+    name: GetInfusedChallengeChainSubSlotHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetInfusedChallengeChainSubSlotHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetInfusedChallengeChainSubSlotHash
+    name: GetInfusedChallengeChainSubSlotHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetInfusedChallengeChainSubSlotHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_GetNewDifficulty
+  name: GetNewDifficulty
+  nameWithType: ChallengeChainSubSlot.GetNewDifficulty
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetNewDifficulty
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.GetNewDifficulty
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.GetNewDifficulty
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetNewDifficulty
+  name: GetNewDifficulty()
+  nameWithType: IChallengeChainSubSlot.GetNewDifficulty()
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.GetNewDifficulty()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetNewDifficulty
+    name: GetNewDifficulty
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetNewDifficulty
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetNewDifficulty
+    name: GetNewDifficulty
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetNewDifficulty
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_GetNewSubSlotIters
+  name: GetNewSubSlotIters
+  nameWithType: ChallengeChainSubSlot.GetNewSubSlotIters
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetNewSubSlotIters
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.GetNewSubSlotIters
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.GetNewSubSlotIters
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetNewSubSlotIters
+  name: GetNewSubSlotIters()
+  nameWithType: IChallengeChainSubSlot.GetNewSubSlotIters()
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.GetNewSubSlotIters()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetNewSubSlotIters
+    name: GetNewSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetNewSubSlotIters
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetNewSubSlotIters
+    name: GetNewSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetNewSubSlotIters
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_GetSubepochSummaryHash
+  name: GetSubepochSummaryHash
+  nameWithType: ChallengeChainSubSlot.GetSubepochSummaryHash
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.GetSubepochSummaryHash
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.GetSubepochSummaryHash
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.GetSubepochSummaryHash
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetSubepochSummaryHash
+  name: GetSubepochSummaryHash()
+  nameWithType: IChallengeChainSubSlot.GetSubepochSummaryHash()
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.GetSubepochSummaryHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetSubepochSummaryHash
+    name: GetSubepochSummaryHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetSubepochSummaryHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.GetSubepochSummaryHash
+    name: GetSubepochSummaryHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_GetSubepochSummaryHash
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_SetChallengeChainEndOfSlotVdf_ChiaWalletSdk_VdfInfo_
+  name: SetChallengeChainEndOfSlotVdf
+  nameWithType: ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetChallengeChainEndOfSlotVdf_ChiaWalletSdk_VdfInfo_
+  name: SetChallengeChainEndOfSlotVdf(VdfInfo)
+  nameWithType: IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(VdfInfo)
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+    name: SetChallengeChainEndOfSlotVdf
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetChallengeChainEndOfSlotVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetChallengeChainEndOfSlotVdf(ChiaWalletSdk.VdfInfo)
+    name: SetChallengeChainEndOfSlotVdf
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetChallengeChainEndOfSlotVdf_ChiaWalletSdk_VdfInfo_
+  - name: (
+  - uid: ChiaWalletSdk.VdfInfo
+    name: VdfInfo
+    isExternal: true
+    href: ChiaWalletSdk.VdfInfo.html
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot
+  commentId: T:ChiaWalletSdk.ChallengeChainSubSlot
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html
+  name: ChallengeChainSubSlot
+  nameWithType: ChallengeChainSubSlot
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_SetInfusedChallengeChainSubSlotHash_System_Byte___
+  name: SetInfusedChallengeChainSubSlotHash
+  nameWithType: ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetInfusedChallengeChainSubSlotHash_System_Byte___
+  name: SetInfusedChallengeChainSubSlotHash(byte[])
+  nameWithType: IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(byte[])
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(byte[])
+  nameWithType.vb: IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(Byte())
+  fullName.vb: ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(Byte())
+  name.vb: SetInfusedChallengeChainSubSlotHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+    name: SetInfusedChallengeChainSubSlotHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetInfusedChallengeChainSubSlotHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetInfusedChallengeChainSubSlotHash(System.Byte[])
+    name: SetInfusedChallengeChainSubSlotHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetInfusedChallengeChainSubSlotHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_SetNewDifficulty_System_String_
+  name: SetNewDifficulty
+  nameWithType: ChallengeChainSubSlot.SetNewDifficulty
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetNewDifficulty
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(System.String)
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(System.String)
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetNewDifficulty_System_String_
+  name: SetNewDifficulty(string)
+  nameWithType: IChallengeChainSubSlot.SetNewDifficulty(string)
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(string)
+  nameWithType.vb: IChallengeChainSubSlot.SetNewDifficulty(String)
+  fullName.vb: ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(String)
+  name.vb: SetNewDifficulty(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(System.String)
+    name: SetNewDifficulty
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetNewDifficulty_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetNewDifficulty(System.String)
+    name: SetNewDifficulty
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetNewDifficulty_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_SetNewSubSlotIters_System_String_
+  name: SetNewSubSlotIters
+  nameWithType: ChallengeChainSubSlot.SetNewSubSlotIters
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetNewSubSlotIters
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetNewSubSlotIters_System_String_
+  name: SetNewSubSlotIters(string)
+  nameWithType: IChallengeChainSubSlot.SetNewSubSlotIters(string)
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(string)
+  nameWithType.vb: IChallengeChainSubSlot.SetNewSubSlotIters(String)
+  fullName.vb: ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(String)
+  name.vb: SetNewSubSlotIters(String)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+    name: SetNewSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetNewSubSlotIters_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetNewSubSlotIters(System.String)
+    name: SetNewSubSlotIters
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetNewSubSlotIters_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash*
+  commentId: Overload:ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash
+  isExternal: true
+  href: ChiaWalletSdk.ChallengeChainSubSlot.html#ChiaWalletSdk_ChallengeChainSubSlot_SetSubepochSummaryHash_System_Byte___
+  name: SetSubepochSummaryHash
+  nameWithType: ChallengeChainSubSlot.SetSubepochSummaryHash
+  fullName: ChiaWalletSdk.ChallengeChainSubSlot.SetSubepochSummaryHash
+- uid: ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+  commentId: M:ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+  parent: ChiaWalletSdk.IChallengeChainSubSlot
+  isExternal: true
+  href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetSubepochSummaryHash_System_Byte___
+  name: SetSubepochSummaryHash(byte[])
+  nameWithType: IChallengeChainSubSlot.SetSubepochSummaryHash(byte[])
+  fullName: ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(byte[])
+  nameWithType.vb: IChallengeChainSubSlot.SetSubepochSummaryHash(Byte())
+  fullName.vb: ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(Byte())
+  name.vb: SetSubepochSummaryHash(Byte())
+  spec.csharp:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+    name: SetSubepochSummaryHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetSubepochSummaryHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IChallengeChainSubSlot.SetSubepochSummaryHash(System.Byte[])
+    name: SetSubepochSummaryHash
+    isExternal: true
+    href: ChiaWalletSdk.IChallengeChainSubSlot.html#ChiaWalletSdk_IChallengeChainSubSlot_SetSubepochSummaryHash_System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )

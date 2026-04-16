@@ -1,0 +1,680 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.IPeer
+  commentId: T:ChiaWalletSdk.IPeer
+  id: IPeer
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.IPeer.Next
+  - ChiaWalletSdk.IPeer.RemoveCoinSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  - ChiaWalletSdk.IPeer.RequestCoinState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],System.Boolean)
+  - ChiaWalletSdk.IPeer.RequestPuzzleAndSolution(System.Byte[],System.UInt32)
+  - ChiaWalletSdk.IPeer.RequestPuzzleState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],ChiaWalletSdk.CoinStateFilters,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IPeer
+  nameWithType: IPeer
+  fullName: ChiaWalletSdk.IPeer
+  type: Interface
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public interface IPeer
+    content.vb: Public Interface IPeer
+  derivedClasses:
+  - ChiaWalletSdk.Peer
+- uid: ChiaWalletSdk.IPeer.Next
+  commentId: M:ChiaWalletSdk.IPeer.Next
+  id: Next
+  parent: ChiaWalletSdk.IPeer
+  langs:
+  - csharp
+  - vb
+  name: Next()
+  nameWithType: IPeer.Next()
+  fullName: ChiaWalletSdk.IPeer.Next()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<Event?> Next()
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.Event}
+    content.vb: Function [Next]() As Task(Of [Event])
+  overload: ChiaWalletSdk.IPeer.Next*
+- uid: ChiaWalletSdk.IPeer.RemoveCoinSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IPeer.RemoveCoinSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  id: RemoveCoinSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IPeer
+  langs:
+  - csharp
+  - vb
+  name: RemoveCoinSubscriptions(List<byte[]>?)
+  nameWithType: IPeer.RemoveCoinSubscriptions(List<byte[]>?)
+  fullName: ChiaWalletSdk.IPeer.RemoveCoinSubscriptions(System.Collections.Generic.List<byte[]>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<List<byte[]>> RemoveCoinSubscriptions(List<byte[]>? coinIds)
+    parameters:
+    - id: coinIds
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Byte[]}}
+    content.vb: Function RemoveCoinSubscriptions(coinIds As List(Of Byte())) As Task(Of List(Of Byte()))
+  overload: ChiaWalletSdk.IPeer.RemoveCoinSubscriptions*
+  nameWithType.vb: IPeer.RemoveCoinSubscriptions(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IPeer.RemoveCoinSubscriptions(System.Collections.Generic.List(Of Byte()))
+  name.vb: RemoveCoinSubscriptions(List(Of Byte()))
+- uid: ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  commentId: M:ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  id: RemovePuzzleSubscriptions(System.Collections.Generic.List{System.Byte[]})
+  parent: ChiaWalletSdk.IPeer
+  langs:
+  - csharp
+  - vb
+  name: RemovePuzzleSubscriptions(List<byte[]>?)
+  nameWithType: IPeer.RemovePuzzleSubscriptions(List<byte[]>?)
+  fullName: ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions(System.Collections.Generic.List<byte[]>?)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<List<byte[]>> RemovePuzzleSubscriptions(List<byte[]>? puzzleHashes)
+    parameters:
+    - id: puzzleHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Byte[]}}
+    content.vb: Function RemovePuzzleSubscriptions(puzzleHashes As List(Of Byte())) As Task(Of List(Of Byte()))
+  overload: ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions*
+  nameWithType.vb: IPeer.RemovePuzzleSubscriptions(List(Of Byte()))
+  fullName.vb: ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions(System.Collections.Generic.List(Of Byte()))
+  name.vb: RemovePuzzleSubscriptions(List(Of Byte()))
+- uid: ChiaWalletSdk.IPeer.RequestCoinState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],System.Boolean)
+  commentId: M:ChiaWalletSdk.IPeer.RequestCoinState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],System.Boolean)
+  id: RequestCoinState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],System.Boolean)
+  parent: ChiaWalletSdk.IPeer
+  langs:
+  - csharp
+  - vb
+  name: RequestCoinState(List<byte[]>, uint?, byte[], bool)
+  nameWithType: IPeer.RequestCoinState(List<byte[]>, uint?, byte[], bool)
+  fullName: ChiaWalletSdk.IPeer.RequestCoinState(System.Collections.Generic.List<byte[]>, uint?, byte[], bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<RespondCoinState> RequestCoinState(List<byte[]> coinIds, uint? previousHeight, byte[] headerHash, bool subscribe)
+    parameters:
+    - id: coinIds
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: previousHeight
+      type: System.Nullable{System.UInt32}
+    - id: headerHash
+      type: System.Byte[]
+    - id: subscribe
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.RespondCoinState}
+    content.vb: Function RequestCoinState(coinIds As List(Of Byte()), previousHeight As UInteger?, headerHash As Byte(), subscribe As Boolean) As Task(Of RespondCoinState)
+  overload: ChiaWalletSdk.IPeer.RequestCoinState*
+  nameWithType.vb: IPeer.RequestCoinState(List(Of Byte()), UInteger?, Byte(), Boolean)
+  fullName.vb: ChiaWalletSdk.IPeer.RequestCoinState(System.Collections.Generic.List(Of Byte()), UInteger?, Byte(), Boolean)
+  name.vb: RequestCoinState(List(Of Byte()), UInteger?, Byte(), Boolean)
+- uid: ChiaWalletSdk.IPeer.RequestPuzzleAndSolution(System.Byte[],System.UInt32)
+  commentId: M:ChiaWalletSdk.IPeer.RequestPuzzleAndSolution(System.Byte[],System.UInt32)
+  id: RequestPuzzleAndSolution(System.Byte[],System.UInt32)
+  parent: ChiaWalletSdk.IPeer
+  langs:
+  - csharp
+  - vb
+  name: RequestPuzzleAndSolution(byte[], uint)
+  nameWithType: IPeer.RequestPuzzleAndSolution(byte[], uint)
+  fullName: ChiaWalletSdk.IPeer.RequestPuzzleAndSolution(byte[], uint)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<PuzzleSolutionResponse> RequestPuzzleAndSolution(byte[] coinId, uint height)
+    parameters:
+    - id: coinId
+      type: System.Byte[]
+    - id: height
+      type: System.UInt32
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.PuzzleSolutionResponse}
+    content.vb: Function RequestPuzzleAndSolution(coinId As Byte(), height As UInteger) As Task(Of PuzzleSolutionResponse)
+  overload: ChiaWalletSdk.IPeer.RequestPuzzleAndSolution*
+  nameWithType.vb: IPeer.RequestPuzzleAndSolution(Byte(), UInteger)
+  fullName.vb: ChiaWalletSdk.IPeer.RequestPuzzleAndSolution(Byte(), UInteger)
+  name.vb: RequestPuzzleAndSolution(Byte(), UInteger)
+- uid: ChiaWalletSdk.IPeer.RequestPuzzleState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],ChiaWalletSdk.CoinStateFilters,System.Boolean)
+  commentId: M:ChiaWalletSdk.IPeer.RequestPuzzleState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],ChiaWalletSdk.CoinStateFilters,System.Boolean)
+  id: RequestPuzzleState(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Byte[],ChiaWalletSdk.CoinStateFilters,System.Boolean)
+  parent: ChiaWalletSdk.IPeer
+  langs:
+  - csharp
+  - vb
+  name: RequestPuzzleState(List<byte[]>, uint?, byte[], CoinStateFilters, bool)
+  nameWithType: IPeer.RequestPuzzleState(List<byte[]>, uint?, byte[], CoinStateFilters, bool)
+  fullName: ChiaWalletSdk.IPeer.RequestPuzzleState(System.Collections.Generic.List<byte[]>, uint?, byte[], ChiaWalletSdk.CoinStateFilters, bool)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: Task<RespondPuzzleState> RequestPuzzleState(List<byte[]> puzzleHashes, uint? previousHeight, byte[] headerHash, CoinStateFilters filters, bool subscribe)
+    parameters:
+    - id: puzzleHashes
+      type: System.Collections.Generic.List{System.Byte[]}
+    - id: previousHeight
+      type: System.Nullable{System.UInt32}
+    - id: headerHash
+      type: System.Byte[]
+    - id: filters
+      type: ChiaWalletSdk.CoinStateFilters
+    - id: subscribe
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{ChiaWalletSdk.RespondPuzzleState}
+    content.vb: Function RequestPuzzleState(puzzleHashes As List(Of Byte()), previousHeight As UInteger?, headerHash As Byte(), filters As CoinStateFilters, subscribe As Boolean) As Task(Of RespondPuzzleState)
+  overload: ChiaWalletSdk.IPeer.RequestPuzzleState*
+  nameWithType.vb: IPeer.RequestPuzzleState(List(Of Byte()), UInteger?, Byte(), CoinStateFilters, Boolean)
+  fullName.vb: ChiaWalletSdk.IPeer.RequestPuzzleState(System.Collections.Generic.List(Of Byte()), UInteger?, Byte(), ChiaWalletSdk.CoinStateFilters, Boolean)
+  name.vb: RequestPuzzleState(List(Of Byte()), UInteger?, Byte(), CoinStateFilters, Boolean)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: ChiaWalletSdk.IPeer.Next*
+  commentId: Overload:ChiaWalletSdk.IPeer.Next
+  isExternal: true
+  href: ChiaWalletSdk.IPeer.html#ChiaWalletSdk_IPeer_Next
+  name: Next
+  nameWithType: IPeer.Next
+  fullName: ChiaWalletSdk.IPeer.Next
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.Event}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.Event}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.Event.html
+  name: Task<Event>
+  nameWithType: Task<Event>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.Event>
+  nameWithType.vb: Task(Of Event)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.Event)
+  name.vb: Task(Of Event)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.Event
+    name: Event
+    isExternal: true
+    href: ChiaWalletSdk.Event.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.Event
+    name: Event
+    isExternal: true
+    href: ChiaWalletSdk.Event.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: ChiaWalletSdk.IPeer.RemoveCoinSubscriptions*
+  commentId: Overload:ChiaWalletSdk.IPeer.RemoveCoinSubscriptions
+  isExternal: true
+  href: ChiaWalletSdk.IPeer.html#ChiaWalletSdk_IPeer_RemoveCoinSubscriptions_System_Collections_Generic_List_System_Byte____
+  name: RemoveCoinSubscriptions
+  nameWithType: IPeer.RemoveCoinSubscriptions
+  fullName: ChiaWalletSdk.IPeer.RemoveCoinSubscriptions
+- uid: System.Collections.Generic.List{System.Byte[]}
+  commentId: T:System.Collections.Generic.List{System.Byte[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<byte[]>
+  nameWithType: List<byte[]>
+  fullName: System.Collections.Generic.List<byte[]>
+  nameWithType.vb: List(Of Byte())
+  fullName.vb: System.Collections.Generic.List(Of Byte())
+  name.vb: List(Of Byte())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Byte[]}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{System.Byte[]}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<byte[]>>
+  nameWithType: Task<List<byte[]>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<byte[]>>
+  nameWithType.vb: Task(Of List(Of Byte()))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of Byte()))
+  name.vb: Task(Of List(Of Byte()))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions*
+  commentId: Overload:ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions
+  isExternal: true
+  href: ChiaWalletSdk.IPeer.html#ChiaWalletSdk_IPeer_RemovePuzzleSubscriptions_System_Collections_Generic_List_System_Byte____
+  name: RemovePuzzleSubscriptions
+  nameWithType: IPeer.RemovePuzzleSubscriptions
+  fullName: ChiaWalletSdk.IPeer.RemovePuzzleSubscriptions
+- uid: ChiaWalletSdk.IPeer.RequestCoinState*
+  commentId: Overload:ChiaWalletSdk.IPeer.RequestCoinState
+  isExternal: true
+  href: ChiaWalletSdk.IPeer.html#ChiaWalletSdk_IPeer_RequestCoinState_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Byte___System_Boolean_
+  name: RequestCoinState
+  nameWithType: IPeer.RequestCoinState
+  fullName: ChiaWalletSdk.IPeer.RequestCoinState
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  name: uint?
+  nameWithType: uint?
+  fullName: uint?
+  nameWithType.vb: UInteger?
+  fullName.vb: UInteger?
+  name.vb: UInteger?
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: '?'
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.RespondCoinState}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.RespondCoinState}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.RespondCoinState.html
+  name: Task<RespondCoinState>
+  nameWithType: Task<RespondCoinState>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.RespondCoinState>
+  nameWithType.vb: Task(Of RespondCoinState)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.RespondCoinState)
+  name.vb: Task(Of RespondCoinState)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.RespondCoinState
+    name: RespondCoinState
+    isExternal: true
+    href: ChiaWalletSdk.RespondCoinState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.RespondCoinState
+    name: RespondCoinState
+    isExternal: true
+    href: ChiaWalletSdk.RespondCoinState.html
+  - name: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ChiaWalletSdk.IPeer.RequestPuzzleAndSolution*
+  commentId: Overload:ChiaWalletSdk.IPeer.RequestPuzzleAndSolution
+  isExternal: true
+  href: ChiaWalletSdk.IPeer.html#ChiaWalletSdk_IPeer_RequestPuzzleAndSolution_System_Byte___System_UInt32_
+  name: RequestPuzzleAndSolution
+  nameWithType: IPeer.RequestPuzzleAndSolution
+  fullName: ChiaWalletSdk.IPeer.RequestPuzzleAndSolution
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.PuzzleSolutionResponse}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.PuzzleSolutionResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.PuzzleSolutionResponse.html
+  name: Task<PuzzleSolutionResponse>
+  nameWithType: Task<PuzzleSolutionResponse>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.PuzzleSolutionResponse>
+  nameWithType.vb: Task(Of PuzzleSolutionResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.PuzzleSolutionResponse)
+  name.vb: Task(Of PuzzleSolutionResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.PuzzleSolutionResponse
+    name: PuzzleSolutionResponse
+    isExternal: true
+    href: ChiaWalletSdk.PuzzleSolutionResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.PuzzleSolutionResponse
+    name: PuzzleSolutionResponse
+    isExternal: true
+    href: ChiaWalletSdk.PuzzleSolutionResponse.html
+  - name: )
+- uid: ChiaWalletSdk.IPeer.RequestPuzzleState*
+  commentId: Overload:ChiaWalletSdk.IPeer.RequestPuzzleState
+  isExternal: true
+  href: ChiaWalletSdk.IPeer.html#ChiaWalletSdk_IPeer_RequestPuzzleState_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Byte___ChiaWalletSdk_CoinStateFilters_System_Boolean_
+  name: RequestPuzzleState
+  nameWithType: IPeer.RequestPuzzleState
+  fullName: ChiaWalletSdk.IPeer.RequestPuzzleState
+- uid: ChiaWalletSdk.CoinStateFilters
+  commentId: T:ChiaWalletSdk.CoinStateFilters
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.CoinStateFilters.html
+  name: CoinStateFilters
+  nameWithType: CoinStateFilters
+  fullName: ChiaWalletSdk.CoinStateFilters
+- uid: System.Threading.Tasks.Task{ChiaWalletSdk.RespondPuzzleState}
+  commentId: T:System.Threading.Tasks.Task{ChiaWalletSdk.RespondPuzzleState}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: ChiaWalletSdk.RespondPuzzleState.html
+  name: Task<RespondPuzzleState>
+  nameWithType: Task<RespondPuzzleState>
+  fullName: System.Threading.Tasks.Task<ChiaWalletSdk.RespondPuzzleState>
+  nameWithType.vb: Task(Of RespondPuzzleState)
+  fullName.vb: System.Threading.Tasks.Task(Of ChiaWalletSdk.RespondPuzzleState)
+  name.vb: Task(Of RespondPuzzleState)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: ChiaWalletSdk.RespondPuzzleState
+    name: RespondPuzzleState
+    isExternal: true
+    href: ChiaWalletSdk.RespondPuzzleState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ChiaWalletSdk.RespondPuzzleState
+    name: RespondPuzzleState
+    isExternal: true
+    href: ChiaWalletSdk.RespondPuzzleState.html
+  - name: )

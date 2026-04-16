@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: ChiaWalletSdk.MipsMemo
+  commentId: T:ChiaWalletSdk.MipsMemo
+  id: MipsMemo
+  parent: ChiaWalletSdk
+  children:
+  - ChiaWalletSdk.MipsMemo.#ctor(ChiaWalletSdk.InnerPuzzleMemo)
+  - ChiaWalletSdk.MipsMemo.#ctor(System.IntPtr)
+  - ChiaWalletSdk.MipsMemo.CloneRustArcPtr
+  - ChiaWalletSdk.MipsMemo.Destroy
+  - ChiaWalletSdk.MipsMemo.Dispose
+  - ChiaWalletSdk.MipsMemo.Finalize
+  - ChiaWalletSdk.MipsMemo.FreeRustArcPtr
+  - ChiaWalletSdk.MipsMemo.GetInnerPuzzle
+  - ChiaWalletSdk.MipsMemo.InnerPuzzleHash
+  - ChiaWalletSdk.MipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  - ChiaWalletSdk.MipsMemo.pointer
+  langs:
+  - csharp
+  - vb
+  name: MipsMemo
+  nameWithType: MipsMemo
+  fullName: ChiaWalletSdk.MipsMemo
+  type: Class
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: 'public class MipsMemo : IMipsMemo'
+    content.vb: Public Class MipsMemo Implements IMipsMemo
+  inheritance:
+  - System.Object
+  implements:
+  - ChiaWalletSdk.IMipsMemo
+- uid: ChiaWalletSdk.MipsMemo.pointer
+  commentId: F:ChiaWalletSdk.MipsMemo.pointer
+  id: pointer
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: pointer
+  nameWithType: MipsMemo.pointer
+  fullName: ChiaWalletSdk.MipsMemo.pointer
+  type: Field
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint pointer
+    return:
+      type: System.IntPtr
+    content.vb: Protected pointer As IntPtr
+- uid: ChiaWalletSdk.MipsMemo.#ctor(System.IntPtr)
+  commentId: M:ChiaWalletSdk.MipsMemo.#ctor(System.IntPtr)
+  id: '#ctor(System.IntPtr)'
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: MipsMemo(nint)
+  nameWithType: MipsMemo.MipsMemo(nint)
+  fullName: ChiaWalletSdk.MipsMemo.MipsMemo(nint)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public MipsMemo(nint pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    content.vb: Public Sub New(pointer As IntPtr)
+  overload: ChiaWalletSdk.MipsMemo.#ctor*
+  nameWithType.vb: MipsMemo.New(IntPtr)
+  fullName.vb: ChiaWalletSdk.MipsMemo.New(System.IntPtr)
+  name.vb: New(IntPtr)
+- uid: ChiaWalletSdk.MipsMemo.Finalize
+  commentId: M:ChiaWalletSdk.MipsMemo.Finalize
+  id: Finalize
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: ~MipsMemo()
+  nameWithType: MipsMemo.~MipsMemo()
+  fullName: ChiaWalletSdk.MipsMemo.~MipsMemo()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected ~MipsMemo()
+    content.vb: 'Protected '
+  overload: ChiaWalletSdk.MipsMemo.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: ChiaWalletSdk.MipsMemo.#ctor(ChiaWalletSdk.InnerPuzzleMemo)
+  commentId: M:ChiaWalletSdk.MipsMemo.#ctor(ChiaWalletSdk.InnerPuzzleMemo)
+  id: '#ctor(ChiaWalletSdk.InnerPuzzleMemo)'
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: MipsMemo(InnerPuzzleMemo)
+  nameWithType: MipsMemo.MipsMemo(InnerPuzzleMemo)
+  fullName: ChiaWalletSdk.MipsMemo.MipsMemo(ChiaWalletSdk.InnerPuzzleMemo)
+  type: Constructor
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public MipsMemo(InnerPuzzleMemo innerPuzzle)
+    parameters:
+    - id: innerPuzzle
+      type: ChiaWalletSdk.InnerPuzzleMemo
+    content.vb: Public Sub New(innerPuzzle As InnerPuzzleMemo)
+  overload: ChiaWalletSdk.MipsMemo.#ctor*
+  nameWithType.vb: MipsMemo.New(InnerPuzzleMemo)
+  fullName.vb: ChiaWalletSdk.MipsMemo.New(ChiaWalletSdk.InnerPuzzleMemo)
+  name.vb: New(InnerPuzzleMemo)
+- uid: ChiaWalletSdk.MipsMemo.FreeRustArcPtr
+  commentId: M:ChiaWalletSdk.MipsMemo.FreeRustArcPtr
+  id: FreeRustArcPtr
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: FreeRustArcPtr()
+  nameWithType: MipsMemo.FreeRustArcPtr()
+  fullName: ChiaWalletSdk.MipsMemo.FreeRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected void FreeRustArcPtr()
+    content.vb: Protected Sub FreeRustArcPtr()
+  overload: ChiaWalletSdk.MipsMemo.FreeRustArcPtr*
+- uid: ChiaWalletSdk.MipsMemo.CloneRustArcPtr
+  commentId: M:ChiaWalletSdk.MipsMemo.CloneRustArcPtr
+  id: CloneRustArcPtr
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: CloneRustArcPtr()
+  nameWithType: MipsMemo.CloneRustArcPtr()
+  fullName: ChiaWalletSdk.MipsMemo.CloneRustArcPtr()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: protected nint CloneRustArcPtr()
+    return:
+      type: System.IntPtr
+    content.vb: Protected Function CloneRustArcPtr() As IntPtr
+  overload: ChiaWalletSdk.MipsMemo.CloneRustArcPtr*
+- uid: ChiaWalletSdk.MipsMemo.Destroy
+  commentId: M:ChiaWalletSdk.MipsMemo.Destroy
+  id: Destroy
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: MipsMemo.Destroy()
+  fullName: ChiaWalletSdk.MipsMemo.Destroy()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy()
+  overload: ChiaWalletSdk.MipsMemo.Destroy*
+- uid: ChiaWalletSdk.MipsMemo.Dispose
+  commentId: M:ChiaWalletSdk.MipsMemo.Dispose
+  id: Dispose
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MipsMemo.Dispose()
+  fullName: ChiaWalletSdk.MipsMemo.Dispose()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ChiaWalletSdk.MipsMemo.Dispose*
+- uid: ChiaWalletSdk.MipsMemo.GetInnerPuzzle
+  commentId: M:ChiaWalletSdk.MipsMemo.GetInnerPuzzle
+  id: GetInnerPuzzle
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: GetInnerPuzzle()
+  nameWithType: MipsMemo.GetInnerPuzzle()
+  fullName: ChiaWalletSdk.MipsMemo.GetInnerPuzzle()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public InnerPuzzleMemo GetInnerPuzzle()
+    return:
+      type: ChiaWalletSdk.InnerPuzzleMemo
+    content.vb: Public Function GetInnerPuzzle() As InnerPuzzleMemo
+  overload: ChiaWalletSdk.MipsMemo.GetInnerPuzzle*
+  implements:
+  - ChiaWalletSdk.IMipsMemo.GetInnerPuzzle
+- uid: ChiaWalletSdk.MipsMemo.InnerPuzzleHash
+  commentId: M:ChiaWalletSdk.MipsMemo.InnerPuzzleHash
+  id: InnerPuzzleHash
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: InnerPuzzleHash()
+  nameWithType: MipsMemo.InnerPuzzleHash()
+  fullName: ChiaWalletSdk.MipsMemo.InnerPuzzleHash()
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public byte[] InnerPuzzleHash()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function InnerPuzzleHash() As Byte()
+  overload: ChiaWalletSdk.MipsMemo.InnerPuzzleHash*
+  implements:
+  - ChiaWalletSdk.IMipsMemo.InnerPuzzleHash
+- uid: ChiaWalletSdk.MipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  commentId: M:ChiaWalletSdk.MipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  id: SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  parent: ChiaWalletSdk.MipsMemo
+  langs:
+  - csharp
+  - vb
+  name: SetInnerPuzzle(InnerPuzzleMemo)
+  nameWithType: MipsMemo.SetInnerPuzzle(InnerPuzzleMemo)
+  fullName: ChiaWalletSdk.MipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  type: Method
+  assemblies:
+  - ChiaWalletSdk
+  namespace: ChiaWalletSdk
+  example: []
+  syntax:
+    content: public MipsMemo SetInnerPuzzle(InnerPuzzleMemo value)
+    parameters:
+    - id: value
+      type: ChiaWalletSdk.InnerPuzzleMemo
+    return:
+      type: ChiaWalletSdk.MipsMemo
+    content.vb: Public Function SetInnerPuzzle(value As InnerPuzzleMemo) As MipsMemo
+  overload: ChiaWalletSdk.MipsMemo.SetInnerPuzzle*
+  implements:
+  - ChiaWalletSdk.IMipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+references:
+- uid: ChiaWalletSdk
+  commentId: N:ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.html
+  name: ChiaWalletSdk
+  nameWithType: ChiaWalletSdk
+  fullName: ChiaWalletSdk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ChiaWalletSdk.IMipsMemo
+  commentId: T:ChiaWalletSdk.IMipsMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.IMipsMemo.html
+  name: IMipsMemo
+  nameWithType: IMipsMemo
+  fullName: ChiaWalletSdk.IMipsMemo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: ChiaWalletSdk.MipsMemo.#ctor*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.#ctor
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo__ctor_System_IntPtr_
+  name: MipsMemo
+  nameWithType: MipsMemo.MipsMemo
+  fullName: ChiaWalletSdk.MipsMemo.MipsMemo
+  nameWithType.vb: MipsMemo.New
+  fullName.vb: ChiaWalletSdk.MipsMemo.New
+  name.vb: New
+- uid: ChiaWalletSdk.MipsMemo.Finalize*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.Finalize
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_Finalize
+  name: ~MipsMemo
+  nameWithType: MipsMemo.~MipsMemo
+  fullName: ChiaWalletSdk.MipsMemo.~MipsMemo
+  spec.csharp:
+  - name: "~"
+  - uid: ChiaWalletSdk.MipsMemo.Finalize*
+    name: MipsMemo
+    isExternal: true
+    href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_Finalize
+- uid: ChiaWalletSdk.InnerPuzzleMemo
+  commentId: T:ChiaWalletSdk.InnerPuzzleMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.InnerPuzzleMemo.html
+  name: InnerPuzzleMemo
+  nameWithType: InnerPuzzleMemo
+  fullName: ChiaWalletSdk.InnerPuzzleMemo
+- uid: ChiaWalletSdk.MipsMemo.FreeRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.FreeRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_FreeRustArcPtr
+  name: FreeRustArcPtr
+  nameWithType: MipsMemo.FreeRustArcPtr
+  fullName: ChiaWalletSdk.MipsMemo.FreeRustArcPtr
+- uid: ChiaWalletSdk.MipsMemo.CloneRustArcPtr*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.CloneRustArcPtr
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_CloneRustArcPtr
+  name: CloneRustArcPtr
+  nameWithType: MipsMemo.CloneRustArcPtr
+  fullName: ChiaWalletSdk.MipsMemo.CloneRustArcPtr
+- uid: ChiaWalletSdk.MipsMemo.Destroy*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.Destroy
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_Destroy
+  name: Destroy
+  nameWithType: MipsMemo.Destroy
+  fullName: ChiaWalletSdk.MipsMemo.Destroy
+- uid: ChiaWalletSdk.MipsMemo.Dispose*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.Dispose
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_Dispose
+  name: Dispose
+  nameWithType: MipsMemo.Dispose
+  fullName: ChiaWalletSdk.MipsMemo.Dispose
+- uid: ChiaWalletSdk.MipsMemo.GetInnerPuzzle*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.GetInnerPuzzle
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_GetInnerPuzzle
+  name: GetInnerPuzzle
+  nameWithType: MipsMemo.GetInnerPuzzle
+  fullName: ChiaWalletSdk.MipsMemo.GetInnerPuzzle
+- uid: ChiaWalletSdk.IMipsMemo.GetInnerPuzzle
+  commentId: M:ChiaWalletSdk.IMipsMemo.GetInnerPuzzle
+  parent: ChiaWalletSdk.IMipsMemo
+  isExternal: true
+  href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_GetInnerPuzzle
+  name: GetInnerPuzzle()
+  nameWithType: IMipsMemo.GetInnerPuzzle()
+  fullName: ChiaWalletSdk.IMipsMemo.GetInnerPuzzle()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMipsMemo.GetInnerPuzzle
+    name: GetInnerPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_GetInnerPuzzle
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMipsMemo.GetInnerPuzzle
+    name: GetInnerPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_GetInnerPuzzle
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MipsMemo.InnerPuzzleHash*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.InnerPuzzleHash
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_InnerPuzzleHash
+  name: InnerPuzzleHash
+  nameWithType: MipsMemo.InnerPuzzleHash
+  fullName: ChiaWalletSdk.MipsMemo.InnerPuzzleHash
+- uid: ChiaWalletSdk.IMipsMemo.InnerPuzzleHash
+  commentId: M:ChiaWalletSdk.IMipsMemo.InnerPuzzleHash
+  parent: ChiaWalletSdk.IMipsMemo
+  isExternal: true
+  href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_InnerPuzzleHash
+  name: InnerPuzzleHash()
+  nameWithType: IMipsMemo.InnerPuzzleHash()
+  fullName: ChiaWalletSdk.IMipsMemo.InnerPuzzleHash()
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMipsMemo.InnerPuzzleHash
+    name: InnerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_InnerPuzzleHash
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMipsMemo.InnerPuzzleHash
+    name: InnerPuzzleHash
+    isExternal: true
+    href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_InnerPuzzleHash
+  - name: (
+  - name: )
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ChiaWalletSdk.MipsMemo.SetInnerPuzzle*
+  commentId: Overload:ChiaWalletSdk.MipsMemo.SetInnerPuzzle
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html#ChiaWalletSdk_MipsMemo_SetInnerPuzzle_ChiaWalletSdk_InnerPuzzleMemo_
+  name: SetInnerPuzzle
+  nameWithType: MipsMemo.SetInnerPuzzle
+  fullName: ChiaWalletSdk.MipsMemo.SetInnerPuzzle
+- uid: ChiaWalletSdk.IMipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  commentId: M:ChiaWalletSdk.IMipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  parent: ChiaWalletSdk.IMipsMemo
+  isExternal: true
+  href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_SetInnerPuzzle_ChiaWalletSdk_InnerPuzzleMemo_
+  name: SetInnerPuzzle(InnerPuzzleMemo)
+  nameWithType: IMipsMemo.SetInnerPuzzle(InnerPuzzleMemo)
+  fullName: ChiaWalletSdk.IMipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+  spec.csharp:
+  - uid: ChiaWalletSdk.IMipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+    name: SetInnerPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_SetInnerPuzzle_ChiaWalletSdk_InnerPuzzleMemo_
+  - name: (
+  - uid: ChiaWalletSdk.InnerPuzzleMemo
+    name: InnerPuzzleMemo
+    isExternal: true
+    href: ChiaWalletSdk.InnerPuzzleMemo.html
+  - name: )
+  spec.vb:
+  - uid: ChiaWalletSdk.IMipsMemo.SetInnerPuzzle(ChiaWalletSdk.InnerPuzzleMemo)
+    name: SetInnerPuzzle
+    isExternal: true
+    href: ChiaWalletSdk.IMipsMemo.html#ChiaWalletSdk_IMipsMemo_SetInnerPuzzle_ChiaWalletSdk_InnerPuzzleMemo_
+  - name: (
+  - uid: ChiaWalletSdk.InnerPuzzleMemo
+    name: InnerPuzzleMemo
+    isExternal: true
+    href: ChiaWalletSdk.InnerPuzzleMemo.html
+  - name: )
+- uid: ChiaWalletSdk.MipsMemo
+  commentId: T:ChiaWalletSdk.MipsMemo
+  parent: ChiaWalletSdk
+  isExternal: true
+  href: ChiaWalletSdk.MipsMemo.html
+  name: MipsMemo
+  nameWithType: MipsMemo
+  fullName: ChiaWalletSdk.MipsMemo
