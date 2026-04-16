@@ -1,0 +1,6482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IClvm | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IClvm | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.IClvm">
+
+
+
+  <h1 id="ChiaWalletSdk_IClvm" data-uid="ChiaWalletSdk.IClvm" class="text-break">
+Interface IClvm  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IClvm</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_IClvm_AcsTransferProgram_" data-uid="ChiaWalletSdk.IClvm.AcsTransferProgram*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AcsTransferProgram" data-uid="ChiaWalletSdk.IClvm.AcsTransferProgram">
+  AcsTransferProgram()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AcsTransferProgram()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AddCoinSpend_" data-uid="ChiaWalletSdk.IClvm.AddCoinSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AddCoinSpend_ChiaWalletSdk_CoinSpend_" data-uid="ChiaWalletSdk.IClvm.AddCoinSpend(ChiaWalletSdk.CoinSpend)">
+  AddCoinSpend(CoinSpend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddCoinSpend(CoinSpend coinSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinSpend</code> <a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AddDelegatedPuzzleWrapper_" data-uid="ChiaWalletSdk.IClvm.AddDelegatedPuzzleWrapper*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AddDelegatedPuzzleWrapper" data-uid="ChiaWalletSdk.IClvm.AddDelegatedPuzzleWrapper">
+  AddDelegatedPuzzleWrapper()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AddDelegatedPuzzleWrapper()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigAmount_" data-uid="ChiaWalletSdk.IClvm.AggSigAmount*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigAmount_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigAmount(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigAmount(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigAmount(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigMe_" data-uid="ChiaWalletSdk.IClvm.AggSigMe*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigMe_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigMe(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigMe(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigMe(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigParent_" data-uid="ChiaWalletSdk.IClvm.AggSigParent*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigParent_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigParent(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigParent(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigParent(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigParentAmount_" data-uid="ChiaWalletSdk.IClvm.AggSigParentAmount*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigParentAmount_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigParentAmount(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigParentAmount(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigParentAmount(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigParentPuzzle_" data-uid="ChiaWalletSdk.IClvm.AggSigParentPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigParentPuzzle_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigParentPuzzle(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigParentPuzzle(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigParentPuzzle(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigPuzzle_" data-uid="ChiaWalletSdk.IClvm.AggSigPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigPuzzle_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigPuzzle(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigPuzzle(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigPuzzle(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigPuzzleAmount_" data-uid="ChiaWalletSdk.IClvm.AggSigPuzzleAmount*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigPuzzleAmount_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigPuzzleAmount(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigPuzzleAmount(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigPuzzleAmount(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AggSigUnsafe_" data-uid="ChiaWalletSdk.IClvm.AggSigUnsafe*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AggSigUnsafe_ChiaWalletSdk_PublicKey_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AggSigUnsafe(ChiaWalletSdk.PublicKey,System.Byte[])">
+  AggSigUnsafe(PublicKey, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AggSigUnsafe(PublicKey publicKey, byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publicKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Alloc_" data-uid="ChiaWalletSdk.IClvm.Alloc*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Alloc_ChiaWalletSdk_ClvmType_" data-uid="ChiaWalletSdk.IClvm.Alloc(ChiaWalletSdk.ClvmType)">
+  Alloc(ClvmType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Alloc(ClvmType value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.ClvmType.html">ClvmType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertBeforeHeightAbsolute_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeHeightAbsolute*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertBeforeHeightAbsolute_System_UInt32_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeHeightAbsolute(System.UInt32)">
+  AssertBeforeHeightAbsolute(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertBeforeHeightAbsolute(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertBeforeHeightRelative_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeHeightRelative*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertBeforeHeightRelative_System_UInt32_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeHeightRelative(System.UInt32)">
+  AssertBeforeHeightRelative(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertBeforeHeightRelative(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertBeforeSecondsAbsolute_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeSecondsAbsolute*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertBeforeSecondsAbsolute_System_String_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeSecondsAbsolute(System.String)">
+  AssertBeforeSecondsAbsolute(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertBeforeSecondsAbsolute(string seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seconds</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertBeforeSecondsRelative_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeSecondsRelative*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertBeforeSecondsRelative_System_String_" data-uid="ChiaWalletSdk.IClvm.AssertBeforeSecondsRelative(System.String)">
+  AssertBeforeSecondsRelative(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertBeforeSecondsRelative(string seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seconds</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertCoinAnnouncement_" data-uid="ChiaWalletSdk.IClvm.AssertCoinAnnouncement*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertCoinAnnouncement_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertCoinAnnouncement(System.Byte[])">
+  AssertCoinAnnouncement(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertCoinAnnouncement(byte[] announcementId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>announcementId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertConcurrentPuzzle_" data-uid="ChiaWalletSdk.IClvm.AssertConcurrentPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertConcurrentPuzzle_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertConcurrentPuzzle(System.Byte[])">
+  AssertConcurrentPuzzle(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertConcurrentPuzzle(byte[] puzzleHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertConcurrentSpend_" data-uid="ChiaWalletSdk.IClvm.AssertConcurrentSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertConcurrentSpend_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertConcurrentSpend(System.Byte[])">
+  AssertConcurrentSpend(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertConcurrentSpend(byte[] coinId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertEphemeral_" data-uid="ChiaWalletSdk.IClvm.AssertEphemeral*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertEphemeral" data-uid="ChiaWalletSdk.IClvm.AssertEphemeral">
+  AssertEphemeral()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertEphemeral()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertHeightAbsolute_" data-uid="ChiaWalletSdk.IClvm.AssertHeightAbsolute*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertHeightAbsolute_System_UInt32_" data-uid="ChiaWalletSdk.IClvm.AssertHeightAbsolute(System.UInt32)">
+  AssertHeightAbsolute(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertHeightAbsolute(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertHeightRelative_" data-uid="ChiaWalletSdk.IClvm.AssertHeightRelative*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertHeightRelative_System_UInt32_" data-uid="ChiaWalletSdk.IClvm.AssertHeightRelative(System.UInt32)">
+  AssertHeightRelative(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertHeightRelative(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertMyAmount_" data-uid="ChiaWalletSdk.IClvm.AssertMyAmount*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertMyAmount_System_String_" data-uid="ChiaWalletSdk.IClvm.AssertMyAmount(System.String)">
+  AssertMyAmount(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertMyAmount(string amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertMyBirthHeight_" data-uid="ChiaWalletSdk.IClvm.AssertMyBirthHeight*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertMyBirthHeight_System_UInt32_" data-uid="ChiaWalletSdk.IClvm.AssertMyBirthHeight(System.UInt32)">
+  AssertMyBirthHeight(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertMyBirthHeight(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertMyBirthSeconds_" data-uid="ChiaWalletSdk.IClvm.AssertMyBirthSeconds*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertMyBirthSeconds_System_String_" data-uid="ChiaWalletSdk.IClvm.AssertMyBirthSeconds(System.String)">
+  AssertMyBirthSeconds(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertMyBirthSeconds(string seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seconds</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertMyCoinId_" data-uid="ChiaWalletSdk.IClvm.AssertMyCoinId*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertMyCoinId_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertMyCoinId(System.Byte[])">
+  AssertMyCoinId(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertMyCoinId(byte[] coinId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertMyParentId_" data-uid="ChiaWalletSdk.IClvm.AssertMyParentId*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertMyParentId_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertMyParentId(System.Byte[])">
+  AssertMyParentId(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertMyParentId(byte[] parentId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertMyPuzzleHash_" data-uid="ChiaWalletSdk.IClvm.AssertMyPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertMyPuzzleHash_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertMyPuzzleHash(System.Byte[])">
+  AssertMyPuzzleHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertMyPuzzleHash(byte[] puzzleHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertPuzzleAnnouncement_" data-uid="ChiaWalletSdk.IClvm.AssertPuzzleAnnouncement*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertPuzzleAnnouncement_System_Byte___" data-uid="ChiaWalletSdk.IClvm.AssertPuzzleAnnouncement(System.Byte[])">
+  AssertPuzzleAnnouncement(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertPuzzleAnnouncement(byte[] announcementId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>announcementId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertSecondsAbsolute_" data-uid="ChiaWalletSdk.IClvm.AssertSecondsAbsolute*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertSecondsAbsolute_System_String_" data-uid="ChiaWalletSdk.IClvm.AssertSecondsAbsolute(System.String)">
+  AssertSecondsAbsolute(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertSecondsAbsolute(string seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seconds</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AssertSecondsRelative_" data-uid="ChiaWalletSdk.IClvm.AssertSecondsRelative*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AssertSecondsRelative_System_String_" data-uid="ChiaWalletSdk.IClvm.AssertSecondsRelative(System.String)">
+  AssertSecondsRelative(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AssertSecondsRelative(string seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seconds</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Atom_" data-uid="ChiaWalletSdk.IClvm.Atom*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Atom_System_Byte___" data-uid="ChiaWalletSdk.IClvm.Atom(System.Byte[])">
+  Atom(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Atom(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_AugmentedCondition_" data-uid="ChiaWalletSdk.IClvm.AugmentedCondition*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_AugmentedCondition" data-uid="ChiaWalletSdk.IClvm.AugmentedCondition">
+  AugmentedCondition()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program AugmentedCondition()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_BlockProgramZero_" data-uid="ChiaWalletSdk.IClvm.BlockProgramZero*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_BlockProgramZero" data-uid="ChiaWalletSdk.IClvm.BlockProgramZero">
+  BlockProgramZero()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program BlockProgramZero()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_BlsMember_" data-uid="ChiaWalletSdk.IClvm.BlsMember*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_BlsMember" data-uid="ChiaWalletSdk.IClvm.BlsMember">
+  BlsMember()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program BlsMember()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_BlsTaprootMember_" data-uid="ChiaWalletSdk.IClvm.BlsTaprootMember*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_BlsTaprootMember" data-uid="ChiaWalletSdk.IClvm.BlsTaprootMember">
+  BlsTaprootMember()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program BlsTaprootMember()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Bool_" data-uid="ChiaWalletSdk.IClvm.Bool*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Bool_System_Boolean_" data-uid="ChiaWalletSdk.IClvm.Bool(System.Boolean)">
+  Bool(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Bool(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_BoundCheckedNumber_" data-uid="ChiaWalletSdk.IClvm.BoundCheckedNumber*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_BoundCheckedNumber_System_Double_" data-uid="ChiaWalletSdk.IClvm.BoundCheckedNumber(System.Double)">
+  BoundCheckedNumber(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program BoundCheckedNumber(double value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">double</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Cache_" data-uid="ChiaWalletSdk.IClvm.Cache*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Cache_System_Byte___System_Byte___" data-uid="ChiaWalletSdk.IClvm.Cache(System.Byte[],System.Byte[])">
+  Cache(byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Cache(byte[] modHash, byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CatPuzzle_" data-uid="ChiaWalletSdk.IClvm.CatPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CatPuzzle" data-uid="ChiaWalletSdk.IClvm.CatPuzzle">
+  CatPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CatPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ChialispDeserialisation_" data-uid="ChiaWalletSdk.IClvm.ChialispDeserialisation*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ChialispDeserialisation" data-uid="ChiaWalletSdk.IClvm.ChialispDeserialisation">
+  ChialispDeserialisation()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ChialispDeserialisation()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CoinSpends_" data-uid="ChiaWalletSdk.IClvm.CoinSpends*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CoinSpends" data-uid="ChiaWalletSdk.IClvm.CoinSpends">
+  CoinSpends()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;CoinSpend&gt; CoinSpends()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ConditionsWFeeAnnounce_" data-uid="ChiaWalletSdk.IClvm.ConditionsWFeeAnnounce*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ConditionsWFeeAnnounce" data-uid="ChiaWalletSdk.IClvm.ConditionsWFeeAnnounce">
+  ConditionsWFeeAnnounce()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ConditionsWFeeAnnounce()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CovenantLayer_" data-uid="ChiaWalletSdk.IClvm.CovenantLayer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CovenantLayer" data-uid="ChiaWalletSdk.IClvm.CovenantLayer">
+  CovenantLayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CovenantLayer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreateBulletin_" data-uid="ChiaWalletSdk.IClvm.CreateBulletin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreateBulletin_System_Byte___System_Byte___System_Collections_Generic_List_ChiaWalletSdk_BulletinMessage__" data-uid="ChiaWalletSdk.IClvm.CreateBulletin(System.Byte[],System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.BulletinMessage})">
+  CreateBulletin(byte[], byte[], List&lt;BulletinMessage&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CreatedBulletin CreateBulletin(byte[] parentCoinId, byte[] hiddenPuzzleHash, List&lt;BulletinMessage&gt; messages)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentCoinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>hiddenPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>messages</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.BulletinMessage.html">BulletinMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.CreatedBulletin.html">CreatedBulletin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreateCoin_" data-uid="ChiaWalletSdk.IClvm.CreateCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreateCoin_System_Byte___System_String_ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.CreateCoin(System.Byte[],System.String,ChiaWalletSdk.Program)">
+  CreateCoin(byte[], string, Program?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CreateCoin(byte[] puzzleHash, string amount, Program? memos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>amount</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>memos</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreateCoinAnnouncement_" data-uid="ChiaWalletSdk.IClvm.CreateCoinAnnouncement*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreateCoinAnnouncement_System_Byte___" data-uid="ChiaWalletSdk.IClvm.CreateCoinAnnouncement(System.Byte[])">
+  CreateCoinAnnouncement(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CreateCoinAnnouncement(byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreateEveDid_" data-uid="ChiaWalletSdk.IClvm.CreateEveDid*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreateEveDid_System_Byte___System_Byte___" data-uid="ChiaWalletSdk.IClvm.CreateEveDid(System.Byte[],System.Byte[])">
+  CreateEveDid(byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CreatedDid CreateEveDid(byte[] parentCoinId, byte[] p2PuzzleHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentCoinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>p2PuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.CreatedDid.html">CreatedDid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreateNftLauncherFromDid_" data-uid="ChiaWalletSdk.IClvm.CreateNftLauncherFromDid*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreateNftLauncherFromDid" data-uid="ChiaWalletSdk.IClvm.CreateNftLauncherFromDid">
+  CreateNftLauncherFromDid()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CreateNftLauncherFromDid()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreateOfferSecurityCoin_" data-uid="ChiaWalletSdk.IClvm.CreateOfferSecurityCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreateOfferSecurityCoin_ChiaWalletSdk_SpendBundle_" data-uid="ChiaWalletSdk.IClvm.CreateOfferSecurityCoin(ChiaWalletSdk.SpendBundle)">
+  CreateOfferSecurityCoin(SpendBundle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">OfferSecurityCoinDetails CreateOfferSecurityCoin(SpendBundle offer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offer</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.OfferSecurityCoinDetails.html">OfferSecurityCoinDetails</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CreatePuzzleAnnouncement_" data-uid="ChiaWalletSdk.IClvm.CreatePuzzleAnnouncement*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CreatePuzzleAnnouncement_System_Byte___" data-uid="ChiaWalletSdk.IClvm.CreatePuzzleAnnouncement(System.Byte[])">
+  CreatePuzzleAnnouncement(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CreatePuzzleAnnouncement(byte[] message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_CredentialRestriction_" data-uid="ChiaWalletSdk.IClvm.CredentialRestriction*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_CredentialRestriction" data-uid="ChiaWalletSdk.IClvm.CredentialRestriction">
+  CredentialRestriction()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program CredentialRestriction()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoCatEve_" data-uid="ChiaWalletSdk.IClvm.DaoCatEve*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoCatEve" data-uid="ChiaWalletSdk.IClvm.DaoCatEve">
+  DaoCatEve()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoCatEve()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoCatLauncher_" data-uid="ChiaWalletSdk.IClvm.DaoCatLauncher*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoCatLauncher" data-uid="ChiaWalletSdk.IClvm.DaoCatLauncher">
+  DaoCatLauncher()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoCatLauncher()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoFinishedState_" data-uid="ChiaWalletSdk.IClvm.DaoFinishedState*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoFinishedState" data-uid="ChiaWalletSdk.IClvm.DaoFinishedState">
+  DaoFinishedState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoFinishedState()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoLockup_" data-uid="ChiaWalletSdk.IClvm.DaoLockup*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoLockup" data-uid="ChiaWalletSdk.IClvm.DaoLockup">
+  DaoLockup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoLockup()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoProposal_" data-uid="ChiaWalletSdk.IClvm.DaoProposal*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoProposal" data-uid="ChiaWalletSdk.IClvm.DaoProposal">
+  DaoProposal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoProposal()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoProposalTimer_" data-uid="ChiaWalletSdk.IClvm.DaoProposalTimer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoProposalTimer" data-uid="ChiaWalletSdk.IClvm.DaoProposalTimer">
+  DaoProposalTimer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoProposalTimer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoProposalValidator_" data-uid="ChiaWalletSdk.IClvm.DaoProposalValidator*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoProposalValidator" data-uid="ChiaWalletSdk.IClvm.DaoProposalValidator">
+  DaoProposalValidator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoProposalValidator()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoSpendP2Singleton_" data-uid="ChiaWalletSdk.IClvm.DaoSpendP2Singleton*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoSpendP2Singleton" data-uid="ChiaWalletSdk.IClvm.DaoSpendP2Singleton">
+  DaoSpendP2Singleton()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoSpendP2Singleton()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoTreasury_" data-uid="ChiaWalletSdk.IClvm.DaoTreasury*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoTreasury" data-uid="ChiaWalletSdk.IClvm.DaoTreasury">
+  DaoTreasury()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoTreasury()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DaoUpdateProposal_" data-uid="ChiaWalletSdk.IClvm.DaoUpdateProposal*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DaoUpdateProposal" data-uid="ChiaWalletSdk.IClvm.DaoUpdateProposal">
+  DaoUpdateProposal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DaoUpdateProposal()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DecompressCoinSpendEntry_" data-uid="ChiaWalletSdk.IClvm.DecompressCoinSpendEntry*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DecompressCoinSpendEntry" data-uid="ChiaWalletSdk.IClvm.DecompressCoinSpendEntry">
+  DecompressCoinSpendEntry()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DecompressCoinSpendEntry()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DecompressCoinSpendEntryWithPrefix_" data-uid="ChiaWalletSdk.IClvm.DecompressCoinSpendEntryWithPrefix*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DecompressCoinSpendEntryWithPrefix" data-uid="ChiaWalletSdk.IClvm.DecompressCoinSpendEntryWithPrefix">
+  DecompressCoinSpendEntryWithPrefix()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DecompressCoinSpendEntryWithPrefix()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DecompressPuzzle_" data-uid="ChiaWalletSdk.IClvm.DecompressPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DecompressPuzzle" data-uid="ChiaWalletSdk.IClvm.DecompressPuzzle">
+  DecompressPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DecompressPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DelegatedPuzzleFeeder_" data-uid="ChiaWalletSdk.IClvm.DelegatedPuzzleFeeder*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DelegatedPuzzleFeeder" data-uid="ChiaWalletSdk.IClvm.DelegatedPuzzleFeeder">
+  DelegatedPuzzleFeeder()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DelegatedPuzzleFeeder()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DelegatedSpend_" data-uid="ChiaWalletSdk.IClvm.DelegatedSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DelegatedSpend_System_Collections_Generic_List_ChiaWalletSdk_Program__" data-uid="ChiaWalletSdk.IClvm.DelegatedSpend(System.Collections.Generic.List{ChiaWalletSdk.Program})">
+  DelegatedSpend(List&lt;Program&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Spend DelegatedSpend(List&lt;Program&gt; conditions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conditions</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Program.html">Program</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DelegatedTail_" data-uid="ChiaWalletSdk.IClvm.DelegatedTail*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DelegatedTail" data-uid="ChiaWalletSdk.IClvm.DelegatedTail">
+  DelegatedTail()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DelegatedTail()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Deserialize_" data-uid="ChiaWalletSdk.IClvm.Deserialize*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Deserialize_System_Byte___" data-uid="ChiaWalletSdk.IClvm.Deserialize(System.Byte[])">
+  Deserialize(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Deserialize(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DeserializeWithBackrefs_" data-uid="ChiaWalletSdk.IClvm.DeserializeWithBackrefs*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DeserializeWithBackrefs_System_Byte___" data-uid="ChiaWalletSdk.IClvm.DeserializeWithBackrefs(System.Byte[])">
+  DeserializeWithBackrefs(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DeserializeWithBackrefs(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_DidInnerpuzzle_" data-uid="ChiaWalletSdk.IClvm.DidInnerpuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_DidInnerpuzzle" data-uid="ChiaWalletSdk.IClvm.DidInnerpuzzle">
+  DidInnerpuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program DidInnerpuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_EmlCovenantMorpher_" data-uid="ChiaWalletSdk.IClvm.EmlCovenantMorpher*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_EmlCovenantMorpher" data-uid="ChiaWalletSdk.IClvm.EmlCovenantMorpher">
+  EmlCovenantMorpher()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program EmlCovenantMorpher()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_EmlTransferProgramCovenantAdapter_" data-uid="ChiaWalletSdk.IClvm.EmlTransferProgramCovenantAdapter*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_EmlTransferProgramCovenantAdapter" data-uid="ChiaWalletSdk.IClvm.EmlTransferProgramCovenantAdapter">
+  EmlTransferProgramCovenantAdapter()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program EmlTransferProgramCovenantAdapter()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_EmlUpdateMetadataWithDid_" data-uid="ChiaWalletSdk.IClvm.EmlUpdateMetadataWithDid*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_EmlUpdateMetadataWithDid" data-uid="ChiaWalletSdk.IClvm.EmlUpdateMetadataWithDid">
+  EmlUpdateMetadataWithDid()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program EmlUpdateMetadataWithDid()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_EnforceDelegatedPuzzleWrappers_" data-uid="ChiaWalletSdk.IClvm.EnforceDelegatedPuzzleWrappers*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_EnforceDelegatedPuzzleWrappers" data-uid="ChiaWalletSdk.IClvm.EnforceDelegatedPuzzleWrappers">
+  EnforceDelegatedPuzzleWrappers()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program EnforceDelegatedPuzzleWrappers()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_EverythingWithSignature_" data-uid="ChiaWalletSdk.IClvm.EverythingWithSignature*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_EverythingWithSignature" data-uid="ChiaWalletSdk.IClvm.EverythingWithSignature">
+  EverythingWithSignature()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program EverythingWithSignature()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ExigentMetadataLayer_" data-uid="ChiaWalletSdk.IClvm.ExigentMetadataLayer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ExigentMetadataLayer" data-uid="ChiaWalletSdk.IClvm.ExigentMetadataLayer">
+  ExigentMetadataLayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ExigentMetadataLayer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_FixedPuzzleMember_" data-uid="ChiaWalletSdk.IClvm.FixedPuzzleMember*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_FixedPuzzleMember" data-uid="ChiaWalletSdk.IClvm.FixedPuzzleMember">
+  FixedPuzzleMember()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program FixedPuzzleMember()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_FlagProofsChecker_" data-uid="ChiaWalletSdk.IClvm.FlagProofsChecker*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_FlagProofsChecker" data-uid="ChiaWalletSdk.IClvm.FlagProofsChecker">
+  FlagProofsChecker()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program FlagProofsChecker()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Force1Of2RestrictedVariable_" data-uid="ChiaWalletSdk.IClvm.Force1Of2RestrictedVariable*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Force1Of2RestrictedVariable" data-uid="ChiaWalletSdk.IClvm.Force1Of2RestrictedVariable">
+  Force1Of2RestrictedVariable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Force1Of2RestrictedVariable()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Force1Of2RestrictedVariableMemo_" data-uid="ChiaWalletSdk.IClvm.Force1Of2RestrictedVariableMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Force1Of2RestrictedVariableMemo_ChiaWalletSdk_Force1of2RestrictedVariableMemo_" data-uid="ChiaWalletSdk.IClvm.Force1Of2RestrictedVariableMemo(ChiaWalletSdk.Force1of2RestrictedVariableMemo)">
+  Force1Of2RestrictedVariableMemo(Force1of2RestrictedVariableMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Force1Of2RestrictedVariableMemo(Force1of2RestrictedVariableMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.Force1of2RestrictedVariableMemo.html">Force1of2RestrictedVariableMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ForceAssertCoinAnnouncement_" data-uid="ChiaWalletSdk.IClvm.ForceAssertCoinAnnouncement*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ForceAssertCoinAnnouncement" data-uid="ChiaWalletSdk.IClvm.ForceAssertCoinAnnouncement">
+  ForceAssertCoinAnnouncement()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ForceAssertCoinAnnouncement()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ForceCoinMessage_" data-uid="ChiaWalletSdk.IClvm.ForceCoinMessage*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ForceCoinMessage" data-uid="ChiaWalletSdk.IClvm.ForceCoinMessage">
+  ForceCoinMessage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ForceCoinMessage()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_GenesisByCoinId_" data-uid="ChiaWalletSdk.IClvm.GenesisByCoinId*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_GenesisByCoinId" data-uid="ChiaWalletSdk.IClvm.GenesisByCoinId">
+  GenesisByCoinId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program GenesisByCoinId()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_GenesisByCoinIdOrSingleton_" data-uid="ChiaWalletSdk.IClvm.GenesisByCoinIdOrSingleton*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_GenesisByCoinIdOrSingleton" data-uid="ChiaWalletSdk.IClvm.GenesisByCoinIdOrSingleton">
+  GenesisByCoinIdOrSingleton()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program GenesisByCoinIdOrSingleton()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_GenesisByPuzzleHash_" data-uid="ChiaWalletSdk.IClvm.GenesisByPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_GenesisByPuzzleHash" data-uid="ChiaWalletSdk.IClvm.GenesisByPuzzleHash">
+  GenesisByPuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program GenesisByPuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_GraftrootDlOffers_" data-uid="ChiaWalletSdk.IClvm.GraftrootDlOffers*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_GraftrootDlOffers" data-uid="ChiaWalletSdk.IClvm.GraftrootDlOffers">
+  GraftrootDlOffers()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program GraftrootDlOffers()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_IndexWrapper_" data-uid="ChiaWalletSdk.IClvm.IndexWrapper*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_IndexWrapper" data-uid="ChiaWalletSdk.IClvm.IndexWrapper">
+  IndexWrapper()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program IndexWrapper()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_InnerPuzzleMemo_" data-uid="ChiaWalletSdk.IClvm.InnerPuzzleMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_InnerPuzzleMemo_ChiaWalletSdk_InnerPuzzleMemo_" data-uid="ChiaWalletSdk.IClvm.InnerPuzzleMemo(ChiaWalletSdk.InnerPuzzleMemo)">
+  InnerPuzzleMemo(InnerPuzzleMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program InnerPuzzleMemo(InnerPuzzleMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.InnerPuzzleMemo.html">InnerPuzzleMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Int_" data-uid="ChiaWalletSdk.IClvm.Int*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Int_System_String_" data-uid="ChiaWalletSdk.IClvm.Int(System.String)">
+  Int(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Int(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_K1Member_" data-uid="ChiaWalletSdk.IClvm.K1Member*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_K1Member" data-uid="ChiaWalletSdk.IClvm.K1Member">
+  K1Member()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program K1Member()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_K1MemberPuzzleAssert_" data-uid="ChiaWalletSdk.IClvm.K1MemberPuzzleAssert*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_K1MemberPuzzleAssert" data-uid="ChiaWalletSdk.IClvm.K1MemberPuzzleAssert">
+  K1MemberPuzzleAssert()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program K1MemberPuzzleAssert()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_LaunchRewardDistributor_" data-uid="ChiaWalletSdk.IClvm.LaunchRewardDistributor*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_LaunchRewardDistributor_ChiaWalletSdk_SpendBundle_System_String_System_Byte___ChiaWalletSdk_RewardDistributorConstants_System_Boolean_System_String_" data-uid="ChiaWalletSdk.IClvm.LaunchRewardDistributor(ChiaWalletSdk.SpendBundle,System.String,System.Byte[],ChiaWalletSdk.RewardDistributorConstants,System.Boolean,System.String)">
+  LaunchRewardDistributor(SpendBundle, string, byte[], RewardDistributorConstants, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RewardDistributorLaunchResult LaunchRewardDistributor(SpendBundle offer, string firstEpochStart, byte[] catRefundPuzzleHash, RewardDistributorConstants constants, bool mainnet, string comment)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offer</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+    <dt><code>firstEpochStart</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>catRefundPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>constants</code> <a class="xref" href="ChiaWalletSdk.RewardDistributorConstants.html">RewardDistributorConstants</a></dt>
+    <dd></dd>
+    <dt><code>mainnet</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+    <dt><code>comment</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RewardDistributorLaunchResult.html">RewardDistributorLaunchResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_List_" data-uid="ChiaWalletSdk.IClvm.List*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_List_System_Collections_Generic_List_ChiaWalletSdk_Program__" data-uid="ChiaWalletSdk.IClvm.List(System.Collections.Generic.List{ChiaWalletSdk.Program})">
+  List(List&lt;Program&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program List(List&lt;Program&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Program.html">Program</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MOfN_" data-uid="ChiaWalletSdk.IClvm.MOfN*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MOfN" data-uid="ChiaWalletSdk.IClvm.MOfN">
+  MOfN()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MOfN()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MOfNMemo_" data-uid="ChiaWalletSdk.IClvm.MOfNMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MOfNMemo_ChiaWalletSdk_MofNMemo_" data-uid="ChiaWalletSdk.IClvm.MOfNMemo(ChiaWalletSdk.MofNMemo)">
+  MOfNMemo(MofNMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MOfNMemo(MofNMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.MofNMemo.html">MofNMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MedievalVaultRekeyDelegatedPuzzle_" data-uid="ChiaWalletSdk.IClvm.MedievalVaultRekeyDelegatedPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MedievalVaultRekeyDelegatedPuzzle_System_Byte___System_UInt64_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__System_Byte___System_Byte___" data-uid="ChiaWalletSdk.IClvm.MedievalVaultRekeyDelegatedPuzzle(System.Byte[],System.UInt64,System.Collections.Generic.List{ChiaWalletSdk.PublicKey},System.Byte[],System.Byte[])">
+  MedievalVaultRekeyDelegatedPuzzle(byte[], ulong, List&lt;PublicKey&gt;, byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MedievalVaultRekeyDelegatedPuzzle(byte[] launcherId, ulong newM, List&lt;PublicKey&gt; newPubkeys, byte[] coinId, byte[] genesisChallenge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>launcherId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>newM</code> <span class="xref">ulong</span></dt>
+    <dd></dd>
+    <dt><code>newPubkeys</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>genesisChallenge</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MedievalVaultSendMessageDelegatedPuzzle_" data-uid="ChiaWalletSdk.IClvm.MedievalVaultSendMessageDelegatedPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MedievalVaultSendMessageDelegatedPuzzle_System_Byte___System_Byte___ChiaWalletSdk_Coin_ChiaWalletSdk_MedievalVaultInfo_System_Byte___" data-uid="ChiaWalletSdk.IClvm.MedievalVaultSendMessageDelegatedPuzzle(System.Byte[],System.Byte[],ChiaWalletSdk.Coin,ChiaWalletSdk.MedievalVaultInfo,System.Byte[])">
+  MedievalVaultSendMessageDelegatedPuzzle(byte[], byte[], Coin, MedievalVaultInfo, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MedievalVaultSendMessageDelegatedPuzzle(byte[] message, byte[] receiverLauncherId, Coin myCoin, MedievalVaultInfo myInfo, byte[] genesisChallenge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>receiverLauncherId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>myCoin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>myInfo</code> <a class="xref" href="ChiaWalletSdk.MedievalVaultInfo.html">MedievalVaultInfo</a></dt>
+    <dd></dd>
+    <dt><code>genesisChallenge</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MeltSingleton_" data-uid="ChiaWalletSdk.IClvm.MeltSingleton*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MeltSingleton" data-uid="ChiaWalletSdk.IClvm.MeltSingleton">
+  MeltSingleton()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MeltSingleton()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MemberMemo_" data-uid="ChiaWalletSdk.IClvm.MemberMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MemberMemo_ChiaWalletSdk_MemberMemo_" data-uid="ChiaWalletSdk.IClvm.MemberMemo(ChiaWalletSdk.MemberMemo)">
+  MemberMemo(MemberMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MemberMemo(MemberMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.MemberMemo.html">MemberMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MemoKind_" data-uid="ChiaWalletSdk.IClvm.MemoKind*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MemoKind_ChiaWalletSdk_MemoKind_" data-uid="ChiaWalletSdk.IClvm.MemoKind(ChiaWalletSdk.MemoKind)">
+  MemoKind(MemoKind)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MemoKind(MemoKind value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.MemoKind.html">MemoKind</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MintNfts_" data-uid="ChiaWalletSdk.IClvm.MintNfts*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MintNfts_System_Byte___System_Collections_Generic_List_ChiaWalletSdk_NftMint__" data-uid="ChiaWalletSdk.IClvm.MintNfts(System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.NftMint})">
+  MintNfts(byte[], List&lt;NftMint&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">MintedNfts MintNfts(byte[] parentCoinId, List&lt;NftMint&gt; nftMints)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentCoinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>nftMints</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.NftMint.html">NftMint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.MintedNfts.html">MintedNfts</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MintVault_" data-uid="ChiaWalletSdk.IClvm.MintVault*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MintVault_System_Byte___System_Byte___ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.MintVault(System.Byte[],System.Byte[],ChiaWalletSdk.Program)">
+  MintVault(byte[], byte[], Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VaultMint MintVault(byte[] parentCoinId, byte[] custodyHash, Program memos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentCoinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>custodyHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>memos</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VaultMint.html">VaultMint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MipsMemo_" data-uid="ChiaWalletSdk.IClvm.MipsMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MipsMemo_ChiaWalletSdk_MipsMemo_" data-uid="ChiaWalletSdk.IClvm.MipsMemo(ChiaWalletSdk.MipsMemo)">
+  MipsMemo(MipsMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program MipsMemo(MipsMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.MipsMemo.html">MipsMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_MipsSpend_" data-uid="ChiaWalletSdk.IClvm.MipsSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_MipsSpend_ChiaWalletSdk_Coin_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.MipsSpend(ChiaWalletSdk.Coin,ChiaWalletSdk.Spend)">
+  MipsSpend(Coin, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">MipsSpend MipsSpend(Coin coin, Spend delegatedSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>delegatedSpend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.MipsSpend.html">MipsSpend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NOfN_" data-uid="ChiaWalletSdk.IClvm.NOfN*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NOfN" data-uid="ChiaWalletSdk.IClvm.NOfN">
+  NOfN()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NOfN()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftIntermediateLauncher_" data-uid="ChiaWalletSdk.IClvm.NftIntermediateLauncher*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftIntermediateLauncher" data-uid="ChiaWalletSdk.IClvm.NftIntermediateLauncher">
+  NftIntermediateLauncher()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftIntermediateLauncher()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftMetadata_" data-uid="ChiaWalletSdk.IClvm.NftMetadata*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftMetadata_ChiaWalletSdk_NftMetadata_" data-uid="ChiaWalletSdk.IClvm.NftMetadata(ChiaWalletSdk.NftMetadata)">
+  NftMetadata(NftMetadata)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftMetadata(NftMetadata value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftMetadataUpdaterDefault_" data-uid="ChiaWalletSdk.IClvm.NftMetadataUpdaterDefault*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftMetadataUpdaterDefault" data-uid="ChiaWalletSdk.IClvm.NftMetadataUpdaterDefault">
+  NftMetadataUpdaterDefault()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftMetadataUpdaterDefault()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftMetadataUpdaterUpdateable_" data-uid="ChiaWalletSdk.IClvm.NftMetadataUpdaterUpdateable*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftMetadataUpdaterUpdateable" data-uid="ChiaWalletSdk.IClvm.NftMetadataUpdaterUpdateable">
+  NftMetadataUpdaterUpdateable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftMetadataUpdaterUpdateable()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftOwnershipLayer_" data-uid="ChiaWalletSdk.IClvm.NftOwnershipLayer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftOwnershipLayer" data-uid="ChiaWalletSdk.IClvm.NftOwnershipLayer">
+  NftOwnershipLayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftOwnershipLayer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftOwnershipTransferProgramOneWayClaimWithRoyalties_" data-uid="ChiaWalletSdk.IClvm.NftOwnershipTransferProgramOneWayClaimWithRoyalties*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftOwnershipTransferProgramOneWayClaimWithRoyalties" data-uid="ChiaWalletSdk.IClvm.NftOwnershipTransferProgramOneWayClaimWithRoyalties">
+  NftOwnershipTransferProgramOneWayClaimWithRoyalties()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftOwnershipTransferProgramOneWayClaimWithRoyalties()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_NftStateLayer_" data-uid="ChiaWalletSdk.IClvm.NftStateLayer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_NftStateLayer" data-uid="ChiaWalletSdk.IClvm.NftStateLayer">
+  NftStateLayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program NftStateLayer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Nil_" data-uid="ChiaWalletSdk.IClvm.Nil*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Nil" data-uid="ChiaWalletSdk.IClvm.Nil">
+  Nil()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Nil()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Notification_" data-uid="ChiaWalletSdk.IClvm.Notification*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Notification" data-uid="ChiaWalletSdk.IClvm.Notification">
+  Notification()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Notification()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_OfferSettlementCats_" data-uid="ChiaWalletSdk.IClvm.OfferSettlementCats*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_OfferSettlementCats_ChiaWalletSdk_SpendBundle_System_Byte___" data-uid="ChiaWalletSdk.IClvm.OfferSettlementCats(ChiaWalletSdk.SpendBundle,System.Byte[])">
+  OfferSettlementCats(SpendBundle, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Cat&gt; OfferSettlementCats(SpendBundle offer, byte[] assetId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offer</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+    <dt><code>assetId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Cat.html">Cat</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_OfferSettlementNft_" data-uid="ChiaWalletSdk.IClvm.OfferSettlementNft*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_OfferSettlementNft_ChiaWalletSdk_SpendBundle_System_Byte___" data-uid="ChiaWalletSdk.IClvm.OfferSettlementNft(ChiaWalletSdk.SpendBundle,System.Byte[])">
+  OfferSettlementNft(SpendBundle, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Nft? OfferSettlementNft(SpendBundle offer, byte[] nftLauncherId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offer</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+    <dt><code>nftLauncherId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Nft.html">Nft</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_OneOfN_" data-uid="ChiaWalletSdk.IClvm.OneOfN*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_OneOfN" data-uid="ChiaWalletSdk.IClvm.OneOfN">
+  OneOfN()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program OneOfN()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_OptionContract_" data-uid="ChiaWalletSdk.IClvm.OptionContract*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_OptionContract" data-uid="ChiaWalletSdk.IClvm.OptionContract">
+  OptionContract()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program OptionContract()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P21OfN_" data-uid="ChiaWalletSdk.IClvm.P21OfN*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P21OfN" data-uid="ChiaWalletSdk.IClvm.P21OfN">
+  P21OfN()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P21OfN()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2AnnouncedDelegatedPuzzle_" data-uid="ChiaWalletSdk.IClvm.P2AnnouncedDelegatedPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2AnnouncedDelegatedPuzzle" data-uid="ChiaWalletSdk.IClvm.P2AnnouncedDelegatedPuzzle">
+  P2AnnouncedDelegatedPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2AnnouncedDelegatedPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2Conditions_" data-uid="ChiaWalletSdk.IClvm.P2Conditions*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2Conditions" data-uid="ChiaWalletSdk.IClvm.P2Conditions">
+  P2Conditions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2Conditions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2CurriedPuzzle_" data-uid="ChiaWalletSdk.IClvm.P2CurriedPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2CurriedPuzzle" data-uid="ChiaWalletSdk.IClvm.P2CurriedPuzzle">
+  P2CurriedPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2CurriedPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2DelegatedConditions_" data-uid="ChiaWalletSdk.IClvm.P2DelegatedConditions*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2DelegatedConditions" data-uid="ChiaWalletSdk.IClvm.P2DelegatedConditions">
+  P2DelegatedConditions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2DelegatedConditions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2DelegatedPuzzle_" data-uid="ChiaWalletSdk.IClvm.P2DelegatedPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2DelegatedPuzzle" data-uid="ChiaWalletSdk.IClvm.P2DelegatedPuzzle">
+  P2DelegatedPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2DelegatedPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2DelegatedPuzzleOrHiddenPuzzle_" data-uid="ChiaWalletSdk.IClvm.P2DelegatedPuzzleOrHiddenPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2DelegatedPuzzleOrHiddenPuzzle" data-uid="ChiaWalletSdk.IClvm.P2DelegatedPuzzleOrHiddenPuzzle">
+  P2DelegatedPuzzleOrHiddenPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2DelegatedPuzzleOrHiddenPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2MOfNDelegateDirect_" data-uid="ChiaWalletSdk.IClvm.P2MOfNDelegateDirect*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2MOfNDelegateDirect" data-uid="ChiaWalletSdk.IClvm.P2MOfNDelegateDirect">
+  P2MOfNDelegateDirect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2MOfNDelegateDirect()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2Parent_" data-uid="ChiaWalletSdk.IClvm.P2Parent*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2Parent" data-uid="ChiaWalletSdk.IClvm.P2Parent">
+  P2Parent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2Parent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2PuzzleHash_" data-uid="ChiaWalletSdk.IClvm.P2PuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2PuzzleHash" data-uid="ChiaWalletSdk.IClvm.P2PuzzleHash">
+  P2PuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2PuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2Singleton_" data-uid="ChiaWalletSdk.IClvm.P2Singleton*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2Singleton" data-uid="ChiaWalletSdk.IClvm.P2Singleton">
+  P2Singleton()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2Singleton()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2SingletonAggregator_" data-uid="ChiaWalletSdk.IClvm.P2SingletonAggregator*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2SingletonAggregator" data-uid="ChiaWalletSdk.IClvm.P2SingletonAggregator">
+  P2SingletonAggregator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2SingletonAggregator()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2SingletonOrDelayedPuzzleHash_" data-uid="ChiaWalletSdk.IClvm.P2SingletonOrDelayedPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2SingletonOrDelayedPuzzleHash" data-uid="ChiaWalletSdk.IClvm.P2SingletonOrDelayedPuzzleHash">
+  P2SingletonOrDelayedPuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2SingletonOrDelayedPuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_P2SingletonViaDelegatedPuzzle_" data-uid="ChiaWalletSdk.IClvm.P2SingletonViaDelegatedPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_P2SingletonViaDelegatedPuzzle" data-uid="ChiaWalletSdk.IClvm.P2SingletonViaDelegatedPuzzle">
+  P2SingletonViaDelegatedPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program P2SingletonViaDelegatedPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Pair_" data-uid="ChiaWalletSdk.IClvm.Pair*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Pair_ChiaWalletSdk_Program_ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.Pair(ChiaWalletSdk.Program,ChiaWalletSdk.Program)">
+  Pair(Program, Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Pair(Program first, Program rest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>first</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+    <dt><code>rest</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Parse_" data-uid="ChiaWalletSdk.IClvm.Parse*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Parse_System_String_" data-uid="ChiaWalletSdk.IClvm.Parse(System.String)">
+  Parse(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Parse(string program)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>program</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ParseChildMedievalVault_" data-uid="ChiaWalletSdk.IClvm.ParseChildMedievalVault*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ParseChildMedievalVault_ChiaWalletSdk_CoinSpend_" data-uid="ChiaWalletSdk.IClvm.ParseChildMedievalVault(ChiaWalletSdk.CoinSpend)">
+  ParseChildMedievalVault(CoinSpend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">MedievalVault? ParseChildMedievalVault(CoinSpend coinSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinSpend</code> <a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.MedievalVault.html">MedievalVault</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ParseChildStreamedAsset_" data-uid="ChiaWalletSdk.IClvm.ParseChildStreamedAsset*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ParseChildStreamedAsset_ChiaWalletSdk_CoinSpend_" data-uid="ChiaWalletSdk.IClvm.ParseChildStreamedAsset(ChiaWalletSdk.CoinSpend)">
+  ParseChildStreamedAsset(CoinSpend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">StreamedAssetParsingResult ParseChildStreamedAsset(CoinSpend coinSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinSpend</code> <a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.StreamedAssetParsingResult.html">StreamedAssetParsingResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ParseVaultTransaction_" data-uid="ChiaWalletSdk.IClvm.ParseVaultTransaction*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ParseVaultTransaction_ChiaWalletSdk_VaultSpendReveal_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__" data-uid="ChiaWalletSdk.IClvm.ParseVaultTransaction(ChiaWalletSdk.VaultSpendReveal,System.Collections.Generic.List{ChiaWalletSdk.CoinSpend})">
+  ParseVaultTransaction(VaultSpendReveal, List&lt;CoinSpend&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VaultTransaction ParseVaultTransaction(VaultSpendReveal vault, List&lt;CoinSpend&gt; coinSpends)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vault</code> <a class="xref" href="ChiaWalletSdk.VaultSpendReveal.html">VaultSpendReveal</a></dt>
+    <dd></dd>
+    <dt><code>coinSpends</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VaultTransaction.html">VaultTransaction</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_PasskeyMember_" data-uid="ChiaWalletSdk.IClvm.PasskeyMember*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_PasskeyMember" data-uid="ChiaWalletSdk.IClvm.PasskeyMember">
+  PasskeyMember()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program PasskeyMember()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_PasskeyMemberPuzzleAssert_" data-uid="ChiaWalletSdk.IClvm.PasskeyMemberPuzzleAssert*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_PasskeyMemberPuzzleAssert" data-uid="ChiaWalletSdk.IClvm.PasskeyMemberPuzzleAssert">
+  PasskeyMemberPuzzleAssert()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program PasskeyMemberPuzzleAssert()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_PoolMemberInnerpuzzle_" data-uid="ChiaWalletSdk.IClvm.PoolMemberInnerpuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_PoolMemberInnerpuzzle" data-uid="ChiaWalletSdk.IClvm.PoolMemberInnerpuzzle">
+  PoolMemberInnerpuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program PoolMemberInnerpuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_PoolWaitingroomInnerpuzzle_" data-uid="ChiaWalletSdk.IClvm.PoolWaitingroomInnerpuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_PoolWaitingroomInnerpuzzle" data-uid="ChiaWalletSdk.IClvm.PoolWaitingroomInnerpuzzle">
+  PoolWaitingroomInnerpuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program PoolWaitingroomInnerpuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_PreventConditionOpcode_" data-uid="ChiaWalletSdk.IClvm.PreventConditionOpcode*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_PreventConditionOpcode" data-uid="ChiaWalletSdk.IClvm.PreventConditionOpcode">
+  PreventConditionOpcode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program PreventConditionOpcode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_PreventMultipleCreateCoins_" data-uid="ChiaWalletSdk.IClvm.PreventMultipleCreateCoins*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_PreventMultipleCreateCoins" data-uid="ChiaWalletSdk.IClvm.PreventMultipleCreateCoins">
+  PreventMultipleCreateCoins()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program PreventMultipleCreateCoins()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_R1Member_" data-uid="ChiaWalletSdk.IClvm.R1Member*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_R1Member" data-uid="ChiaWalletSdk.IClvm.R1Member">
+  R1Member()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program R1Member()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_R1MemberPuzzleAssert_" data-uid="ChiaWalletSdk.IClvm.R1MemberPuzzleAssert*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_R1MemberPuzzleAssert" data-uid="ChiaWalletSdk.IClvm.R1MemberPuzzleAssert">
+  R1MemberPuzzleAssert()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program R1MemberPuzzleAssert()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ReceiveMessage_" data-uid="ChiaWalletSdk.IClvm.ReceiveMessage*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ReceiveMessage_System_Byte_System_Byte___System_Collections_Generic_List_ChiaWalletSdk_Program__" data-uid="ChiaWalletSdk.IClvm.ReceiveMessage(System.Byte,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Program})">
+  ReceiveMessage(byte, byte[], List&lt;Program&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ReceiveMessage(byte mode, byte[] message, List&lt;Program&gt; data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <span class="xref">byte</span></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>data</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Program.html">Program</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Remark_" data-uid="ChiaWalletSdk.IClvm.Remark*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Remark_ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.Remark(ChiaWalletSdk.Program)">
+  Remark(Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Remark(Program rest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rest</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_ReserveFee_" data-uid="ChiaWalletSdk.IClvm.ReserveFee*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_ReserveFee_System_String_" data-uid="ChiaWalletSdk.IClvm.ReserveFee(System.String)">
+  ReserveFee(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program ReserveFee(string amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RestrictionMemo_" data-uid="ChiaWalletSdk.IClvm.RestrictionMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RestrictionMemo_ChiaWalletSdk_RestrictionMemo_" data-uid="ChiaWalletSdk.IClvm.RestrictionMemo(ChiaWalletSdk.RestrictionMemo)">
+  RestrictionMemo(RestrictionMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program RestrictionMemo(RestrictionMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.RestrictionMemo.html">RestrictionMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Restrictions_" data-uid="ChiaWalletSdk.IClvm.Restrictions*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Restrictions" data-uid="ChiaWalletSdk.IClvm.Restrictions">
+  Restrictions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Restrictions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RevocationLayer_" data-uid="ChiaWalletSdk.IClvm.RevocationLayer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RevocationLayer" data-uid="ChiaWalletSdk.IClvm.RevocationLayer">
+  RevocationLayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program RevocationLayer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RewardDistributorFromEveCoinSpend_" data-uid="ChiaWalletSdk.IClvm.RewardDistributorFromEveCoinSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RewardDistributorFromEveCoinSpend_ChiaWalletSdk_RewardDistributorConstants_ChiaWalletSdk_RewardDistributorState_ChiaWalletSdk_CoinSpend_System_Byte___ChiaWalletSdk_LineageProof_" data-uid="ChiaWalletSdk.IClvm.RewardDistributorFromEveCoinSpend(ChiaWalletSdk.RewardDistributorConstants,ChiaWalletSdk.RewardDistributorState,ChiaWalletSdk.CoinSpend,System.Byte[],ChiaWalletSdk.LineageProof)">
+  RewardDistributorFromEveCoinSpend(RewardDistributorConstants, RewardDistributorState, CoinSpend, byte[], LineageProof)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RewardDistributorInfoFromEveCoin? RewardDistributorFromEveCoinSpend(RewardDistributorConstants constants, RewardDistributorState initialState, CoinSpend eveCoinSpend, byte[] reserveParentId, LineageProof reserveLineageProof)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>constants</code> <a class="xref" href="ChiaWalletSdk.RewardDistributorConstants.html">RewardDistributorConstants</a></dt>
+    <dd></dd>
+    <dt><code>initialState</code> <a class="xref" href="ChiaWalletSdk.RewardDistributorState.html">RewardDistributorState</a></dt>
+    <dd></dd>
+    <dt><code>eveCoinSpend</code> <a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+    <dt><code>reserveParentId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>reserveLineageProof</code> <a class="xref" href="ChiaWalletSdk.LineageProof.html">LineageProof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RewardDistributorInfoFromEveCoin.html">RewardDistributorInfoFromEveCoin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RewardDistributorFromParentSpend_" data-uid="ChiaWalletSdk.IClvm.RewardDistributorFromParentSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RewardDistributorFromParentSpend_ChiaWalletSdk_CoinSpend_ChiaWalletSdk_RewardDistributorConstants_" data-uid="ChiaWalletSdk.IClvm.RewardDistributorFromParentSpend(ChiaWalletSdk.CoinSpend,ChiaWalletSdk.RewardDistributorConstants)">
+  RewardDistributorFromParentSpend(CoinSpend, RewardDistributorConstants)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RewardDistributor? RewardDistributorFromParentSpend(CoinSpend parentSpend, RewardDistributorConstants constants)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentSpend</code> <a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+    <dt><code>constants</code> <a class="xref" href="ChiaWalletSdk.RewardDistributorConstants.html">RewardDistributorConstants</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RewardDistributor.html">RewardDistributor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RewardDistributorFromSpend_" data-uid="ChiaWalletSdk.IClvm.RewardDistributorFromSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RewardDistributorFromSpend_ChiaWalletSdk_CoinSpend_ChiaWalletSdk_LineageProof_ChiaWalletSdk_RewardDistributorConstants_" data-uid="ChiaWalletSdk.IClvm.RewardDistributorFromSpend(ChiaWalletSdk.CoinSpend,ChiaWalletSdk.LineageProof,ChiaWalletSdk.RewardDistributorConstants)">
+  RewardDistributorFromSpend(CoinSpend, LineageProof?, RewardDistributorConstants)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RewardDistributor? RewardDistributorFromSpend(CoinSpend spend, LineageProof? reserveLineageProof, RewardDistributorConstants constants)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>spend</code> <a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+    <dt><code>reserveLineageProof</code> <a class="xref" href="ChiaWalletSdk.LineageProof.html">LineageProof</a></dt>
+    <dd></dd>
+    <dt><code>constants</code> <a class="xref" href="ChiaWalletSdk.RewardDistributorConstants.html">RewardDistributorConstants</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RewardDistributor.html">RewardDistributor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RomBootstrapGenerator_" data-uid="ChiaWalletSdk.IClvm.RomBootstrapGenerator*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RomBootstrapGenerator" data-uid="ChiaWalletSdk.IClvm.RomBootstrapGenerator">
+  RomBootstrapGenerator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program RomBootstrapGenerator()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_RunCatTail_" data-uid="ChiaWalletSdk.IClvm.RunCatTail*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_RunCatTail_ChiaWalletSdk_Program_ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.RunCatTail(ChiaWalletSdk.Program,ChiaWalletSdk.Program)">
+  RunCatTail(Program, Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program RunCatTail(Program program, Program solution)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>program</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+    <dt><code>solution</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SendMessage_" data-uid="ChiaWalletSdk.IClvm.SendMessage*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SendMessage_System_Byte_System_Byte___System_Collections_Generic_List_ChiaWalletSdk_Program__" data-uid="ChiaWalletSdk.IClvm.SendMessage(System.Byte,System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.Program})">
+  SendMessage(byte, byte[], List&lt;Program&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program SendMessage(byte mode, byte[] message, List&lt;Program&gt; data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <span class="xref">byte</span></dt>
+    <dd></dd>
+    <dt><code>message</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>data</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Program.html">Program</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SettlementPayment_" data-uid="ChiaWalletSdk.IClvm.SettlementPayment*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SettlementPayment" data-uid="ChiaWalletSdk.IClvm.SettlementPayment">
+  SettlementPayment()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program SettlementPayment()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SettlementSpend_" data-uid="ChiaWalletSdk.IClvm.SettlementSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SettlementSpend_System_Collections_Generic_List_ChiaWalletSdk_NotarizedPayment__" data-uid="ChiaWalletSdk.IClvm.SettlementSpend(System.Collections.Generic.List{ChiaWalletSdk.NotarizedPayment})">
+  SettlementSpend(List&lt;NotarizedPayment&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Spend SettlementSpend(List&lt;NotarizedPayment&gt; notarizedPayments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>notarizedPayments</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.NotarizedPayment.html">NotarizedPayment</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SingletonLauncher_" data-uid="ChiaWalletSdk.IClvm.SingletonLauncher*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SingletonLauncher" data-uid="ChiaWalletSdk.IClvm.SingletonLauncher">
+  SingletonLauncher()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program SingletonLauncher()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SingletonMember_" data-uid="ChiaWalletSdk.IClvm.SingletonMember*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SingletonMember" data-uid="ChiaWalletSdk.IClvm.SingletonMember">
+  SingletonMember()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program SingletonMember()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SingletonTopLayer_" data-uid="ChiaWalletSdk.IClvm.SingletonTopLayer*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SingletonTopLayer" data-uid="ChiaWalletSdk.IClvm.SingletonTopLayer">
+  SingletonTopLayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program SingletonTopLayer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SingletonTopLayerV11_" data-uid="ChiaWalletSdk.IClvm.SingletonTopLayerV11*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SingletonTopLayerV11" data-uid="ChiaWalletSdk.IClvm.SingletonTopLayerV11">
+  SingletonTopLayerV11()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program SingletonTopLayerV11()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Softfork_" data-uid="ChiaWalletSdk.IClvm.Softfork*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Softfork_System_String_ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.Softfork(System.String,ChiaWalletSdk.Program)">
+  Softfork(string, Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Softfork(string cost, Program rest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cost</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>rest</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendCats_" data-uid="ChiaWalletSdk.IClvm.SpendCats*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendCats_System_Collections_Generic_List_ChiaWalletSdk_CatSpend__" data-uid="ChiaWalletSdk.IClvm.SpendCats(System.Collections.Generic.List{ChiaWalletSdk.CatSpend})">
+  SpendCats(List&lt;CatSpend&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Cat&gt; SpendCats(List&lt;CatSpend&gt; catSpends)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>catSpends</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CatSpend.html">CatSpend</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Cat.html">Cat</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendCoin_" data-uid="ChiaWalletSdk.IClvm.SpendCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendCoin_ChiaWalletSdk_Coin_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.SpendCoin(ChiaWalletSdk.Coin,ChiaWalletSdk.Spend)">
+  SpendCoin(Coin, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendCoin(Coin coin, Spend spend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>spend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendDid_" data-uid="ChiaWalletSdk.IClvm.SpendDid*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendDid_ChiaWalletSdk_Did_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.SpendDid(ChiaWalletSdk.Did,ChiaWalletSdk.Spend)">
+  SpendDid(Did, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Did? SpendDid(Did did, Spend innerSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>did</code> <a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+    <dt><code>innerSpend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendMedievalVault_" data-uid="ChiaWalletSdk.IClvm.SpendMedievalVault*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendMedievalVault_ChiaWalletSdk_MedievalVault_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__System_Collections_Generic_List_ChiaWalletSdk_Program__System_Byte___" data-uid="ChiaWalletSdk.IClvm.SpendMedievalVault(ChiaWalletSdk.MedievalVault,System.Collections.Generic.List{ChiaWalletSdk.PublicKey},System.Collections.Generic.List{ChiaWalletSdk.Program},System.Byte[])">
+  SpendMedievalVault(MedievalVault, List&lt;PublicKey&gt;, List&lt;Program&gt;, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendMedievalVault(MedievalVault medievalVault, List&lt;PublicKey&gt; usedPubkeys, List&lt;Program&gt; conditions, byte[] genesisChallenge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>medievalVault</code> <a class="xref" href="ChiaWalletSdk.MedievalVault.html">MedievalVault</a></dt>
+    <dd></dd>
+    <dt><code>usedPubkeys</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>conditions</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Program.html">Program</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>genesisChallenge</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendMedievalVaultUnsafe_" data-uid="ChiaWalletSdk.IClvm.SpendMedievalVaultUnsafe*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendMedievalVaultUnsafe_ChiaWalletSdk_MedievalVault_System_Collections_Generic_List_ChiaWalletSdk_PublicKey__ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.SpendMedievalVaultUnsafe(ChiaWalletSdk.MedievalVault,System.Collections.Generic.List{ChiaWalletSdk.PublicKey},ChiaWalletSdk.Spend)">
+  SpendMedievalVaultUnsafe(MedievalVault, List&lt;PublicKey&gt;, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendMedievalVaultUnsafe(MedievalVault medievalVault, List&lt;PublicKey&gt; usedPubkeys, Spend delegatedSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>medievalVault</code> <a class="xref" href="ChiaWalletSdk.MedievalVault.html">MedievalVault</a></dt>
+    <dd></dd>
+    <dt><code>usedPubkeys</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>delegatedSpend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendNft_" data-uid="ChiaWalletSdk.IClvm.SpendNft*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendNft_ChiaWalletSdk_Nft_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.SpendNft(ChiaWalletSdk.Nft,ChiaWalletSdk.Spend)">
+  SpendNft(Nft, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Nft SpendNft(Nft nft, Spend innerSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nft</code> <a class="xref" href="ChiaWalletSdk.Nft.html">Nft</a></dt>
+    <dd></dd>
+    <dt><code>innerSpend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Nft.html">Nft</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendOfferSecurityCoin_" data-uid="ChiaWalletSdk.IClvm.SpendOfferSecurityCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendOfferSecurityCoin_ChiaWalletSdk_OfferSecurityCoinDetails_System_Collections_Generic_List_ChiaWalletSdk_Program__System_Boolean_" data-uid="ChiaWalletSdk.IClvm.SpendOfferSecurityCoin(ChiaWalletSdk.OfferSecurityCoinDetails,System.Collections.Generic.List{ChiaWalletSdk.Program},System.Boolean)">
+  SpendOfferSecurityCoin(OfferSecurityCoinDetails, List&lt;Program&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Signature SpendOfferSecurityCoin(OfferSecurityCoinDetails securityCoinDetails, List&lt;Program&gt; conditions, bool mainnet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>securityCoinDetails</code> <a class="xref" href="ChiaWalletSdk.OfferSecurityCoinDetails.html">OfferSecurityCoinDetails</a></dt>
+    <dd></dd>
+    <dt><code>conditions</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Program.html">Program</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>mainnet</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Signature.html">Signature</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendOption_" data-uid="ChiaWalletSdk.IClvm.SpendOption*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendOption_ChiaWalletSdk_OptionContract_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.SpendOption(ChiaWalletSdk.OptionContract,ChiaWalletSdk.Spend)">
+  SpendOption(OptionContract, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">OptionContract? SpendOption(OptionContract option, Spend innerSpend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>option</code> <a class="xref" href="ChiaWalletSdk.OptionContract.html">OptionContract</a></dt>
+    <dd></dd>
+    <dt><code>innerSpend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.OptionContract.html">OptionContract</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendSettlementCoin_" data-uid="ChiaWalletSdk.IClvm.SpendSettlementCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendSettlementCoin_ChiaWalletSdk_Coin_System_Collections_Generic_List_ChiaWalletSdk_NotarizedPayment__" data-uid="ChiaWalletSdk.IClvm.SpendSettlementCoin(ChiaWalletSdk.Coin,System.Collections.Generic.List{ChiaWalletSdk.NotarizedPayment})">
+  SpendSettlementCoin(Coin, List&lt;NotarizedPayment&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendSettlementCoin(Coin coin, List&lt;NotarizedPayment&gt; notarizedPayments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>notarizedPayments</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.NotarizedPayment.html">NotarizedPayment</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendSettlementNft_" data-uid="ChiaWalletSdk.IClvm.SpendSettlementNft*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendSettlementNft_ChiaWalletSdk_SpendBundle_System_Byte___System_Byte___System_Byte___" data-uid="ChiaWalletSdk.IClvm.SpendSettlementNft(ChiaWalletSdk.SpendBundle,System.Byte[],System.Byte[],System.Byte[])">
+  SpendSettlementNft(SpendBundle, byte[], byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SettlementNftSpendResult SpendSettlementNft(SpendBundle offer, byte[] nftLauncherId, byte[] nonce, byte[] destinationPuzzleHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offer</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+    <dt><code>nftLauncherId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>nonce</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>destinationPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.SettlementNftSpendResult.html">SettlementNftSpendResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendStandardCoin_" data-uid="ChiaWalletSdk.IClvm.SpendStandardCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendStandardCoin_ChiaWalletSdk_Coin_ChiaWalletSdk_PublicKey_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.SpendStandardCoin(ChiaWalletSdk.Coin,ChiaWalletSdk.PublicKey,ChiaWalletSdk.Spend)">
+  SpendStandardCoin(Coin, PublicKey, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendStandardCoin(Coin coin, PublicKey syntheticKey, Spend spend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>syntheticKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>spend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_SpendStreamedAsset_" data-uid="ChiaWalletSdk.IClvm.SpendStreamedAsset*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_SpendStreamedAsset_ChiaWalletSdk_StreamedAsset_System_String_System_Boolean_" data-uid="ChiaWalletSdk.IClvm.SpendStreamedAsset(ChiaWalletSdk.StreamedAsset,System.String,System.Boolean)">
+  SpendStreamedAsset(StreamedAsset, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendStreamedAsset(StreamedAsset streamedAsset, string paymentTime, bool clawback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>streamedAsset</code> <a class="xref" href="ChiaWalletSdk.StreamedAsset.html">StreamedAsset</a></dt>
+    <dd></dd>
+    <dt><code>paymentTime</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>clawback</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_StandardSpend_" data-uid="ChiaWalletSdk.IClvm.StandardSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_StandardSpend_ChiaWalletSdk_PublicKey_ChiaWalletSdk_Spend_" data-uid="ChiaWalletSdk.IClvm.StandardSpend(ChiaWalletSdk.PublicKey,ChiaWalletSdk.Spend)">
+  StandardSpend(PublicKey, Spend)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Spend StandardSpend(PublicKey syntheticKey, Spend spend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>syntheticKey</code> <a class="xref" href="ChiaWalletSdk.PublicKey.html">PublicKey</a></dt>
+    <dd></dd>
+    <dt><code>spend</code> <a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Spend.html">Spend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_StandardVcRevocationPuzzle_" data-uid="ChiaWalletSdk.IClvm.StandardVcRevocationPuzzle*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_StandardVcRevocationPuzzle" data-uid="ChiaWalletSdk.IClvm.StandardVcRevocationPuzzle">
+  StandardVcRevocationPuzzle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program StandardVcRevocationPuzzle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_StdParentMorpher_" data-uid="ChiaWalletSdk.IClvm.StdParentMorpher*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_StdParentMorpher" data-uid="ChiaWalletSdk.IClvm.StdParentMorpher">
+  StdParentMorpher()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program StdParentMorpher()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_String_" data-uid="ChiaWalletSdk.IClvm.String*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_String_System_String_" data-uid="ChiaWalletSdk.IClvm.String(System.String)">
+  String(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program String(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_Timelock_" data-uid="ChiaWalletSdk.IClvm.Timelock*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_Timelock" data-uid="ChiaWalletSdk.IClvm.Timelock">
+  Timelock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program Timelock()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_TransferNft_" data-uid="ChiaWalletSdk.IClvm.TransferNft*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_TransferNft_System_Byte___System_Collections_Generic_List_ChiaWalletSdk_TradePrice__System_Byte___" data-uid="ChiaWalletSdk.IClvm.TransferNft(System.Byte[],System.Collections.Generic.List{ChiaWalletSdk.TradePrice},System.Byte[])">
+  TransferNft(byte[]?, List&lt;TradePrice&gt;, byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program TransferNft(byte[]? launcherId, List&lt;TradePrice&gt; tradePrices, byte[]? singletonInnerPuzzleHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>launcherId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>tradePrices</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.TradePrice.html">TradePrice</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>singletonInnerPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_UpdateDataStoreMerkleRoot_" data-uid="ChiaWalletSdk.IClvm.UpdateDataStoreMerkleRoot*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_UpdateDataStoreMerkleRoot_System_Byte___System_Collections_Generic_List_System_Byte____" data-uid="ChiaWalletSdk.IClvm.UpdateDataStoreMerkleRoot(System.Byte[],System.Collections.Generic.List{System.Byte[]})">
+  UpdateDataStoreMerkleRoot(byte[], List&lt;byte[]&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program UpdateDataStoreMerkleRoot(byte[] newMerkleRoot, List&lt;byte[]&gt; memos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newMerkleRoot</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>memos</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_UpdateNftMetadata_" data-uid="ChiaWalletSdk.IClvm.UpdateNftMetadata*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_UpdateNftMetadata_ChiaWalletSdk_Program_ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.IClvm.UpdateNftMetadata(ChiaWalletSdk.Program,ChiaWalletSdk.Program)">
+  UpdateNftMetadata(Program, Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program UpdateNftMetadata(Program updaterPuzzleReveal, Program updaterSolution)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updaterPuzzleReveal</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+    <dt><code>updaterSolution</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IClvm_WrapperMemo_" data-uid="ChiaWalletSdk.IClvm.WrapperMemo*"></a>
+
+  <h3 id="ChiaWalletSdk_IClvm_WrapperMemo_ChiaWalletSdk_WrapperMemo_" data-uid="ChiaWalletSdk.IClvm.WrapperMemo(ChiaWalletSdk.WrapperMemo)">
+  WrapperMemo(WrapperMemo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Program WrapperMemo(WrapperMemo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.WrapperMemo.html">WrapperMemo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

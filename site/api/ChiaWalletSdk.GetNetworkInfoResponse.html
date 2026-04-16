@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GetNetworkInfoResponse | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GetNetworkInfoResponse | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.GetNetworkInfoResponse">
+
+
+
+  <h1 id="ChiaWalletSdk_GetNetworkInfoResponse" data-uid="ChiaWalletSdk.GetNetworkInfoResponse" class="text-break">
+Class GetNetworkInfoResponse  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GetNetworkInfoResponse : IGetNetworkInfoResponse</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">GetNetworkInfoResponse</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.IGetNetworkInfoResponse.html">IGetNetworkInfoResponse</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse__ctor_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.IntPtr)">
+  GetNetworkInfoResponse(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse__ctor_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse__ctor_System_String_System_String_System_Byte___System_String_System_Boolean_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.#ctor(System.String,System.String,System.Byte[],System.String,System.Boolean)">
+  GetNetworkInfoResponse(string?, string?, byte[]?, string?, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse(string? networkName, string? networkPrefix, byte[]? genesisChallenge, string? error, bool success)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>networkName</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>networkPrefix</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>genesisChallenge</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>error</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>success</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_pointer" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_CloneRustArcPtr_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_CloneRustArcPtr" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_Destroy_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_Destroy" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_Dispose_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_Dispose" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_Finalize_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_Finalize" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.Finalize">
+  ~GetNetworkInfoResponse()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~GetNetworkInfoResponse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_FreeRustArcPtr_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_FreeRustArcPtr" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_GetError_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetError*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_GetError" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetError">
+  GetError()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetError()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_GetGenesisChallenge_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_GetGenesisChallenge" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetGenesisChallenge">
+  GetGenesisChallenge()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetGenesisChallenge()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_GetNetworkName_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_GetNetworkName" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkName">
+  GetNetworkName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetNetworkName()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_GetNetworkPrefix_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_GetNetworkPrefix" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetNetworkPrefix">
+  GetNetworkPrefix()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetNetworkPrefix()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_GetSuccess_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_GetSuccess" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.GetSuccess">
+  GetSuccess()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetSuccess()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_SetError_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetError*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_SetError_System_String_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetError(System.String)">
+  SetError(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse SetError(string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.GetNetworkInfoResponse.html">GetNetworkInfoResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_SetGenesisChallenge_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_SetGenesisChallenge_System_Byte___" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetGenesisChallenge(System.Byte[])">
+  SetGenesisChallenge(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse SetGenesisChallenge(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.GetNetworkInfoResponse.html">GetNetworkInfoResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_SetNetworkName_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_SetNetworkName_System_String_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkName(System.String)">
+  SetNetworkName(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse SetNetworkName(string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.GetNetworkInfoResponse.html">GetNetworkInfoResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_SetNetworkPrefix_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_SetNetworkPrefix_System_String_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetNetworkPrefix(System.String)">
+  SetNetworkPrefix(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse SetNetworkPrefix(string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.GetNetworkInfoResponse.html">GetNetworkInfoResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_GetNetworkInfoResponse_SetSuccess_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess*"></a>
+
+  <h3 id="ChiaWalletSdk_GetNetworkInfoResponse_SetSuccess_System_Boolean_" data-uid="ChiaWalletSdk.GetNetworkInfoResponse.SetSuccess(System.Boolean)">
+  SetSuccess(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetNetworkInfoResponse SetSuccess(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.GetNetworkInfoResponse.html">GetNetworkInfoResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

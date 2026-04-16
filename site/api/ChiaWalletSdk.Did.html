@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Did | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Did | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.Did">
+
+
+
+  <h1 id="ChiaWalletSdk_Did" data-uid="ChiaWalletSdk.Did" class="text-break">
+Class Did  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Did : IDid</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">Did</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.IDid.html">IDid</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_Did__ctor_" data-uid="ChiaWalletSdk.Did.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_Did__ctor_ChiaWalletSdk_Coin_ChiaWalletSdk_Proof_ChiaWalletSdk_DidInfo_" data-uid="ChiaWalletSdk.Did.#ctor(ChiaWalletSdk.Coin,ChiaWalletSdk.Proof,ChiaWalletSdk.DidInfo)">
+  Did(Coin, Proof, DidInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did(Coin coin, Proof proof, DidInfo info)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>proof</code> <a class="xref" href="ChiaWalletSdk.Proof.html">Proof</a></dt>
+    <dd></dd>
+    <dt><code>info</code> <a class="xref" href="ChiaWalletSdk.DidInfo.html">DidInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did__ctor_" data-uid="ChiaWalletSdk.Did.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_Did__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.Did.#ctor(System.IntPtr)">
+  Did(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_Did_pointer" data-uid="ChiaWalletSdk.Did.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_Did_Child_" data-uid="ChiaWalletSdk.Did.Child*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_Child_System_Byte___ChiaWalletSdk_Program_" data-uid="ChiaWalletSdk.Did.Child(System.Byte[],ChiaWalletSdk.Program)">
+  Child(byte[], Program)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did Child(byte[] p2PuzzleHash, Program metadata)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p2PuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>metadata</code> <a class="xref" href="ChiaWalletSdk.Program.html">Program</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_ChildProof_" data-uid="ChiaWalletSdk.Did.ChildProof*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_ChildProof" data-uid="ChiaWalletSdk.Did.ChildProof">
+  ChildProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Proof ChildProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Proof.html">Proof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_ChildWith_" data-uid="ChiaWalletSdk.Did.ChildWith*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_ChildWith_ChiaWalletSdk_DidInfo_" data-uid="ChiaWalletSdk.Did.ChildWith(ChiaWalletSdk.DidInfo)">
+  ChildWith(DidInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did ChildWith(DidInfo info)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>info</code> <a class="xref" href="ChiaWalletSdk.DidInfo.html">DidInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_CloneRustArcPtr_" data-uid="ChiaWalletSdk.Did.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_CloneRustArcPtr" data-uid="ChiaWalletSdk.Did.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_Destroy_" data-uid="ChiaWalletSdk.Did.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_Destroy" data-uid="ChiaWalletSdk.Did.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_Dispose_" data-uid="ChiaWalletSdk.Did.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_Dispose" data-uid="ChiaWalletSdk.Did.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_Finalize_" data-uid="ChiaWalletSdk.Did.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_Finalize" data-uid="ChiaWalletSdk.Did.Finalize">
+  ~Did()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~Did()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_FreeRustArcPtr_" data-uid="ChiaWalletSdk.Did.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_FreeRustArcPtr" data-uid="ChiaWalletSdk.Did.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_GetCoin_" data-uid="ChiaWalletSdk.Did.GetCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_GetCoin" data-uid="ChiaWalletSdk.Did.GetCoin">
+  GetCoin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Coin GetCoin()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_GetInfo_" data-uid="ChiaWalletSdk.Did.GetInfo*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_GetInfo" data-uid="ChiaWalletSdk.Did.GetInfo">
+  GetInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DidInfo GetInfo()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.DidInfo.html">DidInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_GetProof_" data-uid="ChiaWalletSdk.Did.GetProof*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_GetProof" data-uid="ChiaWalletSdk.Did.GetProof">
+  GetProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Proof GetProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Proof.html">Proof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_SetCoin_" data-uid="ChiaWalletSdk.Did.SetCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_SetCoin_ChiaWalletSdk_Coin_" data-uid="ChiaWalletSdk.Did.SetCoin(ChiaWalletSdk.Coin)">
+  SetCoin(Coin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did SetCoin(Coin value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_SetInfo_" data-uid="ChiaWalletSdk.Did.SetInfo*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_SetInfo_ChiaWalletSdk_DidInfo_" data-uid="ChiaWalletSdk.Did.SetInfo(ChiaWalletSdk.DidInfo)">
+  SetInfo(DidInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did SetInfo(DidInfo value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.DidInfo.html">DidInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_Did_SetProof_" data-uid="ChiaWalletSdk.Did.SetProof*"></a>
+
+  <h3 id="ChiaWalletSdk_Did_SetProof_ChiaWalletSdk_Proof_" data-uid="ChiaWalletSdk.Did.SetProof(ChiaWalletSdk.Proof)">
+  SetProof(Proof)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Did SetProof(Proof value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.Proof.html">Proof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Did.html">Did</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

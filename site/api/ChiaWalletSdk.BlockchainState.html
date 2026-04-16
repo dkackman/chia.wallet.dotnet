@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BlockchainState | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BlockchainState | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.BlockchainState">
+
+
+
+  <h1 id="ChiaWalletSdk_BlockchainState" data-uid="ChiaWalletSdk.BlockchainState" class="text-break">
+Class BlockchainState  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BlockchainState : IBlockchainState</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">BlockchainState</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.IBlockchainState.html">IBlockchainState</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_BlockchainState__ctor_" data-uid="ChiaWalletSdk.BlockchainState.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.BlockchainState.#ctor(System.IntPtr)">
+  BlockchainState(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState__ctor_" data-uid="ChiaWalletSdk.BlockchainState.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState__ctor_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_ChiaWalletSdk_MempoolMinFees_System_UInt32_System_Byte___ChiaWalletSdk_BlockRecord_System_String_System_String_ChiaWalletSdk_SyncState_" data-uid="ChiaWalletSdk.BlockchainState.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,ChiaWalletSdk.MempoolMinFees,System.UInt32,System.Byte[],ChiaWalletSdk.BlockRecord,System.String,System.String,ChiaWalletSdk.SyncState)">
+  BlockchainState(string, string, string, bool, string, string, string, MempoolMinFees, uint, byte[], BlockRecord, string, string, SyncState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState(string averageBlockTime, string blockMaxCost, string difficulty, bool genesisChallengeInitialized, string mempoolCost, string mempoolFees, string mempoolMaxTotalCost, MempoolMinFees mempoolMinFees, uint mempoolSize, byte[] nodeId, BlockRecord peak, string space, string subSlotIters, SyncState sync)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>averageBlockTime</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>blockMaxCost</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>difficulty</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>genesisChallengeInitialized</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+    <dt><code>mempoolCost</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>mempoolFees</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>mempoolMaxTotalCost</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>mempoolMinFees</code> <a class="xref" href="ChiaWalletSdk.MempoolMinFees.html">MempoolMinFees</a></dt>
+    <dd></dd>
+    <dt><code>mempoolSize</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+    <dt><code>nodeId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>peak</code> <a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+    <dt><code>space</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>subSlotIters</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>sync</code> <a class="xref" href="ChiaWalletSdk.SyncState.html">SyncState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_BlockchainState_pointer" data-uid="ChiaWalletSdk.BlockchainState.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_BlockchainState_CloneRustArcPtr_" data-uid="ChiaWalletSdk.BlockchainState.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_CloneRustArcPtr" data-uid="ChiaWalletSdk.BlockchainState.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_Destroy_" data-uid="ChiaWalletSdk.BlockchainState.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_Destroy" data-uid="ChiaWalletSdk.BlockchainState.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_Dispose_" data-uid="ChiaWalletSdk.BlockchainState.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_Dispose" data-uid="ChiaWalletSdk.BlockchainState.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_Finalize_" data-uid="ChiaWalletSdk.BlockchainState.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_Finalize" data-uid="ChiaWalletSdk.BlockchainState.Finalize">
+  ~BlockchainState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~BlockchainState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_FreeRustArcPtr_" data-uid="ChiaWalletSdk.BlockchainState.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_FreeRustArcPtr" data-uid="ChiaWalletSdk.BlockchainState.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetAverageBlockTime_" data-uid="ChiaWalletSdk.BlockchainState.GetAverageBlockTime*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetAverageBlockTime" data-uid="ChiaWalletSdk.BlockchainState.GetAverageBlockTime">
+  GetAverageBlockTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetAverageBlockTime()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetBlockMaxCost_" data-uid="ChiaWalletSdk.BlockchainState.GetBlockMaxCost*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetBlockMaxCost" data-uid="ChiaWalletSdk.BlockchainState.GetBlockMaxCost">
+  GetBlockMaxCost()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetBlockMaxCost()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetDifficulty_" data-uid="ChiaWalletSdk.BlockchainState.GetDifficulty*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetDifficulty" data-uid="ChiaWalletSdk.BlockchainState.GetDifficulty">
+  GetDifficulty()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetDifficulty()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetGenesisChallengeInitialized_" data-uid="ChiaWalletSdk.BlockchainState.GetGenesisChallengeInitialized*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetGenesisChallengeInitialized" data-uid="ChiaWalletSdk.BlockchainState.GetGenesisChallengeInitialized">
+  GetGenesisChallengeInitialized()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetGenesisChallengeInitialized()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetMempoolCost_" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolCost*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetMempoolCost" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolCost">
+  GetMempoolCost()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetMempoolCost()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetMempoolFees_" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolFees*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetMempoolFees" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolFees">
+  GetMempoolFees()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetMempoolFees()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetMempoolMaxTotalCost_" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolMaxTotalCost*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetMempoolMaxTotalCost" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolMaxTotalCost">
+  GetMempoolMaxTotalCost()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetMempoolMaxTotalCost()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetMempoolMinFees_" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolMinFees*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetMempoolMinFees" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolMinFees">
+  GetMempoolMinFees()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MempoolMinFees GetMempoolMinFees()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.MempoolMinFees.html">MempoolMinFees</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetMempoolSize_" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolSize*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetMempoolSize" data-uid="ChiaWalletSdk.BlockchainState.GetMempoolSize">
+  GetMempoolSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetMempoolSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetNodeId_" data-uid="ChiaWalletSdk.BlockchainState.GetNodeId*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetNodeId" data-uid="ChiaWalletSdk.BlockchainState.GetNodeId">
+  GetNodeId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetNodeId()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetPeak_" data-uid="ChiaWalletSdk.BlockchainState.GetPeak*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetPeak" data-uid="ChiaWalletSdk.BlockchainState.GetPeak">
+  GetPeak()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord GetPeak()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetSpace_" data-uid="ChiaWalletSdk.BlockchainState.GetSpace*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetSpace" data-uid="ChiaWalletSdk.BlockchainState.GetSpace">
+  GetSpace()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetSpace()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetSubSlotIters_" data-uid="ChiaWalletSdk.BlockchainState.GetSubSlotIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetSubSlotIters" data-uid="ChiaWalletSdk.BlockchainState.GetSubSlotIters">
+  GetSubSlotIters()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetSubSlotIters()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_GetSync_" data-uid="ChiaWalletSdk.BlockchainState.GetSync*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_GetSync" data-uid="ChiaWalletSdk.BlockchainState.GetSync">
+  GetSync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncState GetSync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.SyncState.html">SyncState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetAverageBlockTime_" data-uid="ChiaWalletSdk.BlockchainState.SetAverageBlockTime*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetAverageBlockTime_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetAverageBlockTime(System.String)">
+  SetAverageBlockTime(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetAverageBlockTime(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetBlockMaxCost_" data-uid="ChiaWalletSdk.BlockchainState.SetBlockMaxCost*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetBlockMaxCost_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetBlockMaxCost(System.String)">
+  SetBlockMaxCost(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetBlockMaxCost(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetDifficulty_" data-uid="ChiaWalletSdk.BlockchainState.SetDifficulty*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetDifficulty_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetDifficulty(System.String)">
+  SetDifficulty(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetDifficulty(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetGenesisChallengeInitialized_" data-uid="ChiaWalletSdk.BlockchainState.SetGenesisChallengeInitialized*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetGenesisChallengeInitialized_System_Boolean_" data-uid="ChiaWalletSdk.BlockchainState.SetGenesisChallengeInitialized(System.Boolean)">
+  SetGenesisChallengeInitialized(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetGenesisChallengeInitialized(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetMempoolCost_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolCost*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetMempoolCost_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolCost(System.String)">
+  SetMempoolCost(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetMempoolCost(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetMempoolFees_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolFees*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetMempoolFees_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolFees(System.String)">
+  SetMempoolFees(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetMempoolFees(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetMempoolMaxTotalCost_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolMaxTotalCost*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetMempoolMaxTotalCost_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolMaxTotalCost(System.String)">
+  SetMempoolMaxTotalCost(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetMempoolMaxTotalCost(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetMempoolMinFees_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolMinFees*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetMempoolMinFees_ChiaWalletSdk_MempoolMinFees_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolMinFees(ChiaWalletSdk.MempoolMinFees)">
+  SetMempoolMinFees(MempoolMinFees)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetMempoolMinFees(MempoolMinFees value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.MempoolMinFees.html">MempoolMinFees</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetMempoolSize_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolSize*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetMempoolSize_System_UInt32_" data-uid="ChiaWalletSdk.BlockchainState.SetMempoolSize(System.UInt32)">
+  SetMempoolSize(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetMempoolSize(uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetNodeId_" data-uid="ChiaWalletSdk.BlockchainState.SetNodeId*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetNodeId_System_Byte___" data-uid="ChiaWalletSdk.BlockchainState.SetNodeId(System.Byte[])">
+  SetNodeId(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetNodeId(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetPeak_" data-uid="ChiaWalletSdk.BlockchainState.SetPeak*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetPeak_ChiaWalletSdk_BlockRecord_" data-uid="ChiaWalletSdk.BlockchainState.SetPeak(ChiaWalletSdk.BlockRecord)">
+  SetPeak(BlockRecord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetPeak(BlockRecord value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetSpace_" data-uid="ChiaWalletSdk.BlockchainState.SetSpace*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetSpace_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetSpace(System.String)">
+  SetSpace(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetSpace(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetSubSlotIters_" data-uid="ChiaWalletSdk.BlockchainState.SetSubSlotIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetSubSlotIters_System_String_" data-uid="ChiaWalletSdk.BlockchainState.SetSubSlotIters(System.String)">
+  SetSubSlotIters(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetSubSlotIters(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockchainState_SetSync_" data-uid="ChiaWalletSdk.BlockchainState.SetSync*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockchainState_SetSync_ChiaWalletSdk_SyncState_" data-uid="ChiaWalletSdk.BlockchainState.SetSync(ChiaWalletSdk.SyncState)">
+  SetSync(SyncState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockchainState SetSync(SyncState value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.SyncState.html">SyncState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockchainState.html">BlockchainState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

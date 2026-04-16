@@ -1,0 +1,2118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BlockRecord | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BlockRecord | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.BlockRecord">
+
+
+
+  <h1 id="ChiaWalletSdk_BlockRecord" data-uid="ChiaWalletSdk.BlockRecord" class="text-break">
+Class BlockRecord  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BlockRecord : IBlockRecord</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">BlockRecord</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.IBlockRecord.html">IBlockRecord</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_BlockRecord__ctor_" data-uid="ChiaWalletSdk.BlockRecord.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord__ctor_System_Byte___System_Byte___System_UInt32_System_String_System_String_System_Byte_System_Byte___System_Byte___System_Byte___System_Byte___System_String_System_Byte___System_Byte___System_String_System_Byte_System_Boolean_System_UInt32_System_String_System_Byte___System_String_System_Collections_Generic_List_ChiaWalletSdk_Coin__System_Collections_Generic_List_System_Byte____System_Collections_Generic_List_System_Byte____System_Collections_Generic_List_System_Byte____ChiaWalletSdk_SubEpochSummary_" data-uid="ChiaWalletSdk.BlockRecord.#ctor(System.Byte[],System.Byte[],System.UInt32,System.String,System.String,System.Byte,System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.String,System.Byte[],System.Byte[],System.String,System.Byte,System.Boolean,System.UInt32,System.String,System.Byte[],System.String,System.Collections.Generic.List{ChiaWalletSdk.Coin},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},System.Collections.Generic.List{System.Byte[]},ChiaWalletSdk.SubEpochSummary)">
+  BlockRecord(byte[], byte[], uint, string, string, byte, byte[], byte[]?, byte[], byte[], string, byte[], byte[], string, byte, bool, uint, string?, byte[]?, string?, List&lt;Coin&gt;?, List&lt;byte[]&gt;?, List&lt;byte[]&gt;?, List&lt;byte[]&gt;?, SubEpochSummary?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord(byte[] headerHash, byte[] prevHash, uint height, string weight, string totalIters, byte signagePointIndex, byte[] challengeVdfOutput, byte[]? infusedChallengeVdfOutput, byte[] rewardInfusionNewChallenge, byte[] challengeBlockInfoHash, string subSlotIters, byte[] poolPuzzleHash, byte[] farmerPuzzleHash, string requiredIters, byte deficit, bool overflow, uint prevTransactionBlockHeight, string? timestamp, byte[]? prevTransactionBlockHash, string? fees, List&lt;Coin&gt;? rewardClaimsIncorporated, List&lt;byte[]&gt;? finishedChallengeSlotHashes, List&lt;byte[]&gt;? finishedInfusedChallengeSlotHashes, List&lt;byte[]&gt;? finishedRewardSlotHashes, SubEpochSummary? subEpochSummaryIncluded)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>headerHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>prevHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+    <dt><code>weight</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>totalIters</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>signagePointIndex</code> <span class="xref">byte</span></dt>
+    <dd></dd>
+    <dt><code>challengeVdfOutput</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>infusedChallengeVdfOutput</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>rewardInfusionNewChallenge</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>challengeBlockInfoHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>subSlotIters</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>poolPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>farmerPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>requiredIters</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>deficit</code> <span class="xref">byte</span></dt>
+    <dd></dd>
+    <dt><code>overflow</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+    <dt><code>prevTransactionBlockHeight</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+    <dt><code>timestamp</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>prevTransactionBlockHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>fees</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>rewardClaimsIncorporated</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>finishedChallengeSlotHashes</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>finishedInfusedChallengeSlotHashes</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>finishedRewardSlotHashes</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>subEpochSummaryIncluded</code> <a class="xref" href="ChiaWalletSdk.SubEpochSummary.html">SubEpochSummary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord__ctor_" data-uid="ChiaWalletSdk.BlockRecord.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.BlockRecord.#ctor(System.IntPtr)">
+  BlockRecord(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_BlockRecord_pointer" data-uid="ChiaWalletSdk.BlockRecord.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_BlockRecord_CloneRustArcPtr_" data-uid="ChiaWalletSdk.BlockRecord.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_CloneRustArcPtr" data-uid="ChiaWalletSdk.BlockRecord.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_Destroy_" data-uid="ChiaWalletSdk.BlockRecord.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_Destroy" data-uid="ChiaWalletSdk.BlockRecord.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_Dispose_" data-uid="ChiaWalletSdk.BlockRecord.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_Dispose" data-uid="ChiaWalletSdk.BlockRecord.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_Finalize_" data-uid="ChiaWalletSdk.BlockRecord.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_Finalize" data-uid="ChiaWalletSdk.BlockRecord.Finalize">
+  ~BlockRecord()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~BlockRecord()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_FreeRustArcPtr_" data-uid="ChiaWalletSdk.BlockRecord.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_FreeRustArcPtr" data-uid="ChiaWalletSdk.BlockRecord.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetChallengeBlockInfoHash_" data-uid="ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetChallengeBlockInfoHash" data-uid="ChiaWalletSdk.BlockRecord.GetChallengeBlockInfoHash">
+  GetChallengeBlockInfoHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetChallengeBlockInfoHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetChallengeVdfOutput_" data-uid="ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetChallengeVdfOutput" data-uid="ChiaWalletSdk.BlockRecord.GetChallengeVdfOutput">
+  GetChallengeVdfOutput()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetChallengeVdfOutput()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetDeficit_" data-uid="ChiaWalletSdk.BlockRecord.GetDeficit*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetDeficit" data-uid="ChiaWalletSdk.BlockRecord.GetDeficit">
+  GetDeficit()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte GetDeficit()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetFarmerPuzzleHash_" data-uid="ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetFarmerPuzzleHash" data-uid="ChiaWalletSdk.BlockRecord.GetFarmerPuzzleHash">
+  GetFarmerPuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetFarmerPuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetFees_" data-uid="ChiaWalletSdk.BlockRecord.GetFees*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetFees" data-uid="ChiaWalletSdk.BlockRecord.GetFees">
+  GetFees()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetFees()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetFinishedChallengeSlotHashes_" data-uid="ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetFinishedChallengeSlotHashes" data-uid="ChiaWalletSdk.BlockRecord.GetFinishedChallengeSlotHashes">
+  GetFinishedChallengeSlotHashes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;byte[]&gt;? GetFinishedChallengeSlotHashes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetFinishedInfusedChallengeSlotHashes_" data-uid="ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetFinishedInfusedChallengeSlotHashes" data-uid="ChiaWalletSdk.BlockRecord.GetFinishedInfusedChallengeSlotHashes">
+  GetFinishedInfusedChallengeSlotHashes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;byte[]&gt;? GetFinishedInfusedChallengeSlotHashes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetFinishedRewardSlotHashes_" data-uid="ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetFinishedRewardSlotHashes" data-uid="ChiaWalletSdk.BlockRecord.GetFinishedRewardSlotHashes">
+  GetFinishedRewardSlotHashes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;byte[]&gt;? GetFinishedRewardSlotHashes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetHeaderHash_" data-uid="ChiaWalletSdk.BlockRecord.GetHeaderHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetHeaderHash" data-uid="ChiaWalletSdk.BlockRecord.GetHeaderHash">
+  GetHeaderHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetHeaderHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetHeight_" data-uid="ChiaWalletSdk.BlockRecord.GetHeight*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetHeight" data-uid="ChiaWalletSdk.BlockRecord.GetHeight">
+  GetHeight()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetHeight()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetInfusedChallengeVdfOutput_" data-uid="ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetInfusedChallengeVdfOutput" data-uid="ChiaWalletSdk.BlockRecord.GetInfusedChallengeVdfOutput">
+  GetInfusedChallengeVdfOutput()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetInfusedChallengeVdfOutput()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetOverflow_" data-uid="ChiaWalletSdk.BlockRecord.GetOverflow*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetOverflow" data-uid="ChiaWalletSdk.BlockRecord.GetOverflow">
+  GetOverflow()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetOverflow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetPoolPuzzleHash_" data-uid="ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetPoolPuzzleHash" data-uid="ChiaWalletSdk.BlockRecord.GetPoolPuzzleHash">
+  GetPoolPuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetPoolPuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetPrevHash_" data-uid="ChiaWalletSdk.BlockRecord.GetPrevHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetPrevHash" data-uid="ChiaWalletSdk.BlockRecord.GetPrevHash">
+  GetPrevHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetPrevHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetPrevTransactionBlockHash_" data-uid="ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetPrevTransactionBlockHash" data-uid="ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHash">
+  GetPrevTransactionBlockHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetPrevTransactionBlockHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetPrevTransactionBlockHeight_" data-uid="ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetPrevTransactionBlockHeight" data-uid="ChiaWalletSdk.BlockRecord.GetPrevTransactionBlockHeight">
+  GetPrevTransactionBlockHeight()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetPrevTransactionBlockHeight()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetRequiredIters_" data-uid="ChiaWalletSdk.BlockRecord.GetRequiredIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetRequiredIters" data-uid="ChiaWalletSdk.BlockRecord.GetRequiredIters">
+  GetRequiredIters()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetRequiredIters()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetRewardClaimsIncorporated_" data-uid="ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetRewardClaimsIncorporated" data-uid="ChiaWalletSdk.BlockRecord.GetRewardClaimsIncorporated">
+  GetRewardClaimsIncorporated()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Coin&gt;? GetRewardClaimsIncorporated()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetRewardInfusionNewChallenge_" data-uid="ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetRewardInfusionNewChallenge" data-uid="ChiaWalletSdk.BlockRecord.GetRewardInfusionNewChallenge">
+  GetRewardInfusionNewChallenge()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetRewardInfusionNewChallenge()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetSignagePointIndex_" data-uid="ChiaWalletSdk.BlockRecord.GetSignagePointIndex*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetSignagePointIndex" data-uid="ChiaWalletSdk.BlockRecord.GetSignagePointIndex">
+  GetSignagePointIndex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte GetSignagePointIndex()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetSubEpochSummaryIncluded_" data-uid="ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetSubEpochSummaryIncluded" data-uid="ChiaWalletSdk.BlockRecord.GetSubEpochSummaryIncluded">
+  GetSubEpochSummaryIncluded()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubEpochSummary? GetSubEpochSummaryIncluded()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.SubEpochSummary.html">SubEpochSummary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetSubSlotIters_" data-uid="ChiaWalletSdk.BlockRecord.GetSubSlotIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetSubSlotIters" data-uid="ChiaWalletSdk.BlockRecord.GetSubSlotIters">
+  GetSubSlotIters()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetSubSlotIters()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetTimestamp_" data-uid="ChiaWalletSdk.BlockRecord.GetTimestamp*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetTimestamp" data-uid="ChiaWalletSdk.BlockRecord.GetTimestamp">
+  GetTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetTimestamp()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetTotalIters_" data-uid="ChiaWalletSdk.BlockRecord.GetTotalIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetTotalIters" data-uid="ChiaWalletSdk.BlockRecord.GetTotalIters">
+  GetTotalIters()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTotalIters()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_GetWeight_" data-uid="ChiaWalletSdk.BlockRecord.GetWeight*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_GetWeight" data-uid="ChiaWalletSdk.BlockRecord.GetWeight">
+  GetWeight()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetWeight()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetChallengeBlockInfoHash_" data-uid="ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetChallengeBlockInfoHash_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetChallengeBlockInfoHash(System.Byte[])">
+  SetChallengeBlockInfoHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetChallengeBlockInfoHash(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetChallengeVdfOutput_" data-uid="ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetChallengeVdfOutput_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetChallengeVdfOutput(System.Byte[])">
+  SetChallengeVdfOutput(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetChallengeVdfOutput(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetDeficit_" data-uid="ChiaWalletSdk.BlockRecord.SetDeficit*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetDeficit_System_Byte_" data-uid="ChiaWalletSdk.BlockRecord.SetDeficit(System.Byte)">
+  SetDeficit(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetDeficit(byte value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetFarmerPuzzleHash_" data-uid="ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetFarmerPuzzleHash_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetFarmerPuzzleHash(System.Byte[])">
+  SetFarmerPuzzleHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetFarmerPuzzleHash(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetFees_" data-uid="ChiaWalletSdk.BlockRecord.SetFees*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetFees_System_String_" data-uid="ChiaWalletSdk.BlockRecord.SetFees(System.String)">
+  SetFees(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetFees(string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetFinishedChallengeSlotHashes_" data-uid="ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetFinishedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____" data-uid="ChiaWalletSdk.BlockRecord.SetFinishedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})">
+  SetFinishedChallengeSlotHashes(List&lt;byte[]&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetFinishedChallengeSlotHashes(List&lt;byte[]&gt;? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetFinishedInfusedChallengeSlotHashes_" data-uid="ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetFinishedInfusedChallengeSlotHashes_System_Collections_Generic_List_System_Byte____" data-uid="ChiaWalletSdk.BlockRecord.SetFinishedInfusedChallengeSlotHashes(System.Collections.Generic.List{System.Byte[]})">
+  SetFinishedInfusedChallengeSlotHashes(List&lt;byte[]&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetFinishedInfusedChallengeSlotHashes(List&lt;byte[]&gt;? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetFinishedRewardSlotHashes_" data-uid="ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetFinishedRewardSlotHashes_System_Collections_Generic_List_System_Byte____" data-uid="ChiaWalletSdk.BlockRecord.SetFinishedRewardSlotHashes(System.Collections.Generic.List{System.Byte[]})">
+  SetFinishedRewardSlotHashes(List&lt;byte[]&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetFinishedRewardSlotHashes(List&lt;byte[]&gt;? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetHeaderHash_" data-uid="ChiaWalletSdk.BlockRecord.SetHeaderHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetHeaderHash_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetHeaderHash(System.Byte[])">
+  SetHeaderHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetHeaderHash(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetHeight_" data-uid="ChiaWalletSdk.BlockRecord.SetHeight*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetHeight_System_UInt32_" data-uid="ChiaWalletSdk.BlockRecord.SetHeight(System.UInt32)">
+  SetHeight(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetHeight(uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetInfusedChallengeVdfOutput_" data-uid="ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetInfusedChallengeVdfOutput_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetInfusedChallengeVdfOutput(System.Byte[])">
+  SetInfusedChallengeVdfOutput(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetInfusedChallengeVdfOutput(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetOverflow_" data-uid="ChiaWalletSdk.BlockRecord.SetOverflow*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetOverflow_System_Boolean_" data-uid="ChiaWalletSdk.BlockRecord.SetOverflow(System.Boolean)">
+  SetOverflow(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetOverflow(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetPoolPuzzleHash_" data-uid="ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetPoolPuzzleHash_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetPoolPuzzleHash(System.Byte[])">
+  SetPoolPuzzleHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetPoolPuzzleHash(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetPrevHash_" data-uid="ChiaWalletSdk.BlockRecord.SetPrevHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetPrevHash_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetPrevHash(System.Byte[])">
+  SetPrevHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetPrevHash(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetPrevTransactionBlockHash_" data-uid="ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetPrevTransactionBlockHash_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHash(System.Byte[])">
+  SetPrevTransactionBlockHash(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetPrevTransactionBlockHash(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetPrevTransactionBlockHeight_" data-uid="ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetPrevTransactionBlockHeight_System_UInt32_" data-uid="ChiaWalletSdk.BlockRecord.SetPrevTransactionBlockHeight(System.UInt32)">
+  SetPrevTransactionBlockHeight(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetPrevTransactionBlockHeight(uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetRequiredIters_" data-uid="ChiaWalletSdk.BlockRecord.SetRequiredIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetRequiredIters_System_String_" data-uid="ChiaWalletSdk.BlockRecord.SetRequiredIters(System.String)">
+  SetRequiredIters(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetRequiredIters(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetRewardClaimsIncorporated_" data-uid="ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetRewardClaimsIncorporated_System_Collections_Generic_List_ChiaWalletSdk_Coin__" data-uid="ChiaWalletSdk.BlockRecord.SetRewardClaimsIncorporated(System.Collections.Generic.List{ChiaWalletSdk.Coin})">
+  SetRewardClaimsIncorporated(List&lt;Coin&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetRewardClaimsIncorporated(List&lt;Coin&gt;? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetRewardInfusionNewChallenge_" data-uid="ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetRewardInfusionNewChallenge_System_Byte___" data-uid="ChiaWalletSdk.BlockRecord.SetRewardInfusionNewChallenge(System.Byte[])">
+  SetRewardInfusionNewChallenge(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetRewardInfusionNewChallenge(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetSignagePointIndex_" data-uid="ChiaWalletSdk.BlockRecord.SetSignagePointIndex*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetSignagePointIndex_System_Byte_" data-uid="ChiaWalletSdk.BlockRecord.SetSignagePointIndex(System.Byte)">
+  SetSignagePointIndex(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetSignagePointIndex(byte value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetSubEpochSummaryIncluded_" data-uid="ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetSubEpochSummaryIncluded_ChiaWalletSdk_SubEpochSummary_" data-uid="ChiaWalletSdk.BlockRecord.SetSubEpochSummaryIncluded(ChiaWalletSdk.SubEpochSummary)">
+  SetSubEpochSummaryIncluded(SubEpochSummary?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetSubEpochSummaryIncluded(SubEpochSummary? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.SubEpochSummary.html">SubEpochSummary</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetSubSlotIters_" data-uid="ChiaWalletSdk.BlockRecord.SetSubSlotIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetSubSlotIters_System_String_" data-uid="ChiaWalletSdk.BlockRecord.SetSubSlotIters(System.String)">
+  SetSubSlotIters(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetSubSlotIters(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetTimestamp_" data-uid="ChiaWalletSdk.BlockRecord.SetTimestamp*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetTimestamp_System_String_" data-uid="ChiaWalletSdk.BlockRecord.SetTimestamp(System.String)">
+  SetTimestamp(string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetTimestamp(string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetTotalIters_" data-uid="ChiaWalletSdk.BlockRecord.SetTotalIters*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetTotalIters_System_String_" data-uid="ChiaWalletSdk.BlockRecord.SetTotalIters(System.String)">
+  SetTotalIters(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetTotalIters(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_BlockRecord_SetWeight_" data-uid="ChiaWalletSdk.BlockRecord.SetWeight*"></a>
+
+  <h3 id="ChiaWalletSdk_BlockRecord_SetWeight_System_String_" data-uid="ChiaWalletSdk.BlockRecord.SetWeight(System.String)">
+  SetWeight(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlockRecord SetWeight(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlockRecord.html">BlockRecord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

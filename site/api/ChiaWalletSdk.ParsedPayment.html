@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ParsedPayment | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ParsedPayment | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.ParsedPayment">
+
+
+
+  <h1 id="ChiaWalletSdk_ParsedPayment" data-uid="ChiaWalletSdk.ParsedPayment" class="text-break">
+Class ParsedPayment  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ParsedPayment : IParsedPayment</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ParsedPayment</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.IParsedPayment.html">IParsedPayment</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_ParsedPayment__ctor_" data-uid="ChiaWalletSdk.ParsedPayment.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment__ctor_ChiaWalletSdk_TransferType_System_Byte___System_Byte___System_Byte___ChiaWalletSdk_Coin_ChiaWalletSdk_ClawbackV2_System_Collections_Generic_List_System_String__" data-uid="ChiaWalletSdk.ParsedPayment.#ctor(ChiaWalletSdk.TransferType,System.Byte[],System.Byte[],System.Byte[],ChiaWalletSdk.Coin,ChiaWalletSdk.ClawbackV2,System.Collections.Generic.List{System.String})">
+  ParsedPayment(TransferType, byte[]?, byte[]?, byte[], Coin, ClawbackV2?, List&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment(TransferType transferType, byte[]? assetId, byte[]? hiddenPuzzleHash, byte[] p2PuzzleHash, Coin coin, ClawbackV2? clawback, List&lt;string&gt; memos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transferType</code> <a class="xref" href="ChiaWalletSdk.TransferType.html">TransferType</a></dt>
+    <dd></dd>
+    <dt><code>assetId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>hiddenPuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>p2PuzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+    <dt><code>clawback</code> <a class="xref" href="ChiaWalletSdk.ClawbackV2.html">ClawbackV2</a></dt>
+    <dd></dd>
+    <dt><code>memos</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment__ctor_" data-uid="ChiaWalletSdk.ParsedPayment.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.ParsedPayment.#ctor(System.IntPtr)">
+  ParsedPayment(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_pointer" data-uid="ChiaWalletSdk.ParsedPayment.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_CloneRustArcPtr_" data-uid="ChiaWalletSdk.ParsedPayment.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_CloneRustArcPtr" data-uid="ChiaWalletSdk.ParsedPayment.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_Destroy_" data-uid="ChiaWalletSdk.ParsedPayment.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_Destroy" data-uid="ChiaWalletSdk.ParsedPayment.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_Dispose_" data-uid="ChiaWalletSdk.ParsedPayment.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_Dispose" data-uid="ChiaWalletSdk.ParsedPayment.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_Finalize_" data-uid="ChiaWalletSdk.ParsedPayment.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_Finalize" data-uid="ChiaWalletSdk.ParsedPayment.Finalize">
+  ~ParsedPayment()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~ParsedPayment()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_FreeRustArcPtr_" data-uid="ChiaWalletSdk.ParsedPayment.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_FreeRustArcPtr" data-uid="ChiaWalletSdk.ParsedPayment.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetAssetId_" data-uid="ChiaWalletSdk.ParsedPayment.GetAssetId*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetAssetId" data-uid="ChiaWalletSdk.ParsedPayment.GetAssetId">
+  GetAssetId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetAssetId()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetClawback_" data-uid="ChiaWalletSdk.ParsedPayment.GetClawback*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetClawback" data-uid="ChiaWalletSdk.ParsedPayment.GetClawback">
+  GetClawback()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ClawbackV2? GetClawback()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ClawbackV2.html">ClawbackV2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetCoin_" data-uid="ChiaWalletSdk.ParsedPayment.GetCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetCoin" data-uid="ChiaWalletSdk.ParsedPayment.GetCoin">
+  GetCoin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Coin GetCoin()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetHiddenPuzzleHash_" data-uid="ChiaWalletSdk.ParsedPayment.GetHiddenPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetHiddenPuzzleHash" data-uid="ChiaWalletSdk.ParsedPayment.GetHiddenPuzzleHash">
+  GetHiddenPuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetHiddenPuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetMemos_" data-uid="ChiaWalletSdk.ParsedPayment.GetMemos*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetMemos" data-uid="ChiaWalletSdk.ParsedPayment.GetMemos">
+  GetMemos()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetMemos()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetP2PuzzleHash_" data-uid="ChiaWalletSdk.ParsedPayment.GetP2PuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetP2PuzzleHash" data-uid="ChiaWalletSdk.ParsedPayment.GetP2PuzzleHash">
+  GetP2PuzzleHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetP2PuzzleHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_GetTransferType_" data-uid="ChiaWalletSdk.ParsedPayment.GetTransferType*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_GetTransferType" data-uid="ChiaWalletSdk.ParsedPayment.GetTransferType">
+  GetTransferType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TransferType GetTransferType()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.TransferType.html">TransferType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetAssetId_" data-uid="ChiaWalletSdk.ParsedPayment.SetAssetId*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetAssetId_System_Byte___" data-uid="ChiaWalletSdk.ParsedPayment.SetAssetId(System.Byte[])">
+  SetAssetId(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetAssetId(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetClawback_" data-uid="ChiaWalletSdk.ParsedPayment.SetClawback*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetClawback_ChiaWalletSdk_ClawbackV2_" data-uid="ChiaWalletSdk.ParsedPayment.SetClawback(ChiaWalletSdk.ClawbackV2)">
+  SetClawback(ClawbackV2?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetClawback(ClawbackV2? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.ClawbackV2.html">ClawbackV2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetCoin_" data-uid="ChiaWalletSdk.ParsedPayment.SetCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetCoin_ChiaWalletSdk_Coin_" data-uid="ChiaWalletSdk.ParsedPayment.SetCoin(ChiaWalletSdk.Coin)">
+  SetCoin(Coin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetCoin(Coin value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetHiddenPuzzleHash_" data-uid="ChiaWalletSdk.ParsedPayment.SetHiddenPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetHiddenPuzzleHash_System_Byte___" data-uid="ChiaWalletSdk.ParsedPayment.SetHiddenPuzzleHash(System.Byte[])">
+  SetHiddenPuzzleHash(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetHiddenPuzzleHash(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetMemos_" data-uid="ChiaWalletSdk.ParsedPayment.SetMemos*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetMemos_System_Collections_Generic_List_System_String__" data-uid="ChiaWalletSdk.ParsedPayment.SetMemos(System.Collections.Generic.List{System.String})">
+  SetMemos(List&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetMemos(List&lt;string&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetP2PuzzleHash_" data-uid="ChiaWalletSdk.ParsedPayment.SetP2PuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetP2PuzzleHash_System_Byte___" data-uid="ChiaWalletSdk.ParsedPayment.SetP2PuzzleHash(System.Byte[])">
+  SetP2PuzzleHash(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetP2PuzzleHash(byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ParsedPayment_SetTransferType_" data-uid="ChiaWalletSdk.ParsedPayment.SetTransferType*"></a>
+
+  <h3 id="ChiaWalletSdk_ParsedPayment_SetTransferType_ChiaWalletSdk_TransferType_" data-uid="ChiaWalletSdk.ParsedPayment.SetTransferType(ChiaWalletSdk.TransferType)">
+  SetTransferType(TransferType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParsedPayment SetTransferType(TransferType value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.TransferType.html">TransferType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.ParsedPayment.html">ParsedPayment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

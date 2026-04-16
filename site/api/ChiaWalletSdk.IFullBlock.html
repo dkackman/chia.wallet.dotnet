@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IFullBlock | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IFullBlock | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.IFullBlock">
+
+
+
+  <h1 id="ChiaWalletSdk_IFullBlock" data-uid="ChiaWalletSdk.IFullBlock" class="text-break">
+Interface IFullBlock  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFullBlock</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetChallengeChainIpProof_" data-uid="ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetChallengeChainIpProof" data-uid="ChiaWalletSdk.IFullBlock.GetChallengeChainIpProof">
+  GetChallengeChainIpProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VdfProof GetChallengeChainIpProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetChallengeChainSpProof_" data-uid="ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetChallengeChainSpProof" data-uid="ChiaWalletSdk.IFullBlock.GetChallengeChainSpProof">
+  GetChallengeChainSpProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VdfProof? GetChallengeChainSpProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetFinishedSubSlots_" data-uid="ChiaWalletSdk.IFullBlock.GetFinishedSubSlots*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetFinishedSubSlots" data-uid="ChiaWalletSdk.IFullBlock.GetFinishedSubSlots">
+  GetFinishedSubSlots()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;EndOfSubSlotBundle&gt; GetFinishedSubSlots()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.EndOfSubSlotBundle.html">EndOfSubSlotBundle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetFoliage_" data-uid="ChiaWalletSdk.IFullBlock.GetFoliage*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetFoliage" data-uid="ChiaWalletSdk.IFullBlock.GetFoliage">
+  GetFoliage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Foliage GetFoliage()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Foliage.html">Foliage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetFoliageTransactionBlock_" data-uid="ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetFoliageTransactionBlock" data-uid="ChiaWalletSdk.IFullBlock.GetFoliageTransactionBlock">
+  GetFoliageTransactionBlock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FoliageTransactionBlock? GetFoliageTransactionBlock()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FoliageTransactionBlock.html">FoliageTransactionBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetInfusedChallengeChainIpProof_" data-uid="ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetInfusedChallengeChainIpProof" data-uid="ChiaWalletSdk.IFullBlock.GetInfusedChallengeChainIpProof">
+  GetInfusedChallengeChainIpProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VdfProof? GetInfusedChallengeChainIpProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetRewardChainBlock_" data-uid="ChiaWalletSdk.IFullBlock.GetRewardChainBlock*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetRewardChainBlock" data-uid="ChiaWalletSdk.IFullBlock.GetRewardChainBlock">
+  GetRewardChainBlock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RewardChainBlock GetRewardChainBlock()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RewardChainBlock.html">RewardChainBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetRewardChainIpProof_" data-uid="ChiaWalletSdk.IFullBlock.GetRewardChainIpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetRewardChainIpProof" data-uid="ChiaWalletSdk.IFullBlock.GetRewardChainIpProof">
+  GetRewardChainIpProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VdfProof GetRewardChainIpProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetRewardChainSpProof_" data-uid="ChiaWalletSdk.IFullBlock.GetRewardChainSpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetRewardChainSpProof" data-uid="ChiaWalletSdk.IFullBlock.GetRewardChainSpProof">
+  GetRewardChainSpProof()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VdfProof? GetRewardChainSpProof()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetTransactionsGenerator_" data-uid="ChiaWalletSdk.IFullBlock.GetTransactionsGenerator*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetTransactionsGenerator" data-uid="ChiaWalletSdk.IFullBlock.GetTransactionsGenerator">
+  GetTransactionsGenerator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">byte[]? GetTransactionsGenerator()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetTransactionsGeneratorRefList_" data-uid="ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetTransactionsGeneratorRefList" data-uid="ChiaWalletSdk.IFullBlock.GetTransactionsGeneratorRefList">
+  GetTransactionsGeneratorRefList()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;uint&gt; GetTransactionsGeneratorRefList()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">uint</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_GetTransactionsInfo_" data-uid="ChiaWalletSdk.IFullBlock.GetTransactionsInfo*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_GetTransactionsInfo" data-uid="ChiaWalletSdk.IFullBlock.GetTransactionsInfo">
+  GetTransactionsInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TransactionsInfo? GetTransactionsInfo()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.TransactionsInfo.html">TransactionsInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetChallengeChainIpProof_" data-uid="ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetChallengeChainIpProof_ChiaWalletSdk_VdfProof_" data-uid="ChiaWalletSdk.IFullBlock.SetChallengeChainIpProof(ChiaWalletSdk.VdfProof)">
+  SetChallengeChainIpProof(VdfProof)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetChallengeChainIpProof(VdfProof value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetChallengeChainSpProof_" data-uid="ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetChallengeChainSpProof_ChiaWalletSdk_VdfProof_" data-uid="ChiaWalletSdk.IFullBlock.SetChallengeChainSpProof(ChiaWalletSdk.VdfProof)">
+  SetChallengeChainSpProof(VdfProof?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetChallengeChainSpProof(VdfProof? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetFinishedSubSlots_" data-uid="ChiaWalletSdk.IFullBlock.SetFinishedSubSlots*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetFinishedSubSlots_System_Collections_Generic_List_ChiaWalletSdk_EndOfSubSlotBundle__" data-uid="ChiaWalletSdk.IFullBlock.SetFinishedSubSlots(System.Collections.Generic.List{ChiaWalletSdk.EndOfSubSlotBundle})">
+  SetFinishedSubSlots(List&lt;EndOfSubSlotBundle&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetFinishedSubSlots(List&lt;EndOfSubSlotBundle&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.EndOfSubSlotBundle.html">EndOfSubSlotBundle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetFoliage_" data-uid="ChiaWalletSdk.IFullBlock.SetFoliage*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetFoliage_ChiaWalletSdk_Foliage_" data-uid="ChiaWalletSdk.IFullBlock.SetFoliage(ChiaWalletSdk.Foliage)">
+  SetFoliage(Foliage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetFoliage(Foliage value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.Foliage.html">Foliage</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetFoliageTransactionBlock_" data-uid="ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetFoliageTransactionBlock_ChiaWalletSdk_FoliageTransactionBlock_" data-uid="ChiaWalletSdk.IFullBlock.SetFoliageTransactionBlock(ChiaWalletSdk.FoliageTransactionBlock)">
+  SetFoliageTransactionBlock(FoliageTransactionBlock?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetFoliageTransactionBlock(FoliageTransactionBlock? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.FoliageTransactionBlock.html">FoliageTransactionBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetInfusedChallengeChainIpProof_" data-uid="ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetInfusedChallengeChainIpProof_ChiaWalletSdk_VdfProof_" data-uid="ChiaWalletSdk.IFullBlock.SetInfusedChallengeChainIpProof(ChiaWalletSdk.VdfProof)">
+  SetInfusedChallengeChainIpProof(VdfProof?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetInfusedChallengeChainIpProof(VdfProof? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetRewardChainBlock_" data-uid="ChiaWalletSdk.IFullBlock.SetRewardChainBlock*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetRewardChainBlock_ChiaWalletSdk_RewardChainBlock_" data-uid="ChiaWalletSdk.IFullBlock.SetRewardChainBlock(ChiaWalletSdk.RewardChainBlock)">
+  SetRewardChainBlock(RewardChainBlock)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetRewardChainBlock(RewardChainBlock value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.RewardChainBlock.html">RewardChainBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetRewardChainIpProof_" data-uid="ChiaWalletSdk.IFullBlock.SetRewardChainIpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetRewardChainIpProof_ChiaWalletSdk_VdfProof_" data-uid="ChiaWalletSdk.IFullBlock.SetRewardChainIpProof(ChiaWalletSdk.VdfProof)">
+  SetRewardChainIpProof(VdfProof)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetRewardChainIpProof(VdfProof value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetRewardChainSpProof_" data-uid="ChiaWalletSdk.IFullBlock.SetRewardChainSpProof*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetRewardChainSpProof_ChiaWalletSdk_VdfProof_" data-uid="ChiaWalletSdk.IFullBlock.SetRewardChainSpProof(ChiaWalletSdk.VdfProof)">
+  SetRewardChainSpProof(VdfProof?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetRewardChainSpProof(VdfProof? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.VdfProof.html">VdfProof</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetTransactionsGenerator_" data-uid="ChiaWalletSdk.IFullBlock.SetTransactionsGenerator*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetTransactionsGenerator_System_Byte___" data-uid="ChiaWalletSdk.IFullBlock.SetTransactionsGenerator(System.Byte[])">
+  SetTransactionsGenerator(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetTransactionsGenerator(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetTransactionsGeneratorRefList_" data-uid="ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetTransactionsGeneratorRefList_System_Collections_Generic_List_System_UInt32__" data-uid="ChiaWalletSdk.IFullBlock.SetTransactionsGeneratorRefList(System.Collections.Generic.List{System.UInt32})">
+  SetTransactionsGeneratorRefList(List&lt;uint&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetTransactionsGeneratorRefList(List&lt;uint&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">uint</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_IFullBlock_SetTransactionsInfo_" data-uid="ChiaWalletSdk.IFullBlock.SetTransactionsInfo*"></a>
+
+  <h3 id="ChiaWalletSdk_IFullBlock_SetTransactionsInfo_ChiaWalletSdk_TransactionsInfo_" data-uid="ChiaWalletSdk.IFullBlock.SetTransactionsInfo(ChiaWalletSdk.TransactionsInfo)">
+  SetTransactionsInfo(TransactionsInfo?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FullBlock SetTransactionsInfo(TransactionsInfo? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ChiaWalletSdk.TransactionsInfo.html">TransactionsInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.FullBlock.html">FullBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

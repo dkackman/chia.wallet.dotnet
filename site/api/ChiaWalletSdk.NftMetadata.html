@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NftMetadata | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NftMetadata | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.NftMetadata">
+
+
+
+  <h1 id="ChiaWalletSdk_NftMetadata" data-uid="ChiaWalletSdk.NftMetadata" class="text-break">
+Class NftMetadata  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NftMetadata : INftMetadata</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">NftMetadata</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.INftMetadata.html">INftMetadata</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_NftMetadata__ctor_" data-uid="ChiaWalletSdk.NftMetadata.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.NftMetadata.#ctor(System.IntPtr)">
+  NftMetadata(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata__ctor_" data-uid="ChiaWalletSdk.NftMetadata.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata__ctor_System_String_System_String_System_Collections_Generic_List_System_String__System_Byte___System_Collections_Generic_List_System_String__System_Byte___System_Collections_Generic_List_System_String__System_Byte___" data-uid="ChiaWalletSdk.NftMetadata.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Byte[],System.Collections.Generic.List{System.String},System.Byte[],System.Collections.Generic.List{System.String},System.Byte[])">
+  NftMetadata(string, string, List&lt;string&gt;, byte[]?, List&lt;string&gt;, byte[]?, List&lt;string&gt;, byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata(string editionNumber, string editionTotal, List&lt;string&gt; dataUris, byte[]? dataHash, List&lt;string&gt; metadataUris, byte[]? metadataHash, List&lt;string&gt; licenseUris, byte[]? licenseHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>editionNumber</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>editionTotal</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>dataUris</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>dataHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>metadataUris</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>metadataHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>licenseUris</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>licenseHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_NftMetadata_pointer" data-uid="ChiaWalletSdk.NftMetadata.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_NftMetadata_CloneRustArcPtr_" data-uid="ChiaWalletSdk.NftMetadata.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_CloneRustArcPtr" data-uid="ChiaWalletSdk.NftMetadata.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_Destroy_" data-uid="ChiaWalletSdk.NftMetadata.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_Destroy" data-uid="ChiaWalletSdk.NftMetadata.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_Dispose_" data-uid="ChiaWalletSdk.NftMetadata.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_Dispose" data-uid="ChiaWalletSdk.NftMetadata.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_Finalize_" data-uid="ChiaWalletSdk.NftMetadata.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_Finalize" data-uid="ChiaWalletSdk.NftMetadata.Finalize">
+  ~NftMetadata()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~NftMetadata()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_FreeRustArcPtr_" data-uid="ChiaWalletSdk.NftMetadata.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_FreeRustArcPtr" data-uid="ChiaWalletSdk.NftMetadata.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetDataHash_" data-uid="ChiaWalletSdk.NftMetadata.GetDataHash*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetDataHash" data-uid="ChiaWalletSdk.NftMetadata.GetDataHash">
+  GetDataHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetDataHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetDataUris_" data-uid="ChiaWalletSdk.NftMetadata.GetDataUris*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetDataUris" data-uid="ChiaWalletSdk.NftMetadata.GetDataUris">
+  GetDataUris()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetDataUris()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetEditionNumber_" data-uid="ChiaWalletSdk.NftMetadata.GetEditionNumber*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetEditionNumber" data-uid="ChiaWalletSdk.NftMetadata.GetEditionNumber">
+  GetEditionNumber()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetEditionNumber()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetEditionTotal_" data-uid="ChiaWalletSdk.NftMetadata.GetEditionTotal*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetEditionTotal" data-uid="ChiaWalletSdk.NftMetadata.GetEditionTotal">
+  GetEditionTotal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetEditionTotal()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetLicenseHash_" data-uid="ChiaWalletSdk.NftMetadata.GetLicenseHash*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetLicenseHash" data-uid="ChiaWalletSdk.NftMetadata.GetLicenseHash">
+  GetLicenseHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetLicenseHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetLicenseUris_" data-uid="ChiaWalletSdk.NftMetadata.GetLicenseUris*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetLicenseUris" data-uid="ChiaWalletSdk.NftMetadata.GetLicenseUris">
+  GetLicenseUris()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetLicenseUris()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetMetadataHash_" data-uid="ChiaWalletSdk.NftMetadata.GetMetadataHash*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetMetadataHash" data-uid="ChiaWalletSdk.NftMetadata.GetMetadataHash">
+  GetMetadataHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[]? GetMetadataHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_GetMetadataUris_" data-uid="ChiaWalletSdk.NftMetadata.GetMetadataUris*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_GetMetadataUris" data-uid="ChiaWalletSdk.NftMetadata.GetMetadataUris">
+  GetMetadataUris()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetMetadataUris()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetDataHash_" data-uid="ChiaWalletSdk.NftMetadata.SetDataHash*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetDataHash_System_Byte___" data-uid="ChiaWalletSdk.NftMetadata.SetDataHash(System.Byte[])">
+  SetDataHash(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetDataHash(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetDataUris_" data-uid="ChiaWalletSdk.NftMetadata.SetDataUris*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetDataUris_System_Collections_Generic_List_System_String__" data-uid="ChiaWalletSdk.NftMetadata.SetDataUris(System.Collections.Generic.List{System.String})">
+  SetDataUris(List&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetDataUris(List&lt;string&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetEditionNumber_" data-uid="ChiaWalletSdk.NftMetadata.SetEditionNumber*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetEditionNumber_System_String_" data-uid="ChiaWalletSdk.NftMetadata.SetEditionNumber(System.String)">
+  SetEditionNumber(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetEditionNumber(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetEditionTotal_" data-uid="ChiaWalletSdk.NftMetadata.SetEditionTotal*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetEditionTotal_System_String_" data-uid="ChiaWalletSdk.NftMetadata.SetEditionTotal(System.String)">
+  SetEditionTotal(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetEditionTotal(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetLicenseHash_" data-uid="ChiaWalletSdk.NftMetadata.SetLicenseHash*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetLicenseHash_System_Byte___" data-uid="ChiaWalletSdk.NftMetadata.SetLicenseHash(System.Byte[])">
+  SetLicenseHash(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetLicenseHash(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetLicenseUris_" data-uid="ChiaWalletSdk.NftMetadata.SetLicenseUris*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetLicenseUris_System_Collections_Generic_List_System_String__" data-uid="ChiaWalletSdk.NftMetadata.SetLicenseUris(System.Collections.Generic.List{System.String})">
+  SetLicenseUris(List&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetLicenseUris(List&lt;string&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetMetadataHash_" data-uid="ChiaWalletSdk.NftMetadata.SetMetadataHash*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetMetadataHash_System_Byte___" data-uid="ChiaWalletSdk.NftMetadata.SetMetadataHash(System.Byte[])">
+  SetMetadataHash(byte[]?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetMetadataHash(byte[]? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_NftMetadata_SetMetadataUris_" data-uid="ChiaWalletSdk.NftMetadata.SetMetadataUris*"></a>
+
+  <h3 id="ChiaWalletSdk_NftMetadata_SetMetadataUris_System_Collections_Generic_List_System_String__" data-uid="ChiaWalletSdk.NftMetadata.SetMetadataUris(System.Collections.Generic.List{System.String})">
+  SetMetadataUris(List&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NftMetadata SetMetadataUris(List&lt;string&gt; value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">List</span>&lt;<span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.NftMetadata.html">NftMetadata</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

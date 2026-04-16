@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RpcClient | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RpcClient | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.RpcClient">
+
+
+
+  <h1 id="ChiaWalletSdk_RpcClient" data-uid="ChiaWalletSdk.RpcClient" class="text-break">
+Class RpcClient  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RpcClient : IRpcClient</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">RpcClient</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ChiaWalletSdk.IRpcClient.html">IRpcClient</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ChiaWalletSdk_RpcClient__ctor_" data-uid="ChiaWalletSdk.RpcClient.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient__ctor_System_IntPtr_" data-uid="ChiaWalletSdk.RpcClient.#ctor(System.IntPtr)">
+  RpcClient(nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RpcClient(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient__ctor_" data-uid="ChiaWalletSdk.RpcClient.#ctor*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient__ctor_System_String_" data-uid="ChiaWalletSdk.RpcClient.#ctor(System.String)">
+  RpcClient(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RpcClient(string coinsetUrl)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinsetUrl</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ChiaWalletSdk_RpcClient_pointer" data-uid="ChiaWalletSdk.RpcClient.pointer">
+  pointer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint pointer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_RpcClient_CloneRustArcPtr_" data-uid="ChiaWalletSdk.RpcClient.CloneRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_CloneRustArcPtr" data-uid="ChiaWalletSdk.RpcClient.CloneRustArcPtr">
+  CloneRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected nint CloneRustArcPtr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">nint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_Destroy_" data-uid="ChiaWalletSdk.RpcClient.Destroy*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_Destroy" data-uid="ChiaWalletSdk.RpcClient.Destroy">
+  Destroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_Dispose_" data-uid="ChiaWalletSdk.RpcClient.Dispose*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_Dispose" data-uid="ChiaWalletSdk.RpcClient.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_Finalize_" data-uid="ChiaWalletSdk.RpcClient.Finalize*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_Finalize" data-uid="ChiaWalletSdk.RpcClient.Finalize">
+  ~RpcClient()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~RpcClient()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_FreeRustArcPtr_" data-uid="ChiaWalletSdk.RpcClient.FreeRustArcPtr*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_FreeRustArcPtr" data-uid="ChiaWalletSdk.RpcClient.FreeRustArcPtr">
+  FreeRustArcPtr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FreeRustArcPtr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetAdditionsAndRemovals_" data-uid="ChiaWalletSdk.RpcClient.GetAdditionsAndRemovals*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetAdditionsAndRemovals_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetAdditionsAndRemovals(System.Byte[])">
+  GetAdditionsAndRemovals(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;AdditionsAndRemovalsResponse&gt; GetAdditionsAndRemovals(byte[] headerHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>headerHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.AdditionsAndRemovalsResponse.html">AdditionsAndRemovalsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlock_" data-uid="ChiaWalletSdk.RpcClient.GetBlock*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlock_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetBlock(System.Byte[])">
+  GetBlock(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetBlockResponse&gt; GetBlock(byte[] headerHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>headerHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetBlockResponse.html">GetBlockResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlockRecord_" data-uid="ChiaWalletSdk.RpcClient.GetBlockRecord*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlockRecord_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetBlockRecord(System.Byte[])">
+  GetBlockRecord(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetBlockRecordResponse&gt; GetBlockRecord(byte[] headerHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>headerHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetBlockRecordResponse.html">GetBlockRecordResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlockRecordByHeight_" data-uid="ChiaWalletSdk.RpcClient.GetBlockRecordByHeight*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlockRecordByHeight_System_UInt32_" data-uid="ChiaWalletSdk.RpcClient.GetBlockRecordByHeight(System.UInt32)">
+  GetBlockRecordByHeight(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetBlockRecordResponse&gt; GetBlockRecordByHeight(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetBlockRecordResponse.html">GetBlockRecordResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlockRecords_" data-uid="ChiaWalletSdk.RpcClient.GetBlockRecords*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlockRecords_System_UInt32_System_UInt32_" data-uid="ChiaWalletSdk.RpcClient.GetBlockRecords(System.UInt32,System.UInt32)">
+  GetBlockRecords(uint, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetBlockRecordsResponse&gt; GetBlockRecords(uint startHeight, uint endHeight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startHeight</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetBlockRecordsResponse.html">GetBlockRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlockSpends_" data-uid="ChiaWalletSdk.RpcClient.GetBlockSpends*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlockSpends_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetBlockSpends(System.Byte[])">
+  GetBlockSpends(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetBlockSpendsResponse&gt; GetBlockSpends(byte[] headerHash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>headerHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetBlockSpendsResponse.html">GetBlockSpendsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlockchainState_" data-uid="ChiaWalletSdk.RpcClient.GetBlockchainState*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlockchainState" data-uid="ChiaWalletSdk.RpcClient.GetBlockchainState">
+  GetBlockchainState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlockchainStateResponse&gt; GetBlockchainState()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.BlockchainStateResponse.html">BlockchainStateResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetBlocks_" data-uid="ChiaWalletSdk.RpcClient.GetBlocks*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetBlocks_System_UInt32_System_UInt32_System_Boolean_System_Boolean_" data-uid="ChiaWalletSdk.RpcClient.GetBlocks(System.UInt32,System.UInt32,System.Boolean,System.Boolean)">
+  GetBlocks(uint, uint, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetBlocksResponse&gt; GetBlocks(uint start, uint end, bool excludeHeaderHash, bool excludeReorged)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+    <dt><code>end</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+    <dt><code>excludeHeaderHash</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+    <dt><code>excludeReorged</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetBlocksResponse.html">GetBlocksResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordByName_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordByName*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordByName_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordByName(System.Byte[])">
+  GetCoinRecordByName(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordResponse&gt; GetCoinRecordByName(byte[] name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordResponse.html">GetCoinRecordResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordsByHint_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByHint*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordsByHint_System_Byte___System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByHint(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})">
+  GetCoinRecordsByHint(byte[], uint?, uint?, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordsResponse&gt; GetCoinRecordsByHint(byte[] hint, uint? startHeight, uint? endHeight, bool? includeSpentCoins)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hint</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>startHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>includeSpentCoins</code> <span class="xref">bool</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordsResponse.html">GetCoinRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordsByHints_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByHints*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordsByHints_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByHints(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})">
+  GetCoinRecordsByHints(List&lt;byte[]&gt;, uint?, uint?, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordsResponse&gt; GetCoinRecordsByHints(List&lt;byte[]&gt; hints, uint? startHeight, uint? endHeight, bool? includeSpentCoins)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hints</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>startHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>includeSpentCoins</code> <span class="xref">bool</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordsResponse.html">GetCoinRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordsByNames_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByNames*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordsByNames_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByNames(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})">
+  GetCoinRecordsByNames(List&lt;byte[]&gt;, uint?, uint?, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordsResponse&gt; GetCoinRecordsByNames(List&lt;byte[]&gt; names, uint? startHeight, uint? endHeight, bool? includeSpentCoins)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>names</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>startHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>includeSpentCoins</code> <span class="xref">bool</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordsResponse.html">GetCoinRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordsByParentIds_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByParentIds*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordsByParentIds_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByParentIds(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})">
+  GetCoinRecordsByParentIds(List&lt;byte[]&gt;, uint?, uint?, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordsResponse&gt; GetCoinRecordsByParentIds(List&lt;byte[]&gt; parentIds, uint? startHeight, uint? endHeight, bool? includeSpentCoins)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentIds</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>startHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>includeSpentCoins</code> <span class="xref">bool</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordsResponse.html">GetCoinRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordsByPuzzleHash_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByPuzzleHash*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordsByPuzzleHash_System_Byte___System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByPuzzleHash(System.Byte[],System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})">
+  GetCoinRecordsByPuzzleHash(byte[], uint?, uint?, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordsResponse&gt; GetCoinRecordsByPuzzleHash(byte[] puzzleHash, uint? startHeight, uint? endHeight, bool? includeSpentCoins)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>startHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>includeSpentCoins</code> <span class="xref">bool</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordsResponse.html">GetCoinRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetCoinRecordsByPuzzleHashes_" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByPuzzleHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetCoinRecordsByPuzzleHashes_System_Collections_Generic_List_System_Byte____System_Nullable_System_UInt32__System_Nullable_System_UInt32__System_Nullable_System_Boolean__" data-uid="ChiaWalletSdk.RpcClient.GetCoinRecordsByPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Nullable{System.UInt32},System.Nullable{System.UInt32},System.Nullable{System.Boolean})">
+  GetCoinRecordsByPuzzleHashes(List&lt;byte[]&gt;, uint?, uint?, bool?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetCoinRecordsResponse&gt; GetCoinRecordsByPuzzleHashes(List&lt;byte[]&gt; puzzleHashes, uint? startHeight, uint? endHeight, bool? includeSpentCoins)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHashes</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>startHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>endHeight</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+    <dt><code>includeSpentCoins</code> <span class="xref">bool</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetCoinRecordsResponse.html">GetCoinRecordsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetMempoolItemByTxId_" data-uid="ChiaWalletSdk.RpcClient.GetMempoolItemByTxId*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetMempoolItemByTxId_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetMempoolItemByTxId(System.Byte[])">
+  GetMempoolItemByTxId(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetMempoolItemResponse&gt; GetMempoolItemByTxId(byte[] txId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>txId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetMempoolItemResponse.html">GetMempoolItemResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetMempoolItemsByCoinName_" data-uid="ChiaWalletSdk.RpcClient.GetMempoolItemsByCoinName*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetMempoolItemsByCoinName_System_Byte___" data-uid="ChiaWalletSdk.RpcClient.GetMempoolItemsByCoinName(System.Byte[])">
+  GetMempoolItemsByCoinName(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetMempoolItemsResponse&gt; GetMempoolItemsByCoinName(byte[] coinName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinName</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetMempoolItemsResponse.html">GetMempoolItemsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetNetworkInfo_" data-uid="ChiaWalletSdk.RpcClient.GetNetworkInfo*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetNetworkInfo" data-uid="ChiaWalletSdk.RpcClient.GetNetworkInfo">
+  GetNetworkInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetNetworkInfoResponse&gt; GetNetworkInfo()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetNetworkInfoResponse.html">GetNetworkInfoResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_GetPuzzleAndSolution_" data-uid="ChiaWalletSdk.RpcClient.GetPuzzleAndSolution*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_GetPuzzleAndSolution_System_Byte___System_Nullable_System_UInt32__" data-uid="ChiaWalletSdk.RpcClient.GetPuzzleAndSolution(System.Byte[],System.Nullable{System.UInt32})">
+  GetPuzzleAndSolution(byte[], uint?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetPuzzleAndSolutionResponse&gt; GetPuzzleAndSolution(byte[] coinId, uint? height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>height</code> <span class="xref">uint</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.GetPuzzleAndSolutionResponse.html">GetPuzzleAndSolutionResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_Local_" data-uid="ChiaWalletSdk.RpcClient.Local*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_Local_System_Byte___System_Byte___" data-uid="ChiaWalletSdk.RpcClient.Local(System.Byte[],System.Byte[])">
+  Local(byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RpcClient Local(byte[] certBytes, byte[] keyBytes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>certBytes</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>keyBytes</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RpcClient.html">RpcClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_LocalWithUrl_" data-uid="ChiaWalletSdk.RpcClient.LocalWithUrl*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_LocalWithUrl_System_String_System_Byte___System_Byte___" data-uid="ChiaWalletSdk.RpcClient.LocalWithUrl(System.String,System.Byte[],System.Byte[])">
+  LocalWithUrl(string, byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RpcClient LocalWithUrl(string baseUrl, byte[] certBytes, byte[] keyBytes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>baseUrl</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>certBytes</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>keyBytes</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RpcClient.html">RpcClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_Mainnet_" data-uid="ChiaWalletSdk.RpcClient.Mainnet*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_Mainnet" data-uid="ChiaWalletSdk.RpcClient.Mainnet">
+  Mainnet()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RpcClient Mainnet()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RpcClient.html">RpcClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_PushTx_" data-uid="ChiaWalletSdk.RpcClient.PushTx*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_PushTx_ChiaWalletSdk_SpendBundle_" data-uid="ChiaWalletSdk.RpcClient.PushTx(ChiaWalletSdk.SpendBundle)">
+  PushTx(SpendBundle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PushTxResponse&gt; PushTx(SpendBundle spendBundle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>spendBundle</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="ChiaWalletSdk.PushTxResponse.html">PushTxResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_RpcClient_Testnet11_" data-uid="ChiaWalletSdk.RpcClient.Testnet11*"></a>
+
+  <h3 id="ChiaWalletSdk_RpcClient_Testnet11" data-uid="ChiaWalletSdk.RpcClient.Testnet11">
+  Testnet11()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RpcClient Testnet11()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.RpcClient.html">RpcClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

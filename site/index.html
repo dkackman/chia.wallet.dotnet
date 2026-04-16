@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Chia Wallet SDK for .NET | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Chia Wallet SDK for .NET | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/dkackman/chia.wallet.dotnet/blob/main/docs/docfx/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="chia-wallet-sdk-for-net">Chia Wallet SDK for .NET</h1>
+
+<p>.NET bindings for the <a href="https://github.com/dkackman/chia-wallet-sdk">chia-wallet-sdk</a>, providing a C# interface to the Chia blockchain.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>The SDK is distributed as the <code>ChiaWalletSdk</code> NuGet package. All types live in the <code>ChiaWalletSdk</code> namespace and implement <code>IDisposable</code> for deterministic native resource cleanup.</p>
+<pre><code class="lang-csharp">using ChiaWalletSdk;
+
+var genesisChallenge =&quot;ccd5bb71183532bff220ba46c268991a3ff07eb358e8255a65c30a2dce0e5fbb&quot;;
+
+const int addressCount = 500;
+using var masterPk = PublicKey.FromBytes(Convert.FromHexString(&quot;publicKeyHex&quot;));
+using var pk1 = masterPk.DeriveUnhardened(12381);
+using var pk2 = pk1.DeriveUnhardened(8444);
+PublicKey walletPk = pk2.DeriveUnhardened(2);
+
+var puzzleHashes = new List&lt;byte[]&gt;();
+var disposableKeys = new List&lt;PublicKey&gt;();
+for (int i = 0; i &lt; addressCount; i++)
+{
+    var childPk = walletPk.DeriveUnhardened((uint)i);
+    var syntheticPk = childPk.DeriveSynthetic();
+    childPk.Dispose();
+    puzzleHashes.Add(ChiaWalletSdkMethods.StandardPuzzleHash(syntheticPk));
+    disposableKeys.Add(syntheticPk);
+}
+
+using var firstAddr = new Address(puzzleHashes[0], &quot;xch&quot;);
+using var cert = Certificate.Generate();
+using var connector = new Connector(cert);
+using var options = new PeerOptions();
+using var peer = await Peer.Connect(&quot;mainnet&quot;, &quot;37.110.156.131:8444&quot;, connector, options);
+
+var filters = new CoinStateFilters(
+    includeSpent: false,
+    includeUnspent: true,
+    includeHinted: true,
+    minAmount: &quot;0&quot;);
+
+var response = await peer.RequestPuzzleState(
+    puzzleHashes,
+    previousHeight: null,
+    headerHash: Convert.FromHexString(genesisChallenge),
+    filters,
+    subscribe: false);
+
+var coinStates = response.GetCoinStates();
+long totalMojos = 0;
+foreach (var coinState in coinStates)
+{
+    using var coin = coinState.GetCoin();
+    totalMojos += long.Parse(coin.GetAmount());
+}
+
+Console.WriteLine($&quot;Coin Count  : {coinStates.Count}&quot;);
+Console.WriteLine($&quot;Balance     : {totalMojos} mojos&quot;);
+Console.WriteLine($&quot;Balance     : {totalMojos / 1_000_000_000_000.0:F12} XCH&quot;);
+
+using var rpc = RpcClient.Mainnet();
+using var stateResponse = await rpc.GetBlockchainState();
+using var state = stateResponse.GetBlockchainState();
+using var sync = state.GetSync();
+using var peak = state.GetPeak();
+Console.WriteLine($&quot;Synced      : {sync.GetSynced()} (mode={sync.GetSyncMode()})&quot;);
+Console.WriteLine($&quot;Peak height : {peak.GetHeight()}&quot;);
+Console.WriteLine($&quot;Peak hash   : {Convert.ToHexString(peak.GetHeaderHash()).ToLowerInvariant()}&quot;);
+Console.WriteLine($&quot;Difficulty  : {state.GetDifficulty()}&quot;);
+Console.WriteLine($&quot;Net space   : {state.GetSpace()}&quot;);
+Console.WriteLine($&quot;Mempool size: {state.GetMempoolSize()}&quot;);
+
+foreach (var key in disposableKeys) key.Dispose();
+</code></pre>
+<h2 id="api-reference">API Reference</h2>
+<p>Browse the full <a href="api/index.html">API documentation</a>.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/dkackman/chia.wallet.dotnet/blob/main/docs/docfx/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

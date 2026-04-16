@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ISimulator | Chia Wallet SDK for .NET </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ISimulator | Chia Wallet SDK for .NET ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ChiaWalletSdk.ISimulator">
+
+
+
+  <h1 id="ChiaWalletSdk_ISimulator" data-uid="ChiaWalletSdk.ISimulator" class="text-break">
+Interface ISimulator  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ChiaWalletSdk.html">ChiaWalletSdk</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ChiaWalletSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISimulator</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ChiaWalletSdk_ISimulator_Bls_" data-uid="ChiaWalletSdk.ISimulator.Bls*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_Bls_System_String_" data-uid="ChiaWalletSdk.ISimulator.Bls(System.String)">
+  Bls(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">BlsPairWithCoin Bls(string amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.BlsPairWithCoin.html">BlsPairWithCoin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_Children_" data-uid="ChiaWalletSdk.ISimulator.Children*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_Children_System_Byte___" data-uid="ChiaWalletSdk.ISimulator.Children(System.Byte[])">
+  Children(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;CoinState&gt; Children(byte[] coinId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CoinState.html">CoinState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_CoinSpend_" data-uid="ChiaWalletSdk.ISimulator.CoinSpend*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_CoinSpend_System_Byte___" data-uid="ChiaWalletSdk.ISimulator.CoinSpend(System.Byte[])">
+  CoinSpend(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CoinSpend? CoinSpend(byte[] coinId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_CoinState_" data-uid="ChiaWalletSdk.ISimulator.CoinState*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_CoinState_System_Byte___" data-uid="ChiaWalletSdk.ISimulator.CoinState(System.Byte[])">
+  CoinState(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CoinState? CoinState(byte[] coinId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.CoinState.html">CoinState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_CreateBlock_" data-uid="ChiaWalletSdk.ISimulator.CreateBlock*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_CreateBlock" data-uid="ChiaWalletSdk.ISimulator.CreateBlock">
+  CreateBlock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CreateBlock()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_HeaderHash_" data-uid="ChiaWalletSdk.ISimulator.HeaderHash*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_HeaderHash" data-uid="ChiaWalletSdk.ISimulator.HeaderHash">
+  HeaderHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">byte[] HeaderHash()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_HeaderHashOf_" data-uid="ChiaWalletSdk.ISimulator.HeaderHashOf*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_HeaderHashOf_System_UInt32_" data-uid="ChiaWalletSdk.ISimulator.HeaderHashOf(System.UInt32)">
+  HeaderHashOf(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">byte[]? HeaderHashOf(uint height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_Height_" data-uid="ChiaWalletSdk.ISimulator.Height*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_Height" data-uid="ChiaWalletSdk.ISimulator.Height">
+  Height()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">uint Height()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">uint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_HintCoin_" data-uid="ChiaWalletSdk.ISimulator.HintCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_HintCoin_System_Byte___System_Byte___" data-uid="ChiaWalletSdk.ISimulator.HintCoin(System.Byte[],System.Byte[])">
+  HintCoin(byte[], byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HintCoin(byte[] coinId, byte[] hint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>hint</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_HintedCoins_" data-uid="ChiaWalletSdk.ISimulator.HintedCoins*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_HintedCoins_System_Byte___" data-uid="ChiaWalletSdk.ISimulator.HintedCoins(System.Byte[])">
+  HintedCoins(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;byte[]&gt; HintedCoins(byte[] hint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hint</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_InsertCoin_" data-uid="ChiaWalletSdk.ISimulator.InsertCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_InsertCoin_ChiaWalletSdk_Coin_" data-uid="ChiaWalletSdk.ISimulator.InsertCoin(ChiaWalletSdk.Coin)">
+  InsertCoin(Coin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InsertCoin(Coin coin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coin</code> <a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_LookupCoinIds_" data-uid="ChiaWalletSdk.ISimulator.LookupCoinIds*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_LookupCoinIds_System_Collections_Generic_List_System_Byte____" data-uid="ChiaWalletSdk.ISimulator.LookupCoinIds(System.Collections.Generic.List{System.Byte[]})">
+  LookupCoinIds(List&lt;byte[]&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;CoinState&gt; LookupCoinIds(List&lt;byte[]&gt; coinIds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinIds</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CoinState.html">CoinState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_LookupPuzzleHashes_" data-uid="ChiaWalletSdk.ISimulator.LookupPuzzleHashes*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_LookupPuzzleHashes_System_Collections_Generic_List_System_Byte____System_Boolean_" data-uid="ChiaWalletSdk.ISimulator.LookupPuzzleHashes(System.Collections.Generic.List{System.Byte[]},System.Boolean)">
+  LookupPuzzleHashes(List&lt;byte[]&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;CoinState&gt; LookupPuzzleHashes(List&lt;byte[]&gt; puzzleHashes, bool includeHints)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHashes</code> <span class="xref">List</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>includeHints</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CoinState.html">CoinState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_NewCoin_" data-uid="ChiaWalletSdk.ISimulator.NewCoin*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_NewCoin_System_Byte___System_String_" data-uid="ChiaWalletSdk.ISimulator.NewCoin(System.Byte[],System.String)">
+  NewCoin(byte[], string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Coin NewCoin(byte[] puzzleHash, string amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>amount</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_NewTransaction_" data-uid="ChiaWalletSdk.ISimulator.NewTransaction*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_NewTransaction_ChiaWalletSdk_SpendBundle_" data-uid="ChiaWalletSdk.ISimulator.NewTransaction(ChiaWalletSdk.SpendBundle)">
+  NewTransaction(SpendBundle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void NewTransaction(SpendBundle spendBundle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>spendBundle</code> <a class="xref" href="ChiaWalletSdk.SpendBundle.html">SpendBundle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_NextTimestamp_" data-uid="ChiaWalletSdk.ISimulator.NextTimestamp*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_NextTimestamp" data-uid="ChiaWalletSdk.ISimulator.NextTimestamp">
+  NextTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string NextTimestamp()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_PassTime_" data-uid="ChiaWalletSdk.ISimulator.PassTime*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_PassTime_System_String_" data-uid="ChiaWalletSdk.ISimulator.PassTime(System.String)">
+  PassTime(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PassTime(string time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_SetNextTimestamp_" data-uid="ChiaWalletSdk.ISimulator.SetNextTimestamp*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_SetNextTimestamp_System_String_" data-uid="ChiaWalletSdk.ISimulator.SetNextTimestamp(System.String)">
+  SetNextTimestamp(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetNextTimestamp(string time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_SpendCoins_" data-uid="ChiaWalletSdk.ISimulator.SpendCoins*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_SpendCoins_System_Collections_Generic_List_ChiaWalletSdk_CoinSpend__System_Collections_Generic_List_ChiaWalletSdk_SecretKey__" data-uid="ChiaWalletSdk.ISimulator.SpendCoins(System.Collections.Generic.List{ChiaWalletSdk.CoinSpend},System.Collections.Generic.List{ChiaWalletSdk.SecretKey})">
+  SpendCoins(List&lt;CoinSpend&gt;, List&lt;SecretKey&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SpendCoins(List&lt;CoinSpend&gt; coinSpends, List&lt;SecretKey&gt; secretKeys)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coinSpends</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.CoinSpend.html">CoinSpend</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>secretKeys</code> <span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.SecretKey.html">SecretKey</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ChiaWalletSdk_ISimulator_UnspentCoins_" data-uid="ChiaWalletSdk.ISimulator.UnspentCoins*"></a>
+
+  <h3 id="ChiaWalletSdk_ISimulator_UnspentCoins_System_Byte___System_Boolean_" data-uid="ChiaWalletSdk.ISimulator.UnspentCoins(System.Byte[],System.Boolean)">
+  UnspentCoins(byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Coin&gt; UnspentCoins(byte[] puzzleHash, bool includeHints)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>puzzleHash</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+    <dt><code>includeHints</code> <span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="ChiaWalletSdk.Coin.html">Coin</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Chia Wallet SDK for .NET — generated with DocFX
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
