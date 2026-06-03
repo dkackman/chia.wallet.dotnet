@@ -32,7 +32,10 @@ public class BalanceTests
 
         using var cert = Certificate.Generate();
         using var connector = new Connector(cert);
-        using var options = new PeerOptions();
+        using var options = new PeerOptions()
+            .SetConnectTimeoutMs(10_000)   // TLS connect + chia handshake budget; null = unbounded
+            .SetRequestTimeoutMs(15_000);  // per request/response round-trip; null = unbounded
+
         using var peer = await Peer.Connect(
             TestConfig.NetworkId,
             TestConfig.PeerHost!,
@@ -60,6 +63,6 @@ public class BalanceTests
         Assert.NotNull(coinStates);
         // The all-abandon wallet may have zero coins — that is fine.
         // We assert the response shape is valid, not a specific balance.
-        Assert.True(coinStates.Count() >= 0);
+        Assert.True(coinStates.Length >= 0);
     }
 }
